@@ -33,10 +33,7 @@ operations = {
 				}
 				add_ideas = POR_aid1
 				hidden_effect = {
-					set_technology = { 
-					    jet_fighter_1946 = 1
-						medium_tank_1945 = 1
-			   	    }
+					remove_ideas = POR_stuff
 				}
 			}
 			else = {

@@ -1719,7 +1719,10 @@ focus_tree = {
 	focus = {
 		id = POR_army_reorganization
 		available = {
-            has_army_experience > 200		
+		    OR = {
+                has_army_experience > 200
+				is_ai = yes
+            }				
 		}
 
 		bypass = {		

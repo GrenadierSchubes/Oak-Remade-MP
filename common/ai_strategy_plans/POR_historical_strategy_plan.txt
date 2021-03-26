@@ -35,8 +35,8 @@ POR_historical_plan = {
 		#1936
 		POR_estado_novo
 		POR_continue_the_public_works
+		POR_army_reorganization
 		POR_instituto_superior_tecnico
-		POR_second_navy_reequipment
 		POR_support_the_spanish_nationalists
 		#1937
 		POR_colonial_assimilation_policy
@@ -48,6 +48,7 @@ POR_historical_plan = {
 		POR_army_reorganization
 		POR_strengthen_the_regime
 		POR_corpo_do_estado_maior
+		POR_second_navy_reequipment
 		POR_ogme
 		#1939
 		POR_appease_monarchists

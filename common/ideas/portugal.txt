@@ -1,4 +1,23 @@
 ideas = {
+	hidden_ideas = {
+		POR_stuff = {
+
+			allowed = {
+				original_tag = POR
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+			    army_core_attack_factor = 4.5
+	            army_core_defence_factor = 4.5
+			}
+		}
+	}
 	country = {
 		POR_fuel = {
 			
@@ -277,8 +296,8 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-	            army_core_attack_factor = 0.05
-	            army_core_defence_factor = 0.05
+	            army_core_attack_factor = 0.1
+	            army_core_defence_factor = 0.1
 				minimum_training_level = -0.2
 			}
 		}
