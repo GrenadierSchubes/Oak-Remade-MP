@@ -2352,4 +2352,160 @@ focus_tree = {
 			}
 		}
 	}
+	focus = {
+		id = SAF_lost1
+		icon = GFX_USA_fight_fascist_with_fire
+		x = 22
+		y = 0
+		cost = 5
+		ai_will_do = {
+			factor = 100 
+		}
+		available_if_capitulated = yes		
+		
+		available = { 
+			SAF = {
+				has_capitulated = yes 
+			}
+			is_ai = no
+		}
+
+		bypass = {
+		}
+		
+		completion_reward = {
+			SAF = {
+				become_exiled_in = { target = USA legitimacy = 1.0 }	
+			}
+			add_ideas = PHI_fighting_on
+		}
+
+	}
+	focus = {
+		id = SAF_lost2
+		icon = GFX_USA_executive_office_of_the_president
+		prerequisite = { focus = SAF_lost1 }
+		relative_position_id = SAF_lost1
+		x = 0
+		y =1
+		cost = 5
+		ai_will_do = {
+			factor = 100 
+		}
+		available_if_capitulated = yes		
+		
+		available = { 
+			SAF = {
+				has_capitulated = yes 
+			}
+            is_ai = no
+		}
+
+		bypass = {
+		}
+		
+		completion_reward = {
+		    add_offsite_building = {
+		    	type = arms_factory
+		    	level = 20
+		    }
+		    add_offsite_building = {
+		    	type = industrial_complex
+		    	level = 10
+		    }
+		    add_offsite_building = {
+		    	type = dockyard
+		    	level = 5
+		    }
+		}
+	}
+	focus = {
+		id = SAF_lost3
+		icon = GFX_USA_reorganize_the_army_departments
+		prerequisite = { focus = SAF_lost2 }
+		relative_position_id = SAF_lost2
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 100 
+		}
+		available_if_capitulated = yes		
+		
+		available = { 
+			SAF = {
+				has_capitulated = yes 
+			}
+            is_ai = no
+		}
+
+		bypass = {
+		}
+		
+		completion_reward = {
+			add_manpower = 50000
+			add_ideas = PHI_refugee_volunteers
+		}
+	}
+	focus = {
+		id = SAF_lost4
+		icon = GFX_focus_por_the_fifth_empire
+		prerequisite = { focus = SAF_lost3 }
+		relative_position_id = SAF_lost3
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 100 
+		}
+		available_if_capitulated = yes		
+		
+		available = { 
+			SAF = {
+				has_capitulated = yes 
+			}
+            is_ai = no
+		}
+
+		bypass = {
+		}
+		
+		completion_reward = {
+			add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 5000 producer = POR }
+			add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 750 producer = POR }
+			add_equipment_to_stockpile = { type = support_equipment_1 amount = 500 producer = POR }
+			add_equipment_to_stockpile = { type = radio_equipment amount = 500 producer = POR }
+			add_equipment_to_stockpile = { type = horse_equipment_0 amount = 500 producer = POR }
+			add_equipment_to_stockpile = { type = anti_air_equipment_1 amount = 250 producer = POR }
+			add_equipment_to_stockpile = { type = anti_tank_equipment_1 amount = 250 producer = POR }
+			add_equipment_to_stockpile = { type = motorized_equipment_1 amount = 100 producer = POR }
+		}
+	}
+	focus = {
+		id = SAF_lost5
+		icon = GFX_SOV_mechanized_wave
+		prerequisite = { focus = SAF_lost4 }
+		relative_position_id = SAF_lost4
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 100 
+		}
+		available_if_capitulated = yes		
+		
+		available = { 
+			SAF = {
+				has_capitulated = yes 
+			}
+            is_ai = no
+		}
+
+		bypass = {
+		}
+		
+		completion_reward = {
+			add_ideas = PHI_irredentism
+		}
+	}
 }		

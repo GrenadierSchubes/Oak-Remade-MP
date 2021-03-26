@@ -1466,7 +1466,7 @@ technologies = {
 		}
 		category_all_armor = {
 			#more fuel
-			maximum_speed = 0.07
+			maximum_speed = 0.04
 		}
 		light_armor = {
 			fuel_consumption_factor = 0.05
@@ -1534,20 +1534,19 @@ technologies = {
 		custom_effect_tooltip = suspension_tt
 		
 		}
-		
 		light_armor = {
 			
 			forest = {
-		    movement = 0.04
+		    movement = 0.02
 			attack = 0.04
 		    }
 		    mountain = 	{
 		      attack = 0.04
-			  movement = 0.04
+			  movement = 0.02
 		    }
 		    urban = {
 			attack = 0.04
-			movement = 0.04
+			movement = 0.02
 		    }
 		
        
@@ -1555,16 +1554,16 @@ technologies = {
 		medium_armor = {
 			
 			forest = {
-		    movement = 0.04
+		    movement = 0.02
 			attack = 0.04
 		    }
 		    mountain = 	{
 		      attack = 0.04
-			  movement = 0.04
+			  movement = 0.02
 		    }
 		    urban = {
 			attack = 0.04
-			movement = 0.04
+			movement = 0.02
 		    }
 		
        
@@ -1572,16 +1571,16 @@ technologies = {
 		heavy_armor = {
 			
 			forest = {
-		    movement = 0.04
+		    movement = 0.02
 			attack = 0.04
 		    }
 		    mountain = 	{
 		      attack = 0.04
-			  movement = 0.04
+			  movement = 0.02
 		    }
 		    urban = {
 			attack = 0.04
-			movement = 0.04
+			movement = 0.02
 		    }
 		
        
@@ -1589,16 +1588,16 @@ technologies = {
 		light_sp_artillery_brigade = {
 			
 			forest = {
-		    movement = 0.04
+		    movement = 0.02 
 			attack = 0.04
 		    }
 		    mountain = 	{
 		      attack = 0.04
-			  movement = 0.04
+			  movement = 0.02 
 		    }
 		    urban = {
 			attack = 0.04
-			movement = 0.04
+			movement = 0.02 
 		    }
 		
        
@@ -1606,16 +1605,16 @@ technologies = {
 		medium_sp_artillery_brigade = {
 			
 			forest = {
-		    movement = 0.04
+		    movement = 0.02 
 			attack = 0.04
 		    }
 		    mountain = 	{
 		      attack = 0.04
-			  movement = 0.04
+			  movement = 0.02 
 		    }
 		    urban = {
 			attack = 0.04
-			movement = 0.04
+			movement = 0.02 
 		    }
 		
        
@@ -1623,16 +1622,16 @@ technologies = {
 		heavy_sp_artillery_brigade = {
 			
 			forest = {
-		    movement = 0.04
+		    movement = 0.02 
 			attack = 0.04
 		    }
 		    mountain = 	{
 		      attack = 0.04
-			  movement = 0.04
+			  movement = 0.02 
 		    }
 		    urban = {
 			attack = 0.04
-			movement = 0.04
+			movement = 0.02 
 		    }
 		
        
@@ -1641,16 +1640,16 @@ technologies = {
 		light_tank_destroyer_brigade = {
 			
 			forest = {
-		    movement = 0.04
+		    movement = 0.02 
 			attack = 0.04
 		    }
 		    mountain = 	{
 		      attack = 0.04
-			  movement = 0.04
+			  movement = 0.02 
 		    }
 		    urban = {
 			attack = 0.04
-			movement = 0.04
+			movement = 0.02 
 		    }
 		
        
@@ -1658,16 +1657,16 @@ technologies = {
 		medium_tank_destroyer_brigade = {
 			
 			forest = {
-		    movement = 0.04
+		    movement = 0.02 
 			attack = 0.04
 		    }
 		    mountain = 	{
 		      attack = 0.04
-			  movement = 0.04
+			  movement = 0.02 
 		    }
 		    urban = {
 			attack = 0.04
-			movement = 0.04
+			movement = 0.02 
 		    }
 		
        
@@ -1675,16 +1674,16 @@ technologies = {
 		heavy_tank_destroyer_brigade = {
 			
 			forest = {
-		    movement = 0.04
+		    movement = 0.02 
 			attack = 0.04
 		    }
 		    mountain = 	{
 		      attack = 0.04
-			  movement = 0.04
+			  movement = 0.02 
 		    }
 		    urban = {
 			attack = 0.04
-			movement = 0.04
+			movement = 0.02 
 		    }
 		
        
@@ -1692,16 +1691,16 @@ technologies = {
 		light_sp_anti_air_brigade = {
 			
 			forest = {
-		    movement = 0.04
+		    movement = 0.02 
 			attack = 0.04
 		    }
 		    mountain = 	{
 		      attack = 0.04
-			  movement = 0.04
+			  movement = 0.02 
 		    }
 		    urban = {
 			attack = 0.04
-			movement = 0.04
+			movement = 0.02 
 		    }
 		
        
@@ -1709,16 +1708,16 @@ technologies = {
 		medium_sp_anti_air_brigade = {
 			
 			forest = {
-		    movement = 0.04
+		    movement = 0.02 
 			attack = 0.04
 		    }
 		    mountain = 	{
 		      attack = 0.04
-			  movement = 0.04
+			  movement = 0.02 
 		    }
 		    urban = {
 			attack = 0.04
-			movement = 0.04
+			movement = 0.02 
 		    }
 		
        
@@ -1726,16 +1725,16 @@ technologies = {
 		light_sp_anti_air_brigade = {
 			
 			forest = {
-		    movement = 0.04
+		    movement = 0.02 
 			attack = 0.04
 		    }
 		    mountain = 	{
 		      attack = 0.04
-			  movement = 0.04
+			  movement = 0.02 
 		    }
 		    urban = {
 			attack = 0.04
-			movement = 0.04
+			movement = 0.02 
 		    }
 		
        
@@ -1743,425 +1742,17 @@ technologies = {
 		medium_sp_anti_air_brigade = {
 			
 			forest = {
-		    movement = 0.04
+		    movement = 0.02 
 			attack = 0.04
 		    }
 		    mountain = 	{
 		      attack = 0.04
-			  movement = 0.04
+			 movement = 0.02 
 		    }
 		    urban = {
 			attack = 0.04
-			movement = 0.04
+			movement = 0.02 
 		    }
-		
-       
-		}
-		
-		path = {
-			leads_to_tech = eng_large_tracks
-			research_cost_coeff = 1
-		}
-
-		research_cost = 1.2
-		start_year = 1938
-		dependencies = {
-			improved_machine_tools = 1
-		}
-		folder = {
-			name = eng_armour_folder
-			position = { x = 7 y = @1938 }
-		}
-		
-		categories = { all_armour
-			tank_upgrade
-		}
-		
-		ai_will_do = {
-			factor = 10
-			
-		}
-	}
-	eng_large_tracks = {
-        on_research_complete = {
-		custom_effect_tooltip = large_tracks_tt
-		
-		}
-		light_armor = {
-			
-			jungle = {
-		       attack = 0.04
-			   movement = 0.04
-		 }
-		marsh = {
-		      attack = 0.04
-			  movement = 0.04
-		}
-		
-		river = { 
-			attack = 0.04 
-			movement = 0.04
-		}
-		
-		plains = {
-			attack = 0.04 
-			
-			movement = 0.04 
-		}
-        desert = {
-			attack = 0.04
-			
-			movement = 0.04 
-		}
-		
-       
-		}
-		
-		medium_armor = {
-			
-			jungle = {
-		       attack = 0.04
-			   movement = 0.04
-		 }
-		marsh = {
-		      attack = 0.04
-			  movement = 0.04
-		}
-		
-		river = { 
-			attack = 0.04 
-			movement = 0.04
-		}
-		
-		plains = {
-			attack = 0.04 
-			
-			movement = 0.04 
-		}
-        desert = {
-			attack = 0.04
-			
-			movement = 0.04 
-		}
-		
-       
-		}
-		heavy_armor = {
-			
-			jungle = {
-		       attack = 0.04
-			   movement = 0.04
-		 }
-		marsh = {
-		      attack = 0.04
-			  movement = 0.04
-		}
-		
-		river = { 
-			attack = 0.04 
-			movement = 0.04
-		}
-		
-		plains = {
-			attack = 0.04 
-			
-			movement = 0.04 
-		}
-        desert = {
-			attack = 0.04
-			
-			movement = 0.04 
-		}
-		
-       
-		}
-		light_sp_artillery_brigade = {
-			
-			jungle = {
-		       attack = 0.04
-			   movement = 0.04
-		 }
-		marsh = {
-		      attack = 0.04
-			  movement = 0.04
-		}
-		
-		river = { 
-			attack = 0.04 
-			movement = 0.04
-		}
-		
-		plains = {
-			attack = 0.04 
-			
-			movement = 0.04 
-		}
-        desert = {
-			attack = 0.04
-			
-			movement = 0.04 
-		}
-		
-       
-		}
-		medium_sp_artillery_brigade = {
-			
-			jungle = {
-		       attack = 0.04
-			   movement = 0.04
-		 }
-		marsh = {
-		      attack = 0.04
-			  movement = 0.04
-		}
-		
-		river = { 
-			attack = 0.04 
-			movement = 0.04
-		}
-		
-		plains = {
-			attack = 0.04 
-			
-			movement = 0.04 
-		}
-        desert = {
-			attack = 0.04
-			
-			movement = 0.04 
-		}
-		
-       
-		}
-		heavy_sp_artillery_brigade = {
-			
-			jungle = {
-		       attack = 0.04
-			   movement = 0.04
-		 }
-		marsh = {
-		      attack = 0.04
-			  movement = 0.04
-		}
-		
-		river = { 
-			attack = 0.04 
-			movement = 0.04
-		}
-		
-		plains = {
-			attack = 0.04 
-			
-			movement = 0.04 
-		}
-        desert = {
-			attack = 0.04
-			
-			movement = 0.04 
-		}
-		
-       
-		}
-		
-		light_tank_destroyer_brigade = {
-			
-			jungle = {
-		       attack = 0.04
-			   movement = 0.04
-		 }
-		marsh = {
-		      attack = 0.04
-			  movement = 0.04
-		}
-		
-		river = { 
-			attack = 0.04 
-			movement = 0.04
-		}
-		
-		plains = {
-			attack = 0.04 
-			
-			movement = 0.04 
-		}
-        desert = {
-			attack = 0.04
-			
-			movement = 0.04 
-		}
-		
-       
-		}
-		medium_tank_destroyer_brigade = {
-			
-			jungle = {
-		       attack = 0.04
-			   movement = 0.04
-		 }
-		marsh = {
-		      attack = 0.04
-			  movement = 0.04
-		}
-		
-		river = { 
-			attack = 0.04 
-			movement = 0.04
-		}
-		
-		plains = {
-			attack = 0.04 
-			
-			movement = 0.04 
-		}
-        desert = {
-			attack = 0.04
-			
-			movement = 0.04 
-		}
-		
-       
-		}
-		heavy_tank_destroyer_brigade = {
-			
-			jungle = {
-		       attack = 0.04
-			   movement = 0.04
-		 }
-		marsh = {
-		      attack = 0.04
-			  movement = 0.04
-		}
-		
-		river = { 
-			attack = 0.04 
-			movement = 0.04
-		}
-		
-		plains = {
-			attack = 0.04 
-			
-			movement = 0.04 
-		}
-        desert = {
-			attack = 0.04
-			
-			movement = 0.04 
-		}
-		
-       
-		}
-		light_sp_anti_air_brigade = {
-			
-			jungle = {
-		       attack = 0.04
-			   movement = 0.04
-		 }
-		marsh = {
-		      attack = 0.04
-			  movement = 0.04
-		}
-		
-		river = { 
-			attack = 0.04 
-			movement = 0.04
-		}
-		
-		plains = {
-			attack = 0.04 
-			
-			movement = 0.04 
-		}
-        desert = {
-			attack = 0.04
-			
-			movement = 0.04 
-		}
-		
-       
-		}
-		medium_sp_anti_air_brigade = {
-			
-			jungle = {
-		       attack = 0.04
-			   movement = 0.04
-		 }
-		marsh = {
-		      attack = 0.04
-			  movement = 0.04
-		}
-		
-		river = { 
-			attack = 0.04 
-			movement = 0.04
-		}
-		
-		plains = {
-			attack = 0.04 
-			
-			movement = 0.04 
-		}
-        desert = {
-			attack = 0.04
-			
-			movement = 0.04 
-		}
-       
-		}
-		light_sp_anti_air_brigade = {
-			
-			jungle = {
-		       attack = 0.04
-			   movement = 0.04
-		 }
-		marsh = {
-		      attack = 0.04
-			  movement = 0.04
-		}
-		
-		river = { 
-			attack = 0.04 
-			movement = 0.04
-		}
-		
-		plains = {
-			attack = 0.04 
-			
-			movement = 0.04 
-		}
-        desert = {
-			attack = 0.04
-			
-			movement = 0.04 
-		}
-		
-       
-		}
-		medium_sp_anti_air_brigade = {
-			
-			jungle = {
-		       attack = 0.04
-			   movement = 0.04
-		 }
-		marsh = {
-		      attack = 0.04
-			  movement = 0.04
-		}
-		
-		river = { 
-			attack = 0.04 
-			movement = 0.04
-		}
-		
-		plains = {
-			attack = 0.04 
-			
-			movement = 0.04 
-		}
-        desert = {
-			attack = 0.04
-			
-			movement = 0.04 
-		}
 		
        
 		}
@@ -2194,7 +1785,7 @@ technologies = {
         		
 		category_all_armor = {
 			reliability = 0.04
-			maximum_speed = 0.04
+			maximum_speed = 0.02
 		}
 		dependencies = {
 			modern_tools = 1
@@ -2277,6 +1868,7 @@ technologies = {
 			defense = 0.05
 			breakthrough = 0.05
 			hardness = 0.06
+			maximum_speed = -0.02
 		}
 		on_research_complete = {
 		custom_effect_tooltip = welded_tt
@@ -2308,7 +1900,7 @@ technologies = {
 	eng_armour_skirts = {
         
 		category_all_armor = {
-			maximum_speed = -0.03
+			maximum_speed = -0.02
 			hardness = 0.06
 		}
 		dependencies = {

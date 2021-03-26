@@ -913,7 +913,7 @@ ideas = {
 
 			modifier = {
 				dig_in_speed_factor = 0.5
-				army_speed_factor = 0.1 
+				army_speed_factor = 0.05
 				cas_damage_reduction = 0.5				
 			}
 		}		

@@ -596,7 +596,7 @@ leader_traits = {
 		random = no
 		sprite = 13
 
-		communism_drift = 0.1
+		communism_drift = 0.05
 		stability_factor = 0.1
 		stability_weekly = 0.001
 		
@@ -917,7 +917,7 @@ leader_traits = {
 	}
 
 	incognito = {
-		communism_drift = 0.20
+		communism_drift = 0.10
 		drift_defence_factor = 1.00
 	}
 
@@ -5040,8 +5040,8 @@ leader_traits = {
 	marxist_philosopher = {
 		random = no
 		sprite = 13
-		communism_drift = 0.1
-		political_power_factor = 0.2
+		communism_drift = 0.05
+		political_power_factor = 0.15
 		stability_weekly = 0.001
 	}
 

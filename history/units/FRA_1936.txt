@@ -844,13 +844,23 @@ air_wings = {
 		# Groupement de Chasse 22
 		fighter_equipment_1934 = {
 			owner = "FRA" 
-			amount = 200
+			amount = 100
+		}
+		# Groupement de Chasse 1
+		fighter_equipment_1934 = {
+			owner = "FRA" 
+			amount = 100
 		}
 	}
 
 	# Z.d'Op. Aériennes du Alps -- Marseille
 	16 = {
 		# Groupement de Chasse d'Alps
+		fighter_equipment_1934 = {
+			owner = "FRA" 
+			amount = 100
+		}
+		
 		fighter_equipment_1934 = {
 			owner = "FRA" 
 			amount = 100
@@ -872,12 +882,12 @@ air_wings = {
 		# Groupement de Chasse du Nord-Africain
 		fighter_equipment_1934 = {
 			owner = "FRA" 
-			amount = 96
+			amount = 100
 		}
 		# Groupement de Bombardment du Nord-Africain
 		tac_bomber_equipment_1934 =  {
 			owner = "FRA" 
-			amount = 90
+			amount = 100
 		}
 	}
 
@@ -886,7 +896,7 @@ air_wings = {
 		# Flotille F1
 		nav_bomber_equipment_1936 = {
 			owner = "FRA" 
-			amount = 96
+			amount = 100
 		}
 	}
 }
