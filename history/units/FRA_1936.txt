@@ -173,6 +173,35 @@ division_template = {
 }
 
 division_template = {
+	name = "Division de Chars de Combat"
+    division_names_group = FRA_ARM_01
+	regiments = {
+		medium_armor = { x = 0 y = 0 }
+		medium_armor = { x = 0 y = 1 }
+		medium_armor = { x = 0 y = 2 }
+		medium_armor = { x = 4 y = 2 }
+		
+		medium_armor = { x = 1 y = 0 }
+		medium_armor = { x = 1 y = 1 }
+		medium_armor = { x = 1 y = 2 }
+		medium_armor = { x = 4 y = 1 }
+
+		motorized = { x = 2 y = 0 }
+		motorized = { x = 2 y = 1 }
+		motorized = { x = 2 y = 2 }
+		medium_armor = { x = 4 y = 0 }	
+
+		motorized = { x = 3 y = 0 }
+		motorized = { x = 3 y = 1 }
+		motorized = { x = 3 y = 2 }	
+	}
+	support = {
+		DIV_HQ = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
 	name = "Brigade Coloniale"			
     division_names_group = FRA_COL_01
 	regiments = {
@@ -336,7 +365,7 @@ units = {
 		name = "1ère Division Légère Mécanique"
 		location = 11506
 		division_template = "Division Légère Mécanique" 	# DLM is frontline, best equipment, L Arm = H-35
-		force_equipment_variants = { light_tank_equipment_1936 = { owner = "FRA" } }
+		force_equipment_variants = { heavy_tank_equipment_1937 = { owner = "FRA" } }
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.8
 	}
@@ -971,6 +1000,15 @@ instant_effect = { #player
 		progress = 0.3
 		efficiency = 25
 	}
+	add_equipment_production = {
+		equipment = {
+			type = pack_artillery_equipment_1
+			creator = "FRA" 
+		}
+		requested_factories = 1
+		progress = 0.5
+		efficiency = 100
+	}
     add_equipment_production = {
 		equipment = {
 			type = anti_tank_equipment_1
@@ -980,16 +1018,7 @@ instant_effect = { #player
 		progress = 0.3
 		efficiency = 25
 	}
-	add_equipment_production = {
-		equipment = {
-			type = light_tank_equipment_1936
-			creator = "FRA" 
-		}
-		requested_factories = 1
-		progress = 0.4
-		efficiency = 25
-	}
-
+	
 	add_equipment_production = {
 		equipment = {
 			type = motorized_equipment_1
@@ -1002,7 +1031,17 @@ instant_effect = { #player
 	
 	add_equipment_production = {
 		equipment = {
-			type = heavy_tank_equipment_1934
+			type = light_tank_equipment_1936
+			creator = "FRA" 
+		}
+		requested_factories = 1
+		progress = 0.4
+		efficiency = 25
+	}
+	
+	add_equipment_production = {
+		equipment = {
+			type = heavy_tank_equipment_1937
 			creator = "FRA" 
 		}
 		requested_factories = 1
@@ -1027,15 +1066,6 @@ instant_effect = { #player
 		requested_factories = 2
 		progress = 0.9
 		efficiency = 25
-	}
-	add_equipment_production = {
-		equipment = {
-			type = pack_artillery_equipment_1
-			creator = "FRA" 
-		}
-		requested_factories = 1
-		progress = 0.5
-		efficiency = 100
 	}
 	
 	############### Equipment stockpile
@@ -1071,7 +1101,7 @@ instant_effect = { #player
 			producer = FRA
 		}
 	add_equipment_to_stockpile = {
-		type = heavy_tank_equipment_1934
+		type = heavy_tank_equipment_1937
 			amount = 250
 			producer = FRA
 		}

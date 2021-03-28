@@ -4747,8 +4747,13 @@ country_event = {
 				producer = FRA
 			}
 		add_equipment_to_stockpile = {
-			type = medium_tank_equipment_1938
+			type = medium_tank_equipment_1936
 			amount = 800
+			producer = FRA
+		}
+		add_equipment_to_stockpile = {
+			type = heavy_tank_equipment_1937
+			amount = 300
 			producer = FRA
 		}
 		add_equipment_to_stockpile = {
