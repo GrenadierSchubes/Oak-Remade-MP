@@ -57,6 +57,45 @@ ideas = {
 				production_speed_dockyard_factor = -0.125
 			}
 		}
+		FRA_air = {
+			picture = generic_air_bonus
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				
+			}
+
+			removal_cost = -1
+
+			equipment_bonus = {
+				fighter_equipment = {
+					instant = yes
+					build_cost_ic = 0.2
+				}
+				heavy_fighter_equipment = {
+					instant = yes
+					build_cost_ic = 0.2
+				}
+				CAS_equipment = {
+					instant = yes
+					build_cost_ic = 0.2
+				}
+				tac_bomber_equipment = {
+					instant = yes
+					build_cost_ic = 0.2
+				}
+				nav_bomber_equipment = {
+				    instant = yes
+					build_cost_ic = 0.2  
+				}
+				strat_bomber_equipment = {
+				    instant = yes
+					build_cost_ic = 0.2
+				}
+			}
+		}
 		FRA_the_young_school = {
 			
 			allowed = {
@@ -565,12 +604,12 @@ ideas = {
 			
 			equipment_bonus = {
 				fighter_equipment = {
-					build_cost_ic = -0.05
 					instant = yes
+					build_cost_ic = -0.05
 				}
-				CAS_equipment = {
-					build_cost_ic = -0.05
+				heavy_fighter_equipment = {
 					instant = yes
+					build_cost_ic = -0.05
 				}
 			}
 
@@ -2542,7 +2581,6 @@ ideas = {
 			}
 
 			available = {
-				has_completed_focus = FRA_morane_saulnier_goal
 			}
 			
 			research_bonus = { air_equipment = -0.05 }
@@ -2659,7 +2697,7 @@ ideas = {
 			cost = 250 
 			
 			research_bonus = {
-				cat_operational_integrity = 0.10
+				cat_operational_integrity = 0.15
 			}
 			
 			traits = { assault_avaition }
@@ -2676,6 +2714,44 @@ ideas = {
 			}
 			
 			traits = { air_warfare_theorist }
+		}
+		morane_saulnier2 = {
+		
+		    picture = morane_saulnier
+			
+			allowed = {
+				original_tag = FRA
+			}
+
+			available = {
+				has_completed_focus = FRA_morane_saulnier_goal
+			}
+			
+			research_bonus = { air_equipment = 0.15 }
+			
+			traits = { aircraft_research_trait }
+
+			modifier = {
+			}
+
+			equipment_bonus = {
+				fighter_equipment = {
+					instant = yes
+					build_cost_ic = -0.05
+				}
+				heavy_fighter_equipment = {
+					instant = yes
+					build_cost_ic = -0.05
+				}
+				CAS_equipment = {
+					instant = yes
+					build_cost_ic = -0.05
+				}
+				tac_bomber_equipment = {
+					instant = yes
+					build_cost_ic = -0.05
+				}
+			}
 		}
 	}	
 	naval_manufacturer = {

@@ -833,7 +833,7 @@ air_wings = {
 	16 = { 
 		# Groupement de Chasse 21 
 		# Groupement de Chasse 23
-		fighter_equipment_1934 = {
+		fighter_equipment_1936 = {
 			owner = "FRA" 
 			amount = 100
 		}
@@ -842,12 +842,12 @@ air_wings = {
 	# Z.d'Op. Aériennes Est -- Reims
 	16 = {
 		# Groupement de Chasse 22
-		fighter_equipment_1934 = {
+		fighter_equipment_1936 = {
 			owner = "FRA" 
 			amount = 100
 		}
 		# Groupement de Chasse 1
-		fighter_equipment_1934 = {
+		fighter_equipment_1936 = {
 			owner = "FRA" 
 			amount = 100
 		}
@@ -856,12 +856,12 @@ air_wings = {
 	# Z.d'Op. Aériennes du Alps -- Marseille
 	16 = {
 		# Groupement de Chasse d'Alps
-		fighter_equipment_1934 = {
+		fighter_equipment_1936 = {
 			owner = "FRA" 
 			amount = 100
 		}
 		
-		fighter_equipment_1934 = {
+		fighter_equipment_1936 = {
 			owner = "FRA" 
 			amount = 100
 		}
@@ -880,7 +880,7 @@ air_wings = {
 	# Z.d'Op. Aériennes Africain -- Tunis
 	16 = {
 		# Groupement de Chasse du Nord-Africain
-		fighter_equipment_1934 = {
+		fighter_equipment_1936 = {
 			owner = "FRA" 
 			amount = 100
 		}
@@ -1083,11 +1083,6 @@ instant_effect = { #player
 	add_equipment_to_stockpile = {
 		type = light_tank_equipment_1934
 			amount = 1000
-			producer = FRA
-		}
-	add_equipment_to_stockpile = {
-		type = fighter_equipment_1934
-			amount = 500
 			producer = FRA
 		}			
 }

@@ -2089,7 +2089,7 @@ technology = construction4
 
 		x = 16
 		y = 0
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 1
@@ -2098,15 +2098,10 @@ technology = construction4
 		available_if_capitulated = yes
 		
 		available = {
-			SPR = {
-				has_civil_war = no
-			}
-            date > 1937.1.1	
 		}
 
 		complete_tooltip = {
 			random_state = {
-				limit = { has_state_flag = POL_air_base_expansion_1 }
 				add_building_construction = {
 					type = air_base
 					level = 2
@@ -2141,7 +2136,7 @@ technology = construction4
 
 		x = 17
 		y = 1
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 10
@@ -2169,7 +2164,7 @@ technology = construction4
 
 		x = 15
 		y = 1
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 10
@@ -2195,7 +2190,7 @@ technology = construction4
 
 		x = 16
 		y = 2
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 10
@@ -2221,7 +2216,7 @@ technology = construction4
 
 		x = 14
 		y = 2
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 10
@@ -2244,11 +2239,10 @@ technology = construction4
 		id = SPA_medium_bomber_focus
 		icon = GFX_goal_generic_occupy_start_war
 		prerequisite = { focus = SPA_heavy_fighter_concept focus = SPA_air_innovations }
-		mutually_exclusive = { focus = SPA_light_bomber_focus }
 
 		x = 15
 		y = 3
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 10
@@ -2271,11 +2265,10 @@ technology = construction4
 		id = SPA_light_bomber_focus
 		icon = GFX_goal_generic_CAS
 		prerequisite = { focus = SPA_heavy_fighter_concept focus = SPA_fighter_modernisation }
-		mutually_exclusive = { focus = SPA_medium_bomber_focus }
 
 		x = 17
 		y = 3
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 10
@@ -2301,7 +2294,7 @@ technology = construction4
 
 		x = 16
 		y = 4
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 10
@@ -2310,6 +2303,7 @@ technology = construction4
 		available_if_capitulated = yes
 
 		completion_reward = {
+		    add_ideas = ITA_air_dominance
 			add_tech_bonus = {
 				name = POL_air_modernisations_program
 				bonus = 1
@@ -2328,7 +2322,7 @@ technology = construction4
 
 		x = 16
 		y = 5
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 1

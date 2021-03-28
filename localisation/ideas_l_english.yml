@@ -12,6 +12,9 @@
  FRA_naval:0 "Peaceful Seas"
  FRA_naval_desc:0 "France has no need for a large navy at this time."
  
+ FRA_air:0 "Peaceful Airspace"
+ FRA_air_desc:0 "France has no need for a large airforce at this time."
+ 
  ETH_core:0 "Weak Army Leadership"
  ETH_core_desc:0 "Our army is lead by incompetent generals."
  
@@ -482,6 +485,7 @@
  renault_fra:0 "Renault"
  renault_bel:0 "Renault"
  FRA_renault_trucks:0 "Renault Auto"
+ morane_saulnier2:0 "Aéroplanes Morane-Saulnier"
  somua:0 "SOMUA"
  mas:0 "MAS"
  schneider:0 "Schneider"

@@ -1055,7 +1055,7 @@ focus_tree = {
 
 		completion_reward = {
 			custom_effect_tooltip = FRA_morane_saulnier_tt
-			show_ideas_tooltip = morane_saulnier
+			show_ideas_tooltip = morane_saulnier2
 		}
 	}
 
@@ -1661,7 +1661,6 @@ focus_tree = {
 
 		completion_reward = {
 			set_capital = 772
-			remove_ideas = FRA_naval
 			add_popularity = { ideology = democratic popularity = 0.75 }
 		    add_stability = 0.25
 			add_war_support = 0.25			
@@ -2191,6 +2190,12 @@ focus_tree = {
 		y = 2
 		relative_position_id = FRA_protect_the_mainland
 		cost = 7.16
+		
+		available = {
+		     NOT = {
+			     has_idea = FRA_air
+			 }
+		}
 
 		available_if_capitulated = yes
 

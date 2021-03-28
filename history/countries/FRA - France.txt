@@ -139,6 +139,7 @@ add_ideas = {
 	FRA_inefficient_economy_2
 	refinery_idea
 	FRA_naval
+	FRA_air
 }
 
 

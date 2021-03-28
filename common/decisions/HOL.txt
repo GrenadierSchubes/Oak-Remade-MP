@@ -555,6 +555,16 @@ HOL_secret_staff_talks = {
 					}
 				}
 			}
+			custom_effect_tooltip = HOL_request_equipment_tt
+			effect_tooltip = {
+				FROM = {
+					send_equipment = {
+					    equipment = special_equipment
+				    	amount = 250
+				    	target = ROOT
+					}
+				}
+			}
 			custom_effect_tooltip = HOL_request_equipment_tt_2
 		}
 
@@ -602,7 +612,7 @@ HOL_secret_staff_talks = {
 
 		}
 
-		targets = { GER ENG FRA }
+		targets = { FRA }
 
 		target_trigger = {
 			ROOT = { 

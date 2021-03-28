@@ -291,6 +291,8 @@ country_event = {
 	       }
         }  
 		add_ideas = FRA_exile
+		remove_ideas = FRA_naval
+	    remove_ideas = FRA_air
 		name = france.20.a
 	}
 }

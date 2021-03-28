@@ -72,9 +72,6 @@ country_event = {
 	option = {
 		name = mtg_netherlands.29.a
 		trigger = {
-			has_equipment = {
-			    infantry_equipment > 2000
-			}
 		}
 		ai_chance = {
 			factor = 50
@@ -106,99 +103,32 @@ country_event = {
 		set_country_flag = secret_staff_talks_infantry_equipment
 		effect_tooltip = {
 			send_equipment = {
-			    equipment = artillery_equipment
-			    amount = 2000
+			    equipment = infantry_equipment
+			    amount = 5000
 			    target = FROM
 			}
 		}
-	}
-
-	# Ok - give them support equipment
-	option = {
-		name = mtg_netherlands.29.b
-		trigger = {
-			has_equipment = {
-				support_equipment > 250
-			}
-		}
-		ai_chance = {
-			factor = 50
-			modifier = {
-				factor = 0
-				is_in_faction_with = SOV
-			}
-			modifier = {
-				factor = 0
-				original_tag = ENG
-				has_government = neutrality
-				NOT = {
-					AND = {
-						GER = { has_government = fascism }
-						HOL = { is_in_faction_with = GER }
-					}
-				}
-			}
-			modifier = {
-				factor = 0.1
-				has_opinion = { target = ENG value < -49 }
-			}
-			modifier = {
-				factor = 0
-				has_opinion = { target = ENG value < -99 }
-			}
-		}
-		FROM = { country_event = { id = mtg_netherlands.30 hours = 6 } }
-		set_country_flag = secret_staff_talks_support_equipment
 		effect_tooltip = {
 			send_equipment = {
 			    equipment = support_equipment
-			    amount = 250
+			    amount = 500
 			    target = FROM
 			}
 		}
-	}
-
-	# Ok - give them artillery equipment
-	option = {
-		name = mtg_netherlands.29.c
-		trigger = {
-			has_equipment = {
-				artillery_equipment > 200
-			}
-		}
-		ai_chance = {
-			factor = 50
-			modifier = {
-				factor = 0
-				is_in_faction_with = SOV
-			}
-			modifier = {
-				factor = 0
-				original_tag = ENG
-				has_government = neutrality
-				NOT = {
-					AND = {
-						GER = { has_government = fascism }
-						HOL = { is_in_faction_with = GER }
-					}
-				}
-			}
-			modifier = {
-				factor = 0.1
-				has_opinion = { target = ENG value < -49 }
-			}
-			modifier = {
-				factor = 0
-				has_opinion = { target = ENG value < -99 }
-			}
-		}
-		FROM = { country_event = { id = mtg_netherlands.30 hours = 6 } }
-		set_country_flag = secret_staff_talks_artillery_equipment
 		effect_tooltip = {
 			send_equipment = {
 			    equipment = artillery_equipment
-			    amount = 200
+			    amount = 500
 			    target = FROM
+			}
+		}
+		effect_tooltip = {
+			FROM = {
+				send_equipment = {
+				    equipment = special_equipment
+			    	amount = 250
+				    	target = ROOT
+				}
 			}
 		}
 	}
@@ -250,36 +180,25 @@ country_event = {
 			FROM = {
 				send_equipment = {
 				    equipment = infantry_equipment
-				    amount = 2000
+				    amount = 5000
 				    target = ROOT
 				}
-				clr_country_flag = secret_staff_talks_infantry_equipment
-			}
-		}
-		if = {
-			limit = {
-				FROM = { has_country_flag = secret_staff_talks_support_equipment }
-			}
-			FROM = {
-				send_equipment = {
-				    equipment = support_equipment
-				    amount = 250
-				    target = ROOT
-				}
-				clr_country_flag = secret_staff_talks_support_equipment
-			}
-		}
-		if = {
-			limit = {
-				FROM = { has_country_flag = secret_staff_talks_artillery_equipment }
-			}
-			FROM = {
 				send_equipment = {
 				    equipment = artillery_equipment
-				    amount = 200
+				    amount = 500
 				    target = ROOT
 				}
-				clr_country_flag = secret_staff_talks_artillery_equipment
+				send_equipment = {
+				    equipment = artillery_equipment
+				    amount = 500
+				    target = ROOT
+				}
+				send_equipment = {
+				    equipment = special_equipment
+				   	amount = 250
+				   	target = ROOT
+				}
+				clr_country_flag = secret_staff_talks_infantry_equipment
 			}
 		}
 	}
@@ -634,7 +553,7 @@ country_event = {
 				add_tech_bonus = {
 					name = HOL_secret_staff_talks
 					bonus = 1.0
-					uses = 1
+					uses = 2
 					category = land_doctrine
 				}
 			}
@@ -694,7 +613,7 @@ country_event = {
 		add_tech_bonus = {
 			name = HOL_secret_staff_talks
 			bonus = 1.0
-			uses = 1
+			uses = 2
 			category = land_doctrine
 		}
 	}
