@@ -28,8 +28,6 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-	            army_core_attack_factor = -0.2
-	            army_core_defence_factor = -0.2
 				compliance_gain = 0.01
 			}
 			
@@ -51,6 +49,27 @@ ideas = {
 			removal_cost = -1
 						
 			modifier = {
+			}
+		}
+		
+		HOL_neutral = {
+
+			picture = tfv_can_conscription_crisis
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+						
+			modifier = {
+	            army_core_attack_factor = -0.2
+	            army_core_defence_factor = -0.2
+				production_speed_arms_factory_factor = -0.15
 			}
 		}
 		
@@ -1866,6 +1885,94 @@ ideas = {
 	}
 
 	political_advisor = {
+		
+		HOL_corgis_2 = { # Dookie
+			
+			picture = HOL_corgis2
+
+			available = {
+				has_country_leader = {
+				    name = "Elizabeth II"
+				    ruling_only = yes
+				}
+			}
+
+			visible = {
+				has_country_leader = {
+				    name = "Elizabeth II"
+				    ruling_only = yes
+				}
+			}
+			
+			allowed = {
+				original_tag = HOL
+				has_dlc = "Man the Guns"
+			}
+			
+			traits = { heels_nipper }
+
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		HOL_corgis_3 = { # Jane
+			
+			picture = HOL_corgis3
+
+			available = {
+				has_country_leader = {
+				    name = "Elizabeth II"
+				    ruling_only = yes
+				}
+			}
+
+			visible = {
+				has_country_leader = {
+				    name = "Elizabeth II"
+				    ruling_only = yes
+				}
+			}
+			
+			allowed = {
+				original_tag = HOL
+				has_dlc = "Man the Guns"
+			}
+			
+			traits = { snuggler }
+
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		HOL_corgis_1 = { # Crackers
+			
+			picture = HOL_corgis1
+
+			available = {
+				has_country_leader = {
+				    name = "Elizabeth II"
+				    ruling_only = yes
+				}
+			}
+
+			visible = {
+				has_country_leader = {
+				    name = "Elizabeth II"
+				    ruling_only = yes
+				}
+			}
+			
+			allowed = {
+				original_tag = HOL
+				has_dlc = "Man the Guns"
+			}
+			
+			traits = { face_licker }
+
+			ai_will_do = {
+				factor = 1
+			}
+		}
 
 		HOL_willem_schermerhorn = {
 
@@ -1881,17 +1988,26 @@ ideas = {
 						has_dlc = "Man the Guns"
 					}
 				}
-				if = {
-					limit = { has_dlc = "Man the Guns" }	
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
 			}
 
 			traits = { democratic_reformer }
 
 		}
 
+		HOL_jacob_adriaan_de_wilde = {
 
+			picture = generic_political_advisor_europe_1
+			
+			allowed = {
+				original_tag = HOL
+			}
+
+			available = {
+			}
+			
+			traits = { genial_anti_revolutionary }
+		}
+		
 		HOL_cornelis_van_geelkerken = {
 
 			picture = generic_political_advisor_europe_3
@@ -1905,23 +2021,20 @@ ideas = {
 			
 			traits = { prince_of_terror }
 		}
+		
+		HOL_walraven_van_hall = {
 
-		HOL_jacob_adriaan_de_wilde = {
-
-			picture = generic_political_advisor_europe_1
+			picture = generic_political_advisor_europe_3
 			
 			allowed = {
 				original_tag = HOL
+				has_dlc = "Man the Guns"
 			}
 
 			available = {
-				OR = {
-					has_government = democratic
-					has_government = neutrality
-				}
 			}
 			
-			traits = { genial_anti_revolutionary }
+			traits = { backroom_backstabber }
 		}
 
 		HOL_antonie_pannekoek = {
@@ -1937,27 +2050,7 @@ ideas = {
 			    has_capitulated = yes
 			}
 			
-			traits = { council_communist }
-		}
-
-		HOL_walraven_van_hall = {
-
-			picture = generic_political_advisor_europe_3
-			
-			allowed = {
-				original_tag = HOL
-				has_dlc = "Man the Guns"
-			}
-
-			available = {
-				has_capitulated = yes
-				OR = {
-					has_government = democratic
-					has_government = neutrality
-				}
-			}
-			
-			traits = { production_manager }
+			traits = { resistance_banker }
 		}
 	}
 

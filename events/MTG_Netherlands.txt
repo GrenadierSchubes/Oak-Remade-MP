@@ -29,33 +29,29 @@ country_event = {
 
 # Replace the Defeatist Government
 country_event = {
-	id = mtg_netherlands.14
-	title = mtg_netherlands.14.t
-	desc = mtg_netherlands.14.d
+	id = mtg_netherlands.100
+	title = mtg_netherlands.100.t
+	desc = mtg_netherlands.100.d
 	picture = GFX_report_event_hol_cabinet_gerbrandy
 
 	is_triggered_only = yes
 	
 	# Ok
 	option = {
-		name = mtg_netherlands.14.a
+		name = mtg_netherlands.100.a
 		retire_country_leader = yes
 		create_country_leader = {
-			name = "Pieter Sjoerds Gerbrandy"
-			desc = "POLITICS_PIETER_SJOERDS_GERBRANDY_DESC"
-			picture = "portrait_hol_pieter_sjoerds_gerbrandy.dds"
+			name = "Elizabeth II"
+			desc = "POLITICS_ELIZABETH_II_DESC"
+			picture = "GFX_portrait_eng_elizabeth_ii"
 			expire = "1965.1.1"
 			ideology = conservatism
+			female = yes
 			traits = {
-				little_churchill
+				inexperienced_monarch headstrong popular_queen
 			}
 		}
-		if = {
-			limit = {
-				has_idea = HOL_weak_government
-			}
-			remove_ideas = HOL_weak_government
-		}
+		remove_ideas = HOL_wilhelmina
 	}
 }
 

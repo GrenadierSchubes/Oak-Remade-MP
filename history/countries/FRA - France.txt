@@ -157,8 +157,8 @@ if = {
 	}
 	set_autonomy = {
 		target = HOL
-		autonomous_state = autonomy_dominion
-		freedom_level = 0.1
+		autonomous_state = autonomy_supervised_state
+		freedom_level = 0.5
 	}
 }
 

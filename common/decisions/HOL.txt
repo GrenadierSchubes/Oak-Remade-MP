@@ -941,9 +941,13 @@ political_actions = {
 		}
 
 		complete_effect = {
-		    add_war_support = 0.1
-			add_stability = 0.1
 			set_capital = 295
+			if = {
+			    limit = {
+			    	has_idea = HOL_neutral
+			    }
+			    remove_ideas = HOL_neutral
+		    }
 		}
 	}
 }

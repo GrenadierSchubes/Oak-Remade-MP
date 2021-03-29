@@ -25,6 +25,7 @@ if = {
 		HOL_de_crisisjaren_5
 		HOL_weak_government
 		HOL_aloof_neutralit
+		HOL_neutral
 	}
 }
 
@@ -128,7 +129,7 @@ set_popularities = {
 
 
 set_convoys = 250
-set_stability = 0.55
+set_stability = 0.30
 set_war_support = 0.25
 
 create_country_leader = {

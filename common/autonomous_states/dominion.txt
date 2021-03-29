@@ -40,11 +40,9 @@ autonomy_state = {
 	
 	can_take_level = {
 	     NOT = { original_tag = INS }
-		 NOT = { original_tag = HOL }
 	}
 
 	can_lose_level = {
          NOT = { original_tag = INS }
-		 NOT = { original_tag = HOL }
 	}
 }

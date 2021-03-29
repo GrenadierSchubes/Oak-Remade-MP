@@ -189,9 +189,6 @@ economy_decisions = {
 			NOT = {
 				tag = POR
 			}
-			NOT = {
-				tag = HOL
-			}
 		}
 	}
 }

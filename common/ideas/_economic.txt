@@ -244,6 +244,9 @@ ideas = {
 					}
 					NOT = { has_idea = HUN_treaty_of_triannon }
 				}
+				NOT = {
+					tag = HOL
+				}
 			    OR = {
 					has_war = yes
 					threat > 0.45
@@ -337,6 +340,9 @@ ideas = {
 			}			
 
 			available = {
+				NOT = {
+					tag = HOL
+				}
 				has_war = yes
 				has_war_support > 0.75
 				threat > 0.70

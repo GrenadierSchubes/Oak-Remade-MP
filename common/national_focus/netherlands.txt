@@ -1450,7 +1450,7 @@ focus_tree = {
 		continue_if_invalid = yes
 
 		completion_reward = {
-		    add_ideas = low_economic_mobilisation
+		    add_ideas = partial_economic_mobilisation
 			add_ideas = HOL_prepare_the_inundation_lines
 		}
 	}
@@ -1471,8 +1471,7 @@ focus_tree = {
 		continue_if_invalid = yes
 
 		available_if_capitulated = yes
-		completion_reward = {
-		    add_ideas = partial_economic_mobilisation			 
+		completion_reward = {		 
 			unlock_decision_category_tooltip = HOL_war_on_pacifism
 			custom_effect_tooltip = HOL_war_on_pacifism_tt
 		}
@@ -2524,25 +2523,9 @@ focus_tree = {
 		search_filters = {FOCUS_FILTER_POLITICAL FOCUS_FILTER_WAR_SUPPORT}
 
 		completion_reward = {
-			country_event = { id = mtg_netherlands.14 }
+			country_event = { id = mtg_netherlands.100 }
 			effect_tooltip = {
 				retire_country_leader = yes
-				create_country_leader = {
-					name = "Pieter Sjoerds Gerbrandy"
-					desc = "POLITICS_PIETER_SJOERDS_GERBRANDY_DESC"
-					picture = "portrait_hol_pieter_sjoerds_gerbrandy.dds"
-					expire = "1965.1.1"
-					ideology = conservatism
-					traits = {
-						little_churchill
-					}
-				}
-				if = {
-					limit = {
-						has_idea = HOL_weak_government
-					}
-					remove_ideas = HOL_weak_government
-				}
 			}
 		}
 	}

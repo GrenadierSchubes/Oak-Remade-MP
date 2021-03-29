@@ -364,4 +364,22 @@ spriteTypes = {
 		name = "GFX_MON_air"
 		texturefile = "gfx/interface/goals/MON_air.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_HOL_corgis3"
+		texturefile = "gfx/interface/ideas/HOL_corgis3.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_HOL_corgis2"
+		texturefile = "gfx/interface/ideas/HOL_corgis2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_HOL_corgis1"
+		texturefile = "gfx/interface/ideas/HOL_corgis1.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_eng_elizabeth_ii"
+		texturefile = "gfx/leaders/HOL/portrait_eng_elizabeth_ii.dds"
+	}
 }
