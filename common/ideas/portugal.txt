@@ -4,6 +4,8 @@ ideas = {
 
 			allowed = {
 				original_tag = POR
+				original_tag = TUR
+				original_tag = SWE
 			}
 
 			allowed_civil_war = {
