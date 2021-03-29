@@ -948,6 +948,12 @@ political_actions = {
 			    }
 			    remove_ideas = HOL_neutral
 		    }
+			if = {
+			    limit = {
+			    	has_idea = HOL_curtail_colonial_autonomy_overlord
+			    }
+			    remove_ideas = HOL_curtail_colonial_autonomy_overlord
+		    }
 		}
 	}
 }
