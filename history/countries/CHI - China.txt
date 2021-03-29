@@ -2,7 +2,7 @@
 
 oob = "CHI_1936"
 
-set_stability = 0.75
+set_stability = 0.35
 set_war_support = 0.65
 set_research_slots = 4
 # Starting tech
@@ -52,6 +52,9 @@ if = {
 add_ideas = {
 	german_advisors
 }
+
+add_opinion_modifier = { target = MON modifier = HOL_caved_to_the_british_ger }
+add_opinion_modifier = { target = MON modifier = HOL_caved_to_the_british_ger_trade }
 
 if = {
 	limit = {

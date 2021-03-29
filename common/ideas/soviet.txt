@@ -217,6 +217,24 @@ ideas = {
 			
 			removal_cost = -1
 		}
+		
+		SOV_aa = {
+			
+			picture = ger_the_great_red_menace
+			
+			allowed = {
+				always = no # Triggered via focus
+			}
+			modifier = {
+				static_anti_air_damage_factor = 0.20
+				production_speed_radar_station_factor = 0.1 
+				production_speed_air_base_factor = 0.1
+				production_speed_anti_air_building_factor = 0.2
+			}
+			
+			removal_cost = -1
+		}
+
 
 		SOV_surprise_strike_extra_for_ai = {
 			

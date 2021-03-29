@@ -91,7 +91,7 @@ focus_tree = {
 			focus = MON_connecttotranssiberianrailway 
 		}
 		prerequisite = { 
-			focus = MON_reformborderguards 
+			focus = MON_moscowmilitaryadvisors 
 		}
 		prerequisite = { 
 			focus = MON_purgeofthearmy 
@@ -116,15 +116,17 @@ focus_tree = {
 	focus = {
 		id = MON_expandmpra
 		icon = GFX_monarmedforces
-		x = 7
-		y = 0
-		cost = 10
+		x = 6
+		y = 6
+		cost = 7.16
 		available_if_capitulated = yes
+		prerequisite = { 
+			focus = MON_armymechanization
+		}
 		ai_will_do = {
 			factor = 1
 		}
 				available = {
-				has_idea = MON_Mongolian_Police
 		}
 		
 							completion_reward = {
@@ -705,7 +707,7 @@ custom_effect_tooltip = MON_leader_tt
 		icon = GFX_montruck
 		x = 6
 		y = 5
-		cost = 10
+		cost = 7.16
 		available_if_capitulated = yes
 		prerequisite = { focus = MON_armyreform }
 		ai_will_do = {
@@ -736,12 +738,14 @@ custom_effect_tooltip = MON_leader_tt
 		id = MON_stopborderraiders
 		icon = GFX_focus_generic_provoke_border_clashes
 		x = 7
-		y = 1
+		y = 0
 		cost = 5
 		available_if_capitulated = yes
-		prerequisite = { focus = MON_expandmpra }
 		ai_will_do = {
 			factor = 1
+		}
+				available = {
+				has_idea = MON_Mongolian_Police
 		}
 		
 		
@@ -781,7 +785,7 @@ custom_effect_tooltip = MON_leader_tt
 		id = MON_reformborderguards
 		icon = GFX_monborderguard
 		x = 7
-		y = 2
+		y = 1
 		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = MON_stopborderraiders }
@@ -856,9 +860,9 @@ custom_effect_tooltip = MON_leader_tt
 		icon = GFX_focus_generic_tank_production
 		x = 6
 		y = 7
-		cost = 10
+		cost = 7.16
 		available_if_capitulated = yes
-		prerequisite = { focus = MON_moscowmilitaryadvisors }
+		prerequisite = { focus = MON_expandmpra }
 		ai_will_do = {
 			factor = 1
 		}
@@ -1437,11 +1441,11 @@ custom_effect_tooltip = MON_leader_tt
 	focus = {
 		id = MON_moscowmilitaryadvisors
 		icon = GFX_monrussianofficers
-		x = 6
-		y = 6
+		x = 7
+		y = 2
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = MON_armymechanization }
+		prerequisite = { focus = MON_reformborderguards }
 		ai_will_do = {
 			factor = 1
 		}
@@ -1555,7 +1559,7 @@ custom_effect_tooltip = MON_leader_tt
 		prerequisite = { focus = MON_modernsovfighters }			
 		x = 22
 		y = 3
-		cost = 5
+		cost = 10
 		available_if_capitulated = yes
 		ai_will_do = {
 			factor = 1
@@ -1579,7 +1583,7 @@ custom_effect_tooltip = MON_leader_tt
 		prerequisite = { focus = MON_localdevelopmentofbomba }			
 		x = 20
 		y = 4
-		cost = 5
+		cost = 10
 		available_if_capitulated = yes
 		ai_will_do = {
 			factor = 1

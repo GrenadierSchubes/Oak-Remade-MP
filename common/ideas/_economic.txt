@@ -732,6 +732,7 @@ ideas = {
 					tag = POR
 					tag = SWI
 					tag = EFR
+					tag = MON
 				}
 			}
 			
@@ -771,6 +772,7 @@ ideas = {
 					tag = TUR
 					tag = SWI
 					tag = EFR
+					tag = MON
 				}
 				OR = {
 					AND = {
@@ -829,6 +831,7 @@ ideas = {
 					tag = TUR
 					tag = SWI
 					tag = EFR
+					tag = MON
 				}
 				OR = { 
 					has_government = fascism

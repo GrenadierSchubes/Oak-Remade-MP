@@ -5,6 +5,9 @@
  quantity2:0 "Mass Production II"
  quantity3:0 "Mass Production III"
  
+ SOV_aa:0 "Soviet Air Defence Forces"
+ SOV_aa_desc:0 "The Soviet Air Defence Force was responible for keeping the airspace clear over the Soviet Union. This was done with AA guns both large and small caliber aided by radar in the later years of the war"
+ 
  refinery_idea:0 "No need to build refineries yet"
  USA_neutrality_acts:0 "Amended Neutrality Act"
  USA_neutrality_acts_desc:0 "We must amend the Neutrality Act in order for us to aid China. We shall send covert help to allied nations."
