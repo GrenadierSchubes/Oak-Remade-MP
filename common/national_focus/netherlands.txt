@@ -2523,7 +2523,7 @@ focus_tree = {
 		search_filters = {FOCUS_FILTER_POLITICAL FOCUS_FILTER_WAR_SUPPORT}
 
 		completion_reward = {
-			country_event = { id = mtg_netherlands.100 }
+			country_event = { id = mtg_netherlands.100 hours = 6 }
 			effect_tooltip = {
 				retire_country_leader = yes
 			}
@@ -2712,12 +2712,16 @@ focus_tree = {
 		available_if_capitulated = yes
 		search_filters = {FOCUS_FILTER_WAR_SUPPORT}
 		completion_reward = {
-		    HOL = { add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 5000 producer = USA } }
-            HOL = { add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 1500 producer = USA } }
-			HOL = { add_equipment_to_stockpile = { type = support_equipment_1 amount = 250 producer = USA } }
-			HOL = { add_equipment_to_stockpile = { type = anti_air_equipment_1 amount = 150 producer = USA } }
-			HOL = { add_equipment_to_stockpile = { type = anti_tank_equipment_1 amount = 150 producer = USA } }
-			HOL = { add_equipment_to_stockpile = { type = motorized_equipment amount = 100 producer = USA } }
+		    HOL = { 
+			   add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 6000 producer = USA } 
+               add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 750 producer = USA } 
+               add_equipment_to_stockpile = { type = support_equipment_1 amount = 500 producer = USA } 
+               add_equipment_to_stockpile = { type = anti_air_equipment_1 amount = 200 producer = USA } 
+               add_equipment_to_stockpile = { type = anti_tank_equipment_1 amount = 200 producer = USA } 
+               add_equipment_to_stockpile = { type = radio_equipment amount = 350 producer = USA } 
+               add_equipment_to_stockpile = { type = horse_equipment amount = 350 producer = USA }
+               add_equipment_to_stockpile = { type = special_equipment amount = 300 producer = USA } 
+		    }
 		}
 	}
 

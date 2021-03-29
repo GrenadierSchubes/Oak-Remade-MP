@@ -28,10 +28,9 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				compliance_gain = 0.01
 			}
 			
-			traits = { democratic_reformer }
+			traits = { wilhelmina }
 		}
 
 		HOL_aloof_neutrality = {
@@ -2034,7 +2033,7 @@ ideas = {
 			available = {
 			}
 			
-			traits = { backroom_backstabber }
+			traits = { railroad_enthusiast }
 		}
 
 		HOL_antonie_pannekoek = {

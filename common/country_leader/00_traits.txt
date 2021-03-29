@@ -666,14 +666,14 @@ leader_traits = {
 	strict_austerity_adherent = {
 		random = no
 		stability_factor = -0.25
-		economy_cost_factor = 0.5
-		consumer_goods_factor = -0.1
+		economy_cost_factor = 0.75
+		consumer_goods_factor = -0.05
 	}
 
 	defeatist = {
 		random = no
-		war_support_factor = -0.1
-		surrender_limit = -0.25
+		war_support_factor = -0.05
+		surrender_limit = -0.45
 	}
 
 	little_churchill = {
@@ -686,7 +686,8 @@ leader_traits = {
 
 	wilhelmina = {
 		random = no
-		stability_factor = 0.15
+		stability_factor = 0.10
+		stability_weekly = 0.001
 	}
 
 	disdain_for_politicians_1 = {
@@ -735,7 +736,7 @@ leader_traits = {
 
 	railroad_enthusiast = { #Valentin Campa
 		random = no
-		production_speed_infrastructure_factor = 0.25
+		production_speed_infrastructure_factor = 0.2
 		
 		ai_will_do = {
 			factor = 1
@@ -1534,7 +1535,7 @@ leader_traits = {
 
 	inexperienced_monarch = {
 		random = no
-		political_advisor_cost_factor = 0.1
+		political_advisor_cost_factor = -0.10
 		trade_laws_cost_factor = 0.1
 		mobilization_laws_cost_factor = 0.1
 		economy_cost_factor = 0.1
@@ -1542,6 +1543,8 @@ leader_traits = {
 		air_chief_cost_factor = 0.1
 		army_chief_cost_factor = 0.1
 		navy_chief_cost_factor = 0.1
+		army_core_attack_factor = -0.2
+		army_core_defence_factor = -0.2
 		
 		ai_will_do = {
 			factor = 1
@@ -1553,7 +1556,7 @@ leader_traits = {
 		political_power_factor = 0.2
 		
 		ai_will_do = {
-			factor = 1
+			factor = 1`
 		}
 	}
 
@@ -1589,7 +1592,7 @@ leader_traits = {
 		political_power_factor = -0.05
 		industrial_capacity_factory = 0.1
 		industrial_capacity_dockyard = 0.1
-		conscription = 0.015
+		conscription = 0.01
 		conscription_factor = 0.1	
 		
 		ai_will_do = {
