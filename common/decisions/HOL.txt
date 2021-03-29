@@ -919,7 +919,7 @@ HOL_request_allied_favors = {
 
 }
 
-political_actions = {
+operations = {
 	HOL_relocate_government_to_batavi = {
 
 		icon = eng_trade_unions_support

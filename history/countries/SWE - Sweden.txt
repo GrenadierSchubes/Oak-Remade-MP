@@ -14,6 +14,7 @@ add_ideas = {
 	en_svensk_tiger
 	neutrality_idea	
 	free_trade
+	POR_stuff
 	no_spies_idea
 }
 
