@@ -114,6 +114,23 @@ FRA_war_on_pacifism = {
 		modifier = {
 			war_support_weekly = 0.001
 			political_power_factor = -0.05
+
+		fire_only_once = no
+
+		days_remove = 100
+		
+		modifier = {
+			war_support_weekly = 0.001
+			political_power_factor = -0.25
+		}
+
+		visible = {
+			has_completed_focus = FRA_army_reform
+		}
+
+		remove_effect = {
+			FRA_army_reform_level_down = yes
+			clr_country_flag =
 			industrial_capacity_factory = -0.1
 			industrial_capacity_dockyard = -0.1
 		}
@@ -155,24 +172,7 @@ FRA_war_on_pacifism = {
 			}
 		}
 
-		cost = 50
-
-		fire_only_once = no
-
-		days_remove = 100
-		
-		modifier = {
-			war_support_weekly = 0.001
-			political_power_factor = -0.25
-		}
-
-		visible = {
-			has_completed_focus = FRA_army_reform
-		}
-
-		remove_effect = {
-			FRA_army_reform_level_down = yes
-			clr_country_flag = FRA_army_reform_in_progress
+		cost = 50 FRA_army_reform_in_progress
 		}
 
 		complete_effect = {
