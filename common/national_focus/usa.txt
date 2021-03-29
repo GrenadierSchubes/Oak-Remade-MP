@@ -3747,7 +3747,7 @@ focus_tree = {
 				days = -50
 			}
 			add_political_power = 150
-			set_country_flag = { flag = USA_congress_blocking_focus value = 1 days = 50 }		
+			set_country_flag = { flag = USA_congress_blocking_focus value = 1 days = 35 }		
 		}
 	}				
 
@@ -3786,7 +3786,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			set_country_flag = { flag = USA_congress_blocking_focus value = 1 days = 50 }		
+			set_country_flag = { flag = USA_congress_blocking_focus value = 1 days = 35 }		
 			add_tech_bonus = {
 				category = industry
 				bonus = 1 
@@ -3835,7 +3835,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			set_country_flag = { flag = USA_congress_blocking_focus value = 1 days = 50 }		
+			set_country_flag = { flag = USA_congress_blocking_focus value = 1 days = 35 }		
 			swap_ideas = {
 				remove_idea = USA_factory_strikes
 				add_idea = USA_factory_strikes_2
@@ -3883,7 +3883,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			set_country_flag = { flag = USA_congress_blocking_focus value = 1 days = 50 }		
+			set_country_flag = { flag = USA_congress_blocking_focus value = 1 days = 35 }		
 			remove_ideas = USA_factory_strikes_2
 			add_political_power = 100
 
@@ -3930,7 +3930,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			set_country_flag = { flag = USA_congress_blocking_focus value = 1 days = 50 }		
+			set_country_flag = { flag = USA_congress_blocking_focus value = 1 days = 35 }		
 			custom_effect_tooltip = USA_voter_support_1_tt
 			hidden_effect = {
 				add_to_variable = {
@@ -3979,7 +3979,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			set_country_flag = { flag = USA_congress_blocking_focus value = 1 days = 50 }	
+			set_country_flag = { flag = USA_congress_blocking_focus value = 1 days = 35 }	
 			add_ideas = USA_labour_management_relations_act 
 			
 			add_political_power = 100 
@@ -4034,7 +4034,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			set_country_flag = { flag = USA_congress_blocking_focus value = 1 days = 50 }	
+			set_country_flag = { flag = USA_congress_blocking_focus value = 1 days = 35 }	
 			add_timed_idea = {
 				idea = USA_industry_outraged
 				days = 95 
@@ -4091,7 +4091,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			set_country_flag = { flag = USA_congress_blocking_focus value = 1 days = 50 }
+			set_country_flag = { flag = USA_congress_blocking_focus value = 1 days = 35 }
 
 			add_days_mission_timeout = {
 				mission = USA_fair_labour_standard_act_mission
@@ -4141,7 +4141,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			set_country_flag = { flag = USA_congress_blocking_focus value = 1 days = 50 }	
+			set_country_flag = { flag = USA_congress_blocking_focus value = 1 days = 35 }	
 			unlock_decision_tooltip = { decision = USA_small_lobby_effort show_effect_tooltip = yes }
 			unlock_decision_tooltip = { decision = USA_medium_lobby_effort show_effect_tooltip = yes }
 		}
@@ -4181,7 +4181,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			set_country_flag = { flag = USA_congress_blocking_focus value = 1 days = 50 }	
+			set_country_flag = { flag = USA_congress_blocking_focus value = 1 days = 35 }	
 			unlock_decision_tooltip = { decision = USA_rally_new_dealers show_effect_tooltip = yes }
 		}
 	}		
@@ -4219,7 +4219,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			set_country_flag = { flag = USA_congress_blocking_focus value = 1 days = 50 }		
+			set_country_flag = { flag = USA_congress_blocking_focus value = 1 days = 35 }		
 			swap_ideas = {
 				remove_idea = USA_legislation_deadlock
 				add_idea = USA_legislation_deadlock_3
@@ -4261,7 +4261,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			set_country_flag = { flag = USA_congress_blocking_focus value = 1 days = 50 }	
+			set_country_flag = { flag = USA_congress_blocking_focus value = 1 days = 35 }	
 
 			add_popularity = {
 				ideology = democratic
@@ -4313,7 +4313,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			set_country_flag = { flag = USA_congress_blocking_focus value = 1 days = 50 }	
+			set_country_flag = { flag = USA_congress_blocking_focus value = 1 days = 35 }	
 
 			add_political_power = 100
 			unlock_decision_tooltip = { decision = USA_convert_republicans show_effect_tooltip = yes }
@@ -4354,7 +4354,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			set_country_flag = { flag = USA_congress_blocking_focus value = 1 days = 50 }		
+			set_country_flag = { flag = USA_congress_blocking_focus value = 1 days = 35 }		
 
 			swap_ideas = {
 				remove_idea = USA_legislation_deadlock
@@ -4396,7 +4396,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			set_country_flag = { flag = USA_congress_blocking_focus value = 1 days = 50 }		
+			set_country_flag = { flag = USA_congress_blocking_focus value = 1 days = 35 }		
 
 			add_popularity = {
 				ideology = neutrality
@@ -4444,7 +4444,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			set_country_flag = { flag = USA_congress_blocking_focus value = 1 days = 50 }		
+			set_country_flag = { flag = USA_congress_blocking_focus value = 1 days = 35 }		
 
 			add_political_power = 150 
 
@@ -4492,7 +4492,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			set_country_flag = { flag = USA_congress_blocking_focus value = 1 days = 50 }		
+			set_country_flag = { flag = USA_congress_blocking_focus value = 1 days = 35 }		
 
 			unlock_decision_tooltip = { decision = USA_increase_WPA_funding show_effect_tooltip = yes }
 
@@ -4538,7 +4538,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			set_country_flag = { flag = USA_congress_blocking_focus value = 1 days = 50 }	
+			set_country_flag = { flag = USA_congress_blocking_focus value = 1 days = 35 }	
 			custom_effect_tooltip = USA_infrastructure_projects_tt
 			hidden_effect = {
 				country_event = { id = usa.28 days = 365 }
@@ -4584,7 +4584,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			set_country_flag = { flag = USA_congress_blocking_focus value = 1 days = 50 }		
+			set_country_flag = { flag = USA_congress_blocking_focus value = 1 days = 35 }		
 
 			custom_effect_tooltip = USA_heavy_industry_revival_tt
 
@@ -4631,7 +4631,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			set_country_flag = { flag = USA_congress_blocking_focus value = 1 days = 50 }		
+			set_country_flag = { flag = USA_congress_blocking_focus value = 1 days = 35 }		
 
 			add_research_slot = 1 
 		}
@@ -4672,7 +4672,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			set_country_flag = { flag = USA_congress_blocking_focus value = 1 days = 50 }		
+			set_country_flag = { flag = USA_congress_blocking_focus value = 1 days = 35 }		
 
 			add_tech_bonus = {
 				category = construction_tech
@@ -4722,7 +4722,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			set_country_flag = { flag = USA_congress_blocking_focus value = 1 days = 50 }		
+			set_country_flag = { flag = USA_congress_blocking_focus value = 1 days = 35 }		
 
 			add_tech_bonus = {
 				category = industry
@@ -4774,7 +4774,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			set_country_flag = { flag = USA_congress_blocking_focus value = 1 days = 50 }		
+			set_country_flag = { flag = USA_congress_blocking_focus value = 1 days = 35 }		
 
 			every_owned_state = {
 				add_extra_state_shared_building_slots = 2
@@ -4885,7 +4885,7 @@ focus_tree = {
 				mission = USA_social_security_act_mission
 				days = -75
 			}
-			set_country_flag = { flag = USA_congress_blocking_focus value = 1 days = 50 }		
+			set_country_flag = { flag = USA_congress_blocking_focus value = 1 days = 35 }		
 
 			unlock_decision_tooltip = { decision = USA_amend_the_budget show_effect_tooltip = yes }
 		}
@@ -4933,7 +4933,7 @@ focus_tree = {
 			}
 
 
-			set_country_flag = { flag = USA_congress_blocking_focus value = 1 days = 50 }				
+			set_country_flag = { flag = USA_congress_blocking_focus value = 1 days = 35 }				
 			unlock_decision_tooltip = { decision = USA_deficit_financing show_effect_tooltip = yes }
 		}
 	}		
@@ -4979,7 +4979,7 @@ focus_tree = {
 			}
 
 
-			set_country_flag = { flag = USA_congress_blocking_focus value = 1 days = 50 }				
+			set_country_flag = { flag = USA_congress_blocking_focus value = 1 days = 35 }				
 			remove_ideas = USA_political_corruption
 		}
 	}		
@@ -5025,7 +5025,7 @@ focus_tree = {
 			}
 			add_political_power = 150
 
-			set_country_flag = { flag = USA_congress_blocking_focus value = 1 days = 50 }			
+			set_country_flag = { flag = USA_congress_blocking_focus value = 1 days = 35 }			
 			swap_ideas = {
 				remove_idea = USA_henry_morgenthau_jr_1
 				add_idea = USA_henry_morgenthau_jr_2
@@ -5071,7 +5071,7 @@ focus_tree = {
 				mission = USA_social_security_act_mission
 				days = -50
 			}
-			set_country_flag = { flag = USA_congress_blocking_focus value = 1 days = 50 }		
+			set_country_flag = { flag = USA_congress_blocking_focus value = 1 days = 35 }		
 
 			custom_effect_tooltip = USA_voter_support_5_tt
 
@@ -5126,7 +5126,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			set_country_flag = { flag = USA_congress_blocking_focus value = 1 days = 50 }		
+			set_country_flag = { flag = USA_congress_blocking_focus value = 1 days = 35 }		
 
 			custom_effect_tooltip = USA_voter_support_10_tt
 			hidden_effect = {

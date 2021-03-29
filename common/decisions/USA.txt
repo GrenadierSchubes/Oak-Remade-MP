@@ -73,14 +73,14 @@ USA_popular_support = {
 			}
 		}
 
-		cost = 25
+		cost = 20
 
 		ai_will_do = {
 			factor = 10
 		}
 
-		days_re_enable = 50
-		days_remove = 25
+		days_re_enable = 45
+		days_remove = 20
 
 		complete_effect = {
 			set_country_flag = USA_lobbying_effort_flag
