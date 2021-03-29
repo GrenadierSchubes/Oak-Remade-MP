@@ -924,8 +924,8 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				fascism_drift = -0.02
-				communism_drift = -0.02
+				fascism_drift = -0.05
+				communism_drift = -0.05
 			}
 		}
 
@@ -1170,8 +1170,8 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				fascism_drift = -0.02
-				communism_drift = -0.02
+				fascism_drift = -0.05
+				communism_drift = -0.05
 				democratic_drift = 0.05
 				stability_weekly = 0.001
 			}
