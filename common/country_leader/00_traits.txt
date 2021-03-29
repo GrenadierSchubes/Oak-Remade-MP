@@ -665,9 +665,9 @@ leader_traits = {
 
 	strict_austerity_adherent = {
 		random = no
-		stability_factor = -0.25
-		economy_cost_factor = 0.75
-		consumer_goods_factor = -0.05
+		stability_factor = -0.30
+		economy_cost_factor = 0.5
+		consumer_goods_factor = -0.1
 	}
 
 	defeatist = {

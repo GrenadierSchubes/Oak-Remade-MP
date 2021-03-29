@@ -329,7 +329,7 @@ ideas = {
 						
 			modifier = {
 				political_power_cost = 0.5
-				stability_factor = -0.10
+				stability_factor = -0.15
 			}
 		}
 
@@ -2033,7 +2033,7 @@ ideas = {
 			available = {
 			}
 			
-			traits = { railroad_enthusiast }
+			traits = { backroom_backstabber }
 		}
 
 		HOL_antonie_pannekoek = {
