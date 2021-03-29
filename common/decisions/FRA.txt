@@ -60,14 +60,14 @@ FRA_war_on_pacifism = {
 			}
 		}
 
-		cost = 50
+		cost = 75
 
 		fire_only_once = no
 
-		days_remove = 100
+		days_remove = 145
 		modifier = {
 			war_support_weekly = 0.001
-			stability_weekly = -0.001
+			stability_weekly = -0.002
 		}
 
 		visible = {
@@ -75,6 +75,11 @@ FRA_war_on_pacifism = {
 		}
 
 		remove_effect = {
+			add_popularity = {
+			    ideology = democratic
+			    popularity = -0.1
+			}
+			add_stability = -0.05
 			FRA_army_reform_level_down = yes
 			clr_country_flag = FRA_army_reform_in_progress
 		}
@@ -106,16 +111,16 @@ FRA_war_on_pacifism = {
 			}
 		}
 
-		cost = 50
+		cost = 75
 
 		fire_only_once = no
 
-		days_remove = 100
+		days_remove = 145
 		modifier = {
 			war_support_weekly = 0.001
-			political_power_factor = -0.05
-			industrial_capacity_factory = -0.1
-			industrial_capacity_dockyard = -0.1
+			political_power_factor = -0.02
+			industrial_capacity_factory = -0.15
+			industrial_capacity_dockyard = -0.15
 		}
 
 		visible = {
@@ -123,6 +128,10 @@ FRA_war_on_pacifism = {
 		}
 
 		remove_effect = {
+			add_popularity = {
+			    ideology = communism
+			    popularity = 0.05
+			}
 			FRA_army_reform_level_down = yes
 			clr_country_flag = FRA_army_reform_in_progress
 		}
@@ -155,15 +164,15 @@ FRA_war_on_pacifism = {
 			}
 		}
 
-		cost = 50
+		cost = 75
 
 		fire_only_once = no
 
-		days_remove = 100
+		days_remove = 145
 		
 		modifier = {
 			war_support_weekly = 0.001
-			political_power_factor = -0.25
+			political_power_factor = -0.35
 		}
 
 		visible = {
