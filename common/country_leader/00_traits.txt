@@ -1553,7 +1553,7 @@ leader_traits = {
 
 	headstrong = {
 		random = no
-		political_power_factor = 0.2
+		political_power_factor = 0.25
 		
 		ai_will_do = {
 			factor = 1`
@@ -1562,7 +1562,7 @@ leader_traits = {
 
 	popular_queen = {
 		random = no
-		stability_factor = 0.15
+		stability_factor = 0.2
 		resistance_damage_to_garrison = 0.2
 		compliance_growth_on_our_occupied_states = -0.2
 		resistance_growth_on_our_occupied_states  = 0.2
@@ -1578,8 +1578,8 @@ leader_traits = {
 		political_power_factor = -0.05
 		consumer_goods_factor = -0.05
         stability_weekly = 0.002
-		local_resources_factor = 0.1
 		production_speed_buildings_factor = 0.1
+		local_resources_factor = 0.05
 		
 		ai_will_do = {
 			factor = 1
@@ -1592,7 +1592,7 @@ leader_traits = {
 		political_power_factor = -0.05
 		industrial_capacity_factory = 0.1
 		industrial_capacity_dockyard = 0.1
-		conscription = 0.01
+		special_forces_cap = 0.1
 		conscription_factor = 0.1	
 		
 		ai_will_do = {
@@ -1604,10 +1604,10 @@ leader_traits = {
 		random = no
 		sprite = 10
 		political_power_factor = -0.05
-		production_factory_max_efficiency_factor = 0.05
-		production_factory_efficiency_gain_factor = 0.05
-		research_speed_factor = 0.025
+		production_factory_max_efficiency_factor = 0.1
+		production_factory_efficiency_gain_factor = 0.1
 		global_building_slots_factor = 0.1
+		research_speed_factor = 0.025
 		
 		ai_will_do = {
 			factor = 1

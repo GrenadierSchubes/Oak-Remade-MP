@@ -715,7 +715,7 @@ HOL_request_allied_favors = {
 			has_legitimacy > 80
 		}
 
-		days_remove = 10
+		days_remove = 30
 
 		fire_only_once = no
 
@@ -732,7 +732,7 @@ HOL_request_allied_favors = {
 		}
 
 		remove_effect = {
-			add_offsite_building = { type = dockyard level = 1 }
+			add_offsite_building = { type = dockyard level = 2 }
 			if = {
 				limit = {
 					NOT = { check_variable = { var = obtain_dockyard_counter value = 0 compare = greater_than } }
@@ -850,14 +850,14 @@ HOL_request_allied_favors = {
 			has_legitimacy > 80
 		}
 
-		days_remove = 10
+		days_remove = 20
 
 		fire_only_once = no
 
 		visible = {
 			tag = HOL
 			has_completed_focus = HOL_request_allied_favors
-			check_variable = { var = british_industrialists_counter value = 3 compare = less_than }
+			check_variable = { var = british_industrialists_counter value = 4 compare = less_than }
 		}
 
 		modifier = {
@@ -867,8 +867,8 @@ HOL_request_allied_favors = {
 		}
 
 		remove_effect = {
-			add_offsite_building = { type = arms_factory level = 1 }
-			add_offsite_building = { type = industrial_complex level = 1 }
+			add_offsite_building = { type = arms_factory level = 2 }
+			add_offsite_building = { type = industrial_complex level = 2 }
 			if = {
 				limit = {
 					NOT = { check_variable = { var = british_industrialists_counter value = 0 compare = greater_than } }
@@ -906,7 +906,7 @@ HOL_request_allied_favors = {
 		}
 
 		modifier = {
-			weekly_manpower = 500
+			weekly_manpower = 1000
 		}
 
 		complete_effect = {
@@ -943,6 +943,11 @@ operations = {
 		complete_effect = {
 			set_capital = 295
 			add_popularity = { ideology = democratic popularity = 0.50 }
+			add_equipment_to_stockpile = {
+				type = convoy
+				amount = 150
+			}
+			add_war_support = 0.1
 			every_state = {
 				limit = {
 					is_owned_and_controlled_by = HOL

@@ -66,8 +66,9 @@ ideas = {
 			removal_cost = -1
 						
 			modifier = {
-	            army_core_attack_factor = -0.2
-	            army_core_defence_factor = -0.2
+			    army_speed_factor = -0.5
+	            army_attack_factor = -0.35
+	            army_defence_factor = -0.35
 				production_speed_arms_factory_factor = -0.15
 			}
 		}
@@ -85,9 +86,13 @@ ideas = {
 			}
 			
 			removal_cost = -1
+			
+        	research_bonus = {
+        		special_tech = 0.05
+        	}
 						
 			modifier = {
-			    special_forces_cap = 0.1
+			    special_forces_min = 20
 			    production_speed_synthetic_refinery_factor = 0.05
 			    production_speed_synthetic_rubber_refinery_factor = 0.05
 			}
@@ -421,7 +426,8 @@ ideas = {
 			removal_cost = -1
 						
 			modifier = {
-				non_core_manpower = 0.05
+				conscription = 0.005
+				minimum_training_level = -0.1
 			}
 		}
 
@@ -635,7 +641,7 @@ ideas = {
 			modifier = {
 				consumer_goods_factor = -0.1
 				min_export = 0.3
-				war_support_weekly = 0.001
+				war_support_weekly = 0.002
 			}
 		}
 
@@ -773,7 +779,7 @@ ideas = {
 			}
 		}
 
-		HOL_modernize_the_air_fleet = {
+		HOL_modernize_tank = {
 		
 			picture = generic_air_payment
 
@@ -788,62 +794,12 @@ ideas = {
 			
 			removal_cost = -1
 
-			equipment_bonus = {
-				fighter_equipment = {
-					instant = yes
-					build_cost_ic = -0.1
+			equipment_bonus = { 
+				amphibious_mechanized_equipment = {
+					build_cost_ic = -0.1 instant = yes
 				}
-				cv_fighter_equipment = {
-					instant = yes
-					build_cost_ic = -0.1
-				}
-				jet_fighter_equipment = {
-					instant = yes
-					build_cost_ic = -0.1
-				}
-				cv_CAS_equipment = {
-					instant = yes
-					build_cost_ic = -0.1
-				}
-				CAS_equipment = {
-					instant = yes
-					build_cost_ic = -0.1
-				}
-				nav_bomber_equipment = {
-					instant = yes
-					build_cost_ic = -0.1
-				}
-				cv_nav_bomber_equipment = {
-					instant = yes
-					build_cost_ic = -0.1
-				}
-				rocket_interceptor_equipment = {
-					instant = yes
-					build_cost_ic = -0.1
-				}
-				tac_bomber_equipment = {
-					instant = yes
-					build_cost_ic = -0.1
-				}
-				jet_tac_bomber_equipment = {
-					instant = yes
-					build_cost_ic = -0.1
-				}
-				jet_strat_bomber_equipment = {
-					instant = yes
-					build_cost_ic = -0.1
-				}
-				heavy_fighter_equipment = {
-					instant = yes
-					build_cost_ic = -0.1
-				}
-				strat_bomber_equipment = {
-					instant = yes
-					build_cost_ic = -0.1
-				}
-				transport_plane_equipment = {
-					instant = yes
-					build_cost_ic = -0.1
+				amphibious_tank_equipment = {
+					build_cost_ic = -0.1 instant = yes
 				}
 			}
 		}
@@ -1194,7 +1150,7 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				conscription = 0.025
+				conscription = 0.015
 			}
 		}
 

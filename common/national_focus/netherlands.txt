@@ -15,6 +15,7 @@ focus_tree = {
 		modifier = {
 			add = 10
 			tag = HOL
+			has_dlc = "Man the Guns"
 		}
 	}
 	
@@ -219,7 +220,6 @@ focus_tree = {
 		available = {
 		}
 		prerequisite = { focus = HOL_curtail_colonial_autonomy }
-		mutually_exclusive = { focus = HOL_the_zuiderzee_works }
 		icon = GFX_goal_generic_construct_infrastructure
 		x = 2
 		y = 3
@@ -901,7 +901,6 @@ focus_tree = {
 			has_full_control_of_state = 36
 		}
 		prerequisite = { focus = HOL_expand_the_artillerieinrichtingen }
-		mutually_exclusive = { focus = HOL_the_crown_jewel_colony }
 		icon = GFX_focus_hol_the_zuiderzee_works
 		x = -1
 		y = 1
@@ -958,7 +957,7 @@ focus_tree = {
 				name = HOL_develop_the_randstad
 				bonus = 1.0
 				uses = 1
-				category = concentrated_industry_category
+				category = industry
 			}
 			7 = {
 				if = {
@@ -1081,7 +1080,7 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = HOL_modernize_the_air_fleet
+		id = HOL_modernize_tanks
 		prerequisite = { focus = HOL_fokker focus = HOL_daf }
 		icon = GFX_goal_generic_air_production
 		x = 0
@@ -1092,7 +1091,13 @@ focus_tree = {
 		available_if_capitulated = yes
 		search_filters = {FOCUS_FILTER_INDUSTRY}
 		completion_reward = {
-			add_ideas = HOL_modernize_the_air_fleet
+			add_ideas = HOL_modernize_tank
+			add_tech_bonus = {
+				name = HOL_develop_the_randstad
+				bonus = 1.0
+				uses = 1
+				category = tp_tech
+			}
 		}
 	}
 
@@ -1117,7 +1122,7 @@ focus_tree = {
 				name = HOL_develop_the_randstad
 				bonus = 1.0
 				uses = 1
-				category = dispersed_industry_category
+				category = industry
 			}
 			35 = {
 				if = {
@@ -1367,14 +1372,8 @@ focus_tree = {
 		search_filters = {FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY}
 		completion_reward = {
 			add_tech_bonus = {
-				name = HOL_make_use_of_our_riches
-				bonus = 1.0
-				uses = 2
-				category = excavation_tech
-			}
-			add_tech_bonus = {
 				name = HOL_expand_curacao_oil_refineries
-				bonus = 1.0
+				bonus = 1.5
 				uses = 2
 				category = synth_resources
 			}
@@ -2067,11 +2066,6 @@ focus_tree = {
 		id = HOL_prepare_naval_expansion
 		prerequisite = { focus = HOL_overturn_military_budget_cuts }
 		available = {
-			OR = {
-				has_full_control_of_state = 7
-				has_full_control_of_state = 35
-				has_full_control_of_state = 36
-			}
 		}
 		icon = GFX_goal_generic_construct_naval_dockyard
 		x = 7
@@ -2082,8 +2076,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		complete_tooltip = {
-			every_state = {
-				limit = { has_state_flag = HOL_prepare_naval_expansion_3DY }
+			36 = {
 				add_extra_state_shared_building_slots = 3
 				add_building_construction = {
 					type = dockyard
@@ -2095,23 +2088,13 @@ focus_tree = {
 
 		completion_reward = {
 			navy_experience = 25
-			random_owned_controlled_state = {
-				limit = {
-					NOT = { state = 7 }
-					free_building_slots = {
-						building = dockyard
-						size > 2
-						include_locked = yes
-					}
-					is_core_of = ROOT
-				}
+			36 = {
 				add_extra_state_shared_building_slots = 3
 				add_building_construction = {
 					type = dockyard
 					level = 3
 					instant_build = yes
 				}
-				set_state_flag = HOL_prepare_naval_expansion_3DY
 			}
 		}
 	}
@@ -2811,11 +2794,6 @@ focus_tree = {
 				add_building_construction = {
 					type = air_base
 					level = 8
-					instant_build = yes
-				}
-				add_building_construction = {
-					type = infrastructure
-					level = 2
 					instant_build = yes
 				}
 			}

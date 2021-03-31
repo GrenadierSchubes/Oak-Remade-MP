@@ -555,7 +555,6 @@ ideas = {
 			}
 
 			modifier = {
-				army_infantry_defence_factor = 0.05
 				supply_consumption_factor = 0.4
 			}
 		}

@@ -1661,6 +1661,7 @@ focus_tree = {
 
 		completion_reward = {
 			set_capital = 772
+
 			add_popularity = { ideology = democratic popularity = 0.75 }
 		    add_stability = 0.25
 			add_war_support = 0.25			
@@ -1676,7 +1677,7 @@ focus_tree = {
 			}
 			add_equipment_to_stockpile = {
 				type = convoy
-				amount = 100
+				amount = 150
 			}
 			every_state = {
 				limit = {
@@ -1684,8 +1685,13 @@ focus_tree = {
 				}
 				add_compliance = 100
 			}
-			add_legitimacy = 25
+			add_legitimacy = 50
 			hidden_effect  {
+			set_autonomy = {
+				target = HOL
+				autonomous_state = autonomy_supervised_state
+				freedom_level = 0.5
+			}
 			news_event = { id = news.342 hours = 12 } 
 			create_corps_commander = {
 				name = "Charles De Gaulle"

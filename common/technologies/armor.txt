@@ -70,12 +70,6 @@ technologies = {
 			position = { x = -4 y = @1940 }
 		}
 		
-		on_research_complete = {
-			hidden_effect = {
-				load_oob = "unlock_motorized"
-			}
-			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
-		}
 		categories = { all_armour
 			motorized_equipment
 			cat_mechanized_equipment

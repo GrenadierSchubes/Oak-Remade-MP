@@ -48,8 +48,8 @@ operations = {
 		}
 		available = {
 		    OR = {
-		        455 = { is_controlled_by = GER } 
-                455 = { is_controlled_by = ITA } 
+		        291 = { is_controlled_by = GER } 
+                291 = { is_controlled_by = ITA } 
             }	
             553 = { is_controlled_by = EFR }	
             ENG = {

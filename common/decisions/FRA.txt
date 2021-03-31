@@ -8,7 +8,7 @@ FRA_vichy_france = {
 		}
 		available = {
 		    553 = { is_controlled_by = EFR }
-		    455 = { is_controlled_by = ENG }  
+		    291 = { is_controlled_by = ENG }  
 			NOT = { has_war_with = EFR }
 		}
 

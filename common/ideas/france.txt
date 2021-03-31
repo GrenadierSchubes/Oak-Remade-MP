@@ -1276,7 +1276,7 @@ ideas = {
         	picture = generic_manpower_bonus
 
         	research_bonus = {
-        		special_tech = 0.05
+        		special_tech = 0.1
         	}
 
         	modifier = {

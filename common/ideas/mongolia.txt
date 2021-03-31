@@ -38,6 +38,10 @@ ideas = {
             }
 
             removal_cost = -1
+			
+			research_bonus = {
+				land_doctrine = 0.1
+			}
 
 			modifier = {
 			    winter_attrition_factor = -0.3
