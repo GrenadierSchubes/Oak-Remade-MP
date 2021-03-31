@@ -271,7 +271,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment;;
 6763;3711;impassable;-1;-1;-1;-1;-1;;Caucasus;;;;
 6763;1450;impassable;-1;-1;-1;-1;-1;;Caucasus;;;;
 11645;1450;impassable;-1;-1;-1;-1;-1;;Caucasus;;;;
-4135;13228;impassable;-1;-1;-1;-1;-1;;gibraltar;;;;
+1048;13228;impassable;-1;-1;-1;-1;-1;;gibraltar;;;;
 13234;13228;impassable;-1;-1;-1;-1;-1;;gibraltar;;;;
 13234;10094;impassable;-1;-1;-1;-1;-1;;gibraltar;;;;
 13234;7153;impassable;-1;-1;-1;-1;-1;;gibraltar;;;;

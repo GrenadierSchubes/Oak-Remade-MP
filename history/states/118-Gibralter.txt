@@ -9,7 +9,7 @@ state=
 		owner = ENG
 		add_core_of = NGA
 
-		victory_points = { 4135 10 }
+		victory_points = { 4135 15 }
 		buildings = {
 			infrastructure = 6
 			air_base = 2
@@ -18,9 +18,14 @@ state=
 				coastal_bunker = 2
 				bunker = 2		
 			}
+			13228 = {
+				naval_base = 5
+				coastal_bunker = 2
+				bunker = 2		
+			}
 		}
 	}
 	provinces={
-		4135 13234
+		4135 13234 13228
 	}
 }
