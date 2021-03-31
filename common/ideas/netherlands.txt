@@ -73,6 +73,27 @@ ideas = {
 			}
 		}
 		
+		HOL_neutral2 = {
+
+			picture = tfv_can_conscription_crisis
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+						
+			modifier = {
+				army_core_attack_factor = -0.2
+				army_core_defence_factor = -0.2
+		        conscription_factor = -0.5
+			}
+		}
+		
 		HOL_aloof_neutralit = {
 
 			picture = hol_aloof_neutrality
@@ -88,7 +109,7 @@ ideas = {
 			removal_cost = -1
 			
         	research_bonus = {
-        		special_tech = 0.05
+        		special_tech = 0.1
         	}
 						
 			modifier = {
@@ -117,7 +138,7 @@ ideas = {
 			modifier = {
 				conscription_factor = -0.3
 				industrial_capacity_factory = -0.25
-				industrial_capacity_dockyard = -0.25
+				industrial_capacity_dockyard = -0.20
 			}
 		}
 
@@ -140,7 +161,7 @@ ideas = {
 			modifier = {
 				conscription_factor = -0.26
 				industrial_capacity_factory = -0.2
-				industrial_capacity_dockyard = -0.2
+				industrial_capacity_dockyard = -0.16
 			}
 		}
 
@@ -163,7 +184,7 @@ ideas = {
 			modifier = {
 				conscription_factor = -0.18
 				industrial_capacity_factory = -0.15
-				industrial_capacity_dockyard = -0.15
+				industrial_capacity_dockyard = -0.12
 			}
 		}
 
@@ -186,7 +207,7 @@ ideas = {
 			modifier = {
 				conscription_factor = -0.12
 				industrial_capacity_factory = -0.1
-				industrial_capacity_dockyard = -0.1
+				industrial_capacity_dockyard = -0.8
 			}
 		}
 
@@ -209,7 +230,7 @@ ideas = {
 			modifier = {
 				conscription_factor = -0.06
 				industrial_capacity_factory = -0.05
-				industrial_capacity_dockyard = -0.05
+				industrial_capacity_dockyard = -0.04
 			}
 		}
 
@@ -353,6 +374,9 @@ ideas = {
 			removal_cost = -1
 						
 			equipment_bonus = {
+				ship_hull_submarine = {
+					build_cost_ic = -0.05 instant = yes
+				}
 				ship_hull_light = {
 					build_cost_ic = -0.05 instant = yes
 				}
@@ -819,7 +843,9 @@ ideas = {
 			removal_cost = -1
 						
 			modifier = {
-				industrial_capacity_dockyard = 0.05
+				refit_ic_cost = -0.10
+				refit_speed = 0.10
+				repair_speed_factor = 0.10
 			}
 		}
 
@@ -1210,7 +1236,7 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				industrial_capacity_dockyard = 0.05
+				industrial_capacity_dockyard = 0.1
 			}
 		}
 
@@ -1963,20 +1989,6 @@ ideas = {
 			traits = { genial_anti_revolutionary }
 		}
 		
-		HOL_cornelis_van_geelkerken = {
-
-			picture = generic_political_advisor_europe_3
-				
-			allowed = {
-				original_tag = HOL
-			}
-
-			available = {
-			}
-			
-			traits = { prince_of_terror }
-		}
-		
 		HOL_walraven_van_hall = {
 
 			picture = generic_political_advisor_europe_3
@@ -2179,6 +2191,21 @@ ideas = {
 
 
 	high_command = {
+	
+		HOL_cornelis_van_geelkerken = {
+		    ledger = air
+
+			picture = generic_political_advisor_europe_3
+				
+			allowed = {
+				original_tag = HOL
+			}
+
+			available = {
+			}
+			
+			traits = { air_chief_all_weather_1  }
+		}	
 
 		HOL_maarten_belzer = {
 			ledger = army
@@ -2237,7 +2264,7 @@ ideas = {
 				original_tag = HOL
 			}
 			
-			traits = { army_commando_1 }
+			traits = { army_commando_2 }
 			
 			ai_will_do = {
 				factor = 1

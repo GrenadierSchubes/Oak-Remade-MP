@@ -54,8 +54,10 @@ focus_tree = {
  	focus = {
 		id = HOL_curtail_colonial_autonomy
 		available = {
+		has_war = no
 		}
 		bypass = {
+		has_capitulated = yes
 		}
 		prerequisite = { focus = HOL_obtain_foreign_colonial_investments }
 		icon = GFX_focus_generic_treaty
@@ -177,7 +179,7 @@ focus_tree = {
 		x = 2
 		y = 2
 		relative_position_id = HOL_expand_curacao_oil_refineries
-		cost = 2
+		cost = 3
 
 		available_if_capitulated = yes
 
@@ -185,8 +187,14 @@ focus_tree = {
 			695 = {
 				add_building_construction = {
 					type = coastal_bunker
-					level = 3
+					level = 2
 					province = 153
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 2
+					province = 10968
 					instant_build = yes
 				}
 				add_building_construction = {
@@ -199,10 +207,28 @@ focus_tree = {
 					level = 2
 					instant_build = yes
 				}
+			}
+			691 = {
 				add_building_construction = {
-					type = naval_base
+					type = coastal_bunker
 					level = 2
 					province = 153
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 2
+					province = 10968
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = anti_air_building
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = air_base
+					level = 2
 					instant_build = yes
 				}
 			}
@@ -305,7 +331,7 @@ focus_tree = {
 		x = -2
 		y = 2
 		relative_position_id = HOL_jav
-		cost = 2
+		cost = 3
 
 		available_if_capitulated = yes
 
@@ -314,17 +340,27 @@ focus_tree = {
 				add_building_construction = {
 					type = coastal_bunker
 					level = 3
-					province = 10968
+					province = 153
 					instant_build = yes
 				}
 				add_building_construction = {
 					type = bunker
-					level = 2
+					level = 3
 					province = 10968
 					instant_build = yes
 				}
 				add_building_construction = {
 					type = anti_air_building
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = radar_station
 					level = 2
 					instant_build = yes
 				}
@@ -348,7 +384,8 @@ focus_tree = {
 				}
 			}
 		}
-		prerequisite = { focus = HOL_antilles_defenses focus = HOL_reinforce_jav }
+		prerequisite = { focus = HOL_antilles_defenses }
+		prerequisite = { focus = HOL_reinforce_jav }
 		icon = GFX_focus_hol_the_foundations_of_defense
 		x = -1
 		y = 1
@@ -370,7 +407,7 @@ focus_tree = {
 			669 = {
 				add_building_construction = {
 					type = naval_base
-					level = 2
+					level = 3
 					province = 12371
 					instant_build = yes
 				}
@@ -559,11 +596,6 @@ focus_tree = {
 				limit = {
 					is_owned_and_controlled_by = HOL
 				}
-				add_state_modifier = {
-					modifier = {
-						local_non_core_manpower = 0.25
-					}
-				}
 			}
 		}
 	}
@@ -704,12 +736,8 @@ focus_tree = {
 	focus = {
 		id = HOL_continue_the_public_works
 		available = {
-			has_full_control_of_state = 7
 		}
 		bypass = {
-			NOT = { controls_state = 7 }
-			NOT = { controls_state = 35 }
-			NOT = { controls_state = 36 }
 		}
 		prerequisite = { focus = HOL_abandon_the_gold_standard }
 		icon = GFX_goal_generic_construction
@@ -897,8 +925,6 @@ focus_tree = {
  	focus = {
 		id = HOL_the_zuiderzee_works
 		available = {
-			has_full_control_of_state = 7
-			has_full_control_of_state = 36
 		}
 		prerequisite = { focus = HOL_expand_the_artillerieinrichtingen }
 		icon = GFX_focus_hol_the_zuiderzee_works
@@ -940,7 +966,6 @@ focus_tree = {
 	focus = {
 		id = HOL_develop_the_randstad
 		available = {
-			has_full_control_of_state = 7
 		}
 		prerequisite = { focus = HOL_the_zuiderzee_works }
 		mutually_exclusive = { focus = HOL_develop_the_zandstad }
@@ -1003,7 +1028,6 @@ focus_tree = {
 	focus = {
 		id = HOL_expand_the_ijmuiden_steel_mill
 		available = {
-			has_full_control_of_state = 7
 		}
 		prerequisite = { focus = HOL_develop_the_randstad }
 		icon = GFX_focus_generic_steel
@@ -1044,7 +1068,6 @@ focus_tree = {
 	focus = {
 		id = HOL_fokker
 		available = {
-			has_full_control_of_state = 7
 		}
 		prerequisite = { focus = HOL_expand_the_ijmuiden_steel_mill }
 		icon = GFX_focus_hol_fokker
@@ -1104,8 +1127,6 @@ focus_tree = {
 	focus = {
 		id = HOL_develop_the_zandstad
 		available = {
-			has_full_control_of_state = 35
-			has_full_control_of_state = 36
 		}
 		prerequisite = { focus = HOL_the_zuiderzee_works }
 		mutually_exclusive = { focus = HOL_develop_the_randstad }
@@ -1168,7 +1189,6 @@ focus_tree = {
 	focus = {
 		id = HOL_friesland_agricultural_impetus
 		available = {
-			has_full_control_of_state = 36
 		}
 		prerequisite = { focus = HOL_develop_the_zandstad }
 		icon = GFX_goal_generic_consumer_goods
@@ -1205,7 +1225,6 @@ focus_tree = {
 	focus = {
 		id = HOL_daf
 		available = {
-			has_full_control_of_state = 35
 		}
 		prerequisite = { focus = HOL_friesland_agricultural_impetus }
 		icon = GFX_focus_hol_daf
@@ -1265,9 +1284,6 @@ focus_tree = {
 	focus = {
 		id = HOL_continental_shipbuilding
 		available = {
-			has_full_control_of_state = 7
-			has_full_control_of_state = 35
-			has_full_control_of_state = 36
 		}
 		prerequisite = { focus = HOL_fokker focus = HOL_daf }
 		icon = GFX_goal_generic_construct_naval_dockyard
@@ -1793,7 +1809,7 @@ focus_tree = {
 			295 = {
 				add_building_construction = {
 					type = air_base
-					level = 2
+					level = 3
 					instant_build = yes
 				}
 			}
@@ -2075,24 +2091,13 @@ focus_tree = {
 
 		available_if_capitulated = yes
 
-		complete_tooltip = {
-			36 = {
-				add_extra_state_shared_building_slots = 3
-				add_building_construction = {
-					type = dockyard
-					level = 3
-					instant_build = yes
-				}
-			}
-		}
-
 		completion_reward = {
 			navy_experience = 25
-			36 = {
-				add_extra_state_shared_building_slots = 3
+			669 = {
+				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = dockyard
-					level = 3
+					level = 1
 					instant_build = yes
 				}
 			}
@@ -2685,8 +2690,7 @@ focus_tree = {
 			has_war = yes
 			NOT = { has_war_with = USA }
 		}
-		prerequisite = { focus = HOL_ship_a_day_sinking_quotas }
-		prerequisite = { focus = HOL_allied_technological_developments }
+		prerequisite = { focus = HOL_allied_technological_developments focus = HOL_ship_a_day_sinking_quotas  }
 		icon = GFX_focus_chi_mission_to_the_us
 		x = 1
 		y = 1
@@ -2790,17 +2794,75 @@ focus_tree = {
 		available_if_capitulated = yes
 		search_filters = {FOCUS_FILTER_INDUSTRY}
 		completion_reward = {
-			309 = {	
+			309 = {
+				add_building_construction = {
+					type = coastal_bunker
+					level = 2
+					province = 153
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 2
+					province = 10968
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = anti_air_building
+					level = 2
+					instant_build = yes
+				}
 				add_building_construction = {
 					type = air_base
-					level = 8
+					level = 2
 					instant_build = yes
 				}
 			}
-			695 = {	
+			310 = {
 				add_building_construction = {
-					type = radar_station
-					level = 3
+					type = coastal_bunker
+					level = 2
+					province = 153
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 2
+					province = 10968
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = anti_air_building
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+				}
+			}
+			687 = {
+				add_building_construction = {
+					type = coastal_bunker
+					level = 2
+					province = 153
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 2
+					province = 10968
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = anti_air_building
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = air_base
+					level = 2
 					instant_build = yes
 				}
 			}

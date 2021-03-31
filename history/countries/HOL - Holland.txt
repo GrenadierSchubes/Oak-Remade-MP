@@ -192,7 +192,7 @@ create_field_marshal = {
 create_corps_commander = {
 	name = "Petrus Wilhelmus Best"
 	gfx = "GFX_portrait_hol_petrus_wilhelmus_best"
-	traits = { skilled_staffer infantry_leader }
+	traits = { skilled_staffer naval_invader infantry_leader }
 	skill = 3
 	attack_skill = 3
 	defense_skill = 3
@@ -203,7 +203,7 @@ create_corps_commander = {
 create_corps_commander = {
 	name = "Godfried van Voorst tot Voorst"
 	gfx = "GFX_portrait_hol_godfried_van_voorst_tot_voorst"
-	traits = { skilled_staffer panzer_leader }
+	traits = { skilled_staffer trickster panzer_leader }
 	skill = 3
 	attack_skill = 3
 	defense_skill = 3
@@ -216,8 +216,8 @@ create_navy_leader = {
 	gfx = "GFX_portrait_hol_johannes_theodorus_furstner"
 	traits = { caustic_personality fly_swatter blockade_runner }
 	skill = 3
-	attack_skill = 2
-	defense_skill = 3
+	attack_skill = 3
+	defense_skill = 2
 	maneuvering_skill = 2
 	coordination_skill = 3
 }
@@ -240,9 +240,9 @@ create_navy_leader = {
 	traits = { fleet_protector naval_lineage bold }
 	skill = 3
 	attack_skill = 3
-	defense_skill = 2
+	defense_skill = 3
 	maneuvering_skill = 3
-	coordination_skill = 2
+	coordination_skill = 3
 }
 
 

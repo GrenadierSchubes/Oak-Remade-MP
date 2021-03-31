@@ -1543,8 +1543,6 @@ leader_traits = {
 		air_chief_cost_factor = 0.1
 		army_chief_cost_factor = 0.1
 		navy_chief_cost_factor = 0.1
-		army_core_attack_factor = -0.2
-		army_core_defence_factor = -0.2
 		
 		ai_will_do = {
 			factor = 1
@@ -1554,6 +1552,7 @@ leader_traits = {
 	headstrong = {
 		random = no
 		political_power_factor = 0.25
+		democratic_drift = 0.15
 		
 		ai_will_do = {
 			factor = 1`
