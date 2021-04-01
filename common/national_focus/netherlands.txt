@@ -931,20 +931,13 @@ focus_tree = {
 		x = -1
 		y = 1
 		relative_position_id = HOL_expand_the_artillerieinrichtingen
-		cost = 7.16
+		cost = 5
 
 		available_if_capitulated = yes
 		search_filters = {FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY}
 		completion_reward = {
-			add_tech_bonus = {
-				name = HOL_the_zuiderzee_works
-				bonus = 1.0
-				ahead_reduction = 1
-				uses = 2
-				category = industry
-			}
-			7 = {
-				add_extra_state_shared_building_slots = 1
+			35 = {
+				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = infrastructure
 					level = 1
@@ -952,10 +945,10 @@ focus_tree = {
 				}
 			}
 			36 = {
-				add_extra_state_shared_building_slots = 4
+				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = infrastructure
-					level = 2
+					level = 1
 					instant_build = yes
 				}
 			}
@@ -973,40 +966,15 @@ focus_tree = {
 		x = -1
 		y = 1
 		relative_position_id = HOL_the_zuiderzee_works
-		cost = 7.16
+		cost = 5
 
 		available_if_capitulated = yes
 		search_filters = {FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY}
 		completion_reward = {
-			add_tech_bonus = {
-				name = HOL_develop_the_randstad
-				bonus = 1.0
-				uses = 1
-				category = industry
-			}
 			7 = {
 				if = {
 					limit = {
 						7 = {
-							free_building_slots = {
-								building = industrial_complex
-								size > 2
-								include_locked = yes
-							}
-						}
-					}
-					add_extra_state_shared_building_slots = 3
-					add_building_construction = {
-						type = industrial_complex
-						level = 3
-						instant_build = yes
-					}
-				}
-			}
-			36 = {
-				if = {
-					limit = {
-						36 = {
 							free_building_slots = {
 								building = industrial_complex
 								size > 0
@@ -1034,7 +1002,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = HOL_develop_the_randstad
-		cost = 7.16
+		cost = 5
 
 		available_if_capitulated = yes
 		search_filters = {FOCUS_FILTER_INDUSTRY}
@@ -1049,15 +1017,15 @@ focus_tree = {
 						7 = {
 							free_building_slots = {
 								building = industrial_complex
-								size > 1
+								size > 0
 								include_locked = yes
 							}
 						}
 					}
-					add_extra_state_shared_building_slots = 2
+					add_extra_state_shared_building_slots = 1
 					add_building_construction = {
 						type = industrial_complex
-						level = 2
+						level = 1
 						instant_build = yes
 					}
 				}
@@ -1074,27 +1042,33 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = HOL_expand_the_ijmuiden_steel_mill
-		cost = 7.16
+		cost = 5
 
 		available_if_capitulated = yes
 		search_filters = {FOCUS_FILTER_INDUSTRY}
 		completion_reward = {
-		    HOL_de_crisisjaren_level_down = yes
+			add_tech_bonus = {
+				name = HOL_the_zuiderzee_works
+				bonus = 1.0
+				ahead_reduction = 1
+				uses = 1
+				category = industry
+			}
 			7 = {
 				if = {
 					limit = {
 						7 = {
 							free_building_slots = {
 								building = arms_factory
-								size > 3
+								size > 2
 								include_locked = yes
 							}
 						}
 					}
-					add_extra_state_shared_building_slots = 4
+					add_extra_state_shared_building_slots = 3
 					add_building_construction = {
 						type = arms_factory
-						level = 4
+						level = 3
 						instant_build = yes
 					}
 				}
@@ -1104,12 +1078,12 @@ focus_tree = {
 	
 	focus = {
 		id = HOL_modernize_tanks
-		prerequisite = { focus = HOL_fokker focus = HOL_daf }
+		prerequisite = { focus = HOL_fokker }
 		icon = GFX_goal_generic_air_production
 		x = 0
 		y = 1
 		relative_position_id = HOL_fokker
-		cost = 7.16
+		cost = 5
 
 		available_if_capitulated = yes
 		search_filters = {FOCUS_FILTER_INDUSTRY}
@@ -1134,51 +1108,26 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = HOL_the_zuiderzee_works
-		cost = 7.16
+		cost = 5
 
 		available_if_capitulated = yes
 		search_filters = {FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY}
 		completion_reward = {
-			add_tech_bonus = {
-				name = HOL_develop_the_randstad
-				bonus = 1.0
-				uses = 1
-				category = industry
-			}
 			35 = {
 				if = {
 					limit = {
 						35 = {
 							free_building_slots = {
 								building = industrial_complex
-								size > 1
+								size > 0
 								include_locked = yes
 							}
 						}
 					}
-					add_extra_state_shared_building_slots = 2
+					add_extra_state_shared_building_slots = 1
 					add_building_construction = {
 						type = industrial_complex
-						level = 2
-						instant_build = yes
-					}
-				}
-			}
-			36 = {
-				if = {
-					limit = {
-						36 = {
-							free_building_slots = {
-								building = industrial_complex
-								size > 1
-								include_locked = yes
-							}
-						}
-					}
-					add_extra_state_shared_building_slots = 2
-					add_building_construction = {
-						type = industrial_complex
-						level = 2
+						level = 1
 						instant_build = yes
 					}
 				}
@@ -1195,7 +1144,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = HOL_develop_the_zandstad
-		cost = 7.16
+		cost = 5
 
 		available_if_capitulated = yes
 		search_filters = {FOCUS_FILTER_INDUSTRY}
@@ -1206,15 +1155,34 @@ focus_tree = {
 						36 = {
 							free_building_slots = {
 								building = industrial_complex
-								size > 1
+								size > 0
 								include_locked = yes
 							}
 						}
 					}
-					add_extra_state_shared_building_slots = 2
+					add_extra_state_shared_building_slots = 1
 					add_building_construction = {
 						type = industrial_complex
-						level = 2
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+			7 = {
+				if = {
+					limit = {
+						7 = {
+							free_building_slots = {
+								building = industrial_complex
+								size > 0
+								include_locked = yes
+							}
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
 						instant_build = yes
 					}
 				}
@@ -1231,27 +1199,33 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = HOL_friesland_agricultural_impetus
-		cost = 7.16
+		cost = 5
 
 		available_if_capitulated = yes
 		search_filters = {FOCUS_FILTER_INDUSTRY}
 		completion_reward = {
-		    HOL_de_crisisjaren_level_down = yes
+			add_tech_bonus = {
+				name = HOL_the_zuiderzee_works
+				bonus = 1.0
+				ahead_reduction = 1
+				uses = 1
+				category = industry
+			}
 			35 = {
 				if = {
 					limit = {
 						35 = {
 							free_building_slots = {
 								building = arms_factory
-								size > 3
+								size > 1
 								include_locked = yes
 							}
 						}
 					}
-					add_extra_state_shared_building_slots = 4
+					add_extra_state_shared_building_slots = 2
 					add_building_construction = {
 						type = arms_factory
-						level = 4
+						level = 2
 						instant_build = yes
 					}
 				}
@@ -1261,23 +1235,23 @@ focus_tree = {
 
 	focus = {
 		id = HOL_domestic_vehicle_designs
-		prerequisite = { focus = HOL_daf focus = HOL_fokker }
+		prerequisite = { focus = HOL_daf }
 		icon = GFX_goal_generic_army_motorized
 		x = 0
 		y = 1
 		relative_position_id = HOL_daf
-		cost = 7.16
+		cost = 5
 
 		available_if_capitulated = yes
 		search_filters = {FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY}
 		completion_reward = {
+			add_ideas = HOL_domestic_vehicle_designs
 			add_tech_bonus = {
 				name = HOL_domestic_vehicle_designs
 				bonus = 1.0
 				uses = 1
 				category = motorized_equipment
 			}
-			add_ideas = HOL_domestic_vehicle_designs
 		}
 	}
 

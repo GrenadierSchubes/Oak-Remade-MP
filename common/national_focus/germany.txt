@@ -4420,6 +4420,8 @@ focus_tree = {
 		}
 		available_if_capitulated = yes
 		completion_reward = {
+			custom_effect_tooltip = available_designer
+			show_ideas_tooltip = MAN_man
 			add_ideas = OB_ost_wolf
 		}
 	}	
@@ -4437,8 +4439,6 @@ focus_tree = {
 		}
 		available_if_capitulated = yes
 		completion_reward = {
-			custom_effect_tooltip = available_designer
-			show_ideas_tooltip = MAN_man
 		
 			add_tech_bonus = {
 				name = GER_the_wild_cats_that_roam_in_russia
