@@ -2439,7 +2439,7 @@ ideas = {
 			available = {
 				GER = {
 					has_idea = speer
-					has_completed_focus = GER_mobile_fortresses
+					has_completed_focus = GER_festung_principle
 				}
 			}			
 			

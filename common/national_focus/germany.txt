@@ -4246,6 +4246,8 @@ focus_tree = {
 		}
 		available_if_capitulated = yes
 		completion_reward = {
+			custom_effect_tooltip = available_designer
+			show_ideas_tooltip = henschel2
 			add_ideas = OB_ost_turtle
 			custom_effect_tooltip = GER_osttruppen_tt				
 		}
@@ -4280,8 +4282,6 @@ focus_tree = {
 		}
 		available_if_capitulated = yes
 		completion_reward = {
-			custom_effect_tooltip = available_designer
-			show_ideas_tooltip = henschel2
 			set_technology = { 
 			    ger_heavy_tank_1942 = 1
 			}
