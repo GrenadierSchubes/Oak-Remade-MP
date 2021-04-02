@@ -12,7 +12,7 @@ state={
 
 	history={
 		owner = HOL
-		add_core_of = INS
+		add_core_of = HOL
 		buildings = {
 			infrastructure = 2
 			1574 = {

@@ -946,7 +946,7 @@ operations = {
 				type = convoy
 				amount = 150
 			}
-			add_war_support = 0.1
+			add_war_support = 0.15
 			if = {
 			    limit = {
 			    	has_idea = HOL_curtail_colonial_autonomy_overlord
@@ -956,16 +956,6 @@ operations = {
 			swap_ideas = {
 				remove_idea = HOL_neutral
 				add_idea = HOL_neutral2
-			}
-			hidden_effect = {
-			add_state_core = 295
-			add_state_core = 538
-			add_state_core = 718
-			add_state_core = 768
-			add_state_core = 769
-			add_state_core = 738
-			add_state_core = 668
-			add_state_core = 669
 			}
 		}
 	}

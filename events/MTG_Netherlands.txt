@@ -254,7 +254,7 @@ country_event = {
 				has_opinion = { target = ENG value < -99 }
 			}
 		}
-		army_experience = -5
+		army_experience = -15
 		FROM = { country_event = { id = mtg_netherlands.33 hours = 6 } }
 		custom_effect_tooltip = mtg_netherlands.32_tt
 	}
@@ -306,7 +306,7 @@ country_event = {
 	option = {
 		name = mtg_netherlands.33.a
 		effect_tooltip = {
-			FROM = { army_experience = -5 }
+			FROM = { army_experience = -15 }
 		}
 		custom_effect_tooltip = mtg_netherlands.33_tt
 		if = {
@@ -544,7 +544,7 @@ country_event = {
 				has_opinion = { target = ENG value < -99 }
 			}
 		}
-		army_experience = -5
+		army_experience = -15
 		effect_tooltip = {
 			FROM = {
 				add_tech_bonus = {
@@ -605,7 +605,7 @@ country_event = {
 	option = {
 		name = mtg_netherlands.42.a
 		effect_tooltip = {
-			FROM = { army_experience = -5 }
+			FROM = { army_experience = -15 }
 		}
 		add_tech_bonus = {
 			name = HOL_secret_staff_talks

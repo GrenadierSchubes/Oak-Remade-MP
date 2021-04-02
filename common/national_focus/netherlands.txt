@@ -586,17 +586,13 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = HOL_continue_the_war_in_batavi
-		cost = 7.16
+		cost = 5
 
 		available_if_capitulated = yes
 		search_filters = {FOCUS_FILTER_MANPOWER}
 		completion_reward = {
 			add_ideas = HOL_expand_the_colonial_army
-			every_state = {
-				limit = {
-					is_owned_and_controlled_by = HOL
-				}
-			}
+			add_popularity = { ideology = democratic popularity = 0.30 }
 		}
 	}
 
@@ -2676,7 +2672,7 @@ focus_tree = {
 		completion_reward = {
 		    HOL = { 
 			   add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 6000 producer = USA } 
-               add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 750 producer = USA } 
+               add_equipment_to_stockpile = { type = pack_artillery_equipment_1 amount = 750 producer = USA } 
                add_equipment_to_stockpile = { type = support_equipment_1 amount = 500 producer = USA } 
                add_equipment_to_stockpile = { type = anti_air_equipment_1 amount = 200 producer = USA } 
                add_equipment_to_stockpile = { type = anti_tank_equipment_1 amount = 200 producer = USA } 
