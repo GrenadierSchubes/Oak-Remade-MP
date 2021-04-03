@@ -701,12 +701,12 @@ focus_tree = {
 		search_filters = {FOCUS_FILTER_INDUSTRY}
 		completion_reward = { 	
 			if = {
-				limit = { has_full_control_of_state = 112 }	
-				unlock_decision_tooltip = POR_develop_lisbon_tungsten_deposits
+				limit = { has_full_control_of_state = 540 }	
+				unlock_decision_tooltip = POR_develop_south_angola_tungsten_deposits
 			}
 			if = {
-				limit = { has_full_control_of_state = 795 }
-				unlock_decision_tooltip = POR_develop_santarem_chromium_deposits
+				limit = { has_full_control_of_state = 544 }
+				unlock_decision_tooltip = POR_develop_mozambique_chromium_deposits
 			}			
 		}
 	}
@@ -2539,7 +2539,6 @@ focus_tree = {
 	focus = {
 		id = POR_national_gold_reserves
 		available = {
-			has_war = no
 		}
 
 		bypass = {		

@@ -77,6 +77,43 @@ operations = {
 			}
 		}
 	}
+	
+	POR_relocate_government_to_africa = {
+
+		icon = generic_bureaucracy
+
+		allowed = {
+			original_tag = POR
+		}
+
+		available = {
+			is_ai = no
+		}
+
+		cost = 0
+
+		fire_only_once = yes
+
+		visible = {
+			is_ai = no
+		}
+
+		complete_effect = {
+			set_capital = 540
+			SPR = {
+		        transfer_state = 112 
+		        transfer_state = 179 
+		    	transfer_state = 795 
+		        transfer_state = 180 
+		    	transfer_state = 181 
+			    add_state_core = 112
+			    add_state_core = 179
+			    add_state_core = 795
+			    add_state_core = 180
+			    add_state_core = 181
+			}
+		}
+	}
     POR_ally = {
 
 		icon = generic_political_discourse
@@ -526,7 +563,7 @@ POR_overseas_provinces = {
 }
 
 POR_prospect_for_resources = {
-	POR_develop_lisbon_tungsten_deposits = { #112
+	POR_develop_south_angola_tungsten_deposits = { #540
 		
 		icon = tungsten
 
@@ -535,20 +572,20 @@ POR_prospect_for_resources = {
 		}
 
 		highlight_state_targets = {
-			state = 112
+			state = 540
 		}
 
 		available = {
 			has_completed_focus = POR_extraction_industries
 			num_of_civilian_factories_available_for_projects > 2
-			owns_state = 112
-			controls_state = 112
+			owns_state = 540
+			controls_state = 540
 		}
 
 		visible = {
-			owns_state = 112
-			controls_state = 112
-			112 = {
+			owns_state = 540
+			controls_state = 540
+			540 = {
 				NOT = {	has_state_flag = POR_lisbon_tungsten_developed_flag }
 			}
 		}
@@ -562,11 +599,11 @@ POR_prospect_for_resources = {
 		}
 
 		remove_effect = {
-			112 = {	set_state_flag = POR_lisbon_tungsten_developed_flag }
-			112 = {
+			540 = {	set_state_flag = POR_lisbon_tungsten_developed_flag }
+			540 = {
 				add_resource = {
 					type = tungsten
-					amount = 20
+					amount = 50
 				}
 			}
 		}
@@ -580,7 +617,7 @@ POR_prospect_for_resources = {
 		}
 	}
 
-	POR_develop_santarem_chromium_deposits = { #795
+	POR_develop_mozambique_chromium_deposits = { #544
 		
 		icon = chromium
 
@@ -589,20 +626,20 @@ POR_prospect_for_resources = {
 		}
 
 		highlight_state_targets = {
-			state = 795
+			state = 544
 		}
 
 		available = {
 			has_completed_focus = POR_extraction_industries
 			num_of_civilian_factories_available_for_projects > 1
-			owns_state = 795
-			controls_state = 795
+			owns_state = 544
+			controls_state = 544
 		}
 
 		visible = {
-			owns_state = 795
-			controls_state = 795
-			795 = {
+			owns_state = 544
+			controls_state = 544
+			544 = {
 				NOT = {
 					has_state_flag = { 
 						flag = POR_santarem_chromium_developed_flag
@@ -621,7 +658,7 @@ POR_prospect_for_resources = {
 
 		remove_effect = {
 			add_to_variable = { var = POR_santarem_chromium_duration value = 10 }
-			795 = {
+			544 = {
 				if = {
 					limit = {
 						NOT = {
@@ -640,7 +677,7 @@ POR_prospect_for_resources = {
 					}
 				}
 			}
-			795 = {
+			544 = {
 				add_resource = {
 					type = chromium
 					amount = 10
