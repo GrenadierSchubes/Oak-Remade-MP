@@ -592,7 +592,6 @@ focus_tree = {
 		search_filters = {FOCUS_FILTER_MANPOWER}
 		completion_reward = {
 			add_ideas = HOL_expand_the_colonial_army
-			add_popularity = { ideology = democratic popularity = 0.30 }
 		}
 	}
 

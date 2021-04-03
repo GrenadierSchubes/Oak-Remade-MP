@@ -1687,11 +1687,6 @@ focus_tree = {
 			}
 			add_legitimacy = 50
 			hidden_effect  {
-			set_autonomy = {
-				target = HOL
-				autonomous_state = autonomy_supervised_state
-				freedom_level = 0.5
-			}
 			news_event = { id = news.342 hours = 12 } 
 			create_corps_commander = {
 				name = "Charles De Gaulle"
@@ -3377,17 +3372,15 @@ focus_tree = {
 				limit = {
 					has_dlc = "Man the Guns"
 				}
-				hidden_effect = {
-					add_equipment_production = {
-						equipment = {
-							type = ship_hull_carrier_1
-							creator = "FRA" 
-							version_name = "Joffre Class"
-						}
-						requested_factories = 1
-						progress = 0.5
-						amount = 1
+				add_equipment_production = {
+					equipment = {
+						type = ship_hull_carrier_1
+						creator = "FRA" 
+						version_name = "Joffre Class"
 					}
+					requested_factories = 1
+					progress = 0.5
+					amount = 1
 				}	
 			}
 			else = {

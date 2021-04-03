@@ -209,7 +209,7 @@ ideas = {
 			modifier = {
 				conscription_factor = -0.12
 				industrial_capacity_factory = -0.1
-				industrial_capacity_dockyard = -0.8
+				industrial_capacity_dockyard = -0.08
 			}
 		}
 

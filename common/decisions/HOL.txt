@@ -534,9 +534,6 @@ HOL_secret_staff_talks = {
 					    target = ROOT
 					}
 				}
-			}
-			custom_effect_tooltip = HOL_request_equipment_tt
-			effect_tooltip = {
 				FROM = {
 					send_equipment = {
 					    equipment = support_equipment
@@ -544,9 +541,6 @@ HOL_secret_staff_talks = {
 				    	target = ROOT
 					}
 				}
-			}
-			custom_effect_tooltip = HOL_request_equipment_tt
-			effect_tooltip = {
 				FROM = {
 					send_equipment = {
 					    equipment = artillery_equipment
@@ -554,9 +548,6 @@ HOL_secret_staff_talks = {
 				    	target = ROOT
 					}
 				}
-			}
-			custom_effect_tooltip = HOL_request_equipment_tt
-			effect_tooltip = {
 				FROM = {
 					send_equipment = {
 					    equipment = special_equipment

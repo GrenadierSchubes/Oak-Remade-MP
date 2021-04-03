@@ -49,7 +49,6 @@ FRA_war_on_pacifism = {
 		available = {
 			NOT = { has_country_flag = FRA_army_reform_in_progress }
 			OR = {
-				has_war_support < 0.8
 				has_idea = FRA_victors_of_wwi
 				hidden_trigger = {
 					has_idea = FRA_victors_of_wwi_2
@@ -95,7 +94,6 @@ FRA_war_on_pacifism = {
 		available = {
 			NOT = { has_country_flag = FRA_army_reform_in_progress }
 			OR = {
-				has_war_support < 0.8
 				has_idea = FRA_victors_of_wwi
 				hidden_trigger = {
 					has_idea = FRA_victors_of_wwi_2
@@ -144,7 +142,6 @@ FRA_war_on_pacifism = {
 		available = {
 			NOT = { has_country_flag = FRA_army_reform_in_progress }
 			OR = {
-				has_war_support < 0.8
 				has_idea = FRA_victors_of_wwi
 				hidden_trigger = {
 					has_idea = FRA_victors_of_wwi_2
