@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		add_core_of = NGA
+		add_core_of = AST
 		owner = AST
 		buildings = {
 			infrastructure = 3

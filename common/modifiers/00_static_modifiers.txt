@@ -132,8 +132,8 @@ flooded = { # on Province
 	dig_in_speed_factor = 0.2
 }
 unplanned_offensive = { # on Province			
-	army_speed_factor = -0.25
-	army_attack_factor = -0.25
+	army_speed_factor = -0.5
+	army_attack_factor = -0.50
 	local_org_regain = -0.15
 	air_mission_efficiency = -0.5
 	#air_bombing_targetting = -0.75

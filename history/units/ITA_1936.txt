@@ -696,7 +696,17 @@ instant_effect = { #player
 		}
 	add_equipment_production = {
 		equipment = {
-			type = fighter_equipment_1934
+			type = fighter_equipment_1936
+			creator = "ITA" 
+		}
+		requested_factories = 2
+		progress = 0.15
+		efficiency = 20
+	}
+	
+	add_equipment_production = {
+		equipment = {
+			type = heavy_fighter_equipment_1936
 			creator = "ITA" 
 		}
 		requested_factories = 2
