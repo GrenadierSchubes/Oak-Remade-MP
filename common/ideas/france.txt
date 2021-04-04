@@ -55,7 +55,7 @@ ideas = {
 			}
 			
 			modifier = {
-				production_speed_dockyard_factor = -0.125
+				production_speed_dockyard_factor = -0.15
 			}
 		}
 		FRA_air = {

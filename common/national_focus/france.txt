@@ -1738,17 +1738,6 @@ focus_tree = {
 				planning_skill = 4
 				logistics_skill = 3
 			}
-			create_navy_leader = {
-				name = "Émile Muselier"
-				picture = "Portrait_France_Emile_Muselier.dds"
-				traits = { bold superior_tactician fleet_protector spotter }
-				skill = 4
-				attack_skill = 4
-				defense_skill = 4
- 			    maneuvering_skill = 4
- 			    coordination_skill = 4
-			}
-				load_oob = FRA_naval_oob
 			}			
 		}
 	}
