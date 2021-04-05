@@ -2491,7 +2491,12 @@ focus_tree = {
 		completion_reward = {
 			add_resource = {
 				type = steel
-				amount = 45
+				amount = 30
+				state = 159
+			}
+			add_resource = {
+				type = chromium
+				amount = 10
 				state = 159
 			}
 			GER = {

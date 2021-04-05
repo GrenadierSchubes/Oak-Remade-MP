@@ -2146,6 +2146,9 @@ GER_case_anton_category = {
 			has_government = fascism
 			country_exists = EFR
 			date > 1941.9.1
+			EFR = {
+			   is_ai = yes
+			}
 			USA = { has_war = yes }
 		}
 
