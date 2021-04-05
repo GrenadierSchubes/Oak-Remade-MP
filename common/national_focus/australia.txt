@@ -724,7 +724,7 @@ focus_tree = {
 		y = 5
 		relative_position_id = AST_additional_militia_training
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 1
@@ -761,7 +761,7 @@ focus_tree = {
 		y = 5
 		relative_position_id = AST_additional_militia_training
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 1
@@ -803,7 +803,7 @@ focus_tree = {
 			has_completed_focus = AST_strengthen_ties_with_uk
 		}
 
-		cost = 10
+		cost = 7
 
 		ai_will_do = {
 			factor = 1
@@ -837,7 +837,7 @@ focus_tree = {
 		y = 0
 		relative_position_id = AST_empire_air_training_scheme
 
-		cost = 10
+		cost = 7
 
 		available = {
 			has_completed_focus = AST_strengthen_ties_with_uk
@@ -881,7 +881,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		
-		cost = 8
+		cost = 7
 		
 		ai_will_do = {
 		  factor = 1
