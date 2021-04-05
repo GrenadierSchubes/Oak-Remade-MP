@@ -694,7 +694,6 @@ ideas = {
 				tag = MAN
 				tag = PHI
 				tag = MON
-				tag = HOL
 				AND = {
 			        has_war = no
 			        NOT = { has_government = fascism }
