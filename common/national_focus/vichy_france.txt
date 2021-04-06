@@ -18,7 +18,7 @@ focus_tree = {
 		icon = GFX_goal_support_fascism
 		x = 4
 		y = 0
-		cost = 2
+		cost = 3
 
 		available_if_capitulated = yes
 
@@ -30,6 +30,7 @@ focus_tree = {
 				uses = 5
 				category = land_doctrine
 			}
+			add_ideas = GER_prepare_for_the_inevitable
 			hidden_effect  {
 				load_oob = EFR_armistice_army
 				load_oob = EFR_fleet
