@@ -312,6 +312,23 @@ ideas = {
 			}
 		}
 	}
+	naval_research = {
+	    louis_kahn = {
+			
+			
+			allowed = {
+				original_tag = EFR
+			}
+			
+			cost = 150
+						
+			research_bonus = {
+				naval_doctrine = 0.1
+			}
+			
+			traits = { naval_theorist }
+		}
+	}
 	aircraft_research = {
 		EFR_paul_gastin = {
 
@@ -360,7 +377,7 @@ ideas = {
 
 			picture = generic_army_europe_5
 
-			traits = { army_armored_1 }
+			traits = { army_armored_2 }
 
 			ai_will_do = {
 				factor = 1
@@ -410,6 +427,21 @@ ideas = {
 				factor = 1
 			}
 		}
+		robert_odic = {
+			ledger = army
+			
+			allowed = {
+				original_tag = EFR
+			}
+			
+
+			
+			traits = { army_logistics_3 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
 	}
 	# MILITARY
 	army_chief = {
@@ -446,7 +478,7 @@ ideas = {
 				original_tag = EFR
 			}
 			picture = generic_air_europe_1
-			traits = { air_chief_all_weather_2 }
+			traits = { air_air_superiority_2 }
 
 			ai_will_do = {
 				factor = 1
@@ -458,7 +490,7 @@ ideas = {
 				original_tag = EFR
 			}
 			picture = generic_air_europe_2
-			traits = { air_air_combat_training_2 }
+			traits = { air_bomber_interception_2 }
 
 			ai_will_do = {
 				factor = 1
@@ -478,6 +510,19 @@ ideas = {
 
 			traits = { navy_chief_decisive_battle_1 }
 
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	   victor_denain = {
+			
+			
+			allowed = {
+				original_tag = FRA
+			}
+			
+			traits = { navy_chief_commerce_raiding_2 }
+			
 			ai_will_do = {
 				factor = 1
 			}

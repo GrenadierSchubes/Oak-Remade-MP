@@ -153,7 +153,6 @@ set_popularities = {
 
 add_ideas = {
 	limited_conscription
-	GER_gestapo_idea2
 }
 
 create_country_leader = {
@@ -181,18 +180,18 @@ create_country_leader = {
 create_field_marshal = {
 	name = "Maxime Weygand"
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
-	traits = { }
-	skill = 3
-	attack_skill = 3
+	traits = { logistics_wizard inflexible_strategist }
+	skill = 4
+	attack_skill = 4
 	defense_skill = 3
 	planning_skill = 3
-	logistics_skill = 2
+	logistics_skill = 4
 }
 
 create_corps_commander = { 
 	name = "Jean de Lattre de Tassigny"
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
-	traits = { trickster }
+	traits = { trait_mountaineer infantry_leader }
 	skill = 4
 	attack_skill = 3
 	defense_skill = 4
@@ -203,17 +202,17 @@ create_corps_commander = {
 create_corps_commander = {
 	name = "Henri Dentz"
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
-	traits = { }
+	traits = { trickster panzer_leader }
 	skill = 3
-	attack_skill = 3
+	attack_skill = 4
 	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 3
+	planning_skill = 2
+	logistics_skill = 4
 }					
 create_corps_commander = {
 	name = "Charles Huntziger"
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
-	traits = { }
+	traits = { infantry_leader }
 	skill = 3
 	attack_skill = 2
 	defense_skill = 3
@@ -224,6 +223,16 @@ create_navy_leader = {
     name = "François Darlan"
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_navy_1.dds" 
 	traits = { naval_lineage bold superior_tactician }
+	skill = 4
+	attack_skill = 4
+	defense_skill = 4
+	maneuvering_skill = 4
+	coordination_skill = 4
+}
+create_navy_leader = {
+	name = "Jean-Marie Charles Abrial"
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_navy_2.dds" 
+	traits = { chief_engineer superior_tactician }
 	skill = 3
 	attack_skill = 3
 	defense_skill = 3
@@ -231,24 +240,14 @@ create_navy_leader = {
 	coordination_skill = 3
 }
 create_navy_leader = {
-	name = "Jean-Marie Charles Abrial"
-	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_navy_2.dds" 
-	traits = { chief_engineer superior_tactician }
-	skill = 3
-	attack_skill = 2
-	defense_skill = 3
-	maneuvering_skill = 3
-	coordination_skill = 2
-}
-create_navy_leader = {
 	name = "Jean-Pierre Esteva"
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_navy_3.dds" 
 	traits = { aviation_enthusiast }
-	skill = 2
-	attack_skill = 1
-	defense_skill = 2
-	maneuvering_skill = 2
-	coordination_skill = 2
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	maneuvering_skill = 3
+	coordination_skill = 3
 }
 if = {
 	limit = { has_dlc = "Man the Guns" }
