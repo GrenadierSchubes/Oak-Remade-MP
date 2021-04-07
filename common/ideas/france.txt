@@ -2672,21 +2672,6 @@ ideas = {
 	}
 		
 	aircraft_research = {
-	   victor_denain = {
-			
-			
-			allowed = {
-				original_tag = FRA
-			}
-			
-			cost = 250 
-			
-			research_bonus = {
-				cat_operational_integrity = 0.15
-			}
-			
-			traits = { assault_avaition }
-		}
 		
 		jean_marie_bergeret = {
 						
@@ -2793,21 +2778,6 @@ ideas = {
 		}
 	}
 	naval_research = {
-	    louis_kahn = {
-			
-			
-			allowed = {
-				original_tag = EFR
-			}
-			
-			cost = 150
-						
-			research_bonus = {
-				naval_doctrine = 0.1
-			}
-			
-			traits = { naval_theorist }
-		}
 		
 		jean_decoux = {
 			
