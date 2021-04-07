@@ -2,6 +2,11 @@
 
 oob = "EFR_1936"
 
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_naval_oob = "EFR_fleet"
+}
+
 set_research_slots = 5
 # Starting tech
 set_technology = { #player 

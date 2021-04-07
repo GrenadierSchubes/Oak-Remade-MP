@@ -166,7 +166,8 @@
  idea_EFR_chantiers_de_la_jeunesse:0 "Chantiers de la Jeunesse"
  idea_EFR_secret_military_researches:0 "Secret Military Researches"
  idea_EFR_rationning:0 "War Rationing"
- idea_EFR_recycling:0 "War Recycling"
+ idea_EFR_recycling:0 "Expand Naval Support Facilities"
+ idea_EFR_recycling_desc:0 "We have expanded our naval support facilities, allowing us to repair and refit our fleet much faster."
  EFR_war_repairs:0 "War Repairs"
  EFR_german_war_repairs:0 "Spanish War Repairs"
  

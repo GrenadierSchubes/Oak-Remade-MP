@@ -32,7 +32,6 @@ focus_tree = {
 			add_ideas = GER_prepare_for_the_inevitable
 			hidden_effect  {
 				load_oob = EFR_armistice_army
-				load_oob = EFR_fleet
 				every_owned_state = {
 					limit = {
 						is_controlled_by = ROOT
@@ -1428,6 +1427,7 @@ focus_tree = {
 		
 		completion_reward = {
 			add_ideas = PHI_irredentism
+			add_ideas = idea_EFR_recycling
 			add_research_slot = 1
 		}
 	}
