@@ -1780,7 +1780,7 @@ focus_tree = {
 					BEL = { is_subject_of = GER }
 					NOT = {
 						6 = {
-							is_controlled_by = HOL 
+							is_controlled_by = BEL 
 						}
 					}
 				}
@@ -1789,7 +1789,7 @@ focus_tree = {
 					LUX = { is_subject_of = GER }
 					NOT = {
 						8 = {
-							is_controlled_by = HOL 
+							is_controlled_by = LUX 
 						}
 					}
 				}
