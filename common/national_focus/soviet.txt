@@ -684,7 +684,10 @@ focus_tree = {
 		}
 
 		available = {
+		    OR = {
 			has_tech = concentrated_industry2
+			has_tech = dispersed_industry2
+			}
 			has_tech = construction2
 		}
 		
