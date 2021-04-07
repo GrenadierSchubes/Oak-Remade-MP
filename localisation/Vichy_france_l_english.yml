@@ -50,6 +50,8 @@
 
  FRA_FREE_army:0 "French Liberation Army"
  FRA_FREE_henry_de_rancourt_de_mimerand:0 "Henry de Rancourt de Mimérand"
+ 
+ EFR_war:0 "No need for resources at this time."
 
  EFR_aviation_effort:0 "Rebuild an Air Force"
  EFR_aviation_effort_desc:0 "We must start to rebuild our air force."
@@ -115,7 +117,7 @@
  EFR_patrie_focus_d_descesc:0 "For our country."
  EFR_armistice_army:0 "Armistice Army"
  EFR_armistice_army_desc:0 "We need to raise more units."
- EFR_armistice_army_tt:0 "Will gain Divisions in all the French territories and put equipment in production with efficiency"
+ EFR_armistice_army_tt:0 "Will gain Divisions in all the French territories."
  EFR_hide_military_equipment:0 "Improve Military Tactics"
  EFR_hide_military_equipment_desc:0 "We need to reform our army after the Battle of France"
  EFR_chantiers_de_la_jeunesse:0 "Chantiers de la Jeunesse"
@@ -167,6 +169,23 @@
  idea_EFR_recycling:0 "War Recycling"
  EFR_war_repairs:0 "War Repairs"
  EFR_german_war_repairs:0 "Spanish War Repairs"
+ 
+ EFR_army_effort:0 "Army Effort"
+ EFR_army_effort_desc:0 "It is high time we invest our resources into our infantry"
+ EFR_doctrine_inf_1_desc:0 "We live in a world of military possibilities and strategies. Time to choose our doctrine."
+ EFR_doctrine_inf_1:0 "Doctrine Research"
+ EFR_doctrine_inf_2:0 "Doctrine Research 2"
+ EFR_doctrine_inf_2_desc:0 "Time to expand our efforts"
+ EFR_doctrine_inf_3:0 "Doctrine Research 3"
+ EFR_doctrine_inf_3_desc:0 "A last effort towards our military doctrine"
+ EFR_motorized:0 "Motorized Divisions"
+ EFR_motorized_desc:0 "Just as technology is advancing, so we must evolve and incorporate it into our army. No more horses, we need vehicles!"
+ EFR_equipment_effort:0 "Weapons and Artillery"
+ EFR_equipment_effort_desc:0 "War can no longer be won bare-handed, we need Guns! And Artillery! And Ammo!"
+ EFR_equipment_effort_2:0 "Support Equipment"
+ EFR_equipment_effort_2_desc:0 "Now that we have the basic equipment we need supportive troops to make sure our army is fast and efficient"
+ EFR_tanks:0 "Tank Divisions"
+ EFR_tanks_desc:0 "Improving from previous research, Tanks provide improved armor and firepower at the cost of mobility. Still, the advantages far outweight the disadvantages, having an elite tank division will surely be beneficial for us."
 
  autonomy_collabo:0 "Collaboration"
 

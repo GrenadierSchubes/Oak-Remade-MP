@@ -130,6 +130,7 @@ set_popularities = {
 
 add_ideas = {
 	limited_conscription
+	EFR_war
 }
 
 create_country_leader = {

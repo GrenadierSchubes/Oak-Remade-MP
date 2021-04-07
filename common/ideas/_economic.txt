@@ -736,7 +736,6 @@ ideas = {
 					tag = TUR
 					tag = POR
 					tag = SWI
-					tag = EFR
 					tag = MON
 				}
 			}
@@ -776,7 +775,6 @@ ideas = {
 					tag = SWE
 					tag = TUR
 					tag = SWI
-					tag = EFR
 					tag = MON
 				}
 				OR = {
@@ -835,7 +833,6 @@ ideas = {
 					tag = SWE
 					tag = TUR
 					tag = SWI
-					tag = EFR
 					tag = MON
 				}
 				OR = { 

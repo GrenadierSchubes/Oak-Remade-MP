@@ -1686,6 +1686,7 @@ focus_tree = {
 				add_compliance = 100
 			}
 			add_legitimacy = 50
+			transfer_state = 713
 			hidden_effect  {
 			news_event = { id = news.342 hours = 12 } 
 			create_corps_commander = {

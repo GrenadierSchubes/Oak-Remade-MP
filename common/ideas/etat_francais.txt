@@ -1,5 +1,19 @@
 ideas = {
 	country = {
+		EFR_war = {
+			removal_cost = -1
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			picture = FRA_factory_strikes
+
+			modifier = {
+				production_lack_of_resource_penalty_factor = -1.0
+			}
+		}
 		EFR_french_volunteer_army_1 = {
 			removal_cost = -1
 			allowed = {
@@ -427,16 +441,15 @@ ideas = {
 				factor = 1
 			}
 		}
-		robert_odic = {
-			ledger = army
+	   victor_denain = {
+	        ledger = army
+			
 			
 			allowed = {
 				original_tag = EFR
 			}
 			
-
-			
-			traits = { army_logistics_3 }
+			traits = { army_logistics_1 }
 			
 			ai_will_do = {
 				factor = 1
@@ -514,12 +527,14 @@ ideas = {
 				factor = 1
 			}
 		}
-	   victor_denain = {
-			
+		robert_odic = {
+			ledger = army
 			
 			allowed = {
-				original_tag = FRA
+				original_tag = EFR
 			}
+			
+
 			
 			traits = { navy_chief_commerce_raiding_2 }
 			

@@ -1112,22 +1112,6 @@ on_actions = {
 					if = { limit = { is_ai = yes }					
 						load_oob = FRA_ai						
 					}	
-					set_state_controller = 515
-					set_state_controller = 660
-					set_state_controller = 539
-					set_state_controller = 557
-					set_state_controller = 556
-					set_state_controller = 272
-					set_state_controller = 543
-					set_state_controller = 774
-					set_state_controller = 780
-					set_state_controller = 772
-					set_state_controller = 773
-					set_state_controller = 779
-					set_state_controller = 778
-					set_state_controller = 781
-					set_state_controller = 776		
-					set_state_controller = 777	
 				}
 				GER = {
 					set_state_controller = 28
@@ -1179,12 +1163,10 @@ on_actions = {
 					transfer_state = 741
 					transfer_state = 286
 					transfer_state = 513
-
 					transfer_state = 553
-					transfer_state = 713
-					transfer_state = 728
 					set_capital = 26
 					add_ideas = idea_EFR_neutrality 
+					remove_ideas = EFR_war
 					diplomatic_relation = { country = ENG relation = non_aggression_pact }	
 					diplomatic_relation = { country = ENG relation = military_access }
                     diplomatic_relation = { country = FRA relation = military_access }					
