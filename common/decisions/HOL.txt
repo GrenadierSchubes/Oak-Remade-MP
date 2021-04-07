@@ -950,44 +950,5 @@ operations = {
 			}
 		}
 	}
-    HOL_annex_dei = {
-
-		icon = generic_political_discourse
-
-		allowed = {
-			tag = HOL			
-		}
-
-		visible = {
-			tag = HOL
-			INS = { is_ai = yes }
-			country_exists = INS
-		}
-		available = {
-			date > 1938.1.1
-		}
-
-		cost = 0
-
-		fire_only_once = yes
-
-
-		complete_effect = {
-			INS = {
-				transfer_navy = {
-					target = HOL
-				}
-			}
-			annex_country = {
-                target = INS
-                transfer_troops = yes
-			}
-			every_state = {
-			    limit = { is_core_of = INS }
-				set_resistance = 0
-				set_compliance = 100
-			}
-		}		
-	}
 }
 
