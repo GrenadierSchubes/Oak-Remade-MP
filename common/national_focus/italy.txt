@@ -2527,7 +2527,9 @@ focus_tree = {
 			GER  = { has_war_with = ENG }
 			NOT = { has_war_with = GER }
 			OR = {
-				country_exists = EFR
+		    FRA = {
+		        has_capitulated = yes 
+			}
 				date > 1940.5.1
 			}
 		}
@@ -2710,7 +2712,9 @@ focus_tree = {
 		}
 
 		available = {
-			country_exists = EFR
+		    FRA = {
+		        has_capitulated = yes 
+			}
 		}
  
 		completion_reward = {

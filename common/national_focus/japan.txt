@@ -2672,7 +2672,9 @@ focus_tree = {
 		}
 
 		available = {
-		    country_exists = EFR
+		    FRA = {
+		        has_capitulated = yes 
+			}
 		}
 
         bypass = {

@@ -1648,7 +1648,7 @@ focus_tree = {
 		prerequisite = { focus = FRA_arms_purchases_in_the_us }
 
 		available = {
-			country_exists = EFR
+			has_capitulated = yes 
 		}
 
 		icon = GFX_focus_renounce_the_treaty_of_trianon

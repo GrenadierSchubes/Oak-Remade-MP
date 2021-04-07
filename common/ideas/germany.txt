@@ -2152,7 +2152,11 @@ ideas = {
 				original_tag = GER
 			}
 			available = {
-				NOT = { country_exists = EFR }
+				NOT = { 
+					FRA = {
+				       has_capitulated = yes 
+					}
+				}
 			}
 
 			ai_will_do = {

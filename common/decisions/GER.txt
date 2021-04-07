@@ -466,7 +466,9 @@ special_projects = {
 		available = {
 			has_tech = construction4
 			num_of_civilian_factories_available_for_projects > 20
-			country_exists = EFR
+		    FRA = {
+		        has_capitulated = yes 
+			}
 			OR = {
 					GER = { controls_state = 6 }
 					any_other_country = {
