@@ -148,6 +148,7 @@ technology_folders = {
 			original_tag = MON
 			original_tag = FRA
 			original_tag = HOL
+			original_tag = EFR
 		  }
         }
     }
@@ -163,6 +164,7 @@ technology_folders = {
 			original_tag = FIN
 			original_tag = CZE
 			original_tag = ETH
+			original_tag = EFR
 			}
 		}
     }	
@@ -244,6 +246,7 @@ technology_folders = {
 			original_tag = FRA
 			original_tag = HOL
 			original_tag = ITA
+			original_tag = EFR
 		  }
        }
     }
@@ -289,6 +292,7 @@ technology_folders = {
 			original_tag = BUL
 			original_tag = FIN
 			original_tag = CZE
+			original_tag = EFR
 			}
 		}
     }

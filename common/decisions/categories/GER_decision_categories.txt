@@ -53,7 +53,9 @@ GER_case_anton_category = {
 	}
 
 	visible = {
-		country_exists = EFR
+		FRA = {
+		   has_capitulated = yes 
+		}
 	}
 	priority = 85
 }

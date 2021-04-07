@@ -1648,7 +1648,7 @@ focus_tree = {
 		prerequisite = { focus = FRA_arms_purchases_in_the_us }
 
 		available = {
-			country_exists = EFR
+			has_capitulated = yes 
 		}
 
 		icon = GFX_focus_renounce_the_treaty_of_trianon
@@ -1686,12 +1686,13 @@ focus_tree = {
 				add_compliance = 100
 			}
 			add_legitimacy = 50
+			transfer_state = 713
 			hidden_effect  {
 			news_event = { id = news.342 hours = 12 } 
 			create_corps_commander = {
 				name = "Charles De Gaulle"
 				picture = "Portrait_France_Charles_De_Gaulle.dds"
-				traits = { skilled_staffer  trickster panzer_leader }
+				traits = { skilled_staffer trickster panzer_leader }
 				skill = 4
 				attack_skill = 4
 				defense_skill = 2
@@ -1738,17 +1739,6 @@ focus_tree = {
 				planning_skill = 4
 				logistics_skill = 3
 			}
-			create_navy_leader = {
-				name = "Émile Muselier"
-				picture = "Portrait_France_Emile_Muselier.dds"
-				traits = { bold superior_tactician fleet_protector spotter }
-				skill = 4
-				attack_skill = 4
-				defense_skill = 4
- 			    maneuvering_skill = 4
- 			    coordination_skill = 4
-			}
-				load_oob = FRA_naval_oob
 			}			
 		}
 	}

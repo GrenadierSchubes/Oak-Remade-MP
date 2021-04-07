@@ -1,5 +1,21 @@
 ideas = {
 	country = {
+		EFR_war = {
+			removal_cost = -1
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			picture = FRA_factory_strikes
+
+			modifier = {
+			    fuel_gain_from_states = 100.0
+		        production_lack_of_resource_penalty_factor = -1.0
+		        send_volunteer_size = 2
+			}
+		}
 		EFR_french_volunteer_army_1 = {
 			removal_cost = -1
 			allowed = {
@@ -205,7 +221,7 @@ ideas = {
 		}
 		idea_EFR_recycling = {
 
-			picture = generic_flexible_foreign_policy2
+			picture = generic_navy_bonus
 
 			allowed = {
 				always = no
@@ -218,7 +234,9 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				consumer_goods_factor = -0.02
+			    refit_ic_cost = -0.1
+				refit_speed = 0.1
+				repair_speed_factor = 0.1
 			}
 		}
 	}
@@ -312,6 +330,23 @@ ideas = {
 			}
 		}
 	}
+	naval_research = {
+	    louis_kahn = {
+			
+			
+			allowed = {
+				original_tag = EFR
+			}
+			
+			cost = 150
+						
+			research_bonus = {
+				naval_doctrine = 0.1
+			}
+			
+			traits = { naval_theorist }
+		}
+	}
 	aircraft_research = {
 		EFR_paul_gastin = {
 
@@ -360,7 +395,7 @@ ideas = {
 
 			picture = generic_army_europe_5
 
-			traits = { army_armored_1 }
+			traits = { army_armored_2 }
 
 			ai_will_do = {
 				factor = 1
@@ -410,6 +445,20 @@ ideas = {
 				factor = 1
 			}
 		}
+	   victor_denain = {
+	        ledger = army
+			
+			
+			allowed = {
+				original_tag = EFR
+			}
+			
+			traits = { army_logistics_1 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
 	}
 	# MILITARY
 	army_chief = {
@@ -446,7 +495,7 @@ ideas = {
 				original_tag = EFR
 			}
 			picture = generic_air_europe_1
-			traits = { air_chief_all_weather_2 }
+			traits = { air_air_superiority_2 }
 
 			ai_will_do = {
 				factor = 1
@@ -458,7 +507,7 @@ ideas = {
 				original_tag = EFR
 			}
 			picture = generic_air_europe_2
-			traits = { air_air_combat_training_2 }
+			traits = { air_bomber_interception_2 }
 
 			ai_will_do = {
 				factor = 1
@@ -478,6 +527,21 @@ ideas = {
 
 			traits = { navy_chief_decisive_battle_1 }
 
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		robert_odic = {
+			ledger = army
+			
+			allowed = {
+				original_tag = EFR
+			}
+			
+
+			
+			traits = { navy_chief_commerce_raiding_2 }
+			
 			ai_will_do = {
 				factor = 1
 			}

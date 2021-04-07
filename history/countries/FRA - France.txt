@@ -115,7 +115,6 @@ if = {
 		mtg_transport = 1
 		improved_airplane_launcher = 1
 	}
-	add_ideas = MTG_naval_treaty_adherent
 }
 
 set_convoys = 300
@@ -357,8 +356,19 @@ create_corps_commander = {
 }
 
 create_navy_leader = {
+	name = "Émile Muselier"
+	picture = "Portrait_France_Emile_Muselier.dds"
+	traits = { bold superior_tactician fleet_protector spotter }
+	skill = 4
+	attack_skill = 4
+	defense_skill = 4
+    maneuvering_skill = 4
+    coordination_skill = 4
+}
+
+create_navy_leader = {
 	name = "René-Émile Godfroy"
-		picture = "Portrait_France_Rene-Emile_Godfroy.dds"
+	picture = "Portrait_France_Rene-Emile_Godfroy.dds"
 	traits = { seawolf }
 	skill = 2
 	attack_skill = 2

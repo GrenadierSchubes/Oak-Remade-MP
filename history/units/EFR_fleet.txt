@@ -6,29 +6,30 @@ units= {
 	### NORTH AFRICA ###				
 	fleet = {
 		name = "Amiral Afrique"			
-		naval_base = 9898 # Oran
+		naval_base = 2165 # Oran
 		task_force = {				
 			name = "Flottille de Haute Mers"			
-			location = 9898 # Oran			
+			location = 2165 # Oran			
 			ship = { name = "Provence" pride_of_the_fleet = yes definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = EFR version_name = "Bretagne Class" } } }			
 			ship = { name = "Lorraine" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = EFR version_name = "Bretagne Class" } } }			
 			ship = { name = "Bretagne" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = EFR version_name = "Bretagne Class" } } }	
-			ship = { name = "Algérie" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = EFR version_name = "Algérie Class" } } }			
+			ship = { name = "Algérie" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = EFR version_name = "Bretagne Class" } } }	
 			ship = { name = "Foch" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = EFR version_name = "Suffren Class" } } }
 			ship = { name = "Dupleix" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = EFR version_name = "Suffren Class" } } }
 			ship = { name = "Colbert" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = EFR version_name = "Suffren Class" } } }
-			ship = { name = "Duquesne" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = EFR version_name = "Suffren Class" } } }
-			ship = { name = "Tourville" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = EFR version_name = "Suffren Class" } } }			
+			ship = { name = "Duquesne" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = EFR version_name = "Suffren Class" } } }		
 		}
 		task_force = {				
 			name = "Flotte d'Afrique de l'Ouest"			
-			location = 9898 # Dakar			
+			location = 2165 # Dakar			
 			ship = { name = "Jeanne d'Arc" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = EFR version_name = "Duguay-Trouin Class" } } }
 			ship = { name = "Duguay-Trouin" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = EFR version_name = "Duguay-Trouin Class" } } }
 			ship = { name = "Primauguet" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = EFR version_name = "Duguay-Trouin Class" } } }
 			ship = { name = "Pluton" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = EFR version_name = "Duguay-Trouin Class" } } }
 			ship = { name = "La Galissonnière" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = EFR version_name = "La Galissonnière Class" } } }
 			ship = { name = "Émile Bertin" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = EFR version_name = "Émile Bertin Class" } } }
+			ship = { name = "Éemre Berrile" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = EFR version_name = "Émile Bertin Class" } } }
+			ship = { name = "Valor de Paris" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = EFR version_name = "Émile Bertin Class" } } }
 			# 1e Légère Division des Contre-Torpilleurs
 			ship = { name = "La Palme" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = EFR version_name = "Bourrasque Class" } } }	
 			ship = { name = "Le Mars" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = EFR version_name = "Bourrasque Class" } } }	
@@ -62,11 +63,17 @@ units= {
 			# 9e Division des Contre-Torpilleurs
 			ship = { name = "Cassard" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = EFR version_name = "Chacal Class" } } }
 			ship = { name = "Maillé Brézé" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = EFR version_name = "Chacal Class" } } }
-			ship = { name = "Kersaint" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = EFR version_name = "Chacal Class" } } }			
+			ship = { name = "Kersaint" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = EFR version_name = "Chacal Class" } } }		
+			ship = { name = "Claude" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = EFR version_name = "Chacal Class" } } }
+			ship = { name = "Joken" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = EFR version_name = "Chacal Class" } } }
+			# 9e Division des Contre-Torpilleurs
+			ship = { name = "Forena" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = EFR version_name = "Chacal Class" } } }
+			ship = { name = "Noveta" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = EFR version_name = "Chacal Class" } } }
+			ship = { name = "Lateya" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = EFR version_name = "Chacal Class" } } }				
 		}										
 		task_force = {				
 			name = "6ème Escadron Sous-Marins"			
-			location = 9898 # Bizerte, Tunisia	
+			location = 2165 # Bizerte, Tunisia	
 			# 9e Division des Sous-Marins
 			ship = { name = "Caïman" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = EFR version_name = "600 Series" } } }				
 			ship = { name = "Morse" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = EFR version_name = "600 Series" } } }				

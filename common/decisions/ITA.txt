@@ -116,7 +116,9 @@ ITA_declarewar_cathegory = {
 		}
 		activation = {
 			tag = ITA		
-			country_exists = EFR
+			FRA = {
+		       has_capitulated = yes 
+			}
 		}
 
 		fire_only_once = yes

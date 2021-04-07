@@ -423,7 +423,9 @@ focus_tree = {
 		cost = 5
 
 		available = {
-			country_exists = EFR 
+		    FRA = {
+		        has_capitulated = yes 
+			}
 		}
 
 		ai_will_do = {
@@ -1154,7 +1156,9 @@ focus_tree = {
 		y = 4
 		cost = 5
 		available = {
-			country_exists = EFR 
+		    FRA = {
+		        has_capitulated = yes 
+			}
 		}
 		
 		ai_will_do = {
@@ -1776,7 +1780,7 @@ focus_tree = {
 					BEL = { is_subject_of = GER }
 					NOT = {
 						6 = {
-							is_controlled_by = HOL 
+							is_controlled_by = BEL 
 						}
 					}
 				}
@@ -1785,7 +1789,7 @@ focus_tree = {
 					LUX = { is_subject_of = GER }
 					NOT = {
 						8 = {
-							is_controlled_by = HOL 
+							is_controlled_by = LUX 
 						}
 					}
 				}
@@ -2084,7 +2088,9 @@ focus_tree = {
 		}
 
 		available = {
-			country_exists = EFR
+		    FRA = {
+		        has_capitulated = yes 
+			}
 		}
 
 
@@ -2429,7 +2435,7 @@ focus_tree = {
 			}
 			OR = {
 				FRA = { has_capitulated = yes }
-				country_exists = EFR
+				16 = { is_controlled_by = GER } 
 			}
 			OR = {
 				HOL = { has_capitulated = yes }
