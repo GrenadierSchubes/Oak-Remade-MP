@@ -1,6 +1,6 @@
 ﻿### Vichy ###
 division_template = {
-	name = "Division d'Infanterie Vichy"		# Infantry Division
+	name = "Division d'Infanterie Volunteers"		# Infantry Division
 division_names_group = FRA_INF_01
 	regiments = {
 		infantry = { x = 0 y = 0 }
@@ -24,14 +24,25 @@ division_names_group = FRA_INF_01
 		pack_artillery = { x = 0 y = 1 }  # Full howitzer regiment
 		recon = { x = 1 y = 0 }   
 		engineer = { x = 1 y = 1 }  
+		anti_air_company = { x = 0 y = 2 } 
 	}
 }
 
-
-#########################
-## STARTING PRODUCTION ##
-#########################
-
-instant_effect = { #player
+units = {
+	division = {
+		name = "1. Volunteer Division"
+		location = 2165  # Bourg En Bresse
+		division_template = "Division d'Infanterie Volunteers"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "FRA" } }
+		start_experience_factor = 0.5
+	}
+	
+	division = {
+		name = "2. Volunteer Division"
+		location = 2165  # 
+		division_template = "Division d'Infanterie Volunteers"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "FRA" } }
+		start_experience_factor = 0.5
+	}
 }
 

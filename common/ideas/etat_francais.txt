@@ -13,6 +13,7 @@ ideas = {
 			modifier = {
 			    fuel_gain_from_states = 250.0	
 				production_lack_of_resource_penalty_factor = -1.0
+				send_volunteer_size = 2
 			    refit_ic_cost = -0.1
 				refit_speed = 0.1
 				repair_speed_factor = 0.1

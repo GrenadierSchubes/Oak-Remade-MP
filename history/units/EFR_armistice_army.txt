@@ -15,13 +15,13 @@ division_names_group = FRA_INF_01
 		infantry = { x = 2 y = 1 }
 		infantry = { x = 2 y = 2 }
 		infantry = { x = 2 y = 3 }
-		pack_artillery_brigade = { x = 3 y = 0 }
-		pack_artillery_brigade = { x = 3 y = 1 }
-		pack_artillery_brigade = { x = 3 y = 2 }
+		artillery_brigade = { x = 3 y = 0 }
+		artillery_brigade = { x = 3 y = 1 }
+		artillery_brigade = { x = 3 y = 2 }
 	}
 	support = {  
 		DIV_HQ = { x = 0 y = 0 } 
-		pack_artillery = { x = 0 y = 1 }  # Full howitzer regiment
+		artillery = { x = 0 y = 1 }  # Full howitzer regiment
 		recon = { x = 1 y = 0 }   
 		engineer = { x = 1 y = 1 }  
 		anti_air_company = { x = 0 y = 2 } 
@@ -35,7 +35,6 @@ units = {
 		name = "1. Division Militaire"
 		location = 641  # Bourg En Bresse
 		division_template = "Division d'Infanterie Vichy"
-		force_equipment_variants = { infantry_equipment_1 = { owner = "FRA" } }
 		start_experience_factor = 0.5
 	}
 	
@@ -43,7 +42,6 @@ units = {
 		name = "2. Division Militaire"
 		location = 641  # Lyon
 		division_template = "Division d'Infanterie Vichy"
-		force_equipment_variants = { infantry_equipment_1 = { owner = "FRA" } }
 		start_experience_factor = 0.5
 	}
 
