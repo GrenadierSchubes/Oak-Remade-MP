@@ -1079,22 +1079,6 @@ on_actions = {
 					load_oob = ENG_France_Merchant_fleet 
 					add_timed_idea = { idea = ENG_darkest_hour	days = 365 }
 					news_event = { id = news.44 }	
-					if = {
-						limit = {
-							OR = {
-								has_dlc = "Together for Victory"
-								has_dlc = "Man the Guns"
-							}
-						}
-						set_autonomy = {
-							target = FRA
-							autonomous_state = autonomy_dominion
-							freedom_level = 0.3
-						}
-						else = {
-							puppet = FRA
-						}
-					}
 				}
 				# German Occupation Zone
 				FRA = {
