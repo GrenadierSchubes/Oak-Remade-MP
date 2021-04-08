@@ -2451,7 +2451,7 @@ ideas = {
 				# submarines, light cruisers you name it!
 			}
 			
-			traits = { atlantic_fleet_naval_manufacturer }
+			traits = { convoy_escort_naval_manufacturer }
 			
 			modifier = {
 			}
