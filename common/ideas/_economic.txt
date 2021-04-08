@@ -233,6 +233,7 @@ ideas = {
 				NOT = {
 					tag = USA 
 					tag = POR
+					tag = RAJ
 				}
 			}
 
@@ -336,6 +337,7 @@ ideas = {
 				NOT = {
 				    tag = POR
 					tag = USA 
+					tag = RAJ
 				}
 			}			
 
@@ -560,14 +562,15 @@ ideas = {
 
 			
 		    available = {
-		    	date > 1940.11.1	
+		    	has_war = yes
 		    }
 	    		
-			cost = 150
+			cost = 100
 			removal_cost = -1
 
             modifier = {
                 consumer_goods_factor = 0.15
+				political_power_factor = 0.1
 				conscription = -0.01
 				stability_weekly = -0.002
                 production_speed_industrial_complex_factor = 0.1
@@ -576,12 +579,11 @@ ideas = {
                 conversion_cost_mil_to_civ_factor = -0.1
                 global_building_slots_factor = 0.1
                 industry_free_repair_factor = 0.1
-                industrial_capacity_factory = 0.05
-                industrial_capacity_dockyard = 0.05
+                industrial_capacity_factory = 0.1
+                industrial_capacity_dockyard = 0.1
                 research_speed_factor = 0.1
                 production_factory_efficiency_gain_factor = 0.05
                 production_factory_max_efficiency_factor = 0.05
-                line_change_production_efficiency_factor = 0.1
             }	
 			
 			ai_will_do = {
