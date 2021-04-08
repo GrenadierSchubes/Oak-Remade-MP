@@ -2139,3 +2139,93 @@ country_event = {
         hidden_effect = { news_event = news.453 }		
 	}	
 }
+	
+#Imperial War Conference events
+country_event = {
+	id = japan.24
+	title = japan.24.t
+	desc = japan.24.d
+	picture = GFX_report_event_chinese_soldiers_02
+
+	fire_only_once = yes
+	
+	trigger = {
+		tag = JAP
+		focus_progress = {
+			focus = JAP_imperial_war_conference
+			progress > 0.25
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		set_country_flag = JAP_iwc_steel_army
+		name = japan.24.a
+		
+	}
+	option = {
+		set_country_flag = JAP_iwc_steel_navy
+		name = japan.24.b
+}
+
+country_event = {
+	id = japan.25
+	title = japan.25.t
+	desc = japan.25.d
+	picture = GFX_report_event_chinese_soldiers_02
+
+	fire_only_once = yes
+	
+	trigger = {
+		tag = JAP
+		focus_progress = {
+			focus = JAP_imperial_war_conference
+			progress > 0.5
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		set_country_flag = JAP_iwc_air_army
+		name = japan.25.a
+		
+	}
+	option = {
+		set_country_flag = JAP_iwc_air_navy
+		name = japan.25.b
+}
+
+country_event = {
+	id = japan.26
+	title = japan.26.t
+	desc = japan.26.d
+	picture = GFX_report_event_chinese_soldiers_02
+
+	fire_only_once = yes
+	
+	trigger = {
+		tag = JAP
+		focus_progress = {
+			focus = JAP_imperial_war_conference
+			progress > 0.75
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		set_country_flag = JAP_iwc_conscription_army
+		name = japan.26.a
+		
+	}
+	option = {
+		set_country_flag = JAP_iwc_conscription_navy
+		name = japan.26.b
+}

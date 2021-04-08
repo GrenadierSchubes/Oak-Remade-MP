@@ -6,6 +6,7 @@ state={
 	state_category = large_city
 	
 	history={
+		set_state_flag = JAP_major_uncontrol
 		owner = AST
 		buildings = {
 			infrastructure = 6

@@ -36,7 +36,8 @@
  JAP_base_defence_force_tt:0 "All major naval bases in Japan will be heavily fortified by constructing level 5 §YCoastal Forts§! in every single province."
  JAP_naval_war_college_tt:0 "All of our advisors in §YNaval Research§!, §YNavy Chief of Staff§! and §YMilitary High Command§! will become available at a reduced §Gcost§!.\n"
  JAP_is_cheating_or_has_abandoned_naval_treaties_tt:0 "To pick this §Yfocus§! you need to either §Ycheat§! on the §YLondon Naval Treaty§! or §Yabandon§! the §YLondon Naval Treaty§!"
- 
+ Jap_conference_tt:0 "You will receive a series of events where you must decide how to allocate the limited available resources between the Army and the Navy."
+
  ##############SOVIET TOOLTIPS##############
 
  SOV_phase_of_5_year_plan_focus_tt:0 "A state must have been marked by the great industrial planners of the Union to be a part of the next phase of the five year plan for this focus to have any effects.\n\n" 
