@@ -5717,6 +5717,9 @@ operations = {
 			add_stability = 0.5
 			add_war_support = 0.5
 			add_ideas = SOV_sealions
+			MON = {
+			    add_ideas = SOV_sealions
+			}
 		}
 	}
    SOV_annex_mon = {
