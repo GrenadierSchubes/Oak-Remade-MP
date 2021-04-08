@@ -300,7 +300,7 @@ ideas = {
 			modifier = {
 				army_defence_factor = 0.1
 				army_attack_factor = 0.1
-				army_morale_factor = 0.2
+				army_morale_factor = 0.1
 				supply_consumption_factor = -0.1
 			}
 		}

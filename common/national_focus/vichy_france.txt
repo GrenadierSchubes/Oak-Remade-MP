@@ -903,10 +903,6 @@ focus_tree = {
 
 		completion_reward = {
 			navy_experience = 25
-		    add_offsite_building = {
-		    	type = dockyard
-		    	level = 1
-		    }
 		    set_country_flag = naval_effort_built
 		}
 	}
@@ -1018,10 +1014,6 @@ focus_tree = {
 				technology = improved_submarine
 				technology = advanced_submarine
 			}
-		    add_offsite_building = {
-		    	type = dockyard
-		    	level = 2
-		    }
 		}
 	}
 
@@ -1060,10 +1052,6 @@ focus_tree = {
 				technology = improved_heavy_cruiser
 				technology = advanced_heavy_cruiser
 			}
-		    add_offsite_building = {
-		    	type = dockyard
-		    	level = 2
-		    }
 		}
 	}
 
