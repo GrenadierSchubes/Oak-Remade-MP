@@ -28,7 +28,7 @@
 		bypass = {
 		}
 		
-		cost = 10
+		cost = 7.16
 		#prerequisite = { focus = AST_workers_paradise }
 		#mutually_exclusive = { focus = expand_loyalist_influence }
 		
@@ -154,7 +154,7 @@
 		bypass = {
 		}
 		
-		cost = 10
+		cost = 7.16
 		prerequisite = { focus = the_1937_elections }
 		#mutually_exclusive = { focus = irish_neutrality }
 		
@@ -183,7 +183,7 @@
 		bypass = {
 		}
 		
-		cost = 10
+		cost = 7.16
 		prerequisite = { focus = offences_against_the_state_act }
 		#mutually_exclusive = { focus = irish_neutrality }
 		
@@ -259,7 +259,7 @@
 		bypass = {
 		}
 		
-		cost = 10
+		cost = 7.16
 		prerequisite = { focus = IRE_defs }
 		prerequisite = { focus = plan_w }
 		#mutually_exclusive = { focus = irish_neutrality }
@@ -289,7 +289,7 @@
 		bypass = {
 		}
 		
-		cost = 10
+		cost = 7.16
 		prerequisite = { focus = constitution_of_ireland }
 		#mutually_exclusive = { focus = colonial_power }
 		
@@ -763,7 +763,7 @@
 		bypass = {
 		}
 		
-		cost = 10
+		cost = 7.16
 		prerequisite = { focus = modernise_esb focus = industrial_modernisation }	
 		#mutually_exclusive = { focus = colonial_power }
 		
@@ -827,7 +827,7 @@
 		bypass = {
 		}
 		
-		cost = 10
+		cost = 7.16
 		prerequisite = { focus = negotiate_trade_deals }
 		#mutually_exclusive = { focus = colonial_power }
 		
@@ -940,7 +940,7 @@
 		bypass = {
 		}
 		
-		cost = 10
+		cost = 7.16
 		prerequisite = { focus = emergency_powers_act }
 		#mutually_exclusive = { focus = colonial_power }
 		

@@ -2133,7 +2133,7 @@ ideas = {
 			
 
 			
-			traits = { air_air_superiority_2 }
+			traits = { air_chief_all_weather_1 }
 			
 			ai_will_do = {
 				factor = 1
@@ -2209,7 +2209,7 @@ ideas = {
 			available = {
 			}
 			
-			traits = { air_chief_all_weather_1  }
+			traits = { air_air_superiority_2  }
 		}	
 
 		HOL_maarten_belzer = {
