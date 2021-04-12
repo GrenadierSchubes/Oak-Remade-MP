@@ -1068,7 +1068,7 @@ operations = {
 	
 		fire_only_once = yes
 	
-		days_mission_timeout = 90
+		days_mission_timeout = 180
 	
 		activation = {
 			has_completed_focus = JAP_strike_on_the_southern_resource_area
@@ -1079,7 +1079,7 @@ operations = {
 		}
 	
 		complete_effect = {
-			add_timed_idea = { idea = JAP_tora_tora_tora_idea days = 180 }
+			add_timed_idea = { idea = JAP_tora_tora_tora_idea days = 90 }
 		}
 	}
 }

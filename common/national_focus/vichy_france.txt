@@ -699,7 +699,20 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_to_tech_sharing_group = BUL_axis_research
+			GER = {
+				add_tech_bonus = {
+					name = HOL_the_singapore_conferences
+					bonus = 1.0
+					uses = 1
+					category = naval_doctrine
+				}
+			}
+			add_tech_bonus = {
+				name = HOL_expand_curacao_oil_refineries
+				bonus = 1.0
+				uses = 1
+				category = synth_resources
+			}		
 		}
 	}
 
@@ -793,6 +806,7 @@ focus_tree = {
 
 		complete_tooltip = {
 			air_experience = 25
+	        add_ideas = ITA_air_dominance
 			add_tech_bonus = {
 				name =  air_doc_bonus
 				bonus = 1.00 
@@ -802,6 +816,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			air_experience = 25
+			add_ideas = ITA_air_dominance
 			add_tech_bonus = {
 				name =  air_doc_bonus
 				bonus = 1.00 
@@ -821,6 +836,7 @@ focus_tree = {
 		cost = 10
 
 		available_if_capitulated = yes
+
 
 		completion_reward = {
 			add_tech_bonus = {
@@ -1009,10 +1025,7 @@ focus_tree = {
 				name = ss_bonus
 				bonus = 1.00 
 				uses = 1
-				technology = early_submarine
-				technology = basic_submarine
-				technology = improved_submarine
-				technology = advanced_submarine
+				category = ss_tech
 			}
 		}
 	}
@@ -1047,10 +1060,8 @@ focus_tree = {
 				name = cr_bonus
 				bonus = 1.00 
 				uses = 1
-				technology = improved_light_cruiser
-				technology = advanced_light_cruiser
-				technology = improved_heavy_cruiser
-				technology = advanced_heavy_cruiser
+				category = cl_tech
+				category = ca_tech
 			}
 		}
 	}
@@ -1085,10 +1096,7 @@ focus_tree = {
 				name = dd_bonus
 				bonus = 1.00 
 				uses = 1
-				technology = early_destroyer
-				technology = basic_destroyer
-				technology = improved_destroyer
-				technology = advanced_destroyer
+                category = dd_tech
 			}
 		}
 	}
@@ -1123,17 +1131,15 @@ focus_tree = {
 			add_tech_bonus = {
 				name = capital_ships_bonus
 				bonus = 1.00 
-				uses = 2
-				technology = basic_battlecruiser
-				technology = basic_battleship
-				technology = improved_battleship
-				technology = advanced_battleship
-				technology = heavy_battleship
-				technology = heavy_battleship2
-				technology = early_carrier
-				technology = basic_carrier
-				technology = improved_carrier
-				technology = advanced_carrier
+				uses = 1
+				category = bb_tech
+				category = bc_tech
+			}
+			add_tech_bonus = {
+				name = capital_ships_bonus
+				bonus = 1.00 
+				uses = 1
+				category = cv_tech
 			}
 		}
 	}

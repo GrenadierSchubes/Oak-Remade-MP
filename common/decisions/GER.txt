@@ -1275,6 +1275,7 @@ operations = {
 			ROM = {add_to_tech_sharing_group = BUL_axis_research}
 			CZE = {add_to_tech_sharing_group = BUL_axis_research}
 			BUL = {add_to_tech_sharing_group = BUL_axis_research}
+			EFR = {add_to_tech_sharing_group = BUL_axis_research}
 		}
 	}
     GER_annex_rom = {
