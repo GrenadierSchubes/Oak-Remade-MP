@@ -5835,12 +5835,12 @@ focus_tree = {
 		complete_tooltip = {
 			if = {
 				limit = {
-					has_idea = war_economy
+					has_idea = SPR_collectivized_society
 				}
 				add_political_power = 150 
 			}
 			else_if = {
-				add_ideas = war_economy
+				add_ideas = SPR_collectivized_society
 			}
 
 			add_war_support = 0.2		
@@ -5849,12 +5849,12 @@ focus_tree = {
 		completion_reward = {
 			if = {
 				limit = {
-					has_idea = war_economy
+					has_idea = SPR_collectivized_society
 				}
 				add_political_power = 150 
 			}
 			else_if = {
-				add_ideas = war_economy
+				add_ideas = SPR_collectivized_society
 			}
 
 			add_war_support = 0.2 

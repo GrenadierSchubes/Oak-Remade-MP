@@ -631,7 +631,7 @@ instant_effect = { #player
 		}
 		add_equipment_production = {
 			equipment = {
-				type = armored_cars_equipment_1
+				type = armored_cars_equipment_2
 				creator = "ITA" 
 			}
 			requested_factories = 1
@@ -641,7 +641,7 @@ instant_effect = { #player
 		
 		add_equipment_production = {
 			equipment = {
-				type = light_tank_equipment_1934
+				type = light_tank_equipment_1936
 				creator = "ITA" 
 			}
 			requested_factories = 1

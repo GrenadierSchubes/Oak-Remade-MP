@@ -2216,6 +2216,7 @@ focus_tree = {
 			      	antiair2 = 1
 			      	basic_fire_control_system = 1
 			      	dp_secondary_battery = 1
+					basic_heavy_battery = 1
 		      	}
 		      	create_equipment_variant = {
 		      		name = "Design 1047 Battlecruiser"
@@ -2550,10 +2551,6 @@ focus_tree = {
 		available = {
 			is_in_faction_with = ENG
 			has_war = yes
-			OR = {
-				has_capitulated = no
-				has_legitimacy > 40
-			}
 		}
 		prerequisite = { focus = HOL_de_vaarplicht }
 		icon = GFX_goal_generic_major_alliance
@@ -2671,7 +2668,7 @@ focus_tree = {
 		completion_reward = {
 		    HOL = { 
 			   add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 6000 producer = USA } 
-               add_equipment_to_stockpile = { type = pack_artillery_equipment_1 amount = 750 producer = USA } 
+               add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 750 producer = USA } 
                add_equipment_to_stockpile = { type = support_equipment_1 amount = 500 producer = USA } 
                add_equipment_to_stockpile = { type = anti_air_equipment_1 amount = 200 producer = USA } 
                add_equipment_to_stockpile = { type = anti_tank_equipment_1 amount = 200 producer = USA } 
