@@ -40,7 +40,7 @@ focus_tree = {
 			has_capitulated = yes
 		}
 		prerequisite = { focus = FRA_la_front_du_popular }
-		icon = GFX_focus_eng_concessions_to_the_trade_unions
+		icon = GFX_Nora_matignonagreement
 		x = 0
 		y = 1
 		relative_position_id = FRA_la_front_du_popular
@@ -122,7 +122,7 @@ focus_tree = {
 				GER = { has_full_control_of_state = 4 }
 			}
 		}
-		icon = GFX_focus_hol_the_foundations_of_defense
+		icon = GFX_Nora_blumresign
 		x = -2
 		y = 1
 		relative_position_id = FRA_intervention_in_spain
@@ -1202,7 +1202,7 @@ focus_tree = {
 
 	focus = {
 		id = FRA_the_blum_viollette_proposal
-		icon = GFX_goal_generic_improve_relations
+		icon = GFX_Nora_BlumViolette
 		x = 1
 		y = 2
 		prerequisite = {
@@ -1825,7 +1825,7 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
-		available = 
+		available = {
 		}
 		
 		bypass = {
