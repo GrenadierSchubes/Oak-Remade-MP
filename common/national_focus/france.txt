@@ -22,7 +22,7 @@ focus_tree = {
 		icon = GFX_focus_focus_fra_liberte_egalite_solidarite
 		x = 5
 		y = 0
-		cost = 20
+		cost = 15
 
 		available_if_capitulated = yes
 
@@ -44,7 +44,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = FRA_la_front_du_popular
-		cost = 7.16
+		cost = 5
 
 		available_if_capitulated = yes
 
@@ -699,7 +699,6 @@ focus_tree = {
 		id = FRA_domestic_innovation
 		prerequisite = { focus = FRA_nationalize_the_banking_sector focus = FRA_regulate_the_banking_sector }
 		available = {
-			num_of_factories > 50
 		}
 		cancel_if_invalid = no
 		continue_if_invalid = yes
@@ -726,7 +725,7 @@ focus_tree = {
 		cost = 5
 		
 		available = {
-			threat > 0.05
+			threat > 0.1
 		}
 
 		available_if_capitulated = yes
@@ -1928,7 +1927,6 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_ideas = HOL_expand_the_colonial_army
 			every_state = {
 				limit = {
 					OR = {
@@ -1938,6 +1936,9 @@ focus_tree = {
 						state = 772
 						state = 539
 						state = 543
+						state = 310
+						state = 694
+						state = 695
 					}
 				}
 				add_state_modifier = {
@@ -1963,10 +1964,7 @@ focus_tree = {
 		cost = 5
 		available_if_capitulated = yes
 		completion_reward = {
-			swap_ideas = {
-				remove_idea = HOL_expand_the_colonial_army
-				add_idea = FRA_the_foreign_legion
-			}
+		    add_ideas = FRA_the_foreign_legion
 		}
 	}
 
@@ -2278,7 +2276,12 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_ideas = { special_forces }
+			add_tech_bonus = {
+				name = special_bonus
+				bonus = 1.0
+				uses = 1
+				category = mountaineers_tech		
+			}
 		}
 	}
 
