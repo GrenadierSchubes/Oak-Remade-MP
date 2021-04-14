@@ -723,7 +723,7 @@ HOL_request_allied_favors = {
 		}
 
 		remove_effect = {
-			add_offsite_building = { type = dockyard level = 2 }
+			add_offsite_building = { type = dockyard level = 1 }
 			if = {
 				limit = {
 					NOT = { check_variable = { var = obtain_dockyard_counter value = 0 compare = greater_than } }
@@ -848,7 +848,7 @@ HOL_request_allied_favors = {
 		visible = {
 			tag = HOL
 			has_completed_focus = HOL_request_allied_favors
-			check_variable = { var = british_industrialists_counter value = 4 compare = less_than }
+			check_variable = { var = british_industrialists_counter value = 3 compare = less_than }
 		}
 
 		modifier = {
@@ -858,8 +858,8 @@ HOL_request_allied_favors = {
 		}
 
 		remove_effect = {
-			add_offsite_building = { type = arms_factory level = 2 }
-			add_offsite_building = { type = industrial_complex level = 2 }
+			add_offsite_building = { type = arms_factory level = 1 }
+			add_offsite_building = { type = industrial_complex level = 1 }
 			if = {
 				limit = {
 					NOT = { check_variable = { var = british_industrialists_counter value = 0 compare = greater_than } }

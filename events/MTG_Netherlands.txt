@@ -99,35 +99,14 @@ country_event = {
 		FROM = { country_event = { id = mtg_netherlands.30 hours = 6 } }
 		set_country_flag = secret_staff_talks_infantry_equipment
 		effect_tooltip = {
-			send_equipment = {
-			    equipment = infantry_equipment
-			    amount = 5000
-			    target = FROM
-			}
+		    HOL = { 
+			   add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 5000 producer = FRA } 
+               add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 500 producer = FRA } 
+               add_equipment_to_stockpile = { type = support_equipment_1 amount = 500 producer = FRA } 
+               add_equipment_to_stockpile = { type = special_equipment amount = 250 producer = FRA } 
+		    }
 		}
-		effect_tooltip = {
-			send_equipment = {
-			    equipment = support_equipment
-			    amount = 500
-			    target = FROM
-			}
-		}
-		effect_tooltip = {
-			send_equipment = {
-			    equipment = artillery_equipment
-			    amount = 500
-			    target = FROM
-			}
-		}
-		effect_tooltip = {
-			FROM = {
-				send_equipment = {
-				    equipment = special_equipment
-			    	amount = 250
-				    	target = ROOT
-				}
-			}
-		}
+		add_political_power = -50
 	}
 
 	# Nope
@@ -170,33 +149,11 @@ country_event = {
 	# Ok!
 	option = {
 		name = mtg_netherlands.30.a
-		if = {
-			limit = {
-				FROM = { has_country_flag = secret_staff_talks_infantry_equipment }
-			}
-			FROM = {
-				send_equipment = {
-				    equipment = infantry_equipment
-				    amount = 5000
-				    target = ROOT
-				}
-				send_equipment = {
-				    equipment = artillery_equipment
-				    amount = 500
-				    target = ROOT
-				}
-				send_equipment = {
-				    equipment = artillery_equipment
-				    amount = 500
-				    target = ROOT
-				}
-				send_equipment = {
-				    equipment = special_equipment
-				   	amount = 250
-				   	target = ROOT
-				}
-				clr_country_flag = secret_staff_talks_infantry_equipment
-			}
+		HOL = { 
+		    add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 5000 producer = FRA } 
+            add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 500 producer = FRA } 
+            add_equipment_to_stockpile = { type = support_equipment_1 amount = 500 producer = FRA } 
+            add_equipment_to_stockpile = { type = special_equipment amount = 250 producer = FRA } 
 		}
 	}
 }

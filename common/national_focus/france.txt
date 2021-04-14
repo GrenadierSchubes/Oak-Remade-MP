@@ -726,7 +726,7 @@ focus_tree = {
 		cost = 5
 		
 		available = {
-			threat > 0.1`
+			threat > 0.05
 		}
 
 		available_if_capitulated = yes
@@ -1772,11 +1772,6 @@ focus_tree = {
 		available_if_capitulated = yes
 		completion_reward = {
 			HOL = {
-				add_equipment_to_stockpile = {
-					type = infantry_equipment
-					amount = 1000
-					producer = FRA
-				}
 				768 = {
 					add_extra_state_shared_building_slots = 2
 					add_building_construction = {
@@ -1790,6 +1785,20 @@ focus_tree = {
 					add_building_construction = {
 						type = arms_factory
 						level = 2	
+						instant_build = yes
+					}
+				}	
+				768 = {
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
+				}
+				769 = {
+					add_building_construction = {
+						type = infrastructure
+						level = 1
 						instant_build = yes
 					}
 				}				
