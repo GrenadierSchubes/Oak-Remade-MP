@@ -256,14 +256,14 @@ focus_tree = {
 		available_if_capitulated = yes
 		search_filters = {FOCUS_FILTER_INDUSTRY}
 		completion_reward = {
-			738 = {
+			669 = {
 				add_building_construction = {
 					type = infrastructure
-					level = 1
+					level = 3
 					instant_build = yes
 				}
 			}
-			669 = {
+			738 = {
 				add_building_construction = {
 					type = infrastructure
 					level = 1
@@ -696,7 +696,7 @@ focus_tree = {
 		available_if_capitulated = yes
 		search_filters = {FOCUS_FILTER_STABILITY FOCUS_FILTER_WAR_SUPPORT FOCUS_FILTER_MANPOWER FOCUS_FILTER_INDUSTRY}
 		completion_reward = {
-			add_manpower = 150000
+			add_manpower = 25000
 			add_ideas = HOL_liberation
 		}
 	}
@@ -1424,10 +1424,10 @@ focus_tree = {
 		x = -6
 		y = 1
 		relative_position_id = HOL_overturn_military_budget_cuts
-		cost = 7.16
+		cost = 5
 		
 		available = {
-			threat > 0.10
+			threat > 0.05
 		}
 
 		available_if_capitulated = yes
