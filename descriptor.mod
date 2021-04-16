@@ -1,4 +1,4 @@
-version="1.10.4"
+version="1.10.5"
 replace_path="common/units/names_divisions"
 replace_path="history/countries"
 replace_path="history/states"
@@ -9,4 +9,4 @@ tags={
 	"Historical"
 }
 name="Oak MP"
-supported_version="1.10.4"
+supported_version="1.10.5"
