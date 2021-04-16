@@ -756,23 +756,28 @@ custom_effect_tooltip = MON_leader_tt
 			army_experience = 25
 			if = {
 				limit = {
+					has_idea = MON_Rogue_state_3
+				}
+				remove_ideas = { MON_Rogue_state_3 }
+			}
+			if = {
+				limit = {
 					has_idea = MON_Rogue_state
 				}
 				swap_ideas = {
 					remove_idea = MON_Rogue_state
-					add_idea = MON_Rogue_state_2		
+					add_idea = MON_Rogue_state_2
 				}
-			}
+			}	
 			if = {
 				limit = {
 					has_idea = MON_Rogue_state_2
 				}
-			  swap_ideas = {
-				remove_idea = MON_Rogue_state_2
-				add_idea = MON_Rogue_state_3		
-			  }
-			}
-			if = { limit = { has_idea = MON_Rogue_state_3 } remove_ideas = MON_Rogue_state_3 }			
+				swap_ideas = {
+					remove_idea = MON_Rogue_state_2
+					add_idea = MON_Rogue_state_3
+				}
+			}				
 						add_tech_bonus = {
 				name = MON_army_maneuvers
 				bonus = 1.0
@@ -988,7 +993,7 @@ custom_effect_tooltip = MON_leader_tt
 		}
 		
 						available = {
-						date > 1939.7.1
+						date > 1938.7.1
 		}
 		
 				completion_reward = {	
@@ -1296,23 +1301,28 @@ custom_effect_tooltip = MON_leader_tt
 						completion_reward = {
 			if = {
 				limit = {
+					has_idea = MON_Rogue_state_3
+				}
+				remove_ideas = { MON_Rogue_state_3 }
+			}
+			if = {
+				limit = {
 					has_idea = MON_Rogue_state
 				}
 				swap_ideas = {
 					remove_idea = MON_Rogue_state
-					add_idea = MON_Rogue_state_2		
+					add_idea = MON_Rogue_state_2
 				}
-			}
+			}	
 			if = {
 				limit = {
 					has_idea = MON_Rogue_state_2
 				}
-			  swap_ideas = {
-				remove_idea = MON_Rogue_state_2
-				add_idea = MON_Rogue_state_3		
-			  }
-			}
-			if = { limit = { has_idea = MON_Rogue_state_3 } remove_ideas = MON_Rogue_state_3 }									
+				swap_ideas = {
+					remove_idea = MON_Rogue_state_2
+					add_idea = MON_Rogue_state_3
+				}
+			}			
 			remove_ideas = MON_Rual_population_3 		
 		}
 		
@@ -1346,12 +1356,9 @@ custom_effect_tooltip = MON_leader_tt
 			      }
 			if = {
 				limit = {
-					has_idea = MON_Rogue_state_2
+					has_idea = MON_Rogue_state_3
 				}
-			  swap_ideas = {
-				remove_idea = MON_Rogue_state_2
-				add_idea = MON_Rogue_state_3		
-			  }
+				remove_ideas = { MON_Rogue_state_3 }
 			}
 			if = {
 				limit = {
@@ -1359,10 +1366,18 @@ custom_effect_tooltip = MON_leader_tt
 				}
 				swap_ideas = {
 					remove_idea = MON_Rogue_state
-					add_idea = MON_Rogue_state_2		
+					add_idea = MON_Rogue_state_2
 				}
-			}
-			if = { limit = { has_idea = MON_Rogue_state_3 } remove_ideas = MON_Rogue_state_3 }			
+			}	
+			if = {
+				limit = {
+					has_idea = MON_Rogue_state_2
+				}
+				swap_ideas = {
+					remove_idea = MON_Rogue_state_2
+					add_idea = MON_Rogue_state_3
+				}
+			}				
 
 		}
 		
