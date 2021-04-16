@@ -5,7 +5,8 @@ operations = {
 
 		allowed = {
 		    OR = {
-			    tag = POR
+			    tag = POR	
+				tag = HOL
             }			
 		}
 		
@@ -44,6 +45,40 @@ operations = {
 			}
 		}		
 	}
+    POR_adv = {
+
+		icon = generic_bureaucracy
+
+		allowed = {
+		    OR = {
+			    tag = POR	
+            }			
+		}
+		
+		visible = {
+			is_ai = no
+		}
+
+		available = {
+			is_ai = no
+		}
+
+		cost = 0
+
+		fire_only_once = yes
+
+
+		complete_effect = {
+		    navy_experience = 10
+			hidden_effect = {
+				set_technology = { 
+				    jet_fighter_1946 = 1
+					medium_tank_1945 = 1
+			    }
+			}
+		}
+	}
+	
 	POR_relocate_government_to_africa = {
 
 		icon = generic_bureaucracy
@@ -79,6 +114,210 @@ operations = {
 			    add_state_core = 181
 			}
 		}
+	}
+    POR_ally = {
+
+		icon = generic_political_discourse
+
+		allowed = {
+			tag = POR			
+		}
+
+		available = {
+			is_ai = no
+			ENG = {
+				is_faction_leader = yes
+			}
+		}
+
+		cost = 0
+
+		fire_only_once = no
+
+
+		complete_effect = {
+			ENG = { add_to_faction = POR }	
+		}		
+	}
+   POR_axis = {
+
+		icon = generic_political_discourse
+
+		allowed = {
+			tag = POR			
+		}
+
+		available = {
+			is_ai = no
+			GER = {
+				is_faction_leader = yes
+			}
+		}
+
+		cost = 0
+
+		fire_only_once = no
+
+
+		complete_effect = {
+			GER = { add_to_faction = POR }	
+		}		
+	}
+   POR_comm = {
+
+		icon = generic_political_discourse
+
+		allowed = {
+			tag = POR			
+		}
+
+		available = {
+			is_ai = no
+			SOV = {
+				is_faction_leader = yes
+			}
+		}
+
+		cost = 0
+
+		fire_only_once = no
+
+
+		complete_effect = {
+			SOV = { add_to_faction = POR }	
+		}		
+	}
+   POR_jap = {
+
+		icon = generic_political_discourse
+
+		allowed = {
+			tag = POR			
+		}
+
+		available = {
+			is_ai = no
+			JAP = {
+				is_faction_leader = yes
+			}
+		}
+
+		cost = 0
+
+		fire_only_once = no
+
+
+		complete_effect = {
+			JAP = { add_to_faction = POR }	
+		}		
+	}
+    POR_itaf = {
+
+		icon = generic_construction
+
+		allowed = {
+			tag = POR			
+		}
+
+		available = {
+			is_ai = no
+			163 = { is_owned_and_controlled_by = ITA } 
+		}
+
+		cost = 25
+
+		fire_only_once = yes
+
+        days_remove = 14
+
+		remove_effect = {
+			transfer_state = 163 
+			add_state_core = 163
+		    163 = {
+				set_building_level = {
+					type = naval_base
+					level = 10
+					province = 3943
+				}	
+				set_building_level = {
+					type = air_base
+					level = 5
+				}	
+			}
+		}		
+	}
+    POR_gerf = {
+
+		icon = generic_construction
+
+		allowed = {
+			tag = POR			
+		}
+
+		available = {
+			is_ai = no
+			124 = { is_owned_and_controlled_by = SWE } 
+		}
+
+		cost = 25
+
+		fire_only_once = yes
+
+        days_remove = 14
+
+		remove_effect = {
+			transfer_state = 124 
+			add_state_core = 124
+		    124 = {
+				set_building_level = {
+					type = naval_base
+					level = 10
+					province = 408
+				}	
+				set_building_level = {
+					type = air_base
+					level = 5
+				}	
+			}	
+		}		
+	}
+    POR_japf = {
+
+		icon = generic_construction
+
+		allowed = {
+			tag = POR			
+		}
+
+		available = {
+			is_ai = no
+			OR = {
+			    743 = { is_owned_and_controlled_by = JAP }
+				743 = { is_owned_and_controlled_by = CHI }
+			}
+		}
+
+		cost = 25
+
+		fire_only_once = yes
+		
+		days_remove = 14
+
+		remove_effect = {
+			transfer_state = 743 
+			add_state_core = 743
+		    743 = {
+				set_building_level = {
+					type = naval_base
+					level = 10
+					province = 10000
+				}	
+				set_building_level = {
+					type = air_base
+					level = 5
+				}	
+			}	
+		}		
 	}
     POR_honor = {
 
@@ -121,6 +360,107 @@ operations = {
 			}
 		}		
 	}
+    POR_def = {
+
+		icon = infiltrate_state
+
+		allowed = {
+			tag = POR			
+		}
+
+		available = {
+			is_ai = no
+			OR = {
+				AND = {
+					NOT = { 448 = { is_owned_and_controlled_by = ITA } }
+		            NOT = { 450 = { is_owned_and_controlled_by = ITA } }
+			        NOT = { 451 = { is_owned_and_controlled_by = ITA } }
+			 	}
+			    date > 1941.7.1
+			}
+		}
+
+		cost = 50
+
+		fire_only_once = yes
+
+        days_remove = 21
+
+		remove_effect = {
+			ITA = {
+		    	add_offsite_building = {
+		    		type = synthetic_refinery
+		    		level = 3
+		    	}
+		    	add_offsite_building = {
+		    		type = synthetic_rubber_refinery
+		    		level = 2
+		    	}
+			}
+		}		
+	} 
+    POR_japg = {
+
+		icon = generic_paperwork
+
+		allowed = {
+			tag = POR			
+		}
+
+		available = {
+			is_ai = no
+			JAP = { has_war_with = USA }
+		}
+
+		cost = 100
+
+		fire_only_once = yes
+
+        days_remove = 35
+
+		remove_effect = {
+			JAP = {
+				add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 10000 producer = POR }
+				add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 1500 producer = POR }
+				add_equipment_to_stockpile = { type = support_equipment_1 amount = 500 producer = POR }
+				add_equipment_to_stockpile = { type = radio_equipment amount = 500 producer = POR }
+				add_equipment_to_stockpile = { type = horse_equipment_0 amount = 500 producer = POR }
+				add_equipment_to_stockpile = { type = anti_air_equipment_1 amount = 250 producer = POR }
+				add_equipment_to_stockpile = { type = anti_tank_equipment_1 amount = 250 producer = POR }
+			}
+		}		
+	} 
+    POR_gerg = {
+
+		icon = generic_paperwork
+
+		allowed = {
+			tag = POR			
+		}
+
+		available = {
+			is_ai = no
+			date > 1942.3.1
+		}
+
+		cost = 100
+
+		fire_only_once = yes
+
+        days_remove = 35
+
+		remove_effect = {
+			GER = {
+				add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 10000 producer = POR }
+				add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 1500 producer = POR }
+				add_equipment_to_stockpile = { type = support_equipment_1 amount = 500 producer = POR }
+				add_equipment_to_stockpile = { type = radio_equipment amount = 500 producer = POR }
+				add_equipment_to_stockpile = { type = horse_equipment_0 amount = 500 producer = POR }
+				add_equipment_to_stockpile = { type = anti_air_equipment_1 amount = 250 producer = POR }
+				add_equipment_to_stockpile = { type = anti_tank_equipment_1 amount = 250 producer = POR }
+			}
+		}		
+	} 
     POR_sovg = {
 
 		icon = generic_paperwork
