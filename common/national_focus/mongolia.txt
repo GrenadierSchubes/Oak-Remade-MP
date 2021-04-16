@@ -1466,7 +1466,7 @@ custom_effect_tooltip = MON_leader_tt
 		prerequisite = { focus = MON_modernsovfighters }	
 		x = 20
 		y = 2
-		cost = 7.16
+		cost = 10
 		available_if_capitulated = yes
 		ai_will_do = {
 			factor = 1
@@ -1512,7 +1512,7 @@ custom_effect_tooltip = MON_leader_tt
 		prerequisite = { focus = MON_sovietairschool }	
 		x = 21
 		y = 1
-		cost = 7.16
+		cost = 10
 		available_if_capitulated = yes
 		ai_will_do = {
 			factor = 1
@@ -1563,7 +1563,7 @@ custom_effect_tooltip = MON_leader_tt
 		prerequisite = { focus = MON_reduceilliteracy }			
 		x = 19
 		y = 3
-		cost = 7.16
+		cost = 10
 		available_if_capitulated = yes
 		ai_will_do = {
 			factor = 1
@@ -1580,7 +1580,7 @@ custom_effect_tooltip = MON_leader_tt
 		prerequisite = { focus = MON_modernsovfighters }			
 		x = 22
 		y = 3
-		cost = 7.16
+		cost = 10
 		available_if_capitulated = yes
 		ai_will_do = {
 			factor = 1
@@ -1603,7 +1603,7 @@ custom_effect_tooltip = MON_leader_tt
 		prerequisite = { focus = MON_basesforsovietaircraft focus = MON_localdevelopmentofbomba }		
 		x = 20
 		y = 4
-		cost = 7.16
+		cost = 10
 		available_if_capitulated = yes
 		ai_will_do = {
 			factor = 1
