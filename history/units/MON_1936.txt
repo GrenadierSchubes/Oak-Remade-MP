@@ -39,13 +39,20 @@ division_template = {
 		cavalry = { x = 0 y = 1 }
 		cavalry = { x = 0 y = 2 }
 		cavalry = { x = 0 y = 3 }
-		cavalry = { x = 0 y = 4 }
 		
 		cavalry = { x = 1 y = 0 }
 		cavalry = { x = 1 y = 1 }
 		cavalry = { x = 1 y = 2 }
 		cavalry = { x = 1 y = 3 }
-		cavalry = { x = 1 y = 4 }
+		
+		cavalry = { x = 2 y = 0 }
+		cavalry = { x = 2 y = 1 }
+		cavalry = { x = 2 y = 2 }
+		cavalry = { x = 2 y = 3 }
+		
+		pack_artillery_brigade = { x = 3 y = 0 }
+		pack_artillery_brigade = { x = 3 y = 1 }
+		pack_artillery_brigade = { x = 3 y = 2 }
 	}
 	support = {
 		DIV_HQ = { x = 0 y = 0 }
@@ -56,24 +63,37 @@ division_template = {
 	}
 }
 division_template = {
-	name = "Panzer Division"
+	name = "Tank Division"
 	division_names_group = MON_ARM_01
 	regiments = {
 		medium_armor = { x = 0 y = 0 }
 		medium_armor = { x = 0 y = 1 }
+		medium_armor = { x = 0 y = 2 }
 		
 		medium_armor = { x = 1 y = 0 }
 		medium_armor = { x = 1 y = 1 }
+		medium_armor = { x = 1 y = 2 }
+
+	    medium_armor = { x = 2 y = 0 }
+		medium_armor = { x = 2 y = 1 }
+		medium_armor = { x = 2 y = 2 }
 		
-		motorized = { x = 2 y = 0 }
-       	motorized = { x = 2 y = 1 }
-    	motorized = { x = 2 y = 2 }
+		motorized = { x = 3 y = 0 }
+       	motorized = { x = 3 y = 1 }
+    	motorized = { x = 3 y = 2 }
+		
+		motorized = { x = 4 y = 0 }
+       	motorized = { x = 4 y = 1 }
+    	motorized = { x = 4 y = 2 }
 
 	}
 
 	support = {
 		DIV_HQ = { x = 0 y = 0 } 
-		mot_recon = { x = 1 y = 0 }   
+		mot_recon = { x = 1 y = 0 } 
+	    engineer = { x = 1 y = 0 }
+		pack_artillery = { x = 1 y = 1 }
+		anti_air_company = { x = 0 y = 2 }			
 	}
 }
 
@@ -222,7 +242,16 @@ instant_effect = {
 	}
     add_equipment_production = {
 		equipment = {
-			type = anti_tank_equipment_1
+			type = anti_air_equipment_1
+			creator = "MON" 
+		}
+		requested_factories = 1
+		progress = 0.5
+		efficiency = 100
+	}
+    add_equipment_production = {
+		equipment = {
+			type = motorized_equipment_1
 			creator = "MON" 
 		}
 		requested_factories = 1
@@ -231,11 +260,20 @@ instant_effect = {
 	}
     add_equipment_production = {
 		equipment = {
-			type = anti_air_equipment_1
+			type = medium_tank_equipment_1937
 			creator = "MON" 
 		}
 		requested_factories = 1
 		progress = 0.5
-		efficiency = 100
+		efficiency = 199
+	}
+    add_equipment_production = {
+		equipment = {
+			type = heavy_fighter_equipment_1936
+			creator = "MON" 
+		}
+		requested_factories = 1
+		progress = 0.5
+		efficiency = 199
 	}
 }
