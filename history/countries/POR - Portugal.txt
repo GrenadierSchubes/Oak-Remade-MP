@@ -67,33 +67,12 @@ set_technology = {
 	radio_detection = 1
 	decimetric_radar = 1
     basic_fire_control_system = 1
-	tank_radio = 1 
-	plane_radio = 1
 	starting_industry = 1
 	basic_machine_tools = 1
 	fuel_refining = 1
-	fuel_refining2 = 1
-	fuel_refining3 = 1
-	fuel_refining4 = 1
-	fuel_refining5 = 1
 	synth_oil_experiments = 1
 	############### Doctrine ############
 	fleet_in_being = 1
-	battlefleet_concentration = 1
-	subsidiary_carrier_role = 1
-	hunter_killer_groups = 1
-	floating_fortress = 1
-	floating_airfield = 1
-	grand_battlefleet = 1
-	convoy_sailing = 1
-	convoy_escorts = 1
-	escort_carriers = 1
-	integrated_convoy_defence = 1
-	submarine_operations = 1
-	undersea_blockade = 1
-	convoy_interdiction = 1
-	submarine_offensive = 1
-
 	air_superiority = 1
 	superior_firepower = 1
 	
