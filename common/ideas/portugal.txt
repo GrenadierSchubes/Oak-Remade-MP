@@ -37,7 +37,7 @@ ideas = {
 			picture = POR_refinery
 			
 			modifier = {
-				fuel_gain_from_states = 300.0	
+				fuel_gain_from_states = 100.0	
 				production_speed_synthetic_refinery_factor = -0.5
 			    production_speed_synthetic_rubber_refinery_factor = -0.5
 			}
@@ -58,7 +58,7 @@ ideas = {
 			picture = ROM_the_resource_curse
 			
 			modifier = {
-				fuel_gain_from_states = 400.0	
+				fuel_gain_from_states = 150.0	
 				production_speed_synthetic_refinery_factor = -0.15
 			    production_speed_synthetic_rubber_refinery_factor = -0.15
 			}
@@ -75,7 +75,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				send_volunteer_size = 4
+				send_volunteer_size = 2
 				air_volunteer_cap = 500
 				lend_lease_tension = -1
 				send_volunteers_tension = -1
@@ -95,8 +95,8 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				send_volunteer_size = 6
-				air_volunteer_cap = 1000
+				send_volunteer_size = 8
+				air_volunteer_cap = 2000
 				lend_lease_tension = -1
 				send_volunteers_tension = -1
 				send_volunteer_divisions_required = -1
@@ -263,7 +263,6 @@ ideas = {
 			modifier = {
 			    conscription = 0.01
 			    political_power_factor = 0.05
-				special_forces_min = 50
 			}
 		}
 		
@@ -298,8 +297,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-	            army_core_attack_factor = 0.1
-	            army_core_defence_factor = 0.1
+				special_forces_min = 50
 				minimum_training_level = -0.2
 			}
 		}

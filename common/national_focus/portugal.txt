@@ -496,6 +496,12 @@ focus_tree = {
 		cost = 7.16
 		search_filters = {FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH}
 		completion_reward = { 
+			add_tech_bonus = { 
+				category = cat_heavy_fighter
+				category = light_fighter
+				uses = 1
+				bonus = 1.5
+			}
 			if = {
 				limit = { has_full_control_of_state = 544 }
 				544 = {
@@ -987,11 +993,11 @@ focus_tree = {
 		cost = 7.16
 		search_filters = {FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY}
 		completion_reward = { 
-			add_tech_bonus = {
-				name = POR_light_aircraft_focus
-			    bonus = 1.0
-			    uses = 1
-			    category = naval_air
+			add_tech_bonus = { 
+				category = tactical_bomber
+				category = cas_bomber
+				uses = 1
+				bonus = 1.5
 			}
 		}
 	}
@@ -2440,19 +2446,6 @@ focus_tree = {
 		relative_position_id = POR_portuguese_legion
 		cost = 3
 		completion_reward = { 	
-			hidden_effect = {
-				set_technology = { 
-				    improved_infantry_weapons = 1
-				    light_tank_1938 = 1 
-					medium_tank_1939 = 1
-					fighter_1938 = 1
-					naval_bomber_1938 = 1
-					heavy_fighter_1938 = 1
-		            tactical_bomber_1939 = 1
-					strategic_bomber_1939 = 1
-	                CAS_1939 = 1
-			    }
-			}
 			add_political_power = 225
 			army_experience = 20
 			air_experience = 20
@@ -2658,14 +2651,6 @@ focus_tree = {
 		cost = 7.16
 		search_filters = {FOCUS_FILTER_POLITICAL FOCUS_FILTER_WAR_SUPPORT FOCUS_FILTER_INDUSTRY}
 		completion_reward = { 
-			hidden_effect = {
-				set_technology = { 
-				    light_tank_1940 = 1 
-					fighter_1940 = 1
-					naval_bomber_1940 = 1
-					heavy_fighter_1940 = 1
-			    }
-			}
 			remove_ideas = POR_unstable_republic
 			swap_ideas = {
 				remove_idea = POR_estado_novo_4
@@ -2702,15 +2687,6 @@ focus_tree = {
 		cost = 5
 		search_filters = {FOCUS_FILTER_RESEARCH}
 		completion_reward = {
-			hidden_effect = {
-				set_technology = { 
-					medium_tank_1941 = 1
-					heavy_tank_1941 = 1
-		            tactical_bomber_1941 = 1
-					strategic_bomber_1941 = 1
-	                CAS_1941 = 1
-			    }
-			}
 			add_ideas = POR_the_capital_of_espionage
 			if = {
 				limit = {
@@ -2822,20 +2798,6 @@ focus_tree = {
 
 		search_filters = {FOCUS_FILTER_RESEARCH}
 		completion_reward = { 
-			hidden_effect = {
-				set_technology = { 
-				    advanced_infantry_weapons = 1
-				    light_tank_1942 = 1 
-					medium_tank_1943 = 1
-					heavy_tank_1943 = 1
-					fighter_1942 = 1
-					heavy_fighter_1942 = 1
-					naval_bomber_1942 = 1
-		            tactical_bomber_1943 = 1
-					strategic_bomber_1943 = 1
-	                CAS_1943 = 1
-			    }
-			}
 		    swap_ideas = {
 			  	remove_idea = POR_aid1
 			   	add_idea = POR_aid2
