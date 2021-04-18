@@ -70,6 +70,11 @@ ideas = {
 				attack_bonus_against = 0.1
 				defense_bonus_against = 0.05
 			}
+			targeted_modifier = {
+				tag = MON
+				attack_bonus_against = 0.1
+				defense_bonus_against = 0.05
+			}
 			modifier = {
 				supply_consumption_factor = -0.15 
 				land_reinforce_rate = 0.05
@@ -98,6 +103,11 @@ ideas = {
 				attack_bonus_against = 0.15
 				defense_bonus_against = 0.1
 			}
+			targeted_modifier = {
+				tag = MON
+				attack_bonus_against = 0.15
+				defense_bonus_against = 0.1
+			}
 			modifier = {
 				encryption = -0.1
 				decryption = -0.1
@@ -115,6 +125,11 @@ ideas = {
 			
 			targeted_modifier = {
 				tag = SOV
+				attack_bonus_against = 0.15
+				defense_bonus_against = 0.05
+			}
+			targeted_modifier = {
+				tag = MON
 				attack_bonus_against = 0.15
 				defense_bonus_against = 0.05
 			}
@@ -1798,6 +1813,10 @@ ideas = {
 				tag = SOV
 				attack_bonus_against = 0.1
 			}
+			targeted_modifier = {
+				tag = MON
+				attack_bonus_against = 0.1
+			}
 		}		
 
 		general_staff5 = {
@@ -1824,6 +1843,10 @@ ideas = {
 			}
 			targeted_modifier = {
 				tag = SOV
+				defense_bonus_against = 0.1
+			}
+			targeted_modifier = {
+				tag = MON
 				defense_bonus_against = 0.1
 			}
 		}		
