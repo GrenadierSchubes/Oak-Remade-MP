@@ -6,7 +6,6 @@ operations = {
 		allowed = {
 		    OR = {
 			    tag = POR	
-				tag = HOL
             }			
 		}
 		
