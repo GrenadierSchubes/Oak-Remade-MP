@@ -104,9 +104,8 @@ create_country_leader = {
 	desc = "POLITICS_PHRAYA_PHAHON_DESC"
 	picture = "Portrait_Siam_Phraya_Phahon.dds"
 	expire = "1965.1.1"
-	ideology = despotism
+	ideology = fascism_ideology
 	traits = {
-		#
 	}
 }
 create_corps_commander = {
