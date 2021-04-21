@@ -667,8 +667,7 @@ focus = {
 		available = {
 			SPR = {
 				has_civil_war = no
-			}
-            date > 1939.11.1	
+			}	
 		}
 		bypass = {
 		}
@@ -1032,7 +1031,7 @@ technology = construction4
 			SPR = {
 				has_civil_war = no
 			}
-            date > 1939.1.1
+            date > 1938.10.1
 		}
 		bypass = {
 		}
@@ -1089,7 +1088,6 @@ technology = construction4
 			SPR = {
 				has_civil_war = no
 			}
-            date > 1939.11.1	
 		}
 		bypass = {
 		}
@@ -1599,8 +1597,7 @@ technology = construction4
 		available = {
 			SPR = {
 				has_civil_war = no
-			}
-            date > 1939.11.1	
+			}	
 		}
 		mutually_exclusive = { focus = SPA_autarky focus = SPA_fascist_economic_aid }
 		cancel_if_invalid = yes
