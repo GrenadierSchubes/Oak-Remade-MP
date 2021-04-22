@@ -1,13 +1,57 @@
 ﻿units= {
 	fleet = {
+		name = "French Fleet"
+		naval_base = 3552 # Brest 
+		task_force = {
+			name = "Main Fleet"
+			location = 3552 # Brest 			
+			# Battleship Group 			
+			ship = { name = "Dunkerquess" pride_of_the_fleet = yes definition = battle_cruiser equipment = { ship_hull_heavy_2 = { amount = 1 owner = FRA version_name = "Dunkerque Class" } } }				
+			ship = { name = "Strasbourgs" definition = battle_cruiser equipment = { ship_hull_heavy_2 = { amount = 1 owner = FRA version_name = "Dunkerque Class" } } }	
+			# Heavy Cruiser Group
+			ship = { name = "Algéries" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "Saint Louis Class" } } }			
+			ship = { name = "Alps" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "Saint Louis Class" } } }
+			ship = { name = "Jean de Vienness" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "Saint Louis Class" } } }			
+			ship = { name = "Marseillaisess" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "Saint Louis Class" } } }
+			# Light Cruiser Group 1
+			ship = { name = "Duguay-Trouins" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "De Grasse Class" } } }
+			ship = { name = "Primauguets" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "De Grasse Class" } } }	
+			ship = { name = "Plutons" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "De Grasse Class" } } }
+			# Light Cruiser Group 2
+			ship = { name = "Émile Bertins" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "De Grasse Class" } } }
+			ship = { name = "Lamottes" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "De Grasse Class" } } }
+			ship = { name = "De Grasses" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "De Grasse Class" } } }
+			# Destroyer Group 1
+			ship = { name = "Sirocos" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Mogador Class" } } }	
+			ship = { name = "Mistrals" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Mogador Class" } } }	
+			ship = { name = "Ouragans" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Mogador Class" } } }
+			ship = { name = "Orages" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Mogador Class" } } }	
+			# Destroyer Group  2
+			ship = { name = "Milans" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Mogador Class" } } }
+			ship = { name = "Éperviers" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Mogador Class" } } }
+			ship = { name = "Colonias" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Mogador Class" } } }
+			ship = { name = "Brests" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Mogador Class" } } }
+			# Destroyer Group  3
+			ship = { name = "Lions" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Mogador Class" } } }
+			ship = { name = "Cyclones" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Mogador Class" } } }
+			ship = { name = "Brestoiss" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Mogador Class" } } }
+			ship = { name = "Frondeurs" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Mogador Class" } } }	
+		}	
+	}
+	fleet = {
 		name = "Amiral Ouest"
 		naval_base = 3552 # Brest
 		task_force = {
-			name = "2ème Région Navale"
+			name = "Submarine Group"
 			location = 3552 # Brest			
-			# 2e Division des Contre-Torpilleurs
-			ship = { name = "Mogada" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Mogador Class" } } }
-			ship = { name = "Mogadeta" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = FRA version_name = "Mogador Class" } } }
+            # Submarine Group  1
+			ship = { name = "Surcoufs" definition = submarine equipment = { ship_hull_cruiser_submarine = { amount = 1 owner = FRA version_name = "Surcouf Class" } } }
+			ship = { name = "Ajaxs" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = FRA version_name = "Redoutable Class" } } }
+			ship = { name = "Archimèdes" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = FRA version_name = "Redoutable Class" } } }			
+            # Submarine Group  2	
+			ship = { name = "Circés" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = FRA version_name = "Redoutable Class" } } }				
+			ship = { name = "Calypsos" definition = submarine equipment = { ship_hull_cruiser_submarine = { amount = 1 owner = FRA version_name = "Surcouf Class" } } }				
+			ship = { name = "Thétiss" definition = submarine equipment = { ship_hull_cruiser_submarine = { amount = 1 owner = FRA version_name = "Surcouf Class" } } }	
 		}
 	}
 } 

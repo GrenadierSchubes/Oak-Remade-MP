@@ -203,6 +203,7 @@ country_event = {
 		name = france.16.a
 		FRA_remove_army_reform = yes
 		FRA_remove_disjointed_government = yes
+		remove_ideas = FRA_matignon_agreements
 		remove_ideas = FRA_protected_by_the_maginot_line
 	}
 }
