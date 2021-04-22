@@ -122,6 +122,9 @@ focus_tree = {
 				GER = { has_full_control_of_state = 4 }
 			}
 		}
+		bypass = {
+			has_capitulated = yes
+		}
 		icon = GFX_Nora_blumresign
 		x = -2
 		y = 1
@@ -151,6 +154,7 @@ focus_tree = {
 	focus = {
 		id = FRA_garuantee_czechoslovakia
 		bypass = {
+			has_capitulated = yes
 		}
 		available = {
 			or = {
@@ -176,6 +180,7 @@ focus_tree = {
 	focus = {
 		id = FRA_purge_the_anti_appeasers
 		bypass = {
+			has_capitulated = yes
 		}
 		prerequisite = { focus = FRA_garuantee_czechoslovakia }
 		icon = GFX_focus_CZE_german_puppet
@@ -196,8 +201,11 @@ focus_tree = {
 	focus = {
 		id = FRA_ratify_matignon
 		bypass = {
+		    OR = {
 			NOT = {
 				has_idea = FRA_matignon_agreements
+			}
+			has_capitulated = yes
 			}
 		}
 		prerequisite = { focus = FRA_garuantee_czechoslovakia }
@@ -217,7 +225,7 @@ focus_tree = {
 	focus = {
 		id = FRA_join_the_allies
 		bypass = {
-
+			has_capitulated = yes
 		}
 		available = {
 			or = {
@@ -2090,7 +2098,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = FRA_matignon_agreements
 		prerequisite = { focus = FRA_matignon_agreements }
-		cost = 7.16
+		cost = 5
 
 		available_if_capitulated = yes
 
@@ -2109,6 +2117,9 @@ focus_tree = {
 	focus = {
 		id = FRA_army_reform
 		available = {
+		}
+		bypass = {
+			has_capitulated = yes
 		}
 		prerequisite = { focus = FRA_appoint_new_supreme_commander }
 		icon = GFX_goal_generic_position_armies
