@@ -6,7 +6,8 @@ operations = {
 		allowed = {
 		    OR = {
 			    tag = POR
-                tag = CZE					
+                tag = CZE			
+				tag = FRA		
             }			
 		}
 		
