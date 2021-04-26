@@ -1902,7 +1902,7 @@ operations = {
 			country_exists = FRA
 		}
 		available = {
-			date > 1939.1.1
+			date > 1940.3.1
 		}
 
 		cost = 0
