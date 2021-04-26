@@ -2164,11 +2164,11 @@ country_event = {
 	option = {
 		set_country_flag = JAP_iwc_steel_army
 		name = japan.24.a
-		
 	}
 	option = {
 		set_country_flag = JAP_iwc_steel_navy
 		name = japan.24.b
+	}
 }
 
 country_event = {
@@ -2184,6 +2184,7 @@ country_event = {
 		focus_progress = {
 			focus = JAP_imperial_war_conference
 			progress > 0.5
+		}
 	}
 
 	mean_time_to_happen = {
@@ -2193,11 +2194,11 @@ country_event = {
 	option = {
 		set_country_flag = JAP_iwc_air_army
 		name = japan.25.a
-		
 	}
 	option = {
 		set_country_flag = JAP_iwc_air_navy
 		name = japan.25.b
+	}
 }
 
 country_event = {
@@ -2223,9 +2224,9 @@ country_event = {
 	option = {
 		set_country_flag = JAP_iwc_conscription_army
 		name = japan.26.a
-		
 	}
 	option = {
 		set_country_flag = JAP_iwc_conscription_navy
 		name = japan.26.b
+	}
 }

@@ -101,6 +101,7 @@ on_actions = {
 		 		JAP = {
 		 			JAP_decrement_major_conquest = yes 
 		 		}
+		 		news_event = { id = news.464 }
 			}
 		}
 	}
@@ -112,6 +113,7 @@ on_actions = {
 						OR = { 
 							is_in_faction_with = ENG 
 							tag = USA
+							tag = AST
 						} 
 					}
 					ROOT = { 
@@ -132,6 +134,7 @@ on_actions = {
 		 		JAP = {
 		 			JAP_increment_major_conquest = yes 
 		 		}
+		 		news_event = { id = news.465 }
 			}
 		}
 	}

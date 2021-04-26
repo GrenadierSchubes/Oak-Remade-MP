@@ -1651,7 +1651,7 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-			
+				consumer_goods_factor = -0.01
 			}
 		}
 		JAP_major_conquest_2 = {
@@ -1662,7 +1662,7 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-			
+				consumer_goods_factor = -0.02
 			}
 		}
 		JAP_major_conquest_3 = {
@@ -1673,7 +1673,7 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-			
+				consumer_goods_factor = -0.03
 			}
 		}
 		JAP_major_conquest_4 = {
@@ -1684,7 +1684,7 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-			
+				consumer_goods_factor = -0.04
 			}
 		}
 		JAP_major_conquest_5 = {
@@ -1695,7 +1695,7 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-			
+				consumer_goods_factor = -0.05
 			}
 		}
 	}

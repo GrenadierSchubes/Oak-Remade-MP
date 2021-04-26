@@ -1058,7 +1058,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			JAP_interservice_rivarly_towards_army = yes
+			JAP_interservice_rivalry_towards_army = yes
 			add_ideas = JAP_steel_for_guns_idea
 			random_owned_controlled_state = {
 				limit = {
@@ -1149,7 +1149,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			JAP_interservice_rivarly_towards_navy = yes
+			JAP_interservice_rivalry_towards_navy = yes
 			add_ideas = JAP_steel_for_ships_idea
 			random_owned_controlled_state = {
 				limit = {
@@ -1219,7 +1219,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			JAP_interservice_rivarly_towards_army = yes
+			JAP_interservice_rivalry_towards_army = yes
 			add_ideas = JAP_prioritize_army_aircraft_construction
 		}
 	}
@@ -1255,7 +1255,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			JAP_interservice_rivarly_towards_navy = yes
+			JAP_interservice_rivalry_towards_navy = yes
 			add_ideas = JAP_prioritize_naval_aircraft_construction
 		}
 	}
@@ -1291,7 +1291,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			JAP_interservice_rivarly_towards_army = yes
+			JAP_interservice_rivalry_towards_army = yes
 			add_ideas = JAP_institute_conscription_idea
 		}
 	}
@@ -1327,7 +1327,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			JAP_interservice_rivarly_towards_navy = yes
+			JAP_interservice_rivalry_towards_navy = yes
 			add_ideas = JAP_grant_draft_exemptions_idea
 		}
 	}
@@ -1962,7 +1962,7 @@ focus_tree = {
 					}
 				}
 				#Marshall Islands
-				724 = {
+				633 = {
 					add_building_construction = {
 						type = air_base
 						level = 4
@@ -2223,6 +2223,7 @@ focus_tree = {
 			has_full_control_of_state = 336 #Singapore
 			has_full_control_of_state = 288 #Burma
 			has_full_control_of_state = 640 #Mandalay
+			has_full_control_of_state = 327 #Manila
 		}
 
 		bypass = {
