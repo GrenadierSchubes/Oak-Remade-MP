@@ -2,22 +2,24 @@
 state={
 	id=277
 	name="STATE_277"
-	manpower = 1
+	manpower = 3424403
 	
 	state_category = city
 
 	resources={
-		steel=0
-        tungsten = 0 
+		steel=15
+        tungsten = 30 
 	}
 	
 	history={
+		owner = MEX
 		buildings = {
-			infrastructure = 0
-			arms_factory = 0
-			industrial_complex = 0
-			air_base = 0
+			infrastructure = 6
+			arms_factory = 4
+			industrial_complex = 4
+			air_base = 3
 		}
+		add_core_of = MEX
 		victory_points = {
 			1965 25
 		}
