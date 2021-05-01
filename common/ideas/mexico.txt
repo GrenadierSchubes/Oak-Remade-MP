@@ -861,11 +861,7 @@ ideas = {
 					limit = {
 						has_dlc = "Man the Guns"
 					}
-					has_completed_focus = MEX_focus_confederation_of_mexican_workers
-				}
-				if = {
-					limit = { has_dlc = "Man the Guns" }	
-					NOT = { has_autonomy_state = autonomy_supervised_state }
+					has_completed_focus = MEX_focus_agricultural_credit_bank
 				}
 			}
 			
@@ -881,16 +877,6 @@ ideas = {
 			}
 			
 			available = {
-				if = {
-					limit = {
-						has_dlc = "Man the Guns"
-					}
-					has_completed_focus = MEX_focus_the_gold_shirts
-				}
-				if = {
-					limit = { has_dlc = "Man the Guns" }	
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
 			}
 			
 			traits = { syncretic_revanchist }

@@ -822,10 +822,6 @@ country_event = {
 			}
 			modifier = {
 				factor = 10
-				has_active_mission = MEX_mission_second_cristiada
-			}
-			modifier = {
-				factor = 10
 				OR = {
 					has_idea = MEX_church_power_2
 					has_idea = MEX_church_power_1
@@ -844,10 +840,6 @@ country_event = {
 			modifier = {
 				factor = 0.1
 				has_completed_focus = MEX_focus_antidisestablishmentarianism
-			}
-			modifier = {
-				factor = 10
-				has_active_mission = MEX_mission_second_revolution
 			}
 			modifier = {
 				factor = 10
@@ -1403,7 +1395,6 @@ country_event = {
 		name = mexico.19.e
 		
 		trigger = {
-			has_completed_focus = MEX_focus_confederation_of_mexican_workers
 			NOT = {
 				has_country_leader = {
 					name = "Vicente Lombardo"
@@ -1572,7 +1563,6 @@ country_event = {
 		name = mexico.19.i
 		
 		trigger = {
-			has_completed_focus = MEX_focus_confederation_of_mexican_workers
 			NOT = {
 				has_country_leader = {
 					name = "Vicente Lombardo"
@@ -1626,11 +1616,7 @@ country_event = {
 					name = "Dionisio Encina"
 				}
 			}
-
-			has_government = communism
-			NOT = {
-				has_completed_focus = MEX_focus_communist_revolution
-			}			
+			has_government = communism	
 			NOT = {
 				has_global_flag = flag_mexico_invited_trotsky_to_government
 			}
@@ -1756,7 +1742,6 @@ country_event = {
 		name = mexico.19.p
 		
 		trigger = {
-			has_completed_focus = MEX_focus_legion_of_christ
 			NOT = {
 				has_country_leader = {
 					name = "Jesús Degollado Guízar"
@@ -2248,10 +2233,6 @@ country_event = {
 			}
 			modifier = {
 				factor = 10
-				has_active_mission = MEX_mission_second_cristiada
-			}
-			modifier = {
-				factor = 10
 				OR = {
 					has_idea = MEX_church_power_2
 					has_idea = MEX_church_power_1
@@ -2270,10 +2251,6 @@ country_event = {
 			modifier = {
 				factor = 0.1
 				has_completed_focus = MEX_focus_antidisestablishmentarianism
-			}
-			modifier = {
-				factor = 10
-				has_active_mission = MEX_mission_second_revolution
 			}
 			modifier = {
 				factor = 10
@@ -2887,10 +2864,6 @@ country_event = {
 			modifier = {
 				factor = 0.1
 				has_government = fascism
-			}
-			modifier = {
-				factor = 10
-				has_active_mission = MEX_mission_second_revolution
 			}
 			modifier = {
 				factor = 10
