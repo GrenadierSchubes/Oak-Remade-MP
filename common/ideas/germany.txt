@@ -2490,13 +2490,13 @@ ideas = {
 					hard_attack = 0.25 
 					soft_attack = 0.25 
 					defense = 0.25
-					reliability -0.1 
+					reliability = -0.1 
 					build_cost_ic = 0.25
 				}
 				heavy_tank_destroyer_equipment = {
 					hard_attack = 0.2 
 					defense = 0.25
-					reliability -0.1 					
+					reliability = -0.1 					
 					build_cost_ic = 0.25
 				}
 			}		

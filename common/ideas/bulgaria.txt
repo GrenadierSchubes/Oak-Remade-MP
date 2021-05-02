@@ -810,13 +810,8 @@ ideas = {
 				experience_gain_army_factor = 0.1
 				army_leader_cost_factor = -0.25
 				navy_leader_cost_factor = -0.25
-				army_leader_start_attack_level = 1
-				army_leader_start_defense_level	= 1
-				navy_leader_start_attack_level = 1
-				navy_leader_start_defense_level = 1
 				army_morale_factor = 0.1
 				max_command_power = 25
-				justify_war_goal_time = -0.5
 			}
 		}
 
@@ -3111,31 +3106,6 @@ ideas = {
 	
 
 			}
-
-			on_add = {
-				if = {
-					limit = {
-						NOT = { has_country_flag = BUL_contract_with_german_tank_designer_flag }
-					}
-					random_owned_state = {
-						limit = {
-							is_fully_controlled_by = ROOT
-							free_building_slots = {
-								building = arms_factory
-								size > 0
-								include_locked = yes
-							}
-						}
-						add_extra_state_shared_building_slots = 1
-						add_building_construction = {
-							type = arms_factory
-							level = 1
-							instant_build = yes
-						}
-					}
-					set_country_flag = BUL_contract_with_german_tank_designer_flag
-				}		
-			}
 			
 			research_bonus = {
 				armor = -0.05
@@ -3160,31 +3130,6 @@ ideas = {
 			}
 
 			available = {
-			}
-
-			on_add = {
-				if = {
-					limit = {
-						NOT = { has_country_flag = BUL_contract_with_italian_tank_designer_flag }
-					}
-					random_owned_state = {
-						limit = {
-							is_fully_controlled_by = ROOT
-							free_building_slots = {
-								building = arms_factory
-								size > 0
-								include_locked = yes
-							}
-						}
-						add_extra_state_shared_building_slots = 1
-						add_building_construction = {
-							type = arms_factory
-							level = 1
-							instant_build = yes
-						}
-					}
-					set_country_flag = BUL_contract_with_italian_tank_designer_flag
-				}		
 			}
 			
 			research_bonus = {
@@ -3271,26 +3216,6 @@ ideas = {
 			}
 
 			available = {
-				has_country_flag = BUL_italian_naval_agreements_flag
-				if = {
-					limit = {
-						NOT = { has_country_flag = BUL_contract_with_italian_naval_designer_flag }
-					}
-					ITA = { #Scripted trigger for this generates confusing tt due to indentation
-						has_opinion = {
-							target = ROOT
-							value > 49
-						}
-						has_capitulated = no
-
-					}
-				}
-				NOT = { has_war_with = ITA }
-				OR = {
-					is_subject = no
-					is_subject_of = ITA
-				}
-				NOT = { has_completed_focus = BUL_nationalization }
 			}
 
 			on_add = {
@@ -3470,32 +3395,7 @@ ideas = {
 				}
 
 			}
-
-			on_add = {
-				if = {
-					limit = {
-						NOT = { has_country_flag = BUL_contract_with_german_aircraft_designer_flag }
-					}
-					random_owned_state = {
-						limit = {
-							is_fully_controlled_by = ROOT
-							free_building_slots = {
-								building = arms_factory
-								size > 0
-								include_locked = yes
-							}
-						}
-						add_extra_state_shared_building_slots = 1
-						add_building_construction = {
-							type = arms_factory
-							level = 1
-							instant_build = yes
-						}
-					}
-					set_country_flag = BUL_contract_with_german_aircraft_designer_flag
-				}		
-			}
-						
+		
 			research_bonus = {
 				air_equipment = -0.05
 			}
@@ -3663,50 +3563,7 @@ ideas = {
 			}
 
 			available = {
-				
-				if = {
-					limit = {
 
-					}
-					GER = { #Scripted trigger for this generates confusing tt due to indentation
-						has_opinion = {
-							target = ROOT
-							value > 0
-						}
-						has_capitulated = no
-					}
-				}
-				
-				OR = {
-					is_subject = no
-					
-				}
-
-			}
-
-			on_add = {
-				if = {
-					limit = {
-						NOT = { has_country_flag = BUL_contract_with_german_materiel_designer_flag }
-					}
-					random_owned_state = {
-						limit = {
-							is_fully_controlled_by = ROOT
-							free_building_slots = {
-								building = arms_factory
-								size > 0
-								include_locked = yes
-							}
-						}
-						add_extra_state_shared_building_slots = 1
-						add_building_construction = {
-							type = arms_factory
-							level = 1
-							instant_build = yes
-						}
-					}
-					set_country_flag = BUL_contract_with_german_materiel_designer_flag
-				}		
 			}
 			
 			research_bonus = {
@@ -3730,50 +3587,6 @@ ideas = {
 
 			available = {
 				
-				if = {
-					limit = {
-						NOT = { has_country_flag = BUL_contract_with_italian_materiel_designer_flag }
-					}
-					ITA = { #Scripted trigger for this generates confusing tt due to indentation
-						has_opinion = {
-							target = ROOT
-							value > 1
-						}
-						has_capitulated = no
-
-					}
-				}
-				NOT = { has_war_with = ITA }
-				OR = {
-					is_subject = no
-					
-				}
-				
-			}
-
-			on_add = {
-				if = {
-					limit = {
-						NOT = { has_country_flag = BUL_contract_with_italian_materiel_designer_flag }
-					}
-					random_owned_state = {
-						limit = {
-							is_fully_controlled_by = ROOT
-							free_building_slots = {
-								building = arms_factory
-								size > 0
-								include_locked = yes
-							}
-						}
-						add_extra_state_shared_building_slots = 1
-						add_building_construction = {
-							type = arms_factory
-							level = 1
-							instant_build = yes
-						}
-					}
-					set_country_flag = BUL_contract_with_italian_materiel_designer_flag
-				}		
 			}
 			
 			research_bonus = {
@@ -4032,27 +3845,7 @@ ideas = {
 				has_dlc = "Battle for the Bosporus"
 			}
 
-			available = {
-				if = {
-					limit = {
-						
-					}
-					GER = { #Scripted trigger for this generates confusing tt due to indentation
-						has_opinion = {
-							target = ROOT
-							value > 1
-						}
-						has_capitulated = no
-
-					}
-				}
-				
-				OR = {
-					is_subject = no
-					
-				}
-				
-				
+			available = {			
 			}
 
 			on_add = {

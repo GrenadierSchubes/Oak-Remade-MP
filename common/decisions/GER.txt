@@ -13,13 +13,6 @@ special_projects = {
 					is_in_faction_with = GER
 				}
 				controls_state = 28
-				if = {
-					limit = {
-						FRA = { has_completed_focus = FRA_extend_the_maginot_line }
-					}
-					controls_state = 18
-					controls_state = 29
-				}
 			}
 		}
 
@@ -43,7 +36,7 @@ special_projects = {
 			28 = {
 				set_building_level = {
 					type = bunker
-					level = 2
+					level = 0
 					province = {
 						all_provinces = yes
 						limit_to_border = no
@@ -58,7 +51,7 @@ special_projects = {
 				18 = {
 					set_building_level = {
 						type = bunker
-						level = 2
+						level = 0
 						province = {
 							all_provinces = yes
 							limit_to_border = no
@@ -69,7 +62,7 @@ special_projects = {
 				29 = {
 					set_building_level = {
 						type = bunker
-						level = 2
+						level = 0
 						province = {
 							all_provinces = yes
 							limit_to_border = no
@@ -3020,21 +3013,9 @@ foreign_politics = {
 		   tag = GER
 		}
 		visible = {
-			has_war = yes
 		}
 
-		available = {
-			POL = { has_capitulated = yes }
-			OR = { 
-				has_war_with = ENG
-				NOT = {country_exists = ENG}
-			}
-			if = {
-				limit = {
-					GER = {	is_ai = yes }
-				}
-				date > 1940.5.15	
-			}					
+		available = {				
 		}
 
 		ai_will_do = {
@@ -3045,6 +3026,18 @@ foreign_politics = {
 
 			hidden_effect = {
 				complete_national_focus = GER_around_maginot
+			}
+			
+			28 = {
+				set_building_level = {
+					type = bunker
+					level = 2
+					province = {
+						all_provinces = yes
+						limit_to_border = no
+						level > 2
+					}
+				}
 			}
 
 			BEL = { remove_ideas = neutrality_idea }

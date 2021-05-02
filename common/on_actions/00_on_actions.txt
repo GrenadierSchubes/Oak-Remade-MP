@@ -1115,12 +1115,17 @@ on_actions = {
 					country_event = { days = 7 id = germany.107 }
 				}		
 				EFR = {
-					every_state = {
-						limit = {
-							is_core_of = FRA
-						}
-						add_core_of = EFR
-					}
+					add_state_core = 20
+					add_state_core = 21
+					add_state_core = 22
+				    add_state_core = 25
+					add_state_core = 26
+					add_state_core = 31
+					add_state_core = 32
+					add_state_core = 33
+					add_state_core = 1
+					add_state_core = 735
+					
 					transfer_state = 26
 					transfer_state = 22
 					transfer_state = 31
