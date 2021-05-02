@@ -93,16 +93,7 @@
 		available_if_capitulated = no
 
 		completion_reward = {
-		    create_country_leader = {
-		    	name = "Leon Trotsky"
-		    	desc = "POLITICS_LEON_TROTSKY_DESC"
-		    	picture = "gfx/leaders/SOV/Portrait_Leon_Trotsky.dds"
-		    	expire = "1965.1.1"
-		    	ideology = socialism
-		    	traits = {
-			    	exiled_revolutionary
-			    }
-		    }
+            add_country_leader_trait = propaganda_expert	
 		}	
 		ai_will_do = {
 		}
