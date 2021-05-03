@@ -1249,6 +1249,9 @@ focus_tree = {
 
 			custom_effect_tooltip = available_designer
 			show_ideas_tooltip = opel
+			hidden_effect = {
+				 sound_effect = ger_kdf_wagen
+			}
 
 		}
 	}	

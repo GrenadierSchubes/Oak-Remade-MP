@@ -48,6 +48,47 @@ soundeffect = {
 	volume = 1.0
 }
 
+##German Speeches##
+
+soundeffect = {
+	name = "ger_kdf_wagen"
+	sounds = {
+		sound = ger_kdf_wagen
+	}
+	volume = 1.0
+}
+
+soundeffect = {
+	name = "sp_ita_waronallies"
+	sounds = {
+		sound = sp_ita_waronallies
+	}
+	volume = 1.4
+}
+
+soundeffect = {
+	name = "sp_ita_waronallies"
+	sounds = {
+		sound = sp_ita_waronallies
+	}
+	volume = 1.4
+}
+
+soundeffect = {
+	name = "sp_ita_waronallies"
+	sounds = {
+		sound = sp_ita_waronallies
+	}
+	volume = 1.4
+}
+
+soundeffect = {
+	name = "sp_ita_waronallies"
+	sounds = {
+		sound = sp_ita_waronallies
+	}
+	volume = 1.4
+}
 
 ##Italian Speeches##
 

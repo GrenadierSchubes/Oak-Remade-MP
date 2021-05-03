@@ -11,6 +11,13 @@ category = {
 }
 
 category = {
+ name = "German Speeches"
+ soundeffects = {
+	ger_kdf_wagen
+	}
+}
+
+category = {
  name = "Italian Speeches"
  soundeffects = {
 	sp_ita_waronallies

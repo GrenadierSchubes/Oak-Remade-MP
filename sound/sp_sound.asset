@@ -30,6 +30,32 @@ sound = {
 	file = "eng_speech/eng_no_confidence.wav"
 }
 
+##German Speeches##
+
+sound = {
+	name = "ger_kdf_wagen"
+	file = "ger_speech/ger_kdf_wagen.wav"
+}
+
+sound = {
+	name = "sp_ita_waronallies"
+	file = "ita_speech/sp_ita_waronallies.wav"
+}
+
+sound = {
+	name = "sp_ita_waronallies"
+	file = "ita_speech/sp_ita_waronallies.wav"
+}
+
+sound = {
+	name = "sp_ita_waronallies"
+	file = "ita_speech/sp_ita_waronallies.wav"
+}
+
+sound = {
+	name = "sp_ita_waronallies"
+	file = "ita_speech/sp_ita_waronallies.wav"
+}
 
 ##Italian Speeches##
 
@@ -37,10 +63,12 @@ sound = {
 	name = "sp_ita_waronallies"
 	file = "ita_speech/sp_ita_waronallies.wav"
 }
+
 sound = {
 	name = "sp_ita_surrender"
 	file = "ita_speech/sp_ita_surrender.wav"
 }
+
 sound = {
 	name = "sp_ita_ethiopia"
 	file = "ita_speech/sp_ita_ethiopia.wav"
@@ -51,3 +79,4 @@ sound = {
 sound = {
 	name = "sov_sacred_war"
 	file = "sov_speech/sov_sacred_war.wav"
+}
