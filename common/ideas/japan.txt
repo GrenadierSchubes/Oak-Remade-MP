@@ -94,7 +94,6 @@ ideas = {
 		}
 	
 	    JAP_island_hopping1 = {
-			name = JAP_island_hopping
 			allowed = {
 				always = no
 			}
@@ -102,10 +101,11 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-			consumer_goods_factor = 0.15
+				consumer_goods_factor = 0.07
+				stability_weekly = -0.004
 				political_power_gain = -0.35
-				war_support_factor = -0.20
-				stability_factor = -0.20 
+				war_support_factor = -0.35
+				stability_factor = -0.35
 			}
 		}
 		JAP_island_hopping2 = {
@@ -116,10 +116,11 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-			consumer_goods_factor = 0.14
+				consumer_goods_factor = 0.06
+				stability_weekly = -0.0035
 				political_power_gain = -0.30
-				war_support_factor = -0.18
-				stability_factor = -0.18
+				war_support_factor = -0.3
+				stability_factor = -0.3
 			}
 		}
 		JAP_island_hopping3 = {
@@ -290,8 +291,8 @@ ideas = {
 			modifier = {
 			consumer_goods_factor = -0.06
 				political_power_gain = 0.30
-				war_support_factor = 0.18
-				stability_factor = 0.18
+				war_support_factor = 0.3
+				stability_factor = 0.3
 			}
 		}
 		JAP_island_hopping15 = {
@@ -304,8 +305,8 @@ ideas = {
 			modifier = {
 			consumer_goods_factor = -0.07
 				political_power_gain = 0.35
-				war_support_factor = 0.20
-				stability_factor = 0.20
+				war_support_factor = 0.35
+				stability_factor = 0.35
 			}
 		}
 		state_shintoism = {
@@ -1651,7 +1652,6 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				consumer_goods_factor = -0.01
 			}
 		}
 		JAP_major_conquest_2 = {
@@ -1662,7 +1662,8 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				consumer_goods_factor = -0.02
+				industrial_capacity_factory = 0.05
+				industrial_capacity_dockyard = 0.05
 			}
 		}
 		JAP_major_conquest_3 = {
@@ -1673,7 +1674,8 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				consumer_goods_factor = -0.03
+				industrial_capacity_factory = 0.1
+				industrial_capacity_dockyard = 0.1
 			}
 		}
 		JAP_major_conquest_4 = {
@@ -1684,7 +1686,8 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				consumer_goods_factor = -0.04
+				industrial_capacity_factory = 0.15
+				industrial_capacity_dockyard = 0.15
 			}
 		}
 		JAP_major_conquest_5 = {
@@ -1695,7 +1698,8 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				consumer_goods_factor = -0.05
+				industrial_capacity_factory = 0.20
+				industrial_capacity_dockyard = 0.20
 			}
 		}
 	}

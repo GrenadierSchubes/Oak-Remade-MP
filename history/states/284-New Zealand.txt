@@ -11,6 +11,7 @@ state={
 	state_category = city
 	
 	history={
+		set_state_flag = JAP_uncontrol_ANZAC
 		owner = NZL
 		buildings = {
 			infrastructure = 6

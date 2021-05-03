@@ -380,28 +380,28 @@ JAP_interservice_rivalry_towards_army = {
 
 JAP_increment_major_conquest = {
 	if = {
-		limit = { has_country_flag = JAP_major_conquest_4 }
+		limit = { has_idea = JAP_major_conquest_4 }
 		swap_ideas = {
 			remove_idea = JAP_major_conquest_4
 			add_idea = JAP_major_conquest_5
 		}
 	}
 	else_if = {
-		limit = { has_country_flag = JAP_major_conquest_3 }
+		limit = { has_idea = JAP_major_conquest_3 }
 		swap_ideas = {
 			remove_idea = JAP_major_conquest_3
 			add_idea = JAP_major_conquest_4
 		}
 	}
 	else_if = {
-		limit = { has_country_flag = JAP_major_conquest_2 }
+		limit = { has_idea = JAP_major_conquest_2 }
 		swap_ideas = {
 			remove_idea = JAP_major_conquest_2
 			add_idea = JAP_major_conquest_3
 		}
 	}
 	else_if = {
-		limit = { has_country_flag = JAP_major_conquest_1 }
+		limit = { has_idea = JAP_major_conquest_1 }
 		swap_ideas = {
 			remove_idea = JAP_major_conquest_1
 			add_idea = JAP_major_conquest_2
@@ -411,28 +411,28 @@ JAP_increment_major_conquest = {
 
 JAP_decrement_major_conquest = {
 	if = {
-		limit = { has_country_flag = JAP_major_conquest_2 }
+		limit = { has_idea = JAP_major_conquest_2 }
 		swap_ideas = {
 			remove_idea = JAP_major_conquest_2
 			add_idea = JAP_major_conquest_1
 		}
 	}
 	else_if = {
-		limit = { has_country_flag = JAP_major_conquest_2 }
+		limit = { has_idea = JAP_major_conquest_3 }
 		swap_ideas = {
 			remove_idea = JAP_major_conquest_3
 			add_idea = JAP_major_conquest_2
 		}
 	}
 	else_if = {
-		limit = { has_country_flag = JAP_major_conquest_4 }
+		limit = { has_idea = JAP_major_conquest_4 }
 		swap_ideas = {
 			remove_idea = JAP_major_conquest_4
 			add_idea = JAP_major_conquest_3
 		}
 	}
 	else_if = {
-		limit = { has_country_flag = JAP_major_conquest_5 }
+		limit = { has_idea = JAP_major_conquest_5 }
 		swap_ideas = {
 			remove_idea = JAP_major_conquest_5
 			add_idea = JAP_major_conquest_4
