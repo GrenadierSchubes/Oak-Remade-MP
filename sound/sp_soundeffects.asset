@@ -1,7 +1,55 @@
+##British Speeches##
 
-##################
-#Italian Speeches#
-##################
+soundeffect = {
+	name = "eng_battleaxe"
+	sounds = {
+		sound = eng_battleaxe
+	}
+	volume = 1.0
+}
+
+soundeffect = {
+	name = "eng_peace"
+	sounds = {
+		sound = eng_peace
+	}
+	volume = 1.4
+}
+
+soundeffect = {
+	name = "eng_norway"
+	sounds = {
+		sound = eng_norway
+	}
+	volume = 1.0
+}
+
+soundeffect = {
+	name = "eng_no_confidence"
+	sounds = {
+		sound = eng_no_confidence
+	}
+	volume = 1.0
+}
+
+soundeffect = {
+	name = "eng_never_surrender"
+	sounds = {
+		sound = eng_never_surrender
+	}
+	volume = 1.0
+}
+
+soundeffect = {
+	name = "eng_airmen"
+	sounds = {
+		sound = eng_airmen
+	}
+	volume = 1.0
+}
+
+
+##Italian Speeches##
 
 soundeffect = {
 	name = "sp_ita_waronallies"
@@ -21,6 +69,16 @@ soundeffect = {
 	name = "sp_ita_ethiopia"
 	sounds = {
 		sound = sp_ita_ethiopia
+	}
+	volume = 1.0
+}
+
+##Soviet Speeches##
+
+soundeffect = {
+	name = "sov_sacred_war"
+	sounds = {
+		sound = sov_sacred_war
 	}
 	volume = 1.0
 }

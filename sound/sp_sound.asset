@@ -1,7 +1,38 @@
+##British Speeches##
 
-##################
-#Italian Speeches#
-##################
+sound = {
+	name = "eng_airmen"
+	file = "eng_speech/eng_airmen.wav"
+}
+
+sound = {
+	name = "eng_battleaxe"
+	file = "eng_speech/eng_battleaxe.wav"
+}
+
+sound = {
+	name = "eng_peace"
+	file = "eng_speech/eng_peace.wav"
+}
+
+sound = {
+	name = "eng_never_surrender"
+	file = "eng_speech/eng_never_surrender.wav"
+}
+
+sound = {
+	name = "eng_norway"
+	file = "eng_speech/eng_norway.wav"
+}
+
+sound = {
+	name = "eng_no_confidence"
+	file = "eng_speech/eng_no_confidence.wav"
+}
+
+
+##Italian Speeches##
+
 sound = {
 	name = "sp_ita_waronallies"
 	file = "ita_speech/sp_ita_waronallies.wav"
@@ -14,3 +45,9 @@ sound = {
 	name = "sp_ita_ethiopia"
 	file = "ita_speech/sp_ita_ethiopia.wav"
 }
+
+##Soviet Speeches##
+
+sound = {
+	name = "sov_sacred_war"
+	file = "sov_speech/sov_sacred_war.wav"

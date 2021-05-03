@@ -5995,6 +5995,9 @@ focus_tree = {
 			    idea = ENG_operation_battleaxe
 			    days = 90	
             }
+			hidden_effect = {
+				 sound_effect = eng_battleaxe
+			}
 		}
 	}	
 	focus = {
@@ -6817,6 +6820,9 @@ focus_tree = {
 				}
 			}		
 			add_political_power = 150 
+			hidden_effect = {
+				 sound_effect = eng_peace
+			}
 		}
 	}
 	
@@ -7002,6 +7008,9 @@ focus_tree = {
 		completion_reward = {
 			add_stability = -0.05
 			country_event = { id = mtg_britain.22 }
+			hidden_effect = {
+				 sound_effect = eng_no_confidence
+			}
 		}
 	}
 
@@ -7372,7 +7381,10 @@ focus_tree = {
 		completion_reward = {
 			country_event = { id = britain.9 }
 			USA = { set_country_flag = blood_toil_tears_sweat_speech }
-			set_country_flag = blood_toil_tears_sweat_speech			
+			set_country_flag = blood_toil_tears_sweat_speech	
+			hidden_effect = {
+				 sound_effect = eng_norway
+			}
 		}
 	}
 
@@ -7526,7 +7538,10 @@ focus_tree = {
 						owner = ENG
 					}	
 				}
-			}			
+			}
+				hidden_effect = {
+				 sound_effect = eng_never_surrender
+			}
 		}
 	}
 
@@ -7548,6 +7563,9 @@ focus_tree = {
 			swap_ideas = { 
 				remove_idea = british_fighter_discount
 				add_idea = RAF
+			}
+			hidden_effect = {
+				 sound_effect = eng_airmen
 			}
 		}
 	}	

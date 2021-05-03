@@ -1,3 +1,14 @@
+category = {
+ name = "British Speeches"
+ soundeffects = {
+	eng_airmen
+	eng_battleaxe
+	eng_never_surrender
+	eng_no_confidence
+	eng_norway
+	eng_peace
+	}
+}
 
 category = {
  name = "Italian Speeches"
@@ -5,5 +16,12 @@ category = {
 	sp_ita_waronallies
 	sp_ita_surrender
  	sp_ita_ethiopia
+	}
+}
+
+category = {
+ name = "Soviet Speeches"
+ soundeffects = {
+	sov_sacred_war
 	}
 }

@@ -5421,6 +5421,9 @@ focus_tree = {
 				}
 				remove_ideas = home_of_revolution			
 			}
+			hidden_effect = {
+				 sound_effect = sov_sacred_war
+			}
 		}
 	}
 
