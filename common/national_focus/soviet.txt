@@ -5981,6 +5981,9 @@ focus_tree = {
 					}											
 				}
 			}
+			hidden_effect = {
+					sound_effect = sov_moscow
+					}
 		}
 	}
 

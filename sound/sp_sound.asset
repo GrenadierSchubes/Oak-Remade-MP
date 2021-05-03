@@ -1,3 +1,10 @@
+##American Speeches##
+
+sound = {
+	name = "usa_pearl_harbor"
+	file = "usa_speech/usa_pearl_harbor.wav"
+}
+
 ##British Speeches##
 
 sound = {
@@ -38,13 +45,13 @@ sound = {
 }
 
 sound = {
-	name = "sp_ita_waronallies"
-	file = "ita_speech/sp_ita_waronallies.wav"
+	name = "ger_totalen_krieg"
+	file = "ger_speech/ger_totalen_krieg.wav"
 }
 
 sound = {
-	name = "sp_ita_waronallies"
-	file = "ita_speech/sp_ita_waronallies.wav"
+	name = "ger_mobilize"
+	file = "ger_speech/ger_mobilize.wav"
 }
 
 sound = {
@@ -74,9 +81,24 @@ sound = {
 	file = "ita_speech/sp_ita_ethiopia.wav"
 }
 
+sound = {
+	name = "ita_il_duce"
+	file = "ita_speech/ita_il_duce.wav"
+}
+
 ##Soviet Speeches##
 
 sound = {
 	name = "sov_sacred_war"
 	file = "sov_speech/sov_sacred_war.wav"
+}
+
+sound = {
+	name = "sov_moscow"
+	file = "sov_speech/sov_moscow.wav"
+}
+
+sound = {
+	name = "sov_winter_offensive_1"
+	file = "sov_speech/sov_winter_offensive_1.wav"
 }

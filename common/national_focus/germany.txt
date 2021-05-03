@@ -1517,6 +1517,9 @@ focus_tree = {
 					remove_resource_rights = 6
 				}
 			}
+			hidden_effect = {
+				 sound_effect = ger_mobilize
+			}
 		}
 	}
 
@@ -3095,6 +3098,9 @@ focus_tree = {
 			custom_effect_tooltip = available_political_advisor
 			show_ideas_tooltip = joseph_goebbels
 			add_political_power = 150
+			hidden_effect = {
+				 sound_effect = ger_totalen_krieg
+			}
 		} 
 	}	
 

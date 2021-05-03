@@ -1,3 +1,14 @@
+##American Speeches##
+
+soundeffect = {
+	name = "usa_pearl_harbor"
+	sounds = {
+		sound = usa_pearl_harbor
+	}
+	volume = 1.0
+}
+
+
 ##British Speeches##
 
 soundeffect = {
@@ -59,19 +70,19 @@ soundeffect = {
 }
 
 soundeffect = {
-	name = "sp_ita_waronallies"
+	name = "ger_totalen_krieg"
 	sounds = {
-		sound = sp_ita_waronallies
+		sound = ger_totalen_krieg
 	}
-	volume = 1.4
+	volume = 1.0
 }
 
 soundeffect = {
-	name = "sp_ita_waronallies"
+	name = "ger_mobilize"
 	sounds = {
-		sound = sp_ita_waronallies
+		sound = ger_mobilize
 	}
-	volume = 1.4
+	volume = 1.0
 }
 
 soundeffect = {
@@ -114,6 +125,14 @@ soundeffect = {
 	volume = 1.0
 }
 
+soundeffect = {
+	name = "ita_il_duce"
+	sounds = {
+		sound = ita_il_duce
+	}
+	volume = 1.0
+}
+
 ##Soviet Speeches##
 
 soundeffect = {
@@ -123,3 +142,21 @@ soundeffect = {
 	}
 	volume = 1.0
 }
+
+soundeffect = {
+	name = "sov_moscow"
+	sounds = {
+		sound = sov_moscow
+	}
+	volume = 1.0
+}
+
+soundeffect = {
+	name = "sov_winter_offensive_1"
+	sounds = {
+		sound = sov_winter_offensive_1
+	}
+	volume = 1.0
+}
+
+

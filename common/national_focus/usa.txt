@@ -5268,6 +5268,9 @@ focus_tree = {
 			}
 			USA_depression_clear_all = yes 
 			remove_ideas = USA_right_to_strike
+			hidden_effect = {
+				 sound_effect = usa_pearl_harbor
+			}
 		}
 	}
 

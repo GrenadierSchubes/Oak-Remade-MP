@@ -2760,6 +2760,9 @@ focus_tree = {
 				remove_idea = parola_di_ordine_vincere
 				add_idea = parola_di_ordine_vincere_2
 			}
+			hidden_effect = {
+					sound_effect = ita_il_duce 
+					}
 		}
 	}
 	focus = {
