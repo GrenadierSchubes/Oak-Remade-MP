@@ -2847,6 +2847,7 @@ foreign_politics = {
 		complete_effect = {
 			hidden_effect = {
 				complete_national_focus = GER_danzig_or_war
+				sound_effect = ger_fall_weiss
 			}			
 			add_named_threat = { threat = 15 name = GER_danzig_or_war }
 			POL = {

@@ -40,6 +40,11 @@ sound = {
 ##German Speeches##
 
 sound = {
+	name = "ger_fall_weiss"
+	file = "ger_speech/ger_fall_weiss.wav"
+}
+
+sound = {
 	name = "ger_kdf_wagen"
 	file = "ger_speech/ger_kdf_wagen.wav"
 }
@@ -84,6 +89,13 @@ sound = {
 sound = {
 	name = "ita_il_duce"
 	file = "ita_speech/ita_il_duce.wav"
+}
+
+##Japanese Speeches##
+
+sound = {
+	name = "jap_banzai"
+	file = "jap_speech/jap_banzai.wav"
 }
 
 ##Soviet Speeches##

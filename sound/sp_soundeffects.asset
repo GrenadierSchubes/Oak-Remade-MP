@@ -86,11 +86,11 @@ soundeffect = {
 }
 
 soundeffect = {
-	name = "sp_ita_waronallies"
+	name = "ger_fall_weiss"
 	sounds = {
-		sound = sp_ita_waronallies
+		sound = ger_fall_weiss
 	}
-	volume = 1.4
+	volume = 1.0
 }
 
 soundeffect = {
@@ -129,6 +129,16 @@ soundeffect = {
 	name = "ita_il_duce"
 	sounds = {
 		sound = ita_il_duce
+	}
+	volume = 1.0
+}
+
+##Japanese Speeches##
+
+soundeffect = {
+	name = "jap_banzai"
+	sounds = {
+		sound = jap_banzai
 	}
 	volume = 1.0
 }

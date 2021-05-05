@@ -13,8 +13,9 @@ category = {
 category = {
  name = "German Speeches"
  soundeffects = {
+	ger_fall_weiss
 	ger_kdf_wagen
-	ger_totalen_Krieg
+	ger_totalen_krieg
 	ger_mobilize
 	}
 }
@@ -26,6 +27,13 @@ category = {
 	sp_ita_surrender
  	sp_ita_ethiopia
 	ita_il_duce
+	}
+}
+
+category = {
+ name = "Japanese Speeches"
+ soundeffects = {
+	jap_banzai
 	}
 }
 
