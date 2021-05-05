@@ -3017,7 +3017,7 @@ foreign_politics = {
 		}
 
 		available = {	
--			POL = { has_capitulated = yes }
+			POL = { has_capitulated = yes }
 			OR = { 
 				has_war_with = ENG
 				NOT = {country_exists = ENG}
