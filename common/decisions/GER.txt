@@ -3013,9 +3013,21 @@ foreign_politics = {
 		   tag = GER
 		}
 		visible = {
+		   has_war = yes
 		}
 
-		available = {				
+		available = {	
+-			POL = { has_capitulated = yes }
+			OR = { 
+				has_war_with = ENG
+				NOT = {country_exists = ENG}
+			}
+			if = {
+				limit = {
+					GER = {	is_ai = yes }
+				}
+				date > 1940.5.15	
+			}						
 		}
 
 		ai_will_do = {
