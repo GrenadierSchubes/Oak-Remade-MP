@@ -1,3 +1,37 @@
+category = {
+ name = "British Speeches"
+ soundeffects = {
+	eng_airmen
+	eng_battleaxe
+	eng_never_surrender
+	eng_no_confidence
+	eng_norway
+	eng_peace
+	eng_sealion
+	}
+}
+
+category = {
+ name = "French Speeches"
+ soundeffects = {
+	fra_partisans
+	}
+}
+
+category = {
+ name = "German Speeches"
+ soundeffects = {
+	ger_citadel
+	ger_barbarossa
+	ger_fall_blau
+	ger_fall_weiss
+	ger_kdf_wagen
+	ger_totalen_krieg
+	ger_mobilize
+	ger_russlandlied
+	ger_westerwald
+	}
+}
 
 category = {
  name = "Italian Speeches"
@@ -5,5 +39,33 @@ category = {
 	sp_ita_waronallies
 	sp_ita_surrender
  	sp_ita_ethiopia
+	ita_il_duce
+	}
+}
+
+category = {
+ name = "Japanese Speeches"
+ soundeffects = {
+	jap_banzai
+	}
+}
+
+category = {
+ name = "Soviet Speeches"
+ soundeffects = {
+	sov_sacred_war
+	sov_moscow
+	sov_leningrad
+	sov_lets_go
+	sov_stalingrad
+	sov_winter_offensive_1
+	sov_winter_offensive_2
+	}
+}
+
+category = {
+ name = "American Speeches"
+ soundeffects = {
+	usa_pearl_harbor
 	}
 }

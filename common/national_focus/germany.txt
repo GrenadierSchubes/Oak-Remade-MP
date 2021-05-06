@@ -1249,6 +1249,9 @@ focus_tree = {
 
 			custom_effect_tooltip = available_designer
 			show_ideas_tooltip = opel
+			hidden_effect = {
+				 sound_effect = ger_kdf_wagen
+			}
 
 		}
 	}	
@@ -1513,6 +1516,9 @@ focus_tree = {
 					remove_resource_rights = 141
 					remove_resource_rights = 6
 				}
+			}
+			hidden_effect = {
+				 sound_effect = ger_mobilize
 			}
 		}
 	}
@@ -3092,6 +3098,9 @@ focus_tree = {
 			custom_effect_tooltip = available_political_advisor
 			show_ideas_tooltip = joseph_goebbels
 			add_political_power = 150
+			hidden_effect = {
+				 sound_effect = ger_totalen_krieg
+			}
 		} 
 	}	
 
@@ -4678,7 +4687,9 @@ focus_tree = {
 					add_idea = general_staff5
 				}
 			}
-
+			hidden_effect = {
+				sound_effect = ger_russlandlied
+				}
 		}
 	}
 

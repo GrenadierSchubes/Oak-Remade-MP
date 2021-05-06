@@ -2011,6 +2011,9 @@ focus_tree = {
 
 		completion_reward = {
 			add_ideas = FRA_national_council_of_the_resistance
+			hidden_effect = {
+				sound_effect = fra_partisans
+				}
 		}
 	}
 

@@ -1844,6 +1844,9 @@ focus_tree = {
 				add_ideas = JAP_intervene_in_china_2
 			}
 			unlock_decision_tooltip = JAP_china_step_up_war_effort
+			hidden_effect = {
+				sound_effect = jap_banzai
+			}
 		}
 	}
 	focus = {

@@ -1853,6 +1853,9 @@ operations = {
 			}
 			news_event = { hours = 20 id = news.458 }
 			set_country_flag = GERsummeroffensive1
+			hidden_effect = {
+				sound_effect = ger_fall_blau
+				}
      	}
     }
 	
@@ -1946,6 +1949,9 @@ operations = {
 			}
 			news_event = { hours = 20 id = news.458 }
 			set_country_flag = GERsummeroffensive2
+			hidden_effect = {
+				sound_effect = ger_citadel
+				}
 		}
     }
 	
@@ -2847,6 +2853,7 @@ foreign_politics = {
 		complete_effect = {
 			hidden_effect = {
 				complete_national_focus = GER_danzig_or_war
+				sound_effect = ger_fall_weiss
 			}			
 			add_named_threat = { threat = 15 name = GER_danzig_or_war }
 			POL = {
@@ -3038,6 +3045,8 @@ foreign_politics = {
 
 			hidden_effect = {
 				complete_national_focus = GER_around_maginot
+				news_event = { hours = 6 id = news.234 }
+				sound_effect = ger_westerwald
 			}
 			
 			28 = {
@@ -3106,10 +3115,6 @@ foreign_politics = {
 					type = annex_everything
          	   	}
 	     	}
-			 
-			hidden_effect = {
-				news_event = { hours = 6 id = news.234 }
-			}
 		}
 	}
 
@@ -3385,6 +3390,7 @@ foreign_politics = {
 		remove_effect = {
 			hidden_effect = {
 				complete_national_focus = GER_ussr_war_goal
+				sound_effect = ger_barbarossa
 			}
 			if = {
 				limit = {

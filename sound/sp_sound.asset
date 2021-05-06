@@ -1,16 +1,163 @@
+##American Speeches##
 
-##################
-#Italian Speeches#
-##################
+sound = {
+	name = "usa_pearl_harbor"
+	file = "usa_speech/usa_pearl_harbor.wav"
+}
+
+##British Speeches##
+
+sound = {
+	name = "eng_airmen"
+	file = "eng_speech/eng_airmen.wav"
+}
+
+sound = {
+	name = "eng_battleaxe"
+	file = "eng_speech/eng_battleaxe.wav"
+}
+
+sound = {
+	name = "eng_peace"
+	file = "eng_speech/eng_peace.wav"
+}
+
+sound = {
+	name = "eng_never_surrender"
+	file = "eng_speech/eng_never_surrender.wav"
+}
+
+sound = {
+	name = "eng_norway"
+	file = "eng_speech/eng_norway.wav"
+}
+
+sound = {
+	name = "eng_no_confidence"
+	file = "eng_speech/eng_no_confidence.wav"
+}
+
+sound = {
+	name = "eng_sealion"
+	file = "eng_speech/eng_sealion.wav"
+}
+
+##French Speeches##
+
+sound = {
+	name = "fra_partisans"
+	file = "fra_speech/fra_partisans.wav"
+}
+
+##German Speeches##
+
+sound = {
+	name = "ger_citadel"
+	file = "ger_speech/ger_citadel.wav"
+}
+
+sound = {
+	name = "ger_fall_blau"
+	file = "ger_speech/ger_fall_blau.wav"
+}
+
+sound = {
+	name = "ger_fall_weiss"
+	file = "ger_speech/ger_fall_weiss.wav"
+}
+
+sound = {
+	name = "ger_kdf_wagen"
+	file = "ger_speech/ger_kdf_wagen.wav"
+}
+
+sound = {
+	name = "ger_totalen_krieg"
+	file = "ger_speech/ger_totalen_krieg.wav"
+}
+
+sound = {
+	name = "ger_mobilize"
+	file = "ger_speech/ger_mobilize.wav"
+}
+
+sound = {
+	name = "ger_barbarossa"
+	file = "ger_speech/ger_barbarossa.wav"
+}
+
+sound = {
+	name = "ger_russlandlied"
+	file = "ger_speech/ger_russlandlied.wav"
+}
+
+sound = {
+	name = "ger_westerwald"
+	file = "ger_speech/ger_westerwald.wav"
+}
+
+##Italian Speeches##
+
 sound = {
 	name = "sp_ita_waronallies"
 	file = "ita_speech/sp_ita_waronallies.wav"
 }
+
 sound = {
 	name = "sp_ita_surrender"
 	file = "ita_speech/sp_ita_surrender.wav"
 }
+
 sound = {
 	name = "sp_ita_ethiopia"
 	file = "ita_speech/sp_ita_ethiopia.wav"
+}
+
+sound = {
+	name = "ita_il_duce"
+	file = "ita_speech/ita_il_duce.wav"
+}
+
+##Japanese Speeches##
+
+sound = {
+	name = "jap_banzai"
+	file = "jap_speech/jap_banzai.wav"
+}
+
+##Soviet Speeches##
+
+sound = {
+	name = "sov_leningrad"
+	file = "sov_speech/sov_leningrad.wav"
+}
+
+sound = {
+	name = "sov_lets_go"
+	file = "sov_speech/sov_lets_go.wav"
+}
+
+sound = {
+	name = "sov_sacred_war"
+	file = "sov_speech/sov_sacred_war.wav"
+}
+
+sound = {
+	name = "sov_moscow"
+	file = "sov_speech/sov_moscow.wav"
+}
+
+sound = {
+	name = "sov_stalingrad"
+	file = "sov_speech/sov_stalingrad.wav"
+}
+
+sound = {
+	name = "sov_winter_offensive_1"
+	file = "sov_speech/sov_winter_offensive_1.wav"
+}
+
+sound = {
+	name = "sov_winter_offensive_2"
+	file = "sov_speech/sov_winter_offensive_2.wav"
 }

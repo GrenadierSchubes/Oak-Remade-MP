@@ -1,7 +1,157 @@
+##American Speeches##
 
-##################
-#Italian Speeches#
-##################
+soundeffect = {
+	name = "usa_pearl_harbor"
+	sounds = {
+		sound = usa_pearl_harbor
+	}
+	volume = 1.0
+}
+
+
+##British Speeches##
+
+soundeffect = {
+	name = "eng_battleaxe"
+	sounds = {
+		sound = eng_battleaxe
+	}
+	volume = 1.0
+}
+
+soundeffect = {
+	name = "eng_peace"
+	sounds = {
+		sound = eng_peace
+	}
+	volume = 1.4
+}
+
+soundeffect = {
+	name = "eng_norway"
+	sounds = {
+		sound = eng_norway
+	}
+	volume = 1.0
+}
+
+soundeffect = {
+	name = "eng_no_confidence"
+	sounds = {
+		sound = eng_no_confidence
+	}
+	volume = 1.0
+}
+
+soundeffect = {
+	name = "eng_never_surrender"
+	sounds = {
+		sound = eng_never_surrender
+	}
+	volume = 1.0
+}
+
+soundeffect = {
+	name = "eng_airmen"
+	sounds = {
+		sound = eng_airmen
+	}
+	volume = 1.0
+}
+
+soundeffect = {
+	name = "eng_sealion"
+	sounds = {
+		sound = eng_sealion
+	}
+	volume = 1.0
+}
+
+##French Speeches##
+
+soundeffect = {
+	name = "fra_partisans"
+	sounds = {
+		sound = fra_partisans
+	}
+	volume = 1.0
+}
+
+##German Speeches##
+
+soundeffect = {
+	name = "ger_citadel"
+	sounds = {
+		sound = ger_citadel
+	}
+	volume = 1.0
+}
+
+soundeffect = {
+	name = "ger_fall_blau"
+	sounds = {
+		sound = ger_fall_blau
+	}
+	volume = 1.0
+}
+
+soundeffect = {
+	name = "ger_kdf_wagen"
+	sounds = {
+		sound = ger_kdf_wagen
+	}
+	volume = 1.0
+}
+
+soundeffect = {
+	name = "ger_totalen_krieg"
+	sounds = {
+		sound = ger_totalen_krieg
+	}
+	volume = 1.0
+}
+
+soundeffect = {
+	name = "ger_mobilize"
+	sounds = {
+		sound = ger_mobilize
+	}
+	volume = 1.0
+}
+
+soundeffect = {
+	name = "ger_fall_weiss"
+	sounds = {
+		sound = ger_fall_weiss
+	}
+	volume = 1.0
+}
+
+soundeffect = {
+	name = "ger_barbarossa"
+	sounds = {
+		sound = ger_barbarossa
+	}
+	volume = 1.0
+}
+
+soundeffect = {
+	name = "ger_russlandlied"
+	sounds = {
+		sound = ger_russlandlied
+	}
+	volume = 1.0
+}
+
+soundeffect = {
+	name = "ger_westerwald"
+	sounds = {
+		sound = ger_westerwald
+	}
+	volume = 1.0
+}
+
+##Italian Speeches##
 
 soundeffect = {
 	name = "sp_ita_waronallies"
@@ -24,3 +174,80 @@ soundeffect = {
 	}
 	volume = 1.0
 }
+
+soundeffect = {
+	name = "ita_il_duce"
+	sounds = {
+		sound = ita_il_duce
+	}
+	volume = 1.0
+}
+
+##Japanese Speeches##
+
+soundeffect = {
+	name = "jap_banzai"
+	sounds = {
+		sound = jap_banzai
+	}
+	volume = 1.0
+}
+
+##Soviet Speeches##
+
+soundeffect = {
+	name = "sov_leningrad"
+	sounds = {
+		sound = sov_leningrad
+	}
+	volume = 1.0
+}
+
+soundeffect = {
+	name = "sov_lets_go"
+	sounds = {
+		sound = sov_lets_go
+	}
+	volume = 1.0
+}
+
+soundeffect = {
+	name = "sov_sacred_war"
+	sounds = {
+		sound = sov_sacred_war
+	}
+	volume = 1.0
+}
+
+soundeffect = {
+	name = "sov_moscow"
+	sounds = {
+		sound = sov_moscow
+	}
+	volume = 1.0
+}
+
+soundeffect = {
+	name = "sov_stalingrad"
+	sounds = {
+		sound = sov_stalingrad
+	}
+	volume = 1.0
+}
+
+soundeffect = {
+	name = "sov_winter_offensive_1"
+	sounds = {
+		sound = sov_winter_offensive_1
+	}
+	volume = 1.0
+}
+
+soundeffect = {
+	name = "sov_winter_offensive_2"
+	sounds = {
+		sound = sov_winter_offensive_2
+	}
+	volume = 1.0
+}
+

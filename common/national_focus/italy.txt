@@ -153,6 +153,9 @@ focus_tree = {
 			add_stability = 0.1
 			add_political_power = 120
 			add_ideas = impero_di_argilla
+			hidden_effect = {
+				 sound_effect = sp_ita_ethiopia
+			}
 			country_event = { hours = 6 id = news.347 }
 		}
 	}
@@ -2561,7 +2564,9 @@ focus_tree = {
 			type = annex_everything
 			}
 		    } 	
-        			
+        	hidden_effect = {
+				 sound_effect = sp_ita_waronallies
+			}		
 		}
 	}
     focus = {
@@ -2755,6 +2760,9 @@ focus_tree = {
 				remove_idea = parola_di_ordine_vincere
 				add_idea = parola_di_ordine_vincere_2
 			}
+			hidden_effect = {
+					sound_effect = ita_il_duce 
+					}
 		}
 	}
 	focus = {
