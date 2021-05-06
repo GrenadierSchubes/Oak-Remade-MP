@@ -4687,7 +4687,9 @@ focus_tree = {
 					add_idea = general_staff5
 				}
 			}
-
+			hidden_effect = {
+				sound_effect = ger_russlandlied
+				}
 		}
 	}
 

@@ -5550,6 +5550,7 @@ focus_tree = {
 						level = -4
 					}
 				}
+				sound_effect = sov_stalingrad
 			}
 
 			custom_effect_tooltip = SOV_brave_defenders_of_the_motherland_tt
@@ -5802,6 +5803,9 @@ focus_tree = {
 					}											
 				}
 			}
+			hidden_effect = {
+				sound_effect = sov_leningrad
+				}
 		}
 	}
 
@@ -6359,7 +6363,10 @@ focus_tree = {
 
 		relative_position_id = SOV_the_great_patriotic_war
 		completion_reward = {
-			add_country_leader_trait = nationalist_symbol		
+			add_country_leader_trait = nationalist_symbol
+			hidden_effect = {
+				sound_effect = sov_lets_go
+				}
 		}
 	}
 

@@ -42,6 +42,13 @@ sound = {
 	file = "eng_speech/eng_sealion.wav"
 }
 
+##French Speeches##
+
+sound = {
+	name = "fra_partisans"
+	file = "fra_speech/fra_partisans.wav"
+}
+
 ##German Speeches##
 
 sound = {
@@ -77,6 +84,11 @@ sound = {
 sound = {
 	name = "ger_barbarossa"
 	file = "ger_speech/ger_barbarossa.wav"
+}
+
+sound = {
+	name = "ger_russlandlied"
+	file = "ger_speech/ger_russlandlied.wav"
 }
 
 sound = {
@@ -116,6 +128,16 @@ sound = {
 ##Soviet Speeches##
 
 sound = {
+	name = "sov_leningrad"
+	file = "sov_speech/sov_leningrad.wav"
+}
+
+sound = {
+	name = "sov_lets_go"
+	file = "sov_speech/sov_lets_go.wav"
+}
+
+sound = {
 	name = "sov_sacred_war"
 	file = "sov_speech/sov_sacred_war.wav"
 }
@@ -123,6 +145,11 @@ sound = {
 sound = {
 	name = "sov_moscow"
 	file = "sov_speech/sov_moscow.wav"
+}
+
+sound = {
+	name = "sov_stalingrad"
+	file = "sov_speech/sov_stalingrad.wav"
 }
 
 sound = {

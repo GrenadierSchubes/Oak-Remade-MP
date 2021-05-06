@@ -67,6 +67,16 @@ soundeffect = {
 	volume = 1.0
 }
 
+##French Speeches##
+
+soundeffect = {
+	name = "fra_partisans"
+	sounds = {
+		sound = fra_partisans
+	}
+	volume = 1.0
+}
+
 ##German Speeches##
 
 soundeffect = {
@@ -126,6 +136,14 @@ soundeffect = {
 }
 
 soundeffect = {
+	name = "ger_russlandlied"
+	sounds = {
+		sound = ger_russlandlied
+	}
+	volume = 1.0
+}
+
+soundeffect = {
 	name = "ger_westerwald"
 	sounds = {
 		sound = ger_westerwald
@@ -178,6 +196,22 @@ soundeffect = {
 ##Soviet Speeches##
 
 soundeffect = {
+	name = "sov_leningrad"
+	sounds = {
+		sound = sov_leningrad
+	}
+	volume = 1.0
+}
+
+soundeffect = {
+	name = "sov_lets_go"
+	sounds = {
+		sound = sov_lets_go
+	}
+	volume = 1.0
+}
+
+soundeffect = {
 	name = "sov_sacred_war"
 	sounds = {
 		sound = sov_sacred_war
@@ -189,6 +223,14 @@ soundeffect = {
 	name = "sov_moscow"
 	sounds = {
 		sound = sov_moscow
+	}
+	volume = 1.0
+}
+
+soundeffect = {
+	name = "sov_stalingrad"
+	sounds = {
+		sound = sov_stalingrad
 	}
 	volume = 1.0
 }

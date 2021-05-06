@@ -12,6 +12,13 @@ category = {
 }
 
 category = {
+ name = "French Speeches"
+ soundeffects = {
+	fra_partisans
+	}
+ 
+ 
+category = {
  name = "German Speeches"
  soundeffects = {
 	ger_citadel
@@ -21,6 +28,7 @@ category = {
 	ger_kdf_wagen
 	ger_totalen_krieg
 	ger_mobilize
+	ger_russlandlied
 	ger_westerwald
 	}
 }
@@ -47,6 +55,9 @@ category = {
  soundeffects = {
 	sov_sacred_war
 	sov_moscow
+	sov_leningrad
+	sov_lets_go
+	sov_stalingrad
 	sov_winter_offensive_1
 	sov_winter_offensive_2
 	}
