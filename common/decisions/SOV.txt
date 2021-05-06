@@ -5731,8 +5731,8 @@ operations = {
 		}
 		visible = {
 			tag = SOV
-			IRE = { is_ai = yes }
-			country_exists = IRE
+			MON = { is_ai = yes }
+			country_exists = MON
 		}
 		available = {
 			date > 1942.4.1
