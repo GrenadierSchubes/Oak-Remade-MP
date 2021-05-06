@@ -37,7 +37,22 @@ sound = {
 	file = "eng_speech/eng_no_confidence.wav"
 }
 
+sound = {
+	name = "eng_sealion"
+	file = "eng_speech/eng_sealion.wav"
+}
+
 ##German Speeches##
+
+sound = {
+	name = "ger_citadel"
+	file = "ger_speech/ger_citadel.wav"
+}
+
+sound = {
+	name = "ger_fall_blau"
+	file = "ger_speech/ger_fall_blau.wav"
+}
 
 sound = {
 	name = "ger_fall_weiss"
@@ -60,13 +75,13 @@ sound = {
 }
 
 sound = {
-	name = "sp_ita_waronallies"
-	file = "ita_speech/sp_ita_waronallies.wav"
+	name = "ger_barbarossa"
+	file = "ger_speech/ger_barbarossa.wav"
 }
 
 sound = {
-	name = "sp_ita_waronallies"
-	file = "ita_speech/sp_ita_waronallies.wav"
+	name = "ger_westerwald"
+	file = "ger_speech/ger_westerwald.wav"
 }
 
 ##Italian Speeches##
@@ -113,4 +128,9 @@ sound = {
 sound = {
 	name = "sov_winter_offensive_1"
 	file = "sov_speech/sov_winter_offensive_1.wav"
+}
+
+sound = {
+	name = "sov_winter_offensive_2"
+	file = "sov_speech/sov_winter_offensive_2.wav"
 }

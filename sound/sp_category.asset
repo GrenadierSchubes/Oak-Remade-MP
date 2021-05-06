@@ -7,16 +7,21 @@ category = {
 	eng_no_confidence
 	eng_norway
 	eng_peace
+	eng_sealion
 	}
 }
 
 category = {
  name = "German Speeches"
  soundeffects = {
+	ger_citadel
+	ger_barbarossa
+	ger_fall_blau
 	ger_fall_weiss
 	ger_kdf_wagen
 	ger_totalen_krieg
 	ger_mobilize
+	ger_westerwald
 	}
 }
 
@@ -43,6 +48,7 @@ category = {
 	sov_sacred_war
 	sov_moscow
 	sov_winter_offensive_1
+	sov_winter_offensive_2
 	}
 }
 

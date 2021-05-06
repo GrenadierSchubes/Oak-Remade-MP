@@ -568,6 +568,7 @@ country_event = {
 		name = britain.42.a
 		hidden_effect = {
 			load_oob = "ENG_def_sealion"
+			sound_effect = eng_sealion
 		}		    
 		add_timed_idea = {
 			idea = fight_them_on_the_shores

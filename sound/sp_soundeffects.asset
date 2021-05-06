@@ -59,7 +59,31 @@ soundeffect = {
 	volume = 1.0
 }
 
+soundeffect = {
+	name = "eng_sealion"
+	sounds = {
+		sound = eng_sealion
+	}
+	volume = 1.0
+}
+
 ##German Speeches##
+
+soundeffect = {
+	name = "ger_citadel"
+	sounds = {
+		sound = ger_citadel
+	}
+	volume = 1.0
+}
+
+soundeffect = {
+	name = "ger_fall_blau"
+	sounds = {
+		sound = ger_fall_blau
+	}
+	volume = 1.0
+}
 
 soundeffect = {
 	name = "ger_kdf_wagen"
@@ -94,11 +118,19 @@ soundeffect = {
 }
 
 soundeffect = {
-	name = "sp_ita_waronallies"
+	name = "ger_barbarossa"
 	sounds = {
-		sound = sp_ita_waronallies
+		sound = ger_barbarossa
 	}
-	volume = 1.4
+	volume = 1.0
+}
+
+soundeffect = {
+	name = "ger_westerwald"
+	sounds = {
+		sound = ger_westerwald
+	}
+	volume = 1.0
 }
 
 ##Italian Speeches##
@@ -169,4 +201,11 @@ soundeffect = {
 	volume = 1.0
 }
 
+soundeffect = {
+	name = "sov_winter_offensive_2"
+	sounds = {
+		sound = sov_winter_offensive_2
+	}
+	volume = 1.0
+}
 

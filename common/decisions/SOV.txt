@@ -5626,6 +5626,9 @@ SOV_great_patriotic_war = {
 		   	}
 			set_country_flag = SOVwintercounteroffense
 			news_event = { hours = 20 id = news.460 }
+			hidden_effect = {
+				sound_effect = winter_offensive_2
+				}
 		}
 	}
 
@@ -5721,9 +5724,6 @@ operations = {
 			MON = {
 			    add_ideas = SOV_sealions
 			}
-			hidden_effect = {
-				load_oob = "SOV_winteroffense"
-				sound_effect = sov_winter_offensive_1
 			}
 		}
 	}
