@@ -5724,7 +5724,6 @@ operations = {
 			MON = {
 			    add_ideas = SOV_sealions
 			}
-			}
 		}
 	}
    SOV_annex_mon = {
@@ -5766,6 +5765,7 @@ operations = {
 			}	
 		}		
 	}
+}
 
 political_actions = {
 }
