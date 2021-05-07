@@ -1148,7 +1148,7 @@ ideas = {
 			}
 		}
 
-		JAP_fighting_spirit_idea = {
+		JAP_strong_will_idea = {
 			allowed = {
 				always = no
 			}
