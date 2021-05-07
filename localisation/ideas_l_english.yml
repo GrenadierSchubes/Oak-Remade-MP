@@ -3511,7 +3511,8 @@
  impero_di_argilla:0 "Impero D'Argilla"
  impero_di_argilla_desc:0 ""Empire of Clay" was a term used to describe the Italian empire from 1936 to 1940 due to its obvious fragility. Famously all Italian colonial possessions lacked resources and economic value, as a matter of fact the cost to maintain them often outmatched the gains. They were nonetheless a powerful mean of propaganda and allowed many Italians to find new jobs both in the homeland and abroad.\n§RIf Ethoipia is lost to the enemy this spirit will be removed"
  ITA_german_millitary_cooperation_focus:0 "German Military Cooperation"
- infantry_production_jap:0 "Infantry Supremacy"
+ infantry_production_jap:0 "Infantry Production Focus"
+ truck_production_jap:0 "Truck Production Focus"
  
  
  JAP_yasuda:0 "Yasuda"
@@ -3526,6 +3527,7 @@
  JAP_militarism_shogunate:0 "Shogunate Militarism"
  JAP_steel_for_guns_idea:0 "Steel for Guns"
  JAP_steel_for_ships_idea:0 "Steel for Ships"
+ improved_torpedos_tt:0 ""
  
  USA_embargo:0 "Embargoed by the U.S"
  ichizo_kobayashi:0 "Ichizō Kobayashi"

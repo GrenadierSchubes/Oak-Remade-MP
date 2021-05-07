@@ -382,6 +382,38 @@ ideas = {
 			}
 		}
 
+		truck_production_jap = {
+			allowed = {
+				always = no
+			}
+			picture = generic_war_preparation
+			removal_cost = -1
+	
+			equipment_bonus = {
+				
+				infantry_equipment = {
+					build_cost_ic = -0.15
+					instant = yes
+				}
+				pack_artillery_equipment = {
+					build_cost_ic = -0.1
+					instant = yes
+				}
+				artillery_equipment = {
+					build_cost_ic = -0.1
+					instant = yes
+				}
+				motorized_equipment = {
+					build_cost_ic = -0.1
+					instant = yes
+				}
+				mechanized_equipment = {
+					build_cost_ic = -0.1
+					instant = yes
+				}
+			}
+		}
+
 		tank_production_jap = {
 
 			allowed = {
@@ -486,7 +518,52 @@ ideas = {
 				naval_torpedo_screen_penetration_factor = 0.2
 			}
 		}
-		
+
+		JAP_improved_torpedos = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			equipment_bonus = {
+				destroyer = {
+					torpedo_attack = 0.1
+				}
+				submarine = {
+					torpedo_attack = 0.1
+				}
+				light_cruiser = {
+					torpedo_attack = 0.1
+				}
+				heavy_cruiser = {
+					torpedo_attack = 0.1
+				}
+			}
+		}
+
+		JAP_superheavy_production = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			equipment_bonus = {
+				ship_hull_super_heavy_1 = {
+					build_cost_ic = -0.1
+				}
+			}
+		}
+
 		imperial_glory_idea = {
 			
 			allowed = {
@@ -558,6 +635,25 @@ ideas = {
 			
 			modifier = {
 				sortie_efficiency = 0.2
+			}
+		}
+
+		JAP_carrier_tactics_idea = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			picture = generic_navy_carrier_bonus
+			
+			modifier = {
+				sortie_efficiency = 0.05
 			}
 		}
 
@@ -1052,6 +1148,43 @@ ideas = {
 			}
 		}
 
+		JAP_fighting_spirit_idea = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			picture = jap_supremacy_of_will
+			
+			modifier = {
+				army_defence_factor = 0.05
+				army_attack_factor = 0.05
+			}
+		}
+
+		JAP_supply_management_idea = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			picture = jap_supremacy_of_will
+			
+			modifier = {
+				supply_consumption_factor = -0.1
+			}
+		}
+
 		JAP_superior_will = {
 			allowed = {
 				always = no
@@ -1069,6 +1202,7 @@ ideas = {
 				army_defence_factor = 0.1
 				army_attack_factor = 0.1
 				army_morale_factor = 0.1
+				army_org_factor = 0.1
 				supply_consumption_factor = -0.1
 			}
 		}
@@ -1700,6 +1834,29 @@ ideas = {
 			modifier = {
 				industrial_capacity_factory = 0.20
 				industrial_capacity_dockyard = 0.20
+			}
+		}
+
+		JAP_extra_army_investment = {
+			allowed = {
+				always = no
+			}
+			picture = jap_zaibatsu_ally
+			removal_cost = -1
+
+			modifier = {
+				industrial_capacity_factory = 0.1
+			}
+		}
+		JAP_extra_navy_investment = {
+			allowed = {
+				always = no
+			}
+			picture = jap_zaibatsu_ally
+			removal_cost = -1
+
+			modifier = {
+				industrial_capacity_dockyard = 0.1
 			}
 		}
 	}
