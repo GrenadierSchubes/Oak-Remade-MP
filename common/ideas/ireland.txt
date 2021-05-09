@@ -440,23 +440,14 @@ ideas = {
 
 	army_chief = {
 		
-		MEX_leon_trotsky = {
-			
-			picture = generic_army_europe_4
-			
-			cost = 150
-			
-			visible = {
-			}
+		IRE_liam_archer = {
+			picture = generic_army_europe_2
 			
 			allowed = {
 				original_tag = IRE
 			}
 			
-			available = {
-			}
-			
-			traits = { red_army_organizer }
+			traits = { army_chief_offensive_2 }
 			
 			ai_will_do = {
 				factor = 1

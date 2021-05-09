@@ -193,7 +193,7 @@ ideas = {
 			}
 			
 			modifier = {
-				stability_factor = -0.03
+				stability_factor = -0.05
 			}
 		}
 
@@ -212,7 +212,7 @@ ideas = {
 			}
 			
 			modifier = {
-				stability_factor = -0.05
+				stability_factor = -0.1
 			}
 		}
 
@@ -231,7 +231,7 @@ ideas = {
 			}
 			
 			modifier = {
-				stability_factor = -0.07
+				stability_factor = -0.15
 			}
 		}
 
@@ -250,7 +250,7 @@ ideas = {
 			}
 			
 			modifier = {
-				stability_factor = -0.1
+				stability_factor = -0.2
 			}
 		}
 
@@ -947,7 +947,7 @@ ideas = {
 
 		MEX_luis_montes_de_oca = {
 		
-			cost = 75
+			cost = 150
 
 			picture = generic_political_advisor_south_america_3
 			
@@ -994,7 +994,7 @@ ideas = {
 	
 		MEX_manuel_avila = {
 		
-			cost = 75
+			cost = 150
 
 			picture = generic_political_advisor_south_america_2
 			
@@ -1020,7 +1020,7 @@ ideas = {
 		
 		MEX_alberto_pani = {
 		
-			cost = 75
+			cost = 150
 			
 			picture = generic_political_advisor_south_america_1
 			
@@ -1051,39 +1051,32 @@ ideas = {
 			}
 			
 			available = {
-				if = {
-					limit = {
-						has_dlc = "Man the Guns"
-					}
-					has_completed_focus = MEX_focus_heroic_military_college
-				}
 			}
 			
 			cost = 150
 			
 			research_bonus = {
-				cat_superior_firepower = 0.10
+			    land_doctrine = 0.1
 			}
 			
 			traits = { superior_firepower_expert }
 		}
 
 		MEX_enrique_estrada = {
-			ledger = army
-
-			picture = generic_army_europe_2
+			ledger = navy
+			
+            picture = generic_political_advisor_south_america_1
 			
 			allowed = {
 				original_tag = MEX
 			}
 			
-			picture = generic_political_advisor_south_america_1
 			
 			research_bonus = {
-				land_doctrine = 0.07
+				naval_doctrine = 0.1
 			}
 			
-			traits = { military_theorist }
+			traits = { naval_theorist }
 		}
 
 		MEX_agustin_olachea = {
@@ -1096,7 +1089,7 @@ ideas = {
 			}
 			
 			research_bonus = {
-				air_doctrine = 0.07
+				air_doctrine = 0.1
 			}
 			
 			traits = { air_warfare_theorist }
@@ -1109,7 +1102,7 @@ ideas = {
 			
 			picture = generic_army_europe_1
 			
-			cost = 75
+			cost = 150
 			
 			allowed = {
 				original_tag = MEX
@@ -1139,6 +1132,29 @@ ideas = {
 			}
 			
 			traits = { army_chief_defensive_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		MEX_leon_trotsky = {
+			
+			picture = generic_army_europe_4
+			
+			cost = 150
+			
+			visible = {
+			}
+			
+			allowed = {
+				original_tag = IRE
+			}
+			
+			available = {
+			}
+			
+			traits = { red_army_organizer }
 			
 			ai_will_do = {
 				factor = 1
@@ -1322,7 +1338,7 @@ ideas = {
 		
 		MEX_tga = {
 		
-			cost = 75
+			cost = 150
 			
 			allowed = {
 				original_tag = MEX
@@ -1476,7 +1492,9 @@ ideas = {
 			traits = { light_aircraft_manufacturer }
 			
 			equipment_bonus = {
-				# made avro 504 and O2U Corsair under license
+				fighter_equipment = {
+					build_cost_ic = -0.05 instant = yes 
+				}
 			}
 			
 			ai_will_do = {
@@ -1491,7 +1509,7 @@ ideas = {
 		
 			picture = HOL_royal_dutch_shell
 			
-			cost = 25
+			cost = 150
 			
 			allowed = {
 				original_tag = MEX
@@ -1520,7 +1538,7 @@ ideas = {
 		
 		MEX_pemex = {
 			
-			cost = 25
+			cost = 150
 			
 			allowed = {
 				original_tag = MEX
@@ -1549,7 +1567,7 @@ ideas = {
 		
 		MEX_banco_de_mexico = {
 			
-			cost = 75
+			cost = 150
 			
 			allowed = {
 				original_tag = MEX
@@ -1574,7 +1592,7 @@ ideas = {
 
 		MEX_escuela_de_ingeneria_electrica = {
 			
-			cost = 25
+			cost = 150
 			
 			allowed = {
 				original_tag = MEX

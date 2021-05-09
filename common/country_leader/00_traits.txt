@@ -988,8 +988,7 @@ leader_traits = {
 	}
 	dictator = {
 		random = no
-		industrial_capacity_factory = 0.1
-		political_power_factor = 0.05
+		political_power_factor = 0.15
 		
 		ai_will_do = {
 			factor = 1
