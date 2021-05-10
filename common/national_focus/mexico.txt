@@ -800,10 +800,6 @@ focus_tree = {
 				remove_resource_rights = 479
 				remove_resource_rights = 480
 			}
-			ENG = {
-				remove_resource_rights = 477
-				remove_resource_rights = 476
-			}
 			add_tech_bonus = {
 				name = synth_resources
 				bonus = 1.0
@@ -905,7 +901,7 @@ focus_tree = {
 		icon = GFX_focus_chi_british_cooperation
 		prerequisite = { focus = MEX_focus_royal_dutch_shell }
 		x = 0
-		y = 2
+		y = 1
 		relative_position_id = MEX_focus_royal_dutch_shell
 
 		cost = 1
@@ -1022,6 +1018,50 @@ focus_tree = {
 			}
 		}
 	}
+	
+	focus = {
+		id = MEX_belize
+		icon = GFX_goal_generic_construct_infrastructure
+		prerequisite = { focus = MEX_focus_purchase_belize }
+		x = 0
+		y = 1
+		relative_position_id = MEX_focus_purchase_belize
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+			311 = {
+				is_owned_by = MEX
+			}
+		}
+
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+		    311 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
 
 	focus = {
 		id = MEX_focus_nationalize_the_oil_fields
@@ -1072,7 +1112,6 @@ focus_tree = {
 					days = 1
 					id = mexico.2
 				}
-				custom_effect_tooltip = tooltip_mexico_they_may_declare_war
 			}
 			remove_ideas = MEX_oil_concessions
 			USA = {
@@ -1382,7 +1421,7 @@ focus_tree = {
 					name = "José Gonzalo Escobar"
 					id = 709
 					gfx = "GFX_portrait_mex_jose_gonzalo_escobar"
-					traits = { cavalry_officer } # Cavalry commander
+					traits = { panzer_leader } # Cavalry commander
 					skill = 3
 					attack_skill = 4
 					defense_skill = 2
@@ -1394,7 +1433,7 @@ focus_tree = {
 						name = "José Gonzalo Escobar"
 						id = 709
 						gfx = "GFX_portrait_mex_jose_gonzalo_escobar"
-						traits = { cavalry_officer } # Cavalry commander
+						traits = { panzer_leader } # Cavalry commander
 						skill = 3
 						attack_skill = 4
 						defense_skill = 2
@@ -2249,7 +2288,7 @@ focus_tree = {
 			create_corps_commander = {
 				name = "Jesús Degollado Guízar"
 				gfx = GFX_portrait_mex_jesus_degollado_guizar
-				traits = { trait_reckless infantry_officer }
+				traits = { trait_reckless infantry_leader }
 				skill = 3
 				attack_skill = 2
 				defense_skill = 2
@@ -2723,6 +2762,7 @@ focus_tree = {
 				category = land_doctrine
 				category = air_doctrine
 			}
+			add_ideas = MEX_right_wing_paramilitaries
 			every_other_country = {
 				limit = {
 					original_tag = SPR
@@ -2801,6 +2841,7 @@ focus_tree = {
 			unlock_decision_tooltip = MEX_decision_support_spanish_loyalists
 			add_war_support = 0.05
 			add_stability = 0.05
+			add_ideas = MEX_left_wing_paramilitaries
 			every_other_country = {
 				limit = {
 					original_tag = SPR

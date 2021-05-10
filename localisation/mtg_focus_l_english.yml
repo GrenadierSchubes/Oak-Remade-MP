@@ -17,6 +17,8 @@
  MEX_aid4_desc:0 "We are nearing completion of the agreement. The Americans have agreed to expand the Mexico New Deal to hurry along the retooling of our economy because of the war that is raging."
  MEX_aid5:0 "Final Agreement"
  MEX_aid5_desc:0 "With Mexico now an indsutrialized nation, the Americans no longer believe they need to aid us. They have left some advisors to help us out a sign of good will."
+ MEX_belize:0 "Develop Belize"
+ MEX_belize_desc:0 "We need to develop our new holdings we got from the British."
  MEX_focus_national_bank:0 "National Bank"
  MEX_focus_national_bank_desc:0 "Formed in 1925 to rebuild an economy shattered by civil war, Banco de México is our lender of last resort, issuer of currency, and investor in all manner of ventures for the interest of the state."
  MEX_focus_military_budget_review:0 "Military Budget Review"
