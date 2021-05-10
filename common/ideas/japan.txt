@@ -61,6 +61,25 @@ ideas = {
 			}
 		}		
 
+		spiritual_mobilization_idea = {
+					
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			picture = generic_manpower_bonus
+			
+			modifier = {
+				conscription = 0.01
+			}
+		}
+
 		jap_chinese_occupation = {
 
 			allowed = {
@@ -1148,7 +1167,7 @@ ideas = {
 			}
 		}
 
-		JAP_strong_will_idea = {
+		JAP_strength_of_will_idea = {
 			allowed = {
 				always = no
 			}
@@ -1631,19 +1650,8 @@ ideas = {
 
 			picture = generic_war_preparation
 
-			equipment_bonus = {
-				infantry_equipment = {
-					build_cost_ic = -0.15
-					instant = yes
-				}
-				pack_artillery_equipment = {
-					build_cost_ic = -0.1
-					instant = yes
-				}
-				artillery_equipment = {
-					build_cost_ic = -0.1
-					instant = yes
-				}
+			modifier = {
+				industrial_capacity_factory = 0.05
 			}
 		}
 		JAP_steel_for_ships_idea = {
@@ -1660,7 +1668,7 @@ ideas = {
 			picture = generic_the_london_naval_treaty
 
 			modifier = {
-				industrial_capacity_dockyard = 0.10
+				industrial_capacity_dockyard = 0.05
 			}
 		}
 

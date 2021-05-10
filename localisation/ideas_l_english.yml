@@ -3527,7 +3527,8 @@
  JAP_militarism_shogunate:0 "Shogunate Militarism"
  JAP_steel_for_guns_idea:0 "Steel for Guns"
  JAP_steel_for_ships_idea:0 "Steel for Ships"
- improved_torpedos_tt:0 ""
+ JAP_improved_torpedos:0 "Improved Torpedos"
+ JAP_strength_of_will_idea:0 "Strength of Will"
  
  USA_embargo:0 "Embargoed by the U.S"
  ichizo_kobayashi:0 "Ichizō Kobayashi"
@@ -3807,7 +3808,7 @@
  jap_chinese_occupation_2:0 "Occupation of China"
  JAP_major_conquest_1:0 "§YAsian Conquest§!: §RNo Progress§!!"
  JAP_major_conquest_2:0 "§YAsian Conquest§!: §OLittle Progress§!"
- JAP_major_conquest_3:0 "§YAsian Conquest§!: Some Progress§!"
+ JAP_major_conquest_3:0 "§YAsian Conquest§!: §WSome Progress§!"
  JAP_major_conquest_4:0 "§YAsian Conquest§!: §GGood Progress§!"
  JAP_major_conquest_5:0 "§YAsian Conquest§!: §GComplete Control§!!"
  JAP_major_conquest_1_desc:0 "Major Conquest Mechanic: for every objective listed that is completed we will receive a bonus. Greater control will enable earlier expansion into the Soviet Union.\n§YControl of Manilla\nControl of Delhi\nControl of Wellington and Canberra\nWon the Pacific War§!"
