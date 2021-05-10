@@ -85,7 +85,7 @@ set_stability = 0.2
 set_war_support = 0.60
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = democratic
 	last_election = "1934.7.1"
 	election_frequency = 72
 	elections_allowed = yes
@@ -103,7 +103,7 @@ create_country_leader = {
 	desc = "POLITICS_LAZARO_CARDENAS_DESC"
 	picture = "Portrait_Mexico_Lazaro_Cardenas.dds"
 	expire = "1965.1.1"
-	ideology = moderatism
+	ideology = conservatism
 	traits = {
 		#
 	}
@@ -125,7 +125,7 @@ create_country_leader = { # Exiled until 1935 following a rebellion attempt, all
 	desc = "POLITICS_ADOLFO_DE_LA_HUERTA_DESC"
 	picture = "GFX_Portrait_MEX_Adolfo_de_la_Huerta"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = moderatism 
 	traits = {
 		#
 	}

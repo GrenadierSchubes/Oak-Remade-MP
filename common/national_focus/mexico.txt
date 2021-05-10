@@ -1322,7 +1322,6 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			set_rule = { can_send_volunteers = yes }
 			add_tech_bonus = {
 				name = air_equipment
 				bonus = 1.0
@@ -1347,39 +1346,6 @@ focus_tree = {
 			}
 		}
 	}
-
-	focus = {
-		id = MEX_focus_international_peacekeepers
-		icon = GFX_focus_generic_paratrooper
-		prerequisite = { focus = MEX_focus_aztec_eagles focus = MEX_focus_purchase_belize }
-		x = -2
-		y = 1
-		relative_position_id = MEX_focus_aztec_eagles
-
-		cost = 5
-
-		ai_will_do = {
-			factor = 100
-		}
-
-		available = {
-			has_offensive_war = no
-		}
-
-		bypass = {
-			
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-
-		completion_reward = {
-			set_rule = { can_send_volunteers = yes }
-			add_ideas = MEX_international_peacekeepers
-		}
-	}
-	
 	focus = {
 		id = MEX_focus_purge_the_bureaucracy
 		icon = GFX_goal_tfv_saf_anti_colonialist_crusade
@@ -1704,10 +1670,12 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
+		    MEX = {
    			modify_tech_sharing_bonus = {
          			id = commonwealth_research
          			bonus = 0.05  # we get 10% higher bonus from this group
     			}
+			}
 			add_tech_bonus = {
 				name = electronics
 				bonus = 1.0
@@ -1749,6 +1717,7 @@ focus_tree = {
 					OR = {
 						state = 277
 						state = 478
+						state = 481
 					}
 				}
 				add_extra_state_shared_building_slots = 2
@@ -2238,7 +2207,6 @@ focus_tree = {
 				limit = {
 					OR = {
 						state = 476
-						state = 481
 					}
 				}
 				add_extra_state_shared_building_slots = 2
@@ -2648,24 +2616,51 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = MEX_focus_spanish_civil_war_refugees
-		icon = GFX_goal_generic_intelligence_exchange
+		id = MEX_focus_international_peacekeepers
+		icon = GFX_focus_generic_paratrooper
 		x = 0
 		y = 1
 		relative_position_id = MEX_focus_soldaderas
+		cost = 5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+			OR = {
+				has_global_flag = spanish_civil_war
+				has_global_flag = scw_over
+			}
+		}
+
+		bypass = {
+			
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			set_rule = { can_send_volunteers = yes }
+			add_ideas = MEX_international_peacekeepers
+		}
+	}
+	
+	
+	focus = {
+		id = MEX_focus_spanish_civil_war_refugees
+		icon = GFX_goal_generic_intelligence_exchange
+		prerequisite = { focus = MEX_focus_international_peacekeepers }
+		x = 0
+		y = 1
+		relative_position_id = MEX_focus_international_peacekeepers
 
 		cost = 3
 
 		ai_will_do = {
 			factor = 0
-		}
-
-		available = {
-			
-			OR = {
-				has_global_flag = spanish_civil_war
-				has_global_flag = scw_over
-			}
 		}
 
 		bypass = {

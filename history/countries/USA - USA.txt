@@ -299,26 +299,17 @@ if = {
 	set_autonomy = {
 		target = PHI
 		autonomous_state = autonomy_colony
-		freedom_level = 0.6
-	} 
-	else = {
-		puppet = PHI
-	}
-}
-if = {
-	limit = {
-		OR = {
-			has_dlc = "Together for Victory"
-			has_dlc = "Man the Guns"
-		}
+		freedom_level = 0.1
 	}
 	set_autonomy = {
 		target = MEX
 		autonomous_state = autonomy_dominion
-		freedom_level = 0.3
-	} 
+		freedom_level = 0.4
+	}
 	else = {
+		puppet = PHI
 		puppet = MEX
+
 	}
 }
 add_ideas = {
