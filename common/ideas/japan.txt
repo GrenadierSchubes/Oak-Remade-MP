@@ -2563,7 +2563,7 @@ ideas = {
 				armor = -0.05
 			}
 			
-			traits = { tank_manufacturer }
+			traits = { GER_ckd_tank_manufacturer }
 		}	
 	}
 	tank_research = {

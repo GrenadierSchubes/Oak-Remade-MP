@@ -822,10 +822,6 @@ country_event = {
 			}
 			modifier = {
 				factor = 10
-				has_active_mission = MEX_mission_second_cristiada
-			}
-			modifier = {
-				factor = 10
 				OR = {
 					has_idea = MEX_church_power_2
 					has_idea = MEX_church_power_1
@@ -844,10 +840,6 @@ country_event = {
 			modifier = {
 				factor = 0.1
 				has_completed_focus = MEX_focus_antidisestablishmentarianism
-			}
-			modifier = {
-				factor = 10
-				has_active_mission = MEX_mission_second_revolution
 			}
 			modifier = {
 				factor = 10
@@ -1403,7 +1395,6 @@ country_event = {
 		name = mexico.19.e
 		
 		trigger = {
-			has_completed_focus = MEX_focus_confederation_of_mexican_workers
 			NOT = {
 				has_country_leader = {
 					name = "Vicente Lombardo"
@@ -1572,7 +1563,6 @@ country_event = {
 		name = mexico.19.i
 		
 		trigger = {
-			has_completed_focus = MEX_focus_confederation_of_mexican_workers
 			NOT = {
 				has_country_leader = {
 					name = "Vicente Lombardo"
@@ -1626,11 +1616,7 @@ country_event = {
 					name = "Dionisio Encina"
 				}
 			}
-
-			has_government = communism
-			NOT = {
-				has_completed_focus = MEX_focus_communist_revolution
-			}			
+			has_government = communism	
 			NOT = {
 				has_global_flag = flag_mexico_invited_trotsky_to_government
 			}
@@ -1756,7 +1742,6 @@ country_event = {
 		name = mexico.19.p
 		
 		trigger = {
-			has_completed_focus = MEX_focus_legion_of_christ
 			NOT = {
 				has_country_leader = {
 					name = "Jesús Degollado Guízar"
@@ -1939,52 +1924,12 @@ country_event = {
 	
 	trigger = {
 		tag = GER
-		
 		has_war_with = USA
-		
-		NOT = {
-			has_war_with = MEX
-		}
-		
 		has_navy_size = { unit = submarine size > 9 }
-		
-		OR = {
-			ships_in_area = { # Gulf of Mexico
-				type = submarine
-				area = 52
-				size > 0
-			}
-			ships_in_area = { # Carribean Sea
-				type = submarine
-				area = 53
-				size > 0
-			}
-			ships_in_area = { # Florida Coast
-				type = submarine
-				area = 170
-				size > 0
-			}
-			ships_in_area = { # Eastern Seaboard
-				type = submarine
-				area = 54
-				size > 0
-			}
-			ships_in_area = { # Sargasso Sea
-				type = submarine
-				area = 57
-				size > 0
-			}
-			ships_in_area = { # Demerara Plain
-				type = submarine
-				area = 59
-				size > 0
-			}
-		}
-		has_dlc = "Man the Guns"
 	}
 	
 	mean_time_to_happen = {
-		months = 24
+		months = 1
 		
 		modifier = {
 			factor = 0.5
@@ -2248,10 +2193,6 @@ country_event = {
 			}
 			modifier = {
 				factor = 10
-				has_active_mission = MEX_mission_second_cristiada
-			}
-			modifier = {
-				factor = 10
 				OR = {
 					has_idea = MEX_church_power_2
 					has_idea = MEX_church_power_1
@@ -2270,10 +2211,6 @@ country_event = {
 			modifier = {
 				factor = 0.1
 				has_completed_focus = MEX_focus_antidisestablishmentarianism
-			}
-			modifier = {
-				factor = 10
-				has_active_mission = MEX_mission_second_revolution
 			}
 			modifier = {
 				factor = 10
@@ -2887,10 +2824,6 @@ country_event = {
 			modifier = {
 				factor = 0.1
 				has_government = fascism
-			}
-			modifier = {
-				factor = 10
-				has_active_mission = MEX_mission_second_revolution
 			}
 			modifier = {
 				factor = 10

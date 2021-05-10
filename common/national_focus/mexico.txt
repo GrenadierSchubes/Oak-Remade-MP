@@ -12,12 +12,12 @@ focus_tree = {
 	
 	default = no
 
-	continuous_focus_position = { x = 70 y = 1100 }
+	continuous_focus_position = { x = 50 y = 1100 }
 
 	focus = {
 		id = MEX_focus_plan_of_agua_prieta
 		icon = GFX_focus_hol_the_foundations_of_defense
-		x = 23
+		x = 19
 		y = 0
 
 		cost = 5
@@ -39,10 +39,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_to_tech_sharing_group = HOL_europe_research
-			USA = {
-				add_to_tech_sharing_group = HOL_europe_research
-			}
+			add_to_tech_sharing_group = commonwealth_research
 		    add_political_power = 150
 			add_stability = 0.05
 		}
@@ -206,7 +203,7 @@ focus_tree = {
 		icon = GFX_goal_generic_construct_civilian
 		prerequisite = { focus = MEX_focus_national_bank }
 		mutually_exclusive = { focus = MEX_focus_liberalize_the_banking_sector }
-		x = 1
+		x = 0
 		y = 1
 		relative_position_id = MEX_focus_national_bank
 
@@ -229,216 +226,8 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_stability = 0.05
-		}
-	}
-	focus = {
-		id = MEX_focus_confederation_of_mexican_workers
-		icon = GFX_goal_generic_national_unity
-		prerequisite = { focus = MEX_focus_agricultural_credit_bank }
-		x = -2
-		y = 1
-		relative_position_id = MEX_focus_agricultural_credit_bank
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 0
-		}
-
-		available = {
-			date > 1945.1.1
-		}
-
-		bypass = {
-			
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_political_power = 120
 			custom_effect_tooltip = available_political_advisor
 			show_ideas_tooltip = MEX_vicente_lombardo
-		}
-	}
-	focus = {
-		id = MEX_focus_rent_freeze
-		icon = GFX_focus_generic_self_management
-		prerequisite = { focus = MEX_focus_confederation_of_mexican_workers }
-		x = 0
-		y = 1
-		relative_position_id = MEX_focus_confederation_of_mexican_workers
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 0
-		}
-
-		available = {
-			
-		}
-
-		bypass = {
-			
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_political_power = 120
-			add_stability = 0.05
-		}
-	}
-	focus = {
-		id = MEX_focus_ejido_worker_militias
-		icon = GFX_focus_YUG_pan_slavic_congress
-		prerequisite = { focus = MEX_focus_rent_freeze }
-		x = 0
-		y = 1
-		relative_position_id = MEX_focus_rent_freeze
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 0
-		}
-
-		available = {
-			OR = {
-				has_idea = MEX_church_power_1
-				has_idea = MEX_church_power_2
-				has_idea = MEX_church_power_3
-			}
-		}
-
-		bypass = {
-			
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-
-		completion_reward = {
-			MEX_decrease_church_power = yes
-			add_ideas = MEX_ejido_worker_militias
-		}
-	}
-	
-	focus = {
-		id = MEX_focus_party_of_the_revolution
-		icon = GFX_goal_support_communism
-		prerequisite = { focus = MEX_focus_ejido_worker_militias }
-		x = 0
-		y = 1
-		relative_position_id = MEX_focus_ejido_worker_militias
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 0
-		}
-
-		available = {
-			communism > 0.4
-			has_civil_war = no
-			NOT = { has_completed_focus = MEX_focus_institutional_revolution }
-			NOT = { has_completed_focus = MEX_focus_catholic_politics }
-			NOT = { has_completed_focus = MEX_focus_crusade_against_atheism }
-			NOT = { has_completed_focus = MEX_focus_revanchist_revolution }
-			NOT = { has_completed_focus = MEX_focus_communist_revolution }
-		}
-
-		bypass = {
-			
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_popularity = {
-				ideology = communism
-				popularity = 0.1
-			}
-			
-			add_stability = 0.05
-			add_war_support = 0.05
-
-			if = {
-				limit = {
-					has_country_leader = { name = "Lázaro Cárdenas" }
-				}
-				create_country_leader = {
-					name = "Lázaro Cárdenas"
-					desc = "POLITICS_LAZARO_CARDENAS_DESC"
-					picture = "Portrait_Mexico_Lazaro_Cardenas.dds"
-					expire = "1965.1.1"
-					ideology = marxism
-					traits = {
-						protector_of_the_campesinos
-					}
-				}
-				create_country_leader = {
-					name = "Plutarco E. Calles"
-					desc = "POLITICS_PLUTARCO_E_CALLES_DESC"
-					picture = GFX_portrait_mex_calles_civil
-					expire = "1965.1.1"
-					ideology = despotism
-					traits = {
-						el_jefe_maximo
-					}
-				}
-			}
-			
-			if = {
-				limit = {
-					has_country_leader = { name = "Vicente Lombardo" }
-				}
-				create_country_leader = {
-					name = "Vicente Lombardo"
-					desc = "POLITICS_VICENTE_LOMBARDO_DESC"
-					picture = GFX_portrait_mex_vicente_lombardo
-					expire = "1965.1.1"
-					ideology = marxism
-					traits = {
-						the_dean_of_mexican_marxism
-					}
-				}
-				create_country_leader = {
-					name = "Plutarco E. Calles"
-					desc = "POLITICS_PLUTARCO_E_CALLES_DESC"
-					picture = GFX_portrait_mex_calles_civil
-					expire = "1965.1.1"
-					ideology = despotism
-					traits = {
-						el_jefe_maximo
-					}
-				}
-			}
-			
-			if = {
-				limit = {
-					NOT = {
-						has_government = communism
-					}
-				}
-				set_politics = {
-					ruling_party = communism
-					elections_allowed = yes
-				}
-			}
-			
-			set_party_name = { ideology = communism name = MEX_democratic_party_mexican_revolution_party_short long_name = MEX_democratic_party_mexican_revolution_party_long }
-			
-			hidden_effect = {set_cosmetic_tag = MEX_cristero } # Hidden because the tooltip looks odd together with ideology changes
 		}
 	}
 	
@@ -484,7 +273,7 @@ focus_tree = {
 				}
 				add_building_construction = {
 					type = infrastructure
-					level = 1
+					level = 2
 					instant_build = yes
 				}
 			}
@@ -533,7 +322,7 @@ focus_tree = {
 				}
 				add_building_construction = {
 					type = infrastructure
-					level = 1
+					level = 2
 					instant_build = yes
 				}
 			}
@@ -576,7 +365,7 @@ focus_tree = {
 		icon = GFX_goal_generic_consumer_goods
 		prerequisite = { focus = MEX_focus_national_bank }
 		mutually_exclusive = { focus = MEX_focus_agricultural_credit_bank }
-		x = 3
+		x = 2
 		y = 1
 		relative_position_id = MEX_focus_national_bank
 
@@ -680,21 +469,21 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
-			477 = {
-				add_building_construction = {
-					type = infrastructure
-					level = 1
-					instant_build = yes
-				}
-			}
 			476 = {
 				add_building_construction = {
 					type = infrastructure
-					level = 1
+					level = 2
 					instant_build = yes
 				}
 			}
 			479 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			477 = {
 				add_building_construction = {
 					type = infrastructure
 					level = 1
@@ -745,8 +534,8 @@ focus_tree = {
 	focus = {
 		id = MEX_focus_end_land_reform
 		icon = GFX_goal_generic_forceful_treaty
-		prerequisite = { focus = MEX_focus_liberalize_the_banking_sector }
-		x = 2
+		prerequisite = { focus = MEX_focus_exile_calles focus = MEX_focus_jefe_maximo }
+		x = 3
 		y = 1
 		relative_position_id = MEX_focus_liberalize_the_banking_sector
 
@@ -852,7 +641,6 @@ focus_tree = {
 		id = MEX_focus_support_general_cedillo
 		icon = GFX_focus_mex_support_general_cedillo
 		prerequisite = { focus = MEX_focus_caudillo_private_armies }
-		mutually_exclusive = { focus = MEX_focus_arrest_general_cedillo }
 		x = 0
 		y = 1
 		relative_position_id = MEX_focus_caudillo_private_armies
@@ -1012,10 +800,6 @@ focus_tree = {
 				remove_resource_rights = 479
 				remove_resource_rights = 480
 			}
-			ENG = {
-				remove_resource_rights = 477
-				remove_resource_rights = 476
-			}
 			add_tech_bonus = {
 				name = synth_resources
 				bonus = 1.0
@@ -1117,7 +901,7 @@ focus_tree = {
 		icon = GFX_focus_chi_british_cooperation
 		prerequisite = { focus = MEX_focus_royal_dutch_shell }
 		x = 0
-		y = 2
+		y = 1
 		relative_position_id = MEX_focus_royal_dutch_shell
 
 		cost = 1
@@ -1234,6 +1018,50 @@ focus_tree = {
 			}
 		}
 	}
+	
+	focus = {
+		id = MEX_belize
+		icon = GFX_goal_generic_construct_infrastructure
+		prerequisite = { focus = MEX_focus_purchase_belize }
+		x = 0
+		y = 1
+		relative_position_id = MEX_focus_purchase_belize
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+			311 = {
+				is_owned_by = MEX
+			}
+		}
+
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+		    311 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
 
 	focus = {
 		id = MEX_focus_nationalize_the_oil_fields
@@ -1284,7 +1112,6 @@ focus_tree = {
 					days = 1
 					id = mexico.2
 				}
-				custom_effect_tooltip = tooltip_mexico_they_may_declare_war
 			}
 			remove_ideas = MEX_oil_concessions
 			USA = {
@@ -1304,7 +1131,7 @@ focus_tree = {
 		id = MEX_focus_northern_steel_plants
 		icon = GFX_focus_generic_steel
 		prerequisite = { focus = MEX_focus_oil_field_expansion }
-		x = 7
+		x = 4
 		y = 1
 		relative_position_id = MEX_focus_oil_field_expansion
 
@@ -1364,368 +1191,9 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = MEX_focus_german_resource_exchange
-		icon = GFX_goal_generic_construct_civ_factory
-		prerequisite = { focus = MEX_focus_nationalize_the_oil_fields }
-		mutually_exclusive = { focus = MEX_focus_oppose_yanqui_imperialism }
-		mutually_exclusive = { focus = MEX_focus_compensation }
-		x = 4
-		y = 1
-		relative_position_id = MEX_focus_nationalize_the_oil_fields
-
-		cost = 5
-
-		ai_will_do = {
-			factor = 100
-			
-			modifier = {
-				factor = 0.1
-				is_historical_focus_on = yes
-			}
-		}
-
-		available = {
-			date > 1945.1.1
-		}
-
-		bypass = {
-			GER = {
-				OR = {
-					exists = no
-					is_subject = yes
-				}
-			}
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-
-		completion_reward = {
-			
-			custom_effect_tooltip = if_they_accept
-			effect_tooltip = {
-				
-				give_resource_rights = { receiver = GER state = 476 }
-			}
-		}
-	}
-
-	focus = {
-		id = MEX_focus_new_world_order
-		icon = GFX_focus_chi_mission_to_germany
-		prerequisite = { focus = MEX_focus_german_resource_exchange }
-		x = 0
-		y = 1
-		relative_position_id = MEX_focus_german_resource_exchange
-
-		cost = 5
-
-		ai_will_do = {
-			factor = 100
-		}
-
-		available = {
-			is_subject = no
-			NOT = {
-				has_war_with = GER
-			}
-			GER = {
-				is_in_faction = yes
-			}
-		}
-
-		bypass = {
-			OR = {
-				is_in_faction = yes
-				GER = {
-					exists = no
-				}
-				GER = {
-					is_subject = yes
-				}
-			}
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-
-		completion_reward = {
-			if = {
-				limit = {
-					GER = { has_government = neutrality }
-				}
-				add_popularity = {
-					ideology = neutrality
-					popularity = 0.1
-				}
-			}
-			else_if = {
-				limit = {
-					GER = { has_government = democratic }
-				}
-				add_popularity = {
-					ideology = democratic
-					popularity = 0.1
-				}
-			}
-			else_if = {
-				limit = {
-					GER = { has_government = fascism }
-				}
-				add_popularity = {
-					ideology = fascism
-					popularity = 0.1
-				}
-			}
-			else_if = {
-				limit = {
-					GER = { has_government = communism }
-				}
-				add_popularity = {
-					ideology = communism
-					popularity = 0.1
-				}
-			}
-
-			add_opinion_modifier = {
-				target = GER
-				modifier = german_mexican_diplomacy
-			}
-			
-			GER = {
-				add_opinion_modifier = {
-					target = ROOT
-					modifier = german_mexican_diplomacy
-				}
-				if = {
-					limit = {
-						is_in_faction = yes
-					}
-					country_event = {
-						id = mexico.8
-						days = 1
-					}
-				}
-			}
-		}
-	}
-
-	focus = {
-		id = MEX_focus_oppose_yanqui_imperialism
-		icon = GFX_focus_generic_strike_at_democracy3
-		prerequisite = { focus = MEX_focus_nationalize_the_oil_fields }
-		mutually_exclusive = { focus = MEX_focus_german_resource_exchange }
-		mutually_exclusive = { focus = MEX_focus_compensation }
-		x = 2
-		y = 1
-		relative_position_id = MEX_focus_nationalize_the_oil_fields
-
-		cost = 5
-
-		ai_will_do = {
-			factor = 100
-			
-			modifier = {
-				factor = 0.1
-				is_historical_focus_on = yes
-			}
-			
-			modifier = {
-				factor = 0.1
-				NOT = {
-					country_exists = SOV
-				}
-			}
-		}
-
-		available = {
-			date > 1945.1.1
-		}
-
-		bypass = {
-			
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_war_support = 0.05
-		}
-	}
-
-	focus = {
-		id = MEX_focus_international_proletarianism
-		icon = GFX_focus_chi_mission_to_the_soviet_union
-		prerequisite = { focus = MEX_focus_oppose_yanqui_imperialism }
-		x = 0
-		y = 1
-		relative_position_id = MEX_focus_oppose_yanqui_imperialism
-
-		cost = 5
-
-		ai_will_do = {
-			factor = 100
-		}
-
-		available = {
-			is_subject = no
-			NOT = {
-				has_war_with = SOV
-			}
-			SOV = {
-				exists = yes
-				is_in_faction = yes
-				is_subject = no
-			}
-		}
-
-		bypass = {
-			OR = {
-				is_in_faction = yes
-				SOV = {
-					exists = no
-				}
-				SOV = {
-					is_subject = yes
-				}
-			}
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-
-		completion_reward = {
-			if = {
-				limit = {
-					SOV = { has_government = neutrality }
-				}
-				add_popularity = {
-					ideology = neutrality
-					popularity = 0.1
-				}
-			}
-			else_if = {
-				limit = {
-					SOV = { has_government = democratic }
-				}
-				add_popularity = {
-					ideology = democratic
-					popularity = 0.1
-				}
-			}
-			else_if = {
-				limit = {
-					SOV = { has_government = fascism }
-				}
-				add_popularity = {
-					ideology = fascism
-					popularity = 0.1
-				}
-			}
-			else_if = {
-				limit = {
-					SOV = { has_government = communism }
-				}
-				add_popularity = {
-					ideology = communism
-					popularity = 0.1
-				}
-			}
-
-			add_opinion_modifier = {
-				target = SOV
-				modifier = russo_mexican_diplomacy
-			}
-			
-			SOV = {
-				add_opinion_modifier = {
-					target = ROOT
-					modifier = russo_mexican_diplomacy
-				}
-				if = {
-					limit = {
-						is_in_faction = yes
-					}
-					country_event = {
-						id = mexico.8
-						days = 1
-					}
-				}
-			}
-		}
-	}
-	
-	focus = {
-		id = MEX_focus_interior_defence_plan # hurr build the wall. how's that swampy drainy stuff workin out for ya?
-		icon = GFX_goal_generic_construct_military
-		prerequisite = { focus = MEX_focus_international_proletarianism focus = MEX_focus_new_world_order }
-		x = 1
-		y = 1
-		relative_position_id = MEX_focus_international_proletarianism
-
-		cost = 5
-
-		ai_will_do = {
-			factor = 100
-			
-			modifier = {
-				factor = 100
-				has_war_with = USA
-			}
-		}
-
-		available = {
-			
-		}
-
-		bypass = {
-			
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-		
-		completion_reward = {
-			
-			unlock_decision_tooltip = MEX_decision_interior_defence_plan
-		
-			483 = {
-				add_building_construction = { type = bunker province = 8033 level = 1 instant_build = yes }
-			}
-			482 = {
-				add_building_construction = { type = bunker province = 7935 level = 1 instant_build = yes }
-				add_building_construction = { type = bunker province = 10830 level = 1 instant_build = yes }
-				add_building_construction = { type = bunker province = 10916 level = 1 instant_build = yes }
-			}
-			481 = {
-				add_building_construction = { type = bunker province = 8003 level = 1 instant_build = yes }
-				add_building_construction = { type = bunker province = 7921 level = 1 instant_build = yes }
-			}
-			480 = {
-				add_building_construction = { type = bunker province = 7973 level = 1 instant_build = yes }
-				add_building_construction = { type = bunker province = 12835 level = 1 instant_build = yes }
-			}
-			478 = {
-				add_building_construction = { type = bunker province = 10172 level = 1 instant_build = yes }
-			}
-			479 = {
-				add_building_construction = { type = bunker province = 4956 level = 1 instant_build = yes }
-			}
-		}
-	}
-
-	focus = {
 		id = MEX_focus_compensation
 		icon = GFX_focus_generic_concessions
 		prerequisite = { focus = MEX_focus_nationalize_the_oil_fields }
-		mutually_exclusive = { focus = MEX_focus_german_resource_exchange }
-		mutually_exclusive = { focus = MEX_focus_oppose_yanqui_imperialism }
 		x = 0
 		y = 1
 		relative_position_id = MEX_focus_nationalize_the_oil_fields
@@ -1893,7 +1361,6 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			set_rule = { can_send_volunteers = yes }
 			add_tech_bonus = {
 				name = air_equipment
 				bonus = 1.0
@@ -1918,46 +1385,13 @@ focus_tree = {
 			}
 		}
 	}
-
-	focus = {
-		id = MEX_focus_international_peacekeepers
-		icon = GFX_focus_generic_paratrooper
-		prerequisite = { focus = MEX_focus_aztec_eagles focus = MEX_focus_purchase_belize }
-		x = -2
-		y = 1
-		relative_position_id = MEX_focus_aztec_eagles
-
-		cost = 5
-
-		ai_will_do = {
-			factor = 100
-		}
-
-		available = {
-			has_offensive_war = no
-		}
-
-		bypass = {
-			
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-
-		completion_reward = {
-			set_rule = { can_send_volunteers = yes }
-			add_ideas = MEX_international_peacekeepers
-		}
-	}
-	
 	focus = {
 		id = MEX_focus_purge_the_bureaucracy
 		icon = GFX_goal_tfv_saf_anti_colonialist_crusade
-		prerequisite = { focus = MEX_focus_exile_calles }
-		x = -5
+		prerequisite = { focus = MEX_focus_support_general_cedillo }
+		x = 0
 		y = 1
-		relative_position_id = MEX_focus_exile_calles
+		relative_position_id = MEX_focus_support_general_cedillo
 
 		cost = 10
 
@@ -1987,7 +1421,7 @@ focus_tree = {
 					name = "José Gonzalo Escobar"
 					id = 709
 					gfx = "GFX_portrait_mex_jose_gonzalo_escobar"
-					traits = { cavalry_officer } # Cavalry commander
+					traits = { panzer_leader } # Cavalry commander
 					skill = 3
 					attack_skill = 4
 					defense_skill = 2
@@ -1999,7 +1433,7 @@ focus_tree = {
 						name = "José Gonzalo Escobar"
 						id = 709
 						gfx = "GFX_portrait_mex_jose_gonzalo_escobar"
-						traits = { cavalry_officer } # Cavalry commander
+						traits = { panzer_leader } # Cavalry commander
 						skill = 3
 						attack_skill = 4
 						defense_skill = 2
@@ -2012,124 +1446,6 @@ focus_tree = {
 			show_ideas_tooltip = MEX_jose_gonzalo_escobar
 		}
 	}
-
-	focus = {
-		id = MEX_focus_institutional_revolution
-		icon = GFX_goal_support_democracy
-		prerequisite = { focus = MEX_focus_purge_the_bureaucracy }
-		x = 1
-		y = 1
-		relative_position_id = MEX_focus_purge_the_bureaucracy
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 100
-		}
-
-		available = {
-			democratic > 0.4
-			has_civil_war = no
-			NOT = { has_completed_focus = MEX_focus_party_of_the_revolution }
-			NOT = { has_completed_focus = MEX_focus_catholic_politics }
-			NOT = { has_completed_focus = MEX_focus_crusade_against_atheism }
-			NOT = { has_completed_focus = MEX_focus_revanchist_revolution }
-			NOT = { has_completed_focus = MEX_focus_communist_revolution }
-		}
-
-		bypass = {
-			
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_popularity = {
-				ideology = democratic
-				popularity = 0.1
-			}
-			
-			add_stability = 0.1
-			
-			if = {
-				limit = {
-					has_country_leader = { name = "Lázaro Cárdenas" }
-				}
-				create_country_leader = {
-					name = "Lázaro Cárdenas"
-					desc = "POLITICS_LAZARO_CARDENAS_DESC"
-					picture = "Portrait_Mexico_Lazaro_Cardenas.dds"
-					expire = "1965.1.1"
-					ideology = socialism
-					traits = {
-						refounder_of_mexico
-					}
-				}
-				create_country_leader = {
-					name = "Plutarco E. Calles"
-					desc = "POLITICS_PLUTARCO_E_CALLES_DESC"
-					picture = GFX_portrait_mex_calles_civil
-					expire = "1965.1.1"
-					ideology = despotism
-					traits = {
-						el_jefe_maximo
-					}
-				}
-			}
-			if = {
-				limit = {
-					NOT = {
-						has_government = democratic
-					}
-				}
-				set_politics = {
-					ruling_party = democratic
-					elections_allowed = yes
-				}
-			}
-			
-			set_party_name = { ideology = democratic name = MEX_democratic_party_institutional_revolutionary_party_short long_name = MEX_democratic_party_institutional_revolutionary_party_long }
-		}
-	}	
-
-	focus = {
-		id = MEX_focus_arrest_general_cedillo
-		icon = GFX_focus_mex_arrest_general_cedillo
-		prerequisite = { focus = MEX_focus_purge_the_bureaucracy }
-		mutually_exclusive = { focus = MEX_focus_support_general_cedillo }
-		x = -1
-		y = 3
-		relative_position_id = MEX_focus_purge_the_bureaucracy
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 100
-		}
-
-		available = {
-			NOT = {
-				has_global_flag = flag_mexico_cedillo_has_revolted
-			}
-		}
-
-		bypass = {
-			
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-
-		completion_reward = {
-			custom_effect_tooltip = tooltip_mexico_cedillo_will_be_neutralised
-			add_war_support = 0.05
-			MEX_remove_cedillo_tension = yes
-		}
-	}
-
 	focus = {
 		id = MEX_focus_control_the_army
 		icon = GFX_focus_generic_military_mission
@@ -2337,7 +1653,6 @@ focus_tree = {
 		icon = GFX_focus_research
 		prerequisite = { focus = MEX_focus_abolish_capital_punishment focus = MEX_focus_triumph_over_the_cristeros }
 		mutually_exclusive = { focus = MEX_focus_knights_of_columbus }
-		mutually_exclusive = { focus = MEX_focus_legion_of_christ }
 		x = 1
 		y = 1
 		relative_position_id = MEX_focus_abolish_capital_punishment
@@ -2372,7 +1687,7 @@ focus_tree = {
 		icon = GFX_goal_generic_radar
 		prerequisite = { focus = MEX_focus_state_education }
 		x = 0
-		y = 1
+		y = 2
 		relative_position_id = MEX_focus_state_education
 
 		cost = 10
@@ -2394,6 +1709,12 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
+		    MEX = {
+   			modify_tech_sharing_bonus = {
+         			id = commonwealth_research
+         			bonus = 0.05  # we get 10% higher bonus from this group
+    			}
+			}
 			add_tech_bonus = {
 				name = electronics
 				bonus = 1.0
@@ -2435,6 +1756,7 @@ focus_tree = {
 					OR = {
 						state = 277
 						state = 478
+						state = 481
 					}
 				}
 				add_extra_state_shared_building_slots = 2
@@ -2446,7 +1768,79 @@ focus_tree = {
 			}
 		}
 	}
+	focus = {
+		id = MEX_focus_institutional_revolution
+		icon = GFX_goal_support_democracy
+		prerequisite = { focus = MEX_focus_state_education }
+		x = -1
+		y = 1
+		relative_position_id = MEX_focus_state_education
 
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+			has_civil_war = no
+			NOT = { has_completed_focus = MEX_focus_catholic_politics }
+		}
+
+		bypass = {
+			
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_popularity = {
+				ideology = neutrality
+				popularity = 0.25
+			}
+			
+			add_stability = 0.1
+			if = {
+				limit = {
+					has_government = democratic
+				}
+				set_politics = {
+					ruling_party = neutrality
+					elections_allowed = yes
+				}
+			}
+			
+			if = {
+				limit = {
+					has_country_leader = { name = "Lázaro Cárdenas" }
+				}
+				create_country_leader = {
+					name = "Lázaro Cárdenas"
+					desc = "POLITICS_LAZARO_CARDENAS_DESC"
+					picture = "Portrait_Mexico_Lazaro_Cardenas.dds"
+					expire = "1965.1.1"
+					ideology = socialism
+					traits = {
+						refounder_of_mexico
+					}
+				}
+				create_country_leader = {
+					name = "Plutarco E. Calles"
+					desc = "POLITICS_PLUTARCO_E_CALLES_DESC"
+					picture = GFX_portrait_mex_calles_civil
+					expire = "1965.1.1"
+					ideology = despotism
+					traits = {
+						el_jefe_maximo
+					}
+				}
+			}
+			
+			set_party_name = { ideology = democratic name = MEX_democratic_party_institutional_revolutionary_party_short long_name = MEX_democratic_party_institutional_revolutionary_party_long }
+		}
+	}	
 	focus = {
 		id = MEX_focus_nafinsa
 		icon = GFX_goal_generic_construct_mil_factory
@@ -2515,7 +1909,8 @@ focus_tree = {
 	focus = {
 		id = MEX_focus_engineering_school
 		icon = GFX_focus_research2
-		prerequisite = { focus = MEX_focus_northern_steel_plants focus = MEX_focus_xefo }
+		prerequisite = { focus = MEX_focus_xefo }
+		prerequisite = { focus = MEX_focus_northern_steel_plants }
 		x = 1
 		y = 1
 		relative_position_id = MEX_focus_northern_steel_plants
@@ -2561,7 +1956,6 @@ focus_tree = {
 		cost = 10
 
 		available = {
-			date > 1945.1.1	
 		}
 		
 		ai_will_do = {
@@ -2674,8 +2068,7 @@ focus_tree = {
 		icon = GFX_goal_support_democracy
 		prerequisite = { focus = MEX_focus_rewrite_the_constitution }
 		mutually_exclusive = { focus = MEX_focus_state_education }
-		mutually_exclusive = { focus = MEX_focus_legion_of_christ }
-		x = -1
+		x = 0
 		y = 1
 		relative_position_id = MEX_focus_rewrite_the_constitution
 
@@ -2719,11 +2112,7 @@ focus_tree = {
 
 		available = {
 			has_civil_war = no
-			NOT = { has_completed_focus = MEX_focus_party_of_the_revolution }
 			NOT = { has_completed_focus = MEX_focus_institutional_revolution }
-			NOT = { has_completed_focus = MEX_focus_crusade_against_atheism }
-			NOT = { has_completed_focus = MEX_focus_revanchist_revolution }
-			NOT = { has_completed_focus = MEX_focus_communist_revolution }
 		}
 
 		bypass = {
@@ -2761,7 +2150,6 @@ focus_tree = {
 		    	ideology = socialism
 		    	traits = {
 			    	exiled_revolutionary
-					protector_of_the_campesinos
 			    }
 		    }
 			
@@ -2806,137 +2194,9 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = MEX_focus_legion_of_christ
-		icon = GFX_goal_support_fascism
-		prerequisite = { focus = MEX_focus_rewrite_the_constitution }
-		mutually_exclusive = { focus = MEX_focus_state_education }
-		mutually_exclusive = { focus = MEX_focus_knights_of_columbus }
-		x = 1
-		y = 1
-		relative_position_id = MEX_focus_rewrite_the_constitution
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 0
-		}
-
-		available = {
-            date > 1945.1.1			
-		}
-
-		bypass = {
-			
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-
-		completion_reward = {
-			MEX_increase_church_power = yes
-			add_ideas = MEX_legion_of_christ
-		}
-
-			#name will be used as focus/idea instead
-			#set_party_name = { ideology = fascism name = MEX_fascist_party_legionnaires_of_christ_short long_name = MEX_fascist_party_legionnaires_of_christ_long }		
-	}
-	
-	focus = {
-		id = MEX_focus_crusade_against_atheism
-		icon = GFX_focus_mex_restore_the_army_of_christ
-		prerequisite = { focus = MEX_focus_legion_of_christ }
-		x = 0
-		y = 2
-		relative_position_id = MEX_focus_legion_of_christ
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 100
-		}
-
-		available = {
-			has_idea = MEX_church_power_5
-			fascism > 0.4
-			has_civil_war = no
-			NOT = { has_completed_focus = MEX_focus_party_of_the_revolution }
-			NOT = { has_completed_focus = MEX_focus_institutional_revolution }
-			NOT = { has_completed_focus = MEX_focus_catholic_politics }
-			NOT = { has_completed_focus = MEX_focus_revanchist_revolution }
-			NOT = { has_completed_focus = MEX_focus_communist_revolution }
-		}
-
-		bypass = {
-			
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_popularity = {
-				ideology = fascism
-				popularity = 0.1
-			}
-			
-			add_war_support = 0.1
-			
-			if = {
-				limit = {
-					NOT = {
-						has_government = fascism
-					}
-				}
-				set_politics = {
-					ruling_party = fascism
-					elections_allowed = no
-				}
-			}
-			
-			hidden_effect = {set_cosmetic_tag = MEX_cristero } # Hidden because the tooltip looks odd together with ideology changes
-		}
-	}
-
-	focus = {
-		id = MEX_focus_triumph_of_synarchism
-		icon = GFX_focus_generic_support_the_left_right
-		prerequisite = { focus = MEX_focus_crusade_against_atheism }
-		x = 0
-		y = 1
-		relative_position_id = MEX_focus_crusade_against_atheism
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 100
-		}
-
-		available = {
-			
-		}
-
-		bypass = {
-			
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-
-		completion_reward = {
-			swap_ideas = {
-				remove_idea = MEX_legion_of_christ
-				add_idea = MEX_triumph_of_synarchism
-			}
-		}
-	}
-
-	focus = {
 		id = MEX_focus_church_schools
 		icon = GFX_focus_research
-		prerequisite = { focus = MEX_focus_knights_of_columbus focus = MEX_focus_legion_of_christ }
+		prerequisite = { focus = MEX_focus_knights_of_columbus }
 		x = 1
 		y = 1
 		relative_position_id = MEX_focus_knights_of_columbus
@@ -2967,8 +2227,8 @@ focus_tree = {
 	focus = {
 		id = MEX_focus_synarchist_communes
 		icon = GFX_focus_generic_industry_2
-		prerequisite = { focus = MEX_focus_social_catholicism focus = MEX_focus_triumph_of_synarchism }
-		x = 1
+		prerequisite = { focus = MEX_focus_social_catholicism }
+		x = 0
 		y = 1
 		relative_position_id = MEX_focus_social_catholicism
 
@@ -2995,7 +2255,6 @@ focus_tree = {
 				limit = {
 					OR = {
 						state = 476
-						state = 481
 					}
 				}
 				add_extra_state_shared_building_slots = 2
@@ -3012,7 +2271,6 @@ focus_tree = {
 		id = MEX_focus_reform_the_cristero_guard
 		icon = GFX_focus_generic_little_entente
 		prerequisite = { focus = MEX_focus_synarchist_communes }
-		mutually_exclusive = { focus = MEX_focus_synarchist_youth }
 		x = -1
 		y = 1
 		relative_position_id = MEX_focus_synarchist_communes
@@ -3039,7 +2297,7 @@ focus_tree = {
 			create_corps_commander = {
 				name = "Jesús Degollado Guízar"
 				gfx = GFX_portrait_mex_jesus_degollado_guizar
-				traits = { trait_reckless infantry_officer }
+				traits = { trait_reckless infantry_leader }
 				skill = 3
 				attack_skill = 2
 				defense_skill = 2
@@ -3140,7 +2398,6 @@ focus_tree = {
 		id = MEX_focus_synarchist_youth
 		icon = GFX_goal_generic_more_territorial_claims
 		prerequisite = { focus = MEX_focus_synarchist_communes }
-		mutually_exclusive = { focus = MEX_focus_reform_the_cristero_guard}
 		x = 1
 		y = 1
 		relative_position_id = MEX_focus_synarchist_communes
@@ -3172,7 +2429,6 @@ focus_tree = {
 		id = MEX_focus_ban_political_militias
 		icon = GFX_goal_generic_allies_build_infantry
 		prerequisite = { focus = MEX_focus_plan_of_agua_prieta }
-		mutually_exclusive = { focus = MEX_focus_legacy_of_revolution }
 		x = 4
 		y = 1
 		relative_position_id = MEX_focus_plan_of_agua_prieta
@@ -3206,7 +2462,7 @@ focus_tree = {
 	focus = {
 		id = MEX_focus_revolutionary_women
 		icon = GFX_focus_generic_diplomatic_treaty
-		prerequisite = { focus = MEX_focus_ban_political_militias focus = MEX_focus_legacy_of_revolution }
+		prerequisite = { focus = MEX_focus_ban_political_militias }
 		x = 1
 		y = 1
 		relative_position_id = MEX_focus_ban_political_militias
@@ -3284,7 +2540,6 @@ focus_tree = {
 		id = MEX_focus_soldaderas
 		icon = GFX_focus_mex_soldaderas
 		prerequisite = { focus = MEX_focus_revolutionary_women }
-		mutually_exclusive = { focus = MEX_focus_professional_army }
 		x = 0
 		y = 2
 		relative_position_id = MEX_focus_revolutionary_women
@@ -3376,7 +2631,6 @@ focus_tree = {
 		id = MEX_focus_professional_army
 		icon = GFX_focus_secret_rearmament
 		prerequisite = { focus = MEX_focus_depoliticised_army }
-		mutually_exclusive = { focus = MEX_focus_soldaderas }
 		x = 0
 		y = 1
 		relative_position_id = MEX_focus_depoliticised_army
@@ -3408,386 +2662,24 @@ focus_tree = {
 			add_ideas = MEX_professional_army
 		}
 	}
-
-	focus = {
-		id = MEX_focus_legacy_of_revolution
-		icon = GFX_focus_generic_support_the_left_right
-		prerequisite = { focus = MEX_focus_plan_of_agua_prieta }
-		mutually_exclusive = { focus = MEX_focus_ban_political_militias }
-		x = 9
-		y = 1
-		relative_position_id = MEX_focus_plan_of_agua_prieta
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 0
-		}
-
-		available = {
-            date > 1945.1.1			
-		}
-
-		bypass = {
-			
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-
-		completion_reward = {
-			swap_ideas = {
-				remove_idea = MEX_politicised_army
-				add_idea = MEX_revolutionary_army
-			}
-		}
-	}
 	
 	focus = {
-		id = MEX_focus_the_gold_shirts
-		icon = GFX_goal_demand_sudetenland
-		prerequisite = { focus = MEX_focus_legacy_of_revolution }
-		mutually_exclusive = { focus = MEX_focus_the_red_shirts }
-		x = -1
-		y = 2
-		relative_position_id = MEX_focus_legacy_of_revolution
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 100
-		}
-
-		available = {
-			
-		}
-
-		bypass = {
-			
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-
-		completion_reward = {
-			swap_ideas = {
-				remove_idea = MEX_revolutionary_army
-				add_idea = MEX_right_wing_paramilitaries
-			}
-			custom_effect_tooltip = available_political_advisor
-			show_ideas_tooltip = MEX_jose_vasconcelos
-			
-			if = {
-				limit = {
-					NOT = {
-						OR = {
-							has_global_flag = trotsky_exile_mexico
-							has_global_flag = flag_mexico_invited_trotsky_to_government
-						}
-					}
-				}
-				set_global_flag = trotsky_not_welcome_in_mexico
-			}
-		}
-	}
-
-	focus = {
-		id = MEX_focus_revanchist_revolution
-		icon = GFX_goal_support_fascism
-		prerequisite = { focus = MEX_focus_the_gold_shirts }
-		x = -1
+		id = MEX_focus_international_peacekeepers
+		icon = GFX_focus_generic_paratrooper
+		x = 0
 		y = 1
-		relative_position_id = MEX_focus_the_gold_shirts
-
-		cost = 10
+		relative_position_id = MEX_focus_soldaderas
+		cost = 5
 
 		ai_will_do = {
 			factor = 100
 		}
 
 		available = {
-			fascism > 0.4
-			has_civil_war = no
-			NOT = { has_completed_focus = MEX_focus_party_of_the_revolution }
-			NOT = { has_completed_focus = MEX_focus_institutional_revolution }
-			NOT = { has_completed_focus = MEX_focus_catholic_politics }
-			NOT = { has_completed_focus = MEX_focus_crusade_against_atheism }
-			NOT = { has_completed_focus = MEX_focus_communist_revolution }
 			OR = {
-				has_idea = MEX_church_power_1
-				has_idea = MEX_church_power_2
+				has_global_flag = spanish_civil_war
+				has_global_flag = scw_over
 			}
-		}
-
-		bypass = {
-			
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_popularity = {
-				ideology = fascism
-				popularity = 0.1
-			}
-			
-			add_war_support = 0.1
-			if = {
-				limit = {
-					NOT = {
-						has_government = fascism
-					}
-				}				
-				set_politics = {
-					ruling_party = fascism
-					elections_allowed = yes
-				}
-			}			
-			if = {
-				limit = {
-					has_completed_focus = MEX_focus_jefe_maximo
-				}
-				create_country_leader = {
-					name = "Plutarco E. Calles"
-					desc = "POLITICS_PLUTARCO_E_CALLES_DESC"
-					picture = "GFX_portrait_mex_calles_civil"
-					expire = "1965.1.1"
-					ideology = fascism_ideology #changed to "regular fascism" to differenciate from Abascal
-					traits = {
-						el_jefe_maximo
-					}
-				}
-				remove_ideas = MEX_plutarco_calles
-			}
-			else_if = {
-				limit = {
-					has_completed_focus = MEX_focus_support_general_cedillo
-				}
-				create_country_leader = {
-					name = "Saturnino Cedillo"
-					desc = "POLITICS_SATURNINO_CEDILLO_DESC"
-					picture = "GFX_portrait_mex_saturnino_cedillo"
-					expire = "1965.1.1"
-					ideology = fascism_ideology
-					traits = {
-						strongman_of_san_luis_potosi
-					}
-				}
-			}
-			set_party_name = { ideology = neutrality name = MEX_democratic_party_institutional_revolutionary_party_short long_name = MEX_democratic_party_institutional_revolutionary_party_long }
-			set_party_name = { ideology = fascism name = MEX_fascist_party_national_revolutionary_party_short long_name = MEX_fascist_party_national_revolutionary_party_long }
-		}
-	}
-
-	focus = {
-		id = MEX_focus_the_red_shirts
-		icon = GFX_focus_prc_agrarian_socialism
-		prerequisite = { focus = MEX_focus_legacy_of_revolution }
-		mutually_exclusive = { focus = MEX_focus_the_gold_shirts }
-		x = 1
-		y = 2
-		relative_position_id = MEX_focus_legacy_of_revolution
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 100
-		}
-
-		available = {
-			
-		}
-
-		bypass = {
-			
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-
-		completion_reward = {
-			MEX_decrease_church_power = yes
-			swap_ideas = {
-				remove_idea = MEX_revolutionary_army
-				add_idea = MEX_left_wing_paramilitaries
-			}
-		}
-	}
-	
-	focus = {
-		id = MEX_focus_communist_revolution
-		icon = GFX_goal_support_communism
-		prerequisite = { focus = MEX_focus_the_red_shirts }
-		x = 1
-		y = 1
-		relative_position_id = MEX_focus_the_red_shirts
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 100
-		}
-
-		available = {
-			communism > 0.4
-			has_civil_war = no
-			NOT = { has_completed_focus = MEX_focus_party_of_the_revolution }
-			NOT = { has_completed_focus = MEX_focus_institutional_revolution }
-			NOT = { has_completed_focus = MEX_focus_catholic_politics }
-			NOT = { has_completed_focus = MEX_focus_crusade_against_atheism }
-			NOT = { has_completed_focus = MEX_focus_revanchist_revolution }
-		}
-
-		bypass = {
-			
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_popularity = {
-				ideology = communism
-				popularity = 0.1
-			}
-			
-			add_stability = 0.05
-			add_war_support = 0.05
-			
-			if = {
-				limit = {
-					has_global_flag = flag_mexico_invited_trotsky_to_government
-					NOT = { has_global_flag = flag_trotsky_dead }
-					NOT = {
-						SOV = {
-							has_country_leader = { ruling_only = yes name = "Leon Trotsky" }
-						}
-					}
-				}
-				create_country_leader = {
-					name = "Leon Trotsky"
-					desc = "POLITICS_LEON_TROTSKY_DESC"
-					picture = "gfx/leaders/SOV/Portrait_Leon_Trotsky.dds"
-					expire = "1965.1.1"
-					ideology = leninism
-					traits = {
-						exiled_revolutionary
-					}
-				}
-			}
-			
-			if = {
-				limit = {
-					NOT = {
-						has_government = communism
-					}
-				}
-				set_politics = {
-					ruling_party = communism
-					elections_allowed = yes
-				}
-			}
-			
-			if = {
-				limit = {
-					has_global_flag = flag_mexico_invited_trotsky_to_government
-				}
-				set_party_name = { ideology = communism name = MEX_party_workers_peasants_mexico_short long_name = MEX_party_workers_peasants_mexico_long }
-			}
-		}
-	}
-	
-	focus = {
-		id = MEX_focus_hispanic_culture
-		icon = GFX_goal_generic_political_pressure
-		prerequisite = { focus = MEX_focus_the_gold_shirts }
-		prerequisite = { focus = MEX_focus_international_struggle }
-		x = 0
-		y = 2
-		relative_position_id = MEX_focus_the_gold_shirts
-
-		cost = 5
-
-		ai_will_do = {
-			factor = 100
-		}
-
-		available = {	
-		}
-
-		bypass = {
-			
-		}
-
-		cancel_if_invalid = no
-		continue_if_invalid = yes
-		available_if_capitulated = yes
-
-		completion_reward = {
-			swap_ideas = {
-				remove_idea = MEX_international_struggle
-				add_idea = MEX_hispanic_culture
-			}
-		}
-	}
-
-	focus = {
-		id = MEX_focus_revolutionary_class_war
-		icon = GFX_focus_generic_join_comintern
-		prerequisite = { focus = MEX_focus_the_red_shirts }
-		prerequisite = { focus = MEX_focus_international_struggle }
-		x = 0
-		y = 2
-		relative_position_id = MEX_focus_the_red_shirts
-
-		cost = 5
-
-		ai_will_do = {
-			factor = 100
-		}
-
-		available = {
-			
-		}
-
-		bypass = {
-			
-		}
-
-		cancel_if_invalid = no
-		continue_if_invalid = yes
-		available_if_capitulated = yes
-
-		completion_reward = {
-			swap_ideas = {
-				remove_idea = MEX_international_struggle
-				add_idea = MEX_proletarian_class_army
-			}
-		}
-	}
-
-	focus = {
-		id = MEX_focus_international_struggle
-		icon = GFX_goal_generic_attack_allies
-		prerequisite = { focus = MEX_focus_the_gold_shirts focus = MEX_focus_the_red_shirts }
-		x = 1
-		y = 1
-		relative_position_id = MEX_focus_the_gold_shirts
-
-		cost = 5
-
-		ai_will_do = {
-			factor = 100
-		}
-
-		available = {
-			
 		}
 
 		bypass = {
@@ -3800,30 +2692,23 @@ focus_tree = {
 
 		completion_reward = {
 			set_rule = { can_send_volunteers = yes }
-			add_ideas = MEX_international_struggle
+			add_ideas = MEX_international_peacekeepers
 		}
 	}
+	
 	
 	focus = {
 		id = MEX_focus_spanish_civil_war_refugees
 		icon = GFX_goal_generic_intelligence_exchange
-		x = 1
-		y = 2
-		relative_position_id = MEX_focus_soldaderas
+		prerequisite = { focus = MEX_focus_international_peacekeepers }
+		x = 0
+		y = 1
+		relative_position_id = MEX_focus_international_peacekeepers
 
 		cost = 3
 
 		ai_will_do = {
 			factor = 0
-		}
-
-		available = {
-			
-			OR = {
-				date > 1940.1.1
-				has_global_flag = spanish_civil_war
-				has_global_flag = scw_over
-			}
 		}
 
 		bypass = {
@@ -3886,6 +2771,7 @@ focus_tree = {
 				category = land_doctrine
 				category = air_doctrine
 			}
+			add_ideas = MEX_right_wing_paramilitaries
 			every_other_country = {
 				limit = {
 					original_tag = SPR
@@ -3964,6 +2850,7 @@ focus_tree = {
 			unlock_decision_tooltip = MEX_decision_support_spanish_loyalists
 			add_war_support = 0.05
 			add_stability = 0.05
+			add_ideas = MEX_left_wing_paramilitaries
 			every_other_country = {
 				limit = {
 					original_tag = SPR
@@ -3999,250 +2886,11 @@ focus_tree = {
 			MEX_decrease_church_power = yes
 		}
 	}
-	
-	focus = {
-		id = MEX_focus_hispanic_alliance
-		icon = GFX_goal_generic_alliance
-		prerequisite = { focus = MEX_focus_falangist_veterans }
-		mutually_exclusive = { focus = MEX_focus_realpolitik }
-		x = -2
-		y = 2
-		relative_position_id = MEX_focus_spanish_civil_war_refugees
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 100
-			
-			modifier = {
-				factor = 0.1
-				is_historical_focus_on = yes
-			}
-		}
-
-		available = {
-            date > 1945.1.1
-			is_in_faction = no
-			is_subject = no
-			OR = {
-				has_government = fascism
-				has_government = neutrality
-			}
-		}
-
-		bypass = {
-			
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-
-		completion_reward = {			
-			set_rule = { can_create_factions = yes }
-			
-			if = {
-				limit = {
-					has_completed_focus = MEX_focus_crusade_against_atheism
-				}
-				create_faction = faction_mexico_synarchist_pact
-			}
-			else = {
-				create_faction = faction_mexico_hispanic_alliance
-			}
-			hidden_effect = {
-				news_event = {
-					id = mexico.46
-				}
-			}
-			
-			unlock_decision_category_tooltip = MEX_category_hispanic_solidarity
-			
-			MEX_increase_church_power = yes
-			
-			if = {
-				limit = {
-					has_government = fascism
-				}
-				every_country = {
-					limit = {
-						capital_scope = {
-							is_on_continent = south_america
-						}
-						NOT = {
-							OR = {
-								original_tag = BRA
-								original_tag = MEX
-								original_tag = HOL # Apparently they get included when they go into exile in Curacao
-								original_tag = ENG # Just in case
-								original_tag = FRA # Just in case
-							}
-						}
-					}
-					add_opinion_modifier = {
-						target = ROOT
-						modifier = mexico_hispanic_diplomacy
-					}
-					add_timed_idea = {
-						idea = MEX_synarchist_influence
-    					days = 720
-					}
-					set_country_flag = received_MEX_synarchist_influence
-				}
-			}
-			else_if = {
-				limit = {
-					NOT = {
-						has_government = fascism
-					}
-				}
-				every_country = {
-					limit = {
-						capital_scope = {
-							is_on_continent = south_america
-						}
-						NOT = {
-							OR = {
-								original_tag = BRA
-								original_tag = MEX
-							}
-						}
-					}
-					add_opinion_modifier = {
-						target = ROOT
-						modifier = mexico_hispanic_diplomacy
-					}
-				}
-			}
-		}
-	}
-
-	focus = {
-		id = MEX_focus_propaganda_pact
-		icon = GFX_goal_anti_comintern_pact
-		prerequisite = { focus = MEX_focus_hispanic_alliance }
-		x = -1
-		y = 1
-		relative_position_id = MEX_focus_hispanic_alliance
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 100
-		}
-
-		available = {
-			has_government = fascism
-			any_allied_country = {
-				has_government = fascism
-			}
-			any_enemy_country = {
-				has_government = communism
-			}
-		}
-
-		bypass = {
-			
-		}
-
-		cancel_if_invalid = no
-		continue_if_invalid = yes
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_stability = 0.05
-			add_war_support = 0.05
-		}
-	}
-	
-	focus = {
-		id = MEX_focus_invite_brazil
-		icon = GFX_goal_generic_major_alliance
-		prerequisite = { focus = MEX_focus_hispanic_alliance focus = MEX_focus_bolivarian_alliance }
-		x = 1
-		y = 1
-		relative_position_id = MEX_focus_hispanic_alliance
-
-		cost = 5
-
-		ai_will_do = {
-			factor = 100
-		}
-
-		available = {
-			is_in_faction = yes
-			BRA = {
-				is_in_faction = no
-			}
-			NOT = {
-				has_war_with = BRA
-			}
-		}
-
-		bypass = {
-			
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			unlock_decision_category_tooltip = MEX_category_hispanic_solidarity
-			if = {
-				limit = {
-					has_government = fascism
-				}
-				BRA = {
-					add_opinion_modifier = {
-						target = ROOT
-						modifier = mexico_hispanic_diplomacy
-					}
-					add_timed_idea = {
-						idea = MEX_synarchist_influence
-    					days = 720
-					}
-					set_country_flag = received_MEX_synarchist_influence
-				}
-			}
-			if = {
-				limit = {
-					has_government = communism
-				}
-				BRA = {
-					add_opinion_modifier = {
-						target = ROOT
-						modifier = mexico_hispanic_diplomacy
-					}
-					add_timed_idea = {
-						idea = MEX_bolivarian_agitation
-						days = 720
-					}
-					set_country_flag = received_MEX_bolivarian_agitation
-				}
-			}
-			if = {
-				limit = {
-					OR = {
-						has_government = neutrality
-						has_government = democratic
-					}
-				}
-				BRA = {
-					add_opinion_modifier = {
-						target = ROOT
-						modifier = mexico_hispanic_diplomacy
-					}
-				}
-			}
-		}
-	}
 
 	focus = {
 		id = MEX_focus_realpolitik
 		icon = GFX_goal_molotov_ribbentrop_pact
 		prerequisite = { focus = MEX_focus_falangist_veterans focus = MEX_focus_support_spains_loyalists }
-		mutually_exclusive = { focus = MEX_focus_hispanic_alliance focus = MEX_focus_bolivarian_alliance }
 		x = 0
 		y = 2
 		relative_position_id = MEX_focus_spanish_civil_war_refugees
@@ -4266,273 +2914,19 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			set_rule = { can_create_factions = yes }
 			add_stability = 0.05
 			add_war_support = 0.05
 			add_political_power = 120
-		}
-	}
-	
-	focus = {
-		id = MEX_focus_bolivarian_alliance
-		icon = GFX_goal_anschluss
-		prerequisite = { focus = MEX_focus_support_spains_loyalists }
-		mutually_exclusive = { focus = MEX_focus_realpolitik }
-		x = 2
-		y = 2
-		relative_position_id = MEX_focus_spanish_civil_war_refugees
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 100
-			
-			modifier = {
-				factor = 0.1
-				is_historical_focus_on = yes
-			}
-		}
-
-		available = {
-            date > 1945.1.1
-			is_in_faction = no
-			is_subject = no
-			OR = {
-				has_government = communism
-				has_government = neutrality
-			}
-		}
-
-		bypass = {
-			
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-
-		completion_reward = {
-			set_rule = { can_create_factions = yes }
-			
-			create_faction = faction_mexico_bolivarian_alliance
-
-			hidden_effect = {
-				news_event = {
-					id = mexico.47
-				}
-			}
-			
-			unlock_decision_category_tooltip = MEX_category_hispanic_solidarity
-			
-			MEX_decrease_church_power = yes
-						
-			if = {
-				limit = {
-					has_government = communism
-				}
-				every_country = {
-					limit = {
-						capital_scope = {
-							is_on_continent = south_america
-						}
-						NOT = {
-							OR = {
-								original_tag = BRA
-								original_tag = MEX
-							}
-						}
-					}
-					add_opinion_modifier = {
-						target = ROOT
-						modifier = mexico_hispanic_diplomacy
-					}
-					add_timed_idea = {
-						idea = MEX_bolivarian_agitation
-						days = 720
-					}
-					set_country_flag = received_MEX_bolivarian_agitation
-				}
-			}
-			else_if = {
-				limit = {
-					NOT = {
-						has_government = communism
-					}
-				}
-				every_country = {
-					limit = {
-						capital_scope = {
-							is_on_continent = south_america
-						}
-						NOT = {
-							OR = {
-								original_tag = BRA
-								original_tag = MEX
-							}
-						}
-					}
-					add_opinion_modifier = {
-						target = ROOT
-						modifier = mexico_hispanic_diplomacy
-					}
-				}
-			}
-		}
-	}
-	
-	focus = {
-		id = MEX_focus_smash_the_bureaucrats
-		icon = GFX_focus_attack_soviet
-		prerequisite = { focus = MEX_focus_bolivarian_alliance }
-		x = 0
-		y = 1
-		relative_position_id = MEX_focus_bolivarian_alliance
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 100
-		}
-
-		available = {
-			is_subject = no
-			OR = {
-				has_country_leader = {
-					name = "Leon Trotsky"
-					ruling_only = yes
-				}
-				has_country_leader = {
-					name = "Hernán Laborde"
-					ruling_only = yes
-				}
-				has_country_leader = {
-					name = "Valentín Campa"
-					ruling_only = yes
-				}							
-			}
-		}
-
-		bypass = {
-			
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			add_ideas = MEX_idea_vanguard_of_the_4th_international
-			
-			if = {
-				limit = {
-					is_faction_leader = yes
-				}
-				set_faction_name = faction_mexico_4th_international
-			}
-			
-			if = {
-				limit = {
-					NOT = {
-						is_in_faction_with = SOV
-					}
-				}
-				create_wargoal = {
-					type = puppet_wargoal_focus
-					target = SOV
-				}
-			}
-			add_tech_bonus = {
-				name = tooltip_socialist_marine_corps
-				bonus = 1.0
-				uses = 1
-				category = tp_tech 
-				category = marine_tech
-			}
-		}
-	}
-	
-	focus = {
-		id = MEX_focus_one_world_government
-		icon = GFX_goal_support_fourth_int
-		prerequisite = { focus = MEX_focus_smash_the_bureaucrats }
-		x = 0
-		y = 1
-		relative_position_id = MEX_focus_smash_the_bureaucrats
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 100
-		}
-
-		available = {
-			is_faction_leader = yes
-			is_subject = no
-			OR = {
-				SOV = {
-					is_subject_of = ROOT
-				}
-				SOV = {
-					exists = no
-				}
-				NOT = {
-					SOV = {
-						has_country_leader = {
-							name = "Joseph Stalin"
-							ruling_only = yes
-						}
-					}
-				}
-			}
-		}
-
-		bypass = {
-			
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			every_other_country = { #first ask faction leaders to disband communist factions and join Trotsky, then ask the communist minors to join
-				limit = {
-					is_faction_leader = yes
-					has_government = communism
-					is_subject = no
-					NOT = {
-						has_war_with = MEX
-					}
-				}
-				country_event = { #4th international congress
-					id = mexico.52
-				}
-			}
-			if = {
-				limit = {
-					is_in_faction = yes
-				}
-				every_other_country = {
-					limit = {
-						is_in_faction = no
-						has_government = communism
-						is_subject = no
-					}
-					country_event = {
-						id = generic.5
-					}
-				}
-			}
 		}
 	}
 
 	focus = {
 		id = MEX_focus_coastal_defence_plan
 		icon = GFX_goal_generic_fortify_city
-		prerequisite = { focus = MEX_focus_hispanic_alliance focus = MEX_focus_bolivarian_alliance }
-		x = 2
-		y = 2
-		relative_position_id = MEX_focus_hispanic_alliance
+		prerequisite = { focus = MEX_focus_realpolitik }
+		x = 0
+		y = 1
+		relative_position_id = MEX_focus_realpolitik
 
 		cost = 5
 
@@ -4623,8 +3017,6 @@ focus_tree = {
 				category = infantry_weapons
 				category = artillery
 			}
-			custom_effect_tooltip = available_political_advisor
-			show_ideas_tooltip = MEX_manuel_avila
 		}
 	}
 
@@ -4679,7 +3071,6 @@ focus_tree = {
 				limit = {
 					OR = {
 						state = 479
-						state = 477
 					}
 				}
 				add_extra_state_shared_building_slots = 2
@@ -4745,7 +3136,6 @@ focus_tree = {
 				limit = {
 					OR = {
 						state = 485
-						state = 478
 					}
 				}
 				add_extra_state_shared_building_slots = 2
@@ -4984,8 +3374,6 @@ focus_tree = {
 				uses = 1
 				category = land_doctrine
 			}
-			custom_effect_tooltip = available_theorist
-			show_ideas_tooltip = MEX_manuel_perez_trevino
 		}
 	}
 	
@@ -5323,5 +3711,159 @@ focus_tree = {
 		completion_reward = {
 			add_ideas = MEX_aerial_artillery
 		}
-	}		
+	}
+	focus = {
+		id = MEX_aid1
+		icon = GFX_focus_chi_mission_to_the_us
+		x = 27
+		y = 0
+		cost = 5
+		ai_will_do = {
+			factor = 100 
+		}
+		available_if_capitulated = yes		
+		
+		available = { 
+       	  	date > 1937.1.1
+		}
+
+		bypass = {
+		}
+		
+		completion_reward = {
+			every_state = {
+				limit = {
+					OR = {
+						state = 477
+						state = 479
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+
+	}
+	focus = {
+		id = MEX_aid2
+		icon = GFX_USA_executive_office_of_the_president
+		prerequisite = { focus = MEX_aid1 }
+		relative_position_id = MEX_aid1
+		x = 0
+		y =1
+		cost = 5
+		ai_will_do = {
+			factor = 100 
+		}
+		available_if_capitulated = yes		
+		
+		available = { 
+			date > 1938.1.1
+		}
+
+		bypass = {
+		}
+		
+		completion_reward = {
+			every_state = {
+				limit = {
+					OR = {
+						state = 477
+						state = 479
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = MEX_aid3
+		icon = GFX_USA_lend_lease_act
+		prerequisite = { focus = MEX_aid2 }
+		relative_position_id = MEX_aid2
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 100 
+		}
+		available_if_capitulated = yes		
+		
+		available = { 
+		    date > 1939.1.1
+		}
+
+		bypass = {
+		}
+		
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = mex_bad_eco1
+				add_idea = mex_bad_eco2
+			}
+		}
+	}
+	focus = {
+		id = MEX_aid4
+		icon = GFX_USA_take_the_side_of_big_business
+		prerequisite = { focus = MEX_aid3 }
+		relative_position_id = MEX_aid3
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 100 
+		}
+		available_if_capitulated = yes		
+		
+		available = { 
+		    date > 1940.1.1
+		}
+
+		bypass = {
+		}
+		
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = mex_bad_eco2
+				add_idea = mex_bad_eco3
+			}
+		}
+	}
+	focus = {
+		id = MEX_aid5
+		icon = GFX_USA_rally_the_pro_new_dealers
+		prerequisite = { focus = MEX_aid4 }
+		relative_position_id = MEX_aid4
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 100 
+		}
+		available_if_capitulated = yes		
+		
+		available = { 
+		    date > 1941.1.1
+		}
+
+		bypass = {
+		}
+		
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = mex_bad_eco3
+				add_idea = mex_good_eco
+			}
+		}
+	}	
 }

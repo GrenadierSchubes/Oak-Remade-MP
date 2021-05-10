@@ -2,19 +2,21 @@
 state={
 	id=479
 	name="STATE_479"
-	manpower = 1
+	manpower = 1032988
 	
 	state_category = town
 
 	resources={
-		oil=0
+		oil=10
 	}
 	
 	history={
+		owner = MEX
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 2
 		}
+		add_core_of = MEX
 		victory_points = {
 			4956 10
 		}

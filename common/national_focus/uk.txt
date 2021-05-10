@@ -3761,6 +3761,9 @@ focus_tree = {
 			    PHI = {
 				    add_ideas = ENG_prepare_for_the_inevitable_idea
 				}
+			    MEX = {
+				    add_ideas = ENG_british_commonwealth_air_training_plan
+				}
 			    HOL = {
 				    add_ideas = ENG_prepare_for_the_inevitable_idea
 				}
@@ -5747,6 +5750,9 @@ focus_tree = {
 				    add_ideas = ENG_british_commonwealth_air_training_plan
 				}
 			    PHI = {
+				    add_ideas = ENG_british_commonwealth_air_training_plan
+				}
+			    MEX = {
 				    add_ideas = ENG_british_commonwealth_air_training_plan
 				}
 			    HOL = {

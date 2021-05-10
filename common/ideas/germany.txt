@@ -3543,7 +3543,9 @@ ideas = {
 				factor = 100
 			}			
 			
-			research_bonus = {industry = 0.15}  traits = { industrial_research_trait }
+			research_bonus = {industry = 0.15}  
+			
+			traits = { industrial_research_trait }
 		}
 		
 		siemens = {

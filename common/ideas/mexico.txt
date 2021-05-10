@@ -15,6 +15,82 @@ ideas = {
 				convoy_raiding_efficiency_factor = 0.25
 			}
 		}
+
+		mex_bad_eco1 = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = usa_great_depression
+			
+			modifier = {
+                industrial_capacity_factory = -0.2
+				production_factory_max_efficiency_factor = -0.1
+				production_factory_efficiency_gain_factor = -0.2
+				production_speed_arms_factory_factor = -0.2
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		mex_bad_eco2 = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = usa_great_depression_2
+			
+			modifier = {
+				production_factory_max_efficiency_factor = -0.05
+				production_factory_efficiency_gain_factor = -0.15
+				production_speed_arms_factory_factor = -0.1
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		mex_bad_eco3 = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = usa_great_depression_3
+			
+			modifier = {
+				production_factory_max_efficiency_factor = -0.05
+				production_factory_efficiency_gain_factor = -0.1
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	
+		mex_good_eco = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = wilkies_new_deal
+			
+			modifier = {
+				production_factory_max_efficiency_factor = 0.1
+				production_factory_efficiency_gain_factor = 0.1
+				production_speed_arms_factory_factor = 0.1
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
 		
 		synarchist_support_surge = {
 			
@@ -193,7 +269,7 @@ ideas = {
 			}
 			
 			modifier = {
-				stability_factor = -0.03
+				stability_factor = -0.05
 			}
 		}
 
@@ -212,7 +288,7 @@ ideas = {
 			}
 			
 			modifier = {
-				stability_factor = -0.05
+				stability_factor = -0.1
 			}
 		}
 
@@ -231,7 +307,7 @@ ideas = {
 			}
 			
 			modifier = {
-				stability_factor = -0.07
+				stability_factor = -0.15
 			}
 		}
 
@@ -250,7 +326,7 @@ ideas = {
 			}
 			
 			modifier = {
-				stability_factor = -0.1
+				stability_factor = -0.2
 			}
 		}
 
@@ -439,9 +515,8 @@ ideas = {
 			}
 			
 			modifier = {
-				military_leader_cost_factor = 0.5 
+				military_leader_cost_factor = 0.5
 				max_command_power = 25
-				communism_drift = 0.1
 				army_core_attack_factor = 0.1
 				army_core_defence_factor = 0.1
 			}
@@ -449,7 +524,7 @@ ideas = {
 		
 		MEX_right_wing_paramilitaries = {
 		
-			picture = chi_army_corruption3
+			picture = jap_the_unthinkable_option
 		
 			allowed = {
 				always = no
@@ -467,8 +542,8 @@ ideas = {
 			modifier = {
 				military_leader_cost_factor = 0.5
 				max_command_power = 25
-				fascism_drift = 0.1
-				army_morale_factor = 0.15
+				army_org_factor = 0.05
+				army_morale_factor = 0.05
 			}
 		}
 		
@@ -672,9 +747,9 @@ ideas = {
 			}
 			
 			modifier = {
-				democratic_drift = 0.1
+				send_volunteer_size = 2
+				send_volunteers_tension = -1
 				send_volunteer_divisions_required = -1
-				enemy_justify_war_goal_time = 1.0
 			}
 		}
 		
@@ -861,11 +936,7 @@ ideas = {
 					limit = {
 						has_dlc = "Man the Guns"
 					}
-					has_completed_focus = MEX_focus_confederation_of_mexican_workers
-				}
-				if = {
-					limit = { has_dlc = "Man the Guns" }	
-					NOT = { has_autonomy_state = autonomy_supervised_state }
+					has_completed_focus = MEX_focus_agricultural_credit_bank
 				}
 			}
 			
@@ -881,16 +952,6 @@ ideas = {
 			}
 			
 			available = {
-				if = {
-					limit = {
-						has_dlc = "Man the Guns"
-					}
-					has_completed_focus = MEX_focus_the_gold_shirts
-				}
-				if = {
-					limit = { has_dlc = "Man the Guns" }	
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
 			}
 			
 			traits = { syncretic_revanchist }
@@ -918,7 +979,7 @@ ideas = {
 			}
 			
 			traits = {
-				social_reformer
+				democratic_reformer
 			}
 		}
 
@@ -961,7 +1022,7 @@ ideas = {
 
 		MEX_luis_montes_de_oca = {
 		
-			cost = 75
+			cost = 150
 
 			picture = generic_political_advisor_south_america_3
 			
@@ -1008,7 +1069,7 @@ ideas = {
 	
 		MEX_manuel_avila = {
 		
-			cost = 75
+			cost = 150
 
 			picture = generic_political_advisor_south_america_2
 			
@@ -1017,12 +1078,6 @@ ideas = {
 			}
 			
 			available = {
-				if = {
-					limit = {
-						has_dlc = "Man the Guns"
-					}
-					has_completed_focus = MEX_focus_military_budget_review
-				}
 			}
 			
 			traits = { war_industrialist }
@@ -1034,7 +1089,7 @@ ideas = {
 		
 		MEX_alberto_pani = {
 		
-			cost = 75
+			cost = 150
 			
 			picture = generic_political_advisor_south_america_1
 			
@@ -1065,39 +1120,32 @@ ideas = {
 			}
 			
 			available = {
-				if = {
-					limit = {
-						has_dlc = "Man the Guns"
-					}
-					has_completed_focus = MEX_focus_heroic_military_college
-				}
 			}
 			
 			cost = 150
 			
 			research_bonus = {
-				cat_superior_firepower = 0.10
+			    land_doctrine = 0.1
 			}
 			
 			traits = { superior_firepower_expert }
 		}
 
 		MEX_enrique_estrada = {
-			ledger = army
-
-			picture = generic_army_europe_2
+			ledger = navy
+			
+            picture = generic_political_advisor_south_america_1
 			
 			allowed = {
 				original_tag = MEX
 			}
 			
-			picture = generic_political_advisor_south_america_1
 			
 			research_bonus = {
-				land_doctrine = 0.07
+				naval_doctrine = 0.1
 			}
 			
-			traits = { military_theorist }
+			traits = { naval_theorist }
 		}
 
 		MEX_agustin_olachea = {
@@ -1110,7 +1158,7 @@ ideas = {
 			}
 			
 			research_bonus = {
-				air_doctrine = 0.07
+				air_doctrine = 0.1
 			}
 			
 			traits = { air_warfare_theorist }
@@ -1123,7 +1171,7 @@ ideas = {
 			
 			picture = generic_army_europe_1
 			
-			cost = 75
+			cost = 150
 			
 			allowed = {
 				original_tag = MEX
@@ -1153,6 +1201,29 @@ ideas = {
 			}
 			
 			traits = { army_chief_defensive_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		MEX_leon_trotsky = {
+			
+			picture = generic_army_europe_4
+			
+			cost = 150
+			
+			visible = {
+			}
+			
+			allowed = {
+				original_tag = IRE
+			}
+			
+			available = {
+			}
+			
+			traits = { red_army_organizer }
 			
 			ai_will_do = {
 				factor = 1
@@ -1336,7 +1407,7 @@ ideas = {
 		
 		MEX_tga = {
 		
-			cost = 75
+			cost = 150
 			
 			allowed = {
 				original_tag = MEX
@@ -1367,10 +1438,22 @@ ideas = {
 			}
 			
 			research_bonus = {
-				armor = 0.10
+				armor = -0.05
 			}
 			
-			traits = { heavy_tank_manufacturer }
+			equipment_bonus = {
+				light_tank_equipment = {
+					build_cost_ic = -0.10 reliability = 0.05  
+				}
+				light_tank_destroyer_equipment = {
+					build_cost_ic = -0.075 reliability = 0.05
+				}
+				light_tank_artillery_equipment = {
+					build_cost_ic = -0.075 reliability = 0.05
+				} 
+			}
+			
+			traits = { GER_ckd_tank_manufacturer }
 
 		}
 		
@@ -1387,10 +1470,59 @@ ideas = {
 			}
 			
 			research_bonus = {
-				armor = 0.10
+				armor = -0.05
 			}
 			
-			traits = { fast_tank_manufacturer }
+			equipment_bonus = {
+				heavy_assault_gun_equipment = {
+					reliability = -0.05
+					maximum_speed = 0.1 
+					armor_value = -0.10
+					build_cost_ic = -0.05
+				}
+				medium_tank_aa_equipment = {
+					reliability = -0.05
+					maximum_speed = 0.1 
+					armor_value = -0.10
+					build_cost_ic = -0.05
+				}
+				medium_tank_artillery_equipment = {
+					reliability = -0.05
+					maximum_speed = 0.1 
+					armor_value = -0.10
+					build_cost_ic = -0.05
+				}
+				medium_tank_equipment = {
+					reliability = -0.05
+					maximum_speed = 0.1 
+					armor_value = -0.10
+					build_cost_ic = -0.05
+				}
+			    light_tank_equipment = {
+					reliability = 0.05
+					soft_attack = 0.05
+					maximum_speed = 0.1
+					armor_value = 0.05					
+				}
+				light_tank_artillery_equipment = {
+					reliability = 0.05
+					soft_attack = 0.05
+					maximum_speed = 0.1					
+				}
+
+				light_tank_destroyer_equipment = {
+					reliability = 0.05
+					hard_attack = 0.05
+					maximum_speed = 0.1					
+				}
+				light_tank_aa_equipment = {
+					reliability = 0.05
+					air_attack = 0.05
+					maximum_speed = 0.1					
+				}				
+			}
+			
+			traits = { SOV_cavalry_tank_designer }
 			
 			ai_will_do = {
 				factor = 1
@@ -1410,10 +1542,53 @@ ideas = {
 			}
 			
 			research_bonus = {
-				armor = 0.10
+				armor = -0.05
 			}
 			
-			traits = { medium_tank_manufacturer }
+			traits = { GER_Krupp_tank_manufacturer }
+
+			equipment_bonus = {
+				medium_tank_aa_equipment = {
+					reliability = 0.05
+					air_attack = 0.1
+					armor_value = 0.05
+					build_cost_ic = 0.05
+				}
+				medium_tank_artillery_equipment = {
+					reliability = 0.05
+					soft_attack = 0.15
+					armor_value = 0.05
+					build_cost_ic = 0.05
+				}
+				medium_tank_equipment = {
+					reliability = 0.05
+					soft_attack = 0.1
+					hard_attack = 0.1
+					armor_value = 0.05
+					build_cost_ic = 0.05
+				}
+			    light_tank_equipment = {
+					reliability = 0.05
+					soft_attack = 0.1
+					armor_value = 0.1					
+					build_cost_ic = 0.05
+				}
+				light_tank_artillery_equipment = {
+					reliability = 0.05
+					soft_attack = 0.1
+					build_cost_ic = 0.05
+				}
+				light_tank_destroyer_equipment = {
+					reliability = 0.05
+					hard_attack = 0.1
+					build_cost_ic = 0.05
+				}
+				light_tank_aa_equipment = {
+					reliability = 0.05
+					air_attack = 0.1
+					build_cost_ic = 0.05
+				}
+			}
 
 			ai_will_do = {
 				factor = 1
@@ -1440,7 +1615,7 @@ ideas = {
 				naval_equipment = 0.10
 			}
 			
-			traits = { atlantic_fleet_naval_manufacturer }
+			traits = { raiding_fleet_naval_manufacturer }
 			
 			modifier = {
 			}
@@ -1490,7 +1665,9 @@ ideas = {
 			traits = { light_aircraft_manufacturer }
 			
 			equipment_bonus = {
-				# made avro 504 and O2U Corsair under license
+				fighter_equipment = {
+					build_cost_ic = -0.05 instant = yes 
+				}
 			}
 			
 			ai_will_do = {
@@ -1505,7 +1682,7 @@ ideas = {
 		
 			picture = HOL_royal_dutch_shell
 			
-			cost = 25
+			cost = 150
 			
 			allowed = {
 				original_tag = MEX
@@ -1534,7 +1711,7 @@ ideas = {
 		
 		MEX_pemex = {
 			
-			cost = 25
+			cost = 150
 			
 			allowed = {
 				original_tag = MEX
@@ -1563,7 +1740,7 @@ ideas = {
 		
 		MEX_banco_de_mexico = {
 			
-			cost = 75
+			cost = 150
 			
 			allowed = {
 				original_tag = MEX
@@ -1575,7 +1752,7 @@ ideas = {
 			}
 			
 			research_bonus = {
-				industry = 0.10
+				industry = -0.05
 				
 			}
 			
@@ -1588,7 +1765,7 @@ ideas = {
 
 		MEX_escuela_de_ingeneria_electrica = {
 			
-			cost = 25
+			cost = 150
 			
 			allowed = {
 				original_tag = MEX
@@ -1600,7 +1777,8 @@ ideas = {
 			}
 			
 			research_bonus = {
-				electronics = 0.10
+				electronics = 0.1
+				research_speed_factor = 0.025
 			}
 
 			modifier = {

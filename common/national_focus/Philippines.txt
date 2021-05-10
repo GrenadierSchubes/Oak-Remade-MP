@@ -1414,7 +1414,7 @@ focus = {
 			add_opinion_modifier = { target = ENG modifier = POL_draw_closer_to_britain }
 			ENG = { add_opinion_modifier = { target = ROOT modifier = POL_draw_closer_to_britain } }
 			PHI = {
-   			 modify_tech_sharing_bonus = {
+   			modify_tech_sharing_bonus = {
          			id = commonwealth_research
          			bonus = 0.1  # we get 20% higher bonus from this group
     			}
