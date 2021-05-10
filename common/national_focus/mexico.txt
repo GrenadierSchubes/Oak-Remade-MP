@@ -39,10 +39,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_to_tech_sharing_group = HOL_europe_research
-			USA = {
-				add_to_tech_sharing_group = HOL_europe_research
-			}
+			add_to_tech_sharing_group = commonwealth_research
 		    add_political_power = 150
 			add_stability = 0.05
 		}
@@ -1707,6 +1704,10 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
+   			modify_tech_sharing_bonus = {
+         			id = commonwealth_research
+         			bonus = 0.05  # we get 10% higher bonus from this group
+    			}
 			add_tech_bonus = {
 				name = electronics
 				bonus = 1.0
@@ -2132,7 +2133,6 @@ focus_tree = {
 		    	ideology = socialism
 		    	traits = {
 			    	exiled_revolutionary
-					protector_of_the_campesinos
 			    }
 		    }
 			
@@ -3666,5 +3666,159 @@ focus_tree = {
 		completion_reward = {
 			add_ideas = MEX_aerial_artillery
 		}
-	}		
+	}
+	focus = {
+		id = MEX_aid1
+		icon = GFX_focus_chi_mission_to_the_us
+		x = 27
+		y = 0
+		cost = 5
+		ai_will_do = {
+			factor = 100 
+		}
+		available_if_capitulated = yes		
+		
+		available = { 
+       	  	date > 1937.1.1
+		}
+
+		bypass = {
+		}
+		
+		completion_reward = {
+			every_state = {
+				limit = {
+					OR = {
+						state = 477
+						state = 479
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+
+	}
+	focus = {
+		id = MEX_aid2
+		icon = GFX_USA_executive_office_of_the_president
+		prerequisite = { focus = MEX_aid1 }
+		relative_position_id = MEX_aid1
+		x = 0
+		y =1
+		cost = 5
+		ai_will_do = {
+			factor = 100 
+		}
+		available_if_capitulated = yes		
+		
+		available = { 
+			date > 1938.1.1
+		}
+
+		bypass = {
+		}
+		
+		completion_reward = {
+			every_state = {
+				limit = {
+					OR = {
+						state = 477
+						state = 479
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = MEX_aid3
+		icon = GFX_USA_lend_lease_act
+		prerequisite = { focus = MEX_aid2 }
+		relative_position_id = MEX_aid2
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 100 
+		}
+		available_if_capitulated = yes		
+		
+		available = { 
+		    date > 1939.1.1
+		}
+
+		bypass = {
+		}
+		
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = mex_bad_eco1
+				add_idea = mex_bad_eco2
+			}
+		}
+	}
+	focus = {
+		id = MEX_aid4
+		icon = GFX_USA_take_the_side_of_big_business
+		prerequisite = { focus = MEX_aid3 }
+		relative_position_id = MEX_aid3
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 100 
+		}
+		available_if_capitulated = yes		
+		
+		available = { 
+		    date > 1940.1.1
+		}
+
+		bypass = {
+		}
+		
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = mex_bad_eco2
+				add_idea = mex_bad_eco3
+			}
+		}
+	}
+	focus = {
+		id = MEX_aid5
+		icon = GFX_USA_rally_the_pro_new_dealers
+		prerequisite = { focus = MEX_aid4 }
+		relative_position_id = MEX_aid4
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 100 
+		}
+		available_if_capitulated = yes		
+		
+		available = { 
+		    date > 1941.1.1
+		}
+
+		bypass = {
+		}
+		
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = mex_bad_eco3
+				add_idea = mex_good_eco
+			}
+		}
+	}	
 }

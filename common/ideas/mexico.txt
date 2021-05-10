@@ -15,6 +15,82 @@ ideas = {
 				convoy_raiding_efficiency_factor = 0.25
 			}
 		}
+
+		mex_bad_eco1 = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = usa_great_depression
+			
+			modifier = {
+                industrial_capacity_factory = -0.2
+				production_factory_max_efficiency_factor = -0.1
+				production_factory_efficiency_gain_factor = -0.2
+				production_speed_arms_factory_factor = -0.2
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		mex_bad_eco2 = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = usa_great_depression_2
+			
+			modifier = {
+				production_factory_max_efficiency_factor = -0.05
+				production_factory_efficiency_gain_factor = -0.15
+				production_speed_arms_factory_factor = -0.1
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		mex_bad_eco3 = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = usa_great_depression_3
+			
+			modifier = {
+				production_factory_max_efficiency_factor = -0.05
+				production_factory_efficiency_gain_factor = -0.1
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	
+		mex_good_eco = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = wilkies_new_deal
+			
+			modifier = {
+				production_factory_max_efficiency_factor = 0.1
+				production_factory_efficiency_gain_factor = 0.1
+				production_speed_arms_factory_factor = 0.1
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
 		
 		synarchist_support_surge = {
 			
@@ -439,9 +515,8 @@ ideas = {
 			}
 			
 			modifier = {
-				military_leader_cost_factor = 0.5 
+				military_leader_cost_factor = 0.5
 				max_command_power = 25
-				communism_drift = 0.1
 				army_core_attack_factor = 0.1
 				army_core_defence_factor = 0.1
 			}
@@ -449,7 +524,7 @@ ideas = {
 		
 		MEX_right_wing_paramilitaries = {
 		
-			picture = chi_army_corruption3
+			picture = jap_the_unthinkable_option
 		
 			allowed = {
 				always = no
@@ -467,8 +542,8 @@ ideas = {
 			modifier = {
 				military_leader_cost_factor = 0.5
 				max_command_power = 25
-				fascism_drift = 0.1
-				army_morale_factor = 0.15
+				army_org_factor = 0.05
+				army_morale_factor = 0.05
 			}
 		}
 		
@@ -672,9 +747,9 @@ ideas = {
 			}
 			
 			modifier = {
-				democratic_drift = 0.1
+				send_volunteer_size = 2
+				send_volunteers_tension = -1
 				send_volunteer_divisions_required = -1
-				enemy_justify_war_goal_time = 1.0
 			}
 		}
 		

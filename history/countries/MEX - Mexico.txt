@@ -74,6 +74,7 @@ if = {
 		MEX_oil_concessions
 		MEX_politicised_army
 		MEX_cedillo_tension_2
+		mex_bad_eco1
 	}
 }
 add_ideas = {

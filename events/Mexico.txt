@@ -1924,52 +1924,12 @@ country_event = {
 	
 	trigger = {
 		tag = GER
-		
 		has_war_with = USA
-		
-		NOT = {
-			has_war_with = MEX
-		}
-		
 		has_navy_size = { unit = submarine size > 9 }
-		
-		OR = {
-			ships_in_area = { # Gulf of Mexico
-				type = submarine
-				area = 52
-				size > 0
-			}
-			ships_in_area = { # Carribean Sea
-				type = submarine
-				area = 53
-				size > 0
-			}
-			ships_in_area = { # Florida Coast
-				type = submarine
-				area = 170
-				size > 0
-			}
-			ships_in_area = { # Eastern Seaboard
-				type = submarine
-				area = 54
-				size > 0
-			}
-			ships_in_area = { # Sargasso Sea
-				type = submarine
-				area = 57
-				size > 0
-			}
-			ships_in_area = { # Demerara Plain
-				type = submarine
-				area = 59
-				size > 0
-			}
-		}
-		has_dlc = "Man the Guns"
 	}
 	
 	mean_time_to_happen = {
-		months = 24
+		months = 1
 		
 		modifier = {
 			factor = 0.5

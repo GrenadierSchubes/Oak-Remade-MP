@@ -2552,6 +2552,9 @@ focus_tree = {
 			    PHI = {
 				    add_ideas = USA_cash_and_carry_foreign_idea
 				}
+		        MEX = {
+				    add_ideas = USA_cash_and_carry_foreign_idea
+				}
 			    RAJ = {    
 					add_ideas = USA_cash_and_carry_foreign_idea
 				}
