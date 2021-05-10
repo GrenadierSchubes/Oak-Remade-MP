@@ -1797,11 +1797,20 @@ focus_tree = {
 
 		completion_reward = {
 			add_popularity = {
-				ideology = democratic
-				popularity = 0.1
+				ideology = neutrality
+				popularity = 0.25
 			}
 			
 			add_stability = 0.1
+			if = {
+				limit = {
+					has_government = democratic
+				}
+				set_politics = {
+					ruling_party = neutrality
+					elections_allowed = yes
+				}
+			}
 			
 			if = {
 				limit = {
