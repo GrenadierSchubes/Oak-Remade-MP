@@ -1439,63 +1439,6 @@ operations = {
 			}
 		}		
 	}
-	GER_operation_countenance = {
-        icon = generic_civil_support
- 		fire_only_once = yes
-		
-		allowed = {
-			tag = GER
-		}
-		available = {
-			OR = {
-			    291 = { is_controlled_by = GER } 
-				291 = { is_controlled_by = ITA } 
-			}
-			has_war_with = ENG
-			PER = { is_ai = yes }
-		}
-
-		visible = {
-			NOT = {
-				PER = { exists = no }
-			}
-		}		
-		cost = 0
-
-		days_remove = 30
-		
-		
-		ai_will_do = {
-			factor = 100
-		}
-		remove_effect = {
-			SOV = {
-				transfer_state = 420
-				transfer_state = 419
-				transfer_state = 418
-				transfer_state = 266
-	 			transfer_state = 416
-			}
-			ENG = { puppet = PER }		
-			hidden_effect = {
-				news_event = { id = news.348 days = 1 } 
-				if  = { limit = { PER = { is_ai = yes } }
-					PER = {
-						load_oob = PER_ai
-						delete_unit_template_and_units = {
-							division_template = "Infantry Brigade"
-						}						
-						delete_unit_template_and_units = {
-							division_template = "Cavalry Brigade"
-						}
-						delete_unit_template_and_units = {
-							division_template = "Garrison"
-						}
-					}
-				}
-			}
-		}	
-	}
 
     GER_operation_oak = {
         
