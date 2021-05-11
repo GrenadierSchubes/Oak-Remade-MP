@@ -674,7 +674,7 @@ ideas = {
 		
 		MEX_knights_of_columbus = {
 		
-			picture = generic_democratic_drift_bonus
+			picture = MEX_callistas
 		
 			allowed = {
 				always = no
@@ -695,7 +695,7 @@ ideas = {
 		
 		MEX_social_catholicism = {
 		
-			picture = generic_democratic_drift_bonus
+			picture = MEX_callistas
 		
 			allowed = {
 				always = no
@@ -1765,8 +1765,8 @@ ideas = {
 			
 			modifier = {
 				production_speed_infrastructure_factor = 0.1
-				production_speed_synthetic_refinery_factor = 0.1
-				production_speed_synthetic_rubber_refinery_factor = 0.1
+				production_speed_synthetic_refinery_factor = 0.05
+				production_speed_synthetic_rubber_refinery_factor = 0.05
 			}
 			
 			traits = { GER_refinery_concern }

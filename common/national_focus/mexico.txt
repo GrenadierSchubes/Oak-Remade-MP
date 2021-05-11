@@ -3656,8 +3656,8 @@ focus_tree = {
 			every_state = {
 				limit = {
 					OR = {
-						state = 477
-						state = 479
+						state = 485
+						state = 478
 					}
 				}
 				add_extra_state_shared_building_slots = 2
