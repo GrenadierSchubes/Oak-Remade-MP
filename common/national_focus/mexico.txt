@@ -3696,7 +3696,7 @@ focus_tree = {
 			}
 			add_tech_bonus = {
 				name = tooltip_spanish_civil_war_technical_knowledge
-				bonus = 1.0
+				bonus = 1.5
 				uses = 1
 				ahead_reduction = 1
 				category = industry
@@ -3727,13 +3727,6 @@ focus_tree = {
 			swap_ideas = {
 				remove_idea = mex_bad_eco2
 				add_idea = mex_bad_eco3
-			}
-			add_tech_bonus = {
-				name = tooltip_spanish_civil_war_technical_knowledge
-				bonus = 1.0
-				uses = 1
-				ahead_reduction = 1
-				category = industry
 			}
 		}
 	}
