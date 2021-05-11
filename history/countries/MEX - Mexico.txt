@@ -42,6 +42,8 @@ set_technology = {
 	usa_tactical_bomber_1934 = 1
 	############### economy ############
 	starting_industry = 1
+	synth_oil_experiments = 1
+	oil_processing = 1
 }
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }
@@ -83,7 +85,7 @@ add_ideas = {
 	no_spies_idea
 }
 set_convoys = 45
-set_stability = 0.2
+set_stability = 0.1
 set_war_support = 0.60
 
 set_politics = {

@@ -192,6 +192,9 @@ economy_decisions = {
 			NOT = {
 				tag = HOL
 			}
+			NOT = {
+				tag = MEX
+			}
 		}
 	}
 }

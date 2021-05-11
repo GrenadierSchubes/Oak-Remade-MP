@@ -566,7 +566,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = MEX_focus_end_land_reform
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 100
@@ -609,7 +609,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = MEX_focus_privatization
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 100
@@ -640,7 +640,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = MEX_focus_caudillo_private_armies
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 100
@@ -1315,7 +1315,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = MEX_focus_support_general_cedillo
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 100
@@ -2589,7 +2589,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = MEX_focus_international_peacekeepers
 
-		cost = 3
+		cost = 5
 
 		ai_will_do = {
 			factor = 0
@@ -2623,7 +2623,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = MEX_focus_spanish_civil_war_refugees
 
-		cost = 2
+		cost = 5
 
 		ai_will_do = {
 			factor = 100
@@ -2712,7 +2712,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = MEX_focus_spanish_civil_war_refugees
 
-		cost = 2
+		cost = 5
 
 		ai_will_do = {
 			factor = 100
@@ -2779,7 +2779,7 @@ focus_tree = {
 		y = 2
 		relative_position_id = MEX_focus_spanish_civil_war_refugees
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 100
@@ -2800,7 +2800,7 @@ focus_tree = {
 		completion_reward = {
 			add_stability = 0.05
 			add_war_support = 0.05
-			add_political_power = 120
+			add_political_power = 50
 		}
 	}
 
@@ -2870,7 +2870,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = MEX_focus_national_bank
 
-		cost = 10
+		cost = 7.16
 
 		ai_will_do = {
 			factor = 100
@@ -3227,7 +3227,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = MEX_focus_military_budget_review
 
-		cost = 10
+		cost = 7.16
 
 		ai_will_do = {
 			factor = 100
@@ -3269,7 +3269,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = MEX_focus_heroic_military_college
 
-		cost = 10
+		cost = 7.16
 
 		ai_will_do = {
 			factor = 100
@@ -3316,7 +3316,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = MEX_focus_weapons_modernisation
 
-		cost = 10
+		cost = 7.16
 
 		ai_will_do = {
 			factor = 100
@@ -3342,12 +3342,10 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = armor
-				bonus = 1.0
-				uses = 1
+				bonus = 1.5
+				uses = 2
 				category = armor
 			}
-			custom_effect_tooltip = available_designer
-			show_ideas_tooltip = MEX_tga
 		}
 	}
 	
@@ -3359,7 +3357,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = MEX_focus_heroic_military_college
 
-		cost = 10
+		cost = 7.16
 
 		ai_will_do = {
 			factor = 100
@@ -3408,7 +3406,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = MEX_focus_aviation_workshops
 
-		cost = 10
+		cost = 7.16
 
 		ai_will_do = {
 			factor = 100
@@ -3455,7 +3453,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = MEX_focus_tank_workshops
 
-		cost = 10
+		cost = 7.16
 
 		ai_will_do = {
 			factor = 100
@@ -3518,7 +3516,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = MEX_focus_army_expansion_programme
 		
-		cost = 10
+		cost = 7.16
 
 		ai_will_do = {
 			factor = 100
@@ -3562,7 +3560,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = MEX_focus_army_expansion_programme
 		
-		cost = 10
+		cost = 7.16
 
 		ai_will_do = {
 			factor = 100
