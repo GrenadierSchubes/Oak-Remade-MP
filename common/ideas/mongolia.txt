@@ -336,8 +336,6 @@ ideas = {
 			picture = generic_communism_drift_bonus
 			
 			modifier = {
-		        send_volunteer_size = 2
-				send_volunteer_divisions_required = -1
 				stability_weekly = 0.001
 				political_power_cost = 0.25
 			}
