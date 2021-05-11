@@ -5584,6 +5584,9 @@ focus_tree = {
 			PHI = {
 			    remove_ideas = refinery_idea
 			}
+			MEX = {
+			    remove_ideas = refinery_idea
+			}
 			random_owned_state = {
 				limit = {
 					is_core_of = USA 

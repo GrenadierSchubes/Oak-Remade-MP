@@ -518,7 +518,7 @@ ideas = {
 				original_tag = MON
 			}
 			
-			traits = { social_reformer }
+			traits = { social_revolutionary }
 		}
 		
 		MON_Harghasun = {

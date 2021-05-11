@@ -1292,7 +1292,43 @@ foreign_support = {
 }
 
 operations = {
-    USA_annex_phi = {
+  USA_sci = {
+
+		icon = generic_political_discourse
+
+		allowed = {
+			tag = USA			
+		}
+		visible = {
+			tag = USA 
+		}
+		available = {
+		}
+
+		cost = 0
+
+		fire_only_once = yes
+
+
+		complete_effect = {
+			add_to_tech_sharing_group = MEX_USA_tech_group
+			MEX = { add_to_tech_sharing_group = MEX_USA_tech_group }
+			PHI = { add_to_tech_sharing_group = MEX_USA_tech_group }
+		    MEX = {
+   		        modify_tech_sharing_bonus = {
+         	    	id = MEX_USA_tech_group
+         	    	bonus = 0.10
+    		    }
+		    }
+		    PHI = {
+   		        modify_tech_sharing_bonus = {
+         	    	id = MEX_USA_tech_group
+         	    	bonus = 0.10 
+    		    }
+		    }				
+		}
+	}
+    USA_annex_mex = {
 
 		icon = generic_political_discourse
 
@@ -1302,8 +1338,8 @@ operations = {
 
 		visible = {
 			tag = USA
-			PHI = { is_ai = yes }
-			country_exists = PHI
+			MEX = { is_ai = yes }
+			country_exists = MEX
 		}
 		available = {
 			date > 1942.3.1
@@ -1315,17 +1351,17 @@ operations = {
 
 
 		complete_effect = {
-			PHI = {
+			MEX = {
 				transfer_navy = {
 					target = USA
 				}
 			}
 			annex_country = {
-              target = PHI
+              target = MEX
               transfer_troops = yes
 			}
 			every_state = {
-			    limit = { is_core_of = PHI }
+			    limit = { is_core_of = MEX }
 				set_resistance = 0
 				set_compliance = 100
 			}

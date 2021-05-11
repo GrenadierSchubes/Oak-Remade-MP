@@ -24,10 +24,14 @@ ideas = {
 
 			picture = usa_great_depression
 			
+			research_bonus = {
+				industry = -0.1
+			}
+			
 			modifier = {
-                industrial_capacity_factory = -0.2
-				production_factory_max_efficiency_factor = -0.1
-				production_factory_efficiency_gain_factor = -0.2
+                industrial_capacity_factory = -0.10
+				production_factory_max_efficiency_factor = -0.15
+				production_factory_efficiency_gain_factor = -0.25
 				production_speed_arms_factory_factor = -0.2
 			}
 	
@@ -44,10 +48,14 @@ ideas = {
 
 			picture = usa_great_depression_2
 			
+			research_bonus = {
+				industry = -0.05
+			}
+			
 			modifier = {
-				production_factory_max_efficiency_factor = -0.05
-				production_factory_efficiency_gain_factor = -0.15
-				production_speed_arms_factory_factor = -0.1
+				production_factory_max_efficiency_factor = -0.1
+				production_factory_efficiency_gain_factor = -0.2
+				production_speed_arms_factory_factor = -0.125
 			}
 	
 			ai_will_do = {
@@ -64,8 +72,8 @@ ideas = {
 			picture = usa_great_depression_3
 			
 			modifier = {
-				production_factory_max_efficiency_factor = -0.05
-				production_factory_efficiency_gain_factor = -0.1
+				production_factory_max_efficiency_factor = -0.1
+				production_factory_efficiency_gain_factor = -0.15
 			}
 	
 			ai_will_do = {
@@ -91,7 +99,42 @@ ideas = {
 				factor = 0
 			}
 		}
-		
+		MEX_usa_investments = {
+			picture = FRA_market_dynamism
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				industrial_capacity_factory = 0.1
+				production_speed_buildings_factor = 0.1
+			}
+		}
+		MEX_refinery_ideas = {
+			picture = ROM_the_resource_curse
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				production_speed_synthetic_refinery_factor = 0.1
+			    production_speed_synthetic_rubber_refinery_factor = -0.15
+			}
+        }			
 		synarchist_support_surge = {
 			
 			allowed = {
@@ -542,7 +585,6 @@ ideas = {
 			modifier = {
 				military_leader_cost_factor = 0.5
 				max_command_power = 25
-				army_org_factor = 0.05
 				army_morale_factor = 0.05
 			}
 		}
@@ -727,7 +769,6 @@ ideas = {
 			}
 			
 			modifier = {
-				democratic_drift = 0.1
 				research_speed_factor = 0.03
 			}
 		}
@@ -830,7 +871,7 @@ ideas = {
 			}
 
 			modifier = {
-				
+			    stability_factor = -0.05
 			}
 			on_add = {
 				custom_effect_tooltip = MEX_oil_concessions_tt
@@ -979,7 +1020,7 @@ ideas = {
 			}
 			
 			traits = {
-				democratic_reformer
+				social_reformer
 			}
 		}
 
@@ -1217,7 +1258,7 @@ ideas = {
 			}
 			
 			allowed = {
-				original_tag = IRE
+				original_tag = MEX
 			}
 			
 			available = {
@@ -1698,10 +1739,6 @@ ideas = {
 				synth_resources = 0.1
 			}
 			
-			modifier = {
-				trade_laws_cost_factor = -0.25
-			}
-			
 			traits = { refinery_concern }
 			
 			ai_will_do = {
@@ -1723,15 +1760,16 @@ ideas = {
 			}
 			
 			research_bonus = {
-				industry = 0.05
-				synth_resources = 0.1
+				industry = -0.05
 			}
 			
 			modifier = {
 				production_speed_infrastructure_factor = 0.1
+				production_speed_synthetic_refinery_factor = 0.1
+				production_speed_synthetic_rubber_refinery_factor = 0.1
 			}
 			
-			traits = { refinery_concern }
+			traits = { GER_refinery_concern }
 			
 			ai_will_do = {
 				factor = 1

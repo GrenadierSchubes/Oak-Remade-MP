@@ -23,6 +23,10 @@ focus_tree = {
 		x = 3
 		y = 0
 		cost = 5
+		
+		available = {
+			has_completed_focus = PHI_elect_new_congressmen
+		}
 
 		ai_will_do = {
 			factor = 10
@@ -415,6 +419,10 @@ focus = {
 		ai_will_do = {
 			factor = 5
 		}
+		
+		available = {
+			has_completed_focus = PHI_elect_new_congressmen
+		}
 
 		available_if_capitulated = yes
 
@@ -742,6 +750,10 @@ focus = {
 			factor = 1
 		}
 
+		available = {
+			has_completed_focus = PHI_elect_new_congressmen
+		}
+		
 		available_if_capitulated = yes
 
 		complete_tooltip = {
@@ -1004,6 +1016,10 @@ focus = {
 
 		ai_will_do = {
 			factor = 2
+		}
+		
+		available = {
+			has_completed_focus = PHI_elect_new_congressmen
 		}
 
 		available_if_capitulated = yes
@@ -1280,7 +1296,6 @@ focus = {
 
 		completion_reward = {
 			add_political_power = 120
-			add_to_tech_sharing_group = commonwealth_research
 			set_popularities = {
 				democratic = 80
 				fascism = 10
@@ -1413,12 +1428,7 @@ focus = {
 		completion_reward = {
 			add_opinion_modifier = { target = ENG modifier = POL_draw_closer_to_britain }
 			ENG = { add_opinion_modifier = { target = ROOT modifier = POL_draw_closer_to_britain } }
-			PHI = {
-   			modify_tech_sharing_bonus = {
-         			id = commonwealth_research
-         			bonus = 0.1  # we get 20% higher bonus from this group
-    			}
-			}
+            add_ideas = ENG_prepare_for_the_inevitable_idea
 		}
 		#Relation boost with the UK
 	}

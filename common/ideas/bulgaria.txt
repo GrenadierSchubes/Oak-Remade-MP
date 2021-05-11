@@ -3680,7 +3680,8 @@ ideas = {
 			}		
 			
 			research_bonus = {
-				electronics = -0.05
+				electronics = 0.5
+				research_speed_factor = 0.5
 			}
 			
 			traits = { electronics_developer }

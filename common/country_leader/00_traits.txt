@@ -106,9 +106,10 @@ leader_traits = {
 		random = no
 		sprite = 13
 
-		neutrality_drift = 0.05
-		political_power_factor = 0.1
-		war_support_factor = 0.1
+        political_power_factor = 0.05
+		communism_drift = 0.05
+		stability_factor = 0.1
+		stability_weekly = 0.001
 		
 		ai_will_do = {
 			factor = 1
@@ -597,9 +598,8 @@ leader_traits = {
 		random = no
 		sprite = 13
 
-        political_power_factor = 0.05
-		communism_drift = 0.05
-		stability_factor = 0.1
+		democratic_drift = 0.1
+		stability_factor = 0.15
 		stability_weekly = 0.001
 		
 		ai_will_do = {
@@ -610,9 +610,9 @@ leader_traits = {
 		random = no
 		sprite = 13
 
-		fascism_drift = 0.1
-		generate_wargoal_tension = -0.5
-		justify_war_goal_time = -0.25
+        defensive_war_stability_factor = 0.05
+		war_support_factor = 0.1
+		weekly_manpower = 500
 		
 		ai_will_do = {
 			factor = 1
@@ -648,8 +648,8 @@ leader_traits = {
 
 	exiled_revolutionary = {
 		random = no
-		war_support_factor = 0.1
-        war_support_weekly = 0.002
+		experience_gain_army = 0.1
+        war_support_weekly = 0.001
 
 		ai_will_do = {
 			factor = 1
@@ -816,7 +816,8 @@ leader_traits = {
 	el_jefe_maximo = { #Plutarco Calles
 		random = no
 		political_advisor_cost_factor = -0.25
-		political_power_factor = 0.1
+		stability_weekly = 0.001
+		neutrality_drift = 0.15
 		ai_will_do = {
 			factor = 1
 		}
