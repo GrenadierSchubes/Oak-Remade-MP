@@ -8,5 +8,5 @@ tags={
 	"Balance"
 	"Historical"
 }
-name="Oak MP"
+name="Oak Reforged"
 supported_version="1.10.5"
