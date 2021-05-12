@@ -8,8 +8,9 @@ state={
 	
 	resources={
 		oil=10
+		aluminium=15
 		#steel=4 sent to Mexico City
-	}
+	}	
 
 	history={
 		owner = MEX

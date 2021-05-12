@@ -2994,7 +2994,10 @@ ideas = {
 			picture = generic_army_europe_5
 			
 			allowed = {
-				original_tag = USA
+			    OR = {
+					original_tag = USA
+					original_tag = MEX
+				}
 			}
 			
 			cost = 250
