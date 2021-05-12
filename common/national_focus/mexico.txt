@@ -1987,7 +1987,7 @@ focus_tree = {
 		y = 2
 		relative_position_id = MEX_focus_knights_of_columbus
 
-		cost = 5
+		cost = 7.16
 
 		ai_will_do = {
 			factor = 100
@@ -3688,6 +3688,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
+		    add_ideas = partial_economic_mobilisation
 			swap_ideas = {
 				remove_idea = mex_bad_eco1
 				add_idea = mex_bad_eco2

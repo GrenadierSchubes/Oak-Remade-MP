@@ -79,6 +79,7 @@ if = {
 		MEX_cedillo_tension_2
 		mex_bad_eco1
 		refinery_idea
+		low_economic_mobilisation
 	}
 }
 add_ideas = {
