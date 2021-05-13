@@ -554,7 +554,7 @@ focus_tree = {
 
 		completion_reward = {
 			add_stability = -0.05
-			add_political_power = 200
+			add_political_power = 50
 		}
 	}
 
@@ -794,6 +794,10 @@ focus_tree = {
 			USA = {
 				remove_resource_rights = 479
 				remove_resource_rights = 480
+			}
+			ENG = {
+				remove_resource_rights = 477
+				remove_resource_rights = 476
 			}
 			add_tech_bonus = {
 				name = synth_resources

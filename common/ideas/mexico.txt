@@ -1461,7 +1461,7 @@ ideas = {
 			}
 			
 			research_bonus = {
-				armor = 0.10
+				armor = -0.05
 			}
 			
 			traits = { tank_manufacturer }
@@ -1655,7 +1655,7 @@ ideas = {
 			}
 			
 			research_bonus = {
-				naval_equipment = 0.10
+				naval_equipment = -0.05
 			}
 			
 			traits = { raiding_fleet_naval_manufacturer }
@@ -1676,7 +1676,7 @@ ideas = {
 			}
 			
 			research_bonus = {
-				naval_equipment = 0.10
+				naval_equipment = -0.05
 			}
 			
 			traits = { pacific_fleet_naval_manufacturer }
@@ -1702,7 +1702,7 @@ ideas = {
 			}
 			
 			research_bonus = {
-				air_equipment = 0.10
+				air_equipment = -0.05
 			}
 			
 			traits = { light_aircraft_manufacturer }
@@ -1869,7 +1869,7 @@ ideas = {
 			}
 			
 			research_bonus = {
-				artillery = 0.10
+				artillery = -0.05
 			}
 			
 			equipment_bonus = {
@@ -1891,7 +1891,7 @@ ideas = {
 			}
 			
 			research_bonus = {
-				motorized_equipment = 0.10
+				motorized_equipment = -0.05
 			}
 			
 			traits = { motorized_equipment_manufacturer }

@@ -44,6 +44,7 @@ set_technology = {
 	starting_industry = 1
 	synth_oil_experiments = 1
 	oil_processing = 1
+	fuel_refining = 1
 }
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }

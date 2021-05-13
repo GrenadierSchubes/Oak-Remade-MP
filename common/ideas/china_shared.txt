@@ -461,7 +461,6 @@ ideas = {
 				has_DLC = "Waking the Tiger"
 				OR = {
 					is_literally_china = yes
-					tag = MAN
 				}
 			}
 			
@@ -495,7 +494,6 @@ ideas = {
 				has_DLC = "Waking the Tiger"
 				OR = {
 					is_literally_china = yes
-					tag = MAN
 				}
 
 			}
@@ -532,7 +530,6 @@ ideas = {
 				has_DLC = "Waking the Tiger"
 				OR = {
 					is_literally_china = yes
-					tag = MAN
 				}
 			}
 

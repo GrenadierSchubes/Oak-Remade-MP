@@ -18,6 +18,7 @@ MEX_category_military_issues = {
 		
 		available = {
 			has_completed_focus = MEX_focus_support_spains_loyalists
+			has_global_flag = spanish_civil_war
 
 			has_equipment = {
 				convoy > 2
@@ -88,7 +89,7 @@ MEX_category_military_issues = {
 		
 		available = {
 			has_completed_focus = MEX_focus_falangist_veterans
-
+			has_global_flag = spanish_civil_war
 			has_equipment = {
 				convoy > 2
 			}
