@@ -613,33 +613,13 @@ ideas = {
 				has_war_with = USA 
 			}
 
-			removal_cost = -1			
-
-			equipment_bonus = {
-				battleship = {
-					lg_attack = 0.05
-					hg_attack = 0.05
-				}
-				battle_cruiser = {
-					lg_attack = 0.05
-					hg_attack = 0.05
-				}
-				heavy_cruiser = {
-					lg_attack = 0.05
-					hg_attack = 0.05
-				}
-				light_cruiser = {
-					lg_attack = 0.05
-				}
-				destroyer = {
-					lg_attack = 0.05
-				}
-			}
+			removal_cost = -1
 
 			modifier = {
 				naval_coordination = 0.05 
 				navy_anti_air_attack_factor = 0.1 
 				ships_at_battle_start = 0.05
+				naval_damage_factor = 0.05
 			}
 		}
 
