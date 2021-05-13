@@ -1,13 +1,13 @@
 ai_historical_focus_list_JAP = {
 	ai_national_focuses = {
+		JAP_the_manchurian_project
 		JAP_purge_the_kodoha_faction
+		JAP_supremacy_of_technology
 		JAP_guide_the_zaibatsus
-		JAP_national_research_policy
 		JAP_nationalize_war_industry
 		JAP_national_mobilization_law
-		JAP_army_expansion_law
-		JAP_supremacy_of_will
-		JAP_the_old_guard
+		JAP_imperial_war_conference
+		JAP_national_defense_state
 		JAP_strengthen_the_kwantung_army
 		JAP_liaison_conference
 		JAP_sign_tripartite_pact
@@ -15,10 +15,9 @@ ai_historical_focus_list_JAP = {
 		JAP_strike_ussr_while_they_are_weak
 		JAP_purge_kwantung_army
 		JAP_reignite_war
-		JAP_secure_china
-		JAP_strike_south_doctrine
-		JAP_pressure_france
+		JAP_prepare_landward_strike
 		JAP_alliance_with_siam
+		JAP_pressure_france
 		JAP_strike_on_the_southern_resource_area
 	}
 }
