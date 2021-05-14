@@ -5740,45 +5740,6 @@ operations = {
 			}
 		}
 	}
-   SOV_annex_mon = {
-
-		icon = generic_political_discourse
-
-		allowed = {
-			tag = SOV			
-		}
-		visible = {
-			tag = SOV
-			MON = { is_ai = yes }
-			country_exists = MON
-		}
-		available = {
-			date > 1942.4.1
-		}
-
-		cost = 0
-
-		fire_only_once = yes
-
-
-		complete_effect = {
-			MON = {
-				transfer_navy = {
-					target = SOV
-				}
-			}
-			annex_country = {
-              target = MON
-              transfer_troops = yes
-			}
-			every_state = {
-				limit = {
-					is_core_of = MON
-				}
-				add_core_of = SOV
-			}	
-		}		
-	}
 }
 
 political_actions = {

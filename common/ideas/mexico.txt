@@ -29,7 +29,7 @@ ideas = {
 			}
 			
 			modifier = {
-                industrial_capacity_factory = -0.10
+                industrial_capacity_factory = -0.20
 				production_factory_max_efficiency_factor = -0.25
 				production_factory_efficiency_gain_factor = -0.25
 				production_speed_arms_factory_factor = -0.2
@@ -53,6 +53,7 @@ ideas = {
 			}
 			
 			modifier = {
+			    industrial_capacity_factory = -0.10
 				production_factory_max_efficiency_factor = -0.2
 				production_factory_efficiency_gain_factor = -0.2
 				production_speed_arms_factory_factor = -0.1
@@ -72,6 +73,7 @@ ideas = {
 			picture = usa_great_depression_3
 			
 			modifier = {
+			    industrial_capacity_factory = -0.05
 				production_factory_max_efficiency_factor = -0.15
 				production_factory_efficiency_gain_factor = -0.15
 			}
@@ -212,7 +214,7 @@ ideas = {
 			}
 			
 			modifier = {
-				industrial_capacity_factory = 0.2
+				industrial_capacity_factory = 0.1
 				stability_factor = -0.05
 			}
 		}
@@ -233,7 +235,7 @@ ideas = {
 			}
 			
 			modifier = {
-				industrial_capacity_factory = 0.1
+				industrial_capacity_factory = 0.05
 			}
 		}
 		

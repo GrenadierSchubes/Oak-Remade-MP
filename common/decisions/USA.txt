@@ -1328,45 +1328,6 @@ operations = {
 		    }				
 		}
 	}
-    USA_annex_mex = {
-
-		icon = generic_political_discourse
-
-		allowed = {
-			tag = USA			
-		}
-
-		visible = {
-			tag = USA
-			MEX = { is_ai = yes }
-			country_exists = MEX
-		}
-		available = {
-			date > 1942.3.1
-		}
-
-		cost = 0
-
-		fire_only_once = yes
-
-
-		complete_effect = {
-			MEX = {
-				transfer_navy = {
-					target = USA
-				}
-			}
-			annex_country = {
-              target = MEX
-              transfer_troops = yes
-			}
-			every_state = {
-			    limit = { is_core_of = MEX }
-				set_resistance = 0
-				set_compliance = 100
-			}
-		}		
-	}
 }
 
 USA_unique_measures = {

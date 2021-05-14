@@ -2120,6 +2120,9 @@ GER_case_anton_category = {
 				transfer_state = 25
 				transfer_state = 20
 				transfer_state = 33
+				transfer_state = 21
+				transfer_state = 32
+				
 			}
 			every_state = {
 				limit = {
