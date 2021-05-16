@@ -1382,6 +1382,9 @@ focus_tree = {
             MAN = {
 			    add_ideas = tot_economic_mobilisation
 			}
+			SIA = {
+				add_ideas = tot_economic_mobilisation
+			}
 			swap_ideas = { 
 				remove_idea = JAP_militarism
 				add_idea = JAP_militarism_shogunate
@@ -3220,7 +3223,7 @@ focus_tree = {
 		relative_position_id = JAP_warrior_spirit
 		cost = 5
 		available = { 
-			has_war_with = USA		
+
 		}
 	
 		completion_reward = { 
@@ -3389,7 +3392,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = JAP_extra_navy_funding
 
-		cost = 5
+		cost = 4
 
 		ai_will_do = {
 			factor = 1
@@ -4049,7 +4052,7 @@ focus_tree = {
 		relative_position_id = JAP_naval_breakthroughs
 		cost = 5
 		available = { 
-			has_war_with = USA		
+
 		}
 	
 		completion_reward = { 
