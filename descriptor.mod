@@ -8,5 +8,5 @@ tags={
 	"Balance"
 	"Historical"
 }
-name="Oak Reforged"
+name="Oak Git"
 supported_version="1.10.5"

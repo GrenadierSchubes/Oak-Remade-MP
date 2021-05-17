@@ -2395,6 +2395,7 @@ ideas = {
 			allowed = {
 			    OR = {
 				    original_tag = FRA
+					original_tag = EFR
 					original_tag = HOL
 				}
 			}
@@ -2436,6 +2437,7 @@ ideas = {
 			allowed = {
 			    OR = {
 				    original_tag = FRA
+					original_tag = EFR
 					original_tag = HOL
 				}
 			}
@@ -2480,6 +2482,7 @@ ideas = {
 			allowed = {
 			    OR = {
 				    original_tag = FRA
+					original_tag = EFR
 					original_tag = HOL
 				}
 			}
@@ -2511,6 +2514,7 @@ ideas = {
 			allowed = {
 			    OR = {
 				    original_tag = FRA
+					original_tag = EFR
 					original_tag = HOL
 				}
 			}
@@ -2554,6 +2558,7 @@ ideas = {
 			allowed = {
 			    OR = {
 				    original_tag = FRA
+					original_tag = EFR
 					original_tag = HOL
 				}
 				has_dlc = "La Resistance"
