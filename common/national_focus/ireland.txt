@@ -28,7 +28,7 @@
 		bypass = {
 		}
 		
-		cost = 7.16
+		cost = 5
 		#prerequisite = { focus = AST_workers_paradise }
 		#mutually_exclusive = { focus = expand_loyalist_influence }
 		
@@ -280,7 +280,7 @@
 		bypass = {
 		}
 		
-		cost = 7.16
+		cost = 5
 		prerequisite = { focus = constitution_of_ireland }
 		#mutually_exclusive = { focus = colonial_power }
 		
@@ -289,14 +289,7 @@
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_timed_idea = {
-			idea = IRE_public_works_idea
-			days = 100 
-			}
-			add_tech_bonus = {
-				bonus = 1
-				uses = 2
-				category = industry }
+			add_ideas = IRE_public_works_idea
 		}	
 		ai_will_do = {
 		}
@@ -754,7 +747,7 @@
 		bypass = {
 		}
 		
-		cost = 7.16
+		cost = 5
 		prerequisite = { focus = modernise_esb focus = industrial_modernisation }	
 		#mutually_exclusive = { focus = colonial_power }
 		
@@ -764,6 +757,11 @@
 
 		completion_reward = {
 		    add_research_slot = 1
+			add_tech_bonus = {
+				bonus = 1
+				uses = 2
+				category = industry 
+				}
 			swap_ideas = {
 				remove_idea = IRE_trade_war
 				add_idea = IRE_less_trade_war

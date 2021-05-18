@@ -2877,9 +2877,6 @@ focus_tree = {
 		}
 		
 		bypass = {
-			NOT = {
-				FRA_has_inefficient_economy = yes
-			}
 		}
 
 		cancel_if_invalid = yes

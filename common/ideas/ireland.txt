@@ -209,7 +209,7 @@ ideas = {
 					picture = generic_local_self_management
 
 					modifier = { 
-						political_power_gain = 0.1
+						political_power_gain = 0.20
 					}
 				
 				}
