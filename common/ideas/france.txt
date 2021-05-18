@@ -20,8 +20,9 @@ ideas = {
 				army_core_attack_factor = -0.2
 				army_core_defence_factor = -0.2
 				minimum_training_level = -0.2
-				communism_drift = -0.1
-				fascism_drift = -0.1
+				communism_drift = -0.25
+				neutrality_drift = -0.25
+				fascism_drift = -0.25
 			}
 		}
 		FRA_naval = {

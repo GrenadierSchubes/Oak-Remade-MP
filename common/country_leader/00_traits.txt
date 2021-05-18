@@ -25,9 +25,9 @@ leader_traits = {
 	national_integralist = {
 		sprite = 13
 		random = yes
+		stability_factor = 0.1
 		political_power_factor = 0.10
 		stability_weekly = 0.001
-		democratic_drift = 0.1
 
 		ai_will_do = {
 			factor = 1
