@@ -388,7 +388,7 @@ focus_tree = {
 		relative_position_id = BUL_improve_the_road_system
 		x = 2
 		y = 2
-		cost = 5
+		cost = 10
 
 		available = {
 
@@ -1213,7 +1213,7 @@ focus_tree = {
 		relative_position_id = BUL_negotiate_bulgarian_rearmament
 		x = 12
 		y = 0
-		cost = 5
+		cost = 10
 
 		available = {
 			NOT = { has_idea = BUL_army_restrictions }
@@ -1276,7 +1276,7 @@ focus_tree = {
 		relative_position_id = BUL_a_black_sea_fleet
 		x = 0
 		y = 1
-		cost = 5
+		cost = 10
 
 		available = {
 			211 = {
@@ -1350,7 +1350,7 @@ focus_tree = {
 		relative_position_id = BUL_defensive_lines
 		x = 0
 		y = 2
-		cost = 5
+		cost = 10
 
 		available = {
 			NOT = { has_idea = BUL_army_restrictions }
@@ -1487,7 +1487,7 @@ focus_tree = {
 		relative_position_id = BUL_prussia_of_the_balkans
 		x = 2
 		y = 1
-		cost = 5
+		cost = 10
 
 		available = {
 			any_state = {
@@ -1692,7 +1692,7 @@ focus_tree = {
 		relative_position_id = BUL_a_black_sea_fleet
 		x = -2
 		y = 1
-		cost = 5
+		cost = 10
 
 		available = {
 
@@ -1717,7 +1717,7 @@ focus_tree = {
 		relative_position_id = BUL_a_black_sea_fleet
 		x = -1
 		y = 2
-		cost = 5
+		cost = 10
 
 		available = {
 			controls_state = 211
@@ -1757,7 +1757,7 @@ focus_tree = {
 		relative_position_id = BUL_bulgarian_shipping_chamber
 		x = 0
 		y = 1
-		cost = 5
+		cost = 10
 		mutually_exclusive = { focus = BUL_a_powerful_bulgarian_navy }
 
 		available = {
@@ -1786,7 +1786,7 @@ focus_tree = {
 		relative_position_id = BUL_a_black_sea_fleet
 		x = 2
 		y = 1
-		cost = 5
+		cost = 10
 
 		available = {
 			controls_state = 211
@@ -1822,7 +1822,7 @@ focus_tree = {
 		relative_position_id = BUL_a_black_sea_fleet
 		x = 1
 		y = 2
-		cost = 5
+		cost = 10
 
 		available = {
 			any_controlled_state = {
@@ -1875,7 +1875,7 @@ focus_tree = {
 		relative_position_id = BUL_an_aegean_sea_fleet
 		x = 0
 		y = 1
-		cost = 5
+		cost = 10
 		mutually_exclusive = { focus = BUL_strike_from_the_seas }
 
 		available = {
@@ -1903,7 +1903,7 @@ focus_tree = {
 		relative_position_id = BUL_strike_from_the_seas
 		x = 1
 		y = 1
-		cost = 5
+		cost = 10
 
 		available = {
 
@@ -2472,7 +2472,7 @@ focus_tree = {
 		relative_position_id = BUL_appoint_right_wing_ministers
 		x = 0
 		y = 2
-		cost = 7.16
+		cost = 10
 
 		available = {
 			NOT = { has_country_flag = BUL_nsm_media_banned_flag }
@@ -2505,7 +2505,7 @@ focus_tree = {
 		relative_position_id = BUL_allow_far_right_organizations
 		x = 0
 		y = 1
-		cost = 7.16
+		cost = 10
 
 		available = {
 

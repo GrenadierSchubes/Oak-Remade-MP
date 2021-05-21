@@ -18,14 +18,14 @@ focus_tree = {
 		icon = GFX_focus_chi_mission_to_the_soviet_union
 		x = 0
 		y = 0
-		cost = 2
+		cost = 5
 		available_if_capitulated = yes
 		ai_will_do = {
 			factor = 1
 		}
 		
 			completion_reward = {
-			add_political_power = 200
+			add_political_power = 120
 		}
 		
 	}
@@ -53,10 +53,10 @@ focus_tree = {
 		id = MON_assisttheherdsmen
 		icon = GFX_herdsmen
 		x = 17
-		y = 4
+		y = 3
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = MON_agriculturaladvancements }
+		prerequisite = { focus = MON_reduceilliteracy }
 		ai_will_do = {
 			factor = 1
 		}
@@ -85,13 +85,13 @@ focus_tree = {
 		icon = GFX_europeandoctrinebrz
 		x = 9
 		y = 4
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { 
 			focus = MON_connecttotranssiberianrailway 
 		}
 		prerequisite = { 
-			focus = MON_reformborderguards
+			focus = MON_moscowmilitaryadvisors 
 		}
 		prerequisite = { 
 			focus = MON_purgeofthearmy 
@@ -153,7 +153,7 @@ focus_tree = {
 		icon = GFX_monministry
 		x = 0
 		y = 1
-		cost = 2
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = MON_reaffirmrelationswiththeussr }
 		ai_will_do = {
@@ -209,7 +209,7 @@ focus_tree = {
 		icon = GFX_monmutualassistance
 		x = 0
 		y = 3
-		cost = 2
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = MON_purgegenden }
 		
@@ -222,7 +222,7 @@ focus_tree = {
 		}
 		
 				completion_reward = {
-			add_political_power = 50
+			add_political_power = 100
 		}
 		
 	}
@@ -348,7 +348,7 @@ focus_tree = {
 		icon = GFX_monexcav
 		x = 12
 		y = 4
-		cost = 5
+		cost = 6
 		available_if_capitulated = yes
 		prerequisite = { focus = MON_connecttotranssiberianrailway }
 		ai_will_do = {
@@ -362,10 +362,6 @@ focus_tree = {
 			617 = {
 				add_resource = {
 					type = tungsten
-					amount = 20
-				}
-				add_resource = {
-					type = aluminium
 					amount = 20
 				}
 			}
@@ -390,10 +386,10 @@ focus_tree = {
 		id = MON_expandminingoperationsii
 		icon = GFX_monexcav2
 		x = 12
-		y = 7
-		cost = 5
+		y = 5
+		cost = 6
 		available_if_capitulated = yes
-		prerequisite = { focus = MON_narrowgaugerailway }
+		prerequisite = { focus = MON_expandminingoperations }
 		ai_will_do = {
 			factor = 1
 		}
@@ -432,7 +428,7 @@ focus_tree = {
 		icon = GFX_monrailroads
 		x = 13
 		y = 2
-		cost = 5
+		cost = 7
 		available_if_capitulated = yes
 		prerequisite = { focus = MON_sovietindustrialassistance }
 		ai_will_do = {
@@ -447,7 +443,12 @@ focus_tree = {
 		
 		
 		
-				completion_reward = {				
+				completion_reward = {
+				617 = {
+				add_resource = {
+					type = aluminium
+					amount = 20
+				}}				
 				617 = {
 					add_building_construction = {
 						type = infrastructure
@@ -458,7 +459,7 @@ focus_tree = {
 				330 = {
 					add_building_construction = {
 						type = infrastructure
-						level = 2
+						level = 1
 						instant_build = yes
 					}
 				}
@@ -575,7 +576,7 @@ focus_tree = {
 		icon = GFX_mongenden
 		x = 0
 		y = 2
-		cost = 2
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = MON_elevateministryofinternalaffairs }
 		ai_will_do = {
@@ -743,12 +744,14 @@ custom_effect_tooltip = MON_leader_tt
 		id = MON_stopborderraiders
 		icon = GFX_focus_generic_provoke_border_clashes
 		x = 7
-		y = 1
-		cost = 10
+		y = 0
+		cost = 5
 		available_if_capitulated = yes
-		prerequisite = { focus = MON_moscowmilitaryadvisors }
 		ai_will_do = {
 			factor = 1
+		}
+				available = {
+				has_idea = MON_Mongolian_Police
 		}
 		
 		
@@ -788,8 +791,8 @@ custom_effect_tooltip = MON_leader_tt
 		id = MON_reformborderguards
 		icon = GFX_monborderguard
 		x = 7
-		y = 2
-		cost = 10
+		y = 1
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = MON_stopborderraiders }
 		ai_will_do = {
@@ -992,7 +995,6 @@ custom_effect_tooltip = MON_leader_tt
 		}
 		
 				completion_reward = {	
-				add_research_slot = 1
 			swap_ideas = {
 				remove_idea = MON_agrarian_reform1
 				add_idea = MON_agrarian_reform2
@@ -1005,7 +1007,8 @@ custom_effect_tooltip = MON_leader_tt
 					level = 2
 					instant_build = yes
 				}
-			}			
+			}
+			
 						add_tech_bonus = {
 				name = industrial_bonus
 				bonus = 1.0
@@ -1031,7 +1034,7 @@ custom_effect_tooltip = MON_leader_tt
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { 
-			focus = MON_assisttheherdsmen 
+			focus = MON_agriculturaladvancements 
 		}
 		prerequisite = { 
 			focus = MON_industrialrecalibration 
@@ -1237,7 +1240,7 @@ custom_effect_tooltip = MON_leader_tt
 		available_if_capitulated = yes
 		prerequisite = { 
 			focus = MON_newequipmentforthearmy 
-			focus = MON_expandminingoperationsii 
+			focus = MON_narrowgaugerailway 
 		}
 		ai_will_do = {
 			factor = 1
@@ -1246,7 +1249,8 @@ custom_effect_tooltip = MON_leader_tt
 						available = {
 		}
 		
-				completion_reward = {	
+				completion_reward = {
+            add_research_slot = 1	
 			330 = {
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
@@ -1264,7 +1268,7 @@ custom_effect_tooltip = MON_leader_tt
 		icon = GFX_monrecruitment
 		x = 9
 		y = 5
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = MON_armyreform }
 		ai_will_do = {
@@ -1283,10 +1287,10 @@ custom_effect_tooltip = MON_leader_tt
 		id = MON_urbanisationplan
 		icon = GFX_monstuff
 		x = 12
-		y = 5
+		y = 6
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = MON_expandminingoperations }
+		prerequisite = { focus = MON_expandminingoperationsii }
 		ai_will_do = {
 			factor = 1
 		}
@@ -1324,10 +1328,10 @@ custom_effect_tooltip = MON_leader_tt
 		id = MON_agriculturaladvancements
 		icon = GFX_focus_prc_agrarian_socialism
 		x = 17
-		y = 3
+		y = 4
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = MON_reduceilliteracy }
+		prerequisite = { focus = MON_assisttheherdsmen }
 		ai_will_do = {
 			factor = 1
 		}
@@ -1374,7 +1378,7 @@ custom_effect_tooltip = MON_leader_tt
 		id = MON_narrowgaugerailway
 		icon = GFX_monrailway
 		x = 12
-		y = 6
+		y = 7
 		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = MON_urbanisationplan }
@@ -1400,7 +1404,7 @@ custom_effect_tooltip = MON_leader_tt
 				330 = {
 					add_building_construction = {
 						type = infrastructure
-						level = 2
+						level = 1
 						instant_build = yes
 					}
 				}
@@ -1444,14 +1448,12 @@ custom_effect_tooltip = MON_leader_tt
 		id = MON_moscowmilitaryadvisors
 		icon = GFX_monrussianofficers
 		x = 7
-		y = 0
-		cost = 5
+		y = 2
+		cost = 10
 		available_if_capitulated = yes
+		prerequisite = { focus = MON_reformborderguards }
 		ai_will_do = {
 			factor = 1
-		}
-				available = {
-				has_idea = MON_Mongolian_Police
 		}
 		
 								completion_reward = {
@@ -1463,10 +1465,9 @@ custom_effect_tooltip = MON_leader_tt
 	focus = {
 		id = MON_basesforsovietaircraft
 		icon = GFX_focus_CZE_military_aeronautical_institute
-		prerequisite = { focus = MON_modernsovfighters }	
-		x = 20
-		y = 2
-		cost = 7.16
+		x = 21
+		y = 0
+		cost = 5
 		available_if_capitulated = yes
 		ai_will_do = {
 			factor = 1
@@ -1509,10 +1510,10 @@ custom_effect_tooltip = MON_leader_tt
 	focus = {
 		id = MON_modernsovfighters
 		icon = GFX_sovietfighters
-		prerequisite = { focus = MON_sovietairschool }	
+		prerequisite = { focus = MON_basesforsovietaircraft }	
 		x = 21
 		y = 1
-		cost = 7.16
+		cost = 10
 		available_if_capitulated = yes
 		ai_will_do = {
 			factor = 1
@@ -1532,17 +1533,14 @@ custom_effect_tooltip = MON_leader_tt
 	focus = {
 		id = MON_sovietairschool
 		icon = GFX_airtraining
-		x = 21
-		y = 0
-		cost = 5
+		prerequisite = { focus = MON_modernsovfighters }	
+		x = 20
+		y = 2
+		cost = 10
 		available_if_capitulated = yes
 		ai_will_do = {
 			factor = 1
 		}
-		
-				available = {
-				has_idea = MON_Mongolian_Police
-		}		
 		
 		completion_reward = {
 		    air_experience = 50
@@ -1559,11 +1557,11 @@ custom_effect_tooltip = MON_leader_tt
 	focus = {
 		id = MON_localdevelopmentoffighterplanes
 		icon = GFX_localplaneproduction
-		prerequisite = { focus = MON_basesforsovietaircraft }	
+		prerequisite = { focus = MON_sovietairschool }	
 		prerequisite = { focus = MON_reduceilliteracy }			
 		x = 19
 		y = 3
-		cost = 7.16
+		cost = 5
 		available_if_capitulated = yes
 		ai_will_do = {
 			factor = 1
@@ -1580,7 +1578,7 @@ custom_effect_tooltip = MON_leader_tt
 		prerequisite = { focus = MON_modernsovfighters }			
 		x = 22
 		y = 3
-		cost = 7.16
+		cost = 10
 		available_if_capitulated = yes
 		ai_will_do = {
 			factor = 1
@@ -1600,10 +1598,11 @@ custom_effect_tooltip = MON_leader_tt
 	focus = {
 		id = MON_lessonsofkhalkingol
 		icon = GFX_MON_air
-		prerequisite = { focus = MON_basesforsovietaircraft focus = MON_localdevelopmentofbomba }		
+		prerequisite = { focus = MON_sovietairschool }	
+		prerequisite = { focus = MON_localdevelopmentofbomba }			
 		x = 20
 		y = 4
-		cost = 7.16
+		cost = 10
 		available_if_capitulated = yes
 		ai_will_do = {
 			factor = 1
