@@ -27,7 +27,6 @@ leader_traits = {
 		random = yes
 		political_power_factor = 0.10
 		stability_weekly = 0.001
-		democratic_drift = 0.1
 
 		ai_will_do = {
 			factor = 1

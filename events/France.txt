@@ -287,7 +287,7 @@ country_event = {
 	       expire = "1965.1.1"
 	       ideology = conservatism
 	       traits = {
-		       national_integralist
+		
 	       }
         }  
 		add_ideas = FRA_exile
