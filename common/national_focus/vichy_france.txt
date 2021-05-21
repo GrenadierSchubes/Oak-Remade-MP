@@ -1311,7 +1311,7 @@ focus_tree = {
 		    add_manpower = 50000
 		    add_offsite_building = {
 		    	type = arms_factory
-		    	level = 10
+		    	level = 7
 		    }
 		    add_offsite_building = {
 		    	type = dockyard

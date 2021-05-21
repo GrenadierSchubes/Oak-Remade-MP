@@ -635,16 +635,6 @@ instant_effect = { #player
 		efficiency = 5
 	}
 	
-    add_equipment_production = {
-		equipment = {
-			type = anti_air_equipment_1
-			creator = "USA" 
-		}
-		requested_factories = 1
-		progress = 0.5
-		efficiency = 100
-	}
-	
 	add_equipment_production = {
 		equipment = {
 			type = horse_equipment_0
@@ -751,24 +741,13 @@ instant_effect = { #player
 	########################### equipment to stockpile
 	add_equipment_to_stockpile = {
 		type = infantry_equipment_0
-			amount = 6000
+			amount = 5000
 			producer = USA
 		}
 	
 	add_equipment_to_stockpile = {
 		type = support_equipment_1
 			amount = 1000
-			producer = USA
-		}
-	add_equipment_to_stockpile = {
-		type = artillery_equipment_1
-			amount = 400
-			producer = USA
-		}
-
-	add_equipment_to_stockpile = {
-		type = anti_air_equipment_1
-			amount = 100
 			producer = USA
 		}
 	add_equipment_to_stockpile = {
