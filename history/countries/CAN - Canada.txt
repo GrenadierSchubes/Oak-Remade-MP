@@ -172,22 +172,22 @@ create_field_marshal = {
 create_corps_commander = {
 	name = "Charles Foulkes"
 	gfx = "GFX_CAN_charles_foulkes"
-	traits = { infantry_leader }
+	traits = { infantry_officer }
 	skill = 3
     attack_skill = 4
-    defense_skill = 4
-    planning_skill = 3
+    defense_skill = 3
+    planning_skill = 2
     logistics_skill = 3
 }
 
 create_corps_commander = {
 	name = "Bert Hoffmeister"
 	gfx = "GFX_CAN_bert_hoffmeister"
-	traits = { career_officer harsh_leader panzer_leader }
+	traits = { career_officer harsh_leader armor_officer }
 	skill = 3
-    attack_skill = 4
+    attack_skill = 3
     defense_skill = 3
-    planning_skill = 3
+    planning_skill = 2
     logistics_skill = 2
 }
 
@@ -205,7 +205,7 @@ create_corps_commander = {
 create_corps_commander = {
 	name = "Harry Crerar"
 	picture = "Portrait_Canada_Harry_Crerar.dds"
-	traits = { commando skilled_staffer }
+	traits = { bearer_of_artillery skilled_staffer }
 	skill = 2
 	attack_skill = 2
 	defense_skill = 1
@@ -216,29 +216,29 @@ create_corps_commander = {
 create_corps_commander = {
 	name = "Guy Simonds"
 	picture = "Portrait_Canada_Guy_Simonds.dds"
-	traits = { infantry_leader trickster }
+	traits = { infantry_officer trickster }
 	skill = 3
 	attack_skill = 3
-	defense_skill = 3
-	planning_skill = 3
+	defense_skill = 2
+	planning_skill = 2
 	logistics_skill = 3
 }
 
 create_corps_commander = {
 	name = "Frank Worthington"
 	picture = "Portrait_Canada_Frank_Worthington.dds"
-	traits = { trickster trait_reckless panzer_leader }
+	traits = { trickster trait_reckless armor_officer }
 	skill = 3
-	attack_skill = 3
+	attack_skill = 2
 	defense_skill = 2
-	planning_skill = 4
+	planning_skill = 3
 	logistics_skill = 3
 }
 
 create_navy_leader = {
 	name = "Leonard W. Murray"
 	gfx = "GFX_CAN_leonard_warren_murray"
-	traits = { fleet_protector }
+	traits = { }
 	skill = 4
 	attack_skill = 4
 	defense_skill = 3
