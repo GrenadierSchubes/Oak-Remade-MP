@@ -639,22 +639,6 @@ ideas = {
 			
 			traits = { air_warfare_theorist }
 		}
-		
-		BEL_georges_deffontaine = {
-			ledger = navy
-
-			picture = generic_navy_europe_1
-			
-			allowed = {
-				original_tag = IRE
-			}
-			
-			research_bonus = {
-				naval_doctrine = 0.1
-			}
-			
-			traits = { naval_theorist }
-		}
 
 	}
 	
