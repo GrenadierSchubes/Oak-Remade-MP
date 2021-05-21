@@ -1165,7 +1165,7 @@ custom_effect_tooltip = MON_leader_tt
 			completion_reward = {
 				add_equipment_to_stockpile = {
 					type = medium_tank_equipment_1937
-					amount = 100
+					amount = 300
 					producer = MON
 				}
             }
