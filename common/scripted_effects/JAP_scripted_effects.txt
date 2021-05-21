@@ -141,6 +141,7 @@ JAP_island_hopping_level_up = {
 			remove_idea = JAP_island_hopping14
 			add_idea = JAP_island_hopping15
 		}
+		JAP_increment_major_conquest = yes
 	}
 	else_if = {
 		limit = { has_idea = JAP_island_hopping13 }
@@ -337,6 +338,104 @@ JAP_island_hopping_level_down = {
 		swap_ideas = {
 			remove_idea = JAP_island_hopping15
 			add_idea = JAP_island_hopping14
+		}
+		JAP_decrement_major_conquest = yes
+	}
+}
+JAP_interservice_rivalry_towards_army = {
+	
+	if = {
+		limit = {  has_idea = JAP_interservice_rivalry_army_strengthened }
+		swap_ideas = {
+			remove_idea = JAP_interservice_rivalry_army_strengthened
+			add_idea = JAP_interservice_rivalry_army_dominant
+		}
+	}
+
+	if = {
+		limit = { has_idea = JAP_interservice_rivalry_balanced }
+		swap_ideas = {
+			remove_idea = JAP_interservice_rivalry_balanced
+			add_idea = JAP_interservice_rivalry_army_strengthened
+		}
+	}
+
+	if = {
+		limit = { has_idea = JAP_interservice_rivalry_navy_strengthened }
+		swap_ideas = {
+			remove_idea = JAP_interservice_rivalry_navy_strengthened
+			add_idea = JAP_interservice_rivalry_balanced
+		}
+	}
+
+	if = {
+		limit = { has_idea = JAP_interservice_rivalry_navy_dominant }
+		swap_ideas = {
+			remove_idea = JAP_interservice_rivalry_navy_dominant
+			add_idea = JAP_interservice_rivalry_navy_strengthened
+		}
+	}
+
+}
+
+JAP_increment_major_conquest = {
+	if = {
+		limit = { has_idea = JAP_major_conquest_4 }
+		swap_ideas = {
+			remove_idea = JAP_major_conquest_4
+			add_idea = JAP_major_conquest_5
+		}
+	}
+	else_if = {
+		limit = { has_idea = JAP_major_conquest_3 }
+		swap_ideas = {
+			remove_idea = JAP_major_conquest_3
+			add_idea = JAP_major_conquest_4
+		}
+	}
+	else_if = {
+		limit = { has_idea = JAP_major_conquest_2 }
+		swap_ideas = {
+			remove_idea = JAP_major_conquest_2
+			add_idea = JAP_major_conquest_3
+		}
+	}
+	else_if = {
+		limit = { has_idea = JAP_major_conquest_1 }
+		swap_ideas = {
+			remove_idea = JAP_major_conquest_1
+			add_idea = JAP_major_conquest_2
+		}
+	}
+}
+
+JAP_decrement_major_conquest = {
+	if = {
+		limit = { has_idea = JAP_major_conquest_2 }
+		swap_ideas = {
+			remove_idea = JAP_major_conquest_2
+			add_idea = JAP_major_conquest_1
+		}
+	}
+	else_if = {
+		limit = { has_idea = JAP_major_conquest_3 }
+		swap_ideas = {
+			remove_idea = JAP_major_conquest_3
+			add_idea = JAP_major_conquest_2
+		}
+	}
+	else_if = {
+		limit = { has_idea = JAP_major_conquest_4 }
+		swap_ideas = {
+			remove_idea = JAP_major_conquest_4
+			add_idea = JAP_major_conquest_3
+		}
+	}
+	else_if = {
+		limit = { has_idea = JAP_major_conquest_5 }
+		swap_ideas = {
+			remove_idea = JAP_major_conquest_5
+			add_idea = JAP_major_conquest_4
 		}
 	}
 }

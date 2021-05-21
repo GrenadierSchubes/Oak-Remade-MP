@@ -7,6 +7,7 @@ state=
 	state_category = town
 	history=
 	{
+		set_state_flag = JAP_major_uncontrol
 		owner = PHI
 		buildings = {
 			infrastructure = 5

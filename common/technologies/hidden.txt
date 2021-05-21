@@ -193,6 +193,41 @@ technologies = {
 			}
 		}
 	}
+	jungle_fighting_technique = {
+		research_cost = -1 
+
+		allow = {
+			always = no
+		}
+
+		category_all_infantry = {
+			jungle = {
+				attack = 0.1
+				defence = 0.1
+				movement = 0.1
+			}
+		}
+	}
+	improved_torpedos = {
+		research_cost = -1 
+
+		allow = {
+			always = no
+		}
+
+		destroyer = {
+			torpedo_attack = 0.1
+		}
+		submarine = {
+			torpedo_attack = 0.1
+		}
+		light_cruiser = {
+			torpedo_attack = 0.1
+		}
+		heavy_cruiser = {
+			torpedo_attack = 0.1
+		}
+	}
 	jungle_warfare = {
 		research_cost = -1 
 

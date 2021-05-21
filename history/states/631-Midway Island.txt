@@ -5,8 +5,8 @@ state=
 	manpower=2159	
 	state_category = tiny_island
 
-	history={
-	set_state_flag = USA_controls
+	history= {
+		set_state_flag = USA_controls
 		owner = USA
 		buildings = {
 			infrastructure = 3
