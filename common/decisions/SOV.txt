@@ -6046,7 +6046,7 @@ SOV_global_revolution = {
 				}
 				send_equipment = { 
 					type = infantry_equipment
-					target = D04
+					target = SPD
 					amount = 2000
 					old_prioritised = yes
 				}	
