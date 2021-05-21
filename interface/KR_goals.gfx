@@ -2942,16 +2942,4 @@ spriteTypes = {
 		name = "GFX_mongolgold"
 		texturefile = "gfx/interface/goals/mongolgold.dds"
 	}
-	SpriteType = {
-		name = "GFX_Nora_BlumViolette"
-		texturefile = "gfx/interface/goals/focus_fra_Blum_Violette.dds"
-	}
-	SpriteType = {
-		name = "GFX_Nora_matignonagreement"
-		texturefile = "gfx/interface/goals/focus_fra_matignon_agreement.dds"
-	}
-	SpriteType = {
-		name = "GFX_Nora_blumresign"
-		texturefile = "gfx/interface/goals/focus_fra_resign_blum.dds"
-	}
 }
