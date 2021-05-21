@@ -1378,7 +1378,7 @@ focus_tree = {
 		y = 0
 		relative_position_id = CZE_industrial_legacy
 
-		cost = 5
+		cost = 7.25
 
 		ai_will_do = {
 			factor = 90
@@ -1414,7 +1414,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = CZE_political_direction
 
-		cost = 5
+		cost = 7.25
 
 		ai_will_do = {
 			factor = 100
@@ -1547,7 +1547,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = CZE_political_direction
 
-		cost = 5
+		cost = 7.25
 
 		ai_will_do = {
 			factor = 0
@@ -1571,12 +1571,8 @@ focus_tree = {
 		}
 
 		completion_reward = {
-		    add_ideas = CZE_czech_fascism
-			add_popularity = {
-				popularity = 0.05
-				ideology = fascism
-			}
 			#allow nazi leader
+            add_ideas = CZE_national_fascism_idea
 			every_other_country = {
 				limit = { 
 					has_government = fascism
@@ -1637,7 +1633,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-		    add_ideas = CZE_national_fascism_idea
+			add_ideas = CZE_czech_fascism
 		}
 	}
 
@@ -1687,7 +1683,7 @@ focus_tree = {
 		y = 0
 		relative_position_id = CZE_political_direction
 
-		cost = 5
+		cost = 7.25
 
 		ai_will_do = {
 			factor = 90
@@ -1723,7 +1719,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = CZE_strategy_decisions
 
-		cost = 5
+		cost = 7.25
 
 		ai_will_do = {
 			factor = 0
@@ -1852,7 +1848,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = CZE_strategy_decisions
 
-		cost = 5
+		cost = 7.25
 
 		ai_will_do = {
 			factor = 100
@@ -1860,6 +1856,7 @@ focus_tree = {
 		}
 
 		available = {
+			fascism < 0.2
 		}
 
 		bypass = {
@@ -2916,7 +2913,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = CZE_access_to_the_sea
 
-		cost = 5
+		cost = 7.25
 
 		ai_will_do = {
 			factor = 10
@@ -2985,7 +2982,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = CZE_access_to_the_sea
 
-		cost = 5
+		cost = 7.25
 
 		ai_will_do = {
 			factor = 40
@@ -3020,7 +3017,7 @@ focus_tree = {
 		y = 2
 		relative_position_id = CZE_access_to_the_sea
 
-		cost = 5
+		cost = 7.25
 
 		ai_will_do = {
 			factor = 10
@@ -3059,7 +3056,7 @@ focus_tree = {
 		y = 2
 		relative_position_id = CZE_access_to_the_sea
 
-		cost = 5
+		cost = 7.25
 
 		ai_will_do = {
 			factor = 20
@@ -3098,7 +3095,7 @@ focus_tree = {
 		y = 2
 		relative_position_id = CZE_access_to_the_sea
 
-		cost = 5
+		cost = 7.25
 
 		ai_will_do = {
 			factor = 10
@@ -3140,7 +3137,7 @@ focus_tree = {
 		y = 3
 		relative_position_id = CZE_access_to_the_sea
 
-		cost = 5
+		cost = 7.25
 
 		ai_will_do = {
 			factor = 20
@@ -3182,7 +3179,7 @@ focus_tree = {
 		y = 3
 		relative_position_id = CZE_access_to_the_sea
 
-		cost = 5
+		cost = 7.25
 
 		ai_will_do = {
 			factor = 5
