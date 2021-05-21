@@ -2221,7 +2221,23 @@ ideas = {
 			
 
 			
-			traits = { air_bomber_interception_2 }
+			traits = { air_chief_ground_support_1 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		robert_odic = {
+			
+			
+			allowed = {
+				original_tag = FRA
+			}
+			
+
+			
+			traits = { air_chief_all_weather_1 }
 			
 			ai_will_do = {
 				factor = 1
@@ -2237,7 +2253,7 @@ ideas = {
 			
 
 			
-			traits = { air_close_air_support_1 }
+			traits = { air_chief_reform_2 }
 			
 			ai_will_do = {
 				factor = 1
@@ -2798,16 +2814,16 @@ ideas = {
 			
 			
 			allowed = {
-				original_tag = EFR
+				original_tag = FRA
 			}
 			
-			cost = 150
+			cost = 250
 						
 			research_bonus = {
-				naval_doctrine = 0.1
+				cat_fleet_in_being = 0.10
 			}
 			
-			traits = { naval_theorist }
+			traits = { grand_fleet_proponent }
 		}
 		
 		jean_decoux = {
