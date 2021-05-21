@@ -3039,16 +3039,16 @@ leader_traits = {
 		#generic
 		equipment_bonus = {
 		   carrier = {
-			    naval_speed = 0.05
+			surface_visibility = -0.1 naval_speed = 0.1 
 			}
 			capital_ship = {
-			    naval_speed = 0.05
+				surface_visibility = -0.1 naval_speed = 0.1
 			}
 			screen_ship = {
-				naval_speed = 0.05
+				surface_visibility = -0.1 naval_speed = 0.1
 			}
 			submarine = {
-				naval_speed = 0.05
+				sub_visibility = -0.1 surface_visibility = -0.1 naval_speed = 0.1
 			}
 		}	
 		ai_will_do = {
