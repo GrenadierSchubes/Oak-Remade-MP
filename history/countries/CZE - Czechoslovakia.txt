@@ -35,7 +35,7 @@ add_ideas = {
 }
 set_research_slots = 4
 set_stability = 0.5
-set_war_support = 0.2
+set_war_support = 0.05
 
 set_politics = {
 	ruling_party = democratic
