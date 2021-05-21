@@ -2671,7 +2671,10 @@ ideas = {
 		tom_phillips = {
 			
 			allowed = {
+			    OR = {
 				original_tag = ENG
+				original_tag = IRE
+				}
 			}
 					
 			research_bonus = {
