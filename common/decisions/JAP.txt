@@ -1295,7 +1295,7 @@ prospect_for_resources = {
 		}
 
 		visible = {
-			has_completed_focus = JAP_reach_for_resources
+			has_completed_focus = JAP_reach_for_resources_focus
 			725 = {
 				NOT = {
 					has_state_flag = nauru_tungsten_developed
