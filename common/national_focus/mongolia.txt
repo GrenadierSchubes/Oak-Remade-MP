@@ -1643,8 +1643,7 @@ custom_effect_tooltip = MON_leader_tt
 				type = rubber
 				amount = 20
 				state = 618
-			}	
-            add_ideas = MAN_resource			
+			}			
 		}
 	}	
 
