@@ -149,6 +149,10 @@ ideas = {
 				fighter_equipment = {
 					build_cost_ic = -0.10 instant = yes
 				}
+				CAS_equipment = {
+					build_cost_ic = -0.05
+					instant = yes
+				}
 			}
 		}
 		

@@ -127,13 +127,13 @@ ideas = {
 			}
 			
 			modifier = {
-				consumer_goods_factor = 0.05
-				trade_laws_cost_factor = -0.75
+				consumer_goods_factor = -0.02
+				production_speed_buildings_factor = 0.05
 			}
 		}
 		MON_agrarian_reform2 = {
 
-			picture = chi_hyper_inflation2
+			picture = SOV_military_industrial_complex
 
 			removal_cost = -1
 			
@@ -146,8 +146,8 @@ ideas = {
 			}
 			
 			modifier = {
-				consumer_goods_factor = -0.05
-				trade_laws_cost_factor = -1.00
+				consumer_goods_factor = -0.1
+				production_speed_buildings_factor = 0.125
 			}
 		}
 			MON_Rogue_state = {
@@ -393,8 +393,15 @@ ideas = {
 
 			removal_cost = -1
 			
-			modifier = {
-				consumer_goods_factor = -0.02
+			equipment_bonus = {
+				horse_equipment = {
+					build_cost_ic = -0.05
+					instant = yes
+				}
+				infantry_equipment = {
+					build_cost_ic = -0.025 
+					instant = yes
+				}
 			}
 		}
 		

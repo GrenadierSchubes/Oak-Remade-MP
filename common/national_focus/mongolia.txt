@@ -191,6 +191,12 @@ focus_tree = {
 		}
 		
 				completion_reward = {
+						add_tech_bonus = {
+				name = industrial_bonus
+				bonus = 1.0
+				uses = 1
+				category = industry
+			}
 			617 = {
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
@@ -738,7 +744,7 @@ create_country_leader = {
 		icon = GFX_focus_generic_provoke_border_clashes
 		x = 7
 		y = 1
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = MON_moscowmilitaryadvisors }
 		ai_will_do = {
@@ -788,7 +794,7 @@ create_country_leader = {
 		icon = GFX_monborderguard
 		x = 7
 		y = 2
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = MON_stopborderraiders }
 		ai_will_do = {
@@ -837,7 +843,7 @@ create_country_leader = {
 		icon = GFX_monartillery
 		x = 9
 		y = 6
-		cost = 10
+		cost = 7.16
 		available_if_capitulated = yes
 		prerequisite = { focus = MON_universalconscriptionprogram }
 		ai_will_do = {
@@ -942,7 +948,7 @@ create_country_leader = {
 		icon = GFX_focus_generic_combined_arms
 		x = 9
 		y = 7
-		cost = 10
+		cost = 7.16
 		available_if_capitulated = yes
 		prerequisite = { focus = MON_artillerymodernisation }
 		ai_will_do = {
@@ -987,15 +993,10 @@ create_country_leader = {
 		}
 		
 						available = {
-						date > 1939.1.1
 		}
 		
-				completion_reward = {	
-				add_research_slot = 1
-			swap_ideas = {
-				remove_idea = MON_agrarian_reform1
-				add_idea = MON_agrarian_reform2
-			}
+				completion_reward = {
+              add_research_slot = 1				
 	
 			617 = {
 				add_extra_state_shared_building_slots = 2
@@ -1004,13 +1005,13 @@ create_country_leader = {
 					level = 2
 					instant_build = yes
 				}
-			}			
-						add_tech_bonus = {
+			}	
+			add_tech_bonus = {
 				name = industrial_bonus
 				bonus = 1.0
 				uses = 1
 				category = industry
-			}
+			}			
 			
 									add_tech_bonus = {
 				name = spy2_bonus
@@ -1045,8 +1046,12 @@ create_country_leader = {
 			}
 		}
 		completion_reward = {
+			swap_ideas = {
+				remove_idea = MON_agrarian_reform1
+				add_idea = MON_agrarian_reform2
+			}
+			add_ideas = tot_economic_mobilisation 
 		    SOV = {
-			add_timed_idea = { idea = MON_idea_economic_aid days = 120 }
 			add_equipment_to_stockpile = {
 				type = horse_equipment
 				amount = 2000
@@ -1120,7 +1125,7 @@ create_country_leader = {
 		}
 		completion_reward = { 	
         SOV = {
-        add_timed_idea = { idea = MON_idea_economic_aid days = 120 }
+        add_ideas = MON_idea_economic_aid
 			add_equipment_to_stockpile = {
 				type = horse_equipment
 				amount = 2000
@@ -1159,7 +1164,7 @@ create_country_leader = {
 			completion_reward = {
 				add_equipment_to_stockpile = {
 					type = medium_tank_equipment_1937
-					amount = 100
+					amount = 200
 					producer = MON
 				}
             }
@@ -1263,7 +1268,7 @@ create_country_leader = {
 		icon = GFX_monrecruitment
 		x = 9
 		y = 5
-		cost = 10
+		cost = 7.16
 		available_if_capitulated = yes
 		prerequisite = { focus = MON_armyreform }
 		ai_will_do = {
@@ -1316,11 +1321,8 @@ create_country_leader = {
 					remove_idea = MON_Rogue_state_2
 					add_idea = MON_Rogue_state_3
 				}
-			}			
-			remove_ideas = MON_Rual_population_3 		
+			}				
 		}
-		
-		
 	}
 
 	#Focus for Agricultural advancements
@@ -1650,7 +1652,7 @@ create_country_leader = {
 		completion_reward = {
 			add_resource = {
 				type = rubber
-				amount = 20
+				amount = 25
 				state = 618
 			}	
             add_ideas = MAN_resource			
