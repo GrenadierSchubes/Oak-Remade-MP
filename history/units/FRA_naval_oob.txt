@@ -6,7 +6,7 @@ units= {
 			name = "Main Fleet"
 			location = 5139 # Gabon			
 			# Battleship Group 			
-			ship = { name = "Dunkerquess" pride_of_the_fleet = yes definition = battle_cruiser equipment = { ship_hull_heavy_2 = { amount = 1 owner = FRA version_name = "Dunkerque Class" } } }				
+			ship = { name = "Dunkerquess" definition = battle_cruiser pride_of_the_fleet = yes equipment = { ship_hull_heavy_2 = { amount = 1 owner = FRA version_name = "Dunkerque Class" } } }				
 			ship = { name = "Strasbourgs" definition = battle_cruiser equipment = { ship_hull_heavy_2 = { amount = 1 owner = FRA version_name = "Dunkerque Class" } } }	
 			# Heavy Cruiser Group
 			ship = { name = "Algéries" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "Saint Louis Class" } } }			

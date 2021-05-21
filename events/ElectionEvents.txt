@@ -282,9 +282,10 @@ country_event = {
 				}
 			}
 		}
+		add_stability = -0.05
 		add_popularity = {
 			ideology = democratic
-			popularity = 0.01
+			popularity = 0.03
 		}
 		set_country_flag = government_declined_communists
 	}

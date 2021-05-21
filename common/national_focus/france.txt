@@ -411,7 +411,6 @@ focus_tree = {
 			add_to_temp_variable = { FRA_rw_support = party_popularity@fascism }
 			multiply_temp_variable = { FRA_rw_support = -0.5 }
 			add_stability = FRA_rw_support
-			add_popularity = { ideology = communism popularity = 0.05 }
 			add_political_power = 150 
 		}
 	}
@@ -730,11 +729,10 @@ focus_tree = {
 		}
 
 		available_if_capitulated = yes
-		cancel_if_invalid = no
-		continue_if_invalid = yes
 
 		completion_reward = {
-			add_ideas = FRA_responsibility_for_our_own_defense			
+			add_ideas = FRA_responsibility_for_our_own_defense
+			FRA_disjointed_government_level_down = yes				
 		}
 	}
 
