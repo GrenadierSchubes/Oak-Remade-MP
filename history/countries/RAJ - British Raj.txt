@@ -180,11 +180,11 @@ create_corps_commander = {
 create_corps_commander = {
 	name = "Frank Messervy"
 	gfx = "GFX_RAJ_frank_messervy"
-	traits = { desert_fox panzer_leader trait_reckless }
+	traits = { desert_fox armor_officer trait_reckless }
 	skill = 3
-	attack_skill = 5
+	attack_skill = 4
 	defense_skill = 1
-	planning_skill = 3
+	planning_skill = 2
 	logistics_skill = 3
 }
 
