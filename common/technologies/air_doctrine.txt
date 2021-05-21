@@ -1350,9 +1350,9 @@ technologies = {
 				air_agility = 0.1
 			}
 		###########
-		dependencies = {
-			plane_radio = 1 
-		}
+		#dependencies = {
+		#	plane_radio = 1 
+		#}
 		path = {
 			leads_to_tech = naval_strike_torpedo_tactics_oi
 			research_cost_coeff = 1
@@ -1429,9 +1429,9 @@ technologies = {
 		# EFFECT ########
 		air_cas_efficiency = 0.15
 		###########
-		dependencies = {
-			plane_radio = 1 
-		}
+		#dependencies = {
+		#	plane_radio = 1 
+		#}
 		path = {
 			leads_to_tech = carousel_bombing
 			research_cost_coeff = 1
