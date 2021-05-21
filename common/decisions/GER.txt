@@ -3437,10 +3437,6 @@ foreign_politics = {
 				add_ideas = Disorganized_Red_Army_1
 				country_event = { id = soviet.46 days = 2 } 
 			}
-			MON = {
-				add_timed_idea = { idea = SOV_surprise_strike days = 120 }
-				add_timed_idea = { idea = Disorganized_Red_Army_3 days = 210 }
-			}
 			if = {
 				limit = {
 					GER = { is_ai = yes }

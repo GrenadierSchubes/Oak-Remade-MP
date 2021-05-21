@@ -1664,7 +1664,7 @@ focus_tree = {
 			set_capital = 772
 
 			add_popularity = { ideology = democratic popularity = 0.75 }
-		    add_stability = 0.10
+		    add_stability = 0.25
 			add_war_support = 0.25			
             add_offsite_building = { 
 			    type = dockyard 
