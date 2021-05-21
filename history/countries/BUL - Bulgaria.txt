@@ -222,11 +222,11 @@ if = { #DLC
 		name = "Georgi Popov"
 		gfx = GFX_portrait_bul_georgi_popov
 		id = 1202 #Used to allow him to be randomly selected to sympathize with the FF
-		traits = { war_hero skilled_staffer infantry_leader }
+		traits = { war_hero skilled_staffer infantry_officer }
 		skill = 4
 		attack_skill = 3
-		defense_skill = 4
-		planning_skill = 4
+		defense_skill = 3
+		planning_skill = 3
 		logistics_skill = 4
 	}
 
@@ -234,11 +234,11 @@ if = { #DLC
 		name = "Nikola Hadzhipetkov"
 		gfx = GFX_portrait_bul_nikola_hadzipetkov
 		id = 1203 #Used to retire him when signing tripartite
-		traits = { brilliant_strategist infantry_leader organizer }
+		traits = { brilliant_strategist infantry_officer organizer }
 		skill = 4
 		attack_skill = 2
-		defense_skill = 5
-		planning_skill = 5
+		defense_skill = 4
+		planning_skill = 4
 		logistics_skill = 3
 	}
 
