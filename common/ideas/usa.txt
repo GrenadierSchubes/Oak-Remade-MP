@@ -655,10 +655,28 @@ ideas = {
 			}
 
 			removal_cost = -1
+
+			equipment_bonus = {
+				ship_hull_heavy = {
+					build_cost_ic = -0.1 instant = yes
+				}
+				ship_hull_carrier = {
+					build_cost_ic = -0.1 instant = yes
+				}
+				ship_hull_cruiser = {
+					build_cost_ic = -0.1 instant = yes
+				}
+				ship_hull_light = {
+					build_cost_ic = -0.1 instant = yes
+				}
+				ship_hull_submarine = {
+					build_cost_ic = -0.1 instant = yes
+				}
+			}
 			
 			modifier = {
 				consumer_goods_factor = 0.03
-				industrial_capacity_dockyard = 0.2	
+				industrial_capacity_dockyard = 0.1	
 			}
 		}
 
@@ -1467,6 +1485,25 @@ ideas = {
 					build_cost_ic = -0.05 instant = yes
 				}
 			}		
+		}
+
+		USA_pearl_harbor_repair_effort = {
+			allowed = {
+				always = no
+			}
+
+			picture = generic_production_bonus
+
+			allowed_civil_war = {
+				has_government = democratic
+			}
+
+			removal_cost = -1	
+
+			modifier = {
+				industrial_capacity_dockyard = -0.15
+				repair_speed_factor = -0.25
+			}
 		}
 
 		office_of_strategic_services = {

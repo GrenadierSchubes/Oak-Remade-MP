@@ -559,26 +559,6 @@ ideas = {
 			}
 		}
 
-		JAP_superheavy_production = {
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-			
-			removal_cost = -1
-
-			picture = generic_navy_bonus
-			
-			equipment_bonus = {
-				ship_hull_super_heavy_1 = {
-					build_cost_ic = -0.1
-				}
-			}
-		}
-
 		imperial_glory_idea = {
 			
 			allowed = {
@@ -2298,22 +2278,11 @@ ideas = {
 			}
 
 			visible = {
-				NOT = {
-					OR = {
-						has_completed_focus = JAP_improved_torpedo_designs
-						has_completed_focus = JAP_the_ultimate_battleship
-					}
-				}
+
 			}
 
 			available = {
 				has_completed_focus = JAP_kure_naval_arsenal
-				NOT = {
-					OR = {
-						has_completed_focus = JAP_improved_torpedo_designs
-						has_completed_focus = JAP_the_ultimate_battleship
-					}
-				}
 			}
 
 			cost = 75
@@ -2325,141 +2294,6 @@ ideas = {
 			traits = { battlefleet_designer } # built Yamato
 
 		}
-		kure_naval_arsenal2 = {
-			
-			name = kure_naval_arsenal
-			picture = kure_naval_arsenal
-			
-			allowed = {
-				original_tag = JAP
-			}
-
-			visible = {
-				has_completed_focus = JAP_the_ultimate_battleship
-				NOT = {
-					has_completed_focus = JAP_improved_torpedo_designs
-				}
-			}
-
-			available = {
-				has_completed_focus = JAP_kure_naval_arsenal
-				has_completed_focus = JAP_the_ultimate_battleship
-				NOT = {
-					has_completed_focus = JAP_improved_torpedo_designs
-				}
-			}
-
-			cost = 75
-						
-			research_bonus = {
-				naval_equipment = -0.05
-			}
-
-			equipment_bonus = {
-				ship_hull_super_heavy_1 = {
-					build_cost_ic = -0.1
-				}
-			}
-			
-			traits = { battlefleet_designer } # built Yamato
-
-		}
-		kure_naval_arsenal3 = {
-			
-			name = kure_naval_arsenal
-			picture = kure_naval_arsenal
-			
-			allowed = {
-				original_tag = JAP
-			}
-
-			visible = {
-				has_completed_focus = JAP_improved_torpedo_designs
-				NOT = {
-					has_completed_focus = JAP_the_ultimate_battleship
-				}
-			}
-
-			available = {
-				has_completed_focus = JAP_kure_naval_arsenal
-				has_completed_focus = JAP_improved_torpedo_designs
-				NOT = {
-					has_completed_focus = JAP_the_ultimate_battleship
-				}
-			}
-
-			cost = 75
-						
-			research_bonus = {
-				naval_equipment = -0.05
-			}
-
-			equipment_bonus = {
-				destroyer = {
-					torpedo_attack = 0.1
-				}
-				submarine = {
-					torpedo_attack = 0.1
-				}
-				light_cruiser = {
-					torpedo_attack = 0.1
-				}
-				heavy_cruiser = {
-					torpedo_attack = 0.1
-				}
-			}
-			
-			traits = { battlefleet_designer } # built Yamato
-
-		}
-		kure_naval_arsenal4 = {
-			
-			name = kure_naval_arsenal
-			picture = kure_naval_arsenal
-			
-			allowed = {
-				original_tag = JAP
-			}
-
-			visible = {
-				has_completed_focus = JAP_the_ultimate_battleship
-				has_completed_focus = JAP_improved_torpedo_designs
-			}
-
-			available = {
-				has_completed_focus = JAP_kure_naval_arsenal
-				has_completed_focus = JAP_the_ultimate_battleship
-				has_completed_focus = JAP_improved_torpedo_designs
-			}
-
-			cost = 75
-						
-			research_bonus = {
-				naval_equipment = -0.05
-			}
-
-			equipment_bonus = {
-				destroyer = {
-					torpedo_attack = 0.1
-				}
-				submarine = {
-					torpedo_attack = 0.1
-				}
-				light_cruiser = {
-					torpedo_attack = 0.1
-				}
-				heavy_cruiser = {
-					torpedo_attack = 0.1
-				}
-				ship_hull_super_heavy_1 = {
-					build_cost_ic = -0.1
-				}
-			}
-			
-			traits = { battlefleet_designer } # built Yamato
-
-		}
-		
 		yokosuka_naval_arsenal = {
 						
 			allowed = {
@@ -2467,22 +2301,11 @@ ideas = {
 			}
 
 			visible = {
-				NOT = {
-					OR = {
-						has_completed_focus = JAP_improved_torpedo_designs
-						has_completed_focus = JAP_the_ultimate_battleship
-					}
-				}
+
 			}
 
 			available = {
 				has_completed_focus = JAP_yokosuka_naval_arsenal
-				NOT = {
-					OR = {
-						has_completed_focus = JAP_improved_torpedo_designs
-						has_completed_focus = JAP_the_ultimate_battleship
-					}
-				}
 			}
 
 			cost = 75
@@ -2493,141 +2316,6 @@ ideas = {
 			
 			traits = { pacific_fleet_naval_manufacturer } #built best CVs
 		}
-		yokosuka_naval_arsenal2 = {
-			
-			name = yokosuka_naval_arsenal
-			picture = yokosuka_naval_arsenal
-			
-			allowed = {
-				original_tag = JAP
-			}
-
-			visible = {
-				has_completed_focus = JAP_the_ultimate_battleship
-				NOT = {
-					has_completed_focus = JAP_improved_torpedo_designs
-				}
-			}
-
-			available = {
-				has_completed_focus = JAP_yokosuka_naval_arsenal
-				has_completed_focus = JAP_the_ultimate_battleship
-				NOT = {
-					has_completed_focus = JAP_improved_torpedo_designs
-				}
-			}
-
-			cost = 75
-						
-			research_bonus = {
-				naval_equipment = -0.05
-			}
-
-			equipment_bonus = {
-				ship_hull_super_heavy_1 = {
-					build_cost_ic = -0.1
-				}
-			}
-			
-			traits = { pacific_fleet_naval_manufacturer } # built Yamato
-
-		}
-		yokosuka_naval_arsenal3 = {
-			
-			name = yokosuka_naval_arsenal
-			picture = yokosuka_naval_arsenal
-			
-			allowed = {
-				original_tag = JAP
-			}
-
-			visible = {
-				has_completed_focus = JAP_improved_torpedo_designs
-				NOT = {
-					has_completed_focus = JAP_the_ultimate_battleship
-				}
-			}
-
-			available = {
-				has_completed_focus = JAP_yokosuka_naval_arsenal
-				has_completed_focus = JAP_improved_torpedo_designs
-				NOT = {
-					has_completed_focus = JAP_the_ultimate_battleship
-				}
-			}
-
-			cost = 75
-						
-			research_bonus = {
-				naval_equipment = -0.05
-			}
-
-			equipment_bonus = {
-				destroyer = {
-					torpedo_attack = 0.1
-				}
-				submarine = {
-					torpedo_attack = 0.1
-				}
-				light_cruiser = {
-					torpedo_attack = 0.1
-				}
-				heavy_cruiser = {
-					torpedo_attack = 0.1
-				}
-			}
-			
-			traits = { pacific_fleet_naval_manufacturer } # built Yamato
-
-		}
-		yokosuka_naval_arsenal4 = {
-			
-			name = yokosuka_naval_arsenal
-			picture = yokosuka_naval_arsenal
-			
-			allowed = {
-				original_tag = JAP
-			}
-
-			visible = {
-				has_completed_focus = JAP_the_ultimate_battleship
-				has_completed_focus = JAP_improved_torpedo_designs
-			}
-
-			available = {
-				has_completed_focus = JAP_yokosuka_naval_arsenal
-				has_completed_focus = JAP_the_ultimate_battleship
-				has_completed_focus = JAP_improved_torpedo_designs
-			}
-
-			cost = 75
-						
-			research_bonus = {
-				naval_equipment = -0.05
-			}
-
-			equipment_bonus = {
-				destroyer = {
-					torpedo_attack = 0.1
-				}
-				submarine = {
-					torpedo_attack = 0.1
-				}
-				light_cruiser = {
-					torpedo_attack = 0.1
-				}
-				heavy_cruiser = {
-					torpedo_attack = 0.1
-				}
-				ship_hull_super_heavy_1 = {
-					build_cost_ic = -0.1
-				}
-			}
-			
-			traits = { pacific_fleet_naval_manufacturer } # built Yamato
-
-		}
-
 		maizuru_naval_arsenal = {
 						
 			allowed = {
@@ -2635,21 +2323,11 @@ ideas = {
 			}
 
 			visible = {
-				NOT = {
-					OR = {
-						has_completed_focus = JAP_improved_torpedo_designs
-						has_completed_focus = JAP_the_ultimate_battleship
-					}
-				}
+
 			}
 
 			available = {
-				NOT = {
-					OR = {
-						has_completed_focus = JAP_improved_torpedo_designs
-						has_completed_focus = JAP_the_ultimate_battleship
-					}
-				}
+
 			}
 				
 			research_bonus = {
@@ -2658,138 +2336,6 @@ ideas = {
 			
 			traits = { convoy_escort_naval_manufacturer } #destroyer R&D
 		}
-		maizuru_naval_arsenal2 = {
-			
-			name = maizuru_naval_arsenal
-			picture = maizuru_naval_arsenal
-			
-			allowed = {
-				original_tag = JAP
-			}
-
-			visible = {
-				has_completed_focus = JAP_the_ultimate_battleship
-				NOT = {
-					has_completed_focus = JAP_improved_torpedo_designs
-				}
-			}
-
-			available = {
-				has_completed_focus = JAP_the_ultimate_battleship
-				NOT = {
-					has_completed_focus = JAP_improved_torpedo_designs
-				}
-			}
-
-			cost = 75
-						
-			research_bonus = {
-				naval_equipment = -0.05
-			}
-
-			equipment_bonus = {
-				ship_hull_super_heavy_1 = {
-					build_cost_ic = -0.1
-				}
-			}
-			
-			traits = { convoy_escort_naval_manufacturer } # built Yamato
-
-		}
-		maizuru_naval_arsenal3 = {
-			
-			name = maizuru_naval_arsenal
-			picture = maizuru_naval_arsenal
-			
-			allowed = {
-				original_tag = JAP
-			}
-
-			visible = {
-				has_completed_focus = JAP_improved_torpedo_designs
-				NOT = {
-					has_completed_focus = JAP_the_ultimate_battleship
-				}
-			}
-
-			available = {
-				has_completed_focus = JAP_improved_torpedo_designs
-				NOT = {
-					has_completed_focus = JAP_the_ultimate_battleship
-				}
-			}
-
-			cost = 75
-						
-			research_bonus = {
-				naval_equipment = -0.05
-			}
-
-			equipment_bonus = {
-				destroyer = {
-					torpedo_attack = 0.1
-				}
-				submarine = {
-					torpedo_attack = 0.1
-				}
-				light_cruiser = {
-					torpedo_attack = 0.1
-				}
-				heavy_cruiser = {
-					torpedo_attack = 0.1
-				}
-			}
-			
-			traits = { convoy_escort_naval_manufacturer } # built Yamato
-
-		}
-		maizuru_naval_arsenal4 = {
-			
-			name = maizuru_naval_arsenal
-			picture = maizuru_naval_arsenal
-			
-			allowed = {
-				original_tag = JAP
-			}
-
-			visible = {
-				has_completed_focus = JAP_the_ultimate_battleship
-				has_completed_focus = JAP_improved_torpedo_designs
-			}
-
-			available = {
-				has_completed_focus = JAP_the_ultimate_battleship
-				has_completed_focus = JAP_improved_torpedo_designs
-			}
-
-			cost = 75
-						
-			research_bonus = {
-				naval_equipment = -0.05
-			}
-
-			equipment_bonus = {
-				destroyer = {
-					torpedo_attack = 0.1
-				}
-				submarine = {
-					torpedo_attack = 0.1
-				}
-				light_cruiser = {
-					torpedo_attack = 0.1
-				}
-				heavy_cruiser = {
-					torpedo_attack = 0.1
-				}
-				ship_hull_super_heavy_1 = {
-					build_cost_ic = -0.1
-				}
-			}
-			
-			traits = { convoy_escort_naval_manufacturer } # built Yamato
-
-		}
-		
 		sasebo_naval_arsenal = {
 			
 			allowed = {
@@ -2797,21 +2343,11 @@ ideas = {
 			}
 
 			visible = {
-				NOT = {
-					OR = {
-						has_completed_focus = JAP_improved_torpedo_designs
-						has_completed_focus = JAP_the_ultimate_battleship
-					}
-				}
+
 			}
 
 			available = {
-				NOT = {
-					OR = {
-						has_completed_focus = JAP_improved_torpedo_designs
-						has_completed_focus = JAP_the_ultimate_battleship
-					}
-				}
+
 			}
 			
 			research_bonus = {
@@ -2820,137 +2356,6 @@ ideas = {
 			
 			traits = { coastal_defence_naval_manufacturer } #used for many repairs and conversions
 		}
-		sasebo_naval_arsenal2 = {
-			
-			name = sasebo_naval_arsenal
-			picture = sasebo_naval_arsenal
-			
-			allowed = {
-				original_tag = JAP
-			}
-
-			visible = {
-				has_completed_focus = JAP_the_ultimate_battleship
-				NOT = {
-					has_completed_focus = JAP_improved_torpedo_designs
-				}
-			}
-
-			available = {
-				has_completed_focus = JAP_the_ultimate_battleship
-				NOT = {
-					has_completed_focus = JAP_improved_torpedo_designs
-				}
-			}
-
-			cost = 75
-						
-			research_bonus = {
-				naval_equipment = -0.05
-			}
-
-			equipment_bonus = {
-				ship_hull_super_heavy_1 = {
-					build_cost_ic = -0.1
-				}
-			}
-			
-			traits = { coastal_defence_naval_manufacturer } # built Yamato
-
-		}
-		sasebo_naval_arsenal3 = {
-			
-			name = sasebo_naval_arsenal
-			picture = sasebo_naval_arsenal
-			
-			allowed = {
-				original_tag = JAP
-			}
-
-			visible = {
-				has_completed_focus = JAP_improved_torpedo_designs
-				NOT = {
-					has_completed_focus = JAP_the_ultimate_battleship
-				}
-			}
-
-			available = {
-				has_completed_focus = JAP_improved_torpedo_designs
-				NOT = {
-					has_completed_focus = JAP_the_ultimate_battleship
-				}
-			}
-
-			cost = 75
-						
-			research_bonus = {
-				naval_equipment = -0.05
-			}
-
-			equipment_bonus = {
-				destroyer = {
-					torpedo_attack = 0.1
-				}
-				submarine = {
-					torpedo_attack = 0.1
-				}
-				light_cruiser = {
-					torpedo_attack = 0.1
-				}
-				heavy_cruiser = {
-					torpedo_attack = 0.1
-				}
-			}
-			
-			traits = { coastal_defence_naval_manufacturer } # built Yamato
-
-		}
-		sasebo_naval_arsenal4 = {
-			
-			name = sasebo_naval_arsenal
-			picture = sasebo_naval_arsenal
-			
-			allowed = {
-				original_tag = JAP
-			}
-
-			visible = {
-				has_completed_focus = JAP_the_ultimate_battleship
-				has_completed_focus = JAP_improved_torpedo_designs
-			}
-
-			available = {
-				has_completed_focus = JAP_the_ultimate_battleship
-				has_completed_focus = JAP_improved_torpedo_designs
-			}
-
-			cost = 75
-						
-			research_bonus = {
-				naval_equipment = -0.05
-			}
-
-			equipment_bonus = {
-				destroyer = {
-					torpedo_attack = 0.1
-				}
-				submarine = {
-					torpedo_attack = 0.1
-				}
-				light_cruiser = {
-					torpedo_attack = 0.1
-				}
-				heavy_cruiser = {
-					torpedo_attack = 0.1
-				}
-				ship_hull_super_heavy_1 = {
-					build_cost_ic = -0.1
-				}
-			}
-			
-			traits = { coastal_defence_naval_manufacturer } # built Yamato
-
-		}	
 	}
 	naval_research = {
 		

@@ -139,13 +139,11 @@ JAP_intervene_in_china = {
 		icon = jap_conquer_china
 
 		available = {	
-		    has_completed_focus = JAP_secure_china
 		    has_war_with = USA
             has_war_with = CHI			
 		}
 
 		visible = {
-			has_completed_focus = JAP_secure_china
 		    has_war_with = USA
             has_war_with = CHI
 		}
@@ -252,7 +250,7 @@ JAP_interservice_rivalry = {
 				}
 			}
 			custom_effect_tooltip = JAP_yamato_tt
-			JAP_interservice_rivalry_towards_navy = yes
+			#JAP_interservice_rivalry_towards_navy = yes
 			
 			hidden_effect = {
 				add_equipment_production = {
@@ -297,6 +295,7 @@ JAP_interservice_rivalry = {
 			NOT = {
 				has_country_flag = JAP_steel_for_ships
 			}
+			always = no
 		}
 		cost = 50
 		fire_only_once = yes
@@ -366,6 +365,7 @@ JAP_interservice_rivalry = {
 			NOT = {
 				has_country_flag = JAP_steel_for_guns
 			}
+			always = no
 		}
 		cost = 50
 		fire_only_once = yes
@@ -435,6 +435,7 @@ JAP_interservice_rivalry = {
 			NOT = {
 				has_country_flag = JAP_prioritize_naval_aircraft_construction
 			}
+			always = no
 		}
 		cost = 50
 		fire_only_once = yes
@@ -472,6 +473,7 @@ JAP_interservice_rivalry = {
 			NOT = {
 				has_country_flag = JAP_prioritize_army_aircraft_construction
 			}
+			always = no
 		}
 		cost = 50
 		fire_only_once = yes
@@ -508,6 +510,7 @@ JAP_interservice_rivalry = {
 			NOT = {
 				has_country_flag = JAP_draft_exemptions
 			}
+			always = no
 		}
 		cost = 50
 		fire_only_once = yes
@@ -546,6 +549,7 @@ JAP_interservice_rivalry = {
 			NOT = {
 				has_country_flag = JAP_everybody_serves
 			}
+			always = no
 		}
 		cost = 50
 		days_remove = -1
@@ -585,6 +589,7 @@ JAP_interservice_rivalry = {
 			NOT = {
 				has_country_flag = JAP_special_air_landing_force
 			}
+			always = no
 		}
 		cost = 50
 		fire_only_once = yes
@@ -623,6 +628,7 @@ JAP_interservice_rivalry = {
 			NOT = {
 				has_country_flag = JAP_raiding_regiments
 			}
+			always = no
 		}
 		cost = 50
 		fire_only_once = yes
@@ -693,6 +699,7 @@ JAP_interservice_rivalry = {
 					has_country_flag = JAP_steel_for_ships
 				}
 			}
+			always = no
 		}
 		cost = 50
 		fire_only_once = yes
@@ -758,6 +765,7 @@ JAP_interservice_rivalry = {
 					has_country_flag = JAP_steel_for_ships
 				}
 			}
+			always = no
 		}
 		cost = 50
 		fire_only_once = yes
@@ -1287,7 +1295,7 @@ prospect_for_resources = {
 		}
 
 		visible = {
-			has_completed_focus = JAP_exploit_the_southern_resource_area
+			has_completed_focus = JAP_reach_for_resources
 			725 = {
 				NOT = {
 					has_state_flag = nauru_tungsten_developed

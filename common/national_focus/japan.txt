@@ -3958,7 +3958,6 @@ focus_tree = {
 				}
 				custom_effect_tooltip = JAP_yamato_2_tt
 			}
-			add_ideas = JAP_superheavy_production
 		}
 	}
 	focus = {

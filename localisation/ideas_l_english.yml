@@ -3413,6 +3413,7 @@
  raj_capitulated:0 "The Raj has fallen"
  ins_capitulated:0 "The Dutch East Indies have fallen"
  ast_capitulated:0 "Australia has fallen"
+ USA_pearl_harbor_repair_effort:0 "Pearl Harbor Repair Effort"
  USA_political_corruption:0 "Political Corruption"
  USA_political_corruption_desc:0 "Political corruption is the use of powers by government officials or their network contacts for illegitimate private gain. Forms of corruption vary, but include bribery, extortion, cronyism, nepotism, parochialism, patronage, influence peddling, graft, and embezzlement. Corruption may facilitate criminal enterprise such as drug trafficking, money laundering, and human trafficking, though it is not restricted to these activities. Misuse of government power for other purposes, such as repression of political opponents and general police brutality, is also considered political corruption."
  USA_legislation_deadlock:0 "Legislation Deadlock"

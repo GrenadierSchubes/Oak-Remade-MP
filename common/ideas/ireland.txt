@@ -351,8 +351,7 @@ ideas = {
 
 					equipment_bonus = {
 							destroyer = {
-							instant = yes
-							build_cost_ic = -0.1
+								build_cost_ic = -0.1 instant = yes
 							}
 						}
 				
@@ -375,12 +374,10 @@ ideas = {
 
 					equipment_bonus = {
 							light_cruiser = {
-							instant = yes
-							build_cost_ic = -0.05
+								build_cost_ic = -0.05 instant = yes
 							}
 							heavy_cruiser = {
-							instant = yes
-							build_cost_ic = -0.05
+								build_cost_ic = -0.05 instant = yes
 							}
 						}
 				
@@ -403,8 +400,7 @@ ideas = {
 
 					equipment_bonus = {
 							submarine = {
-							instant = yes
-							build_cost_ic = -0.1
+								build_cost_ic = -0.1 instant = yes
 							}
 						}
 				
