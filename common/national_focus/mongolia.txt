@@ -993,7 +993,7 @@ custom_effect_tooltip = MON_leader_tt
 		}
 		
 						available = {
-						date > 1939.1.1
+						date > 1938.7.1
 		}
 		
 				completion_reward = {	
