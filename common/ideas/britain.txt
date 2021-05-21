@@ -67,7 +67,6 @@ ideas = {
 			modifier = {
 				decryption_factor = 0.2
 				encryption_factor = 0.1
-				operative_slot = 1
 			}
 		}	
 
