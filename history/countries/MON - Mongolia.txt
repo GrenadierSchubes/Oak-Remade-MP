@@ -44,7 +44,6 @@ set_technology = {
 	starting_industry = 1
 	electronic_mechanical_engineering = 1
 	basic_machine_tools = 1
-	plane_radio = 1
 }
 add_ideas = {
 	partial_economic_mobilisation

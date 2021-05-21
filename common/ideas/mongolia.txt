@@ -110,7 +110,6 @@ ideas = {
 			
 			modifier = {
 				consumer_goods_factor = 0.05
-				economy_cost_factor = -0.75
 			}
 		}
 		MON_agrarian_reform2 = {
@@ -129,7 +128,6 @@ ideas = {
 			
 			modifier = {
 				consumer_goods_factor = -0.05
-				economy_cost_factor = -1.00
 			}
 		}
 			MON_Rogue_state = {
