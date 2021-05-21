@@ -209,7 +209,7 @@ focus_tree = {
 		icon = GFX_monmutualassistance
 		x = 0
 		y = 3
-		cost = 5
+		cost = 2
 		available_if_capitulated = yes
 		prerequisite = { focus = MON_purgegenden }
 		
