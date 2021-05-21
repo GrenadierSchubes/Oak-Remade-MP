@@ -3164,7 +3164,7 @@ focus_tree = {
 				name = naval_doc_bonus
 				bonus = 0.6
 				uses = 2
-				category = trade_interdiction_tree
+				category = cat_trade_interdiction
 			}
 		}
 	}
@@ -3206,7 +3206,7 @@ focus_tree = {
 				name = naval_doc_bonus
 				bonus = 0.6
 				uses = 2
-				category = fleet_in_being_tree
+				category = cat_fleet_in_being
 			}
 		}
 	}
