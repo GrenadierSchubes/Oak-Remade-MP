@@ -66,7 +66,7 @@ focus_tree = {
 			create_corps_commander = {
 				name = "Kublai Force Ghost"
 				picture = "portrait_kublai.dds"
-				traits = { cavalry_leader war_hero }
+				traits = { cavalry_leader war_hero brilliant_strategist }
 				skill = 4
 				attack_skill = 4
 				defense_skill = 4
@@ -138,12 +138,6 @@ focus_tree = {
 				category = infantry_weapons
 				category = artillery
 			}	
-			add_tech_bonus = {
-				name = MON_army_maneuvers
-				bonus = 1.0
-				uses = 1
-				category = land_doctrine
-			}
 		}
 	}
 
@@ -466,7 +460,7 @@ focus_tree = {
 				618 = {
 					add_building_construction = {
 						type = infrastructure
-						level = 2
+						level = 1
 						instant_build = yes
 					}
 				}
@@ -1418,7 +1412,7 @@ custom_effect_tooltip = MON_leader_tt
 				618 = {
 					add_building_construction = {
 						type = infrastructure
-						level = 2
+						level = 1
 						instant_build = yes
 					}
 				}			
@@ -1476,13 +1470,7 @@ custom_effect_tooltip = MON_leader_tt
 				has_idea = MON_Mongolian_Police
 		}			
 		completion_reward = {
-        air_experience = 50
-			add_tech_bonus = {
-				name = MON_death_from_down_under
-				bonus = 1.0
-				uses = 1
-				category = air_doctrine
-			}		
+        air_experience = 25
 			330 = {
 				add_building_construction = {
 					type = air_base
@@ -1543,13 +1531,6 @@ custom_effect_tooltip = MON_leader_tt
 		}
 		
 		completion_reward = {
-		    air_experience = 50
-			add_tech_bonus = {
-				name = MON_death_from_down_under
-				bonus = 1.0
-				uses = 1
-				category = air_doctrine
-			}		
           add_ideas = MONAF
 		}
 	}	
@@ -1609,7 +1590,7 @@ custom_effect_tooltip = MON_leader_tt
 		}
 		
 		completion_reward = {
-			air_experience = 100
+			air_experience = 250
 			set_rule = {
 				can_generate_female_aces = yes
 			}

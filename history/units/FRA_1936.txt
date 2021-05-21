@@ -365,7 +365,7 @@ units = {
 		name = "1ère Division Légère Mécanique"
 		location = 11506
 		division_template = "Division Légère Mécanique" 	# DLM is frontline, best equipment, L Arm = H-35
-		force_equipment_variants = { heavy_tank_equipment_1934 = { owner = "FRA" } }
+		force_equipment_variants = { heavy_tank_equipment_1937 = { owner = "FRA" } }
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.8
 	}
@@ -1041,7 +1041,7 @@ instant_effect = { #player
 	
 	add_equipment_production = {
 		equipment = {
-			type = heavy_tank_equipment_1934
+			type = heavy_tank_equipment_1937
 			creator = "FRA" 
 		}
 		requested_factories = 1
@@ -1110,7 +1110,7 @@ instant_effect = { #player
 			producer = FRA
 		}
 	add_equipment_to_stockpile = {
-		type = heavy_tank_equipment_1934
+		type = heavy_tank_equipment_1937
 			amount = 250
 			producer = FRA
 		}

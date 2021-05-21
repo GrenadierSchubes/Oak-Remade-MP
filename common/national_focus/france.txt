@@ -126,7 +126,7 @@ focus_tree = {
 		x = -2
 		y = 1
 		relative_position_id = FRA_intervention_in_spain
-		cost = 5
+		cost = 7.16
 
 		available_if_capitulated = yes
 		continue_if_invalid = yes
@@ -205,7 +205,7 @@ focus_tree = {
 		x = -1
 		y = 1
 		relative_position_id = FRA_garuantee_czechoslovakia
-		cost = 5
+		cost = 7.16
 
 		available_if_capitulated = yes
 
@@ -723,10 +723,10 @@ focus_tree = {
 		x = 3
 		y = 1
 		relative_position_id = FRA_regulate_the_banking_sector
-		cost = 5
+		cost = 7.16
 		
 		available = {
-			threat > 0.1`
+			threat > 0.10
 		}
 
 		available_if_capitulated = yes
@@ -1825,7 +1825,13 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
-		available = 
+		available = {
+		    OR = {
+			    NOT = { 772 = { is_controlled_by = FRA } }
+				ENG = {
+					has_capitulated = yes 
+				}
+			}
 		}
 		
 		bypass = {
@@ -1837,12 +1843,16 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
 			add_offsite_building = {
+				type = industrial_complex
+				level = 10
+			}
+			add_offsite_building = {
 				type = arms_factory
-				level = 2
+				level = 10
 			}
 		    add_offsite_building = {
 		    	type = dockyard
-		    	level = 2
+		    	level = 5
 		    }
 		}
 	}

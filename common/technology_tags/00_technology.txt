@@ -132,6 +132,7 @@ technology_folders = {
 			original_tag = MAL
 			original_tag = USA
 			original_tag = JAP
+			original_tag = ITA
 		    original_tag = HUN
 		    original_tag = ROM
 			original_tag = SPR
@@ -145,6 +146,7 @@ technology_folders = {
 			original_tag = CZE
 			original_tag = PHI
 			original_tag = MON
+			original_tag = FRA
 			original_tag = HOL
 		  }
         }
@@ -153,6 +155,7 @@ technology_folders = {
 		ledger = army
         available = {
 			OR  = {
+			original_tag = ITA
 			original_tag = HUN
 			original_tag = ROM
 			original_tag = SPR
@@ -188,6 +191,7 @@ technology_folders = {
 			original_tag = NZL
 			original_tag = MAL
 			original_tag = IRE
+			original_tag = FRA
 			original_tag = HOL
 		    }
         }
@@ -237,7 +241,9 @@ technology_folders = {
 			original_tag = BUL
 			original_tag = FIN
 			original_tag = CZE
+			original_tag = FRA
 			original_tag = HOL
+			original_tag = ITA
 		  }
        }
     }
@@ -276,6 +282,7 @@ technology_folders = {
         available = {
 			OR  = {
 			original_tag = GER
+			original_tag = ITA
 			original_tag = HUN
 			original_tag = ROM
 			original_tag = SPR
@@ -306,6 +313,7 @@ technology_folders = {
 			original_tag = NZL
 			original_tag = MAL
 			original_tag = IRE
+			original_tag = FRA
 			original_tag = HOL
            }	
         }

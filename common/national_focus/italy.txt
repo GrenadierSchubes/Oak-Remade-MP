@@ -379,7 +379,7 @@ focus_tree = {
 		available_if_capitulated = yes
 		
 		available = {
-		    date > 1939.4.1
+		    date > 1940.1.1
         }
 		completion_reward = {
 		add_political_power = 100

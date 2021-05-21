@@ -11,16 +11,16 @@
 		infantry = { x = 2 y = 0 }
 		infantry = { x = 2 y = 1 }
 		infantry = { x = 2 y = 2 }
-		artillery_brigade = { x = 3 y = 0 }
-		artillery_brigade = { x = 3 y = 1 }
-		artillery_brigade = { x = 3 y = 2 }
+		pack_artillery_brigade = { x = 3 y = 0 }
+		pack_artillery_brigade = { x = 3 y = 1 }
+		pack_artillery_brigade = { x = 3 y = 2 }
 		infantry = { x = 4 y = 0 }
 		infantry = { x = 4 y = 1 }
 		infantry = { x = 4 y = 2 }
 	}
 	support = {
 		DIV_HQ = { x = 0 y = 0 } 
-		artillery = { x = 0 y = 1 }  # Full howitzer regiment
+		pack_artillery = { x = 0 y = 1 }  # Full howitzer regiment
 		recon = { x = 1 y = 0 }   
 		engineer = { x = 1 y = 1 }  
         anti_air_company = { x = 0 y = 2 }	  
@@ -39,16 +39,16 @@ division_template = {
 		marine = { x = 2 y = 0 }
 		marine = { x = 2 y = 1 }
 		marine = { x = 2 y = 2 }
-		artillery_brigade = { x = 3 y = 0 }
-		artillery_brigade = { x = 3 y = 1 }
-		artillery_brigade = { x = 3 y = 2 }
+		pack_artillery_brigade = { x = 3 y = 0 }
+		pack_artillery_brigade = { x = 3 y = 1 }
+		pack_artillery_brigade = { x = 3 y = 2 }
 		marine = { x = 4 y = 0 }
 		marine = { x = 4 y = 1 }
 		marine = { x = 4 y = 2 }
 	}
 	support = {
 		DIV_HQ = { x = 0 y = 0 } 
-		artillery = { x = 0 y = 1 }  # Full howitzer regiment
+		pack_artillery = { x = 0 y = 1 }  # Full howitzer regiment
 		recon = { x = 1 y = 0 }   
 		engineer = { x = 1 y = 1 }  
         anti_air_company = { x = 0 y = 2 }	
@@ -196,7 +196,7 @@ instant_effect = {
 	}
 	add_equipment_production = {
 		equipment = {
-			type = artillery_equipment_1
+			type = pack_artillery_equipment_1
 			creator = "HOL" 
 		}
 		requested_factories = 1

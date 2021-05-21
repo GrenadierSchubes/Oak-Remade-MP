@@ -1,28 +1,31 @@
-﻿capital = 713
+﻿capital = 26
 
 oob = "EFR_1936"
 
-if = {
-	limit = { has_dlc = "Man the Guns" }
-	set_naval_oob = "EFR_fleet"
-}
-
 set_research_slots = 5
-# Starting tech
-set_technology = { #player 
+set_technology = {
 	########## infantry ###########
-	infantry_weapons = 1  
-	fuel_silos = 1 
+	infantry_weapons = 1 
+	fuel_silos = 1
 	field_equipment = 1 
 	tech_radio_1 = 1 
 	infantry_weapons1 = 1
+	infantry_weapons2 = 1
+	improved_infantry_weapons = 1
 	support_weapons = 1
+	support_weapons2 = 1
 	tech_mountaineers = 1
-	fuel_refining = 1
 	special_equipment = 1
 	electronic_mechanical_engineering = 1
+	decimetric_radar = 1
+	mechanical_computing = 1
+	computing_machine = 1
 	radio = 1
 	tech_dig_1 = 1
+	recon_radio = 1
+	vehicle_radio = 1
+	support_radio = 1
+	infantry_radio = 1
 	############ support #########
 	tech_support = 1
 	tech_recon = 1
@@ -31,57 +34,74 @@ set_technology = { #player
 	tech_maintenance_company = 1
 	tech_field_hospital = 1
 	tech_logistics_company = 1
+	tech_signal_company = 1
 	########### artillery #########
-	artillery1 = 1 
 	gw_pack_artillery = 1
+	pack_artillery1 = 1
+	pack_artillery2 = 1
+	artillery1 = 1 
+	artillery2 = 1 
+	artillery4 = 1 
 	heavy_artillery1 = 1
+	heavy_artillery2 = 1
 	interwar_antitank = 1
+	antitank1 = 1
+	antitank2 = 2
 	interwar_antiair = 1
+	antiair1 = 1
+	antiair2 = 1
 	############ armor ############
-	motorised_infantry = 1
-	tech_armored_cars = 1
-	tech_armored_cars2 = 1
 	light_tank_1934 = 1 
-	light_tank_1936 = 1
+	motorised_infantry = 1
 	heavy_tank_1934 = 1
+	light_tank_1936 = 1
+	light_tank_1938 = 1
+	medium_tank_1937 = 1
+	medium_tank_1939 = 1
+	tech_armored_cars = 1
 	############# aircraft ############
+	cv_fighter_1936 = 1
 	fighter_1934 = 1
 	cv_fighter_1934 = 1
-	fighter_1936 = 1
-	heavy_fighter_1936 = 1
-	fighter_1936 = 1
-	naval_bomber_1936 = 1
+	cv_fighter_1936 = 1
+	cv_fighter_1938 = 1
 	cv_naval_bomber_1936 = 1
+	cv_naval_bomber_1938 = 1
+	naval_bomber_1936 = 1
+	naval_bomber_1938 = 1
 	tactical_bomber_1934 = 1
+	tactical_bomber_1937 = 1
+	fighter_1936 = 1
+	fighter_1938 = 1
 
-	aluminum_frame = 1
-	
-	trench_warfare = 1
-	fleet_in_being = 1
-	air_superiority = 1
 	############## economy ################
 	starting_industry = 1
 	basic_machine_tools = 1
+	basic_skills = 1
+	specialized_skills = 1
+	streamlined_skills = 1
+	improved_machine_tools = 1
+	advanced_machine_tools = 1
+	factory_management = 1
+	fuel_refining = 1
+	fuel_refining2 = 1
+	fuel_refining3 = 1
+	synth_oil_experiments = 1
+	oil_processing = 1
+	improved_oil_processing = 1
+	rubber_processing = 1
+	improved_rubber_processing = 1
+	construction1 = 1
+	excavation1 = 1
+	excavation2 = 1
+	excavation3 = 1
+	construction2 = 1
+	construction3 = 1
+	concentrated_industry = 1 
+	concentrated_industry2 = 1 
+	concentrated_industry3 = 1 
 	
 }	
-if = {
-	limit = { not = { has_dlc = "Man the Guns" } }
-		set_technology = {
-		early_submarine = 1
-		basic_submarine = 1
-		early_destroyer = 1
-		basic_destroyer = 1
-		early_light_cruiser = 1
-		basic_light_cruiser = 1
-		early_heavy_cruiser = 1
-		basic_heavy_cruiser = 1
-		early_battleship = 1
-		early_battlecruiser = 1
-		basic_battlecruiser = 1
-		early_carrier = 1
-		transport = 1 
-	}
-}
 if = {
 	limit = { has_dlc = "Man the Guns" }
 	set_technology = {
@@ -115,11 +135,9 @@ if = {
 		improved_airplane_launcher = 1
 	}
 }
-
-add_manpower = 50000
 set_convoys = 300
-set_stability = 0.4
-set_war_support = 0.5
+set_stability = 0.8
+set_war_support = 0.6
 
 
 set_politics = {
@@ -135,7 +153,7 @@ set_popularities = {
 
 add_ideas = {
 	limited_conscription
-	EFR_war
+	GER_gestapo_idea2
 }
 
 create_country_leader = {
@@ -163,18 +181,18 @@ create_country_leader = {
 create_field_marshal = {
 	name = "Maxime Weygand"
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
-	traits = { logistics_wizard inflexible_strategist }
-	skill = 4
-	attack_skill = 4
+	traits = { }
+	skill = 3
+	attack_skill = 3
 	defense_skill = 3
 	planning_skill = 3
-	logistics_skill = 4
+	logistics_skill = 2
 }
 
 create_corps_commander = { 
 	name = "Jean de Lattre de Tassigny"
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
-	traits = { trait_mountaineer infantry_leader }
+	traits = { trickster }
 	skill = 4
 	attack_skill = 3
 	defense_skill = 4
@@ -185,17 +203,17 @@ create_corps_commander = {
 create_corps_commander = {
 	name = "Henri Dentz"
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
-	traits = { trickster panzer_leader }
+	traits = { }
 	skill = 3
-	attack_skill = 4
+	attack_skill = 3
 	defense_skill = 3
-	planning_skill = 2
-	logistics_skill = 4
+	planning_skill = 3
+	logistics_skill = 3
 }					
 create_corps_commander = {
 	name = "Charles Huntziger"
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
-	traits = { infantry_leader }
+	traits = { }
 	skill = 3
 	attack_skill = 2
 	defense_skill = 3
@@ -205,16 +223,6 @@ create_corps_commander = {
 create_navy_leader = {
     name = "François Darlan"
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_navy_1.dds" 
-	traits = { chief_engineer superior_tactician ironside }
-	skill = 5
-	attack_skill = 5
-	defense_skill = 4
-	maneuvering_skill = 5
-	coordination_skill = 4
-}
-create_navy_leader = {
-	name = "Jean-Marie Charles Abrial"
-	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_navy_2.dds" 
 	traits = { naval_lineage bold superior_tactician }
 	skill = 3
 	attack_skill = 3
@@ -223,14 +231,24 @@ create_navy_leader = {
 	coordination_skill = 3
 }
 create_navy_leader = {
-	name = "Jean-Pierre Esteva"
-	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_navy_3.dds" 
-	traits = { seawolf }
+	name = "Jean-Marie Charles Abrial"
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_navy_2.dds" 
+	traits = { chief_engineer superior_tactician }
 	skill = 3
-	attack_skill = 3
+	attack_skill = 2
 	defense_skill = 3
 	maneuvering_skill = 3
-	coordination_skill = 3
+	coordination_skill = 2
+}
+create_navy_leader = {
+	name = "Jean-Pierre Esteva"
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_navy_3.dds" 
+	traits = { aviation_enthusiast }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	maneuvering_skill = 2
+	coordination_skill = 2
 }
 if = {
 	limit = { has_dlc = "Man the Guns" }
