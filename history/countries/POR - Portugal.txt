@@ -126,6 +126,14 @@ if = {
 		mtg_transport = 1
 		improved_airplane_launcher = 1
 		magnetic_detonator = 1
+		basic_submarine_snorkel = 1
+		improved_submarine_snorkel = 1
+		damage_control_1 = 1
+		damage_control_2 = 1
+		damage_control_3 = 1
+		fire_control_methods_1 = 1
+		fire_control_methods_2 = 1
+		fire_control_methods_3 = 1
 	}
 }
 
@@ -258,7 +266,7 @@ if = {
 	create_corps_commander = {
 		name = "Carl Johnson"
 		portrait_path = "gfx/leaders/POR/CarlJohnson.dds"
-		traits = { motorized_leader motorized_expert trickster winter_specialist }
+		traits = { yak_command motorized_leader motorized_expert trickster winter_specialist }
 		skill = 4
 	
 		attack_skill = 4
@@ -270,7 +278,7 @@ if = {
 	create_corps_commander = {
 		name = "Courier Six"
 		portrait_path = "gfx/leaders/POR/CourierSix.dds"
-		traits = { panzer_leader panzer_expert trickster trait_engineer }
+		traits = { yak_command panzer_leader panzer_expert trickster trait_engineer }
 		skill = 4
 	
 		attack_skill = 4
@@ -281,7 +289,7 @@ if = {
 	create_corps_commander = {
 		name = "Cluckin Bell Employee"
 		portrait_path = "gfx/leaders/POR/CluckinBellEmployee.dds"
-		traits = { panzer_leader panzer_expert trickster }
+		traits = { yak_command panzer_leader panzer_expert trickster }
 		skill = 4
 	
 		attack_skill = 4
@@ -292,7 +300,7 @@ if = {
 	create_corps_commander = {
 		name = "Tenpenny"
 		portrait_path = "gfx/leaders/POR/Tenpenny.dds"
-		traits = { infantry_leader infantry_expert trickster }
+		traits = { yak_command infantry_leader infantry_expert trickster }
 		skill = 4
 	
 		attack_skill = 4
@@ -304,7 +312,7 @@ if = {
 	create_corps_commander = {
 		name = "Truth"
 		portrait_path = "gfx/leaders/POR/Truth.dds"
-		traits = { infantry_leader infantry_expert trickster naval_invader }
+		traits = { yak_command infantry_leader infantry_expert trickster naval_invader }
 		skill = 4
 	
 		attack_skill = 4
@@ -316,7 +324,7 @@ if = {
 	create_navy_leader = {
 		name = "Darth Revan"
 		portrait_path = "gfx/leaders/POR/Revan.dds"
-		traits = { gentlemanly superior_tactician }
+		traits = { gentlemanly fleet_protector destroyer_leader hunter_killer ironside safety_first crisis_magician big_guns_expert superior_tactician blue_water_expert }
 		skill = 5
 		attack_skill = 5
 		defense_skill = 5
@@ -327,7 +335,7 @@ if = {
 	create_navy_leader = {
 		name = "Wu Zi Mu"
 		portrait_path = "gfx/leaders/POR/WuZiMu.dds"
-		traits = { gentlemanly superior_tactician }
+		traits = { gentlemanly seawolf silent_hunter loading_drill_master superior_tactician inshore_fighter }
 		skill = 3
 		attack_skill = 3
 		defense_skill = 3
