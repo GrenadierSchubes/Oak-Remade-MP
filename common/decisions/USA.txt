@@ -79,17 +79,17 @@ USA_popular_support = {
 			factor = 10
 		}
 
-		days_re_enable = 45
+		days_re_enable = 65
 		days_remove = 20
 
 		complete_effect = {
 			set_country_flag = USA_lobbying_effort_flag
+			clr_country_flag = USA_congress_blocking_focus
+			custom_effect_tooltip = USA_congress_blocking_2_tt
 		}
 
 		remove_effect = {
 			clr_country_flag = USA_lobbying_effort_flag
-			clr_country_flag = USA_congress_blocking_focus
-			custom_effect_tooltip = USA_congress_blocking_2_tt
 		}
 
 		modifier = {

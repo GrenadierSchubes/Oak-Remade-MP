@@ -1399,10 +1399,10 @@ ideas = {
 			
 			equipment_bonus = {
 				ship_hull_heavy = {
-					build_cost_ic = -0.05 
+					build_cost_ic = -0.05 instant = yes
 				}
 				ship_hull_carrier = {
-					build_cost_ic = -0.05 
+					build_cost_ic = -0.05 instant = yes
 				}				
 			}
 		}
@@ -1419,7 +1419,7 @@ ideas = {
 			
 			equipment_bonus = {
 				ship_hull_heavy = {
-					build_cost_ic = -0.12
+					build_cost_ic = -0.12 instant = yes
 				}				
 			}
 		}
@@ -1436,7 +1436,7 @@ ideas = {
 			
 			equipment_bonus = {
 				submarine = {
-					build_cost_ic = -0.1 
+					build_cost_ic = -0.1 instant = yes
 				}
 			}
 		}
@@ -1454,7 +1454,7 @@ ideas = {
 			
 			equipment_bonus = {
 				ship_hull_light = {
-					build_cost_ic = -0.1 
+					build_cost_ic = -0.1 instant = yes
 				}
 			}
 		}	
@@ -1471,7 +1471,7 @@ ideas = {
 			
 			equipment_bonus = {
 				convoy = {
-					build_cost_ic = -0.2 
+					build_cost_ic = -0.2 instant = yes
 				}				
 			}
 		}	

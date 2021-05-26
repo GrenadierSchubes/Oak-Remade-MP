@@ -922,7 +922,7 @@ instant_effect = { #player
 	############# equipment stockpile ################
 	add_equipment_to_stockpile = {
 		type = infantry_equipment_1
-			amount = 22000
+			amount = 20000
 			producer = JAP
 	}
 	add_equipment_to_stockpile = {
@@ -932,12 +932,12 @@ instant_effect = { #player
 	}	
 	add_equipment_to_stockpile = {
 		type = artillery_equipment_1
-			amount = 1200
+			amount = 900
 			producer = JAP
 		}
 	add_equipment_to_stockpile = {
 		type = pack_artillery_equipment_1
-			amount = 1600
+			amount = 1200
 			producer = JAP
 		}
 	add_equipment_to_stockpile = {
@@ -957,7 +957,7 @@ instant_effect = { #player
 		}
 	add_equipment_to_stockpile = {
 		type = horse_equipment_0
-			amount = 2800
+			amount = 2700
 			producer = JAP
 		}
 	add_equipment_to_stockpile = {

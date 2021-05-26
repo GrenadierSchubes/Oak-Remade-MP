@@ -6,6 +6,7 @@ state=
 	manpower=42
 	history=
 	{
+		set_state_flag = JAP_controls
 		owner = JAP
 		add_core_of = FSM
 		buildings = {

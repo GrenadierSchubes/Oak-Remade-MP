@@ -98,7 +98,6 @@ ideas = {
 			}
 		}
 		USA_island_hopping1 = {
-			name = USA_island_hopping
 			allowed = {
 				always = no
 			}
@@ -107,9 +106,10 @@ ideas = {
 
 			modifier = {
 			consumer_goods_factor = 0.07
+				stability_weekly = -0.0035
 				political_power_gain = -0.35
-				war_support_factor = -0.20
-				stability_factor = -0.20 
+				war_support_factor = -0.35
+				stability_factor = -0.35
 			}
 		}
 		USA_island_hopping2 = {
@@ -120,10 +120,11 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-			consumer_goods_factor = 0.06
+				consumer_goods_factor = 0.06
+				stability_weekly = -0.0030
 				political_power_gain = -0.30
-				war_support_factor = -0.18
-				stability_factor = -0.18
+				war_support_factor = -0.3
+				stability_factor = -0.3
 			}
 		}
 		USA_island_hopping3 = {
@@ -135,7 +136,7 @@ ideas = {
 
 			modifier = {
 				consumer_goods_factor = 0.05
-				stability_weekly = -0.003
+				stability_weekly = -0.0025
 				political_power_gain = -0.25
 				war_support_factor = -0.25
 				stability_factor = -0.25
@@ -150,7 +151,7 @@ ideas = {
 
 			modifier = {
 				consumer_goods_factor = 0.04
-				stability_weekly = -0.0025
+				stability_weekly = -0.002
 				political_power_gain = -0.20
 				war_support_factor = -0.2
 				stability_factor = -0.2 
@@ -165,7 +166,7 @@ ideas = {
 
 			modifier = {
 				consumer_goods_factor = 0.03
-				stability_weekly = -0.002
+				stability_weekly = -0.0015
 				political_power_gain = -0.15
 				war_support_factor = -0.15
 				stability_factor = -0.15 
@@ -180,7 +181,7 @@ ideas = {
 
 			modifier = {
 				consumer_goods_factor = 0.02
-				stability_weekly = -0.0015
+				stability_weekly = -0.001
 				political_power_gain = -0.1
 				war_support_factor = -0.1
 				stability_factor = -0.1 
@@ -195,7 +196,7 @@ ideas = {
 
 			modifier = {
 			    consumer_goods_factor = 0.01
-				stability_weekly = -0.001
+				stability_weekly = -0.0005
 				political_power_gain = -0.05
 				war_support_factor = -0.05
 				stability_factor = -0.05 

@@ -36,7 +36,23 @@
  JAP_base_defence_force_tt:0 "All major naval bases in Japan will be heavily fortified by constructing level 5 §YCoastal Forts§! in every single province."
  JAP_naval_war_college_tt:0 "All of our advisors in §YNaval Research§!, §YNavy Chief of Staff§! and §YMilitary High Command§! will become available at a reduced §Gcost§!.\n"
  JAP_is_cheating_or_has_abandoned_naval_treaties_tt:0 "To pick this §Yfocus§! you need to either §Ycheat§! on the §YLondon Naval Treaty§! or §Yabandon§! the §YLondon Naval Treaty§!"
- 
+ JAP_conference_tt:0 "You will receive a series of events where you must decide how to allocate the limited available resources between the Army and the Navy."
+ JAP_iwc_steel_army:0 "Allocated steel to the IJA"
+ JAP_iwc_steel_navy:0 "Allocated steel to the IJN"
+ JAP_iwc_air_army:0 "Supported IJA aircraft production"
+ JAP_iwc_air_navy:0 "Supported IJN aircraft production"
+ JAP_iwc_conscription_army:0 "Opted for indiscriminate conscription"
+ JAP_iwc_conscription_navy:0 "Opted for draft exemptions"
+ JAP_replace_infantry_production_tt:0 "Replace §YInfantry Production Focus§! with"
+ JAP_replace_truck_production_tt:0 "Replace §YTruck Production Focus§! with"
+ JAP_replace_production_puppets_tt:0 "This also applies to §Y[MAN.GetFlag][MAN.getName]§! and §Y[SIA.GetFlag][SIA.getName]§!."
+ JAP_replace_convoy_discount_tt:0 "Replace §YConvoy System Priority§! with"
+ JAP_declare_on_china_tt:0 "§YWe shall begin a 30 day offensive to take Beijing!§!"
+ JAP_china_war_200_days_tt:0 "§YThis offensive will take §!§R200§!§Y days.§!"
+ JAP_china_war_150_days_tt:0 "§YThis offensive will take §!§O150§!§Y days.§!"
+ JAP_china_war_100_days_tt:0 "§YThis offensive will take §!§G100§!§Y days.§!"
+ JAP_china_war_50_days_tt:0 "§YThis offensive will take §!§G50§!§Y days.§!"
+
  ##############SOVIET TOOLTIPS##############
 
  SOV_phase_of_5_year_plan_focus_tt:0 "A state must have been marked by the great industrial planners of the Union to be a part of the next phase of the five year plan for this focus to have any effects.\n\n" 
@@ -130,7 +146,7 @@
  USA_gain_stab_democratic_tt:0 "We gain the following amount of §YStability§! due to the amount of voters that have decided to vote democratic. (Based upon Democratic Party Popularity) "
  USA_level_up_aircraft_twice_tt:0 "The §YAircraft Industry§! national spirit will be upgraded twice. Thus, resulting in a 10% decrease in £production_cost!"
  USA_congress_blocking_1_tt:0 "§YCongress§! has in their infinite wisdom, decided to stop our efforts to pass any more bills through. To persuade them to allow more of our efforts to improve the country go through, we must first lobby for their approval."
- USA_congress_blocking_2_tt:0 "§YCongress§! will be convinced to stop their attempts to prevent us from passing any more bills. After this §YDecision§! is completed you will be able to select one of the focuses that would have been blocked by congress."
+ USA_congress_blocking_2_tt:0 "§YCongress§! will be convinced to stop their attempts to prevent us from passing any more bills. Upon selecting this §YDecision§! you will be able to select one of the focuses that would have been blocked by Congress."
 
 
  ############GER TOOLTIPS############
