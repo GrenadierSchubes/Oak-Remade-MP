@@ -2148,10 +2148,28 @@ focus_tree = {
 		    SOV = {
 		    	add_opinion_modifier = { target = ROOT modifier = embargo } 
 				add_opinion_modifier = { target = ROOT modifier = embargo_relation } 
+		    	add_opinion_modifier = { target = MAN modifier = embargo } 
+				add_opinion_modifier = { target = MAN modifier = embargo_relation } 
+		    	add_opinion_modifier = { target = SIA modifier = embargo } 
+				add_opinion_modifier = { target = SIA modifier = embargo_relation } 
 		    }
 		    JAP = {
 		    	add_opinion_modifier = { target = SOV modifier = embargo } 
 				add_opinion_modifier = { target = SOV modifier = embargo_relation } 
+		    	add_opinion_modifier = { target = MON modifier = embargo } 
+				add_opinion_modifier = { target = MON modifier = embargo_relation } 
+		    }
+		    MAN = {
+		    	add_opinion_modifier = { target = SOV modifier = embargo } 
+				add_opinion_modifier = { target = SOV modifier = embargo_relation } 
+		    	add_opinion_modifier = { target = MON modifier = embargo } 
+				add_opinion_modifier = { target = MON modifier = embargo_relation }  
+		    }
+		    SIA = {
+		    	add_opinion_modifier = { target = SOV modifier = embargo } 
+				add_opinion_modifier = { target = SOV modifier = embargo_relation } 
+		    	add_opinion_modifier = { target = MON modifier = embargo } 
+				add_opinion_modifier = { target = MON modifier = embargo_relation }  
 		    }
 			declare_war_on = {
 				target = USA

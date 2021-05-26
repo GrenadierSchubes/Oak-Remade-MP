@@ -146,7 +146,7 @@
  USA_gain_stab_democratic_tt:0 "We gain the following amount of §YStability§! due to the amount of voters that have decided to vote democratic. (Based upon Democratic Party Popularity) "
  USA_level_up_aircraft_twice_tt:0 "The §YAircraft Industry§! national spirit will be upgraded twice. Thus, resulting in a 10% decrease in £production_cost!"
  USA_congress_blocking_1_tt:0 "§YCongress§! has in their infinite wisdom, decided to stop our efforts to pass any more bills through. To persuade them to allow more of our efforts to improve the country go through, we must first lobby for their approval."
- USA_congress_blocking_2_tt:0 "§YCongress§! will be convinced to stop their attempts to prevent us from passing any more bills. After this §YDecision§! is completed you will be able to select one of the focuses that would have been blocked by congress."
+ USA_congress_blocking_2_tt:0 "§YCongress§! will be convinced to stop their attempts to prevent us from passing any more bills. Upon selecting this §YDecision§! you will be able to select one of the focuses that would have been blocked by Congress."
 
 
  ############GER TOOLTIPS############
