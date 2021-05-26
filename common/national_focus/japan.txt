@@ -1702,7 +1702,7 @@ focus_tree = {
 					country_event = china.1
 				}
 			}
-			add_named_threat = { threat = 1 name = JAP_intervene_in_china }
+			add_named_threat = { threat = 6 name = JAP_intervene_in_china }
 			if = {
 				limit = {
 					JAP = {
