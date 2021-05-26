@@ -2031,7 +2031,7 @@ ideas = {
 			research_bonus = {
 				naval_equipment = -0.05
 			}
-			
+			modifier = { naval_manufacturer_cost_factor = -0.33 }
 			traits = { battlefleet_designer } # built Yamato
 
 		}
@@ -2048,7 +2048,7 @@ ideas = {
 			research_bonus = {
 				naval_equipment = -0.05
 			}
-			
+			modifier = { naval_manufacturer_cost_factor = -0.33 }
 			traits = { pacific_fleet_naval_manufacturer } #built best CVs
 
 			equipment_bonus = {
@@ -2065,7 +2065,7 @@ ideas = {
 			research_bonus = {
 				naval_equipment = -0.05
 			}
-			
+			modifier = { naval_manufacturer_cost_factor = -0.33 }
 			traits = { convoy_escort_naval_manufacturer } #destroyer R&D
 
 			equipment_bonus = {
@@ -2082,7 +2082,7 @@ ideas = {
 			research_bonus = {
 				naval_equipment = -0.05
 			}
-			
+			modifier = { naval_manufacturer_cost_factor = -0.33 }
 			traits = { coastal_defence_naval_manufacturer } #used for many repairs and conversions
 			
 			equipment_bonus = {
@@ -2157,6 +2157,7 @@ ideas = {
 			research_bonus = {
 				air_equipment = -0.05
 			}
+			modifier = { aircraft_manufacturer_cost_factor = -0.33 }
 			equipment_bonus = {
 				fighter_equipment = {
 					air_agility = 0.1 maximum_speed = 0.1
@@ -2186,7 +2187,7 @@ ideas = {
 			research_bonus = {
 				air_equipment = -0.05
 			}
-			
+			modifier = { aircraft_manufacturer_cost_factor = -0.33 }
 			equipment_bonus = {
 				fighter_equipment = {
 					air_range = 0.1
@@ -2212,7 +2213,7 @@ ideas = {
 			research_bonus = {
 				air_equipment = -0.05
 			}
-			
+			modifier = { aircraft_manufacturer_cost_factor = -0.33 }
 			traits = { heavy_aircraft_manufacturer }
 
 		}
@@ -2226,7 +2227,7 @@ ideas = {
 			research_bonus = {
 				air_equipment = -0.05
 			}
-			
+			modifier = { aircraft_manufacturer_cost_factor = -0.33 }
 			traits = { naval_aircraft_manufacturer }
 		}
 	}
@@ -2474,7 +2475,7 @@ ideas = {
 			research_bonus = {
 				infantry_weapons = -0.05
 			}
-			
+			modifier = { materiel_manufacturer_cost_factor = -0.33 }
 			traits = { infantry_equipment_manufacturer }
 		}
 		
@@ -2487,7 +2488,7 @@ ideas = {
 			research_bonus = {
 				motorized_equipment = -0.05
 			}
-			
+			modifier = { materiel_manufacturer_cost_factor = -0.33 }
 			traits = { motorized_equipment_manufacturer }
 		}
 
@@ -2508,7 +2509,7 @@ ideas = {
 			research_bonus = {
 				artillery = -0.05
 			}
-			
+			modifier = { materiel_manufacturer_cost_factor = -0.33 }
 			traits = { artillery_manufacturer }
 		}	
 	}

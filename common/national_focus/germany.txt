@@ -423,6 +423,7 @@ focus_tree = {
 		cost = 5
 
 		available = {
+			has_political_power > 99 
 		    FRA = {
 		        has_capitulated = yes 
 			}
@@ -433,8 +434,8 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			custom_effect_tooltip = available_industrial_concern
-			show_ideas_tooltip = krupp_industrial_concern
+			add_ideas = krupp_industrial_concern
+			add_political_power = -100
 		}
 	}
 
@@ -1156,6 +1157,7 @@ focus_tree = {
 		y = 4
 		cost = 5
 		available = {
+			has_political_power > 99
 		    FRA = {
 		        has_capitulated = yes 
 			}
@@ -1166,8 +1168,8 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			custom_effect_tooltip = available_industrial_concern
-			show_ideas_tooltip = reichswerke_hermann_goring
+			add_ideas = reichswerke_hermann_goring
+			add_political_power = -100
 		}
 	}
 

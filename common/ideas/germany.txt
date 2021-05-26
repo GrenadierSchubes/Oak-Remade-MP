@@ -1658,7 +1658,7 @@ ideas = {
 				root_out_resistance_effectiveness_factor = 0.1
 				political_power_gain = 0.2
 				fascism_drift = 0.2
-				operative_slot = 1
+				operative_slot = 2
 			}
 
 		}
@@ -2295,7 +2295,7 @@ ideas = {
 			research_bonus = {
 				armor = -0.05
 			}
-
+			modifier = { tank_manufacturer_cost_factor = -0.33 }
 			ai_will_do = {
 				factor = 0
 			}
@@ -2377,7 +2377,7 @@ ideas = {
 			research_bonus = {
 				armor = -0.05
 			}
-
+			modifier = { tank_manufacturer_cost_factor = -0.33 }
 			ai_will_do = {
 				factor = 100
 			}
@@ -2437,7 +2437,7 @@ ideas = {
 			research_bonus = {
 				armor = -0.05		
 			}
-			
+			modifier = { tank_manufacturer_cost_factor = -0.33 }
 			equipment_bonus = {
 				heavy_tank_equipment = {
 					maximum_speed = -0.25 reliability = -0.25 armor_value = 0.25 
@@ -2479,7 +2479,7 @@ ideas = {
 			research_bonus = {
 				armor = -0.05		
 			}
-
+			modifier = { tank_manufacturer_cost_factor = -0.33 }
 			on_add = {
 				add_timed_idea = { idea = GER_tiger_production  days = 365 }
 			}
@@ -2526,7 +2526,7 @@ ideas = {
 			research_bonus = {
 				armor = -0.05		
 			}
-
+			modifier = { tank_manufacturer_cost_factor = -0.33 }
 			on_add = {
 				add_timed_idea = { idea = GER_panther_production  days = 365 }
 			}		
@@ -2582,7 +2582,7 @@ ideas = {
 			research_bonus = {
 				armor = -0.05		
 			}
-
+			modifier = { tank_manufacturer_cost_factor = -0.33 }
 			ai_will_do = {
 				factor = 0
 			}
@@ -2630,7 +2630,7 @@ ideas = {
 			research_bonus = {
 				armor = -0.05		
 			}			
-				
+			modifier = { tank_manufacturer_cost_factor = -0.33 }	
 			equipment_bonus = {
 				medium_tank_equipment = {
 					build_cost_ic = -0.1 
@@ -2676,7 +2676,7 @@ ideas = {
 			research_bonus = { 
 				armor = -0.05
 			}  
-
+			modifier = { tank_manufacturer_cost_factor = -0.33 }
 			equipment_bonus = {
 				light_tank_equipment = {
 					build_cost_ic = -0.05 armor_value = 0.1 reliability = -0.1
@@ -2731,7 +2731,7 @@ ideas = {
 			research_bonus = {
 				armor = -0.05		
 			}
-		
+			modifier = { tank_manufacturer_cost_factor = -0.33 }
 			equipment_bonus = {
 				light_tank_equipment = {
 					build_cost_ic = -0.10 reliability = 0.05  
@@ -2922,7 +2922,7 @@ ideas = {
 			research_bonus = {
 				air_equipment = -0.05
 			}
-
+			modifier = { aircraft_manufacturer_cost_factor = -0.33 }
 			equipment_bonus = {
 				fighter_equipment = {
 					air_agility = 0.1 air_range = 0.08  
@@ -2957,7 +2957,7 @@ ideas = {
 			research_bonus = {
 				air_equipment = -0.05
 			}
-
+			modifier = { aircraft_manufacturer_cost_factor = -0.33 }
 			cost = 0 
 
 			equipment_bonus = {
@@ -2991,7 +2991,7 @@ ideas = {
 			research_bonus = {
 				air_equipment = -0.05
 			}
-
+			modifier = { aircraft_manufacturer_cost_factor = -0.33 }
 			equipment_bonus = {
 				fighter_equipment = {
 					air_agility = 0.1 air_attack = 0.08
@@ -3023,7 +3023,7 @@ ideas = {
 			research_bonus = {
 				air_equipment = -0.05
 			}
-			
+			modifier = { aircraft_manufacturer_cost_factor = -0.33 }
 			equipment_bonus = {
 				tac_bomber_equipment = {
 					air_range = 0.1 air_bombing = 0.1  
@@ -3055,7 +3055,7 @@ ideas = {
 			research_bonus = {
 				air_equipment = -0.05
 			}
-		
+			modifier = { aircraft_manufacturer_cost_factor = -0.33 }
 			equipment_bonus = {
 				CAS_equipment = {
 					air_ground_attack = 0.15 air_defence = 0.1 build_cost_ic = 0.05
@@ -3683,7 +3683,7 @@ ideas = {
 			research_bonus = {
 				motorized_equipment = -0.05
 			}
-
+			modifier = { materiel_manufacturer_cost_factor = -0.33 }
 			equipment_bonus = {
 				mechanized_equipment = {
 					breakthrough = 0.15 hardness = 0.05 armor_value = 0.2 build_cost_ic = 0.05 
@@ -3712,7 +3712,7 @@ ideas = {
 			research_bonus = {
 				artillery = -0.05
 			}
-			
+			modifier = { materiel_manufacturer_cost_factor = -0.33 }
 			traits = { artillery_manufacturer }
 			
 			modifier = {
@@ -3742,7 +3742,7 @@ ideas = {
 			research_bonus = {
 				infantry_weapons = -0.05
 			}
-
+			modifier = { materiel_manufacturer_cost_factor = -0.33 }
 			equipment_bonus = {
 				infantry_equipment = {
 					breakthrough = 0.05 soft_attack = 0.05 defense = 0.05 instant = yes 
@@ -3774,7 +3774,7 @@ ideas = {
 					has_completed_focus = GER_kdf_wagen
 				}
 			}
-
+			modifier = { materiel_manufacturer_cost_factor = -0.33 }
 			equipment_bonus = {
 				motorized_equipment = {
 					build_cost_ic = -0.15 instant = yes

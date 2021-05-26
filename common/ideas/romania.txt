@@ -1718,7 +1718,7 @@ ideas = {
 			research_bonus = {
 				armor = -0.05
 			}
-			
+			modifier = { tank_manufacturer_cost_factor = -0.33 }
 			traits = { GER_Krupp_tank_manufacturer }
 
 			available = {
@@ -1777,7 +1777,7 @@ ideas = {
 			research_bonus = {
 				armor = -0.05
 			}
-			
+			modifier = { tank_manufacturer_cost_factor = -0.33 }
 			traits = { GER_ckd_tank_manufacturer }
 
 			equipment_bonus = {
@@ -1819,7 +1819,7 @@ ideas = {
 			research_bonus = {
 				armor = -0.05
 			}
-			
+			modifier = { tank_manufacturer_cost_factor = -0.33 }
 			traits = { GER_Krupp_tank_manufacturer }
 
 			equipment_bonus = {
@@ -1942,7 +1942,7 @@ ideas = {
 			research_bonus = {
 				naval_equipment = 0.10
 			}
-			
+			modifier = { naval_manufacturer_cost_factor = -0.33 }
 			equipment_bonus = {
 				# cant find enough info 
 			}
@@ -1970,7 +1970,7 @@ ideas = {
 			research_bonus = {
 				naval_equipment = 0.10
 			}
-			
+			modifier = { naval_manufacturer_cost_factor = -0.33 }
 			equipment_bonus = {
 				ship_hull_light = {
 					lg_attack = 0.1
@@ -2007,7 +2007,7 @@ ideas = {
 			research_bonus = {
 				naval_equipment = 0.10
 			}
-			
+			modifier = { naval_manufacturer_cost_factor = -0.33 }
 			equipment_bonus = {
 				ship_hull_cruiser = {
 					hg_attack = 0.2
@@ -2079,7 +2079,7 @@ ideas = {
 			research_bonus = {
 				motorized_equipment = -0.05
 			}
-			
+			modifier = { materiel_manufacturer_cost_factor = -0.33 }
 			traits = { motorized_equipment_manufacturer }
 
 			equipment_bonus = {
@@ -2105,7 +2105,7 @@ ideas = {
 			research_bonus = {
 				motorized_equipment = -0.05
 			}
-			
+			modifier = { materiel_manufacturer_cost_factor = -0.33 }
 			traits = { motorized_equipment_manufacturer }
 			
 		}
@@ -2122,7 +2122,7 @@ ideas = {
 			research_bonus = {
 				infantry_weapons = -0.05
 			}
-			
+			modifier = { materiel_manufacturer_cost_factor = -0.33 }
 			traits = { infantry_equipment_manufacturer }
 			
 		}
@@ -2137,9 +2137,9 @@ ideas = {
 			}
 			
 			research_bonus = {
-				artillery = -0.05
+				artillery = -0.05 
 			}
-			
+			modifier = { materiel_manufacturer_cost_factor = -0.33 }
 			traits = { artillery_manufacturer }
 			
 		}
@@ -2162,7 +2162,7 @@ ideas = {
 			research_bonus = {
 				motorized_equipment = -0.05
 			}
-
+			modifier = { materiel_manufacturer_cost_factor = -0.33 }
 			equipment_bonus = {
 				motorized_equipment = {
 					reliability = 0.1 instant = yes
@@ -2197,7 +2197,7 @@ ideas = {
 			research_bonus = {
 				motorized_equipment = -0.05
 			}
-
+			modifier = { materiel_manufacturer_cost_factor = -0.33 }
 			equipment_bonus = {
 				mechanized_equipment = {
 					breakthrough = 0.15 hardness = 0.2 armor_value = 0.2 build_cost_ic = 0.05 
@@ -2327,7 +2327,7 @@ ideas = {
 			research_bonus = {
 				air_equipment = -0.05
 			}
-
+			modifier = { aircraft_manufacturer_cost_factor = -0.33 }
 			equipment_bonus = {
 				fighter_equipment = {
 					air_agility = 0.1 air_range = 0.08  
@@ -2362,7 +2362,7 @@ ideas = {
 			research_bonus = {
 				air_equipment = -0.05
 			}
-
+			modifier = { aircraft_manufacturer_cost_factor = -0.33 }
 			allowed = {
 				tag = ROM 
 			}
@@ -2402,12 +2402,12 @@ ideas = {
 				tag = ROM 
 			}
 
-			cost = 300
+			cost = 150
 
 			research_bonus = {
 				air_equipment = -0.05
 			}
-
+			modifier = { aircraft_manufacturer_cost_factor = -0.33 }
 			equipment_bonus = {
 				fighter_equipment = {
 					air_agility = 0.1 air_attack = 0.08
@@ -2443,7 +2443,7 @@ ideas = {
 			research_bonus = {
 				air_equipment = -0.05
 			}
-			
+			modifier = { aircraft_manufacturer_cost_factor = -0.33 }
 			traits = { light_aircraft_manufacturer }
 			
 			equipment_bonus = {
@@ -2478,7 +2478,7 @@ ideas = {
 			research_bonus = {
 				air_equipment = -0.05
 			}			
-			
+			modifier = { aircraft_manufacturer_cost_factor = -0.33 }
 			equipment_bonus = {
 				# produced the IAR-80 fighter/ground attack aircraft around 350 of them during 36-44
 				fighter_equipment = {
@@ -2512,7 +2512,7 @@ ideas = {
 			research_bonus = {
 				air_equipment = -0.05
 			}			
-			
+			modifier = { aircraft_manufacturer_cost_factor = -0.33 }
 			equipment_bonus = {
 				
 				fighter_equipment = {
@@ -2543,7 +2543,7 @@ ideas = {
 			research_bonus = {
 				air_equipment = -0.05
 			}			
-			
+			modifier = { aircraft_manufacturer_cost_factor = -0.33 }
 			equipment_bonus = {
 				
 				tac_bomber_equipment = {

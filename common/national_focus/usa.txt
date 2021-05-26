@@ -5666,7 +5666,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			show_ideas_tooltip = USA_wartime_industry_economy
+			add_ideas = USA_wartime_industry_economy
 		}
 	}
 

@@ -2403,7 +2403,7 @@ ideas = {
 			research_bonus = {
 				armor = -0.05
 			}
-			
+			modifier = { tank_manufacturer_cost_factor = -0.33 }
 
 			traits = { heavy_tank_manufacturer }
 		}
@@ -2429,7 +2429,7 @@ ideas = {
 			research_bonus = {
 				armor = -0.05
 			}
-			
+			modifier = { tank_manufacturer_cost_factor = -0.33 }
 
 			traits = { fast_tank_manufacturer }
 		}
@@ -2454,7 +2454,7 @@ ideas = {
 			research_bonus = {
 				armor = -0.05
 			}
-			
+			modifier = { tank_manufacturer_cost_factor = -0.33 }
 
 			traits = { infantry_tank_manufacturer }
 		}
@@ -2477,10 +2477,35 @@ ideas = {
 			research_bonus = {
 				armor = -0.05
 			}
-			
+			modifier = { tank_manufacturer_cost_factor = -0.33 }
 
 			traits = { medium_tank_manufacturer }
 		}
+	}
+	
+	materiel_manufacturer = {
+			
+		designer = yes
+		
+		somua = {
+		
+			allowed = {
+				original_tag = FRA
+			}
+
+			research_bonus = {
+				motorized_equipment = -0.05
+			}
+			modifier = { materiel_manufacturer_cost_factor = -0.33 }
+			equipment_bonus = {
+				mechanized_equipment = {
+					build_cost_ic = -0.1 
+				}
+			}
+			
+			traits = { GER_mechanized_equipment_manufacturer }
+		}
+		
 		FRA_panhard = {
 			
 
@@ -2498,35 +2523,11 @@ ideas = {
 			}
 						
 			research_bonus = {
-				armor = -0.05
-			}
-			
-
-			traits = { armored_car_manufacturer }
-		}
-	}
-	
-	materiel_manufacturer = {
-			
-		designer = yes
-		
-		somua = {
-		
-			allowed = {
-				original_tag = FRA
-			}
-
-			research_bonus = {
 				motorized_equipment = -0.05
 			}
-			
-			equipment_bonus = {
-				mechanized_equipment = {
-					build_cost_ic = -0.1 
-				}
-			}
-			
-			traits = { GER_mechanized_equipment_manufacturer }
+			modifier = { materiel_manufacturer_cost_factor = -0.33 }
+
+			traits = { armored_car_manufacturer }
 		}
 		
 		mas = {
@@ -2538,7 +2539,7 @@ ideas = {
 			research_bonus = {
 				infantry_weapons = -0.05
 			}
-			
+			modifier = { materiel_manufacturer_cost_factor = -0.33 }
 			traits = { infantry_equipment_manufacturer }
 		}
 	
@@ -2551,7 +2552,7 @@ ideas = {
 			research_bonus = {
 				artillery = -0.05
 			}
-			
+			modifier = { materiel_manufacturer_cost_factor = -0.33 }
 			traits = { artillery_manufacturer }
 		}
 	}
@@ -2570,7 +2571,7 @@ ideas = {
 			}
 			
 			research_bonus = { air_equipment = -0.05 }
-			
+			modifier = { aircraft_manufacturer_cost_factor = -0.33 }
 			traits = { light_aircraft_manufacturer }
 
 			modifier = {
@@ -2590,7 +2591,7 @@ ideas = {
 			}
 						
 			research_bonus = { air_equipment = -0.05 } 
-			
+			modifier = { aircraft_manufacturer_cost_factor = -0.33 }
 			traits = { medium_aircraft_manufacturer }
 		}
 		
@@ -2601,7 +2602,7 @@ ideas = {
 			}
 						
 			research_bonus = { air_equipment = -0.05 } 
-			
+			modifier = { aircraft_manufacturer_cost_factor = -0.33 }
 			traits = { heavy_aircraft_manufacturer }
 		}
 		
@@ -2612,7 +2613,7 @@ ideas = {
 			}
 						
 			research_bonus = { air_equipment = -0.05 } 
-			
+			modifier = { aircraft_manufacturer_cost_factor = -0.33 }
 			traits = { naval_aircraft_manufacturer }
 		}
 		SNCAN = {
@@ -2623,7 +2624,7 @@ ideas = {
 			visible = { has_completed_focus = FRA_reorganize_the_aviation_industry }	
 			available = { has_country_flag = FRA_SNCAN_formed }	
 			research_bonus = { air_equipment = -0.05 } 
-			
+			modifier = { aircraft_manufacturer_cost_factor = -0.33 }
 			traits = { heavy_aircraft_manufacturer }
 		}
 		SNCAO = {
@@ -2634,7 +2635,7 @@ ideas = {
 			visible = { has_completed_focus = FRA_reorganize_the_aviation_industry }	
 			available = { has_country_flag = FRA_SNCAO_formed }	
 			research_bonus = { air_equipment = -0.05 } 
-			
+			modifier = { aircraft_manufacturer_cost_factor = -0.33 }
 			traits = { medium_aircraft_manufacturer }
 		}
 		SNCASE = {
@@ -2645,7 +2646,7 @@ ideas = {
 			visible = { has_completed_focus = FRA_reorganize_the_aviation_industry }	
 			available = { has_country_flag = FRA_SNCASE_formed }	
 			research_bonus = { air_equipment = -0.05 } 
-			
+			modifier = { aircraft_manufacturer_cost_factor = -0.33 }
 			traits = { light_aircraft_manufacturer }
 		}
 		SNCASO = {
@@ -2656,7 +2657,7 @@ ideas = {
 			visible = { has_completed_focus = FRA_reorganize_the_aviation_industry }	
 			available = { has_country_flag = FRA_SNCASO_formed }	
 			research_bonus = { air_equipment = -0.05 } 
-			
+			modifier = { aircraft_manufacturer_cost_factor = -0.33 }
 			traits = { naval_aircraft_manufacturer }
 		}
 		SNCAC = {
@@ -2667,7 +2668,7 @@ ideas = {
 			visible = { has_completed_focus = FRA_reorganize_the_aviation_industry }	
 			available = { has_country_flag = FRA_SNCAC_formed }	
 			research_bonus = { air_equipment = -0.05 } 
-			
+			modifier = { aircraft_manufacturer_cost_factor = -0.33 }
 			traits = { aircraft_manufacturer }
 		}
 	}
@@ -2738,7 +2739,7 @@ ideas = {
 			research_bonus = {
 				naval_equipment = -0.05
 			}
-			
+			modifier = { naval_manufacturer_cost_factor = -0.33 }
 			traits = { mediterranean_naval_manufacturer }
 		}
 		aeb = {
@@ -2750,7 +2751,7 @@ ideas = {
 			research_bonus = {
 				naval_equipment = -0.05
 			}
-			
+			modifier = { naval_manufacturer_cost_factor = -0.33 }
 			traits = { convoy_escort_naval_manufacturer }
 		}
 		acl = {
@@ -2762,7 +2763,7 @@ ideas = {
 			research_bonus = {
 				naval_equipment = -0.05
 			}
-			
+			modifier = { naval_manufacturer_cost_factor = -0.33 }
 			traits = { atlantic_fleet_naval_manufacturer }
 		}
 		acf = {
@@ -2774,7 +2775,7 @@ ideas = {
 			research_bonus = {
 				naval_equipment = -0.05
 			}
-			
+			modifier = { naval_manufacturer_cost_factor = -0.33 }
 			traits = { raiding_fleet_naval_manufacturer }
 		}
 	}
