@@ -2073,6 +2073,7 @@ ideas = {
 			research_bonus = {
 				naval_equipment = -0.05
 			}
+			modifier = { naval_manufacturer_cost_factor = -0.33 }
 			available = {
 				has_completed_focus = RAJ_a_raiding_fleet
 			}
@@ -2092,7 +2093,7 @@ ideas = {
 			research_bonus = {
 				naval_equipment = -0.05
 			}
-			
+			modifier = { naval_manufacturer_cost_factor = -0.33 }
 			traits = { pacific_fleet_naval_manufacturer }
 		}
 		
@@ -2108,7 +2109,7 @@ ideas = {
 			research_bonus = {
 				naval_equipment = -0.05
 			}
-			
+			modifier = { naval_manufacturer_cost_factor = -0.33 }
 			available = {
 				has_completed_focus = RAJ_coastal_defence_fleet
 			}
@@ -2153,7 +2154,7 @@ ideas = {
 			research_bonus = {
 				air_equipment = -0.05
 			}
-			
+			modifier = { aircraft_manufacturer_cost_factor = -0.33 }
 			traits = {  }
 			
 			equipment_bonus = {
@@ -2178,7 +2179,7 @@ ideas = {
 			}
 			
 			research_bonus = { air_equipment = -0.05 }
-			
+			modifier = { aircraft_manufacturer_cost_factor = -0.33 }
 			traits = { CAS_manufacturer } 
 			
 			cost = 50 
@@ -2201,7 +2202,7 @@ ideas = {
 			
 
 			research_bonus = { air_equipment = -0.05 }
-			
+			modifier = { aircraft_manufacturer_cost_factor = -0.33 }
 			traits = {  } 
 			
 			cost = 50 
@@ -2254,7 +2255,7 @@ ideas = {
 			research_bonus = {
 				infantry_weapons = -0.05
 			}
-			
+			modifier = { materiel_manufacturer_cost_factor = -0.33 }
 			traits = { infantry_equipment_manufacturer }
 			
 			modifier = {
@@ -2276,7 +2277,7 @@ ideas = {
 			research_bonus = {
 				infantry_weapons = -0.05
 			}
-			
+			modifier = { materiel_manufacturer_cost_factor = -0.33 }
 			picture = generic_infantry_equipment_manufacturer_2
 			
 			traits = {  }
@@ -2303,7 +2304,7 @@ ideas = {
 			research_bonus = {
 				artillery = -0.05
 			}
-			
+			modifier = { materiel_manufacturer_cost_factor = -0.33 }
 			picture = generic_infantry_equipment_manufacturer_2
 			
 			traits = {  }
@@ -2330,7 +2331,7 @@ ideas = {
 			research_bonus = {
 				artillery = -0.05
 			}
-			
+			modifier = { materiel_manufacturer_cost_factor = -0.33 }
 			traits = { artillery_manufacturer }
 			
 			modifier = {
@@ -2396,7 +2397,7 @@ ideas = {
 			research_bonus = {
 				armor = -0.05
 			}
-
+			modifier = { tank_manufacturer_cost_factor = -0.33 }
 			traits = {  }
 
 			equipment_bonus = {

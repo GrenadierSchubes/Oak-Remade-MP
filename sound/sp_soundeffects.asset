@@ -92,7 +92,7 @@ soundeffect = {
 	sounds = {
 		sound = ger_fall_blau
 	}
-	volume = 1.0
+	volume = 0
 }
 
 soundeffect = {
@@ -116,7 +116,7 @@ soundeffect = {
 	sounds = {
 		sound = ger_mobilize
 	}
-	volume = 1.0
+	volume = 0
 }
 
 soundeffect = {
@@ -148,7 +148,7 @@ soundeffect = {
 	sounds = {
 		sound = ger_westerwald
 	}
-	volume = 1.0
+	volume = 0
 }
 
 ##Italian Speeches##
@@ -216,7 +216,7 @@ soundeffect = {
 	sounds = {
 		sound = sov_sacred_war
 	}
-	volume = 1.0
+	volume = 1
 }
 
 soundeffect = {

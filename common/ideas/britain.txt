@@ -2605,7 +2605,7 @@ ideas = {
 			research_bonus = {
 				naval_equipment = -0.05
 			}
-			
+			modifier = { naval_manufacturer_cost_factor = -0.33 }
 			traits = { convoy_escort_naval_manufacturer }
 
 		}
@@ -2621,7 +2621,7 @@ ideas = {
 			research_bonus = {
 				naval_equipment = -0.05
 			}
-			
+			modifier = { naval_manufacturer_cost_factor = -0.33 }
 			traits = { pacific_fleet_naval_manufacturer }
 		}
 		
@@ -2636,7 +2636,7 @@ ideas = {
 			research_bonus = {
 				naval_equipment = -0.05
 			}
-			
+			modifier = { naval_manufacturer_cost_factor = -0.33 }
 			traits = { atlantic_fleet_naval_manufacturer }
 			
 			modifier = {
@@ -2654,7 +2654,7 @@ ideas = {
 			research_bonus = {
 				naval_equipment = -0.05
 			}
-			
+			modifier = { naval_manufacturer_cost_factor = -0.33 }
 			traits = { coastal_defence_naval_manufacturer }
 		}	
 	}
@@ -2707,11 +2707,9 @@ ideas = {
 			
 
 			research_bonus = { air_equipment = -0.05 } 
-			
+			modifier = { aircraft_manufacturer_cost_factor = -0.33 }
 			traits = { light_aircraft_manufacturer }
 			
-			modifier = {
-			}
 		}
 		
 		hawker = {
@@ -2723,11 +2721,10 @@ ideas = {
 
 			
 			research_bonus = { air_equipment = -0.05 }
-			
+			modifier = { aircraft_manufacturer_cost_factor = -0.33 }
 			traits = { CAS_manufacturer } 
 			
-			modifier = {
-			}
+		
 		}	
 		de_havilland = {
 			
@@ -2738,14 +2735,9 @@ ideas = {
 
 			
 			research_bonus = { air_equipment = -0.05 }
-			
+			modifier = { aircraft_manufacturer_cost_factor = -0.33 }
 			traits = { medium_aircraft_manufacturer }
-			equipment_bonus = {
-			
-		    }
-			modifier = {
-			
-			}
+		
 		}
 		
 		avro = {
@@ -2757,11 +2749,9 @@ ideas = {
 
 			
 			research_bonus = { air_equipment = -0.05 } 
-			
+			modifier = { aircraft_manufacturer_cost_factor = -0.33 }
 			traits = { heavy_aircraft_manufacturer }
 			
-			modifier = {
-			}
 		}
 	}
     aircraft_research = {
@@ -2825,7 +2815,7 @@ ideas = {
 			research_bonus = {
 				infantry_weapons = -0.05
 			}
-			
+			modifier = { materiel_manufacturer_cost_factor = -0.33 }
 			traits = { infantry_equipment_manufacturer }
 			
 			modifier = {
@@ -2841,7 +2831,7 @@ ideas = {
 			research_bonus = {
 				motorized_equipment = -0.05
 			}
-			
+			modifier = { materiel_manufacturer_cost_factor = -0.33 }
 			traits = { motorized_equipment_manufacturer }
 			
 			modifier = {
@@ -2859,7 +2849,7 @@ ideas = {
 			research_bonus = {
 				artillery = -0.05
 			}
-			
+			modifier = { materiel_manufacturer_cost_factor = -0.33 }
 			traits = { artillery_manufacturer }
 			
 			modifier = {
@@ -3010,6 +3000,7 @@ ideas = {
 			research_bonus = {
 				armor = -0.05
 			}
+			modifier = { tank_manufacturer_cost_factor = -0.33 }
 			equipment_bonus = {
 				light_tank_equipment = {
 				    maximum_speed = 0.05
@@ -3044,7 +3035,7 @@ ideas = {
 			research_bonus = {
 				armor = -0.05
 			}
-
+			modifier = { tank_manufacturer_cost_factor = -0.33 }
 			traits = { vauxhall_trait }
 			
 			equipment_bonus = {
@@ -3074,7 +3065,7 @@ ideas = {
 			research_bonus = {
 				armor = -0.05
 			}
-			
+			modifier = { tank_manufacturer_cost_factor = -0.33 }
 			traits = { Leyland_trait }
 			
 			equipment_bonus = {

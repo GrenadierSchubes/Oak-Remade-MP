@@ -956,6 +956,7 @@ ideas = {
 			research_bonus = {
 				armor = -0.05
 			}
+			modifier = { tank_manufacturer_cost_factor = -0.33 }
 			equipment_bonus = {
 				light_tank_equipment = {
 				    maximum_speed = 0.05
@@ -987,6 +988,7 @@ ideas = {
 			research_bonus = {
 				armor = -0.05
 			}
+			modifier = { tank_manufacturer_cost_factor = -0.33 }
 			name = vauxhall
 			traits = { vauxhall_trait }
 			
@@ -1014,6 +1016,7 @@ ideas = {
 			research_bonus = {
 				armor = -0.05
 			}
+			modifier = { tank_manufacturer_cost_factor = -0.33 }
 			picture = Leyland	
 			traits = { Leyland_trait }
 			
@@ -1143,7 +1146,7 @@ ideas = {
 			research_bonus = {
 				support_tech = -0.05
 			}
-			
+			modifier = { materiel_manufacturer_cost_factor = -0.33 }
 			traits = { support_equipment_manufacturer }
 					
 		}	
@@ -1160,7 +1163,7 @@ ideas = {
 			research_bonus = {
 				infantry_weapons = -0.05
 			}
-			
+			modifier = { materiel_manufacturer_cost_factor = -0.33 }
 			traits = { infantry_equipment_manufacturer }
 			
 		}
@@ -1215,7 +1218,7 @@ ideas = {
 			research_bonus = {
 				naval_equipment = -0.05
 			}
-			
+			modifier = { naval_manufacturer_cost_factor = -0.33 }
 			equipment_bonus = {
 				
 			}
@@ -1234,7 +1237,7 @@ ideas = {
 			research_bonus = {
 				naval_equipment = -0.05
 			}
-			
+			modifier = { naval_manufacturer_cost_factor = -0.33 }
 			equipment_bonus = {
 				# destroyers
 			}
@@ -1294,7 +1297,7 @@ ideas = {
 			research_bonus = {
 				air_equipment = -0.05
 			}
-			
+			modifier = { aircraft_manufacturer_cost_factor = -0.33 }
 			traits = { medium_aircraft_manufacturer }
 			
 			# heavy fighters like mosquito
@@ -1315,7 +1318,7 @@ ideas = {
 			research_bonus = {
 				air_equipment = -0.05
 			}
-			
+			modifier = { aircraft_manufacturer_cost_factor = -0.33 }
 			traits = { light_aircraft_manufacturer }
 			
 			# fighter/interceptors like Hurricane
@@ -1342,7 +1345,7 @@ ideas = {
 			research_bonus = {
 				air_equipment = -0.05
 			}
-			
+			modifier = { aircraft_manufacturer_cost_factor = -0.33 }
 			traits = { naval_aircraft_manufacturer }
 			
 			# fighter/interceptors like Hurricane
@@ -1369,7 +1372,7 @@ ideas = {
 			research_bonus = {
 				air_equipment = -0.05
 			}
-			
+			modifier = { aircraft_manufacturer_cost_factor = -0.33 }
 			traits = { heavy_aircraft_manufacturer }
 			
 			# fighter/interceptors like Hurricane

@@ -1961,7 +1961,7 @@ ideas = {
 			research_bonus = {
 				armor = -0.05
 			}
-			
+			modifier = { tank_manufacturer_cost_factor = -0.33 }
 			traits = { tank_manufacturer }
 		}
 	}
@@ -2012,7 +2012,7 @@ ideas = {
 			research_bonus = {
 				naval_equipment = -0.05
 			}
-			
+			modifier = { naval_manufacturer_cost_factor = -0.33 }
 			traits = { naval_manufacturer }
 		}
 	}
@@ -2044,7 +2044,7 @@ ideas = {
 			research_bonus = {
 				air_equipment = -0.05
 			}
-			
+			modifier = { aircraft_manufacturer_cost_factor = -0.33 }
 			traits = { light_aircraft_manufacturer }
 		}
 		
@@ -2071,7 +2071,7 @@ ideas = {
 			research_bonus = {
 				air_equipment = -0.05
 			}
-			
+			modifier = { aircraft_manufacturer_cost_factor = -0.33 }
 			traits = { medium_aircraft_manufacturer }
 		}
 		
@@ -2098,7 +2098,7 @@ ideas = {
 			research_bonus = {
 				air_equipment = -0.05
 			}
-			
+			modifier = { aircraft_manufacturer_cost_factor = -0.33 }
 			traits = { heavy_aircraft_manufacturer }
 		}
 		
@@ -2119,7 +2119,7 @@ ideas = {
 			research_bonus = {
 				air_equipment = -0.05
 			}
-			
+			modifier = { aircraft_manufacturer_cost_factor = -0.33 }
 			traits = { naval_aircraft_manufacturer }
 		}
 	}
@@ -2248,7 +2248,7 @@ ideas = {
 			research_bonus = {
 				motorized_equipment = -0.05
 			}
-			
+			modifier = { materiel_manufacturer_cost_factor = -0.33 }
 			traits = { motorized_equipment_manufacturer }
 		}
 		
@@ -2269,7 +2269,7 @@ ideas = {
 			research_bonus = {
 				infantry_weapons = -0.05
 			}
-			
+			modifier = { aircraft_manufacturer_cost_factor = -0.33 }
 			traits = { infantry_equipment_manufacturer }
 		}
 		
@@ -2290,7 +2290,7 @@ ideas = {
 			research_bonus = {
 				artillery = -0.05
 			}
-			
+			modifier = { aircraft_manufacturer_cost_factor = -0.33 }
 			traits = { artillery_manufacturer }
 		}
 	}

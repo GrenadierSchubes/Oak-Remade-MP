@@ -1002,7 +1002,7 @@ high_command = {
 			research_bonus = {
 				naval_equipment = -0.05
 			}
-			
+			modifier = { naval_manufacturer_cost_factor = -0.33 }
 			traits = { convoy_escort_naval_manufacturer }
 
 		}
@@ -1018,7 +1018,7 @@ high_command = {
 			research_bonus = {
 				naval_equipment = -0.05
 			}
-			
+			modifier = { naval_manufacturer_cost_factor = -0.33 }
 			traits = { pacific_fleet_naval_manufacturer }
 		}
 		
@@ -1043,7 +1043,7 @@ high_command = {
 			research_bonus = {
 				support_tech = -0.05
 			}
-			
+			modifier = { materiel_manufacturer_cost_factor = -0.33 }
 			traits = { support_equipment_manufacturer }
 			
 			
@@ -1063,7 +1063,7 @@ high_command = {
 			research_bonus = {
 				infantry_weapons = -0.05
 			}
-			
+			modifier = { materiel_manufacturer_cost_factor = -0.33 }
 			traits = { infantry_equipment_manufacturer }
 			
 		}
@@ -1118,7 +1118,7 @@ high_command = {
 			research_bonus = {
 				air_equipment = -0.10
 			}			
-			
+			modifier = { aircraft_manufacturer_cost_factor = -0.33 }
 			equipment_bonus = {
 				fighter_equipment = {
 					build_cost_ic = -0.05 instant = yes
