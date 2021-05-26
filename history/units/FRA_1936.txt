@@ -173,7 +173,7 @@ division_template = {
 }
 
 division_template = {
-	name = "Division de Chars de Combat"
+	name = "Brigade de Medz"
     division_names_group = FRA_ARM_01
 	regiments = {
 		medium_armor = { x = 0 y = 0 }

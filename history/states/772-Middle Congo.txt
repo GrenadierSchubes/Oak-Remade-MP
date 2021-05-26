@@ -4,7 +4,7 @@ state={
 	name="STATE_772" # Middle Congo (Brazzaville)
 	manpower = 746415
 	
-	state_category = pastoral
+	state_category = rural
 	resources={
 	    tungsten=20
 		steel=30

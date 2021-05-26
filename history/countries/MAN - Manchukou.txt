@@ -100,6 +100,7 @@ set_technology = {
 	################## aircraft ##############
 	fighter_1934 = 1
 	fighter_1936 = 1
+	heavy_fighter_1936 = 1
 	tactical_bomber_1934 = 1
 	############### economy ############
 	starting_industry = 1

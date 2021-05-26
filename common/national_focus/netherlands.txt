@@ -1435,7 +1435,6 @@ focus_tree = {
 
 		completion_reward = {
 		    add_ideas = partial_economic_mobilisation
-			add_ideas = HOL_prepare_the_inundation_lines
 		}
 	}
 
@@ -2667,14 +2666,14 @@ focus_tree = {
 		search_filters = {FOCUS_FILTER_WAR_SUPPORT}
 		completion_reward = {
 		    HOL = { 
-			   add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 6000 producer = USA } 
-               add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 750 producer = USA } 
-               add_equipment_to_stockpile = { type = support_equipment_1 amount = 500 producer = USA } 
-               add_equipment_to_stockpile = { type = anti_air_equipment_1 amount = 200 producer = USA } 
-               add_equipment_to_stockpile = { type = anti_tank_equipment_1 amount = 200 producer = USA } 
-               add_equipment_to_stockpile = { type = radio_equipment amount = 350 producer = USA } 
-               add_equipment_to_stockpile = { type = horse_equipment amount = 350 producer = USA }
-               add_equipment_to_stockpile = { type = special_equipment amount = 300 producer = USA } 
+			   add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 2000 producer = USA } 
+               add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 150 producer = USA } 
+               add_equipment_to_stockpile = { type = support_equipment_1 amount = 100 producer = USA } 
+               add_equipment_to_stockpile = { type = anti_air_equipment_1 amount = 100 producer = USA } 
+               add_equipment_to_stockpile = { type = anti_tank_equipment_1 amount = 100 producer = USA } 
+               add_equipment_to_stockpile = { type = radio_equipment amount = 200 producer = USA } 
+               add_equipment_to_stockpile = { type = horse_equipment amount = 200 producer = USA }
+               add_equipment_to_stockpile = { type = special_equipment amount = 200 producer = USA } 
 		    }
 		}
 	}

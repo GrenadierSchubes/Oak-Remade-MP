@@ -2464,7 +2464,6 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			add_ideas = ENG_prepare_for_the_inevitable_idea 	
 			random_owned_controlled_state = {
 				limit = {
 					free_building_slots = {

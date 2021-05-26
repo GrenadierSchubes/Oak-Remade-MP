@@ -802,7 +802,7 @@ focus_tree = {
 		y = 5
 
 
-		cost = 10
+		cost = 7.16
 
 		ai_will_do = {
 			factor = 30
@@ -1454,7 +1454,7 @@ focus_tree = {
 		prerequisite = { focus = ITA_The_industrial_triangle }
 		x = 21
 		y = 5
-		cost = 10
+		cost = 7.16
 		ai_will_do = {
 			factor = 12
 		}
@@ -1473,7 +1473,7 @@ focus_tree = {
 		prerequisite = { focus = ITA_Increase_research_founding }
 		x = 21
 		y = 6
-		cost = 10
+		cost = 7.16
 		ai_will_do = {
 			factor = 10
 		}
@@ -2732,8 +2732,6 @@ focus_tree = {
 			ITA = { 
 				transfer_state = 735 
 				transfer_state = 1 
-				transfer_state = 21 
-				transfer_state = 32 
 				transfer_state = 458
 				transfer_state = 665
 			}
@@ -2745,7 +2743,7 @@ focus_tree = {
 		prerequisite = { focus = ITA_yugoslavia_war_goal }
 		x = 32
 		y = 10
-		cost = 10
+		cost = 7.16
 		ai_will_do = {
 			factor = 10
 		}

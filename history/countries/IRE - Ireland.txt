@@ -3,7 +3,7 @@
 oob = "IRE_1936"
 
 set_stability = 0.50
-set_war_support = 0.35
+set_war_support = 0.40
 
 if = {
 	limit = { has_dlc = "Man the Guns" }
