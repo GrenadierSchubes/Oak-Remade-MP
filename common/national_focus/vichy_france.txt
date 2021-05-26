@@ -29,7 +29,6 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			add_ideas = GER_prepare_for_the_inevitable
 			hidden_effect  {
 				load_oob = EFR_armistice_army
 				every_owned_state = {

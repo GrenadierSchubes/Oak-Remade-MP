@@ -129,23 +129,7 @@ if = {
 
 #Monroe Doctrine
 give_guarantee = CAN
-give_guarantee = MEX
-give_guarantee = CUB
-give_guarantee = HAI
-give_guarantee = GUA
-give_guarantee = HON
-give_guarantee = NIC
-give_guarantee = PAN
-give_guarantee = VEN
-give_guarantee = COL
-give_guarantee = ECU
-give_guarantee = PRU
-give_guarantee = BRA
-give_guarantee = BOL
-give_guarantee = CHL
 give_guarantee = PAR
-give_guarantee = ARG
-give_guarantee = URG
 
 
 1939.1.1 = {
@@ -298,11 +282,18 @@ if = {
 	}
 	set_autonomy = {
 		target = PHI
-		autonomous_state = autonomy_dominion
+		autonomous_state = autonomy_colony
 		freedom_level = 0.1
-	} 
+	}
+	set_autonomy = {
+		target = MEX
+		autonomous_state = autonomy_dominion
+		freedom_level = 0.4
+	}
 	else = {
 		puppet = PHI
+		puppet = MEX
+
 	}
 }
 add_ideas = {

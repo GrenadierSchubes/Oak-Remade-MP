@@ -1,17 +1,5 @@
 technology_sharing_group = {
 
-	id = axis_research
-	name = axis_research_name
-	desc = axis_research_desc
-	picture = GFX_technology_sharing_default
-    
-	research_sharing_per_country_bonus = 0.1
-
-    available = {
-    }
-}
-technology_sharing_group = {
-
 	id = BUL_axis_research
 	name = BUL_axis_research_name
 	desc = BUL_axis_research_desc
@@ -20,6 +8,18 @@ technology_sharing_group = {
 	research_sharing_per_country_bonus = 0.05
 
 	available = {
+    }
+}
+technology_sharing_group = {
+
+	id = axis_research
+	name = axis_research_name
+	desc = axis_research_desc
+	picture = GFX_technology_sharing_default
+    
+	research_sharing_per_country_bonus = 0.1
+
+    available = {
     }
 }
 technology_sharing_group = {

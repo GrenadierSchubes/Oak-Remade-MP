@@ -793,7 +793,8 @@ leader_traits = {
 	}
 	mongolian_stalin = {
 		random = no
-		resistance_damage_to_garrison = -0.15
+		industrial_capacity_factory = 0.1
+		political_power_factor = 0.05
 		communism_drift = 0.1
 	}
 }
