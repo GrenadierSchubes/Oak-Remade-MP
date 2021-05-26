@@ -19,10 +19,10 @@ ideas = {
 			modifier = {
 				army_core_attack_factor = -0.2
 				army_core_defence_factor = -0.2
+				consumer_goods_factor = -0.05
 				minimum_training_level = -0.2
-				communism_drift = -0.25
-				neutrality_drift = -0.25
-				fascism_drift = -0.25
+				communism_drift = -0.1
+				fascism_drift = -0.1
 			}
 		}
 		FRA_naval = {
@@ -574,15 +574,15 @@ ideas = {
 			
 			equipment_bonus = {
 				artillery_equipment = {
-					build_cost_ic = -0.05
+					build_cost_ic = -0.1
 					instant = yes
 				}
 				anti_tank_equipment = {
-					build_cost_ic = -0.05
+					build_cost_ic = -0.1
 					instant = yes
 				}
 				anti_air_equipment = {
-					build_cost_ic = -0.05
+					build_cost_ic = -0.1
 					instant = yes
 				}
 			}
@@ -1559,14 +1559,14 @@ ideas = {
 
 			equipment_bonus = {
 				infantry_equipment = {
-					build_cost_ic = -0.05 instant = yes
+					build_cost_ic = -0.1 instant = yes
 				}
 				support_equipment = {
-					build_cost_ic = -0.05
+					build_cost_ic = -0.1
 					instant = yes
 				}
 				special_equipment = {
-					build_cost_ic = -0.05
+					build_cost_ic = -0.1
 					instant = yes
 				}
 			}
@@ -1606,16 +1606,16 @@ ideas = {
 
 			equipment_bonus = {
 				motorized_equipment = {
-					build_cost_ic = -0.05 instant = yes
+					build_cost_ic = -0.1 instant = yes
 				}
 				mechanized_equipment = {
-					build_cost_ic = -0.05 instant = yes
+					build_cost_ic = -0.1 instant = yes
 				}
 				amphibious_mechanized_equipment = {
-					build_cost_ic = -0.05 instant = yes
+					build_cost_ic = -0.1 instant = yes
 				}
 				armored_car = {
-					build_cost_ic = -0.05 instant = yes
+					build_cost_ic = -0.1 instant = yes
 				}
 			}
 		}
@@ -2396,7 +2396,6 @@ ideas = {
 			allowed = {
 			    OR = {
 				    original_tag = FRA
-					original_tag = EFR
 					original_tag = HOL
 				}
 			}
@@ -2406,22 +2405,7 @@ ideas = {
 			}
 			modifier = { tank_manufacturer_cost_factor = -0.33 }
 
-			traits = { GER_porsche_tank_manufacturer }
-			
-			equipment_bonus = {
-				heavy_tank_equipment = {
-					hard_attack = 0.1
-					armor_value = 0.05
-				}
-				heavy_tank_destroyer_equipment = {
-				    hard_attack = 0.1
-					armor_value = 0.05
-				}
-				heavy_tank_artillery_equipment = {
-				    soft_attack = 0.1
-					armor_value = 0.05
-				}
-			}
+			traits = { heavy_tank_manufacturer }
 		}
 	
 		FRA_AMX = {
@@ -2438,7 +2422,6 @@ ideas = {
 			allowed = {
 			    OR = {
 				    original_tag = FRA
-					original_tag = EFR
 					original_tag = HOL
 				}
 			}
@@ -2448,26 +2431,7 @@ ideas = {
 			}
 			modifier = { tank_manufacturer_cost_factor = -0.33 }
 
-			equipment_bonus = {
-				light_tank_equipment = {
-				    maximum_speed = 0.05
-					soft_attack = 0.1
-				}
-				light_tank_artillery_equipment = {
-					soft_attack = 0.1
-					maximum_speed = 0.05
-				}
-
-				light_tank_destroyer_equipment = {
-					hard_attack = 0.1
-					maximum_speed = 0.05
-				}
-				light_tank_aa_equipment = {
-					air_attack = 0.1
-					maximum_speed = 0.05
-				}
-			}
-			traits = { vickers_trait }
+			traits = { fast_tank_manufacturer }
 		}
 		FRA_hotchkiss = {
 		
@@ -2483,7 +2447,6 @@ ideas = {
 			allowed = {
 			    OR = {
 				    original_tag = FRA
-					original_tag = EFR
 					original_tag = HOL
 				}
 			}
@@ -2493,15 +2456,7 @@ ideas = {
 			}
 			modifier = { tank_manufacturer_cost_factor = -0.33 }
 
-			equipment_bonus = {
-				medium_tank_equipment = {
-					soft_attack = 0.1 
-					hard_attack = 0.1 
-					build_cost_ic = 0.05
-				}
-			}
-			
-			traits = { SOV_advanced_medium_tank_manufacturer }
+			traits = { infantry_tank_manufacturer }
 		}
 
 		FRA_APX = {
@@ -2515,7 +2470,6 @@ ideas = {
 			allowed = {
 			    OR = {
 				    original_tag = FRA
-					original_tag = EFR
 					original_tag = HOL
 				}
 			}
@@ -2525,28 +2479,7 @@ ideas = {
 			}
 			modifier = { tank_manufacturer_cost_factor = -0.33 }
 
-			traits = { Leyland_trait }
-			
-			equipment_bonus = {
-			    medium_tank_equipment = {
-			        maximum_speed = 0.05
-				    soft_attack = 0.05
-					hard_attack = 0.05
-				}
-				medium_tank_aa_equipment = {
-					air_attack = 0.1
-					maximum_speed = 0.05
-				}
-
-				medium_tank_artillery_equipment = {
-					soft_attack = 0.1
-					maximum_speed = 0.05
-				}
-				medium_tank_destroyer_equipment = {
-					maximum_speed = 0.05
-					hard_attack = 0.1
-				}
-			}
+			traits = { medium_tank_manufacturer }
 		}
 	}
 	

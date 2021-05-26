@@ -21,7 +21,6 @@
  remove_mod_decision_desc:0 "§RWARNING: THIS CAN'T BE UNDONE"	
  GER_sci:0 "Form Faction Tech Sharing Group"
  JAP_sci:0 "Form Faction Tech Sharing Group"
- USA_sci:0 "Form Faction Tech Sharing Group"
 
  FRA_war_on_pacifism:0 "War on Pacifism"
  FRA_war_on_pacifism_desc:0 "Having emerged victorious from the Great War at a terrible price, the people of France have no desire for a future conflict. Thus the army has developed a dangerously complacent attitude which has caused strategic developments to come slowly and with some reluctance."
@@ -117,7 +116,7 @@
  JAP_annex_man:0 "Annex Manchukuo"
  JAP_annex_sia:0 "Annex Siam"
  ITA_annex_eth:0 "Annex Ethiopia"
- USA_annex_mex:0 "Annex Mexico"
+ USA_annex_phi:0 "Annex Phillipines"
  SOV_annex_mon:0 "Annex Mongolia"
  build_dacca_line:0 "Build the Dacca Line"
  ENG_emergencyfighter:0 "Emergency Fighter Production"

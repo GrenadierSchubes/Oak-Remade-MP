@@ -660,7 +660,7 @@ ideas = {
 				original_tag = MAN
 			}
 			
-			traits = { army_armored_1 }
+			traits = { army_logistics_2 }
 			
 			ai_will_do = {
 				factor = 1

@@ -3,6 +3,9 @@ state={
 	id=413
 	name="STATE_413"
 	manpower = 797356
+	resources={
+		oil=30 # was: 42
+	}
 	
 	state_category = rural
 	

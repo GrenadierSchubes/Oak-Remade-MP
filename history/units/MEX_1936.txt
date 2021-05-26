@@ -16,13 +16,13 @@
 		infantry = { x = 2 y = 1 }
 		infantry = { x = 2 y = 2 }
 		infantry = { x = 4 y = 0 }
-		artillery_brigade = { x = 3 y = 0 }
-		artillery_brigade = { x = 3 y = 1 }
-		artillery_brigade = { x = 3 y = 2 }
+		pack_artillery_brigade = { x = 3 y = 0 }
+		pack_artillery_brigade = { x = 3 y = 1 }
+		pack_artillery_brigade = { x = 3 y = 2 }
 	}
 	support = {
 		DIV_HQ = { x = 0 y = 0 } 
-		artillery = { x = 0 y = 1 }  # Full howitzer regiment
+		pack_artillery = { x = 0 y = 1 }  # Full howitzer regiment
 		recon = { x = 1 y = 0 }   
 		engineer = { x = 1 y = 1 }  
 		anti_air_company = { x = 0 y = 2 }  
@@ -30,54 +30,18 @@
 }
 
 division_template = {
-	name = "Brigada Agrarista"		# Infantry Division
-	division_names_group = MEX_INF_01
-	# Note: each regiment could also mobilize a 3rd battalion if called up
-	regiments = {
-		mountaineers = { x = 0 y = 0 }	
-		mountaineers = { x = 0 y = 1 }
-		mountaineers = { x = 0 y = 2 }	
-		mountaineers = { x = 0 y = 3 }	
+	name = "Brigada Agrarista"
 
-		mountaineers = { x = 1 y = 0 }
-		mountaineers = { x = 1 y = 1 }
-		mountaineers = { x = 1 y = 2 }
-		mountaineers = { x = 1 y = 3 }
-		
-	}
-	support = {
-		DIV_HQ = { x = 0 y = 0 } 
-		artillery = { x = 0 y = 1 }  # Full howitzer regiment
-		recon = { x = 1 y = 0 }   
-		engineer = { x = 1 y = 1 } 
-        anti_air_company = { x = 0 y = 2 }		
-	}
-}
+	division_names_group = MEX_INF_02
 
-division_template = {
-	name = "Tank Brigade"
-    division_names_group = MEX_INF_02
+	#is_locked = yes
+
 	regiments = {
-		light_armor = { x = 0 y = 0 }
-		light_armor = { x = 0 y = 1 }
-		light_armor = { x = 0 y = 2 }
-		
-		motorized = { x = 1 y = 0 }
-		motorized = { x = 1 y = 1 }
-		motorized = { x = 1 y = 2 }
-		motorized = { x = 1 y = 3 }
-		
-		light_armor = { x = 2 y = 0 }
-		light_armor = { x = 2 y = 1 }
-		light_armor = { x = 2 y = 2 }
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
 	}
-	support = {
-		DIV_HQ = { x = 0 y = 0 }
-		engineer = { x = 0 y = 1 }
-		recon  = { x = 1 y = 0 }   
-		anti_air_company = { x = 1 y = 1 }  
-	}
-	priority = 1
+	priority = 0
 }
 
 division_template = {
@@ -91,6 +55,7 @@ division_template = {
 		cavalry = { x = 0 y = 2 }
 		cavalry = { x = 1 y = 0 }
 		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
 	}
 
 }
@@ -105,6 +70,8 @@ units = {
 		location = 1965 # Mexico City
 		division_template = "División de Infanteria"
 		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+		force_equipment_variants = { infantry_equipment_0 = { owner = "USA" } }
 	}
 
 	division= {	# "2a División de Infantería"
@@ -115,6 +82,20 @@ units = {
 		location = 1892 # Baja
 		division_template = "División de Infanteria"
 		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+		force_equipment_variants = { infantry_equipment_0 = { owner = "USA" } }
+	}
+
+	division= {	# "3a División de Infantería"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 13089 # Guadalajara
+		division_template = "División de Infanteria"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+		force_equipment_variants = { infantry_equipment_0 = { owner = "GER" } }
 	}
 
 	division= {	
@@ -122,13 +103,150 @@ units = {
 		location = 1965 # Mexico City
 		division_template = "División de Infanteria"
 		start_experience_factor = 0.3
+		force_equipment_variants = { infantry_equipment_1 = { owner = "USA" } }
 	}
-	
-	division= {	
-		name = "Presidencial Armored Escort"
+
+	division= {	# "1a División de Caballería"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
 		location = 1965 # Mexico City
-		division_template = "Tank Brigade"
+		division_template = "División de Caballería"
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.75
+		force_equipment_variants = { infantry_equipment_0 = { owner = "USA" } }
+	}
+	division = {	# "2a División de Caballería"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 4904 # Compeche
+		division_template = "División de Caballería"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.75
+		force_equipment_variants = { infantry_equipment_0 = { owner = "USA" } }
+	}
+
+	division = {
+		location = 1965 # Mexico City
+		division_template = "Brigada Agrarista"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+		force_equipment_variants = { infantry_equipment_0 = { owner = "GER" } }
+	}
+
+	division = {
+		location = 1965 # Mexico City
+		division_template = "Brigada Agrarista"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+		force_equipment_variants = { infantry_equipment_0 = { owner = "GER" } }
+	}
+
+	division = {
+		location = 1965 # Mexico City
+		division_template = "Brigada Agrarista"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+		force_equipment_variants = { infantry_equipment_0 = { owner = "GER" } }
+	}
+
+	division = {
+		location = 1900
+		division_template = "Brigada Agrarista"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+		force_equipment_variants = { infantry_equipment_0 = { owner = "GER" } }
+	}
+
+	division = {
+		location = 2021
+		division_template = "Brigada Agrarista"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+		force_equipment_variants = { infantry_equipment_0 = { owner = "GER" } }
+	}
+
+	division = {
+		location = 10889
+		division_template = "Brigada Agrarista"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+		force_equipment_variants = { infantry_equipment_0 = { owner = "GER" } }
+	}
+
+	division = {
+		location = 12715
+		division_template = "Brigada Agrarista"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+		force_equipment_variants = { infantry_equipment_0 = { owner = "GER" } }
+	}
+
+	division = {
+		location = 8032
+		division_template = "Brigada Agrarista"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+		force_equipment_variants = { infantry_equipment_0 = { owner = "GER" } }
+	}
+
+	division = {
+		location = 12461
+		division_template = "Brigada Agrarista"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+		force_equipment_variants = { infantry_equipment_0 = { owner = "USA" } }
+	}
+
+	division = {
+		location = 10765
+		division_template = "Brigada Agrarista"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+		force_equipment_variants = { infantry_equipment_0 = { owner = "USA" } }
+	}
+
+	division = {
+		location = 4908
+		division_template = "Brigada Agrarista"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+		force_equipment_variants = { infantry_equipment_0 = { owner = "USA" } }
+	}
+
+	division = {
+		location = 4977
+		division_template = "Brigada Agrarista"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+		force_equipment_variants = { infantry_equipment_0 = { owner = "USA" } }
+	}
+
+	division = {
+		location = 10730
+		division_template = "Brigada Agrarista"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+		force_equipment_variants = { infantry_equipment_0 = { owner = "USA" } }
+	}
+
+	division = {
+		location = 2051
+		division_template = "Brigada Agrarista"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+		force_equipment_variants = { infantry_equipment_0 = { owner = "USA" } }
+	}
+
+	division = {
+		location = 5015
+		division_template = "Brigada Agrarista"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+		force_equipment_variants = { infantry_equipment_0 = { owner = "USA" } }
 	}
 }
 
@@ -193,7 +311,7 @@ instant_effect = {
 	}
 	add_equipment_production = {
 		equipment = {
-			type = artillery_equipment_1
+			type = pack_artillery_equipment_1
 			creator = "MEX" 
 		}
 		requested_factories = 1
@@ -218,27 +336,4 @@ instant_effect = {
 		progress = 0.4
 		efficiency = 100
 	}
-	add_equipment_production = {
-		equipment = {
-			type = light_tank_equipment_1936
-			creator = "MEX" 
-		}
-		requested_factories = 1
-		progress = 0.4
-		efficiency = 10
-	}
-	#####################################
-	########## Stockpiled equipment
-	
-	add_equipment_to_stockpile = {
-		type = infantry_equipment_1
-			amount = 1000
-			producer = MEX
-		}
-	
-	add_equipment_to_stockpile = {
-		type = horse_equipment_0
-			amount = 250
-			producer = MEX
-		}
 }

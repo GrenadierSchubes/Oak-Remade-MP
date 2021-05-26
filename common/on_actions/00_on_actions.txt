@@ -115,6 +115,11 @@ on_actions = {
 				limit = {
 					has_dlc = "Man the Guns"
 				}
+				PER = {
+					give_resource_rights = { receiver = ENG state = 411 }
+					give_resource_rights = { receiver = ENG state = 412 }
+					give_resource_rights = { receiver = ENG state = 413 }
+				}
 				IRQ = {
 					give_resource_rights = { receiver = ENG state = 291 }
 					give_resource_rights = { receiver = ENG state = 676 }

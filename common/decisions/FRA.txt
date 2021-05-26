@@ -52,14 +52,8 @@ FRA_war_on_pacifism = {
 				has_idea = FRA_victors_of_wwi
 				hidden_trigger = {
 					has_idea = FRA_victors_of_wwi_2
-				}
-				hidden_trigger = {
 					has_idea = FRA_victors_of_wwi_3
-				}				
-				hidden_trigger = {
-					has_idea = FRA_victors_of_wwi_4 
-				}
-				hidden_trigger = {
+					has_idea = FRA_victors_of_wwi_4
 					has_idea = FRA_victors_of_wwi_5
 				}
 			}
@@ -103,14 +97,8 @@ FRA_war_on_pacifism = {
 				has_idea = FRA_victors_of_wwi
 				hidden_trigger = {
 					has_idea = FRA_victors_of_wwi_2
-				}
-				hidden_trigger = {
 					has_idea = FRA_victors_of_wwi_3
-				}				
-				hidden_trigger = {
-					has_idea = FRA_victors_of_wwi_4 
-				}
-				hidden_trigger = {
+					has_idea = FRA_victors_of_wwi_4
 					has_idea = FRA_victors_of_wwi_5
 				}
 			}
@@ -157,14 +145,8 @@ FRA_war_on_pacifism = {
 				has_idea = FRA_victors_of_wwi
 				hidden_trigger = {
 					has_idea = FRA_victors_of_wwi_2
-				}
-				hidden_trigger = {
 					has_idea = FRA_victors_of_wwi_3
-				}				
-				hidden_trigger = {
-					has_idea = FRA_victors_of_wwi_4 
-				}
-				hidden_trigger = {
+					has_idea = FRA_victors_of_wwi_4
 					has_idea = FRA_victors_of_wwi_5
 				}
 			}

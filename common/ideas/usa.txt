@@ -2992,10 +2992,7 @@ ideas = {
 			picture = generic_army_europe_5
 			
 			allowed = {
-			    OR = {
-					original_tag = USA
-					original_tag = MEX
-				}
+				original_tag = USA
 			}
 			
 			cost = 250
@@ -3136,9 +3133,7 @@ ideas = {
 				original_tag = USA
 			}
 			
-			research_bonus = {industry = 0.15}  
-			
-			traits = { industrial_research_trait }
+			research_bonus = {industry = 0.15}  traits = { industrial_research_trait }
 						
 			modifier = {
 			}

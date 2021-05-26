@@ -209,7 +209,7 @@ ideas = {
 					picture = generic_local_self_management
 
 					modifier = { 
-						political_power_gain = 0.20
+						political_power_gain = 0.1
 					}
 				
 				}
@@ -440,14 +440,23 @@ ideas = {
 
 	army_chief = {
 		
-		IRE_liam_archer = {
-			picture = generic_army_europe_2
+		MEX_leon_trotsky = {
+			
+			picture = generic_army_europe_4
+			
+			cost = 150
+			
+			visible = {
+			}
 			
 			allowed = {
 				original_tag = IRE
 			}
 			
-			traits = { army_chief_offensive_2 }
+			available = {
+			}
+			
+			traits = { red_army_organizer }
 			
 			ai_will_do = {
 				factor = 1

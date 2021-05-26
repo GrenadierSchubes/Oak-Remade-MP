@@ -8,5 +8,5 @@ tags={
 	"Balance"
 	"Historical"
 }
-name="Oak Git"
+name="Oak MP"
 supported_version="1.10.5"

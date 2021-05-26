@@ -869,7 +869,7 @@ ideas = {
 				original_tag = CZE
 				original_tag = HUN
 				original_tag = SPR
-				original_tag = FIN
+				original_tag = EFR
 				}
 			}
 			
@@ -894,7 +894,7 @@ ideas = {
 				original_tag = CZE
 				original_tag = HUN
 				original_tag = SPR
-				original_tag = FIN
+				original_tag = EFR
 				}
 			}
 			
@@ -918,7 +918,7 @@ ideas = {
 			    original_tag = CZE
 				original_tag = HUN
 				original_tag = SPR
-				original_tag = FIN
+				original_tag = EFR
 				}
 			}
 			

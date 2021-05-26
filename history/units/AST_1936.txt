@@ -19,7 +19,7 @@
 		artillery_brigade = { x = 3 y = 0 }
 		artillery_brigade = { x = 3 y = 1 }
 		artillery_brigade = { x = 3 y = 2 }
-		anti_tank_brigade =  { x = 4 y = 1 }
+		anti_tank_brigade =  { x = 4 y = 2 }
 	}
 	support = {
 		DIV_HQ = { x = 0 y = 0 }
@@ -240,7 +240,7 @@ instant_effect = { #player
 			type = motorized_equipment_1
 			creator = "AST" 
 		}
-		requested_factories = 1
+		requested_factories = 2
 		progress = 0.3
 		efficiency = 15
 	}
@@ -249,7 +249,7 @@ instant_effect = { #player
 			type = artillery_equipment_1
 			creator = "AST"
 		}
-		requested_factories = 1
+		requested_factories = 2
 		progress = 0.73
 		efficiency = 15
 	}

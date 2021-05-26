@@ -774,7 +774,7 @@ focus_tree = {
 		relative_position_id = FRA_metropolitan_france
 		cost = 7.16
 
-		available_if_capitulated = yes
+		available_if_capitulated = no
 
 		completion_reward = {
 			add_tech_bonus = {
@@ -821,7 +821,7 @@ focus_tree = {
 		relative_position_id = FRA_develop_the_metropoles
 		cost = 7.16
 
-		available_if_capitulated = yes
+		available_if_capitulated = no
 
 		completion_reward = {
 			random_owned_controlled_state = {
@@ -1672,6 +1672,7 @@ focus_tree = {
 			set_capital = 772
 
 			add_popularity = { ideology = democratic popularity = 0.75 }
+		    add_stability = 0.10
 			add_war_support = 0.25			
             add_offsite_building = { 
 			    type = dockyard 
@@ -2877,6 +2878,9 @@ focus_tree = {
 		}
 		
 		bypass = {
+			NOT = {
+				FRA_has_inefficient_economy = yes
+			}
 		}
 
 		cancel_if_invalid = yes

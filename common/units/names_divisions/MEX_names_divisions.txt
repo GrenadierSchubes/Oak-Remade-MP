@@ -81,3 +81,53 @@ MEX_INF_02 = {
 		30 = { "%da Brigada Agrarista" }
 	}
 }
+
+MEX_INF_03 = {
+	name = "Red Brigade"
+
+	for_countries = { MEX }
+
+	can_use = {
+		OR = {
+			has_completed_focus = MEX_focus_ejido_worker_militias
+			has_government = communism
+		}
+	}
+
+	division_types = { "infantry" }
+
+	fallback_name = "%da Brigada Roja"
+
+	ordered = {
+		1 = { "%da Brigada Roja" }
+		2 = { "%da Brigada Roja" }
+		3 = { "%da Brigada Roja" }
+		4 = { "%da Brigada Roja" }
+		5 = { "%da Brigada Roja" }
+		6 = { "%da Brigada Roja" }
+		7 = { "%da Brigada Roja" }
+		8 = { "%da Brigada Roja" }
+		9 = { "%da Brigada Roja" }
+		10 = { "%da Brigada Roja" }
+		11 = { "%da Brigada Roja" }
+		12 = { "%da Brigada Roja" }
+		13 = { "%da Brigada Roja" }
+		14 = { "%da Brigada Roja" }
+		15 = { "%da Brigada Roja" }
+		16 = { "%da Brigada Roja" }
+		17 = { "%da Brigada Roja" }
+		18 = { "%da Brigada Roja" }
+		19 = { "%da Brigada Roja" }
+		20 = { "%da Brigada Roja" }
+		21 = { "%da Brigada Roja" }		
+		22 = { "%da Brigada Roja" }
+		23 = { "%da Brigada Roja" }
+		24 = { "%da Brigada Roja" }
+		25 = { "%da Brigada Roja" }
+		26 = { "%da Brigada Roja" }
+		27 = { "%da Brigada Roja" }
+		28 = { "%da Brigada Roja" }
+		29 = { "%da Brigada Roja" }
+		30 = { "%da Brigada Roja" }
+	}
+}

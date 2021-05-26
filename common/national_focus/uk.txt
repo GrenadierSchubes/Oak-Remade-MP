@@ -3758,6 +3758,9 @@ focus_tree = {
 			add_to_variable = { var = british_money value -100 }
 			custom_effect_tooltip = british_money_100_tt
 			hidden_effect = { news_event = { id = mtg_news.13 days = 1 } }
+			    PHI = {
+				    add_ideas = ENG_prepare_for_the_inevitable_idea
+				}
 			    HOL = {
 				    add_ideas = ENG_prepare_for_the_inevitable_idea
 				}
@@ -5572,17 +5575,17 @@ focus_tree = {
 			NZL = {
 			    add_opinion_modifier = { target = ENG modifier = aided_industry }
 				random_owned_controlled_state = {
-				prioritize = { 723 284 }
-					add_extra_state_shared_building_slots = 4
+				prioritize = { 723 }
+					add_extra_state_shared_building_slots = 5
 					add_building_construction = {
 						type = industrial_complex
-						level = 2
+						level = 3
 						instant_build = yes 
 					}
 				}
 			    random_owned_controlled_state = {
 				prioritize = { 284 }
-					add_extra_state_shared_building_slots = 4
+					add_extra_state_shared_building_slots = 5
 					add_building_construction = {
 						type = dockyard
 						level = 2
@@ -5684,17 +5687,17 @@ focus_tree = {
 			IRE = {
 			    add_opinion_modifier = { target = ENG modifier = aided_industry }
 				random_owned_controlled_state = {
-				prioritize = { 135 134 }
-					add_extra_state_shared_building_slots = 4
+				prioritize = { 135 }
+					add_extra_state_shared_building_slots = 5
 					add_building_construction = {
 						type = industrial_complex
-						level = 2
+						level = 3
 						instant_build = yes 
 					}
 				}
 			    random_owned_controlled_state = {
 				prioritize = { 134 }
-					add_extra_state_shared_building_slots = 4
+					add_extra_state_shared_building_slots = 5
 					add_building_construction = {
 						type = dockyard
 						level = 2
@@ -5744,9 +5747,6 @@ focus_tree = {
 				    add_ideas = ENG_british_commonwealth_air_training_plan
 				}
 			    PHI = {
-				    add_ideas = ENG_british_commonwealth_air_training_plan
-				}
-			    MEX = {
 				    add_ideas = ENG_british_commonwealth_air_training_plan
 				}
 			    HOL = {

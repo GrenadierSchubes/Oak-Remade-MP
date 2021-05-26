@@ -47,24 +47,6 @@ ideas = {
 				special_forces_cap = 0.1
 			}
         }
-		MON_winter_offensive = {
-		
-			allowed = {
-				always = no # Triggered via event
-			}
-			
-			picture = generic_reserve_divisions
-			
-			modifier = {
-				land_reinforce_rate = 0.05
-				army_attack_factor = 0.15
-				army_defence_factor = 0.15
-				enemy_army_bonus_air_superiority_factor = -0.2
-				ai_focus_aggressive_factor = 0.5
-			}
-			
-			removal_cost = -1
-		}
 		MON_spirit_of_genghis_idea = {
 		
 			picture = FRA_army_of_aggression_focus
@@ -336,6 +318,8 @@ ideas = {
 			picture = generic_communism_drift_bonus
 			
 			modifier = {
+		        send_volunteer_size = 2
+				send_volunteer_divisions_required = -1
 				stability_weekly = 0.001
 				political_power_cost = 0.25
 			}
@@ -516,7 +500,7 @@ ideas = {
 				original_tag = MON
 			}
 			
-			traits = { social_revolutionary }
+			traits = { social_reformer }
 		}
 		
 		MON_Harghasun = {

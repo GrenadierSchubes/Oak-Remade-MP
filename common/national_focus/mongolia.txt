@@ -617,18 +617,24 @@ create_country_leader = {
 			factor = 1
 		}
 		
-		completion_reward = {			
-            create_country_leader = {
-	            name = "Khorloogiin Choibalsan"
-	            desc = "POLITICS_ANANDYN_AMAR_DESC"
-	            picture = portrait_Choibalsan.dds
-	            expire = "1965.1.1"
-	            ideology = marxism
-	            traits = {
-			    	mongolian_stalin     
-		        }
-            }
-	    }
+		completion_reward = {	
+custom_effect_tooltip = MON_leader_tt		
+	hidden_effect = {	
+		create_country_leader = {
+			name = "Señor Hilter"
+			desc = "POLITICS_SENOR_HILTER_DESC"
+			picture = "portrait_south_america_generic_leader_1.dds"
+			expire = "1965.1.1"
+			ideology = marxism
+			traits = {
+				dictator
+				incognito
+			}
+		}
+	}
+	  }
+		
+		
 	}
 
 	#Focus for The enemies within

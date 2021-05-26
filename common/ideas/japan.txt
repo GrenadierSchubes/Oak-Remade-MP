@@ -2564,20 +2564,7 @@ ideas = {
 				armor = -0.05
 			}
 			
-			equipment_bonus = {
-			    amphibious_tank_equipment = {
-				    soft_attack = 0.05
-				    maximum_speed = 0.05
-					reliability = 0.1
-				}
-				amphibious_mechanized_equipment = {
-				    soft_attack = 0.05
-				    maximum_speed = 0.05
-					reliability = 0.1
-				}
-			}
-			
-			traits = { JAP_amphibious_tank_manufacturer }
+			traits = { tank_manufacturer }
 		}	
 	}
 	tank_research = {

@@ -15,10 +15,10 @@ state={
 			}
 		}
 		victory_points = {
-			12806 15
+			12806 3
 		}
 		victory_points = {
-			12725 15
+			12725 1
 		}
 
 		add_core_of = NGA

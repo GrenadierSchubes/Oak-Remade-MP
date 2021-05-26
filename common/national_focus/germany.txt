@@ -1502,6 +1502,18 @@ focus_tree = {
 			}
 			hidden_effect = {
 				remove_ideas = GER_schacht_autarky
+	            ITA = {
+				    add_ideas = GER_prepare_for_the_inevitable
+				}
+			    ROM = {
+				    add_ideas = GER_prepare_for_the_inevitable
+				}
+			    HUN = {
+				    add_ideas = GER_prepare_for_the_inevitable
+				}
+			    BUL = {    
+					add_ideas = GER_prepare_for_the_inevitable
+				}
 				GER = {
 					remove_resource_rights = 141
 					remove_resource_rights = 6

@@ -28,7 +28,7 @@
 		bypass = {
 		}
 		
-		cost = 5
+		cost = 7.16
 		#prerequisite = { focus = AST_workers_paradise }
 		#mutually_exclusive = { focus = expand_loyalist_influence }
 		
@@ -93,7 +93,16 @@
 		available_if_capitulated = no
 
 		completion_reward = {
-            add_country_leader_trait = propaganda_expert	
+		    create_country_leader = {
+		    	name = "Leon Trotsky"
+		    	desc = "POLITICS_LEON_TROTSKY_DESC"
+		    	picture = "gfx/leaders/SOV/Portrait_Leon_Trotsky.dds"
+		    	expire = "1965.1.1"
+		    	ideology = socialism
+		    	traits = {
+			    	exiled_revolutionary
+			    }
+		    }
 		}	
 		ai_will_do = {
 		}
@@ -280,7 +289,7 @@
 		bypass = {
 		}
 		
-		cost = 5
+		cost = 7.16
 		prerequisite = { focus = constitution_of_ireland }
 		#mutually_exclusive = { focus = colonial_power }
 		
@@ -289,7 +298,14 @@
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_ideas = IRE_public_works_idea
+			add_timed_idea = {
+			idea = IRE_public_works_idea
+			days = 100 
+			}
+			add_tech_bonus = {
+				bonus = 1
+				uses = 2
+				category = industry }
 		}	
 		ai_will_do = {
 		}
@@ -747,7 +763,7 @@
 		bypass = {
 		}
 		
-		cost = 5
+		cost = 7.16
 		prerequisite = { focus = modernise_esb focus = industrial_modernisation }	
 		#mutually_exclusive = { focus = colonial_power }
 		
@@ -757,11 +773,6 @@
 
 		completion_reward = {
 		    add_research_slot = 1
-			add_tech_bonus = {
-				bonus = 1
-				uses = 2
-				category = industry 
-				}
 			swap_ideas = {
 				remove_idea = IRE_trade_war
 				add_idea = IRE_less_trade_war
