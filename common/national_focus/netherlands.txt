@@ -1359,7 +1359,7 @@ focus_tree = {
 			add_tech_bonus = {
 				name = HOL_expand_curacao_oil_refineries
 				bonus = 1.5
-				uses = 2
+				uses = 1
 				category = synth_resources
 			}
 			add_ideas = HOL_make_use_of_our_riches

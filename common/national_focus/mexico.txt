@@ -802,7 +802,7 @@ focus_tree = {
 			add_tech_bonus = {
 				name = synth_resources
 				bonus = 1.0
-				uses = 2
+				uses = 1
 				category = synth_resources
 			}
 			custom_effect_tooltip = available_industrial_concern
@@ -1089,11 +1089,6 @@ focus_tree = {
 			}
 			custom_effect_tooltip = available_industrial_concern
 			show_ideas_tooltip = MEX_pemex
-			modify_building_resources = {
-        	   building = synthetic_rubber_refinery
-        	   resource = rubber
-        	   amount = 1
-        	}	
 		}
 	}
 	focus = {
