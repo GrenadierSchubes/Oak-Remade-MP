@@ -890,6 +890,9 @@ PAR_instant_effect_decisions = {
 		available = {	
 			JAP = { has_war_with = CHI }
 			CHI = {  surrender_progress > 0.5 }
+			NOT = {
+				JAP = {has_country_flag = jap_first_truce}
+			}
 		}
 
 		cost = 0
