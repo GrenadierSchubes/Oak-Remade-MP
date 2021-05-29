@@ -21,6 +21,7 @@ set_technology = { #player
 	fuel_refining = 1
 	special_equipment = 1
 	electronic_mechanical_engineering = 1
+	radio_detection = 1
 	radio = 1
 	tech_dig_1 = 1
 	############ support #########

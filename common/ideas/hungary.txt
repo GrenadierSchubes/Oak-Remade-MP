@@ -246,6 +246,16 @@ ideas = {
 			research_bonus = {
 				air_equipment = 0.1
 			}
+			modifier = {
+				fighter_equipment = {
+					build_cost_ic = -0.05
+					instant = yes
+				}
+				CAS_equipment = {
+					build_cost_ic = -0.05
+					instant = yes
+				}
+			}
 		}
         HUN_research_idea = {
 			removal_cost = -1

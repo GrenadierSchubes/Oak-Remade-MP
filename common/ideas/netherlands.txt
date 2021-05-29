@@ -142,7 +142,7 @@ ideas = {
 			modifier = {
 				conscription_factor = -0.3
 				industrial_capacity_factory = -0.25
-				industrial_capacity_dockyard = -0.20
+				industrial_capacity_dockyard = -0.10
 			}
 		}
 
@@ -165,7 +165,7 @@ ideas = {
 			modifier = {
 				conscription_factor = -0.26
 				industrial_capacity_factory = -0.2
-				industrial_capacity_dockyard = -0.16
+				industrial_capacity_dockyard = -0.08
 			}
 		}
 
@@ -188,7 +188,7 @@ ideas = {
 			modifier = {
 				conscription_factor = -0.18
 				industrial_capacity_factory = -0.15
-				industrial_capacity_dockyard = -0.12
+				industrial_capacity_dockyard = -0.06
 			}
 		}
 
@@ -211,7 +211,7 @@ ideas = {
 			modifier = {
 				conscription_factor = -0.12
 				industrial_capacity_factory = -0.1
-				industrial_capacity_dockyard = -0.08
+				industrial_capacity_dockyard = -0.04
 			}
 		}
 
@@ -234,7 +234,7 @@ ideas = {
 			modifier = {
 				conscription_factor = -0.06
 				industrial_capacity_factory = -0.05
-				industrial_capacity_dockyard = -0.04
+				industrial_capacity_dockyard = -0.02
 			}
 		}
 
