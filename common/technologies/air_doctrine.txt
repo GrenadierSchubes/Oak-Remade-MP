@@ -1390,6 +1390,10 @@ technologies = {
 		# EFFECT ########
 		air_nav_efficiency = 0.1
 		###########
+		
+		dependencies = {
+			plane_radio = 1 
+		}
 
 		path = {
 			leads_to_tech = infiltration_bombing
@@ -1471,7 +1475,10 @@ technologies = {
 			air_bombing = 0.1
 		}
 		###########
-		
+
+		dependencies = {
+			plane_radio = 1 
+		}
 		path = {
 			leads_to_tech = infiltration_bombing
 			research_cost_coeff = 1
