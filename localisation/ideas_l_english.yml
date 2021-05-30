@@ -3537,7 +3537,12 @@
  JAP_extra_navy_investment:0 "Extra Navy Investment"
  JAP_carrier_tactics_idea:0 "Carrier Tactics"
  JAP_improved_torpedos:0 "Improved Torpedos"
- JAP_superheavy_production:0 "Super Heavy Production Techniques"
+
+ ###CHINA WAR###
+ ruling_sent_attache_to_china_idea:0 "Sent a military attaché to China"
+ ruling_sent_attache_to_japan_idea:0 "Sent a military attaché to Japan"
+ ruling_sent_air_to_china_idea:0 "Sent air volunteers to China"
+ ruling_sent_air_to_japan_idea:0 "Sent air volunteers to Japan"
  
  USA_embargo:0 "Embargoed by the U.S"
  ichizo_kobayashi:0 "Ichizō Kobayashi"

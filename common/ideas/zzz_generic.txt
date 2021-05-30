@@ -1080,6 +1080,80 @@ ideas = {
 				fascism_drift = -0.05
 			}
 		}
+
+		###CHINA WAR###
+		ruling_sent_attache_to_china_idea = {
+			
+			picture = received_attache
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				
+			}
+		}
+		ruling_sent_attache_to_japan_idea = {
+			
+			picture = received_attache
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				
+			}
+		}
+		ruling_sent_air_to_china_idea = {
+			
+			picture = air_war_plans_division_focus
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				
+			}
+		}
+		ruling_sent_air_to_japan_idea = {
+			
+			picture = air_war_plans_division_focus
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				
+			}
+		}
 		
 		# Generic Focus Ideas
 
@@ -1929,6 +2003,8 @@ ideas = {
 			}
 
 		}
+
+		
 	}
 	
 	

@@ -2253,14 +2253,29 @@ country_event = {
 			news_event = news.490
 		}
 		every_other_country = {
-			limit = {has_country_flag = ruling_sent_attache_to_china}
+			limit = {has_idea = ruling_sent_attache_to_china_idea}
 			army_experience = 4
 		}
 		every_other_country = {
-			limit = {has_country_flag = ruling_sent_attache_to_japan}
+			limit = {has_idea = ruling_sent_attache_to_japan_idea}
 			army_experience = 6
 		}
-		army_experience = 50
+		every_other_country = {
+			limit = {has_idea = ruling_sent_air_to_china_idea}
+			air_experience = 17
+		}
+		every_other_country = {
+			limit = {has_idea = ruling_sent_air_to_japan_idea}
+			air_experience = 25
+		}
+		army_experience = 100
+		MAN = {
+			army_experience = 25
+		}
+		SIA = {
+			army_experience = 25
+		}
+		air_experience = 25
 		name = japan.27.a
 		transfer_state = 608
 	}
@@ -2281,12 +2296,20 @@ country_event = {
 			news_event = {id = news.490}
 		}
 		every_other_country = {
-			limit = {has_country_flag = ruling_sent_attache_to_china}
+			limit = {has_idea = ruling_sent_attache_to_china_idea}
 			army_experience = 8
 		}
 		every_other_country = {
-			limit = {has_country_flag = ruling_sent_attache_to_japan}
+			limit = {has_idea = ruling_sent_attache_to_japan_idea}
 			army_experience = 12
+		}
+		every_other_country = {
+			limit = {has_idea = ruling_sent_air_to_china_idea}
+			air_experience = 33
+		}
+		every_other_country = {
+			limit = {has_idea = ruling_sent_air_to_japan_idea}
+			air_experience = 50
 		}
 		add_equipment_to_stockpile = { type = infantry_equipment amount = -1250 }
 		add_equipment_to_stockpile = { type = support_equipment amount = -175 }
@@ -2294,7 +2317,13 @@ country_event = {
 		add_equipment_to_stockpile = { type = motorized_equipment amount = -50 }
 		add_equipment_to_stockpile = { type = radio_equipment amount = -50 }
 		add_manpower = -10000
-		army_experience = 100
+		army_experience = 200
+		MAN = {
+			army_experience = 50
+		}
+		SIA = {
+			army_experience = 50
+		}
 		air_experience = 50
 		name = japan.27.b
 		transfer_state = 608
@@ -2316,12 +2345,20 @@ country_event = {
 			news_event = {id = news.490}
 		}
 		every_other_country = {
-			limit = {has_country_flag = ruling_sent_attache_to_china}
+			limit = {has_idea = ruling_sent_attache_to_china_idea}
 			army_experience = 12
 		}
 		every_other_country = {
-			limit = {has_country_flag = ruling_sent_attache_to_japan}
+			limit = {has_idea = ruling_sent_attache_to_japan_idea}
 			army_experience = 18
+		}
+		every_other_country = {
+			limit = {has_idea = ruling_sent_air_to_china_idea}
+			air_experience = 50
+		}
+		every_other_country = {
+			limit = {has_idea = ruling_sent_air_to_japan_idea}
+			air_experience = 75
 		}
 		add_equipment_to_stockpile = { type = infantry_equipment amount = -2500 }
 		add_equipment_to_stockpile = { type = support_equipment amount = -350 }
@@ -2329,7 +2366,13 @@ country_event = {
 		add_equipment_to_stockpile = { type = motorized_equipment amount = -100 }
 		add_equipment_to_stockpile = { type = radio_equipment amount = -100 }
 		add_manpower = -20000
-		army_experience = 150
+		army_experience = 300
+		MAN = {
+			army_experience = 75
+		}
+		SIA = {
+			army_experience = 75
+		}
 		air_experience = 75
 		name = japan.27.c
 		transfer_state = 608
@@ -2351,12 +2394,20 @@ country_event = {
 			news_event = {id = news.490}
 		}
 		every_other_country = {
-			limit = {has_country_flag = ruling_sent_attache_to_china}
+			limit = {has_idea = ruling_sent_attache_to_china_idea}
 			army_experience = 16
 		}
 		every_other_country = {
-			limit = {has_country_flag = ruling_sent_attache_to_japan}
+			limit = {has_idea = ruling_sent_attache_to_japan_idea}
 			army_experience = 24
+		}
+		every_other_country = {
+			limit = {has_idea = ruling_sent_air_to_china_idea}
+			air_experience = 66
+		}
+		every_other_country = {
+			limit = {has_idea = ruling_sent_air_to_japan_idea}
+			air_experience = 100
 		}
 		add_equipment_to_stockpile = { type = infantry_equipment amount = -3750 }
 		add_equipment_to_stockpile = { type = support_equipment amount = -525 }
@@ -2364,7 +2415,13 @@ country_event = {
 		add_equipment_to_stockpile = { type = motorized_equipment amount = -150 }
 		add_equipment_to_stockpile = { type = radio_equipment amount = -150 }
 		add_manpower = -30000
-		army_experience = 200
+		army_experience = 400
+		MAN = {
+			army_experience = 100
+		}
+		SIA = {
+			army_experience = 100
+		}
 		air_experience = 100
 		name = japan.27.e
 		transfer_state = 608
@@ -2388,12 +2445,20 @@ country_event = {
 			news_event = {id = news.490}
 		}
 		every_other_country = {
-			limit = {has_country_flag = ruling_sent_attache_to_china}
+			limit = {has_idea = ruling_sent_attache_to_china_idea}
 			army_experience = 8
 		}
 		every_other_country = {
-			limit = {has_country_flag = ruling_sent_attache_to_japan}
+			limit = {has_idea = ruling_sent_attache_to_japan_idea}
 			army_experience = 12
+		}
+		every_other_country = {
+			limit = {has_idea = ruling_sent_air_to_china_idea}
+			air_experience = 17
+		}
+		every_other_country = {
+			limit = {has_idea = ruling_sent_air_to_japan_idea}
+			air_experience = 25
 		}
 		army_experience = 100
 		MAN = {
@@ -2402,6 +2467,7 @@ country_event = {
 		SIA = {
 			army_experience = 25
 		}
+		air_experience = 25
 		name = japan.27.a
 		transfer_state = 614 #Hebei
 		transfer_state = 597 #Shandong
@@ -2424,12 +2490,20 @@ country_event = {
 			news_event = {id = news.490}
 		}
 		every_other_country = {
-			limit = {has_country_flag = ruling_sent_attache_to_china}
+			limit = {has_idea = ruling_sent_attache_to_china_idea}
 			army_experience = 16
 		}
 		every_other_country = {
-			limit = {has_country_flag = ruling_sent_attache_to_japan}
+			limit = {has_idea = ruling_sent_attache_to_japan_idea}
 			army_experience = 24
+		}
+		every_other_country = {
+			limit = {has_idea = ruling_sent_air_to_china_idea}
+			air_experience = 33
+		}
+		every_other_country = {
+			limit = {has_idea = ruling_sent_air_to_japan_idea}
+			air_experience = 50
 		}
 		add_equipment_to_stockpile = { type = infantry_equipment amount = -1250 }
 		add_equipment_to_stockpile = { type = support_equipment amount = -175 }
@@ -2467,12 +2541,20 @@ country_event = {
 			news_event = {id = news.490}
 		}
 		every_other_country = {
-			limit = {has_country_flag = ruling_sent_attache_to_china}
+			limit = {has_idea = ruling_sent_attache_to_china_idea}
 			army_experience = 24
 		}
 		every_other_country = {
-			limit = {has_country_flag = ruling_sent_attache_to_japan}
+			limit = {has_idea = ruling_sent_attache_to_japan_idea}
 			army_experience = 36
+		}
+		every_other_country = {
+			limit = {has_idea = ruling_sent_air_to_china_idea}
+			air_experience = 50
+		}
+		every_other_country = {
+			limit = {has_idea = ruling_sent_air_to_japan_idea}
+			air_experience = 75
 		}
 		add_equipment_to_stockpile = { type = infantry_equipment amount = -2500 }
 		add_equipment_to_stockpile = { type = support_equipment amount = -350 }
@@ -2510,12 +2592,20 @@ country_event = {
 			news_event = {id = news.490}
 		}
 		every_other_country = {
-			limit = {has_country_flag = ruling_sent_attache_to_china}
+			limit = {has_idea = ruling_sent_attache_to_china_idea}
 			army_experience = 32
 		}
 		every_other_country = {
-			limit = {has_country_flag = ruling_sent_attache_to_japan}
+			limit = {has_idea = ruling_sent_attache_to_japan_idea}
 			army_experience = 48
+		}
+		every_other_country = {
+			limit = {has_idea = ruling_sent_air_to_china_idea}
+			air_experience = 66
+		}
+		every_other_country = {
+			limit = {has_idea = ruling_sent_air_to_japan_idea}
+			air_experience = 100
 		}
 		add_equipment_to_stockpile = { type = infantry_equipment amount = -3750 }
 		add_equipment_to_stockpile = { type = support_equipment amount = -525 }
@@ -2555,20 +2645,29 @@ country_event = {
 			news_event = {id = news.490}
 		}
 		every_other_country = {
-			limit = {has_country_flag = ruling_sent_attache_to_china}
+			limit = {has_idea = ruling_sent_attache_to_china_idea}
 			army_experience = 8
 		}
 		every_other_country = {
-			limit = {has_country_flag = ruling_sent_attache_to_japan}
+			limit = {has_idea = ruling_sent_attache_to_japan_idea}
 			army_experience = 12
 		}
 		army_experience = 100
+		every_other_country = {
+			limit = {has_idea = ruling_sent_air_to_china_idea}
+			air_experience = 17
+		}
+		every_other_country = {
+			limit = {has_idea = ruling_sent_air_to_japan_idea}
+			air_experience = 25
+		}
 		MAN = {
 			army_experience = 25
 		}
 		SIA = {
 			army_experience = 25
 		}
+		air_experience = 25
 		name = japan.27.a
 		transfer_state = 613 #Shanghai
 		transfer_state = 596 #Zhejiang
@@ -2592,12 +2691,20 @@ country_event = {
 			news_event = {id = news.490}
 		}
 		every_other_country = {
-			limit = {has_country_flag = ruling_sent_attache_to_china}
+			limit = {has_idea = ruling_sent_attache_to_china_idea}
 			army_experience = 16
 		}
 		every_other_country = {
-			limit = {has_country_flag = ruling_sent_attache_to_japan}
+			limit = {has_idea = ruling_sent_attache_to_japan_idea}
 			army_experience = 24
+		}
+		every_other_country = {
+			limit = {has_idea = ruling_sent_air_to_china_idea}
+			air_experience = 33
+		}
+		every_other_country = {
+			limit = {has_idea = ruling_sent_air_to_japan_idea}
+			air_experience = 50
 		}
 		add_equipment_to_stockpile = { type = infantry_equipment amount = -1250 }
 		add_equipment_to_stockpile = { type = support_equipment amount = -175 }
@@ -2636,12 +2743,20 @@ country_event = {
 			news_event = {id = news.490}
 		}
 		every_other_country = {
-			limit = {has_country_flag = ruling_sent_attache_to_china}
+			limit = {has_idea = ruling_sent_attache_to_china_idea}
 			army_experience = 24
 		}
 		every_other_country = {
-			limit = {has_country_flag = ruling_sent_attache_to_japan}
+			limit = {has_idea = ruling_sent_attache_to_japan_idea}
 			army_experience = 36
+		}
+		every_other_country = {
+			limit = {has_idea = ruling_sent_air_to_china_idea}
+			air_experience = 50
+		}
+		every_other_country = {
+			limit = {has_idea = ruling_sent_air_to_japan_idea}
+			air_experience = 75
 		}
 		add_equipment_to_stockpile = { type = infantry_equipment amount = -2500 }
 		add_equipment_to_stockpile = { type = support_equipment amount = -350 }
@@ -2680,12 +2795,20 @@ country_event = {
 			news_event = {id = news.490}
 		}
 		every_other_country = {
-			limit = {has_country_flag = ruling_sent_attache_to_china}
+			limit = {has_idea = ruling_sent_attache_to_china_idea}
 			army_experience = 32
 		}
 		every_other_country = {
-			limit = {has_country_flag = ruling_sent_attache_to_japan}
+			limit = {has_idea = ruling_sent_attache_to_japan_idea}
 			army_experience = 48
+		}
+		every_other_country = {
+			limit = {has_idea = ruling_sent_air_to_china_idea}
+			air_experience = 66
+		}
+		every_other_country = {
+			limit = {has_idea = ruling_sent_air_to_japan_idea}
+			air_experience = 100
 		}
 		add_equipment_to_stockpile = { type = infantry_equipment amount = -3750 }
 		add_equipment_to_stockpile = { type = support_equipment amount = -525 }
@@ -2726,12 +2849,20 @@ country_event = {
 			news_event = {id = news.490}
 		}
 		every_other_country = {
-			limit = {has_country_flag = ruling_sent_attache_to_china}
+			limit = {has_idea = ruling_sent_attache_to_china_idea}
 			army_experience = 8
 		}
 		every_other_country = {
-			limit = {has_country_flag = ruling_sent_attache_to_japan}
+			limit = {has_idea = ruling_sent_attache_to_japan_idea}
 			army_experience = 12
+		}
+		every_other_country = {
+			limit = {has_idea = ruling_sent_air_to_china_idea}
+			air_experience = 17
+		}
+		every_other_country = {
+			limit = {has_idea = ruling_sent_air_to_japan_idea}
+			air_experience = 25
 		}
 		army_experience = 100
 		MAN = {
@@ -2740,6 +2871,7 @@ country_event = {
 		SIA = {
 			army_experience = 25
 		}
+		air_experience = 25
 		name = japan.27.a
 		transfer_state = 598 #Jiangsu
 		transfer_state = 593 #Guangdong
@@ -2762,12 +2894,20 @@ country_event = {
 			news_event = {id = news.490}
 		}
 		every_other_country = {
-			limit = {has_country_flag = ruling_sent_attache_to_china}
+			limit = {has_idea = ruling_sent_attache_to_china_idea}
 			army_experience = 16
 		}
 		every_other_country = {
-			limit = {has_country_flag = ruling_sent_attache_to_japan}
+			limit = {has_idea = ruling_sent_attache_to_japan_idea}
 			army_experience = 24
+		}
+		every_other_country = {
+			limit = {has_idea = ruling_sent_air_to_china_idea}
+			air_experience = 33
+		}
+		every_other_country = {
+			limit = {has_idea = ruling_sent_air_to_japan_idea}
+			air_experience = 50
 		}
 		add_equipment_to_stockpile = { type = infantry_equipment amount = -1250 }
 		add_equipment_to_stockpile = { type = support_equipment amount = -175 }
@@ -2805,12 +2945,20 @@ country_event = {
 			news_event = {id = news.490}
 		}
 		every_other_country = {
-			limit = {has_country_flag = ruling_sent_attache_to_china}
+			limit = {has_idea = ruling_sent_attache_to_china_idea}
 			army_experience = 24
 		}
 		every_other_country = {
-			limit = {has_country_flag = ruling_sent_attache_to_japan}
+			limit = {has_idea = ruling_sent_attache_to_japan_idea}
 			army_experience = 36
+		}
+		every_other_country = {
+			limit = {has_idea = ruling_sent_air_to_china_idea}
+			air_experience = 50
+		}
+		every_other_country = {
+			limit = {has_idea = ruling_sent_air_to_japan_idea}
+			air_experience = 75
 		}
 		add_equipment_to_stockpile = { type = infantry_equipment amount = -2500 }
 		add_equipment_to_stockpile = { type = support_equipment amount = -350 }
@@ -2848,12 +2996,20 @@ country_event = {
 			news_event = {id = news.490}
 		}
 		every_other_country = {
-			limit = {has_country_flag = ruling_sent_attache_to_china}
+			limit = {has_idea = ruling_sent_attache_to_china_idea}
 			army_experience = 32
 		}
 		every_other_country = {
-			limit = {has_country_flag = ruling_sent_attache_to_japan}
+			limit = {has_idea = ruling_sent_attache_to_japan_idea}
 			army_experience = 48
+		}
+		every_other_country = {
+			limit = {has_idea = ruling_sent_air_to_china_idea}
+			air_experience = 66
+		}
+		every_other_country = {
+			limit = {has_idea = ruling_sent_air_to_japan_idea}
+			air_experience = 100
 		}
 		add_equipment_to_stockpile = { type = infantry_equipment amount = -3750 }
 		add_equipment_to_stockpile = { type = support_equipment amount = -525 }
@@ -2893,6 +3049,22 @@ country_event = {
 		transfer_state = 606 #Anhui
 		transfer_state = 599 #Guangxi
 		set_country_flag = jap_first_truce
+		every_other_country = {
+			limit = {has_idea = ruling_sent_attache_to_china_idea}
+			remove_ideas = ruling_sent_attache_to_china_idea
+		}
+		every_other_country = {
+			limit = {has_idea = ruling_sent_attache_to_japan_idea}
+			remove_ideas = ruling_sent_attache_to_japan_idea
+		}
+		every_other_country = {
+			limit = {has_idea = ruling_sent_air_to_china_idea}
+			remove_ideas = ruling_sent_air_to_china_idea
+		}
+		every_other_country = {
+			limit = {has_idea = ruling_sent_air_to_japan_idea}
+			remove_ideas = ruling_sent_air_to_japan_idea
+		}
 		CHI = {
 			country_event = { id = china.205 }
 		}

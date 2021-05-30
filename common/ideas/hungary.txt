@@ -246,7 +246,7 @@ ideas = {
 			research_bonus = {
 				air_equipment = 0.1
 			}
-			modifier = {
+			equipment_bonus = {
 				fighter_equipment = {
 					build_cost_ic = -0.05
 					instant = yes

@@ -850,6 +850,211 @@ propaganda_efforts = {
 }
 
 operations = {
+	ruling_send_attache_to_china_dec = {
+		icon = generic_political_discourse
+
+		available = {
+			JAP = {
+				has_completed_focus = JAP_intervene_in_china
+			}
+			has_political_power > 75 
+		}
+
+        visible = {
+			OR = {
+				is_in_faction_with = ENG
+				tag = USA
+				tag = PHI
+				tag = HOL
+				tag = ENG
+				tag = MEX
+				tag = SOV
+				tag = MON
+			}
+			NOT = {JAP = {has_country_flag = jap_first_truce}}
+		}
+
+		fire_only_once = yes
+
+		cost = 75
+
+		complete_effect = {
+			hidden_effect = {
+				add_ideas = ruling_sent_attache_to_china_idea
+			}
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	ruling_send_attache_to_japan_dec = {
+		icon = generic_political_discourse
+
+		available = {
+			JAP = {
+				has_completed_focus = JAP_intervene_in_china
+			}
+			has_political_power > 75 
+		}
+
+        visible = { 
+			OR = {
+				is_in_faction_with = GER
+				tag = GER
+				tag = ITA
+				tag = FIN
+				tag = CZE
+				tag = SPR
+				tag = HUN
+				tag = ROM
+				tag = BUL
+				tag = EFR
+			}
+			NOT = {JAP = {has_country_flag = jap_first_truce}}
+		}
+
+		fire_only_once = yes
+
+		cost = 75
+
+		complete_effect = {
+			hidden_effect = {
+				add_ideas = ruling_sent_attache_to_japan_idea
+			}
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	ENG_ruling_send_air_to_china_dec = {
+		icon = generic_air
+
+		available = {
+			JAP = {
+				has_completed_focus = JAP_intervene_in_china
+			}
+			has_equipment = {fighter_equipment > 99}
+			has_completed_focus = ENG_no_further_appeasement
+		}
+
+		visible = { 
+			tag = ENG
+			NOT = {JAP = {has_country_flag = jap_first_truce}}
+		}
+
+		fire_only_once = yes
+
+		cost = 0
+
+		complete_effect = {
+			add_equipment_to_stockpile = { type = fighter_equipment amount = -100 }
+			hidden_effect = {
+				add_ideas = ruling_sent_air_to_china_idea
+			}
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	USA_ruling_send_air_to_china_dec = {
+		icon = generic_air
+
+		available = {
+			JAP = {
+				has_completed_focus = JAP_intervene_in_china
+			}
+			has_equipment = {fighter_equipment > 99}
+			has_completed_focus = USA_form_modern_chinese_airforce
+		}
+
+		visible = {
+			tag = USA
+			NOT = {JAP = {has_country_flag = jap_first_truce}}
+		}
+
+		fire_only_once = yes
+
+		cost = 0
+
+		complete_effect = {
+			add_equipment_to_stockpile = { type = fighter_equipment amount = -100 }
+			hidden_effect = {
+				add_ideas = ruling_sent_air_to_china_idea
+			}
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	ruling_send_air_to_china_dec = {
+		icon = generic_air
+
+		available = {
+			JAP = {
+				has_completed_focus = JAP_intervene_in_china
+			}
+			has_equipment = {fighter_equipment > 99}
+		}
+
+		visible = {
+			OR = {
+				tag = SOV
+			}
+			NOT = {JAP = {has_country_flag = jap_first_truce}}
+		}
+
+		fire_only_once = yes
+
+		cost = 0
+
+		complete_effect = {
+			add_equipment_to_stockpile = { type = fighter_equipment amount = -100 }
+			hidden_effect = {
+				add_ideas = ruling_sent_air_to_china_idea
+			}
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	ruling_send_air_to_japan_dec = {
+		icon = generic_air
+
+		available = {
+			JAP = {
+				has_completed_focus = JAP_intervene_in_china
+			}
+			has_equipment = {fighter_equipment > 99}
+		}
+
+		visible = {
+			OR = {
+				tag = GER
+				tag = ITA
+			}
+			NOT = {JAP = {has_country_flag = jap_first_truce}}
+		}
+
+		fire_only_once = yes
+
+		cost = 0
+
+		complete_effect = {
+			add_equipment_to_stockpile = { type = fighter_equipment amount = -100 }
+			hidden_effect = {
+				add_ideas = ruling_sent_air_to_japan_idea
+			}
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+	}
 	air_defence_dec = {
 
 		icon = generic_construction
@@ -940,7 +1145,7 @@ operations = {
             	is_fully_controlled_by = ROOT
             	is_owned_by = ROOT
             }
-            has_war = yes
+            has_war = no
 		}
 
         complete_effect = {

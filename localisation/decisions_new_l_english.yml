@@ -40,6 +40,14 @@
  SOV_sealion_desc:0 "England has fallen which means Germany will be turning most if not all of their might against us. We must match them with more men and material."
  BUL_join_axis:0 "Join the Axis"
 
+ ###CHINA WAR###
+ ruling_send_attache_to_china_dec:0 "Send an attaché to China"
+ ruling_send_attache_to_japan_dec:0 "Send an attaché to Japan"
+ ruling_send_air_to_china_dec:0 "Send air volunteers to China"
+ ruling_send_air_to_japan_dec:0 "Send air volunteers to Japan"
+ ENG_ruling_send_air_to_china_dec:0 "Send air volunteers to China"
+ USA_ruling_send_air_to_china_dec:0 "Send air volunteers to China"
+
  ###Xenbang stuff### 
 
  political_actions_desc:0 "An action designed to attain a purpose by the use of political power or by activity in political channels. "
