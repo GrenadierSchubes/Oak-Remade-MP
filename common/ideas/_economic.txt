@@ -732,10 +732,7 @@ ideas = {
 			    tag = SWE
 			    tag = TUR
 				tag = SWI
-				tag = SIA
-				tag = MAN
 				tag = PHI
-				tag = MON
 				AND = {
 			        has_war = no
 			        NOT = { has_government = fascism }
@@ -778,7 +775,6 @@ ideas = {
 					tag = TUR
 					tag = POR
 					tag = SWI
-					tag = MON
 				}
 			}
 			
@@ -817,7 +813,6 @@ ideas = {
 					tag = SWE
 					tag = TUR
 					tag = SWI
-					tag = MON
 				}
 				OR = {
 					AND = {
@@ -875,7 +870,6 @@ ideas = {
 					tag = SWE
 					tag = TUR
 					tag = SWI
-					tag = MON
 				}
 				OR = { 
 					has_government = fascism

@@ -430,6 +430,10 @@ ideas = {
 					build_cost_ic = -0.1
 					instant = yes
 				}
+				amphibious_mechanized_equipment = {
+					build_cost_ic = -0.1
+					instant = yes
+				}
 			}
 		}
 
@@ -458,11 +462,19 @@ ideas = {
 					build_cost_ic = -0.10
 					instant = yes
 				}
+				amphibious_tank_equipment = {
+					build_cost_ic = -0.1
+					instant = yes
+				}
 				motorized_equipment = {
 					build_cost_ic = -0.1
 					instant = yes
 				}
 				mechanized_equipment = {
+					build_cost_ic = -0.1
+					instant = yes
+				}
+				amphibious_mechanized_equipment = {
 					build_cost_ic = -0.1
 					instant = yes
 				}
@@ -1667,10 +1679,19 @@ ideas = {
 				fighter_equipment = {
 					build_cost_ic = -0.1 instant = yes	
 				}
+				heavy_fighter_equipment = {
+					build_cost_ic = -0.1 instant = yes	
+				}
 				CAS_equipment = {
 					build_cost_ic = -0.1 instant = yes
 				}
+				nav_bomber_equipment = {
+					build_cost_ic = -0.1 instant = yes
+				}
 				tac_bomber_equipment = {
+					build_cost_ic = -0.1 instant = yes
+				}
+				strat_bomber_equipment = {
 					build_cost_ic = -0.1 instant = yes
 				}
 			}
@@ -1700,9 +1721,6 @@ ideas = {
 				cv_nav_bomber_equipment = {
 					build_cost_ic = -0.2 instant = yes
 				}
-				nav_bomber_equipment = {
-					build_cost_ic = -0.2 instant = yes
-				}
 			}
 		}
 
@@ -1722,6 +1740,10 @@ ideas = {
 			modifier = {
 				conscription = 0.02
 				special_forces_cap = 0.05
+				production_speed_infrastructure_factor = 0.1
+				production_speed_naval_base_factor = 0.1
+				production_speed_air_base_factor = 0.1
+				production_speed_radar_station_factor = 0.1
 			}
 		}
 		JAP_grant_draft_exemptions_idea = {

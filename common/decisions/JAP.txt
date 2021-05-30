@@ -8,22 +8,23 @@ JAP_intervene_in_china = {
 		available = {
 			JAP_has_idea_JAP_intervene_in_china = yes
 			OR = {
-				JAP = {
-					controls_state = 608
-					controls_state = 614
-					controls_state = 743
-					controls_state = 597
+				AND = {
+					JAP = {
+						controls_state = 614
+						controls_state = 743
+						controls_state = 597
 					}
-					casualties >500000
+					OR = {
+						JAP = {controls_state = 608}
+						MAN = {controls_state = 608}
+					}
+				}
+				casualties >500000
 				}
 		}
 
 		visible = {
 			JAP_has_idea_JAP_intervene_in_china = yes
-			any_country = {
-				is_literally_china = yes
-				has_war_with = ROOT
-			}
 		}
 
 		fire_only_once = yes
@@ -68,10 +69,6 @@ JAP_intervene_in_china = {
 
 		visible = {
 			JAP_has_idea_JAP_intervene_in_china = yes
-			any_country = {
-				is_literally_china = yes
-				has_war_with = ROOT
-			}
 		}
 
 		fire_only_once = yes

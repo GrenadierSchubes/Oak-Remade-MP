@@ -4753,10 +4753,7 @@ focus_tree = {
 		}
 		relative_position_id = SOV_NKVD_focus
 		available = {
-			OR = {
-				CHI = {has_war_with = JAP}
-				JAP = {	has_country_flag = jap_first_truce	}			
-			}
+			JAP = {has_completed_focus = JAP_intervene_in_china}
 			NOT = {
 				has_idea = SOV_aviation_enthusiasm
 			}
@@ -4795,10 +4792,7 @@ focus_tree = {
 		search_filters = {FOCUS_FILTER_WAR_SUPPORT}
 		relative_position_id = SOV_air_volunteers_in_china 
 		available = {
-			OR = {
-				JAP = {	has_war = yes }
-				JAP = {	has_country_flag = jap_first_truce	}			
-			}
+			JAP = {has_completed_focus = JAP_intervene_in_china}
 			NOT = {
 				has_idea = SOV_aviation_enthusiasm
 			}

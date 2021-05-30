@@ -5879,14 +5879,22 @@ SOV_global_revolution = {
 
 		available = {
 			has_equipment = { infantry_equipment > 999 }
-			PRC = {
-				has_war_with = JAP
+			OR = {
+				AND = {
+					JAP = {has_completed_focus = JAP_intervene_in_china}
+					NOT = {JAP = {has_country_flag = jap_first_truce}}
+				}
+				PRC = {has_war_with = JAP}
 			}
 		}
 
 		visible = {
-			PRC = {
-				has_war_with = JAP
+			OR = {
+				AND = {
+					JAP = {has_completed_focus = JAP_intervene_in_china}
+					NOT = {JAP = {has_country_flag = jap_first_truce}}
+				}
+				PRC = {has_war_with = JAP}
 			}
 		}
 
@@ -5932,19 +5940,23 @@ SOV_global_revolution = {
 		}
 
 		available = {
-			any_other_country = {
-				PRC = { 
-					has_war_with = JAP
+			OR = {
+				AND = {
+					JAP = {has_completed_focus = JAP_intervene_in_china}
+					NOT = {JAP = {has_country_flag = jap_first_truce}}
 				}
+				PRC = {has_war_with = JAP}
 			}
-			num_of_civilian_factories_available_for_projects > 4
+			num_of_civilian_factories_available_for_projects > 3
 		}
 
 		visible = {
-			any_other_country = {
-				PRC = { 
-					has_war_with = JAP
+			OR = {
+				AND = {
+					JAP = {has_completed_focus = JAP_intervene_in_china}
+					NOT = {JAP = {has_country_flag = jap_first_truce}}
 				}
+				PRC = {has_war_with = JAP}
 			}
 		}
 

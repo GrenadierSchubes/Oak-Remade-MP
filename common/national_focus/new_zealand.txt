@@ -1831,21 +1831,12 @@ focus_tree = {
 		completion_reward = {
 			transfer_state = 636 
 		    transfer_state = 643 
-			transfer_state = 642 
-		    transfer_state = 727 
 			transfer_state = 641 
 		    transfer_state = 270 
 			add_state_core = 636
 			add_state_core = 643
-			add_state_core = 642
-			add_state_core = 727
 			add_state_core = 641
 			add_state_core = 270
-		    set_cosmetic_tag = united_polynesia
-			hidden_effect = {
-				news_event = { id = lar_news.291 hours = 6 }
-				set_global_flag = form_polynesia_flag
-			}
 		}
 	}
 

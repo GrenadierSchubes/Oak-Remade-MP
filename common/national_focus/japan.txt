@@ -2154,6 +2154,14 @@ focus_tree = {
 		    	add_opinion_modifier = { target = SIA modifier = embargo } 
 				add_opinion_modifier = { target = SIA modifier = embargo_relation } 
 		    }
+		    MON = {
+		    	add_opinion_modifier = { target = ROOT modifier = embargo } 
+				add_opinion_modifier = { target = ROOT modifier = embargo_relation } 
+		    	add_opinion_modifier = { target = MAN modifier = embargo } 
+				add_opinion_modifier = { target = MAN modifier = embargo_relation } 
+		    	add_opinion_modifier = { target = SIA modifier = embargo } 
+				add_opinion_modifier = { target = SIA modifier = embargo_relation } 
+		    }
 		    JAP = {
 		    	add_opinion_modifier = { target = SOV modifier = embargo } 
 				add_opinion_modifier = { target = SOV modifier = embargo_relation } 
