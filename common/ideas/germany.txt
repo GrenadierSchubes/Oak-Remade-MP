@@ -147,7 +147,72 @@ ideas = {
 				ai_focus_aggressive_factor = 0.1
 			}
 		}
+		GER_happy_time = {
+			
+			picture = generic_coastal_navy
+			
+			allowed = {
+				always = no # Triggered via event
+			}
 
+			picture = generic_sea_focused_navy
+			
+			modifier = {
+				convoy_raiding_efficiency_factor = 0.25
+			}
+			
+		}
+		
+		GER_paukenschlag = {
+			
+			picture = generic_coastal_navy
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = generic_sea_focused_navy
+			
+			modifier = {
+				convoy_raiding_efficiency_factor = 0.25
+			}
+			
+		}
+		
+		GER_french_ports = {
+			
+			picture = generic_coastal_navy
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = generic_sea_focused_navy
+			
+			modifier = {
+				naval_speed_factor = 0.05
+				repair_speed_factor = 0.10
+			}
+			equipment_bonus = {
+				ship_hull_heavy = {
+					naval_range = 0.15 instant = yes
+				}
+				ship_hull_carrier = {
+					naval_range = 0.15 instant = yes
+				}
+				ship_hull_cruiser = {
+					naval_range = 0.15 instant = yes
+				}
+				ship_hull_light = {
+					naval_range = 0.15 instant = yes
+				}
+				
+				ship_hull_submarine = {
+					naval_range = 0.15 instant = yes
+				}
+			}
+		}
+		
 		GER_schacht_autarky = {
 			
 			picture = great_depression

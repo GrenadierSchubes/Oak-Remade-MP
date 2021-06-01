@@ -40,6 +40,8 @@
  SOV_sealions:0 "Emergency Measures"
  SOV_sealions_desc:0 "With the Fall of England, we must take action to increase our production and recruit more men."
 
+ GER_french_ports:0 "French Atlantic Ports"
+ GER_french_ports_desc:0 "Our control of the French coast allows the Kriegsmarine to extend its reach across the whole Atlantic and conduct operations far more efficiently"
  GER_economy_of_plunder_1:0 "Economy of Plunder: Light Plunder"
  GER_economy_of_plunder_1_desc:0 "The Nazis expected to cover their debt by plundering the wealth of conquered nations during the war. By extracting the wealth of occupied nations, the German economy can hopefully come back on its feet, although the price of such an extraction is payed in human life through extremely complicated bereaucracy and logistics."
  GER_economy_of_plunder_2:0 "Economy of Plunder: Light Plunder"

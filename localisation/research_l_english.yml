@@ -1457,6 +1457,8 @@
  coastal_defense_ships:0 "Coastal Defense Ships"
  basic_ship_hull_heavy:0 "1936 Heavy Ship Hull"
  basic_ship_hull_heavy_short:0 "1936 Heavy Ship Hull"
+ modern_panzerschiffe:0 "1940 Panzerschiffe"
+ hilfskreuzer:0 "Hilfskreuzer"
                                                      
  basic_fire_control_system:0 "Basic Fire Control System"
  basic_fire_control_system_desc:0 "All fire of the ship's guns is controlled from a central position, ensuring a tighter grouping of shots and increases accuracy."

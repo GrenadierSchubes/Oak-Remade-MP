@@ -5854,7 +5854,7 @@ focus_tree = {
 	focus = {
 		id = GER_prepare_the_kriegsmarine
 		icon = GFX_goal_ger_kriegsmarine
-		x = 31
+		x = 33
 		y = 0
 		cost = 5
 		ai_will_do = {
@@ -5938,8 +5938,8 @@ focus_tree = {
 		id = GER_mad_lads
 		prerequisite = { focus = GER_prepare_the_kriegsmarine }
 		icon = GFX_focus_generic_cruiser2
-		x = 7
-		y = 2
+		x = 4
+		y = 1
 		
 		relative_position_id = GER_prepare_the_kriegsmarine
 		cost = 5
@@ -5948,24 +5948,57 @@ focus_tree = {
 		}
 
 		available_if_capitulated = no
+		
+		complete_tooltip = {
+			navy_experience = 50
 
+			every_state = {
+				limit = { has_state_flag = GER_naval_rearmament_4dockyards }
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = dockyard 
+					level = 3
+					instant_build = yes
+				}
+			}
+		}
+		
 		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					dockyard > 0
+					free_building_slots = {
+						building = dockyard
+						size > 2
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = dockyard
+					level = 3
+					instant_build = yes
+				}
+				set_state_flag = GER_naval_rearmament_4dockyards
+			}
+			
 			effect_tooltip = {
 					GER_mefo_bills_level_up = yes
 				}
-				hidden_effect = {
+			hidden_effect = {
 					GER_mefo_bills_level_up = yes
 				}
 			add_tech_bonus = {
-				name = GER_panzerschiffe
-				bonus = 1.0
-				uses = 2
+				name = GER_mad_lads_focus
+				bonus = 2.0
+				uses = 1
 				category = cl_tech
+				ahead_reduction = 1
 			}
 		}
 	}
 	focus = {
-		id = GER_panzershiffe
+		id = GER_panzerschiffe
 		prerequisite = { focus = GER_mad_lads }
 		icon = GFX_focus_generic_cruiser2
 		x = -1
@@ -6011,13 +6044,20 @@ focus_tree = {
 		}
 
 		available_if_capitulated = no
-
+		complete_tooltip = {
+			if = {
+				limit = {
+					has_dlc = "Man the Guns"
+				}
+				set_technology = { hilfskreuzer = 1 }
+			}
+		}
 		completion_reward = {
-			add_tech_bonus = {
-				name = GER_panzerschiffe
-				bonus = 1.0
-				uses = 2
-				category = cl_tech
+			if = {
+				limit = {
+					has_dlc = "Man the Guns"
+				}
+				set_technology = { hilfskreuzer = 1 }
 			}
 		}
 	}
@@ -6026,8 +6066,8 @@ focus_tree = {
 		id = GER_u_boat_effort
 		prerequisite = { focus = GER_prepare_the_kriegsmarine }
 		icon = GFX_goal_ger_donitz_plan
-		x = 3
-		y = 2
+		x = 0
+		y = 1
 		relative_position_id = GER_prepare_the_kriegsmarine
 		cost = 5
 		ai_will_do = {
@@ -6155,8 +6195,8 @@ focus_tree = {
 		id = GER_naval_expansion
 		prerequisite = { focus = GER_prepare_the_kriegsmarine }
 		icon = GFX_goal_ger_raeder_plan
-		x = -1
-		y = 2
+		x = -4
+		y = 1
 		relative_position_id = GER_prepare_the_kriegsmarine
 		cost = 5
 		ai_will_do = {
@@ -6164,12 +6204,10 @@ focus_tree = {
 		}
 
 		available_if_capitulated = yes
-
+		
 		completion_reward = {
-				
-
 			custom_effect_tooltip = GER_plan_z_tt
-			custom_effect_tooltip = GER_plan_z_tt_2
+			custom_effect_tooltip = GER_plan_z_tt_2	
 			random_owned_controlled_state = {
 				limit = {
 					free_building_slots = {
@@ -6192,7 +6230,6 @@ focus_tree = {
 			hidden_effect = {
 				GER_mefo_bills_level_up = yes
 			}
-			custom_effect_tooltip = GER_plan_z_tt_4
 			add_tech_bonus = {
 				name = navy_doctrine_bonus 
 				bonus = 1.5 
@@ -6205,7 +6242,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = GER_cruiser_focus
+		id = GER_carrier_focus
 		prerequisite = { focus = GER_naval_expansion }
 		mutually_exclusive = { focus = GER_battleship_focus }
 		icon = GFX_focus_generic_cruiser2
@@ -6222,10 +6259,10 @@ focus_tree = {
 		completion_reward = {
 			navy_experience = 25
 			add_tech_bonus = {
-				name = GER_cruiser_focus
+				name = GER_carrier_focus
 				bonus = 2.0
 				uses = 1
-				category = cl_tech
+				category = cv_tech
 				ahead_reduction = 1
 			}
 		}
@@ -6234,7 +6271,7 @@ focus_tree = {
 	focus = {
 		id = GER_battleship_focus
 		prerequisite = { focus = GER_naval_expansion }
-		mutually_exclusive = { focus = GER_cruiser_focus }
+		mutually_exclusive = { focus = GER_carrier_focus }
 		icon = GFX_goal_generic_navy_battleship
 		x = 1
 		y = 1
@@ -6259,10 +6296,18 @@ focus_tree = {
 	}
 
 	focus = {
-		id = GER_surface_raiders 
-		icon = GFX_goal_generic_navy_doctrines_tactics
-		prerequisite = { focus = GER_cruiser_focus focus = GER_battleship_focus }
-		relative_position_id = GER_naval_expansion 
+		id = GER_atlantikschlact 
+		icon = GFX_goal_ger_raeder_plan
+		prerequisite = { focus = GER_carrier_focus focus = GER_battleship_focus focus = GER_trade_interdiction focus = GER_modular_construction focus = GER_panzerschiffe focus = GER_aux_cruiser}
+		
+		available = {
+			has_war_with = ENG
+			FRA = {
+				has_capitulated = yes
+			}
+		}
+		
+		relative_position_id = GER_u_boat_effort 
 		x = 0
 		y = 2
 		cost = 5
@@ -6270,69 +6315,10 @@ focus_tree = {
 			factor = 0.25
 		}
 		available_if_capitulated = yes
-		completion_reward = {
-			add_tech_bonus = {
-				name = navy_doctrine_bonus 
-				bonus = 1.5 
-				uses = 3 
-				technology = raider_patrols
-				technology = capital_ship_raiders
-				technology = battlefleet_concentration_ti
-			}
-		}
-	}
-	
-	focus = { 
-		id = GER_modern_battlefleet
-		icon = GFX_goal_generic_navy_carrier
-		prerequisite = { focus = GER_surface_raiders }
-		relative_position_id = GER_surface_raiders
-		x = 0
-		y = 1
-		cost = 5
-		ai_will_do = {
-			factor = 0.25 
-		}
-		available_if_capitulated = yes
-		
-		complete_tooltip = {
-			navy_experience = 50
-
-			every_state = {
-				limit = { has_state_flag = GER_naval_rearmament_4dockyards }
-				add_extra_state_shared_building_slots = 3
-				add_building_construction = {
-					type = dockyard 
-					level = 3
-					instant_build = yes
-				}
-			}
-		}
 		
 		completion_reward = {
-			random_owned_controlled_state = {
-				limit = {
-					dockyard > 0
-					free_building_slots = {
-						building = dockyard
-						size > 2
-						include_locked = yes
-					}
-				}
-				add_extra_state_shared_building_slots = 3
-				add_building_construction = {
-					type = dockyard
-					level = 3
-					instant_build = yes
-				}
-				set_state_flag = GER_naval_rearmament_4dockyards
+			add_ideas = GER_french_ports
 			}
-			add_tech_bonus = {
-				name = cv_bonus
-				bonus = 1
-				uses = 2
-				category = naval_equipment
-			}
-		}
 	}
-} #### EOF
+}
+ #### EOF
