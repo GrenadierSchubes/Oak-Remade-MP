@@ -761,15 +761,12 @@ ideas = {
 			picture = jap_zaibatsu_control
 			
 			modifier = {
-				political_power_cost = 0.25
-				stability_factor = -0.1
-				trade_laws_cost_factor = 0.25
-				economy_cost_factor = 0.25
+				political_power_cost = 0.1
 				production_speed_industrial_complex_factor = 0.10
 				production_speed_arms_factory_factor = 0.25
 				production_speed_dockyard_factor = 0.10
 				industrial_capacity_factory = 0.1
-				consumer_goods_factor = 0.03
+				consumer_goods_factor = 0.05
 			}
 		}
 
@@ -1792,6 +1789,8 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
+				industrial_capacity_factory = 0.0
+				industrial_capacity_dockyard = 0.0
 			}
 		}
 		JAP_major_conquest_2 = {
@@ -2451,6 +2450,9 @@ ideas = {
 				fighter_equipment = {
 					air_agility = 0.1 maximum_speed = 0.1
 				}
+				heavy_fighter_equipment = {
+					air_agility = 0.1 maximum_speed = 0.1
+				}
 				cv_fighter_equipment = {
 					air_agility = 0.1 maximum_speed = 0.1 air_range = 0.75
 				}
@@ -2480,13 +2482,20 @@ ideas = {
 			equipment_bonus = {
 				fighter_equipment = {
 					air_range = 0.1
+					air_attack = 0.1
 				}
 				heavy_fighter_equipment = {
 					air_range = 0.1
-					reliability = 0.15
+					air_attack = 0.1
 				}
 				tac_bomber_equipment = {
-					reliability = 0.15
+					reliability = 0.05
+					air_bombing = 0.05
+					air_range = 0.1
+				}
+				scout_plane_equipment = {
+					air_range = 0.1
+					reliability = 0.1
 				}
 			}
 

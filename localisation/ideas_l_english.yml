@@ -3537,6 +3537,8 @@
  JAP_extra_navy_investment:0 "Extra Navy Investment"
  JAP_carrier_tactics_idea:0 "Carrier Tactics"
  JAP_improved_torpedos:0 "Improved Torpedos"
+ JAP_interservice_rivalry_army_favored:0 "Interservice Rivalry - Army Favored"
+ JAP_interservice_rivalry_navy_favored:0 "Interservice Rivalry - Navy Favored"
 
  ###CHINA WAR###
  ruling_sent_attache_to_china_idea:0 "Sent a military attaché to China"

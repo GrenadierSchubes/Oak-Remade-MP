@@ -342,41 +342,6 @@ JAP_island_hopping_level_down = {
 		JAP_decrement_major_conquest = yes
 	}
 }
-JAP_interservice_rivalry_towards_army = {
-	
-	if = {
-		limit = {  has_idea = JAP_interservice_rivalry_army_strengthened }
-		swap_ideas = {
-			remove_idea = JAP_interservice_rivalry_army_strengthened
-			add_idea = JAP_interservice_rivalry_army_dominant
-		}
-	}
-
-	if = {
-		limit = { has_idea = JAP_interservice_rivalry_balanced }
-		swap_ideas = {
-			remove_idea = JAP_interservice_rivalry_balanced
-			add_idea = JAP_interservice_rivalry_army_strengthened
-		}
-	}
-
-	if = {
-		limit = { has_idea = JAP_interservice_rivalry_navy_strengthened }
-		swap_ideas = {
-			remove_idea = JAP_interservice_rivalry_navy_strengthened
-			add_idea = JAP_interservice_rivalry_balanced
-		}
-	}
-
-	if = {
-		limit = { has_idea = JAP_interservice_rivalry_navy_dominant }
-		swap_ideas = {
-			remove_idea = JAP_interservice_rivalry_navy_dominant
-			add_idea = JAP_interservice_rivalry_navy_strengthened
-		}
-	}
-
-}
 
 JAP_increment_major_conquest = {
 	if = {

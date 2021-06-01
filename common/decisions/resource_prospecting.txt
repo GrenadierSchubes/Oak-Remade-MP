@@ -1,10 +1,48 @@
 prospect_for_resources = {
+	JAP_develop_north_sakhalin_oil_deposits = { #655
+		icon = oil
+
+		highlight_state_targets = {
+			state = 655
+		}
+
+		allowed = {
+			original_tag = JAP
+		}
+
+		available = {
+			has_full_control_of_state = 655
+			has_tech = excavation2
+		}
+
+		fire_only_once = yes
+
+		cost = 25
+		days_remove = 60
+
+		modifier = {
+			civilian_factory_use = 3
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		complete_effect = {
+			655 = {
+				add_resource = {
+					type = oil
+					amount = 8
+				}
+			}
+		}
+	}
 	develop_shandong_aluminium_deposits = { #597
 		
 		icon = aluminium
 
 		allowed = {
-			
+			original_tag = JAP
 		}
 
 		highlight_state_targets = {
@@ -19,14 +57,11 @@ prospect_for_resources = {
 		}
 
 		visible = {
-			owns_state = 597
-			controls_state = 597
 			597 = {
 				NOT = {
 					has_state_flag = shandong_aluminium_developed
 				}
 			}
-			has_completed_focus = USA_push_for_resources
 		}
 
 		fire_only_once = yes
@@ -46,7 +81,7 @@ prospect_for_resources = {
 			597 = {
 				add_resource = {
 					type = aluminium
-					amount = 16
+					amount = 25
 				}
 			}
 		}
@@ -57,7 +92,7 @@ prospect_for_resources = {
 		icon = steel
 
 		allowed = {
-			
+			original_tag = JAP
 		}
 		highlight_state_targets = {
 			state = 621
@@ -70,14 +105,11 @@ prospect_for_resources = {
 		}
 
 		visible = {
-			owns_state = 621
-			controls_state = 621
 			621 = {
 				NOT = {
 					has_state_flag = suiyuan_steel_developed
 				}
 			}
-			has_completed_focus = USA_push_for_resources
 		}
 
 		fire_only_once = yes
@@ -97,7 +129,7 @@ prospect_for_resources = {
 			621 = {
 				add_resource = {
 					type = steel
-					amount = 22
+					amount = 25
 				}
 			}
 		}	
@@ -207,7 +239,7 @@ prospect_for_resources = {
 		icon = aluminium
 
 		allowed = {
-			
+			original_tag = JAP
 		}
 
 		available = {
@@ -221,8 +253,6 @@ prospect_for_resources = {
 		}
 
 		visible = {
-			owns_state = 325
-			controls_state = 325
 			325 = {
 				NOT = {
 					has_state_flag = yunnan_aluminium_developed
@@ -247,7 +277,7 @@ prospect_for_resources = {
 			325 = {
 				add_resource = {
 					type = aluminium
-					amount = 19
+					amount = 25
 				}
 			}
 		}	
@@ -257,7 +287,7 @@ prospect_for_resources = {
 		icon = aluminium
 
 		allowed = {
-			NOT = { tag = MAN }
+
 		}
 
 		available = {
@@ -271,8 +301,6 @@ prospect_for_resources = {
 		}
 
 		visible = {
-			owns_state = 328
-			controls_state = 328
 			328 = {
 				NOT = {
 					has_state_flag = kirin_aluminium_developed
@@ -297,7 +325,7 @@ prospect_for_resources = {
 			328 = {
 				add_resource = {
 					type = aluminium
-					amount = 23
+					amount = 18
 				}
 			}
 		}	
@@ -307,7 +335,7 @@ prospect_for_resources = {
 		icon = aluminium
 
 		allowed = {
-			
+			original_tag = JAP
 		}
 
 		available = {
@@ -321,8 +349,6 @@ prospect_for_resources = {
 		}
 
 		visible = {
-			owns_state = 605
-			controls_state = 605
 			605 = {
 				NOT = {
 					has_state_flag = sichuan_aluminium_developed
@@ -347,7 +373,7 @@ prospect_for_resources = {
 			605 = {
 				add_resource = {
 					type = aluminium
-					amount = 18
+					amount = 25
 				}
 			}
 		}	
@@ -358,7 +384,7 @@ prospect_for_resources = {
 		icon = chromium
 
 		allowed = {
-			
+			original_tag = JAP
 		}
 
 		available = {
@@ -372,8 +398,6 @@ prospect_for_resources = {
 		}
 
 		visible = {
-			owns_state = 623
-			controls_state = 623
 			623 = {
 				NOT = {
 					has_state_flag = luzon_chromium_developed
@@ -398,7 +422,7 @@ prospect_for_resources = {
 			623 = {
 				add_resource = {
 					type = chromium
-					amount = 13
+					amount = 12
 				}
 			}
 		}
@@ -409,7 +433,7 @@ prospect_for_resources = {
 		icon = steel
 
 		allowed = {
-			
+			original_tag = JAP
 		}
 
 		highlight_state_targets = {
@@ -424,8 +448,6 @@ prospect_for_resources = {
 		}
 
 		visible = {
-			owns_state = 627
-			controls_state = 627
 			627 = {
 				NOT = {
 					has_state_flag = mindanao_steel_developed
@@ -450,7 +472,7 @@ prospect_for_resources = {
 			627 = {
 				add_resource = {
 					type = steel
-					amount = 18
+					amount = 12
 				}
 			}
 		}
@@ -460,7 +482,7 @@ prospect_for_resources = {
 		icon = tungsten
 
 		allowed = {
-			
+			original_tag = JAP
 		}
 
 		available = {
@@ -468,6 +490,7 @@ prospect_for_resources = {
 			num_of_civilian_factories_available_for_projects > 2
 			owns_state = 725
 			controls_state = 725
+			has_completed_focus = JAP_reach_for_resources_focus
 		}
 
 		highlight_state_targets = {
@@ -475,8 +498,6 @@ prospect_for_resources = {
 		}
 
 		visible = {
-			owns_state = 725
-			controls_state = 725
 			725 = {
 				NOT = {
 					has_state_flag = nauru_tungsten_developed
@@ -512,29 +533,27 @@ prospect_for_resources = {
 			}
 		}
 	}
-	develop_samar_steel_deposits = { #623
+	develop_samar_steel_deposits = { #625
 		
 		icon = steel
 
 		allowed = {
-			
+			original_tag = JAP
 		}
 
 		available = {
 			has_tech = excavation2
 			num_of_civilian_factories_available_for_projects > 1
-			owns_state = 623
-			controls_state = 623
+			owns_state = 625
+			controls_state = 625
 		}
 
 		highlight_state_targets = {
-			state = 623
+			state = 625
 		}
 
 		visible = {
-			owns_state = 623
-			controls_state = 623
-			623 = {
+			625 = {
 				NOT = {
 					has_state_flag = samar_steel_developed
 				}
@@ -555,11 +574,11 @@ prospect_for_resources = {
 		}
 
 		remove_effect = { 
-			623 = { set_state_flag = samar_steel_developed } 
-			623 = {
+			625 = { set_state_flag = samar_steel_developed } 
+			625 = {
 				add_resource = {
 					type = steel
-					amount = 22
+					amount = 10
 				}
 			}
 		}	
@@ -570,7 +589,7 @@ prospect_for_resources = {
 		icon = aluminium
 
 		allowed = {
-			
+			original_tag = JAP
 		}
 
 		available = {
@@ -585,8 +604,6 @@ prospect_for_resources = {
 		}
 
 		visible = {
-			owns_state = 671
-			controls_state = 671
 			671 = {
 				NOT = {
 					has_state_flag = tonkin_aluminium_developed
@@ -612,7 +629,7 @@ prospect_for_resources = {
 			671 = {
 				add_resource = {
 					type = aluminium
-					amount = 16
+					amount = 25
 				}
 			}
 		}
@@ -622,7 +639,7 @@ prospect_for_resources = {
 		icon = aluminium
 
 		allowed = {
-			
+			original_tag = JAP
 		}
 
 		available = {	
@@ -637,8 +654,6 @@ prospect_for_resources = {
 		}
 
 		visible = {
-			owns_state = 336
-			controls_state = 336
 			336 = {
 				NOT = {
 					has_state_flag = singapore_aluminium_developed
@@ -664,7 +679,7 @@ prospect_for_resources = {
 			336 = {
 				add_resource = {
 					type = aluminium
-					amount = 23
+					amount = 25
 				}
 			}
 		}

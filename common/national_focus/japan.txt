@@ -200,7 +200,7 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
-			add_political_power = 150 
+			add_political_power = 100 
 		}
 
 		completion_reward = {
@@ -222,6 +222,7 @@ focus_tree = {
 				}
 				set_state_flag = MAN_invite_japanese_investors_IC
 			}
+			add_political_power = 100 
 		}
 	}
 	focus = {
@@ -2140,94 +2141,100 @@ focus_tree = {
 		available_if_capitulated = no
 
 		complete_tooltip = {
-
+		    add_ideas = JAP_major_conquest_1
+		    custom_effect_tooltip = JAP_embargo_comintern_tt
+		    custom_effect_tooltip = JAP_strike_south_tt
 		}
 
 		completion_reward = {
 		    country_event = {id = japan.20 }
 		    add_ideas = JAP_major_conquest_1
-		    SOV = {
-		    	add_opinion_modifier = { target = ROOT modifier = embargo } 
-				add_opinion_modifier = { target = ROOT modifier = embargo_relation } 
-		    	add_opinion_modifier = { target = MAN modifier = embargo } 
-				add_opinion_modifier = { target = MAN modifier = embargo_relation } 
-		    	add_opinion_modifier = { target = SIA modifier = embargo } 
-				add_opinion_modifier = { target = SIA modifier = embargo_relation } 
+		    custom_effect_tooltip = JAP_embargo_comintern_tt
+		    custom_effect_tooltip = JAP_strike_south_tt
+		    hidden_effect = {
+			    SOV = {
+			    	add_opinion_modifier = { target = ROOT modifier = embargo } 
+					add_opinion_modifier = { target = ROOT modifier = embargo_relation } 
+			    	add_opinion_modifier = { target = MAN modifier = embargo } 
+					add_opinion_modifier = { target = MAN modifier = embargo_relation } 
+			    	add_opinion_modifier = { target = SIA modifier = embargo } 
+					add_opinion_modifier = { target = SIA modifier = embargo_relation } 
+			    }
+			    MON = {
+			    	add_opinion_modifier = { target = ROOT modifier = embargo } 
+					add_opinion_modifier = { target = ROOT modifier = embargo_relation } 
+			    	add_opinion_modifier = { target = MAN modifier = embargo } 
+					add_opinion_modifier = { target = MAN modifier = embargo_relation } 
+			    	add_opinion_modifier = { target = SIA modifier = embargo } 
+					add_opinion_modifier = { target = SIA modifier = embargo_relation } 
+			    }
+			    JAP = {
+			    	add_opinion_modifier = { target = SOV modifier = embargo } 
+					add_opinion_modifier = { target = SOV modifier = embargo_relation } 
+			    	add_opinion_modifier = { target = MON modifier = embargo } 
+					add_opinion_modifier = { target = MON modifier = embargo_relation } 
+			    }
+			    MAN = {
+			    	add_opinion_modifier = { target = SOV modifier = embargo } 
+					add_opinion_modifier = { target = SOV modifier = embargo_relation } 
+			    	add_opinion_modifier = { target = MON modifier = embargo } 
+					add_opinion_modifier = { target = MON modifier = embargo_relation }  
+			    }
+			    SIA = {
+			    	add_opinion_modifier = { target = SOV modifier = embargo } 
+					add_opinion_modifier = { target = SOV modifier = embargo_relation } 
+			    	add_opinion_modifier = { target = MON modifier = embargo } 
+					add_opinion_modifier = { target = MON modifier = embargo_relation }  
+			    }
+				declare_war_on = {
+					target = USA
+					type = annex_everything
+				}		    
+				declare_war_on = {
+					target = ENG
+					type = annex_everything
+				}	
+				declare_war_on = {
+					target = FRA
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = RAJ
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = CAN
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = AST
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = SAF
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = IRE
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = NZL
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = PHI
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = HOL
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = INS
+					type = annex_everything
+				}
 		    }
-		    MON = {
-		    	add_opinion_modifier = { target = ROOT modifier = embargo } 
-				add_opinion_modifier = { target = ROOT modifier = embargo_relation } 
-		    	add_opinion_modifier = { target = MAN modifier = embargo } 
-				add_opinion_modifier = { target = MAN modifier = embargo_relation } 
-		    	add_opinion_modifier = { target = SIA modifier = embargo } 
-				add_opinion_modifier = { target = SIA modifier = embargo_relation } 
-		    }
-		    JAP = {
-		    	add_opinion_modifier = { target = SOV modifier = embargo } 
-				add_opinion_modifier = { target = SOV modifier = embargo_relation } 
-		    	add_opinion_modifier = { target = MON modifier = embargo } 
-				add_opinion_modifier = { target = MON modifier = embargo_relation } 
-		    }
-		    MAN = {
-		    	add_opinion_modifier = { target = SOV modifier = embargo } 
-				add_opinion_modifier = { target = SOV modifier = embargo_relation } 
-		    	add_opinion_modifier = { target = MON modifier = embargo } 
-				add_opinion_modifier = { target = MON modifier = embargo_relation }  
-		    }
-		    SIA = {
-		    	add_opinion_modifier = { target = SOV modifier = embargo } 
-				add_opinion_modifier = { target = SOV modifier = embargo_relation } 
-		    	add_opinion_modifier = { target = MON modifier = embargo } 
-				add_opinion_modifier = { target = MON modifier = embargo_relation }  
-		    }
-			declare_war_on = {
-				target = USA
-				type = annex_everything
-			}		    
-			declare_war_on = {
-				target = ENG
-				type = annex_everything
-			}	
-			declare_war_on = {
-				target = FRA
-				type = annex_everything
-			}
-			declare_war_on = {
-				target = RAJ
-				type = annex_everything
-			}
-			declare_war_on = {
-				target = CAN
-				type = annex_everything
-			}
-			declare_war_on = {
-				target = AST
-				type = annex_everything
-			}
-			declare_war_on = {
-				target = SAF
-				type = annex_everything
-			}
-			declare_war_on = {
-				target = IRE
-				type = annex_everything
-			}
-			declare_war_on = {
-				target = NZL
-				type = annex_everything
-			}
-			declare_war_on = {
-				target = PHI
-				type = annex_everything
-			}
-			declare_war_on = {
-				target = HOL
-				type = annex_everything
-			}
-			declare_war_on = {
-				target = INS
-				type = annex_everything
-			}
 		}
 	}
 	focus = {
@@ -2545,7 +2552,7 @@ focus_tree = {
 			show_ideas_tooltip = toyosaku_shimada
 			add_tech_bonus = {	
 				name = land_doc_bonus
-				bonus = 1.5
+				bonus = 1.0
 				uses = 2
 				category = land_doctrine
 			}
@@ -4399,40 +4406,12 @@ focus_tree = {
 		available_if_capitulated = no
 
 		complete_tooltip = {
-			random_state = {
-				limit = {
-					has_state_flag = JAP_range_focus_mils
-				}
-				add_building_construction = {
-					type = arms_factory
-					level = 2
-					instant_build = yes
-				}
-			}
 		}
 
 		completion_reward = {
 			custom_effect_tooltip = available_designer
 			show_ideas_tooltip = aichi
 			add_ideas = aichi
-			random_owned_controlled_state = {			
-				limit = {
-					ROOT = { has_full_control_of_state = PREV }
-					is_core_of = ROOT
-					free_building_slots = {
-						building = arms_factory
-						size > 1
-						include_locked = yes
-					}
-				}
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-					type = arms_factory
-					level = 2
-					instant_build = yes
-				}
-				set_state_flag = JAP_range_focus_mils
-			}
 		}
 	}
 	focus = {
