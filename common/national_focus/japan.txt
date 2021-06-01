@@ -2430,7 +2430,7 @@ focus_tree = {
 	}	
 	focus = {
 		id = JAP_the_old_guard
-		icon = GFX_idea_tomoyuki_yamashita
+		icon = GFX_Nora_oldguard
 		prerequisite = { focus = JAP_army_expansion_law }
 		mutually_exclusive = { focus = JAP_innovative_theories }
 		x = -5
@@ -2530,7 +2530,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_innovative_theories
-		icon = GFX_idea_toyosaku_shimada
+		icon = GFX_Nora_newapproach
 		prerequisite = { focus = JAP_army_expansion_law }
 		mutually_exclusive = { focus = JAP_the_old_guard }
 		x = -3

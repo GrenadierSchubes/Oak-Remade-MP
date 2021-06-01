@@ -2954,4 +2954,12 @@ spriteTypes = {
 		name = "GFX_Nora_blumresign"
 		texturefile = "gfx/interface/goals/focus_fra_resign_blum.dds"
 	}
+	SpriteType = {
+		name = "GFX_Nora_newapproach"
+		texturefile = "gfx/interface/goals/focus_jap_new_approach.dds"
+	}
+	SpriteType = {
+		name = "GFX_Nora_oldguard"
+		texturefile = "gfx/interface/goals/focus_jap_old_guard.dds"
+	}
 }
