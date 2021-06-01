@@ -1,4 +1,10 @@
 ai_historical_focus_list_NZL = {
 	ai_national_focuses = {
+		Nzl_Nat_Def_Ins
+		Nzl_Bur_Ind
+		NZL_nation
+		Nzl_exp_chr_mot_com
+		NZL_coastal_defense
+		Nzl_old_pen
 	}
 }

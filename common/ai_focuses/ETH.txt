@@ -1,0 +1,13 @@
+ai_historical_focus_list_CAN = {
+	ai_national_focuses = {
+		ETH_political_effort
+		ETH_construction_effort_2
+		ETH_production_effort_3
+		ETH_superior_tactics
+		ETH_superior_tactics_ma
+		ETH_army_reform_complete
+		ETH_why_we_fight
+		ETH_special_forces
+		ETH_technology_sharing
+	}
+}

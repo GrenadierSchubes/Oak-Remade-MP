@@ -41,7 +41,6 @@ ai_historical_focus_list_CAN = {
 		CAN_if_day										#1942
 		CAN_camp_x										#1940
 		CAN_supply_the_empire							#1940s
-		CAN_heavy_cruiser_effort						#
 		CAN_polymer_corporation							#1942
 		CAN_uranium_mining								#1930s
 		CAN_escort_fleet								#
