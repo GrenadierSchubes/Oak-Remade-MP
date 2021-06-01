@@ -91,6 +91,7 @@ add_ideas = {
 	disarmed_nation
 	refinery_idea
 	NZL_great_depression_1
+	NZL_wall_defence3
 }
 
 set_politics = {

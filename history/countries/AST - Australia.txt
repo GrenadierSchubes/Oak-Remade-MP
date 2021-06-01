@@ -3,6 +3,24 @@
 oob = "AST_1936"
 set_research_slots = 4
 
+523 = { #Papua
+	start_resistance = yes
+	set_compliance = 100
+	set_resistance = 0
+	set_garrison_strength = 1.0
+}
+737 = { #New Britain / Bismark
+	start_resistance = yes
+	set_compliance = 100
+	set_resistance = 0
+	set_garrison_strength = 1.0
+}
+634 = { #Solomon Islands
+	start_resistance = yes
+	set_compliance = 100
+	set_resistance = 0
+	set_garrison_strength = 1.0
+}
 
 set_stability = 0.7
 set_war_support = 0.3
@@ -99,6 +117,7 @@ add_ideas = {
 	volunteer_only
 	AST_conscript_malus
 	refinery_idea
+	AST_wall_defence3
 }
 
 if = {

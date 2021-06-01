@@ -515,6 +515,62 @@ ideas = {
 				}
 			}
 		}
+		AST_wall_defence0 = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			picture = ast_naval_auxiliary_patrol
+			removal_cost = -1
+			modifier = {
+				army_core_attack_factor = 0.0
+				army_core_defence_factor = 0.0
+			}
+		}
+		AST_wall_defence1 = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			picture = ast_naval_auxiliary_patrol
+			removal_cost = -1
+			modifier = {
+				army_core_attack_factor = 0.10
+				army_core_defence_factor = 0.10
+			}
+		}
+		AST_wall_defence2 = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			picture = ast_naval_auxiliary_patrol
+			removal_cost = -1
+			modifier = {
+				army_core_attack_factor = 0.20
+				army_core_defence_factor = 0.20
+			}
+		}
+		AST_wall_defence3 = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			picture = ast_naval_auxiliary_patrol
+			removal_cost = -1
+			modifier = {
+				army_core_attack_factor = 0.30
+				army_core_defence_factor = 0.30
+			}
+		}
 	}
 	political_advisor = {
 

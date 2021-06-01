@@ -7,8 +7,9 @@ state={
 	}
 
 	history={
+		set_state_flag = AST_control_wall
 		owner = AST
-		add_core_of = AST
+		add_core_of = INS
 		buildings = {
 			infrastructure = 2
 			1269 = {

@@ -1,0 +1,46 @@
+NZL_wall_defence_down = {
+	if = {
+		limit = { has_idea = NZL_wall_defence3 }
+		swap_ideas = {
+			remove_idea = NZL_wall_defence3
+			add_idea = NZL_wall_defence2
+		}
+	}
+	else_if = {
+		limit = { has_idea = NZL_wall_defence2 }
+		swap_ideas = {
+			remove_idea = NZL_wall_defence2
+			add_idea = NZL_wall_defence1
+		}
+	}
+	else_if = {
+		limit = { has_idea = NZL_wall_defence1 }
+		swap_ideas = {
+			remove_idea = NZL_wall_defence1
+			add_idea = NZL_wall_defence0
+		}
+	}
+}
+NZL_wall_defence_up = {
+	if = {
+		limit = { has_idea = NZL_wall_defence0 }
+		swap_ideas = {
+			remove_idea = NZL_wall_defence0
+			add_idea = NZL_wall_defence1
+		}
+	}
+	else_if = {
+		limit = { has_idea = NZL_wall_defence1 }
+		swap_ideas = {
+			remove_idea = NZL_wall_defence1
+			add_idea = NZL_wall_defence2
+		}
+	}
+	else_if = {
+		limit = { has_idea = NZL_wall_defence2 }
+		swap_ideas = {
+			remove_idea = NZL_wall_defence2
+			add_idea = NZL_wall_defence3
+		}
+	}
+}
