@@ -192,6 +192,7 @@ technologies = {
 				movement = 0.1
 			}
 		}
+		conscription = 0.02
 	}
 	jungle_fighting_technique = {
 		research_cost = -1 

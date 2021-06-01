@@ -17,7 +17,7 @@ focus_tree = {
 		icon = GFX_ITA_ethiopian_war_logistics
 		x = 14
 		y = 0
-		cost = 7.145
+		cost = 2.2
 		ai_will_do = {
 			factor = 10
 		}
@@ -104,7 +104,7 @@ focus_tree = {
 		mutually_exclusive = { focus = ITA_learn_from_the_ethiopian_war }
 		x = 15
 		y = 1
-		cost = 7.145
+		cost = 5
 		ai_will_do = {
 			factor = 100
 		}

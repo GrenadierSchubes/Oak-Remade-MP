@@ -272,7 +272,7 @@ ideas = {
 			picture = ast_volunteer_defence_corps
 			
 			modifier = {
-				conscription = 0.01
+				conscription = 0.02
 			}
 		}
 		AST_citizen_military_forces = {

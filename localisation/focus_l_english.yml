@@ -4527,6 +4527,8 @@ FIN_further_artillery_support_desc:0 "Artillery support has proven invaluable to
  USA_unrestricted_submarine_warfare:1 "Unrestricted Submarine Warfare"
  USA_unrestricted_submarine_warfare_desc:1 "History has shown that whatever well-intentioned treaty tried to control submarine warfare is not worth the paper it is written on. We should not consider ourselves bound by something our enemies will ignore anyway."
  can_degaussing_tech:0 "Gain the Degaussing technology"
+ CAN_carrier_effort:0 "Carrier Effort"
+ CAN_carrier_effort_desc:0 "Carriers appear to be the future of naval warfare, and might be critical to securing our shipping routes."
  USA_great_depression_cooldown:0 "New Legislation is still being drafted"
  USA_great_depression_cooldown_tt:0 "After this law is passed, it will take §Y230 days§! until further New Deal legislation is drafted and ready to be signed.\n\n"
  USA_limited_intervention_tt:0 "\n\nPassing this law will make it §Rsignificantly harder§! to mobilize your economy.\n\n"

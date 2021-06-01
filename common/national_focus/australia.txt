@@ -718,8 +718,7 @@ focus_tree = {
 		id = AST_sons_of_the_outback
 		icon = GFX_focus_AST_rats_tobruk
 		mutually_exclusive = { focus = AST_to_hell_and_back }
-		prerequisite = { focus = AST_specialize_equipment }
-		prerequisite = { focus = AST_promote_reservists }
+		prerequisite = { focus = AST_specialize_equipment focus = AST_promote_reservists }
 		x = 0
 		y = 5
 		relative_position_id = AST_additional_militia_training
@@ -755,8 +754,7 @@ focus_tree = {
 		id = AST_to_hell_and_back
 		icon = GFX_focus_AST_never_gallipoli
 		mutually_exclusive = { focus = AST_sons_of_the_outback }
-		prerequisite = { focus = AST_specialize_equipment }
-		prerequisite = { focus = AST_promote_reservists }
+		prerequisite = { focus = AST_specialize_equipment focus = AST_promote_reservists }
 		x = -2
 		y = 5
 		relative_position_id = AST_additional_militia_training

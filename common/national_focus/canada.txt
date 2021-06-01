@@ -3458,8 +3458,8 @@ focus_tree = {
 	}
 
 	focus = {
-		id = CAN_heavy_cruiser_effort
-		icon = GFX_goal_generic_occupy_states_coastal
+		id = CAN_carrier_effort
+		icon = GFX_goal_generic_navy_carrier
 		prerequisite = { focus = CAN_destroyer_effort }
 		x = 1
 		y = 2
@@ -3489,11 +3489,11 @@ focus_tree = {
 
 		completion_reward = {
 			add_tech_bonus = {
-				name = CAN_heavy_cruiser_effort
+				name = CAN_carrier_effort
 				bonus = 1
 				ahead_reduction = 1
 				uses = 1
-				category = ca_tech
+				category = cv_tech
 			}
 		}
 	}
