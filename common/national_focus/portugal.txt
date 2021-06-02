@@ -21,7 +21,7 @@ focus_tree = {
 	
 	default = no
 
-	continuous_focus_position = { x = 50 y = 1500 }
+	continuous_focus_position = { x = 50 y = 1200 }
 
 	focus = {
 		id = POR_colonial_assimilation_policy
@@ -113,7 +113,7 @@ focus_tree = {
 		y = 0
 
 		relative_position_id = POR_luso_tropicalism
-		cost = 7.16
+		cost = 5
 		search_filters = {FOCUS_FILTER_INDUSTRY}
 		completion_reward = { 
 
@@ -174,7 +174,7 @@ focus_tree = {
 		y = 1
 
 		relative_position_id = POR_infrastructure_in_angola
-		cost = 7.16
+		cost = 5
 		search_filters = {FOCUS_FILTER_INDUSTRY}
 		completion_reward = { 
 			796 = {
@@ -213,7 +213,7 @@ focus_tree = {
 		y = 1
 
 		relative_position_id = POR_develop_north_angola
-		cost = 7.16
+		cost = 5
 		search_filters = {FOCUS_FILTER_INDUSTRY}
 		completion_reward = { 
 			540 = {
@@ -284,7 +284,7 @@ focus_tree = {
 		y = 1
 
 		relative_position_id = POR_develop_south_angola
-		cost = 7.16
+		cost = 5
 		search_filters = {FOCUS_FILTER_INDUSTRY}
 		completion_reward = { 
 			544 = {
@@ -691,8 +691,7 @@ focus_tree = {
 
 	focus = {
 		id = POR_extraction_industries
-		available = {
-			date > 1939.5.1				
+		available = {		
 		}
 
 		bypass = {		
@@ -1726,7 +1725,7 @@ focus_tree = {
 		id = POR_army_reorganization
 		available = {
 		    OR = {
-                has_army_experience > 200
+                has_army_experience > 50
 				is_ai = yes
             }				
 		}
@@ -1744,7 +1743,7 @@ focus_tree = {
 		search_filters = {FOCUS_FILTER_MANPOWER FOCUS_FILTER_WAR_SUPPORT}
 		completion_reward = { 	
 			remove_ideas = POR_unreliable_army
-			army_experience	= -200
+			army_experience	= -50
 			add_stability = -0.05
 		}
 	}
@@ -2063,7 +2062,7 @@ focus_tree = {
 		y = 0
 
 		relative_position_id = POR_army_reorganization
-		cost = 7.16
+		cost = 5
 		search_filters = {FOCUS_FILTER_INDUSTRY FOCUS_FILTER_POLITICAL}
 		completion_reward = { 	
 			add_ideas = POR_estado_novo

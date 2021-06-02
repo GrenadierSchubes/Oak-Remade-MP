@@ -64,6 +64,7 @@ set_technology = {
 	heavy_fighter_1936 = 1
 	############### economy ############
 	electronic_mechanical_engineering = 1
+	tank_radio = 1
 	radio_detection = 1
 	decimetric_radar = 1
     basic_fire_control_system = 1
@@ -123,6 +124,12 @@ if = {
 		dp_secondary_battery = 1
 		basic_cruiser_armor_scheme = 1
 		basic_heavy_armor_scheme = 1
+		damage_control_1
+		damage_control_2
+		damage_control_3
+		fire_control_methods_1
+		fire_control_methods_2
+		fire_control_methods_3
 		mtg_transport = 1
 		improved_airplane_launcher = 1
 		magnetic_detonator = 1

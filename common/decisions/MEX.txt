@@ -7,7 +7,7 @@ MEX_category_military_issues = {
 	
 		icon = generic_nationalism
 		
-		fire_only_once = no
+		fire_only_once = yes
 
 		fixed_random_seed = no
 		
@@ -78,7 +78,7 @@ MEX_category_military_issues = {
 	
 		icon = generic_nationalism
 		
-		fire_only_once = no
+		fire_only_once = yes
 		
 		fixed_random_seed = no
 

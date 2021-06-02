@@ -78,6 +78,9 @@ operations = {
 			    add_state_core = 180
 			    add_state_core = 181
 			}
+			ENG = {
+                add_to_faction = POR
+			}
 		}
 	}
     POR_honor = {

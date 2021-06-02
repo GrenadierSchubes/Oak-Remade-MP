@@ -1178,7 +1178,6 @@ focus_tree = {
 		available_if_capitulated = yes
 		
 		completion_reward = {
-			add_stability = -0.05
 			every_country = {
 				limit = {
 					OR = {

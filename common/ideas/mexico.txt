@@ -135,6 +135,8 @@ ideas = {
 			modifier = {
 				production_speed_synthetic_refinery_factor = 0.1
 			    production_speed_synthetic_rubber_refinery_factor = -0.15
+				local_resources_factor = 0.05
+				fuel_gain_factor = 0.2
 			}
         }			
 		synarchist_support_surge = {
@@ -1738,6 +1740,7 @@ ideas = {
 			}
 			
 			research_bonus = {
+			    industry = 0.05
 				synth_resources = 0.1
 			}
 			
