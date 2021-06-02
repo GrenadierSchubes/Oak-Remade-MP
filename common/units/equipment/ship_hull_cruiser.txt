@@ -1032,6 +1032,7 @@ equipments = {
 					ship_anti_air
 					ship_airplane_launcher
 					ship_torpedo
+					ship_heavy_battery
 				}
 			}
 		}
@@ -1052,7 +1053,7 @@ equipments = {
 		build_cost_ic = 2600
 		naval_speed = 28
 		surface_visibility = 22
-		naval_range = 15000
+		naval_range = 10000
 		max_strength = 230
 		armor_value = 4.0
 		resources = {
@@ -1091,6 +1092,7 @@ equipments = {
 					ship_anti_air
 					ship_airplane_launcher
 					ship_torpedo
+					ship_heavy_battery
 				}
 			}
 		}
@@ -1153,6 +1155,7 @@ equipments = {
 					ship_airplane_launcher
 					ship_torpedo
 					ship_medium_battery
+
 				}
 			}
 		}
