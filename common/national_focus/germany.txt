@@ -5937,7 +5937,7 @@ focus_tree = {
 	focus = {
 		id = GER_mad_lads
 		prerequisite = { focus = GER_prepare_the_kriegsmarine }
-		icon = GFX_focus_generic_cruiser2
+		icon = GFX_GER_madlads
 		x = 4
 		y = 1
 		
@@ -6000,7 +6000,7 @@ focus_tree = {
 	focus = {
 		id = GER_panzerschiffe
 		prerequisite = { focus = GER_mad_lads }
-		icon = GFX_focus_generic_cruiser2
+		icon = GFX_GER_panzerschiffe
 		x = -1
 		y = 1
 		
@@ -6033,7 +6033,7 @@ focus_tree = {
 	focus = {
 		id = GER_aux_cruiser
 		prerequisite = { focus = GER_mad_lads }
-		icon = GFX_focus_generic_cruiser2
+		icon = GFX_GER_hilfskreuzer
 		x = 1
 		y = 1
 		
@@ -6245,7 +6245,7 @@ focus_tree = {
 		id = GER_carrier_focus
 		prerequisite = { focus = GER_naval_expansion }
 		mutually_exclusive = { focus = GER_battleship_focus }
-		icon = GFX_focus_generic_cruiser2
+		icon = GFX_goal_generic_navy_carrier
 		x = -1
 		y = 1
 		relative_position_id = GER_naval_expansion
