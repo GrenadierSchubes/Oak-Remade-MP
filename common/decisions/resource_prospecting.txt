@@ -140,7 +140,10 @@ prospect_for_resources = {
 		icon = oil
 
 		allowed = {
-			
+			OR = {
+				tag = JAP
+				tag = MAN
+			}
 		}
 		highlight_state_targets = {
 			state = 714
@@ -153,8 +156,6 @@ prospect_for_resources = {
 		}
 
 		visible = {
-			owns_state = 714
-			controls_state = 714
 			714 = {
 				NOT = {
 					has_state_flag = daqing_oil_developed_1
@@ -189,6 +190,10 @@ prospect_for_resources = {
 		icon = oil
 
 		allowed = {
+			OR = {
+				tag = JAP
+				tag = MAN
+			}
 			
 		}
 		highlight_state_targets = {
@@ -202,8 +207,6 @@ prospect_for_resources = {
 		}
 
 		visible = {
-			owns_state = 714
-			controls_state = 714
 			714 = {
 				has_state_flag = daqing_oil_developed_1
 				NOT = {
@@ -287,7 +290,10 @@ prospect_for_resources = {
 		icon = aluminium
 
 		allowed = {
-
+			OR = {
+				tag = JAP
+				tag = MAN
+			}
 		}
 
 		available = {
