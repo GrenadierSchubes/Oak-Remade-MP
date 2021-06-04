@@ -405,7 +405,7 @@ focus_tree = {
 		relative_position_id = USA_department_of_war
 		x = -15
 		y = 1
-		cost = 2
+		cost = 2.429
 		ai_will_do = {
 			factor = 100 
 		}
@@ -441,7 +441,7 @@ focus_tree = {
 		relative_position_id = USA_support_china
 		x = 1
 		y = 1
-		cost = 5
+		cost = 2.573
 		ai_will_do = {
 			factor = 100 
 		}
@@ -473,7 +473,7 @@ focus_tree = {
 		relative_position_id = USA_support_china
 		x = -1
 		y = 1
-		cost = 5
+		cost = 2.573
 		ai_will_do = {
 			factor = 100 
 		}
@@ -504,7 +504,7 @@ focus_tree = {
 		relative_position_id = USA_support_china
 		x = 0
 		y = 2
-		cost = 5
+		cost = 2.429
 		ai_will_do = {
 			factor = 100 
 		}
@@ -518,7 +518,7 @@ focus_tree = {
 		
 		completion_reward = {
 			add_stability = 0.1
-			add_political_power = 150
+			add_political_power = 100
 		}
 	}	
 
@@ -530,7 +530,7 @@ focus_tree = {
 		relative_position_id = USA_support_china
 		x = -1
 		y = 3
-		cost = 5
+		cost = 2.573
 		ai_will_do = {
 			factor = 100 
 		}
@@ -592,7 +592,7 @@ focus_tree = {
 		relative_position_id = USA_support_china
 		x = -1
 		y = 4
-		cost = 5
+		cost = 2.429
 		ai_will_do = {
 			factor = 100 
 		}
@@ -623,7 +623,7 @@ focus_tree = {
 		relative_position_id = USA_support_china
 		x = -1
 		y = 5
-		cost = 5
+		cost = 2.573
 		ai_will_do = {
 			factor = 100 
 		}
@@ -727,7 +727,7 @@ focus_tree = {
 		relative_position_id = USA_support_china
 		x = 1
 		y = 3
-		cost = 5
+		cost = 2.573
 		ai_will_do = {
 			factor = 100 
 		}
@@ -764,7 +764,7 @@ focus_tree = {
 		relative_position_id = USA_support_china
 		x = 1
 		y = 4
-		cost = 5
+		cost = 2.429
 		ai_will_do = {
 			factor = 100 
 		}
@@ -804,7 +804,7 @@ focus_tree = {
 		relative_position_id = USA_support_china
 		x = 1
 		y = 5
-		cost = 5
+		cost = 2.573
 		ai_will_do = {
 			factor = 100 
 		}
