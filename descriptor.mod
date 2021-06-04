@@ -1,4 +1,4 @@
-version="1.10.5"
+version="1.10.7"
 replace_path="common/units/names_divisions"
 replace_path="history/countries"
 replace_path="history/states"
@@ -9,4 +9,4 @@ tags={
 	"Historical"
 }
 name="Oak Git"
-supported_version="1.10.5"
+supported_version="1.10.7"

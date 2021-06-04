@@ -1,9 +1,25 @@
 ai_historical_focus_list_NZL = {
 	ai_national_focuses = {
-		Nzl_Nat_Def_Ins
-		Nzl_Bur_Ind
+		Nzl_sav_cab
 		NZL_nation
+		Nzl_Nat_Res_Bnk
+		Nzl_Fin_Act
+		Nzl_Exp_Auk_Uni
+		Nzl_Sta_Hse
+		Nzl_Pub_Wor
+		Nzl_Exp_OIRM
+		Nzl_Hyd_Pow_Exp
+		Nzl_Big_Thk
+		Nzl_Hig_and_Roa
+		Nzl_Exc_Tar_Oil
+		Nzl_Shp_Frm
+		Nzl_Bur_Ind
+		Nzl_Nat_Def_Ins
+		Nzl_reform_nzef
+		Nzl_exp_cac
 		Nzl_exp_chr_mot_com
+		Nzl_transfer_the_new_zealand_division
+		NZL_expand_devonport_naval_base
 		NZL_coastal_defense
 		Nzl_old_pen
 	}

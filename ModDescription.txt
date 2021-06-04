@@ -1,6 +1,6 @@
 [h1]Hearts of Oak[/h1]
 
-[b]Compatible with version 1.9.3 - Husky (La Resistance)
+[b]Compatible with version 1.10.7 - Collie (Battle for the Bosporous)
    Compatible with all DLCs[/b]
 
 [h1]Overview:[/h1]
