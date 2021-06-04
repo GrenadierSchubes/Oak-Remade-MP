@@ -1470,7 +1470,7 @@ focus_tree = {
 		relative_position_id = USA_bases_in_anzac
 		x = 1
 		y = 1
-		cost = 7.16
+		cost = 5
 		ai_will_do = {
 			factor = 100 
 		}
@@ -1502,7 +1502,7 @@ focus_tree = {
 		relative_position_id = USA_appoint_mcaurther_as_commander
 		x = 2
 		y = 1
-		cost = 7.16
+		cost = 5
 		ai_will_do = {
 			factor = 100 
 		}
@@ -1535,7 +1535,7 @@ focus_tree = {
 		relative_position_id = USA_appoint_mcaurther_as_commander
 		x = 4
 		y = 1
-		cost = 7.16
+		cost = 5
 		ai_will_do = {
 			factor = 100 
 		}
@@ -1569,7 +1569,7 @@ focus_tree = {
 		relative_position_id = USA_secure_supply_chains
 		x = 1
 		y = 1
-		cost = 7.16
+		cost = 5
 		ai_will_do = {
 			factor = 100 
 		}
@@ -3373,7 +3373,7 @@ focus_tree = {
 		icon = GFX_USA_neutrality_act
 		x = 34
 		y = 0
-		cost = 7.16
+		cost = 5
 		ai_will_do = {
 			factor = 100 
 		}
@@ -3400,7 +3400,7 @@ focus_tree = {
 		icon = GFX_USA_sit_down_strikes
 		x = -6
 		y = 1
-		cost = 7.16
+		cost = 5
 		prerequisite = { focus = USA_neutrality_act }
 		relative_position_id = USA_neutrality_act
 		ai_will_do = {
@@ -3443,7 +3443,7 @@ focus_tree = {
 		icon = GFX_USA_take_the_side_of_big_business
 		x = -1
 		y = 1
-		cost = 7.16
+		cost = 5
 		prerequisite = { focus = USA_sit_down_strikes }
 		mutually_exclusive = { focus = USA_the_workers_are_in_the_right }
 
@@ -3494,7 +3494,7 @@ focus_tree = {
 		icon = GFX_USA_present_an_ultimatum_to_strikers
 		x = -1
 		y = 2
-		cost = 7.16
+		cost = 5
 		prerequisite = { focus = USA_take_the_side_of_big_business }
 		relative_position_id = USA_sit_down_strikes
 		ai_will_do = {
@@ -3542,7 +3542,7 @@ focus_tree = {
 		icon = GFX_USA_order_the_national_guard_take_them_down
 		x = -1
 		y = 3
-		cost = 7.16
+		cost = 5
 		prerequisite = { focus = USA_present_an_ultimatum_to_strikers }
 		relative_position_id = USA_sit_down_strikes
 		ai_will_do = {
@@ -3588,7 +3588,7 @@ focus_tree = {
 		icon = GFX_USA_the_workers_are_in_the_right
 		x = 1
 		y = 1
-		cost = 7.16
+		cost = 5
 		mutually_exclusive = { focus = USA_take_the_side_of_big_business }
 		prerequisite = { focus = USA_sit_down_strikes }
 		relative_position_id = USA_sit_down_strikes
@@ -3638,7 +3638,7 @@ focus_tree = {
 		icon = GFX_USA_force_the_companies_to_resign_their_position
 		x = 1
 		y = 2
-		cost = 7.16
+		cost = 5
 		prerequisite = { focus = USA_the_workers_are_in_the_right }
 		relative_position_id = USA_sit_down_strikes
 		ai_will_do = {
@@ -3693,7 +3693,7 @@ focus_tree = {
 		icon = GFX_USA_send_the_national_guard_to_protect_the_workers
 		x = 1
 		y = 3
-		cost = 7.16
+		cost = 5
 		prerequisite = { focus = USA_force_the_companies_to_resign_their_position }
 		relative_position_id = USA_sit_down_strikes
 		ai_will_do = {
@@ -3800,7 +3800,7 @@ focus_tree = {
 		icon = GFX_USA_the_support_of_congress_and_the_house
 		x = 6
 		y = 1
-		cost = 7.16
+		cost = 5
 		prerequisite = { focus = USA_neutrality_act }
 		relative_position_id = USA_neutrality_act
 		ai_will_do = {
@@ -3839,7 +3839,7 @@ focus_tree = {
 		icon = GFX_USA_rally_the_pro_new_dealers
 		x = -1
 		y = 1
-		cost = 7.16
+		cost = 5
 		mutually_exclusive = { focus = USA_appeal_to_sympathetic_republicans }
 		prerequisite = { focus = USA_the_support_of_congress_and_the_house }
 		relative_position_id = USA_the_support_of_congress_and_the_house
@@ -3878,7 +3878,7 @@ focus_tree = {
 		icon = GFX_USA_replace_supreme_court_judges
 		x = -1
 		y = 2
-		cost = 7.16
+		cost = 5
 		prerequisite = { focus = USA_rally_the_pro_new_dealers }
 		relative_position_id = USA_the_support_of_congress_and_the_house
 		ai_will_do = {
@@ -3919,7 +3919,7 @@ focus_tree = {
 		icon = GFX_USA_prepare_new_deal_legislation
 		x = -1
 		y = 3
-		cost = 7.16
+		cost = 5
 		prerequisite = { focus = USA_replace_supreme_court_judges }
 		relative_position_id = USA_the_support_of_congress_and_the_house
 		ai_will_do = {
@@ -3970,7 +3970,7 @@ focus_tree = {
 		icon = GFX_USA_appeal_to_sympathetic_republicans
 		x = 1
 		y = 1
-		cost = 7.16
+		cost = 5
 		mutually_exclusive = { focus = USA_rally_the_pro_new_dealers }
 		prerequisite = { focus = USA_the_support_of_congress_and_the_house }
 		relative_position_id = USA_the_support_of_congress_and_the_house
@@ -4012,7 +4012,7 @@ focus_tree = {
 		icon = GFX_USA_our_america_our_problems
 		x = 1
 		y = 2
-		cost = 7.16
+		cost = 5
 		prerequisite = { focus = USA_appeal_to_sympathetic_republicans }
 		relative_position_id = USA_the_support_of_congress_and_the_house
 		ai_will_do = {
@@ -4151,7 +4151,7 @@ focus_tree = {
 		icon = GFX_USA_revive_core_industry
 		x = -2
 		y = 1
-		cost = 7.16
+		cost = 5
 		prerequisite = { focus = USA_neutrality_act }
 		relative_position_id = USA_neutrality_act
 		ai_will_do = {
@@ -4329,7 +4329,7 @@ focus_tree = {
 		icon = GFX_USA_heavy_public_works_spending
 		x = -2
 		y = 3
-		cost = 7.16
+		cost = 5
 		prerequisite = { focus = USA_public_works_projects focus = USA_heavy_industry_revival }
 		relative_position_id = USA_neutrality_act
 
@@ -4379,7 +4379,7 @@ focus_tree = {
 		icon = GFX_USA_modernizing_industry
 		x = -2
 		y = 4
-		cost = 7.16
+		cost = 5
 		prerequisite = { focus = USA_heavy_public_works_spending }
 		relative_position_id = USA_neutrality_act
 
@@ -4431,7 +4431,7 @@ focus_tree = {
 		icon = GFX_USA_federal_housing_act
 		x = -2
 		y = 5
-		cost = 7.16
+		cost = 5
 		prerequisite = { focus = USA_modernizing_industry }
 		relative_position_id = USA_neutrality_act
 
@@ -4489,7 +4489,7 @@ focus_tree = {
 		icon = GFX_USA_henry_morgenthau_junior
 		x = 2
 		y = 1
-		cost = 7.16
+		cost = 5
 		prerequisite = { focus = USA_neutrality_act }
 		relative_position_id = USA_neutrality_act
 
@@ -4536,7 +4536,7 @@ focus_tree = {
 		icon = GFX_USA_balancing_the_budget
 		x = 1
 		y = 2
-		cost = 7.16
+		cost = 5
 		prerequisite = { focus = USA_henry_morgenthau_junior }
 		mutually_exclusive = { focus = USA_continue_deficit_financing }
 
@@ -4629,7 +4629,7 @@ focus_tree = {
 		icon = GFX_USA_fight_against_corruption
 		x = 2
 		y = 3
-		cost = 7.16
+		cost = 5
 		prerequisite = { focus = USA_continue_deficit_financing focus = USA_balancing_the_budget }
 		relative_position_id = USA_neutrality_act
 
@@ -4675,7 +4675,7 @@ focus_tree = {
 		icon = GFX_USA_treasure_ministry
 		x = 2
 		y = 4
-		cost = 7.16
+		cost = 5
 		prerequisite = { focus = USA_fight_against_corruption }
 		relative_position_id = USA_neutrality_act
 
@@ -4724,7 +4724,7 @@ focus_tree = {
 		icon = GFX_USA_social_security_act
 		x = 2
 		y = 5
-		cost = 12.15
+		cost = 5
 		prerequisite = { focus = USA_treasure_ministry }
 		relative_position_id = USA_neutrality_act
 
@@ -4777,7 +4777,7 @@ focus_tree = {
 		icon = GFX_USA_short_of_war
 		x = 0
 		y = 6
-		cost = 7.16
+		cost = 5
 		prerequisite = { focus = USA_executive_office_of_the_president }
 		prerequisite = {focus = USA_labour_standards_act }
 		prerequisite = { focus = USA_social_security_act }

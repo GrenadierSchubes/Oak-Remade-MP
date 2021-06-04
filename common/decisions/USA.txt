@@ -79,7 +79,7 @@ USA_popular_support = {
 			factor = 10
 		}
 
-		days_re_enable = 65
+		days_re_enable = 50
 		days_remove = 20
 
 		complete_effect = {
