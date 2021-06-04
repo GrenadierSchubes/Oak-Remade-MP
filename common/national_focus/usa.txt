@@ -4055,7 +4055,7 @@ focus_tree = {
 		icon = GFX_USA_abandon_new_deal_legislation
 		x = 1
 		y = 3
-		cost = 7.16
+		cost = 5
 		prerequisite = { focus = USA_our_america_our_problems }
 		relative_position_id = USA_the_support_of_congress_and_the_house
 		ai_will_do = {
