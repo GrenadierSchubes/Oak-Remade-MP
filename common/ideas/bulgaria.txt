@@ -1940,7 +1940,6 @@ ideas = {
 			picture = bul_dobri_bozhilov
 			
 			allowed = {
-				has_dlc = "Battle for the Bosporus"
 				original_tag = BUL
 			}
 
@@ -1960,7 +1959,6 @@ ideas = {
 			picture = bul_stefan_stefanov
 			
 			allowed = {
-				has_dlc = "Battle for the Bosporus"
 				original_tag = BUL
 			}
 
@@ -1980,7 +1978,6 @@ ideas = {
 			picture = bul_valko_chervenkov
 			
 			allowed = {
-				has_dlc = "Battle for the Bosporus"
 				original_tag = BUL
 			}
 
@@ -2004,7 +2001,6 @@ ideas = {
 			picture = bul_georgi_kyoseivanov
 			
 			allowed = {
-				has_dlc = "Battle for the Bosporus"
 				original_tag = BUL
 			}
 
@@ -2027,7 +2023,6 @@ ideas = {
 			allowed = {
 				original_tag = BUL
 				has_dlc = "La Resistance"
-				has_dlc = "Battle for the Bosporus"
 			}
 
 			available = {
@@ -2043,7 +2038,6 @@ ideas = {
 			picture = bul_stoycho_mushanov
 			
 			allowed = {
-				has_dlc = "Battle for the Bosporus"
 				original_tag = BUL
 			}
 
@@ -2070,7 +2064,6 @@ ideas = {
 			picture = bul_konstantin_muraviev
 			
 			allowed = {
-				has_dlc = "Battle for the Bosporus"
 				original_tag = BUL
 			}
 
@@ -2088,7 +2081,6 @@ ideas = {
 			picture = bul_dimitrana_ivanova
 			
 			allowed = {
-				has_dlc = "Battle for the Bosporus"
 				original_tag = BUL
 			}
 
@@ -2116,7 +2108,6 @@ ideas = {
 			picture = bul_vasil_kolarov
 			
 			allowed = {
-				has_dlc = "Battle for the Bosporus"
 				original_tag = BUL
 			}
 
@@ -2141,7 +2132,6 @@ ideas = {
 			picture = bul_todor_pavlov
 			
 			allowed = {
-				has_dlc = "Battle for the Bosporus"
 				original_tag = BUL
 			}
 
@@ -2160,7 +2150,6 @@ ideas = {
 			picture = bul_ivan_dochev
 			
 			allowed = {
-				has_dlc = "Battle for the Bosporus"
 				original_tag = BUL
 			}
 
@@ -2182,7 +2171,6 @@ ideas = {
 			picture = bul_aleksandar_tsankov
 			
 			allowed = {
-				has_dlc = "Battle for the Bosporus"
 				original_tag = BUL
 			}
 
@@ -2202,7 +2190,6 @@ ideas = {
 			picture = bul_nikola_zhekov
 			
 			allowed = {
-				has_dlc = "Battle for the Bosporus"
 				original_tag = BUL
 			}
 
@@ -2227,7 +2214,6 @@ ideas = {
 			picture = bul_bogdan_filov
 			
 			allowed = {
-				has_dlc = "Battle for the Bosporus"
 				original_tag = BUL
 			}
 
@@ -2258,7 +2244,6 @@ ideas = {
 			picture = bul_bogdan_filov
 			
 			allowed = {
-				has_dlc = "Battle for the Bosporus"
 				original_tag = BUL
 			}
 
@@ -2288,7 +2273,6 @@ ideas = {
 			picture = bul_kimon_georgiev
 			
 			allowed = {
-				has_dlc = "Battle for the Bosporus"
 				original_tag = BUL
 			}
 
@@ -2317,46 +2301,6 @@ ideas = {
 				factor = 3
 			}
 		}
-
-		BUL_konstantin_muraviev = { #VANILLA
-
-			picture = generic_political_advisor_europe_1
-			
-			allowed = {
-				NOT = { has_dlc = "Battle for the Bosporus" }
-				original_tag = BUL
-			}
-			
-			traits = { compassionate_gentleman }
-		}
-
-		BUL_dobri_bozhilov = { #VANILLA
-
-			picture = generic_political_advisor_europe_2
-				
-			allowed = {
-				NOT = { has_dlc = "Battle for the Bosporus" }
-				original_tag = BUL
-			}
-			
-			traits = { captain_of_industry }
-		}
-
-		BUL_georgi_ivanov_kyoseivanov = { #VANILLA
-
-			picture = generic_political_advisor_europe_3
-			
-			allowed = {
-				NOT = { has_dlc = "Battle for the Bosporus" }
-				original_tag = BUL
-			}
-			
-			traits = { backroom_backstabber }
-
-			ai_will_do = {
-				factor = 0
-			}
-		}
 	}
 
 	theorist = {
@@ -2367,7 +2311,6 @@ ideas = {
 			picture = bul_theodosi_daskalov
 
 			allowed = {
-				has_dlc = "Battle for the Bosporus"
 				original_tag = BUL
 			}
 
@@ -2389,7 +2332,6 @@ ideas = {
 			picture = bul_georgi_petsov
 
 			allowed = {
-				has_dlc = "Battle for the Bosporus"
 				original_tag = BUL
 			}
 			
@@ -2406,7 +2348,6 @@ ideas = {
 			picture = bul_sava_ivanov
 
 			allowed = {
-				has_dlc = "Battle for the Bosporus"
 				original_tag = BUL
 			}
 			
@@ -2423,7 +2364,6 @@ ideas = {
 			picture = bul_georgi_drenikov
 
 			allowed = {
-				has_dlc = "Battle for the Bosporus"
 				original_tag = BUL
 			}
 			
@@ -2433,58 +2373,6 @@ ideas = {
 			
 			traits = { air_warfare_theorist }
 		}
-
-		BUL_kiril_stanchev = { #VANILLA
-			ledger = army
-			
-			picture = bul_kiril_stanchev
-
-			allowed = {
-				NOT = { has_dlc = "Battle for the Bosporus" }
-				original_tag = BUL
-			}
-			
-			research_bonus = {
-				land_doctrine = 0.10
-			}
-			
-			traits = { military_theorist }
-		}
-		
-		BUL_ivan_gaidimitriv = { #VANILLA
-			ledger = air
-			
-			picture = generic_air_europe_1
-			
-			allowed = {
-				NOT = { has_dlc = "Battle for the Bosporus" }
-				original_tag = BUL
-			}
-			
-			research_bonus = {
-				air_doctrine = 0.10
-			}
-			
-			traits = { air_warfare_theorist }
-		}
-
-		BUL_georgi_petsov = { #VANILLA
-			ledger = navy
-
-			picture = generic_navy_europe_1
-			
-			allowed = {
-				NOT = { has_dlc = "Battle for the Bosporus" }
-				original_tag = BUL
-			}
-			
-			research_bonus = {
-				naval_doctrine = 0.10
-			}
-			
-			traits = { naval_theorist }
-		}
-
 	}
 
 	army_chief = {
@@ -2493,7 +2381,6 @@ ideas = {
 			picture = bul_konstantin_lukash
 			
 			allowed = {
-				has_dlc = "Battle for the Bosporus"
 				original_tag = BUL
 			}
 			
@@ -2516,7 +2403,6 @@ ideas = {
 			picture = bul_nikola_hadzipetkov
 			
 			allowed = {
-				has_dlc = "Battle for the Bosporus"
 				original_tag = BUL
 			}
 			
@@ -2537,7 +2423,6 @@ ideas = {
 			picture = bul_kiril_yanchulev
 			
 			allowed = {
-				has_dlc = "Battle for the Bosporus"
 				original_tag = BUL
 			}
 			
@@ -2560,7 +2445,6 @@ ideas = {
 			picture = bul_vasil_boydev
 			
 			allowed = {
-				has_dlc = "Battle for the Bosporus"
 				original_tag = BUL
 			}
 			
@@ -2583,7 +2467,6 @@ ideas = {
 			picture = bul_kiril_stanchev
 			
 			allowed = {
-				has_dlc = "Battle for the Bosporus"
 				original_tag = BUL
 			}
 			
@@ -2599,40 +2482,6 @@ ideas = {
 				}
 			}
 		}
-
-		BUL_nikola_hadzipetkov = { #VANILLA
-			picture = generic_army_europe_3
-			
-			allowed = {
-				NOT = { has_dlc = "Battle for the Bosporus" }
-				original_tag = BUL
-			}
-			
-
-			
-			traits = { army_chief_drill_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
-		}
-
-		BUL_hristo_lukov = { #VANILLA
-			picture = generic_army_europe_2
-			
-			allowed = {
-				NOT = { has_dlc = "Battle for the Bosporus" }
-				original_tag = BUL
-			}
-			
-
-			
-			traits = { army_chief_defensive_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
-		}
 	}
 
 	air_chief = {
@@ -2641,7 +2490,6 @@ ideas = {
 			picture = bul_dimitar_ayryanov
 
 			allowed = {
-				has_dlc = "Battle for the Bosporus"
 				original_tag = BUL
 			}
 
@@ -2663,7 +2511,6 @@ ideas = {
 			picture = bul_gancho_manchev
 
 			allowed = {
-				has_dlc = "Battle for the Bosporus"
 				original_tag = BUL
 			}
 
@@ -2684,7 +2531,6 @@ ideas = {
 			picture = bul_zachari_zachariev
 
 			allowed = {
-				has_dlc = "Battle for the Bosporus"
 				original_tag = BUL
 			}
 
@@ -2700,36 +2546,6 @@ ideas = {
 				}
 			}
 		}
-
-		BUL_vasil_boydev = { #VANILLA
-			picture = generic_air_europe_3
-
-			allowed = {
-				NOT = { has_dlc = "Battle for the Bosporus" }
-				original_tag = BUL
-			}
-						
-			traits = { air_chief_ground_support_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
-		}
-
-		BUL_asen_dobrev_nikolov = { #VANILLA
-			picture = generic_air_europe_2
-
-			allowed = {
-				NOT = { has_dlc = "Battle for the Bosporus" }
-				original_tag = BUL
-			}
-			
-			traits = { air_chief_safety_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
-		}
 	}
 
 	navy_chief = {
@@ -2738,7 +2554,6 @@ ideas = {
 			picture = bul_asen_toshev
 
 			allowed = {
-				has_dlc = "Battle for the Bosporus"
 				original_tag = BUL
 			}
 
@@ -2760,7 +2575,6 @@ ideas = {
 			picture = bul_ivan_variklechkov
 
 			allowed = {
-				has_dlc = "Battle for the Bosporus"
 				original_tag = BUL
 			}
 
@@ -2778,37 +2592,6 @@ ideas = {
 				}
 			}
 		}
-
-		BUL_nikola_totev_markov = { #VANILLA
-			picture = generic_navy_europe_1
-
-			allowed = {
-				NOT = { has_dlc = "Battle for the Bosporus" }
-				original_tag = BUL
-			}
-						
-			traits = { navy_chief_decisive_battle_1 }
-			
-			ai_will_do = {
-				factor = 1
-			}
-		}
-
-		BUL_bonyu_stoev_pironkov = { #VANILLA
-			picture = generic_navy_europe_2
-
-			allowed = {
-				NOT = { has_dlc = "Battle for the Bosporus" }
-				original_tag = BUL
-			}
-						
-			traits = { navy_naval_air_defense_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
-		}
-		
 	}
 	high_command = {
 
@@ -2819,7 +2602,6 @@ ideas = {
 			picture = bul_stoyan_stoyanov
 
 			allowed = {
-				has_dlc = "Battle for the Bosporus"
 				original_tag = BUL
 			}
 			
@@ -2840,7 +2622,6 @@ ideas = {
 			picture = bul_stefan_tsanev
 
 			allowed = {
-				has_dlc = "Battle for the Bosporus"
 				original_tag = BUL
 			}
 			
@@ -2861,7 +2642,6 @@ ideas = {
 			picture = bul_ivan_sapundzhiev
 
 			allowed = {
-				has_dlc = "Battle for the Bosporus"
 				original_tag = BUL
 			}
 
@@ -2886,7 +2666,6 @@ ideas = {
 			picture = bul_atanas_zhilkov
 
 			allowed = {
-				has_dlc = "Battle for the Bosporus"
 				original_tag = BUL
 			}
 
@@ -2916,7 +2695,6 @@ ideas = {
 			picture = bul_trifon_trifonov
 
 			allowed = {
-				has_dlc = "Battle for the Bosporus"
 				original_tag = BUL
 			}
 
@@ -2941,7 +2719,6 @@ ideas = {
 			picture = bul_ferdinand_kozovski
 
 			allowed = {
-				has_dlc = "Battle for the Bosporus"
 				original_tag = BUL
 			}
 
@@ -2962,7 +2739,6 @@ ideas = {
 			picture = bul_stoyan_trendafilov
 
 			allowed = {
-				has_dlc = "Battle for the Bosporus"
 				original_tag = BUL
 			}
 
@@ -2986,7 +2762,6 @@ ideas = {
 			picture = bul_vladimir_stoychev
 
 			allowed = {
-				has_dlc = "Battle for the Bosporus"
 				original_tag = BUL
 			}
 
@@ -3000,74 +2775,6 @@ ideas = {
 				modifier = {
 					factor = 0.1
 				}
-			}
-		}
-
-		BUL_stoyan_stoyanov = { #VANILLA
-			ledger = air
-			
-			picture = generic_air_europe_2
-
-			allowed = {
-				NOT = { has_dlc = "Battle for the Bosporus" }
-				original_tag = BUL
-			}
-			
-			traits = { air_air_combat_training_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
-		}
-
-		BUL_blagoi_ivanov = { #VANILLA
-			ledger = army
-
-			picture = generic_army_europe_4
-			
-			allowed = {
-				NOT = { has_dlc = "Battle for the Bosporus" }
-				original_tag = BUL
-			}
-					
-			traits = { army_regrouping_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
-		}
-
-		BUL_kiril_dimitrov_yanchule = { #VANILLA
-			ledger = army
-
-			picture = generic_army_europe_2
-			
-			allowed = {
-				NOT = { has_dlc = "Battle for the Bosporus" }
-				original_tag = BUL
-			}
-					
-			traits = { army_infantry_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
-		}
-
-		BUL_atanas_pavlov_zhilkov = { #VANILLA
-			ledger = army
-
-			picture = generic_army_europe_5
-			
-			allowed = {
-				NOT = { has_dlc = "Battle for the Bosporus" }
-				original_tag = BUL
-			}
-					
-			traits = { army_cavalry_2 }
-			
-			ai_will_do = {
-				factor = 1
 			}
 		}
 	}
@@ -3095,7 +2802,6 @@ ideas = {
 
 			allowed = {
 				original_tag = BUL
-				has_dlc = "Battle for the Bosporus"
 			}
 
 			available = {
@@ -3126,7 +2832,6 @@ ideas = {
 
 			allowed = {
 				original_tag = BUL
-				has_dlc = "Battle for the Bosporus"
 			}
 
 			available = {
@@ -3150,7 +2855,6 @@ ideas = {
 			
 			allowed = {
 				original_tag = BUL
-				has_dlc = "Battle for the Bosporus"
 			}
 
 			visible = {
@@ -3180,7 +2884,6 @@ ideas = {
 			
 			allowed = {
 				original_tag = BUL
-				has_dlc = "Battle for the Bosporus"
 			}
 
 			visible = {
@@ -3212,7 +2915,6 @@ ideas = {
 			
 			allowed = {
 				original_tag = BUL
-				has_dlc = "Battle for the Bosporus"
 			}
 
 			available = {
@@ -3260,7 +2962,6 @@ ideas = {
 			
 			allowed = {
 				original_tag = BUL
-				has_dlc = "Battle for the Bosporus"
 			}
 
 			visible = {
@@ -3293,7 +2994,6 @@ ideas = {
 			
 			allowed = {
 				original_tag = BUL
-				has_dlc = "Battle for the Bosporus"
 			}
 
 			visible = {
@@ -3323,7 +3023,6 @@ ideas = {
 
 			allowed = {
 				original_tag = BUL
-				has_dlc = "Battle for the Bosporus"
 			}
 
 			visible = {
@@ -3352,7 +3051,6 @@ ideas = {
 			
 			allowed = {
 				original_tag = BUL
-				has_dlc = "Battle for the Bosporus"
 			}
 
 			visible = {
@@ -3385,7 +3083,6 @@ ideas = {
 
 			allowed = {
 				original_tag = BUL
-				has_dlc = "Battle for the Bosporus"
 			}
 
 			available = {
@@ -3405,28 +3102,6 @@ ideas = {
 			ai_will_do = {
 				factor = 1
 			}
-		}
-		dar = { #VANILLA
-			
-			picture = generic_air_manufacturer_1
-
-			
-			allowed = {
-				original_tag = BUL
-				NOT = { has_dlc = "Battle for the Bosporus" }
-			}
-						
-			research_bonus = {
-				air_equipment = -0.05
-			}
-			
-			traits = { light_aircraft_manufacturer }
-			
-			# licenced Focke-Wulf Fw 44, built own trainers DAR 6 and DAR 9.
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}	
 	}
 
@@ -3440,7 +3115,6 @@ ideas = {
 			
 			allowed = {
 				original_tag = BUL
-				has_dlc = "Battle for the Bosporus"
 			}
 
 			visible = {
@@ -3469,7 +3143,6 @@ ideas = {
 			
 			allowed = {
 				original_tag = BUL
-				has_dlc = "Battle for the Bosporus"
 			}
 
 			visible = {
@@ -3498,7 +3171,6 @@ ideas = {
 			
 			allowed = {
 				original_tag = BUL
-				has_dlc = "Battle for the Bosporus"
 			}
 
 			visible = {
@@ -3527,7 +3199,6 @@ ideas = {
 			
 			allowed = {
 				original_tag = BUL
-				has_dlc = "Battle for the Bosporus"
 			}
 
 			visible = {
@@ -3559,7 +3230,6 @@ ideas = {
 			
 			allowed = {
 				original_tag = BUL
-				has_dlc = "Battle for the Bosporus"
 			}
 
 			available = {
@@ -3582,7 +3252,6 @@ ideas = {
 
 			allowed = {
 				original_tag = BUL
-				has_dlc = "Battle for the Bosporus"
 			}
 
 			available = {
@@ -3605,7 +3274,6 @@ ideas = {
 		
 			allowed = {
 				original_tag = BUL
-				has_dlc = "Battle for the Bosporus"
 			}	
 
 			visible = {
@@ -3638,7 +3306,6 @@ ideas = {
 		
 			allowed = {
 				original_tag = BUL
-				has_dlc = "Battle for the Bosporus"
 			}
 
 			visible = {
@@ -3665,7 +3332,6 @@ ideas = {
 		
 			allowed = {
 				original_tag = BUL
-				has_dlc = "Battle for the Bosporus"
 			}
 
 			visible = {
@@ -3698,7 +3364,6 @@ ideas = {
 		
 			allowed = {
 				original_tag = BUL
-				has_dlc = "Battle for the Bosporus"
 			}
 
 			visible = {
@@ -3725,7 +3390,6 @@ ideas = {
 		
 			allowed = {
 				original_tag = BUL
-				has_dlc = "Battle for the Bosporus"
 			}
 
 			visible = {
@@ -3757,7 +3421,6 @@ ideas = {
 		
 			allowed = {
 				original_tag = BUL
-				has_dlc = "Battle for the Bosporus"
 			}
 
 			visible = {
@@ -3782,7 +3445,6 @@ ideas = {
 		
 			allowed = {
 				original_tag = BUL
-				has_dlc = "Battle for the Bosporus"
 			}
 
 			visible = {
@@ -3814,7 +3476,6 @@ ideas = {
 		
 			allowed = {
 				original_tag = BUL
-				has_dlc = "Battle for the Bosporus"
 			}
 
 			visible = {
@@ -3843,7 +3504,6 @@ ideas = {
 		
 			allowed = {
 				original_tag = BUL
-				has_dlc = "Battle for the Bosporus"
 			}
 
 			available = {			

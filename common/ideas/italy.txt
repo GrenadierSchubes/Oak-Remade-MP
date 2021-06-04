@@ -583,6 +583,10 @@ ideas = {
 			}
 			picture = chi_army_corruption2
 			
+			modifier = {
+				army_core_attack_factor = -0.1
+	            army_core_defence_factor = -0.1	
+			}
 		}
 		SAl_italian_civil_war = {
 			allowed = {

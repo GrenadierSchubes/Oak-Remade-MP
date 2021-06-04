@@ -2257,7 +2257,7 @@ ideas = {
 			
 
 			
-			traits = { army_armored_2 }
+			traits = { army_commando_2 }
 			
 			ai_will_do = {
 				factor = 1
@@ -2291,7 +2291,7 @@ ideas = {
 			
 
 			
-			traits = { army_commando_2 }
+			traits = { army_armored_2 }
 			
 			ai_will_do = {
 				factor = 1

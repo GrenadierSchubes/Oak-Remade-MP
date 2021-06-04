@@ -22,10 +22,11 @@ HOL_historical_plan = {
 
 	ai_national_focuses = {
 		HOL_obtain_foreign_colonial_investments					#March 10 1936	
-		HOL_the_crown_jewel_colony					#May 20 1936	
+		HOL_curtail_colonial_autonomy #May 20 1936	
 		HOL_the_western_possessions					#July 30 1936	
 		HOL_expand_curacao_oil_refineries				#September 20 1938
 		HOL_open_second_paranam_bauxite_mine
+		HOL_the_crown_jewel_colony					#May 20 1936	
 		HOL_abandon_the_gold_standard					#October 10 1936
 		HOL_continue_the_public_works					#October 10 1936	
 		HOL_finish_the_noordoostpolder					#December 20 1936	
