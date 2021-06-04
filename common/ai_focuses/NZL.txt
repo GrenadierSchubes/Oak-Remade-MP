@@ -10,7 +10,7 @@ ai_historical_focus_list_NZL = {
 		Nzl_Exp_OIRM
 		Nzl_Hyd_Pow_Exp
 		Nzl_Big_Thk
-		Nzl_Hig_and_Roa
+		Nzl_Hig_And_Roa
 		Nzl_Exc_Tar_Oil
 		Nzl_Shp_Frm
 		Nzl_Bur_Ind
@@ -18,7 +18,7 @@ ai_historical_focus_list_NZL = {
 		Nzl_reform_nzef
 		Nzl_exp_cac
 		Nzl_exp_chr_mot_com
-		Nzl_transfer_the_new_zealand_division
+		NZL_transfer_the_new_zealand_division
 		NZL_expand_devonport_naval_base
 		NZL_coastal_defense
 		Nzl_old_pen

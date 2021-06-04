@@ -2996,9 +2996,25 @@ ideas = {
 					original_tag = MEX
 				}
 			}
+
+			available = {
+				OR = {
+					AND = {
+						original_tag = USA
+						has_completed_focus = USA_begin_heavy_bomber_program
+					}
+					original_tag = MEX
+				}
+			}
 			
 			cost = 250
 					
+			research_bonus = {
+				cat_strategic_destruction = 0.1
+			}
+			modifier = {
+				air_strategic_bomber_bombing_factor = 0.1
+			}
 			traits = { USAcarpet_bomber }
 		}
 		

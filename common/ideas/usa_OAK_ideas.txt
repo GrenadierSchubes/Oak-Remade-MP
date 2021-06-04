@@ -1411,6 +1411,10 @@ ideas = {
 					build_cost_ic = 0.2 instant = yes
 				}
 
+				rocket_artillery_equipment = {
+					build_cost_ic = 0.2 instant = yes
+				}
+
 				anti_air_equipment = {
 					build_cost_ic = 0.2 instant = yes
 				}
@@ -1418,6 +1422,7 @@ ideas = {
 				anti_tank_equipment = {
 					build_cost_ic = 0.2 instant = yes
 				}
+
 				motorized_equipment = {
 					build_cost_ic = 0.2 instant = yes
 				}
@@ -1451,6 +1456,10 @@ ideas = {
 				}
 
 				pack_artillery_equipment = {
+					build_cost_ic = 0.15 instant = yes
+				}
+
+				rocket_artillery_equipment = {
 					build_cost_ic = 0.15 instant = yes
 				}
 
@@ -1497,6 +1506,10 @@ ideas = {
 					build_cost_ic = 0.1  instant = yes
 				}
 
+				rocket_artillery_equipment = {
+					build_cost_ic = 0.1 instant = yes
+				}
+
 				anti_air_equipment = {
 					build_cost_ic = 0.1  instant = yes
 				}
@@ -1537,6 +1550,10 @@ ideas = {
 				}
 
 				pack_artillery_equipment = {
+					build_cost_ic = 0.05 instant = yes
+				}
+
+				rocket_artillery_equipment = {
 					build_cost_ic = 0.05 instant = yes
 				}
 
@@ -1583,6 +1600,10 @@ ideas = {
 					build_cost_ic = 0.0 instant = yes
 				}
 
+				rocket_artillery_equipment = {
+					build_cost_ic = 0.0 instant = yes
+				}
+
 				anti_air_equipment = {
 					build_cost_ic = 0.0 instant = yes
 				}
@@ -1623,6 +1644,10 @@ ideas = {
 				}
 
 				pack_artillery_equipment = {
+					build_cost_ic = -0.05 instant = yes
+				}
+
+				rocket_artillery_equipment = {
 					build_cost_ic = -0.05 instant = yes
 				}
 
@@ -1669,6 +1694,10 @@ ideas = {
 					build_cost_ic = -0.1 instant = yes
 				}
 
+				rocket_artillery_equipment = {
+					build_cost_ic = -0.1 instant = yes
+				}
+
 				anti_air_equipment = {
 					build_cost_ic = -0.1 instant = yes
 				}
@@ -1709,6 +1738,10 @@ ideas = {
 				}
 
 				pack_artillery_equipment = {
+					build_cost_ic = -0.15 instant = yes
+				}
+
+				rocket_artillery_equipment = {
 					build_cost_ic = -0.15 instant = yes
 				}
 
@@ -1755,6 +1788,10 @@ ideas = {
 					build_cost_ic = -0.2 instant = yes
 				}
 
+				rocket_artillery_equipment = {
+					build_cost_ic = -0.2 instant = yes
+				}
+
 				anti_air_equipment = {
 					build_cost_ic = -0.2 instant = yes
 				}
@@ -1795,6 +1832,10 @@ ideas = {
 				}
 
 				pack_artillery_equipment = {
+					build_cost_ic = -0.25 instant = yes
+				}
+
+				rocket_artillery_equipment = {
 					build_cost_ic = -0.25 instant = yes
 				}
 
