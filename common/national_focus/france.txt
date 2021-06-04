@@ -2195,6 +2195,9 @@ focus_tree = {
 		cost = 7.16
 		
 		available = {
+		    NOT = {
+			    has_idea = FRA_air
+			}
 		}
 
 		available_if_capitulated = yes
