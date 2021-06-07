@@ -936,7 +936,6 @@ focus_tree = {
 			custom_effect_tooltip = USA_fortify_islands_2_tt
 			hidden_effect = {
 				629 = { #Hawaii
-					limit = {has_state_flag = USA_controls}
 					add_building_construction = {
 						type = air_base
 						level = 2
@@ -976,7 +975,6 @@ focus_tree = {
 					}
 				}
 				630 = { #Johnston Atoll
-					limit = {has_state_flag = USA_controls}
 					add_building_construction = {
 						type = air_base
 						level = 2
@@ -1016,7 +1014,6 @@ focus_tree = {
 					}
 				}
 				631 = { #Midway
-					limit = {has_state_flag = USA_controls}
 					add_building_construction = {
 						type = air_base
 						level = 2
@@ -1056,7 +1053,6 @@ focus_tree = {
 					}
 				}
 				632 = { #Wake
-					limit = {has_state_flag = USA_controls}
 					add_building_construction = {
 						type = air_base
 						level = 2
@@ -1096,7 +1092,6 @@ focus_tree = {
 					}
 				}
 				638 = { #Guam
-					limit = {has_state_flag = USA_controls}
 					add_building_construction = {
 						type = air_base
 						level = 2
@@ -1136,7 +1131,6 @@ focus_tree = {
 					}
 				}
 				642 = { #Phoenix Island
-					limit = {has_state_flag = USA_controls}
 					add_building_construction = {
 						type = air_base
 						level = 2
@@ -1176,7 +1170,6 @@ focus_tree = {
 					}
 				}
 				727 = { #Line Islands
-					limit = {has_state_flag = USA_controls}
 					add_building_construction = {
 						type = air_base
 						level = 2
