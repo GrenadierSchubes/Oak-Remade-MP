@@ -4,6 +4,13 @@ oob = "POR_1936"
 
 set_research_slots = 5
 
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_naval_oob = "POR_naval_oob"
+}
+
 add_ideas = {
     POR_tra1
 	POR_man1
@@ -74,10 +81,8 @@ set_technology = {
 	synth_oil_experiments = 1
 	############### Doctrine ############
 	fleet_in_being = 1
-	air_superiority = 1
+	force_rotation = 1
 	superior_firepower = 1
-	
-	USA_infrastructure_tech = 1
 }
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }
@@ -105,6 +110,12 @@ if = {
 		early_ship_hull_cruiser = 1
 		early_ship_hull_heavy = 1
 		early_ship_hull_carrier = 1
+		basic_ship_hull_light = 1
+		basic_ship_hull_submarine = 1
+	    basic_ship_hull_cruiser = 1
+		basic_ship_hull_heavy = 1
+		ship_hull_super_heavy = 1
+		basic_ship_hull_carrier = 1
 		basic_battery = 1
 		basic_light_battery = 1
 		basic_light_shell = 1
@@ -124,12 +135,6 @@ if = {
 		dp_secondary_battery = 1
 		basic_cruiser_armor_scheme = 1
 		basic_heavy_armor_scheme = 1
-		damage_control_1
-		damage_control_2
-		damage_control_3
-		fire_control_methods_1
-		fire_control_methods_2
-		fire_control_methods_3
 		mtg_transport = 1
 		improved_airplane_launcher = 1
 		magnetic_detonator = 1
@@ -393,4 +398,167 @@ if = {
 		logistics_skill = 3
 	}
 }
-
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	### Variants ###
+	# Submarines #
+	create_equipment_variant = {
+		name = "Berlin Class"				
+		type = ship_hull_submarine_2
+		name_group = POR_SS_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_torpedo_slot = ship_torpedo_sub_2
+			fixed_ship_engine_slot = sub_ship_engine_2
+			rear_1_custom_slot = ship_torpedo_sub_2
+		}
+	}
+	create_equipment_variant = {
+		name = "Moscow Class"				
+		type = ship_hull_cruiser_submarine
+		name_group = POR_SS_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_torpedo_slot = ship_torpedo_sub_2
+			fixed_ship_engine_slot = sub_ship_engine_2
+			front_1_custom_slot = ship_torpedo_sub_2
+			mid_1_custom_slot = ship_radar_2
+			rear_1_custom_slot = ship_torpedo_sub_2
+		}
+	}
+	# Destroyers #
+	create_equipment_variant = {
+		name = "London Class"				
+		type = ship_hull_light_2
+		name_group = POR_DD_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = dp_light_battery
+			fixed_ship_anti_air_slot = ship_anti_air_2
+			fixed_ship_fire_control_system_slot = ship_sonar_2
+			fixed_ship_radar_slot = ship_radar_2
+			fixed_ship_engine_slot = light_ship_engine_2
+			fixed_ship_torpedo_slot = ship_torpedo_2
+			mid_1_custom_slot = dp_light_battery
+			rear_1_custom_slot = ship_depth_charge_2
+		}
+	}
+	# Light Cruisers #
+	create_equipment_variant = {
+		name = "Tiger Class"
+		type = ship_hull_cruiser_2
+		name_group = POR_CL_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_light_medium_battery_2
+			fixed_ship_anti_air_slot = ship_anti_air_2
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_1
+			fixed_ship_radar_slot = ship_sonar_2
+			fixed_ship_engine_slot = cruiser_ship_engine_2
+			fixed_ship_secondaries_slot = dp_ship_secondaries
+			fixed_ship_armor_slot = ship_armor_cruiser_2
+			front_1_custom_slot = ship_light_medium_battery_2
+			mid_1_custom_slot = ship_light_medium_battery_2
+			mid_2_custom_slot = dp_ship_secondaries
+			rear_1_custom_slot = ship_airplane_launcher_2
+		}
+	}
+	# Heavy Cruisers #
+	create_equipment_variant = {
+		name = "Sherman Class"
+		type = ship_hull_cruiser_2
+		name_group = POR_CA_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_medium_battery_2
+			fixed_ship_anti_air_slot = ship_anti_air_2
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_1
+			fixed_ship_radar_slot = ship_radar_2
+			fixed_ship_engine_slot = cruiser_ship_engine_2
+			fixed_ship_secondaries_slot = dp_ship_secondaries
+			fixed_ship_armor_slot = ship_armor_cruiser_2
+			front_1_custom_slot = ship_medium_battery_2
+			mid_1_custom_slot = ship_medium_battery_2
+			mid_2_custom_slot = ship_medium_battery_2
+			rear_1_custom_slot = dp_ship_secondaries
+		}
+	}
+	# Battlecruisers #
+	create_equipment_variant = {
+		name = "Kuat Class"		
+		type = ship_hull_heavy_2
+		name_group = POR_BC_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_heavy_battery_2
+			fixed_ship_anti_air_slot = ship_anti_air_2
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_1
+			fixed_ship_radar_slot = ship_radar_2
+			fixed_ship_engine_slot = heavy_ship_engine_2
+			fixed_ship_secondaries_slot = dp_ship_secondaries
+			fixed_ship_armor_slot = ship_armor_bc_2
+			front_1_custom_slot = ship_heavy_battery_2
+			mid_1_custom_slot = ship_heavy_battery_2
+			mid_2_custom_slot = dp_ship_secondaries
+			rear_1_custom_slot = dp_ship_secondaries
+		}
+	}
+	# Battleships #
+	create_equipment_variant = {
+		name = "Taris Class"
+		type = ship_hull_heavy_2
+		name_group = POR_BB_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_heavy_battery_2
+			fixed_ship_anti_air_slot = ship_anti_air_2
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_1
+			fixed_ship_radar_slot = ship_radar_2
+			fixed_ship_engine_slot = heavy_ship_engine_2
+			fixed_ship_secondaries_slot = dp_ship_secondaries
+			fixed_ship_armor_slot = ship_armor_bb_2
+			front_1_custom_slot = ship_heavy_battery_2
+			mid_1_custom_slot = ship_heavy_battery_2
+			mid_2_custom_slot = ship_heavy_battery_2
+			rear_1_custom_slot = dp_ship_secondaries
+		}
+	}
+	create_equipment_variant = {
+		name = "Dantooine Class"
+		type = ship_hull_super_heavy_1
+		name_group = POR_BB_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_super_heavy_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_2
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_1
+			fixed_ship_radar_slot = ship_radar_2
+			fixed_ship_engine_slot = heavy_ship_engine_2
+			fixed_ship_secondaries_slot = dp_ship_secondaries
+			fixed_ship_armor_slot = ship_armor_shbb
+			front_1_custom_slot = ship_super_heavy_battery_1
+			front_2_custom_slot = ship_super_heavy_battery_1
+			mid_1_custom_slot = dp_ship_secondaries
+			mid_2_custom_slot = dp_ship_secondaries
+			mid_3_custom_slot = dp_ship_secondaries
+			rear_1_custom_slot = ship_super_heavy_battery_1
+			rear_2_custom_slot = ship_super_heavy_battery_1
+		}
+	}
+	# Carriers #
+	create_equipment_variant = {
+		name = "Reach Class"
+		type = ship_hull_carrier_1
+		name_group = POR_CV_HISTORICAL
+			parent_version = 0
+			modules = {
+			fixed_ship_deck_slot_1 = ship_deck_space
+			fixed_ship_deck_slot_2 = ship_deck_space
+			fixed_ship_anti_air_slot = ship_anti_air_2
+			fixed_ship_radar_slot = ship_radar_2
+			fixed_ship_engine_slot = carrier_ship_engine_2
+			fixed_ship_secondaries_slot = dp_ship_secondaries
+			front_1_custom_slot = ship_deck_space
+		}
+	}
+}

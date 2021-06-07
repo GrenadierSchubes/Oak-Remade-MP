@@ -37,7 +37,7 @@ ideas = {
 			picture = POR_refinery
 			
 			modifier = {
-				fuel_gain_from_states = 100.0	
+				fuel_gain_from_states = 50.0	
 				production_speed_synthetic_refinery_factor = -0.5
 			    production_speed_synthetic_rubber_refinery_factor = -0.5
 			}
@@ -58,9 +58,9 @@ ideas = {
 			picture = ROM_the_resource_curse
 			
 			modifier = {
-				fuel_gain_from_states = 150.0	
-				production_speed_synthetic_refinery_factor = -0.15
-			    production_speed_synthetic_rubber_refinery_factor = -0.15
+				fuel_gain_from_states = 100.0	
+				production_speed_synthetic_refinery_factor = -0.25
+			    production_speed_synthetic_rubber_refinery_factor = -0.25
 			}
 		}
 		POR_aid1 = {
@@ -75,7 +75,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				send_volunteer_size = 2
+				send_volunteer_size = 3
 				air_volunteer_cap = 500
 				lend_lease_tension = -1
 				send_volunteers_tension = -1
@@ -95,8 +95,8 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				send_volunteer_size = 8
-				air_volunteer_cap = 2000
+				send_volunteer_size = 6
+				air_volunteer_cap = 1000
 				lend_lease_tension = -1
 				send_volunteers_tension = -1
 				send_volunteer_divisions_required = -1
@@ -133,7 +133,7 @@ ideas = {
 			removal_cost = -1
 			
 			research_bonus = {
-			    land_doctrine = -0.2
+			    land_doctrine = -0.1
 		    }
 			
 			modifier = {
@@ -242,8 +242,6 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-			    acclimatization_cold_climate_gain_factor = 0.10
-				winter_attrition_factor = -0.20
 				acclimatization_hot_climate_gain_factor = 0.10
 				heat_attrition_factor = -0.20
 			}
@@ -297,7 +295,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				special_forces_min = 50
+				special_forces_min = 20
 				minimum_training_level = -0.2
 			}
 		}
@@ -337,7 +335,6 @@ ideas = {
 				navy_intel_factor = 0.25
 				airforce_intel_factor = 0.25
 				enemy_operative_capture_chance_factor = 0.10
-				intelligence_agency_defense = 1.00
 			}
 		}
 
@@ -547,23 +544,15 @@ ideas = {
 					instant = yes
 					build_cost_ic = -0.05
 				}
-				heavy_fighter_equipment = {
-					instant = yes
-					build_cost_ic = -0.05
-				}
 				CAS_equipment = {
 					instant = yes
 					build_cost_ic = -0.05
 				}
-				tac_bomber_equipment = {
+				heavy_fighter_equipment = {
 					instant = yes
 					build_cost_ic = -0.05
 				}
-				nav_bomber_equipment = {
-				    instant = yes
-					build_cost_ic = -0.05  
-				}
-				strat_bomber_equipment = {
+				tac_bomber_equipment = {
 				    instant = yes
 					build_cost_ic = -0.05
 				}
@@ -653,6 +642,10 @@ ideas = {
 					original_tag = POR
 					has_dlc = "La Resistance"
 				}
+				
+				available = {
+			        date > 1940.3.1	
+				}
 
 				traits = { POR_landair }				
 				
@@ -668,6 +661,10 @@ ideas = {
 				allowed = {
 					original_tag = POR
 					has_dlc = "La Resistance"
+				}
+				
+				available = {
+			        date > 1940.3.1	
 				}
 				
 		    	traits = { POR_navy }
@@ -1340,10 +1337,9 @@ ideas = {
 					has_dlc = "La Resistance"
 				}
 				
-                cost = 50
 				
 				research_bonus = {
-					air_equipment = -0.15
+					air_equipment = -0.05
 				}
 				
 				traits = { air_concern }
@@ -1395,10 +1391,8 @@ ideas = {
 					has_dlc = "La Resistance"
 				}
 				
-                cost = 0
-				
 				research_bonus = {
-					naval_equipment = 0.1
+					naval_equipment = -0.05
 				}
 				
 				traits = { sea_concern }
@@ -1444,12 +1438,11 @@ ideas = {
 					has_dlc = "La Resistance"
 				}
 				
-				cost = 50
 				
 				research_bonus = {
-					infantry_weapons = -0.15
-					motorized_equipment = 0.1
-					artillery = 0.1
+					infantry_weapons = -0.05
+					motorized_equipment = -0.05
+					artillery = -0.05
 				}
 				
 				traits = { gun_concern }
@@ -1581,7 +1574,7 @@ ideas = {
 				}
 				
 				research_bonus = {
-					industry = 0.15
+					industry = -0.05
 				}
 				
 				traits = { industrial_concern }
@@ -1603,10 +1596,8 @@ ideas = {
 			}
 			
 			research_bonus = {
-				armor = -0.15
+				armor = -0.05
 			}
-			
-			cost = 50
 			
 			traits = { tank_concern }		
 		}

@@ -133,7 +133,7 @@ ideas = {
 		}
 		MON_agrarian_reform2 = {
 
-			picture = SOV_military_industrial_complex
+			picture = generic_goods_red_bonus
 
 			removal_cost = -1
 			
@@ -674,7 +674,7 @@ ideas = {
 				original_tag = MON
 			}
 			
-			traits = { army_infantry_2 }
+			traits = { army_infantry_3 }
 			
 			ai_will_do = {
 				factor = 1
@@ -689,7 +689,7 @@ ideas = {
 				original_tag = MON
 			}
 			
-			traits = { army_armored_1 }
+			traits = { army_armored_3 }
 		}
 		
 		MON_chimid = {

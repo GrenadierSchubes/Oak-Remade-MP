@@ -2994,6 +2994,7 @@ ideas = {
 			    OR = {
 				original_tag = ENG
 				original_tag = IRE
+				original_tag = POR
 				}
 			}
 			
@@ -3029,6 +3030,7 @@ ideas = {
 			    OR = {
 				original_TAG = ENG
 				original_tag = IRE
+				original_tag = POR
 			    }
 			}
 				
@@ -3059,6 +3061,7 @@ ideas = {
 			    OR = {
 				original_TAG = ENG
 				original_tag = IRE
+				original_tag = POR
 				}
 			}
 

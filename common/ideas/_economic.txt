@@ -602,12 +602,10 @@ ideas = {
 		
 			available = {
 				tag = POR
-				NOT = {
-			    	has_idea = POR_eco4
-				}
 			}
 			
 			cost = 0
+			
 			removal_cost = -1
 			
 			modifier = {
@@ -634,9 +632,7 @@ ideas = {
 			available = {
 				has_completed_focus = POR_proudly_alone
 				tag = POR
-				NOT = {
-			    	has_idea = POR_eco4
-				}
+				date > 1938.1.1	
 			}
 			
 			cost = 0
@@ -666,9 +662,7 @@ ideas = {
 			available = {
 				has_completed_focus = POR_revan2
 				tag = POR
-				NOT = {
-			    	has_idea = POR_eco4
-				}
+				date > 1939.7.1	
 			}
 			
 			cost = 0
@@ -697,6 +691,7 @@ ideas = {
 			available = {				
 				is_ai = no
 				tag = POR
+				date > 1942.1.1	
 			}
 			
 			cost = 0

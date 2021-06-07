@@ -1291,6 +1291,7 @@ create_country_leader = {
 						has_idea = MON_Rual_population_3
 		}
 						completion_reward = {
+						remove_ideas = MON_Rual_population_3
 			if = {
 				limit = {
 					has_idea = MON_Rogue_state_3

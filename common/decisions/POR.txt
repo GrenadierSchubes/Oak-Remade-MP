@@ -93,12 +93,7 @@ operations = {
 
 		available = {
 			is_ai = no
-			OR = {
-				ENG = {
-					has_capitulated = yes 
-				}
-			    date > 1941.7.1
-			}
+			is_in_faction_with = ENG
 		}
 
 		cost = 50
@@ -108,53 +103,9 @@ operations = {
 		days_remove = 21
 
 		remove_effect = {
-			ENG = {
-		    	add_offsite_building = {
-		    		type = industrial_complex
-		    		level = 2
-		    	}
-		    	add_offsite_building = {
-		    		type = arms_factory
-		    		level = 2
-		    	}
-		    	add_offsite_building = {
-		    		type = dockyard
-		    		level = 1
-		    	}
-			}
+		    add_to_tech_sharing_group = commonwealth_research
 		}		
 	}
-    POR_sovg = {
-
-		icon = generic_paperwork
-
-		allowed = {
-			tag = POR			
-		}
-
-		available = {
-			is_ai = no
-			date > 1942.3.1
-		}
-
-		cost = 100
-
-		fire_only_once = yes
-
-        days_remove = 35
-
-		remove_effect = {
-			SOV = {
-				add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 10000 producer = POR }
-				add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 1500 producer = POR }
-				add_equipment_to_stockpile = { type = support_equipment_1 amount = 500 producer = POR }
-				add_equipment_to_stockpile = { type = radio_equipment amount = 500 producer = POR }
-				add_equipment_to_stockpile = { type = horse_equipment_0 amount = 500 producer = POR }
-				add_equipment_to_stockpile = { type = anti_air_equipment_1 amount = 250 producer = POR }
-				add_equipment_to_stockpile = { type = anti_tank_equipment_1 amount = 250 producer = POR }
-			}
-		}		
-	} 
 }
 
 POR_overseas_provinces = {

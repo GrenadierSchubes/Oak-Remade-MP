@@ -356,3 +356,10 @@ units = {
 		division_template = "Brigada Internacionales"
 	}	
 }
+instant_effect = { #player
+	add_equipment_to_stockpile = {
+	type = infantry_equipment_0
+		amount = 10000
+		producer = SPR
+	}
+}

@@ -289,57 +289,29 @@ division_template = {
 units = {
 	###### Exército Portugues #####
 	# 1a Distrito Militar #
-	division = { # "1a Divisão de Marines"
+	division = { # "1a Divisão de Infanteria"
 		division_name = {
 				is_name_ordered = yes
 				name_order = 1
 		}
 		location = 9817
-		division_template = "Divisão de Marines"
+		division_template = "Divisão de Infanteria"
 		start_experience_factor = 0.4
 	}
-	division = { # "2a Divisão de Marines"
+	division = { # "2a Divisão de Infanteria"
 		division_name = {
 				is_name_ordered = yes
 				name_order = 2
 		}
 		location = 9817
-		division_template = "Divisão de Marines"
+		division_template = "Divisão de Infanteria"
 		start_experience_factor = 0.4
 	}
 	# 2a Distrito Militar #
-	division = { # "1a Divisão de Montanha"
-		division_name = {
-				is_name_ordered = yes
-				name_order = 1
-		}
-		location = 9817
-		division_template = "Divisão de Montanha"
-		start_experience_factor = 0.4
-	}
-	division = { # "2a Divisão de Montanha"
-		division_name = {
-				is_name_ordered = yes
-				name_order = 2
-		}
-		location = 9817
-		division_template = "Divisão de Montanha"
-		start_experience_factor = 0.4
-	}
-	# 3a Distrito Militar #
 	division = { # "1a Brigada de Tanka"
 		division_name = {
 				is_name_ordered = yes
 				name_order = 1
-		}
-		location = 844
-		division_template = "Panzer Division"
-		start_experience_factor = 0.4
-	}
-	division = { # "2a Brigada de Tanka"
-		division_name = {
-				is_name_ordered = yes
-				name_order = 2
 		}
 		location = 844
 		division_template = "Panzer Division"
