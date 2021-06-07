@@ -37,7 +37,7 @@ ideas = {
 			picture = POR_refinery
 			
 			modifier = {
-				fuel_gain_from_states = 50.0	
+				fuel_gain_from_states = 100.0	
 				production_speed_synthetic_refinery_factor = -0.5
 			    production_speed_synthetic_rubber_refinery_factor = -0.5
 			}
@@ -58,7 +58,7 @@ ideas = {
 			picture = ROM_the_resource_curse
 			
 			modifier = {
-				fuel_gain_from_states = 100.0	
+				fuel_gain_from_states = 150.0	
 				production_speed_synthetic_refinery_factor = -0.25
 			    production_speed_synthetic_rubber_refinery_factor = -0.25
 			}
@@ -295,7 +295,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				special_forces_min = 20
+				special_forces_cap = 0.05
 				minimum_training_level = -0.2
 			}
 		}
@@ -1342,10 +1342,9 @@ ideas = {
 					air_equipment = -0.05
 				}
 				
-				traits = { air_concern }
+				modifier = { aircraft_manufacturer_cost_factor = -0.33 }
 				
-				modifier = {
-				}
+				traits = { air_concern }
 			}	
 			
 			ogma = {
@@ -1363,8 +1362,10 @@ ideas = {
 				}
 				
 				research_bonus = {
-					air_equipment = 0.15
+					air_equipment = -0.05
 				}
+				
+				modifier = { aircraft_manufacturer_cost_factor = -0.33 }
 				
 				traits = { light_aircraft_manufacturer }
 				
@@ -1395,10 +1396,9 @@ ideas = {
 					naval_equipment = -0.05
 				}
 				
-				traits = { sea_concern }
+				modifier = { naval_manufacturer_cost_factor = -0.33 }
 				
-				modifier = {
-				}
+				traits = { sea_concern }
 			}
 			
 			arsenal_alfeite = {
@@ -1411,14 +1411,16 @@ ideas = {
 				}
 				
 				research_bonus = {
-					naval_equipment = 0.15
+					naval_equipment = -0.05
 				}
 				
 				equipment_bonus = {
 					# need to find information on ships made
 				}
 				
-				traits = { naval_manufacturer }
+				modifier = { naval_manufacturer_cost_factor = -0.33 }
+				
+				traits = { atlantic_fleet_naval_manufacturer }
 				
 				modifier = {
 				}
@@ -1445,10 +1447,9 @@ ideas = {
 					artillery = -0.05
 				}
 				
-				traits = { gun_concern }
+				modifier = { materiel_manufacturer_cost_factor = -0.33 }
 				
-				modifier = {
-				}
+				traits = { gun_concern }
 			}			
 	
 			fnmal = {
@@ -1461,37 +1462,12 @@ ideas = {
 				}
 	
 				research_bonus = {
-					infantry_weapons = 0.15
+					infantry_weapons = -0.05
 				}
+				
+				modifier = { materiel_manufacturer_cost_factor = -0.33 }
 							
 				traits = { infantry_equipment_manufacturer }
-				
-				modifier = {
-				}
-			}
-
-			fabrica_material_guerra = {
-				
-				picture = generic_infantry_equipment_manufacturer_2
-	
-				
-				allowed = {
-					original_tag = POR
-					NOT = { has_dlc = "La Resistance" }
-				}
-				
-				research_bonus = {
-					infantry_weapons = 0.15
-				}
-				
-				equipment_bonus = {
-					# rifles (mauser 98k) and light artillery
-				}
-				
-				traits = { infantry_equipment_manufacturer }
-				
-				modifier = {
-				}
 			}
 	
 			ogme = {
@@ -1507,17 +1483,17 @@ ideas = {
 				}
 	
 				research_bonus = {
-					motorized_equipment = 0.15
+					motorized_equipment = -0.05
 				}
 				
 				equipment_bonus = {
 					# rifles (mauser 98k) and light artillery
 				}
 				
+				modifier = { materiel_manufacturer_cost_factor = -0.33 }
+				
 				traits = { motorized_equipment_manufacturer }
 				
-				modifier = {
-				}
 			}
 	
 			fma = {
@@ -1533,13 +1509,12 @@ ideas = {
 				}
 	
 				research_bonus = {
-					artillery = 0.15
+					artillery = -0.05
 				}
+				
+				modifier = { materiel_manufacturer_cost_factor = -0.33 }
 				
 				traits = { artillery_manufacturer }
-				
-				modifier = {
-				}
 			}
 		}
 	
@@ -1555,7 +1530,7 @@ ideas = {
 				}
 				
 				research_bonus = {
-					industry = 0.1
+					industry = -0.05
 				}
 				
 				traits = { energy_concern }
