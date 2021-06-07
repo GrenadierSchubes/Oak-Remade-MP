@@ -4134,6 +4134,13 @@ focus_tree = {
 		available_if_capitulated = no
 
 		complete_tooltip = {
+			430 = {
+				add_building_construction = {
+					level = 5
+					instant_build = yes 
+					type = air_base
+				}
+			}
 			431 = {
 				add_building_construction = {
 					level = 5
@@ -4141,14 +4148,7 @@ focus_tree = {
 					type = air_base
 				}
 			}
-			439 = {
-				add_building_construction = {
-					level = 5
-					instant_build = yes 
-					type = air_base
-				}
-			}
-			423 = {
+			427 = {
 				add_building_construction = {
 					level = 5
 					instant_build = yes 
@@ -4158,6 +4158,13 @@ focus_tree = {
 		}
 
 		completion_reward = {
+			430 = {
+				add_building_construction = {
+					level = 5
+					instant_build = yes 
+					type = air_base
+				}
+			}
 			431 = {
 				add_building_construction = {
 					level = 5
@@ -4165,14 +4172,7 @@ focus_tree = {
 					type = air_base
 				}
 			}
-			439 = {
-				add_building_construction = {
-					level = 5
-					instant_build = yes 
-					type = air_base
-				}
-			}
-			423 = {
+			427 = {
 				add_building_construction = {
 					level = 5
 					instant_build = yes 

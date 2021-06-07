@@ -923,12 +923,179 @@ focus_tree = {
 		
 		available = { 
 			has_tech = decimetric_radar
+			has_full_control_of_state = 629 #Hawaii
+			has_full_control_of_state = 630 #Johnston Atoll
+			has_full_control_of_state = 631 #Midway
+			has_full_control_of_state = 632 #Wake
+			has_full_control_of_state = 638 #Guam
+			has_full_control_of_state = 642 #Phoenix Island
+			has_full_control_of_state = 727 #Line Islands
 		}
 		
 		completion_reward = {
 			custom_effect_tooltip = USA_fortify_islands_2_tt
 			hidden_effect = {
-				every_state = {
+				629 = { #Hawaii
+					limit = {has_state_flag = USA_controls}
+					add_building_construction = {
+						type = air_base
+						level = 2
+						instant_build = yes 
+					}
+					add_building_construction = {
+						type = anti_air_building
+						level = 5
+						instant_build = yes 
+					}
+					add_building_construction = {
+						type = infrastructure 
+						level = 4
+						instant_build = yes 
+					}
+					add_building_construction = {
+						type = fuel_silo 
+						level = 1
+						instant_build = yes 
+					}
+					add_building_construction = {
+						type = radar_station
+						level = 1
+						instant_build = yes 
+					}
+					add_building_construction = {
+						type = naval_base
+						province = 4180 
+						level = 4 
+						instant_build = yes 
+					}
+					add_building_construction = {
+						type = coastal_bunker
+						province = 4180 
+						level = 3 
+						instant_build = yes 
+					}
+				}
+				630 = { #Johnston Atoll
+					limit = {has_state_flag = USA_controls}
+					add_building_construction = {
+						type = air_base
+						level = 2
+						instant_build = yes 
+					}
+					add_building_construction = {
+						type = anti_air_building
+						level = 5
+						instant_build = yes 
+					}
+					add_building_construction = {
+						type = infrastructure 
+						level = 4
+						instant_build = yes 
+					}
+					add_building_construction = {
+						type = fuel_silo 
+						level = 1
+						instant_build = yes 
+					}
+					add_building_construction = {
+						type = radar_station
+						level = 1
+						instant_build = yes 
+					}
+					add_building_construction = {
+						type = naval_base
+						province = 13051 
+						level = 4 
+						instant_build = yes 
+					}
+					add_building_construction = {
+						type = coastal_bunker
+						province = 13051 
+						level = 3 
+						instant_build = yes 
+					}
+				}
+				631 = { #Midway
+					limit = {has_state_flag = USA_controls}
+					add_building_construction = {
+						type = air_base
+						level = 2
+						instant_build = yes 
+					}
+					add_building_construction = {
+						type = anti_air_building
+						level = 5
+						instant_build = yes 
+					}
+					add_building_construction = {
+						type = infrastructure 
+						level = 4
+						instant_build = yes 
+					}
+					add_building_construction = {
+						type = fuel_silo 
+						level = 1
+						instant_build = yes 
+					}
+					add_building_construction = {
+						type = radar_station
+						level = 1
+						instant_build = yes 
+					}
+					add_building_construction = {
+						type = naval_base
+						province = 13052 
+						level = 4 
+						instant_build = yes 
+					}
+					add_building_construction = {
+						type = coastal_bunker
+						province = 13052 
+						level = 3 
+						instant_build = yes 
+					}
+				}
+				632 = { #Wake
+					limit = {has_state_flag = USA_controls}
+					add_building_construction = {
+						type = air_base
+						level = 2
+						instant_build = yes 
+					}
+					add_building_construction = {
+						type = anti_air_building
+						level = 5
+						instant_build = yes 
+					}
+					add_building_construction = {
+						type = infrastructure 
+						level = 4
+						instant_build = yes 
+					}
+					add_building_construction = {
+						type = fuel_silo 
+						level = 1
+						instant_build = yes 
+					}
+					add_building_construction = {
+						type = radar_station
+						level = 1
+						instant_build = yes 
+					}
+					add_building_construction = {
+						type = naval_base
+						province = 13047 
+						level = 4 
+						instant_build = yes 
+					}
+					add_building_construction = {
+						type = coastal_bunker
+						province = 13047 
+						level = 3 
+						instant_build = yes 
+					}
+				}
+				638 = { #Guam
 					limit = {has_state_flag = USA_controls}
 					add_building_construction = {
 						type = air_base
@@ -964,6 +1131,86 @@ focus_tree = {
 					add_building_construction = {
 						type = coastal_bunker
 						province = 12140 
+						level = 3 
+						instant_build = yes 
+					}
+				}
+				642 = { #Phoenix Island
+					limit = {has_state_flag = USA_controls}
+					add_building_construction = {
+						type = air_base
+						level = 2
+						instant_build = yes 
+					}
+					add_building_construction = {
+						type = anti_air_building
+						level = 5
+						instant_build = yes 
+					}
+					add_building_construction = {
+						type = infrastructure 
+						level = 4
+						instant_build = yes 
+					}
+					add_building_construction = {
+						type = fuel_silo 
+						level = 1
+						instant_build = yes 
+					}
+					add_building_construction = {
+						type = radar_station
+						level = 1
+						instant_build = yes 
+					}
+					add_building_construction = {
+						type = naval_base
+						province = 13050 
+						level = 4 
+						instant_build = yes 
+					}
+					add_building_construction = {
+						type = coastal_bunker
+						province = 13050 
+						level = 3 
+						instant_build = yes 
+					}
+				}
+				727 = { #Line Islands
+					limit = {has_state_flag = USA_controls}
+					add_building_construction = {
+						type = air_base
+						level = 2
+						instant_build = yes 
+					}
+					add_building_construction = {
+						type = anti_air_building
+						level = 5
+						instant_build = yes 
+					}
+					add_building_construction = {
+						type = infrastructure 
+						level = 4
+						instant_build = yes 
+					}
+					add_building_construction = {
+						type = fuel_silo 
+						level = 1
+						instant_build = yes 
+					}
+					add_building_construction = {
+						type = radar_station
+						level = 1
+						instant_build = yes 
+					}
+					add_building_construction = {
+						type = naval_base
+						province = 13049 
+						level = 4 
+						instant_build = yes 
+					}
+					add_building_construction = {
+						type = coastal_bunker
+						province = 13049 
 						level = 3 
 						instant_build = yes 
 					}

@@ -2055,7 +2055,12 @@ focus_tree = {
 		}
 
 		available = {
-		    country_exists = EFR
+		    EFR = {
+		    	has_full_control_of_state = 671
+		    	has_full_control_of_state = 670
+		    	has_full_control_of_state = 741
+		    	has_full_control_of_state = 286
+		    }
 		}
 
         bypass = {
