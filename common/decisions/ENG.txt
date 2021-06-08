@@ -2404,6 +2404,7 @@ operations = {
 
 		allowed = {
 			tag = ENG
+			always = no
 		}
 		available = {
 			has_war = yes

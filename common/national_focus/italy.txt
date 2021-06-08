@@ -469,7 +469,8 @@ focus_tree = {
 				name = air_fighter
 				bonus = 0.8
 				uses = 1
-			    technology = fighter_1938
+				category = light_fighter
+				category = cat_heavy_fighter
 			}
 			
 		}
@@ -495,7 +496,8 @@ focus_tree = {
 				name = air_fighter
 				bonus = 1.0
 				uses = 1
-			    technology = fighter_1940
+				category = light_fighter
+				category = cat_heavy_fighter
 			}
 		}
 	}
@@ -521,8 +523,7 @@ focus_tree = {
 				name = bomber_bonus
 				bonus = 1.0
 				uses = 1
-			    technology = tactical_bomber_1937
-				technology = tactical_bomber_1939
+			    category = tactical_bomber
 			}
 			
 		}
@@ -545,8 +546,7 @@ focus_tree = {
 				name = bomber_bonus
 				bonus = 1.0
 				uses = 1
-			    technology = tactical_bomber_1941
-				technology = tactical_bomber_1943
+			    category = tactical_bomber
 			}
 		}
 	}
@@ -573,7 +573,7 @@ focus_tree = {
 				name = air_CAS
 				bonus = 0.75
 				uses = 2
-			        category = cas_bomber
+			    category = cas_bomber
 			}
 		}
 	}
@@ -620,7 +620,8 @@ focus_tree = {
 				name = air_fighter
 				bonus = 1.0
 				uses = 1
-			    technology = fighter_1942
+				category = light_fighter
+				category = cat_heavy_fighter
 			}
 		}
 	}
