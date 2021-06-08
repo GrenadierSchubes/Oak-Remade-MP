@@ -691,8 +691,8 @@ economy_decisions = {
 
 		remove_effect = {
 			replace_arms_with_civ_factories = yes
-			add_war_support = -0.01
-			add_stability = 0.01
+			add_war_support = -0.03
+			add_stability = 0.03
 		}
 		ai_will_do = {
 			factor = 0
