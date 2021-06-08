@@ -3428,6 +3428,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
+		    add_ideas = FRA_air_dominance
 			add_tech_bonus = {
 				name = air_equipment
 				bonus = 1.0

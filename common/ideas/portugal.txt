@@ -1403,7 +1403,7 @@ ideas = {
 			
 			arsenal_alfeite = {
 				
-				picture = generic_naval_manufacturer_1
+				picture = generic_naval_manufacturer_2
 	
 				
 				allowed = {
@@ -1573,6 +1573,8 @@ ideas = {
 			research_bonus = {
 				armor = -0.05
 			}
+			
+			modifier = { tank_manufacturer_cost_factor = -0.33 }
 			
 			traits = { tank_concern }		
 		}

@@ -5463,6 +5463,7 @@ focus_tree = {
 		}
 	
 		completion_reward = {
+            add_ideas = ITA_air_dominance
 			if = {
 				limit = { 
 					has_tech = ger_fighter_1938

@@ -3140,6 +3140,7 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
+			add_ideas = FRA_air_dominance
 			add_tech_bonus = {
 				name = CAN_commonwealth_air_training_plan
 				bonus = 1.0
