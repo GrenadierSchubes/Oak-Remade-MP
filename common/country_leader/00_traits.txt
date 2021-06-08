@@ -2201,12 +2201,12 @@ leader_traits = {
 		equipment_bonus = {
 			fighter_equipment = {
 				instant = yes
-				reliability = 0.1
+				reliability = 0.05
 				build_cost_ic = -0.05
 			}
-			tac_bomber_equipment = {
+			heavy_fighter_equipment = {
 				instant = yes
-				reliability = 0.1
+				reliability = 0.05
 				build_cost_ic = -0.05
 			}
 		}

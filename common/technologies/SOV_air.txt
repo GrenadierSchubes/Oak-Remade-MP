@@ -340,7 +340,7 @@ technologies = {
 		dependencies = {
 			modern_tools = 1
 		}
-		research_cost = 2
+		research_cost = 1.7
 		start_year = 1944
 		path = {
 			leads_to_tech = sov_jet_fighter_1946
@@ -375,7 +375,7 @@ technologies = {
 			cv_fighter_equipment_1944
 		}
 	
-		research_cost = 0.7 #Carrier Variant
+		research_cost = 0.8 #Carrier Variant
 		start_year = 1944
 		
 		categories = { all_air
@@ -527,7 +527,7 @@ technologies = {
 			cv_fighter_equipment_1942
 		}
 	
-		research_cost = 0.7 #Carrier Variant
+		research_cost = 0.8 #Carrier Variant
 		start_year = 1942
 		
 		categories = { all_air
@@ -587,7 +587,7 @@ technologies = {
 			cv_fighter_equipment_1944
 		}
 	
-		research_cost = 0.7 #Carrier Variant
+		research_cost = 0.8 #Carrier Variant
 		start_year = 1944
 		
 		categories = { all_air
@@ -615,7 +615,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 1.0
+		research_cost = 1.7
 		start_year = 1936
 		folder = {
 			name = sov_air_techs_folder
@@ -647,7 +647,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 1.0
+		research_cost = 1.7
 		start_year = 1938
 		folder = {
 			name = sov_air_techs_folder
@@ -678,7 +678,7 @@ technologies = {
 		dependencies = {
 			advanced_machine_tools = 1
 		}
-		research_cost = 1.0
+		research_cost = 1.7
 		start_year = 1940
 		folder = {
 			name = sov_air_techs_folder
@@ -708,7 +708,7 @@ technologies = {
 		dependencies = {
 			assembly_line_production = 1
 		}
-		research_cost = 1.0
+		research_cost = 1.7
 		start_year = 1942
 		folder = {
 			name = sov_air_techs_folder
@@ -733,7 +733,7 @@ technologies = {
 		}
 		
 
-		research_cost = 1.0
+		research_cost = 1.7
 		start_year = 1944
 		folder = {
 			name = sov_air_techs_folder

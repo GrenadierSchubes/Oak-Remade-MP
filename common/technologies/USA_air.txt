@@ -343,7 +343,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 2
+		research_cost = 1.7
 		start_year = 1944
 
 		folder = {
@@ -375,7 +375,7 @@ technologies = {
 			cv_fighter_equipment_1944
 		}
 	
-		research_cost = 0.7 #Carrier Variant
+		research_cost = 0.8 #Carrier Variant
 		start_year = 1944
 		
 		categories = { all_air
@@ -434,7 +434,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 1.0
+		research_cost = 1.7
 		start_year = 1936
 		folder = {
 			name = usa_air_techs_folder
@@ -466,7 +466,7 @@ technologies = {
 		dependencies = {
 			improved_machine_tools = 1
 		}
-		research_cost = 1.0
+		research_cost = 1.7
 		start_year = 1938
 		folder = {
 			name = usa_air_techs_folder
@@ -497,7 +497,7 @@ technologies = {
 		dependencies = {
 			advanced_machine_tools = 1
 		}
-		research_cost = 1.0
+		research_cost = 1.7
 		start_year = 1940
 		folder = {
 			name = usa_air_techs_folder
@@ -527,7 +527,7 @@ technologies = {
 		dependencies = {
 			assembly_line_production = 1
 		}
-		research_cost = 1.0
+		research_cost = 1.7
 		start_year = 1942
 		folder = {
 			name = usa_air_techs_folder
@@ -554,7 +554,7 @@ technologies = {
 		dependencies = {
 			modern_tools = 1
 		}
-		research_cost = 1.0
+		research_cost = 1.7
 		start_year = 1944
 		folder = {
 			name = usa_air_techs_folder
