@@ -3140,7 +3140,6 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
-			add_ideas = FRA_air_dominance
 			add_tech_bonus = {
 				name = CAN_commonwealth_air_training_plan
 				bonus = 1.0
@@ -3151,6 +3150,7 @@ focus_tree = {
 
 		completion_reward = {
 			air_experience = 25
+			add_ideas = FRA_air_dominance
 			random_owned_controlled_state = {
 				limit = {
 					free_building_slots = {
