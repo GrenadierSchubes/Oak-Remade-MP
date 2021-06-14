@@ -32,7 +32,7 @@
  jet_engines_desc:0 "A breakthrough in propulsion technology, the Jet Engine will enable the development of an entirely new generation of aircraft."
  convoy_1:0 "Convoy"
  ship_hull_cruiser_panzerschiffe_2:0 "1940 Panzerschiffe Hull"
- ship_hull_hilfskreuzer:0 "Hilfskreuzer Hull"
+ ship_hull_hilfskreuzer_1:0 "Hilfskreuzer Hull"
 ############### Pack Artillery
 pack_artillery_equipment_desc:0 "Light artillery and mortars, they provide less firepower compared to heavier designs but they perform better in harsh terrains and can be parachuted."
 pack_artillery_equipment:0 "Pack Artillery"

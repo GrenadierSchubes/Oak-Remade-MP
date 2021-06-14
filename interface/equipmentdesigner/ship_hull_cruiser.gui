@@ -1015,7 +1015,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_heavy_hull_rear_1_heavy_battery"
-						position = { x=127 y=2 }
+						position = { x=90 y=1 }
 					}
 				}
 				containerWindowType = {
@@ -1026,7 +1026,7 @@ guiTypes = {
 					iconType = {
 						name = "highlight"
 						spriteType = "GFX_SM_heavy_hull_rear_1_heavy_battery@highlight"
-						position = { x=127 y=2 }
+						position = { x=90 y=1 }
 					}
 				}
 				
