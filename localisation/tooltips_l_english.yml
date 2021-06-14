@@ -101,6 +101,9 @@
  ############ENG TOOLTIPS##############
 
  ENG_home_guard_tt:0 "§YSpawns 10 "Home Guard" Infantry Divsions In Britian.§!"
+ ENG_focus_boost_tt:0 "\nIf boosted using £decision_icon_small §HAdditional Funding for the Next Project§! the effect of this focus will change to the following:\n"
+
+
 
  ############CANADA TOOLTIPS##############
 

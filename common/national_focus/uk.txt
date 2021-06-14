@@ -65,6 +65,17 @@ focus_tree = {
 					category = computing_tech
 				}
 				add_ideas = ENG_bletchley_park 
+				custom_effect_tooltip = ENG_focus_boost_tt
+				effect_tooltip = {
+					add_tech_bonus = {
+							name = codebreaking_bonus
+							bonus = 2.0
+							uses = 3
+							category = decryption_tech
+							category = computing_tech
+						}
+					add_ideas = ENG_bletchley_park 
+				} 
 			}
 			if = {
 				limit = { 
@@ -139,6 +150,28 @@ focus_tree = {
 					}
 					country_event = britain.1
 				}
+				custom_effect_tooltip = ENG_focus_boost_tt
+				effect_tooltip = {
+					add_tech_bonus = {
+						name = tizard_mission_focus
+						bonus = 2.0
+						uses = 2
+						category = radar_tech
+					}
+					ENG = {
+						add_to_tech_sharing_group = tizard_mission
+					}
+					USA = {
+						add_to_tech_sharing_group = tizard_mission
+						add_tech_bonus = {
+							name = tizard_mission_focus
+							bonus = 2.0
+							uses = 2
+							category = radar_tech
+						}
+						country_event = britain.1
+					}
+				}
 			}
 			if = {
 				limit = { 
@@ -198,6 +231,15 @@ focus_tree = {
 					bonus = 1.0
 					uses = 2
 					category = nuclear
+				}
+				custom_effect_tooltip = ENG_focus_boost_tt
+				effect_tooltip = {
+					add_tech_bonus = {
+						name = maud_focus
+						bonus = 2.0
+						uses = 2
+						category = nuclear
+					}
 				}
 			}
 			if = {
@@ -298,6 +340,60 @@ focus_tree = {
 						instant_build = yes
 					}
 					set_state_flag = ENG_limited_rearmament_focus_2IC
+				}
+				custom_effect_tooltip = ENG_focus_boost_tt
+				effect_tooltip = {
+					random_owned_controlled_state = {
+						limit = {
+							free_building_slots = {
+								building = industrial_complex
+								size > 1
+								include_locked = yes
+							}
+							is_core_of = ROOT
+						}
+						add_extra_state_shared_building_slots = 2
+						add_building_construction = {
+							type = industrial_complex
+							level = 2
+							instant_build = yes
+						}
+						set_state_flag = ENG_limited_rearmament_focus_2IC
+					}
+					random_owned_controlled_state = {
+						limit = {
+							free_building_slots = {
+								building = industrial_complex
+								size > 1
+								include_locked = yes
+							}
+							is_core_of = ROOT
+						}
+						add_extra_state_shared_building_slots = 2
+						add_building_construction = {
+							type = industrial_complex
+							level = 2
+							instant_build = yes
+						}
+						set_state_flag = ENG_limited_rearmament_focus_2IC
+					}
+					random_owned_controlled_state = {
+						limit = {
+							free_building_slots = {
+								building = industrial_complex
+								size > 1
+								include_locked = yes
+							}
+							is_core_of = ROOT
+						}
+						add_extra_state_shared_building_slots = 2
+						add_building_construction = {
+							type = industrial_complex
+							level = 2
+							instant_build = yes
+						}
+						set_state_flag = ENG_limited_rearmament_focus_2IC
+					}
 				}
 			}
 			if = {
@@ -487,6 +583,56 @@ focus_tree = {
 					}					
 					set_country_flag = air_defense_focus_built_max
 				}
+				custom_effect_tooltip = ENG_focus_boost_tt
+				effect_tooltip = {
+					air_experience = 50
+					custom_effect_tooltip = air_defense_focus_built_max_tt
+					hidden_effect = {
+						123 = {
+							add_building_construction = {
+								type = anti_air_building
+								level = 8
+								instant_build = yes
+							}
+						}
+						125 = {
+							add_building_construction = {
+								type = anti_air_building
+								level = 8
+								instant_build = yes
+							}
+						}
+						127 = {
+							add_building_construction = {
+								type = anti_air_building
+								level = 8
+								instant_build = yes
+							}
+						}
+						128 = {
+							add_building_construction = {
+								type = anti_air_building
+								level = 8
+								instant_build = yes
+							}
+						}
+						129 = {
+							add_building_construction = {
+								type = anti_air_building
+								level = 8
+								instant_build = yes
+							}
+						}
+						338 = {
+							add_building_construction = {
+								type = anti_air_building
+								level = 8
+								instant_build = yes
+							}
+						}
+						set_country_flag = air_defense_focus_built_max
+					}
+				}
 			}
 			if = {
 				limit = { 
@@ -599,6 +745,37 @@ focus_tree = {
 					uses = 3
 					category = radar_tech
 				}
+				custom_effect_tooltip = ENG_focus_boost_tt
+				effect_tooltip = {
+					air_experience = 25
+					add_tech_bonus = {
+						name = radar_focus
+						bonus = 1.0
+						uses = 3
+						category = radar_tech
+					}				
+					123 = {
+						add_building_construction = {
+							type = radar_station
+							level = 1
+							instant_build = yes
+						}
+					}
+					125 = {
+						add_building_construction = {
+							type = radar_station
+							level = 1
+							instant_build = yes
+						}
+					}
+					127 = {
+						add_building_construction = {
+							type = radar_station
+							level = 1
+							instant_build = yes
+						}
+					}
+				}
 			}
 
 			if = {
@@ -634,7 +811,6 @@ focus_tree = {
 						instant_build = yes
 					}
 				}
-
 			}
 		}
 	}
@@ -724,6 +900,15 @@ focus_tree = {
 					bonus = 0.5
 					uses = 2
 					category = industry
+				}
+				custom_effect_tooltip = ENG_focus_boost_tt
+				effect_tooltip = {
+					add_tech_bonus = {
+						name = industrial_bonus
+						bonus = 1.0
+						uses = 2
+						category = industry
+					}
 				}
 			}
 			if = {
@@ -827,6 +1012,43 @@ focus_tree = {
 						instant_build = yes
 					}
 					set_state_flag = royal_ordinance_focus_2AF
+				}
+				custom_effect_tooltip = ENG_focus_boost_tt
+				effect_tooltip = {
+					random_owned_controlled_state = {
+						limit = {
+							is_in_home_area = yes
+							free_building_slots = {
+								building = arms_factory
+								size > 1
+								include_locked = yes
+							}
+						}
+						add_extra_state_shared_building_slots = 3
+						add_building_construction = {
+							type = arms_factory
+							level = 3
+							instant_build = yes
+						}
+						set_state_flag = royal_ordinance_focus_2AF
+					}
+					random_owned_controlled_state = {
+						limit = {
+							is_in_home_area = yes
+							free_building_slots = {
+								building = arms_factory
+								size > 1
+								include_locked = yes
+							}
+						}
+						add_extra_state_shared_building_slots = 3
+						add_building_construction = {
+							type = arms_factory
+							level = 3
+							instant_build = yes
+						}
+						set_state_flag = royal_ordinance_focus_2AF
+					}
 				}
 			}
 			if = {
@@ -1145,6 +1367,187 @@ focus_tree = {
 						set_state_flag = air_rearmament_focus_2AirBase
 					}
 				}
+				custom_effect_tooltip = ENG_focus_boost_tt
+				effect_tooltip = {
+
+					air_experience = 100
+
+					add_tech_bonus = {
+						name = ENG_air_doctrine
+						bonus = 1 
+						uses = 3
+						category = air_doctrine
+					}
+
+
+					random_owned_controlled_state = {
+						limit = {
+							free_building_slots = {
+								building = air_base
+								size > 1
+							}
+							OR = {
+								region = 1
+								region = 2
+							}
+						}
+						add_building_construction = {
+							type = air_base
+							level = 3
+							instant_build = yes
+						}
+						set_state_flag = air_rearmament_focus_2AirBase
+					}
+					random_owned_controlled_state = {
+						limit = {
+							free_building_slots = {
+								building = air_base
+								size > 1
+							}
+							OR = {
+								region = 1
+								region = 2
+							}
+						}
+						add_building_construction = {
+							type = air_base
+							level = 3
+							instant_build = yes
+						}			
+						set_state_flag = air_rearmament_focus_2AirBase
+					}
+					random_owned_controlled_state = {
+						limit = {
+							free_building_slots = {
+								building = air_base
+								size > 1
+							}
+							OR = {
+								region = 1
+								region = 2
+								region = 3
+							}
+						}
+						add_building_construction = {
+							type = air_base
+							level = 3
+							instant_build = yes
+						}			
+						set_state_flag = air_rearmament_focus_2AirBase
+					}
+					random_owned_controlled_state = {
+						limit = {
+							free_building_slots = {
+								building = air_base
+								size > 1
+							}
+							OR = {
+								region = 1
+								region = 2
+								region = 3
+							}
+						}
+						add_building_construction = {
+							type = air_base
+							level = 3
+							instant_build = yes
+						}			
+						set_state_flag = air_rearmament_focus_2AirBase
+					}
+					random_owned_controlled_state = {
+						limit = {
+							free_building_slots = {
+								building = air_base
+								size > 1
+							}
+							OR = {
+								region = 1
+								region = 2
+								region = 3
+							}
+						}
+						add_building_construction = {
+							type = air_base
+							level = 3
+							instant_build = yes
+						}			
+						set_state_flag = air_rearmament_focus_2AirBase
+					}
+
+					if = {
+						limit = {
+							NOT = {
+								any_owned_state = {
+									free_building_slots = {
+										building = air_base
+										size > 1
+									}
+									OR = {
+										region = 1
+										region = 2
+										region = 3
+									}
+								}			
+							}
+						}
+						random_owned_controlled_state = {
+							limit = {
+								free_building_slots = {
+									building = air_base
+									size > 1
+								}
+							}
+							add_building_construction = {
+								type = air_base
+								level = 3
+								instant_build = yes
+							}			
+							set_state_flag = air_rearmament_focus_2AirBase
+						}
+						random_owned_controlled_state = {
+							limit = {
+								free_building_slots = {
+									building = air_base
+									size > 1
+								}
+							}
+							add_building_construction = {
+								type = air_base
+								level = 3
+								instant_build = yes
+							}			
+							set_state_flag = air_rearmament_focus_2AirBase
+						}
+						random_owned_controlled_state = {
+							limit = {
+								free_building_slots = {
+									building = air_base
+									size > 1
+								}
+							}
+							add_building_construction = {
+								type = air_base
+								level = 3
+								instant_build = yes
+							}			
+							set_state_flag = air_rearmament_focus_2AirBase
+						}
+						random_owned_controlled_state = {
+							limit = {
+								free_building_slots = {
+									building = air_base
+									size > 1
+								}
+							}
+							add_building_construction = {
+								type = air_base
+								level = 3
+								instant_build = yes
+							}			
+							set_state_flag = air_rearmament_focus_2AirBase
+						}
+					}
+				}
 			}
 			if = {
 				limit = { 
@@ -1362,7 +1765,16 @@ focus_tree = {
 					category = air_doctrine
 				}
 				air_experience = 50
-
+				custom_effect_tooltip = ENG_focus_boost_tt
+				effect_tooltip = {
+					add_tech_bonus = {
+						name = ENG_air_doctrine
+						bonus = 1.0
+						uses = 1
+						category = air_doctrine
+					}
+					air_experience = 100
+				}
 			}
 			if = {
 				limit = { 
@@ -1452,6 +1864,96 @@ focus_tree = {
 							level = 1
 							instant_build = yes
 						}
+				}
+				custom_effect_tooltip = ENG_focus_boost_tt
+				effect_tooltip = {
+					if = { 
+						limit = { NOT = { has_tech = decimetric_radar }
+						}
+						set_technology = { 
+							decimetric_radar = 1 
+						}
+					}
+					random_owned_controlled_state = {
+						prioritize = { 127 }
+							add_building_construction = {
+								type = radar_station
+								level = 1
+								instant_build = yes
+							}
+						}
+					random_owned_controlled_state = {
+						prioritize = { 126 }
+							add_building_construction = {
+								type = radar_station
+								level = 1
+								instant_build = yes
+							}
+						}
+					random_owned_controlled_state = {
+						prioritize = { 125 }
+							add_building_construction = {
+								type = radar_station
+								level = 1
+								instant_build = yes
+							}
+						}
+					random_owned_controlled_state = {
+						prioritize = { 123 }
+							add_building_construction = {
+								type = radar_station
+								level = 1
+								instant_build = yes
+							}
+						}
+					random_owned_controlled_state = {
+						prioritize = { 131 }
+							add_building_construction = {
+								type = radar_station
+								level = 1
+								instant_build = yes
+							}
+					}
+					random_owned_controlled_state = {
+						prioritize = { 447 }
+							add_building_construction = {
+								type = radar_station
+								level = 1
+								instant_build = yes
+							}
+						}
+					random_owned_controlled_state = {
+						prioritize = { 183 }
+							add_building_construction = {
+								type = radar_station
+								level = 1
+								instant_build = yes
+							}
+						}
+					random_owned_controlled_state = {
+						prioritize = { 116 }
+							add_building_construction = {
+								type = radar_station
+								level = 1
+								instant_build = yes
+							}
+						}
+					random_owned_controlled_state = {
+						prioritize = { 118 }
+							add_building_construction = {
+								type = radar_station
+								level = 1
+								instant_build = yes
+							}
+						}
+					random_owned_controlled_state = {
+						prioritize = { 446 }
+							add_building_construction = {
+								type = radar_station
+								level = 1
+								instant_build = yes
+							}
+					}
 				}
 			}
 			if = {
@@ -1583,8 +2085,18 @@ focus_tree = {
 					uses = 1
 					category = light_fighter
 					category = cat_heavy_fighter
-				}				
-
+				}
+				custom_effect_tooltip = ENG_focus_boost_tt
+				effect_tooltip = {
+					add_ideas = british_fighter_discount
+					add_tech_bonus = {
+						name = fighter_command_focus
+						bonus = 1.0
+						uses = 1
+						category = light_fighter
+						category = cat_heavy_fighter
+					}
+				}
 			}
 			if = {
 				limit = { 
@@ -1636,7 +2148,17 @@ focus_tree = {
 					category = cat_heavy_fighter
 				}
 				air_experience = 50
-
+				custom_effect_tooltip = ENG_focus_boost_tt
+				effect_tooltip = {
+					add_tech_bonus = {
+						name = fighter_command_focus
+						bonus = 1.0
+						uses = 1
+						category = light_fighter
+						category = cat_heavy_fighter
+					}
+					air_experience = 75
+				}
 			}
 			if = {
 				limit = { 
@@ -1686,7 +2208,16 @@ focus_tree = {
 					category = jet_technology
 				}
 				air_experience = 50
-
+				custom_effect_tooltip = ENG_focus_boost_tt
+				effect_tooltip = {
+					add_tech_bonus = {
+						name = ENG_jet_focus
+						bonus = 1.5
+						uses = 1
+						category = jet_technology
+					}
+					air_experience = 75
+				}
 			}
 			if = {
 				limit = { 
@@ -1736,21 +2267,7 @@ focus_tree = {
 					name = bomber_command_focus
 					bonus = 1.5
 					uses = 2
-					category = heavy_air
-				}
-				add_ideas = arthur_harris
-			}
-			if = {
-				limit = { 
-					check_variable = { var = focus_power value = 1 compare = greater_than_or_equals }
-				}
-				subtract_from_variable = { var = focus_power value = 1 }
-				air_experience = 25
-				add_tech_bonus = {
-					name = bomber_command_focus
-					bonus = 1.5
-					uses = 2
-					category = heavy_air
+					category = cat_strategic_bomber
 				}
 				add_ideas = arthur_harris
 			}			
@@ -1795,6 +2312,22 @@ focus_tree = {
 					category = tactical_bomber
 				}
 				air_experience = 25
+				custom_effect_tooltip = ENG_focus_boost_tt
+				effect_tooltip = {
+					add_tech_bonus = {
+						name = coastal_command_focus
+						bonus = 1.5
+						uses = 1
+						category = naval_bomber
+					}
+					add_tech_bonus = {
+						name = coastal_command_focus
+						bonus = 1.5
+						uses = 1
+						category = tactical_bomber
+					}		
+					air_experience = 50
+				}
 			}
 			if = {
 				limit = { 
@@ -1890,6 +2423,53 @@ focus_tree = {
 						instant_build = yes
 					}
 
+				}
+				custom_effect_tooltip = ENG_focus_boost_tt
+				effect_tooltip = {
+					random_owned_controlled_state = {
+						limit = {
+							is_in_home_area = yes
+							free_building_slots = {
+								building = arms_factory
+								size > 2
+								include_locked = yes
+							}
+						}
+						add_extra_state_shared_building_slots = 3
+						add_building_construction = {
+							type = arms_factory
+							level = 3
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = infrastructure
+							level = 1
+							instant_build = yes
+						}
+
+					}
+					random_owned_controlled_state = {
+						limit = {
+							is_in_home_area = yes
+							free_building_slots = {
+								building = arms_factory
+								size > 2
+								include_locked = yes
+							}
+						}
+						add_extra_state_shared_building_slots = 3
+						add_building_construction = {
+							type = arms_factory
+							level = 3
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = infrastructure
+							level = 1
+							instant_build = yes
+						}
+
+					}
 				}
 			}
 			if = {
@@ -2017,6 +2597,53 @@ focus_tree = {
 					}
 					set_state_flag = royal_ordinance_focus_2AF
 				}
+				custom_effect_tooltip = ENG_focus_boost_tt
+				effect_tooltip = {
+					random_owned_controlled_state = {
+						limit = {
+							is_in_home_area = yes
+							free_building_slots = {
+								building = arms_factory
+								size > 1
+								include_locked = yes
+							}
+						}
+						add_extra_state_shared_building_slots = 3
+						add_building_construction = {
+							type = arms_factory
+							level = 3
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = infrastructure
+							level = 1
+							instant_build = yes
+						}
+						set_state_flag = royal_ordinance_focus_2AF
+					}
+					random_owned_controlled_state = {
+						limit = {
+							is_in_home_area = yes
+							free_building_slots = {
+								building = arms_factory
+								size > 1
+								include_locked = yes
+							}
+						}
+						add_extra_state_shared_building_slots = 3
+						add_building_construction = {
+							type = arms_factory
+							level = 3
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = infrastructure
+							level = 1
+							instant_build = yes
+						}
+						set_state_flag = royal_ordinance_focus_2AF
+					}
+				}
 			}
 			if = {
 				limit = { 
@@ -2118,6 +2745,42 @@ focus_tree = {
 						instant_build = yes
 					}
 				}
+				custom_effect_tooltip = ENG_focus_boost_tt
+				effect_tooltip = {
+					add_tech_bonus = {
+						name = ENG_artillery_focus
+						bonus = 1.5
+						uses = 3
+						category = artillery
+					}	
+					random_owned_controlled_state = {				
+						limit = {
+							is_in_home_area = yes
+							free_building_slots = {
+								building = arms_factory
+								size > 1
+								include_locked = yes
+							}
+						}
+						add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = arms_factory
+							level = 1
+							instant_build = yes
+						}
+					}
+					if = {
+						limit = {
+							NOT = {
+								OR = {
+									has_idea = rsaf_enfield
+									has_idea = RollsRoyce
+								}
+							}
+						}
+						add_ideas = royal_arsenal
+					}
+				}
 			}
 			if = {
 				limit = { 
@@ -2204,6 +2867,37 @@ focus_tree = {
 				ENG = {
 					add_equipment_to_stockpile = { type = motorized_equipment_1 amount = 1500	producer = ENG }
 				}
+				custom_effect_tooltip = ENG_focus_boost_tt
+				effect_tooltip = {
+					custom_effect_tooltip = ENG_mot_focus_tooltip
+					hidden_effect = {
+						load_oob = "ENG_Motorized"
+					}
+					add_tech_bonus = {				
+						bonus = 1.5
+						uses = 1 
+						technology = eng_mechanised_infantry
+					}
+					add_tech_bonus = {				
+						bonus = 1.5
+						uses = 1 
+						category = land_doctrine
+					}				
+					if = {
+						limit = {
+							NOT = {
+								OR = {
+									has_idea = rsaf_enfield
+									has_idea = royal_arsenal
+								}
+							}
+						}
+						add_ideas = RollsRoyce
+					}					
+					ENG = {
+						add_equipment_to_stockpile = { type = motorized_equipment_1 amount = 2500	producer = ENG }
+					}
+				}
 			}
 			if = { 
 				limit = { 
@@ -2282,6 +2976,23 @@ focus_tree = {
 					technology = eng_medium_art_1938
 					technology = eng_medium_spaa_1938
 				}
+				custom_effect_tooltip = ENG_focus_boost_tt
+				effect_tooltip = {
+					add_tech_bonus = {
+						name = armor_bonus	
+						bonus = 1.5 
+						uses = 3
+						technology = eng_medium_td_1942
+						technology = eng_medium_art_1942
+						technology = eng_medium_spaa_1942
+						technology = eng_medium_td_1940
+						technology = eng_medium_art_1940
+						technology = eng_medium_spaa_1940
+						technology = eng_medium_td_1938
+						technology = eng_medium_art_1938
+						technology = eng_medium_spaa_1938
+					}
+				}
 			}
 			if = { 
 				limit = { 
@@ -2342,6 +3053,19 @@ focus_tree = {
 					bonus = 1.5
 					uses = 1 
 					category = land_doctrine
+				}
+				custom_effect_tooltip = ENG_focus_boost_tt
+				effect_tooltip = {
+					add_tech_bonus = {				
+						bonus = 2
+						uses = 2 
+						category = armor
+					}
+					add_tech_bonus = {				
+						bonus = 1.5
+						uses = 1 
+						category = land_doctrine
+					}	
 				}						
 			}
 			if = { 
@@ -2402,6 +3126,33 @@ focus_tree = {
 				}
 				custom_effect_tooltip = available_designer
 				show_ideas_tooltip = vauxhall
+				custom_effect_tooltip = ENG_focus_boost_tt
+				effect_tooltip = {
+					add_tech_bonus = {				
+						bonus = 1.5
+						uses = 1
+						category = cat_heavy_armor
+					}						
+					add_tech_bonus = {				
+						bonus = 1
+						uses = 2
+						category = land_doctrine
+					}
+					if = {
+						limit = {
+							NOT = {
+								OR = {
+									has_idea = Leyland
+									has_idea = vickers_armstrong_eng
+								}
+							}
+						}
+						add_ideas = vauxhall
+						else = {
+							add_political_power = 100
+						}
+					}
+				}
 			}
 			if = { 
 				limit = { 
@@ -2512,6 +3263,19 @@ focus_tree = {
 					uses = 2
 					category = support_tech
 				}
+				custom_effect_tooltip = ENG_focus_boost_tt
+				effect_tooltip = {
+					add_tech_bonus = {
+						bonus = 1.5
+						uses = 2
+						category = land_doctrine
+					}
+					add_tech_bonus = {
+						bonus = 2
+						uses = 2
+						category = support_tech
+					}
+				}
 			}
 			if = { 
 				limit = { 
@@ -2605,6 +3369,22 @@ focus_tree = {
 					technology = tech_recon
 					technology = tech_recon2
 					technology = tech_recon3
+				}
+				custom_effect_tooltip = ENG_focus_boost_tt
+				effect_tooltip = {
+					add_tech_bonus = {
+						name = special_bonus
+						bonus = 2.0
+						uses = 2
+						technology = tech_mountaineers
+						technology = tech_mountaineers2
+						technology = tech_engineers
+						technology = tech_engineers2
+						technology = tech_engineers3
+						technology = tech_recon
+						technology = tech_recon2
+						technology = tech_recon3
+					}
 				}
 			}
 			if = { 
@@ -2792,6 +3572,64 @@ focus_tree = {
 					set_state_flag = ENG_naval_rearmament_focus_1dockyard
 					
 				}
+				custom_effect_tooltip = ENG_focus_boost_tt
+				effect_tooltip = {
+					navy_experience = 50
+					random_owned_controlled_state = {
+						limit = {
+							is_coastal = yes
+							free_building_slots = {
+								building = dockyard
+								size > 0
+								include_locked = yes
+							}
+							is_core_of = ROOT
+						}
+						add_extra_state_shared_building_slots = 4
+						add_building_construction = {
+							type = dockyard
+							level = 4
+							instant_build = yes
+						}
+						set_state_flag = ENG_naval_rearmament_focus_1dockyard
+					}
+					random_owned_controlled_state = {
+						limit = {
+							is_coastal = yes
+							free_building_slots = {
+								building = dockyard
+								size > 0
+								include_locked = yes
+							}
+							is_core_of = ROOT
+						}
+						add_extra_state_shared_building_slots = 3
+						add_building_construction = {
+							type = dockyard
+							level = 3
+							instant_build = yes
+						}
+						set_state_flag = ENG_naval_rearmament_focus_1dockyard
+					}
+					random_owned_controlled_state = {
+						limit = {
+							is_coastal = yes
+							free_building_slots = {
+								building = dockyard
+								size > 0
+								include_locked = yes
+							}
+							is_core_of = ROOT
+						}
+						add_extra_state_shared_building_slots = 3
+						add_building_construction = {
+							type = dockyard
+							level = 3
+							instant_build = yes
+						}
+						set_state_flag = ENG_naval_rearmament_focus_1dockyard
+					}
+				}
 			}
 			else_if = {
 				limit = { 
@@ -2906,6 +3744,16 @@ focus_tree = {
 					bonus = 1
 					category = naval_equipment
 				}
+				custom_effect_tooltip = ENG_focus_boost_tt
+				effect_tooltip = {
+					add_timed_idea = { idea = JAP_modernize_the_fleet days = 365 }
+					navy_experience = 50
+					add_tech_bonus = {
+						uses = 2
+						bonus = 1
+						category = naval_equipment
+					}
+				}
 			}
 			if = { 
 				limit = { 
@@ -2954,11 +3802,21 @@ focus_tree = {
 					uses = 2
 					category = dd_tech
 				}
+				custom_effect_tooltip = ENG_focus_boost_tt
+				effect_tooltip = {
+					add_tech_bonus = {
+						name = ENG_secure_the_imperial_shipping_routes
+						bonus = 2.0
+						uses = 2
+						category = dd_tech
+					}
+				}
 			}
 			if = { 
 				limit = { 
 					check_variable = { var = focus_power value = 1 compare = greater_than_or_equals }
 				}
+				subtract_from_variable = { var = focus_power value = 1 }
 				add_tech_bonus = {
 					name = ENG_secure_the_imperial_shipping_routes
 					bonus = 2.0
@@ -3002,11 +3860,22 @@ focus_tree = {
 					uses = 2
 					category = asw_tech
 				}	
+				custom_effect_tooltip = ENG_focus_boost_tt
+				effect_tooltip = {
+					add_tech_bonus = {
+						name = ENG_asw_warfare
+						bonus = 2.0
+						ahead_reduction = 2
+						uses = 2
+						category = asw_tech
+					}
+				}
 			}
 			if = { 
 				limit = { 
 					check_variable = { var = focus_power value = 1 compare = greater_than_or_equals }
 				}
+				subtract_from_variable = { var = focus_power value = 1 }
 				add_tech_bonus = {
 					name = ENG_asw_warfare
 					bonus = 2.0
@@ -3119,11 +3988,22 @@ focus_tree = {
 					category = naval_doctrine
 				}
 				add_ideas = tom_phillips
+				custom_effect_tooltip = ENG_focus_boost_tt
+				effect_tooltip = {
+					add_tech_bonus = {
+						name = uk_waves_focus
+						bonus = 2.0
+						uses = 3
+						category = naval_doctrine
+					}
+					add_ideas = james_somerville
+				}
 			}
 			if = { 
 				limit = { 
 					check_variable = { var = focus_power value = 1 compare = greater_than_or_equals }
 				}
+				subtract_from_variable = { var = focus_power value = 1 }
 				add_tech_bonus = {
 					name = uk_waves_focus
 					bonus = 2.0
@@ -3185,11 +4065,53 @@ focus_tree = {
 					}
 				}
 				set_variable = { var = carrier_focus_1 value = 1 }
+				custom_effect_tooltip = ENG_focus_boost_tt
+				effect_tooltip = {
+					navy_experience = 25
+					add_tech_bonus = {
+						name = uk_carrier_focus
+						bonus = 1.0
+						uses = 1
+						category = cv_tech
+					}
+					create_equipment_variant = {
+						name = "Illustrious Class"
+						type = ship_hull_carrier_1
+						name_group = ENG_CV_HISTORICAL
+						parent_version = 0
+						modules = {
+							fixed_ship_deck_slot_1 = ship_deck_space
+							fixed_ship_deck_slot_2 = ship_armor_carrier_deck
+							fixed_ship_anti_air_slot = ship_anti_air_1
+							fixed_ship_radar_slot = ship_radar_2
+							fixed_ship_engine_slot = carrier_ship_engine_2
+							fixed_ship_secondaries_slot = ship_secondaries_2
+							front_1_custom_slot = ship_deck_space
+						}
+					}
+					create_equipment_variant = {
+						name = "Indomitable Class"
+						type = ship_hull_carrier_1
+						name_group = ENG_CV_HISTORICAL
+						parent_version = 0
+						modules = {
+							fixed_ship_deck_slot_1 = ship_deck_space
+							fixed_ship_deck_slot_2 = ship_deck_space
+							fixed_ship_anti_air_slot = ship_anti_air_1
+							fixed_ship_radar_slot = ship_radar_2
+							fixed_ship_engine_slot = carrier_ship_engine_2
+							fixed_ship_secondaries_slot = ship_secondaries_2
+							front_1_custom_slot = ship_deck_space
+						}
+					}	
+					set_variable = { var = carrier_focus_2 value = 1 }
+				}
 			}
 			if = { 
 				limit = { 
 					check_variable = { var = focus_power value = 1 compare = greater_than_or_equals }
 				}
+				subtract_from_variable = { var = focus_power value = 1 }
 				navy_experience = 25
 				add_tech_bonus = {
 					name = uk_carrier_focus
@@ -3283,6 +4205,34 @@ focus_tree = {
 					amount = 75
 					producer = ENG 
 				}
+				custom_effect_tooltip = ENG_focus_boost_tt
+				effect_tooltip = {
+					navy_experience = 40
+					air_experience = 40 
+					add_tech_bonus = {
+						name = JAP_strengthen_the_fleet_air_arm
+						bonus = 2
+						uses = 2
+						category = naval_air
+					}
+					add_tech_bonus = {
+						name = JAP_strengthen_the_fleet_air_arm
+						bonus = 2
+						uses = 1
+						category = naval_doctrine
+					}
+					add_tech_bonus = {
+						name = JAP_strengthen_the_fleet_air_arm
+						bonus = 2
+						uses = 1
+						category = air_doctrine
+					}
+					add_equipment_to_stockpile = {
+						type = cv_nav_bomber_equipment_1936
+						amount = 125
+						producer = ENG 
+					}
+				}
 			}
 			if = { 
 				limit = { 
@@ -3372,6 +4322,37 @@ focus_tree = {
 						rear_1_custom_slot = ship_heavy_battery_2
 					}
 				}
+				custom_effect_tooltip = ENG_focus_boost_tt
+				effect_tooltip = {
+					set_variable = { var = battleship_focus_2 value = 1 }
+					navy_experience = 25
+					add_tech_bonus = {
+						name = uk_battleship_focus
+						bonus = 1.0
+						uses = 1
+						category = bb_tech
+					}
+					create_equipment_variant = {
+						name = "King George V-Class"
+						type = ship_hull_heavy_2
+						name_group = ENG_BB_HISTORICAL
+						parent_version = 0
+						modules = {
+							fixed_ship_battery_slot = ship_heavy_battery_2
+							fixed_ship_anti_air_slot = ship_anti_air_2
+							fixed_ship_fire_control_system_slot = ship_fire_control_system_2
+							fixed_ship_radar_slot = ship_radar_2
+							fixed_ship_engine_slot = heavy_ship_engine_2
+							fixed_ship_secondaries_slot = ship_secondaries_2
+							fixed_ship_armor_slot = ship_armor_bb_2
+							front_1_custom_slot = ship_heavy_battery_2
+							mid_1_custom_slot = ship_secondaries_2
+							mid_2_custom_slot = ship_secondaries_2
+							rear_1_custom_slot = ship_heavy_battery_2
+						}
+					}
+					custom_effect_tooltip = UK_bb_focus_2_tt
+				}
 			}
 			if = { 
 				limit = { 
@@ -3442,6 +4423,23 @@ focus_tree = {
 					bonus = 1.0
 					uses = 1
 					category = tp_tech
+				}
+				custom_effect_tooltip = ENG_focus_boost_tt
+				effect_tooltip = {
+					navy_experience = 40
+					air_experience = 40 
+					add_tech_bonus = {
+						name = uk_amphibious_focus
+						bonus = 1.5
+						uses = 1
+						category = marine_tech
+					}
+					add_tech_bonus = {
+						name = uk_amphibious_focus
+						bonus = 1.5
+						uses = 1
+						category = tp_tech
+					}
 				}
 			}
 			if = { 
@@ -3854,11 +4852,22 @@ focus_tree = {
 					category = cl_tech
 				}
 				add_ideas = ENG_secure_the_imperial_shipping_routes
+				custom_effect_tooltip = ENG_focus_boost_tt
+				effect_tooltip = {
+					add_tech_bonus = {
+						name = ENG_secure_the_imperial_shipping_routes
+						bonus = 2.0
+						uses = 2
+						category = cl_tech
+					}
+					add_ideas = ENG_secure_the_imperial_shipping_routes
+				}
 			}
 			if = { 
 				limit = { 
 					check_variable = { var = focus_power value = 1 compare = greater_than_or_equals }
 				}
+				subtract_from_variable = { var = focus_power value = 1 }
 				add_tech_bonus = {
 					name = ENG_secure_the_imperial_shipping_routes
 					bonus = 2.0
@@ -4242,6 +5251,107 @@ focus_tree = {
 					}
 				}
 				add_war_support = 0.05
+				custom_effect_tooltip = ENG_focus_boost_tt
+				effect_tooltip = {
+					CHI = {
+						add_offsite_building = { type = arms_factory level = 6 }
+					}
+					640 = {
+						if = {
+							limit = { 
+								OR = { 
+									ENG = { controls_state = 640 }
+									any_other_country = {
+										is_in_faction_with = ENG
+										controls_state = 640
+									} 
+								}
+							}
+							add_building_construction = {
+								type = infrastructure
+								level = 3
+								instant_build = yes
+							}
+							add_building_construction = {
+								type = air_base
+								level = 3
+								instant_build = yes
+							}
+							add_building_construction = {
+								type = radar_station 
+								level = 1
+								instant_build = yes
+							}
+							add_building_construction = {
+								type = anti_air_building  
+								level = 1
+								instant_build = yes
+							}
+						}
+					}
+					325 = {
+						if = {
+							limit = { 
+							OR = { 
+									CHI = { controls_state = 325 }
+									any_other_country = {
+										is_in_faction_with = CHI
+										controls_state = 640
+									} 
+								}
+							}
+							add_building_construction = {
+								type = infrastructure
+								level = 3
+								instant_build = yes
+							}
+							add_building_construction = {
+								type = air_base
+								level = 3
+								instant_build = yes
+							}
+							add_building_construction = {
+								type = radar_station 
+								level = 1
+								instant_build = yes
+							}
+							add_building_construction = {
+								type = anti_air_building  
+								level = 1
+								instant_build = yes
+							}
+						}
+					}
+					601 = {
+						if = {
+							limit = { 
+								OR = { 
+									CHI = { controls_state = 601 }
+									any_other_country = {
+										is_in_faction_with = CHI
+										controls_state = 601
+									} 
+								} }
+							add_building_construction = {
+								type = infrastructure
+								level = 2
+								instant_build = yes
+							}
+							add_building_construction = {
+								type = air_base
+								level = 2
+								instant_build = yes
+							}
+							add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+								type = arms_factory
+								level = 2
+								instant_build = yes
+							}
+						}
+					}
+					add_war_support = 0.05
+				}
 			}
 			
 			if = { 
@@ -4532,12 +5642,8 @@ focus_tree = {
 						}
 					}
 				}
-			}
-				if = { 
-					limit = { 
-						check_variable = { var = focus_power value = 1 compare = greater_than_or_equals }
-					}
-					subtract_from_variable = { var = focus_power value = 1 }
+				custom_effect_tooltip = ENG_focus_boost_tt
+				effect_tooltip = {
 					random_country = {
 						limit = {
 							original_tag = RAJ 
@@ -4626,9 +5732,106 @@ focus_tree = {
 								level = 4
 								province = 8010
 								instant_build = yes
+							}
 						}
 					}
-					
+				}
+			}
+			if = { 
+				limit = { 
+					check_variable = { var = focus_power value = 1 compare = greater_than_or_equals }
+				}
+				subtract_from_variable = { var = focus_power value = 1 }
+				random_country = {
+					limit = {
+						original_tag = RAJ 
+						is_in_faction_with = ROOT
+					}
+					add_opinion_modifier = { target = ENG modifier = aided_industry }
+						random_owned_controlled_state = { 
+						add_extra_state_shared_building_slots = 2
+						add_building_construction = {
+							type = arms_factory
+							level = 3
+							instant_build = yes
+						}
+					}
+					random_owned_controlled_state = { 
+						add_extra_state_shared_building_slots = 2
+						add_building_construction = {
+							type = arms_factory
+							level = 3
+							instant_build = yes
+						}
+					}
+					random_owned_controlled_state = { 
+						add_extra_state_shared_building_slots = 2
+						add_building_construction = {
+							type = dockyard
+							level = 3
+							instant_build = yes
+						}
+					}
+					random_owned_controlled_state = { 
+						add_extra_state_shared_building_slots = 2
+						add_building_construction = {
+							type = dockyard
+							level = 3
+							instant_build = yes
+						}
+					}
+					add_autonomy_ratio = {
+						value = -0.15
+						localization = ENG_the_last_line_of_defence
+					}
+					430 = {
+						add_building_construction = {
+							type = bunker
+							level = 3
+							province = 4162
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 4
+							province = 4616
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 3
+							province = 10443
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 4
+							province = 10389
+							instant_build = yes
+						}
+					}
+					431 = {
+						add_building_construction = {
+							type = bunker
+							level = 3
+							province = 12338
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 2
+							province = 4435
+							instant_build = yes
+						}
+					}
+					324 = {
+						add_building_construction = {
+							type = bunker
+							level = 4
+							province = 8010
+							instant_build = yes
+						}
+					}
 				}
 			}
 		}
@@ -4868,6 +6071,82 @@ focus_tree = {
 						localization = uk_australia_focus
 					}
 				}
+				custom_effect_tooltip = ENG_focus_boost_tt
+				effect_tooltip = {
+					AST = {
+						add_opinion_modifier = { target = ENG modifier = aided_industry }
+						random_owned_controlled_state = {
+							limit = {
+								free_building_slots = {
+									building = industrial_complex
+									size > 0
+									include_locked = yes
+								}
+							}
+							add_extra_state_shared_building_slots = 3
+							add_building_construction = {
+								type = industrial_complex
+								level = 3
+								instant_build = yes
+							}
+							set_state_flag = ENG_uk_australia_focus_1IC
+						}
+						random_owned_controlled_state = {
+							limit = {
+								free_building_slots = {
+									building = industrial_complex
+									size > 0
+									include_locked = yes
+								}
+							}
+							add_extra_state_shared_building_slots = 3
+							add_building_construction = {
+								type = industrial_complex
+								level = 3
+								instant_build = yes
+							}
+							set_state_flag = ENG_uk_australia_focus_1IC
+						}
+						random_owned_controlled_state = {
+							limit = {
+								is_coastal = yes
+								free_building_slots = {
+									building = dockyard
+									size > 1
+									include_locked = yes
+								}
+							}
+							add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+								type = dockyard
+								level = 2
+								instant_build = yes
+							}
+							set_state_flag = ENG_uk_australia_focus_2dockyards
+						}
+						random_owned_controlled_state = {
+							limit = {
+								is_coastal = yes
+								free_building_slots = {
+									building = dockyard
+									size > 0
+									include_locked = yes
+								}
+							}
+							add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+								type = dockyard
+								level = 2
+								instant_build = yes
+							}
+							set_state_flag = ENG_uk_australia_focus_1dockyard
+						}
+						add_autonomy_ratio = {
+							value = -0.05
+							localization = uk_australia_focus
+						}
+					}
+				}
 			}
 			if = { 
 				limit = { 
@@ -5045,6 +6324,48 @@ focus_tree = {
 						localization = uk_australia_focus
 					}
 				}
+				custom_effect_tooltip = ENG_focus_boost_tt
+				effect_tooltip = {
+					RAJ = {
+						add_opinion_modifier = { target = ENG modifier = aided_industry }
+						439 = {
+							add_extra_state_shared_building_slots = 3
+							add_building_construction = {
+								type = industrial_complex
+								level = 3
+								instant_build = yes
+							}
+						}
+						438 = {
+							add_extra_state_shared_building_slots = 3
+							add_building_construction = {
+								type = industrial_complex
+								level = 3
+								instant_build = yes
+							}
+						}
+						429 = {
+							add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+								type = dockyard
+								level = 2
+								instant_build = yes
+							}
+						}
+						424 = {
+							add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+								type = industrial_complex
+								level = 2
+								instant_build = yes
+							}
+						}
+						add_autonomy_ratio = {
+							value = -0.05
+							localization = uk_new_zealand_focus
+						}
+					}
+				}
 			}
 			if = { 
 				limit = { 
@@ -5213,6 +6534,78 @@ focus_tree = {
 					add_autonomy_ratio = {
 						value = -0.05
 						localization = uk_canada_focus
+					}
+				}
+				custom_effect_tooltip = ENG_focus_boost_tt
+				effect_tooltip = {
+					CAN = {
+						add_opinion_modifier = { target = ENG modifier = aided_industry }
+						random_owned_controlled_state = {
+							limit = {
+								free_building_slots = {
+									building = industrial_complex
+									size > 0
+									include_locked = yes
+								}
+							}
+							add_extra_state_shared_building_slots = 3
+							add_building_construction = {
+								type = industrial_complex
+								level = 3
+								instant_build = yes
+							}
+						}
+						random_owned_controlled_state = {
+							limit = {
+								free_building_slots = {
+									building = industrial_complex
+									size > 0
+									include_locked = yes
+								}
+							}
+							add_extra_state_shared_building_slots = 3
+							add_building_construction = {
+								type = industrial_complex
+								level = 3
+								instant_build = yes
+							}
+						}
+						random_owned_controlled_state = {
+							limit = {
+								is_coastal = yes
+								free_building_slots = {
+									building = dockyard
+									size > 1
+									include_locked = yes
+								}
+							}
+							add_extra_state_shared_building_slots = 3
+							add_building_construction = {
+								type = dockyard
+								level = 3
+								instant_build = yes
+							}
+						}
+						random_owned_controlled_state = {
+							limit = {
+								is_coastal = yes
+								free_building_slots = {
+									building = dockyard
+									size > 0
+									include_locked = yes
+								}
+							}
+							add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+								type = dockyard
+								level = 2
+								instant_build = yes
+							}
+						}
+						add_autonomy_ratio = {
+							value = -0.1
+							localization = uk_canada_focus
+						}
 					}
 				}
 			}
@@ -5415,6 +6808,78 @@ focus_tree = {
 						localization = uk_south_africa_focus
 					}
 				}
+				custom_effect_tooltip = ENG_focus_boost_tt
+				effect_tooltip = {
+					SAF = {
+						add_opinion_modifier = { target = ENG modifier = aided_industry }
+						random_owned_controlled_state = {
+							limit = {
+								free_building_slots = {
+									building = industrial_complex
+									size > 0
+									include_locked = yes
+								}
+							}
+							add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+								type = industrial_complex
+								level = 2
+								instant_build = yes
+							}
+						}
+						random_owned_controlled_state = {
+							limit = {
+								free_building_slots = {
+									building = industrial_complex
+									size > 0
+									include_locked = yes
+								}
+							}
+							add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+								type = industrial_complex
+								level = 2
+								instant_build = yes
+							}
+						}
+						random_owned_controlled_state = {
+							limit = {
+								is_coastal = yes
+								free_building_slots = {
+									building = dockyard
+									size > 1
+									include_locked = yes
+								}
+							}
+							add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+								type = dockyard
+								level = 2
+								instant_build = yes
+							}
+						}
+						random_owned_controlled_state = {
+							limit = {
+								is_coastal = yes
+								free_building_slots = {
+									building = industrial_complex
+									size > 1
+									include_locked = yes
+								}
+							}
+							add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+								type = industrial_complex
+								level = 2
+								instant_build = yes
+							}
+						}
+						add_autonomy_ratio = {
+							value = -0.1
+							localization = uk_south_africa_focus
+						}
+					}
+				}
 			}
 			if = { 
 				limit = { 
@@ -5546,62 +7011,90 @@ focus_tree = {
 				limit = { 
 					check_variable = { var = focus_power value = 0 compare = less_than_or_equals }
 				}
-			NZL = {
-			    add_opinion_modifier = { target = ENG modifier = aided_industry }
-				random_owned_controlled_state = {
-				prioritize = { 723 }
-					add_extra_state_shared_building_slots = 3
-					add_building_construction = {
-						type = industrial_complex
-						level = 2
-						instant_build = yes 
+				NZL = {
+				    add_opinion_modifier = { target = ENG modifier = aided_industry }
+					random_owned_controlled_state = {
+					prioritize = { 723 }
+						add_extra_state_shared_building_slots = 3
+						add_building_construction = {
+							type = industrial_complex
+							level = 2
+							instant_build = yes 
+						}
+					}
+				    random_owned_controlled_state = {
+					prioritize = { 284 }
+						add_extra_state_shared_building_slots = 2
+						add_building_construction = {
+							type = dockyard
+							level = 1
+							instant_build = yes 
+						}
+					}
+					add_autonomy_ratio = {
+						value = -0.05
+						localization = uk_south_africa_focus
 					}
 				}
-			    random_owned_controlled_state = {
-				prioritize = { 284 }
-					add_extra_state_shared_building_slots = 2
-					add_building_construction = {
-						type = dockyard
-						level = 1
-						instant_build = yes 
+				custom_effect_tooltip = ENG_focus_boost_tt
+				effect_tooltip = {
+					NZL = {
+					    add_opinion_modifier = { target = ENG modifier = aided_industry }
+						random_owned_controlled_state = {
+						prioritize = { 723 284 }
+							add_extra_state_shared_building_slots = 4
+							add_building_construction = {
+								type = industrial_complex
+								level = 2
+								instant_build = yes 
+							}
+						}
+					    random_owned_controlled_state = {
+						prioritize = { 284 }
+							add_extra_state_shared_building_slots = 4
+							add_building_construction = {
+								type = dockyard
+								level = 2
+								instant_build = yes 
+							}
+						}
+						add_autonomy_ratio = {
+							value = -0.1
+							localization = uk_south_africa_focus
+						}
 					}
 				}
-				add_autonomy_ratio = {
-					value = -0.05
-					localization = uk_south_africa_focus
-				}
-			}
 			}
 			if = { 
 				limit = { 
 					check_variable = { var = focus_power value = 1 compare = greater_than_or_equals }
 				}
 				subtract_from_variable = { var = focus_power value = 1 }
-			NZL = {
-			    add_opinion_modifier = { target = ENG modifier = aided_industry }
-				random_owned_controlled_state = {
-				prioritize = { 723 284 }
-					add_extra_state_shared_building_slots = 4
-					add_building_construction = {
-						type = industrial_complex
-						level = 2
-						instant_build = yes 
+				NZL = {
+				    add_opinion_modifier = { target = ENG modifier = aided_industry }
+					random_owned_controlled_state = {
+					prioritize = { 723 284 }
+						add_extra_state_shared_building_slots = 4
+						add_building_construction = {
+							type = industrial_complex
+							level = 2
+							instant_build = yes 
+						}
+					}
+				    random_owned_controlled_state = {
+					prioritize = { 284 }
+						add_extra_state_shared_building_slots = 4
+						add_building_construction = {
+							type = dockyard
+							level = 2
+							instant_build = yes 
+						}
+					}
+					add_autonomy_ratio = {
+						value = -0.1
+						localization = uk_south_africa_focus
 					}
 				}
-			    random_owned_controlled_state = {
-				prioritize = { 284 }
-					add_extra_state_shared_building_slots = 4
-					add_building_construction = {
-						type = dockyard
-						level = 2
-						instant_build = yes 
-					}
-				}
-				add_autonomy_ratio = {
-					value = -0.1
-					localization = uk_south_africa_focus
-				}
-			}
 			}
 		}
 	}
@@ -5658,62 +7151,90 @@ focus_tree = {
 				limit = { 
 					check_variable = { var = focus_power value = 0 compare = less_than_or_equals }
 				}
-			IRE = {
-			    add_opinion_modifier = { target = ENG modifier = aided_industry }
-				random_owned_controlled_state = {
-				prioritize = { 135 }
-					add_extra_state_shared_building_slots = 3
-					add_building_construction = {
-						type = industrial_complex
-						level = 2
-						instant_build = yes 
+				IRE = {
+				    add_opinion_modifier = { target = ENG modifier = aided_industry }
+					random_owned_controlled_state = {
+					prioritize = { 135 }
+						add_extra_state_shared_building_slots = 3
+						add_building_construction = {
+							type = industrial_complex
+							level = 2
+							instant_build = yes 
+						}
+					}
+				    random_owned_controlled_state = {
+					prioritize = { 134 }
+						add_extra_state_shared_building_slots = 2
+						add_building_construction = {
+							type = dockyard
+							level = 1
+							instant_build = yes 
+						}
+					}
+					add_autonomy_ratio = {
+						value = -0.05
+						localization = uk_south_africa_focus
 					}
 				}
-			    random_owned_controlled_state = {
-				prioritize = { 134 }
-					add_extra_state_shared_building_slots = 2
-					add_building_construction = {
-						type = dockyard
-						level = 1
-						instant_build = yes 
+				custom_effect_tooltip = ENG_focus_boost_tt
+				effect_tooltip = {
+					IRE = {
+					    add_opinion_modifier = { target = ENG modifier = aided_industry }
+						random_owned_controlled_state = {
+						prioritize = { 135 134 }
+							add_extra_state_shared_building_slots = 4
+							add_building_construction = {
+								type = industrial_complex
+								level = 2
+								instant_build = yes 
+							}
+						}
+					    random_owned_controlled_state = {
+						prioritize = { 134 }
+							add_extra_state_shared_building_slots = 4
+							add_building_construction = {
+								type = dockyard
+								level = 2
+								instant_build = yes 
+							}
+						}
+						add_autonomy_ratio = {
+							value = -0.1
+							localization = uk_south_africa_focus
+						}
 					}
 				}
-				add_autonomy_ratio = {
-					value = -0.05
-					localization = uk_south_africa_focus
-				}
-			}
 			}
 			if = { 
 				limit = { 
 					check_variable = { var = focus_power value = 1 compare = greater_than_or_equals }
 				}
 				subtract_from_variable = { var = focus_power value = 1 }
-			IRE = {
-			    add_opinion_modifier = { target = ENG modifier = aided_industry }
-				random_owned_controlled_state = {
-				prioritize = { 135 134 }
-					add_extra_state_shared_building_slots = 4
-					add_building_construction = {
-						type = industrial_complex
-						level = 2
-						instant_build = yes 
+				IRE = {
+				    add_opinion_modifier = { target = ENG modifier = aided_industry }
+					random_owned_controlled_state = {
+					prioritize = { 135 134 }
+						add_extra_state_shared_building_slots = 4
+						add_building_construction = {
+							type = industrial_complex
+							level = 2
+							instant_build = yes 
+						}
+					}
+				    random_owned_controlled_state = {
+					prioritize = { 134 }
+						add_extra_state_shared_building_slots = 4
+						add_building_construction = {
+							type = dockyard
+							level = 2
+							instant_build = yes 
+						}
+					}
+					add_autonomy_ratio = {
+						value = -0.1
+						localization = uk_south_africa_focus
 					}
 				}
-			    random_owned_controlled_state = {
-				prioritize = { 134 }
-					add_extra_state_shared_building_slots = 4
-					add_building_construction = {
-						type = dockyard
-						level = 2
-						instant_build = yes 
-					}
-				}
-				add_autonomy_ratio = {
-					value = -0.1
-					localization = uk_south_africa_focus
-				}
-			}
 			}
 		}
 	}
@@ -6026,32 +7547,32 @@ focus_tree = {
 		}
 		completion_reward = {
 			551  = {
-					add_building_construction = {
-						type = infrastructure
-						level = 2
-						instant_build = yes
-					}
-					add_building_construction = {
-						type = naval_base
-						level = 3
-						province = 12725
-						instant_build = yes
-					}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
 				}
+				add_building_construction = {
+					type = naval_base
+					level = 3
+					province = 12725
+					instant_build = yes
+				}
+			}
 			457  = {
-					add_building_construction = {
-						type = infrastructure
-						level = 2
-						instant_build = yes
-					}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
 				}
+			}
 			456  = {
-					add_building_construction = {
-						type = infrastructure
-						level = 2
-						instant_build = yes
-					}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
 				}
+			}
 		}
 	}	
 
