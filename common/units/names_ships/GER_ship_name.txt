@@ -1,4 +1,29 @@
 ﻿
+GER_HK_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_HK
+
+	for_countries = { GER }
+
+	type = ship
+	ship_types = { screen_ship ship_hull_hilfskreuzer_1 }
+	
+	fallback_name = "Hilfskreuzer %d"
+
+	
+	ordered = {
+		1 = {"Atlantis"}
+		2 = {"Hansa"} 
+		3 = {"Komet"} 
+		4 = {"Kormoran"} 
+		5 = {"Michel"} 
+		6 = {"Orion"} 
+		7 = {"Pinguin"} 
+		8 = {"Stier"} 
+		9 = {"Thor"} 
+		10 = {"Widder"} 
+	}
+}
+
 GER_BB_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_BB
 
