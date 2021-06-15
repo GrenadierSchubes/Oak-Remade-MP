@@ -33,6 +33,7 @@
  convoy_1:0 "Convoy"
  ship_hull_cruiser_panzerschiffe_2:0 "1940 Panzerschiffe Hull"
  ship_hull_hilfskreuzer_1:0 "Hilfskreuzer Hull"
+ ship_hull_hilfskreuzer_desc:0 "Auxillary Raiders rely on surprise and stealth to hunt down unescorted convoy vessels far from enemy naval units. While useful against unarmed merchantment, it will not last long against any enemy warship."
 ############### Pack Artillery
 pack_artillery_equipment_desc:0 "Light artillery and mortars, they provide less firepower compared to heavier designs but they perform better in harsh terrains and can be parachuted."
 pack_artillery_equipment:0 "Pack Artillery"

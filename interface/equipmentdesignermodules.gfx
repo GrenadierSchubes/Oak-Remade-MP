@@ -1182,6 +1182,87 @@ spriteTypes = {
 		name = "GFX_SM_submarine_hull_snorkel@highlight"
 		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/module_blueprint_snorkel.dds"
 	}
+	
+	
+	
+###################################################
+# Hilfskreuzer (light)
+###################################################
 
+
+
+	spriteType = {
+		name = "GFX_SM_hilfskreuzer_hull_anti_air"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/hilfskreuzer_hull/hilfskreuzer_hull_fixed_anti_air.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_hilfskreuzer_hull_anti_air@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/hilfskreuzer_hull/hilfskreuzer_hull_fixed_anti_air@highlight.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_hilfskreuzer_hull_mid_1_anti_air"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/hilfskreuzer_hull/hilfskreuzer_hull_mid_anti_air.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_hilfskreuzer_hull_mid_1_anti_air@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/hilfskreuzer_hull/hilfskreuzer_hull_mid_anti_air@highlight.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_hilfskreuzer_hull_rear_1_anti_air"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/hilfskreuzer_hull/hilfskreuzer_hull_rear_anti_air.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_hilfskreuzer_hull_rear_1_anti_air@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/hilfskreuzer_hull/hilfskreuzer_hull_rear_anti_air@highlight.dds"
+	}
 
 	
+	spriteType = {
+		name = "GFX_SM_hilfskreuzer_hull_light_battery"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/hilfskreuzer_hull/hilfskreuzer_hull_fixed_light_battery.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_hilfskreuzer_hull_light_battery@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/hilfskreuzer_hull/hilfskreuzer_hull_fixed_light_battery@highlight.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SM_hilfskreuzer_hull_rear_1_light_battery"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/hilfskreuzer_hull/hilfskreuzer_hull_rear_light_battery.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_hilfskreuzer_hull_rear_1_light_battery@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/hilfskreuzer_hull/hilfskreuzer_hull_rear_light_battery@highlight.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_hilfskreuzer_hull_rear_1_airplane_launcher"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/hilfskreuzer_hull/hilfskreuzer_hull_rear_1_airplane_launcher.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_hilfskreuzer_hull_rear_1_airplane_launcher@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/hilfskreuzer_hull/hilfskreuzer_hull_rear_1_airplane_launcher@highlight.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_hilfskreuzer_hull_fixed_secondaries"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/hilfskreuzer_hull/hilfskreuzer_hull_fixed_secondaries.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_hilfskreuzer_hull_fixed_secondaries@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/hilfskreuzer_hull/hilfskreuzer_hull_fixed_secondaries@highlight.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_hilfskreuzer_hull_mid_1_airplane_launcher"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/hilfskreuzer_hull/hilfskreuzer_hull_mid_1_airplane_launcher.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_hilfskreuzer_hull_mid_1_airplane_launcher@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/hilfskreuzer_hull/hilfskreuzer_hull_mid_1_airplane_launcher@highlight.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_hilfskreuzer_hull_engine"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/module_blueprint_engine.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_hilfskreuzer_hull_engine@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/module_blueprint_engine.dds"
+	}

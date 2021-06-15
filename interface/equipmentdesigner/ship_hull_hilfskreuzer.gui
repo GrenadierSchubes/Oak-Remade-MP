@@ -39,7 +39,7 @@ guiTypes = {
 					
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_light_hull_light_battery"
+						spriteType = "GFX_SM_hilfskreuzer_hull_light_battery"
 						position = { x=425 y=1 }
 					}
 				}
@@ -51,7 +51,7 @@ guiTypes = {
 					
 					iconType = {
 						name = "highlight"
-						spriteType = "GFX_SM_light_hull_light_battery@highlight"
+						spriteType = "GFX_SM_hilfskreuzer_hull_light_battery@highlight"
 						position = { x=425 y=1 }
 					}
 				}
@@ -70,7 +70,7 @@ guiTypes = {
 					
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_light_hull_anti_air"
+						spriteType = "GFX_SM_hilfskreuzer_hull_anti_air"
 						position = { x=390 y=2 }
 					}
 				}
@@ -84,7 +84,7 @@ guiTypes = {
 					
 					iconType = {
 						name = "highlight"
-						spriteType = "GFX_SM_light_hull_anti_air@highlight"
+						spriteType = "GFX_SM_hilfskreuzer_hull_anti_air@highlight"
 						position = { x=390 y=2 }
 					}
 				}
@@ -103,7 +103,7 @@ guiTypes = {
 					
 					iconType = {
 						name = "blueprint"
-						spriteType = "GFX_SM_light_hull_engine"
+						spriteType = "GFX_SM_hilfskreuzer_hull_engine"
 						position = { x=0 y=0 }
 					}
 				}
@@ -115,7 +115,7 @@ guiTypes = {
 					
 					iconType = {
 						name = "blueprint_highlight"
-						spriteType = "GFX_SM_light_hull_engine@highlight"
+						spriteType = "GFX_SM_hilfskreuzer_hull_engine@highlight"
 						position = { x=0 y=0 }
 					}
 				}
@@ -134,7 +134,7 @@ guiTypes = {
 					
 					iconType = {
 						name = "blueprint"
-						spriteType = "GFX_SM_cruiser_hull_fixed_secondaries"
+						spriteType = "GFX_SM_hilfskreuzer_hull_fixed_secondaries"
 						position = { x=290 y=0 }
 					}
 				}
@@ -146,7 +146,7 @@ guiTypes = {
 					
 					iconType = {
 						name = "highlight"
-						spriteType = "GFX_SM_cruiser_hull_fixed_secondaries@highlight"
+						spriteType = "GFX_SM_hilfskreuzer_hull_fixed_secondaries@highlight"
 						position = { x=290 y=0 }
 					}
 				}
@@ -166,7 +166,7 @@ guiTypes = {
 					
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_light_hull_mid_1_anti_air"
+						spriteType = "GFX_SM_hilfskreuzer_hull_mid_1_anti_air"
 						position = { x=247 y=4 }
 					}
 				}
@@ -177,7 +177,7 @@ guiTypes = {
 					
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_light_hull_mid_1_anti_air@highlight"
+						spriteType = "GFX_SM_hilfskreuzer_hull_mid_1_anti_air@highlight"
 						position = { x=247 y=4 }
 					}
 				}
@@ -189,7 +189,7 @@ guiTypes = {
 					
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_light_hull_light_battery"
+						spriteType = "GFX_SM_hilfskreuzer_hull_light_battery"
 						position = { x=155 y=3 }
 					}
 				}
@@ -201,7 +201,7 @@ guiTypes = {
 					
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_light_hull_light_battery@highlight"
+						spriteType = "GFX_SM_hilfskreuzer_hull_light_battery@highlight"
 						position = { x=155 y=3 }
 					}
 				}
@@ -214,7 +214,7 @@ guiTypes = {
 					
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_cruiser_hull_fixed_secondaries"
+						spriteType = "GFX_SM_hilfskreuzer_hull_fixed_secondaries"
 						position = { x=275 y=0 }
 					}
 				}
@@ -225,7 +225,7 @@ guiTypes = {
 					
 					iconType = {
 						name = "highlight"
-						spriteType = "GFX_SM_cruiser_hull_fixed_secondaries@highlight"
+						spriteType = "GFX_SM_hilfskreuzer_hull_fixed_secondaries@highlight"
 						position = { x=275 y=0 }
 					}
 				}
@@ -238,7 +238,7 @@ guiTypes = {
 					
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_cruiser_hull_mid_1_airplane_launcher"
+						spriteType = "GFX_SM_hilfskreuzer_hull_mid_1_airplane_launcher"
 						position = { x=140 y=2 }
 					}
 				}
@@ -249,7 +249,7 @@ guiTypes = {
 					
 					iconType = {
 						name = "highlight"
-						spriteType = "GFX_SM_cruiser_hull_mid_1_airplane_launcher@highlight"
+						spriteType = "GFX_SM_hilfskreuzer_hull_mid_1_airplane_launcher@highlight"
 						position = { x=140 y=2 }
 					}
 				}
@@ -270,7 +270,7 @@ guiTypes = {
 					
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_light_hull_rear_1_anti_air"
+						spriteType = "GFX_SM_hilfskreuzer_hull_rear_1_anti_air"
 						position = { x=100 y=5 }
 					}
 				}
@@ -281,7 +281,7 @@ guiTypes = {
 					
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_light_hull_rear_1_anti_air@highlight"
+						spriteType = "GFX_SM_hilfskreuzer_hull_rear_1_anti_air@highlight"
 						position = { x=100 y=5 }
 					}
 				}
@@ -294,7 +294,7 @@ guiTypes = {
 					
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_light_hull_rear_1_light_battery"
+						spriteType = "GFX_SM_hilfskreuzer_hull_rear_1_light_battery"
 						position = { x=55 y=3 }
 					}
 				}
@@ -305,7 +305,7 @@ guiTypes = {
 					
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_light_hull_rear_1_light_battery@highlight"
+						spriteType = "GFX_SM_hilfskreuzer_hull_rear_1_light_battery@highlight"
 						position = { x=55 y=3 }
 					}
 				}
@@ -318,7 +318,7 @@ guiTypes = {
 					
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_cruiser_hull_fixed_secondaries"
+						spriteType = "GFX_SM_hilfskreuzer_hull_fixed_secondaries"
 						position = { x=110 y=1 }
 					}
 				}
@@ -329,7 +329,7 @@ guiTypes = {
 					
 					iconType = {
 						name = "highlight"
-						spriteType = "GFX_SM_cruiser_hull_fixed_secondaries@highlight"
+						spriteType = "GFX_SM_hilfskreuzer_hull_fixed_secondaries@highlight"
 						position = { x=110 y=1 }
 					}
 				}
@@ -342,7 +342,7 @@ guiTypes = {
 					
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_cruiser_hull_rear_1_airplane_launcher"
+						spriteType = "GFX_SM_hilfskreuzer_hull_rear_1_airplane_launcher"
 						position = { x=55 y=4 }
 					}
 				}
@@ -353,7 +353,7 @@ guiTypes = {
 					
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_cruiser_hull_rear_1_airplane_launcher@highlight"
+						spriteType = "GFX_SM_hilfskreuzer_hull_rear_1_airplane_launcher@highlight"
 						position = { x=55 y=4 }
 					}
 				}

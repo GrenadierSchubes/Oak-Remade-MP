@@ -3351,6 +3351,14 @@ leader_traits = {
 		}	
 	}
 
+	GER_blohm_naval_manufacturer = {
+		random = no 
+
+		ai_will_do = {
+			factor = 1
+		}	
+	}
+	
 	trait_industrial_specialization = {
 		random = no
 		ai_will_do = {

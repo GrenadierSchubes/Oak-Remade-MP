@@ -2845,21 +2845,21 @@ ideas = {
 				factor = 50
 			}
 			
-			traits = { raiding_fleet_naval_manufacturer }
+			traits = { GER_blohm_naval_manufacturer }
 			
 			equipment_bonus = {
-			
+				
 				carrier = {
-					naval_speed = 0.05 carrier_size = -0.1 naval_range = 0.1
+					naval_speed = 0.15 carrier_size = -0.1 naval_range = 0.1 surface_visibility = -0.1 
 				}
 				capital_ship = {
-					naval_speed = 0.05 hg_attack = -0.1 naval_range = 0.1
+					naval_speed = 0.15 hg_attack = -0.1 naval_range = 0.1 surface_visibility = -0.1
 				}
 				screen_ship = {
-					naval_speed = 0.05 naval_range = 0.1
+					naval_speed = 0.15 naval_range = 0.1 surface_visibility = -0.1
 				}
 				submarine = {
-					naval_speed = 0.05 naval_range = 0.1
+					naval_speed = 0.15 naval_range = 0.1 sub_visibility = -0.1 surface_visibility = -0.1
 				}
 				
 			}
