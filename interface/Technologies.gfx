@@ -12637,7 +12637,7 @@ texturefile = "gfx/interface/technologies/prc_adv_heavy_tank.dds"
 		texturefile = "gfx/interface/technologies/ship_hull_panzerschiff.dds"
 	}
 		SpriteType = {
-		name = "GFX_ship_hull_cruiser_modern_panzerschiffe_medium"
+		name = "GFX_ship_hull_cruiser_panzerschiffe_2_medium"
 		texturefile = "gfx/interface/technologies/ship_hull_panzerschiff.dds"
 	}
 		SpriteType = {
