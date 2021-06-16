@@ -6265,6 +6265,7 @@ focus_tree = {
 				category = cv_tech
 				ahead_reduction = 1
 			}
+			custom_effect_tooltip = GER_carrier_tt
 		}
 	}
 
@@ -6292,6 +6293,7 @@ focus_tree = {
 				category = bb_tech
 				ahead_reduction = 1
 			}
+			custom_effect_tooltip = GER_bismarck_tt
 		}
 	}
 
