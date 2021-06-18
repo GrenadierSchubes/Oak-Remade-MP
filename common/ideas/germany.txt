@@ -152,7 +152,7 @@ ideas = {
 			picture = generic_coastal_navy
 			
 			allowed = {
-				always = no # Triggered via event
+				always = no
 			}
 
 			picture = generic_sea_focused_navy
@@ -168,7 +168,7 @@ ideas = {
 			picture = generic_coastal_navy
 			
 			allowed = {
-				always = no # Triggered via event
+				always = no
 			}
 
 			picture = generic_sea_focused_navy
@@ -2815,11 +2815,23 @@ ideas = {
 				factor = 0
 			}
 			
-			#equipment_bonus = {
-			#	
-			#}
+			equipment_bonus = {
+				carrier = {
+					carrier_size = 0.2
+					armor_value = 0.5 
+					max_strength = 0.1
+				}
+				capital_ship = {
+					armor_value = 0.15 
+					hg_attack = 0.15
+				}
+				screen_ship = {
+					torpedo_attack = 0.15
+					sub_detection = -0.25
+				}
+			}
 			
-			traits = { atlantic_fleet_naval_manufacturer }
+			traits = { GER_battlefleet_naval_manufacturer }
 		}
 		
 		blohm_und_voss = {

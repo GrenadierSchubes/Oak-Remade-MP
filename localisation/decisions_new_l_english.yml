@@ -172,6 +172,8 @@
  ENG_bad_economy_3:0 "Worsening Economy"
  ENG_bad_economy_4:0 "Worsening Economy"
  ENG_bad_economy_5:0 "Worsening Economy"
+ ENG_sink_bismarck:0 "Sink the Bismarck!"
+ ENG_sink_bismarck_desc:0 "We'll find that German Battleship that's making such a fuss. We gotta Sink the Bismarck cause the world depends on us."
  
  ###Middle East###
  ENG_operation_countenance:0 "Operation Countenance"

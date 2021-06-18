@@ -14,7 +14,24 @@ ideas = {
 				army_attack_factor = 0.1
 				army_defence_factor = 0.1	
 			}
-		}	
+		}
+		ENG_sink_bismarck = {
+			
+			picture = generic_coastal_navy
+			
+			allowed = {
+				always = no
+			}
+
+			picture = generic_sea_focused_navy
+			
+			modifier = {
+				naval_speed_factor = 0.10
+				navy_fuel_consumption_factor = 0.10
+				spotting_chance = 0.25
+			}
+			
+		}
 		ENG_darkest_hour = {
 
 			picture = SPR_torchbearers_of_tomorrow
