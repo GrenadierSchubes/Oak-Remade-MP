@@ -12382,6 +12382,11 @@ texturefile = "gfx/interface/technologies/prc_adv_heavy_tank.dds"
 	}	
 	
 	SpriteType = {
+		name = "GFX_hilfskreuzer_medium"
+		texturefile = "gfx/interface/technologies/hilfskreuzer.dds"
+	}
+	
+	SpriteType = {
 		name = "GFX_tank_landing_craft_medium"
 		texturefile = "gfx/interface/technologies/tank_landing_craft.dds"
 	}
@@ -12629,6 +12634,10 @@ texturefile = "gfx/interface/technologies/prc_adv_heavy_tank.dds"
 	
 		SpriteType = {
 		name = "GFX_ship_hull_cruiser_panzerschiff_medium"
+		texturefile = "gfx/interface/technologies/ship_hull_panzerschiff.dds"
+	}
+		SpriteType = {
+		name = "GFX_ship_hull_cruiser_panzerschiffe_2_medium"
 		texturefile = "gfx/interface/technologies/ship_hull_panzerschiff.dds"
 	}
 		SpriteType = {

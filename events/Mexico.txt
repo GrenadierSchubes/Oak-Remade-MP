@@ -1683,66 +1683,6 @@ country_event = {
 	}
 }
 
-# Unrestricted submarine warfare
-
-# German submarines sank some oilers in 1942, which brought Mexico into the war
-
-# First event offers Germany a short bonus to convoy raiding in exchange for the risk of diplomatic repercussions
-
-country_event = {
-	id = mexico.23
-	title = mexico.23.title
-	desc = mexico.23.desc
-	
-	picture = GFX_report_event_merchant_ship_01
-	
-	fire_only_once = yes
-	
-	trigger = {
-		tag = GER
-		has_war_with = USA
-		has_navy_size = { unit = submarine size > 9 }
-	}
-	
-	mean_time_to_happen = {
-		months = 1
-		
-		modifier = {
-			factor = 0.5
-			has_tech = unrestricted_submarine_warfare
-		}
-	}
-	
-	option = {
-		name = mexico.23.a # Sink them
-		
-		add_war_support = 0.01
-		
-		add_timed_idea = {
-			idea = mexico_german_submarine_happy_time
-			days = 90
-		}
-		
-		MEX = {
-			country_event = {
-				id = mexico.24
-				days = 1
-			}
-		}
-		
-		ai_chance = {
-			factor = 100
-		}
-	}
-	option = {
-		name = mexico.23.b # Best not
-		
-		ai_chance = {
-			factor = 0
-		}
-	}
-}
-
 # Mexico is informed of the attacks by German submarines and gets the opportunity to enter the war against Germany
 
 country_event = {

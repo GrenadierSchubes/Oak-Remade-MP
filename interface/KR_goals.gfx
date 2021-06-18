@@ -1729,6 +1729,26 @@ spriteTypes = {
 		name = "GFX_GER_encourage_steel_barons"
 		texturefile = "gfx/interface/goals/ger/GER_curtail_the_steel_barons.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_GER_hilfskreuzer"
+		texturefile = "gfx/interface/goals/ger/GER_hilfskreuzer.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_GER_madlads"
+		texturefile = "gfx/interface/goals/ger/GER_madlads.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_GER_raeder"
+		texturefile = "gfx/interface/goals/ger/GER_raeder.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_GER_panzerschiffe"
+		texturefile = "gfx/interface/goals/ger/GER_panzerschiffe.dds"
+	}
 
 	spriteType = {
 		name = "GFX_AST_expand_the_raaf"

@@ -147,7 +147,72 @@ ideas = {
 				ai_focus_aggressive_factor = 0.1
 			}
 		}
+		GER_happy_time = {
+			
+			picture = generic_coastal_navy
+			
+			allowed = {
+				always = no
+			}
 
+			picture = generic_sea_focused_navy
+			
+			modifier = {
+				convoy_raiding_efficiency_factor = 0.25
+			}
+			
+		}
+		
+		GER_paukenschlag = {
+			
+			picture = generic_coastal_navy
+			
+			allowed = {
+				always = no
+			}
+
+			picture = generic_sea_focused_navy
+			
+			modifier = {
+				convoy_raiding_efficiency_factor = 0.25
+			}
+			
+		}
+		
+		GER_french_ports = {
+			
+			picture = generic_coastal_navy
+			
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = generic_sea_focused_navy
+			
+			modifier = {
+				naval_speed_factor = 0.05
+				repair_speed_factor = 0.10
+			}
+			equipment_bonus = {
+				ship_hull_heavy = {
+					naval_range = 0.15 instant = yes
+				}
+				ship_hull_carrier = {
+					naval_range = 0.15 instant = yes
+				}
+				ship_hull_cruiser = {
+					naval_range = 0.15 instant = yes
+				}
+				ship_hull_light = {
+					naval_range = 0.15 instant = yes
+				}
+				
+				ship_hull_submarine = {
+					naval_range = 0.15 instant = yes
+				}
+			}
+		}
+		
 		GER_schacht_autarky = {
 			
 			picture = great_depression
@@ -2750,11 +2815,23 @@ ideas = {
 				factor = 0
 			}
 			
-			#equipment_bonus = {
-			#	
-			#}
+			equipment_bonus = {
+				carrier = {
+					carrier_size = 0.2
+					armor_value = 0.5 
+					max_strength = 0.1
+				}
+				capital_ship = {
+					armor_value = 0.15 
+					hg_attack = 0.15
+				}
+				screen_ship = {
+					torpedo_attack = 0.15
+					sub_detection = -0.25
+				}
+			}
 			
-			traits = { atlantic_fleet_naval_manufacturer }
+			traits = { GER_battlefleet_naval_manufacturer }
 		}
 		
 		blohm_und_voss = {
@@ -2780,11 +2857,24 @@ ideas = {
 				factor = 50
 			}
 			
-			traits = { raiding_fleet_naval_manufacturer }
+			traits = { GER_blohm_naval_manufacturer }
 			
-			#equipment_bonus = {
-			#	
-			#}
+			equipment_bonus = {
+				
+				carrier = {
+					naval_speed = 0.15 carrier_size = -0.1 naval_range = 0.1 surface_visibility = -0.1 
+				}
+				capital_ship = {
+					naval_speed = 0.15 hg_attack = -0.1 naval_range = 0.1 surface_visibility = -0.1
+				}
+				screen_ship = {
+					naval_speed = 0.15 naval_range = 0.1 surface_visibility = -0.1
+				}
+				submarine = {
+					naval_speed = 0.15 naval_range = 0.1 sub_visibility = -0.1 surface_visibility = -0.1
+				}
+				
+			}
 		}	
 	}
 	naval_research = { 
