@@ -369,6 +369,13 @@ ideas = {
 					GER = { has_idea = tot_economic_mobilisation }
 				}
 				AND = {
+					NOT = { tag = GER }
+					is_in_faction_with = SOV
+					SOV = { 
+				        has_war_with = GER
+			        }
+				}
+				AND = {
 					tag = GER
 					has_war = yes
 					OR = {

@@ -147,6 +147,7 @@ technology_folders = {
 			original_tag = MEX
 			original_tag = MON
 			original_tag = HOL
+			original_tag = ITA
 		  }
         }
     }
@@ -154,6 +155,7 @@ technology_folders = {
 		ledger = army
         available = {
 			OR  = {
+			original_tag = ITA
 			original_tag = HUN
 			original_tag = ROM
 			original_tag = SPR
