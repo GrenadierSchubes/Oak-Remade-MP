@@ -1741,6 +1741,11 @@ spriteTypes = {
 	}
 	
 	spriteType = {
+		name = "GFX_GER_raeder"
+		texturefile = "gfx/interface/goals/ger/GER_raeder.dds"
+	}
+	
+	spriteType = {
 		name = "GFX_GER_panzerschiffe"
 		texturefile = "gfx/interface/goals/ger/GER_panzerschiffe.dds"
 	}

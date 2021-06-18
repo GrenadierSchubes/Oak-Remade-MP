@@ -46,7 +46,7 @@ equipments = {
 		
 		module_count_limit = {
 			category = ship_light_battery
-			count < 2
+			count < 3
 		}
 		
 		default_modules = {

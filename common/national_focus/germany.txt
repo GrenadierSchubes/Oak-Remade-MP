@@ -6194,7 +6194,7 @@ focus_tree = {
 	focus = {
 		id = GER_naval_expansion
 		prerequisite = { focus = GER_prepare_the_kriegsmarine }
-		icon = GFX_goal_ger_raeder_plan
+		icon = GFX_GER_raeder
 		x = -4
 		y = 1
 		relative_position_id = GER_prepare_the_kriegsmarine
