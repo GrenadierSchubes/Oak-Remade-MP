@@ -3835,6 +3835,7 @@ ideas = {
 				production_factory_max_efficiency_factor = 0.05
 				training_time_army_factor = -0.25
 				global_building_slots_factor = 0.1
+				mobilization_speed = 0.1
 			}
 		}	
 				

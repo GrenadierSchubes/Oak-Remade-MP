@@ -7190,7 +7190,7 @@ focus_tree = {
 					IRE = {
 					    add_opinion_modifier = { target = ENG modifier = aided_industry }
 						random_owned_controlled_state = {
-						prioritize = { 135 }
+						    prioritize = { 135 }
 							add_extra_state_shared_building_slots = 4
 							add_building_construction = {
 								type = industrial_complex
@@ -7198,7 +7198,8 @@ focus_tree = {
 								instant_build = yes 
 							}
 						}
-						prioritize = { 134 }
+						random_owned_controlled_state = {
+						    prioritize = { 134 }
 							add_extra_state_shared_building_slots = 4
 							add_building_construction = {
 								type = industrial_complex
