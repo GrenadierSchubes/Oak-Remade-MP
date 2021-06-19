@@ -2454,6 +2454,7 @@ operations = {
 		icon = generic_operation
 		
 		allowed = {
+			tag = ENG
 			always = yes
 		}
 		
