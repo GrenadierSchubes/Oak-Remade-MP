@@ -26,6 +26,7 @@ set_technology = {
 	axis_light_tank_1936 = 1
 	ger_fighter_1934 = 1
     ger_fighter_1936 = 1
+	ger_heavy_fighter_1936 = 1
 	ger_tactical_bomber_1934 = 1
 	############# economy##############
 	starting_industry = 1
@@ -35,7 +36,7 @@ add_ideas = {
 }
 set_research_slots = 4
 set_stability = 0.5
-set_war_support = 0.2
+set_war_support = 0.55
 
 set_politics = {
 	ruling_party = democratic
@@ -45,8 +46,8 @@ set_politics = {
 }
 
 set_popularities = {
-	democratic = 85
-	fascism = 15
+	democratic = 80
+	fascism = 20
 }
 
 create_country_leader = {
@@ -85,18 +86,18 @@ create_country_leader = {
 create_field_marshal = {
 	name = "Vojtěch Luža"
 	gfx = "GFX_Portrait_czechoslovakia_vojtech_luza"
-	traits = { fast_planner offensive_doctrine }
+	traits = { organizer offensive_doctrine }
 	skill = 3
     attack_skill = 4
     defense_skill = 2
     planning_skill = 3
-    logistics_skill = 1
+    logistics_skill = 2
 }
 
 create_field_marshal = {
 	name = "Josef Šnejdárek"
 	gfx = "GFX_Portrait_czechoslovakia_josef_snejdarek"
-	traits = { thorough_planner defensive_doctrine }
+	traits = { thorough_planner  }
 	skill = 3
     attack_skill = 3
     defense_skill = 4
@@ -108,11 +109,11 @@ create_corps_commander = {
 	name = "Richard Tesařík"
 	gfx = "GFX_Portrait_czechoslovakia_richard_tesarik"
 	traits = { panzer_leader }
-	skill = 2
+	skill = 4
     attack_skill = 4
-    defense_skill = 1
-    planning_skill = 1
-    logistics_skill = 1
+    defense_skill = 4
+    planning_skill = 4
+    logistics_skill = 4
 }
 
 create_corps_commander = {
@@ -122,6 +123,17 @@ create_corps_commander = {
 	skill = 3
     attack_skill = 4
     defense_skill = 3
+    planning_skill = 2
+    logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Bartos"
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
+	traits = {  bearer_of_artillery harsh_leader }
+	skill = 3
+	attack_skill = 3
+    defense_skill = 5
     planning_skill = 2
     logistics_skill = 1
 }
@@ -145,14 +157,4 @@ if = {
 	}
 }
 
-create_corps_commander = {
-	name = "Bartos"
-	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
-	traits = {  bearer_of_artillery harsh_leader }
-	skill = 2
-	attack_skill = 1
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 1
-}
 
