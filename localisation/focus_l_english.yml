@@ -41,10 +41,10 @@
  ITA_home_defence:0 "Italian Home Guard"
  ITA_home_defence_desc:0 "All men to the front!  If we do not stop this now, we might never!
 
- uk_nzl_focus:0 "§GDevelop New Zealand§"
+ uk_nzl_focus:0 "Develop New Zealand"
  uk_nzl_focus_desc:0 "We must aid the New Zealanders in developing their nation. They are an important outpost in the pacific and must be able to hold onto their territory."
 
- uk_ire_focus:0 "§GDevelop Ireland§"
+ uk_ire_focus:0 "Develop Ireland"
  uk_ire_focus_desc:0 "We should help Ireland rebuild after the trade war. It will help heal the rift between our nations.
 
  SOV_tank_designers_tt:0 "§R!!§G Gain Access to several tank designers.§W\n"
@@ -61,7 +61,7 @@
  siam_tt:0 "§R IF SIAM IN JAPAN'S FACTION WITH FOCUS WILL BE BYPASSED§W\n"
  spain_focus_limit_tt:0 "§RWe will be able to assess how to help when the civil war has started.§W"
  
- uk_south_africa_focus:0 "§GDevelop South Africa§"
+ uk_south_africa_focus:0 "Develop South Africa"
  uk_south_africa_focus_desc:0 "The political situation in South Africa is uncertain. We cannot fully trust that they will support our war effort, but by aiding them in strengthening their industry, we can hope to increase support for the British cause."
  
  osttruppen_tech:0 "Osttruppen"
@@ -2101,7 +2101,7 @@
  FRA_woo_italy_desc:0 "Italy has the potential to become a powerful nation. Thanks to the strong leadership of Mussolini the people of Italy are united and ready to fight for the right cause. Let that cause be ours."
  FRA_join_germany:0 "Join Germany"
  FRA_join_germany_desc:0 "The German Reich is becoming a force to be reckoned with. Their vision of a better future can be aligned with our interests. We should support them and once the dust settles France will get its rightful piece of Europe."
- ENG_limited_rearmament:0 "§GLimited Rearmament§"
+ ENG_limited_rearmament:0 "Limited Rearmament"
  ENG_limited_rearmament_desc:0 "The recent stirrings from Germany and other Fascist powers around the world suggest that we may not enjoy peace in our time. In preparation, we should begin to set the pieces in motion for our own rearmament if the situation gets any worse."
  ENG_change_service_position:0 "Service Overseas"
  ENG_change_service_position_desc:0 "By rotating armed forces personnel to colonial stations and back home again they can learn about the conditions on different fronts, gain experience, and share it with their comrades back home."
@@ -2109,9 +2109,9 @@
  ENG_mediterranean_bastion_desc:0 "The route through the Mediterranean is a vitally important shortcut to and from India. As such, it is of utmost importance to keep it open and in our hands."
  ENG_civ_develop_burma_and_malaya:0 "Develop Burma and Malaya"
  ENG_civ_develop_burma_and_malaya_desc:0 "It seems logistical that after investing in India, that we also invest in the near colonies of Burma and Malaya."
- ENG_civ_develop_canada:0 "§GDevelopment in Canada§"
+ ENG_civ_develop_canada:0 "Development in Canada"
  ENG_civ_develop_canada_desc:0 "An investment in Canada's Industry and Shipyards will provide a boost to their economy and allow them to provide a greater contribution in the event of war."
- ENG_civ_develop_australia:0 "§GDevelopment in Australia§"
+ ENG_civ_develop_australia:0 "Development in Australia"
  ENG_civ_develop_australia_desc:0 "An investment in Australia's Shipyards and Industry will provide a boost to their economy and allow them to provide a greater contribution in the event of war."
  ENG_colonial_research:0 "Commonwealth Knowledge"
  ENG_colonial_research_desc:0 "The added knowledge and scientific abilities of our Commonwealth Allies will further our own scientic breakthroughs."

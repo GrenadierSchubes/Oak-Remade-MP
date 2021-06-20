@@ -638,7 +638,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_nationalize_war_industry
-		icon = GFX_goal_generic_construct_mil_factory
+		icon = GFX_goal_generic_construct_civ_factory
 		prerequisite = { focus = JAP_guide_the_zaibatsus }
 		x = 0
 		y = 1
@@ -667,6 +667,7 @@ focus_tree = {
 				limit = {
 					has_state_flag = JAP_nationalize_war_industry_AF
 				}
+				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = arms_factory
 					level = 2
@@ -677,6 +678,18 @@ focus_tree = {
 				limit = {
 					has_state_flag = JAP_nationalize_war_industry_IC
 				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_state = {
+				limit = {
+					has_state_flag = JAP_nationalize_war_industry_IC2
+				}
+				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = industrial_complex
 					level = 2
@@ -721,6 +734,24 @@ focus_tree = {
 					instant_build = yes
 				}
 				set_state_flag = JAP_nationalize_war_industry_IC
+			}
+			random_owned_controlled_state = {			
+				limit = {
+					ROOT = { has_full_control_of_state = PREV }
+					is_core_of = ROOT					
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = JAP_nationalize_war_industry_IC2
 			}
 		}
 	}
@@ -858,10 +889,10 @@ focus_tree = {
 				limit = {
 					has_state_flag = JAP_imperial_arsenals1
 				}
-				add_extra_state_shared_building_slots = 3
+				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = arms_factory
-					level = 3
+					level = 2
 					instant_build = yes
 				}
 			}
@@ -869,10 +900,21 @@ focus_tree = {
 				limit = {
 					has_state_flag = JAP_imperial_arsenals2
 				}
-				add_extra_state_shared_building_slots = 3
+				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = arms_factory
-					level = 3
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_state = {
+				limit = {
+					has_state_flag = JAP_imperial_arsenals3
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
 					instant_build = yes
 				}
 			}
@@ -912,6 +954,23 @@ focus_tree = {
 					instant_build = yes
 				}
 				set_state_flag = JAP_imperial_arsenals2
+			}
+			random_owned_controlled_state = {
+				limit = {
+					is_fully_controlled_by = PREV						
+					free_building_slots = {
+						building = dockyard
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = JAP_imperial_arsenals3
 			}
 		}
 	}
