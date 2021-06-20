@@ -221,7 +221,7 @@ create_corps_commander = {
 
 create_navy_leader = {
 	name = "Mark Mellett"
-		picture = "gfx/leaders/Europe/Portrait_Europe_Generic_navy_1.dds"
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_navy_3.dds"
 	traits = { blockade_runner }
 	skill = 3
 	attack_skill = 3
