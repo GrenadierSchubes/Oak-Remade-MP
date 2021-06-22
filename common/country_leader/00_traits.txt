@@ -254,7 +254,10 @@ leader_traits = {
 	administrative_genius = {
 		random = no
 		sprite = 13
-		consumer_goods_factor = -0.03
+		consumer_goods_factor = -0.01
+		neutrality_drift = 0.01
+		stability_weekly = 0.001
+		stability_factor = 0.10
 		
 		ai_will_do = {
 			factor = 1
@@ -3354,21 +3357,6 @@ leader_traits = {
 		}	
 	}
 
-	GER_blohm_naval_manufacturer = {
-		random = no 
-
-		ai_will_do = {
-			factor = 1
-		}	
-	}
-	
-	GER_battlefleet_naval_manufacturer = {
-		random = no 
-
-		ai_will_do = {
-			factor = 1
-		}	
-	}
 	trait_industrial_specialization = {
 		random = no
 		ai_will_do = {
