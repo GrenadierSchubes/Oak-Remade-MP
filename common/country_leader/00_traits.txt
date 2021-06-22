@@ -255,7 +255,7 @@ leader_traits = {
 		random = no
 		sprite = 13
 		consumer_goods_factor = -0.01
-		neutrality_drift = 0.01
+		neutrality_drift = 0.1
 		stability_weekly = 0.001
 		stability_factor = 0.10
 		

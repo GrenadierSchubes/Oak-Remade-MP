@@ -169,7 +169,7 @@ if = {
 	set_autonomy = {
 		target = RAJ
 		autonomous_state = autonomy_colony
-		freedom_level = 0.1
+		freedom_level = 0.2
 	}
 	set_autonomy = {
 		target = CAN
