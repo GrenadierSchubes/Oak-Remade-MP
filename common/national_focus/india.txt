@@ -5721,7 +5721,8 @@ focus_tree = {
 				}
 				has_army_experience > 99
 				OR = {
-					has_idea = RAJ_corruption_6 
+					has_idea = RAJ_corruption_6
+					has_idea = RAJ_corruption_7
 				}
 			}
 			PER = { has_capitulated = yes }
