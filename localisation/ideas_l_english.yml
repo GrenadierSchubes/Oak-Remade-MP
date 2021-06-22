@@ -1,5 +1,11 @@
 ﻿l_english:
 
+ GER_french_ports:0 "French Atlantic Ports"
+ GER_french_ports_desc:0 "Our control of the French coast allows the Kriegsmarine to extend its reach across the whole Atlantic and conduct operations far more efficiently"
+ GER_happy_time:0 "Die Glückliche Zeit"
+ CZE_air_innovations_1_idea:0 "German-Czech Air Force Coorperation"
+ CZE_air_innovations_1_idea_desc:0 "The Germans are helping train our air force to become an elite fighting force. This will help us in our air efforts if Germany for some reason, asks for us to control their air force."
+
  RULE_ALLOW_LEND_LEASE_BLOCKED_TT_REQUEST:0 "Request Lend Lease Always Disabled"
  quantity1:0 "Mass Production I"
  quantity2:0 "Mass Production II"
