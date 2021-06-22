@@ -81,6 +81,7 @@ if = {
 		mex_bad_eco1
 		refinery_idea
 		low_economic_mobilisation
+		airandnavy_idea
 	}
 }
 add_ideas = {

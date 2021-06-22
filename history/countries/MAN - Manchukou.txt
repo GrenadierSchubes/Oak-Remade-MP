@@ -19,6 +19,7 @@ if = {
 	add_ideas = MAN_exiled_imperial_family
 	add_ideas = german_advisors
 	add_ideas = MAN_imperial_pretender
+	add_ideas = airandnavy_idea
 }
 if = {
 	limit = {
