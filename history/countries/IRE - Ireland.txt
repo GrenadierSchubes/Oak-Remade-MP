@@ -236,6 +236,7 @@ add_ideas = {
 	IRE_incompetent_army
 	refinery_idea
 	limited_conscription
+	airandnavy_idea
 }
 if = {
 	limit = {

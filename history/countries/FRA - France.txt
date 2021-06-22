@@ -140,6 +140,7 @@ add_ideas = {
 	refinery_idea
 	FRA_naval
 	FRA_air
+	airandnavy_idea
 }
 
 

@@ -145,6 +145,7 @@ if = {
 	add_ideas = {
 		CZE_skoda_works
 		CZE_divided_nation
+		airandnavy_idea
 	}
 }
 

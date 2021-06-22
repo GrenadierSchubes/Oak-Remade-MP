@@ -52,6 +52,7 @@ add_ideas = {
     MON_Rogue_state
     MON_Rual_population
 	MON_agrarian_reform1
+	airandnavy_idea
 }
 
 add_opinion_modifier = { target = CHI modifier = HOL_caved_to_the_british_ger }

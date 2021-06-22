@@ -8,6 +8,7 @@ add_ideas = {
 	PHI_ideological_rebels
 	limited_conscription
     refinery_idea
+	airandnavy_idea
 }
 
 set_research_slots = 4

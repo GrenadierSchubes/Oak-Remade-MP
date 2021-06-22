@@ -118,6 +118,7 @@ add_ideas = {
 	AST_conscript_malus
 	refinery_idea
 	AST_wall_defence3
+	airandnavy_idea
 }
 
 if = {
