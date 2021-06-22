@@ -6,7 +6,7 @@ state={
 	state_category = rural
 	
 	history={
-		add_core_of = NGA
+		add_core_of = RAJ
 		owner = RAJ
 		victory_points = {
 			8085 1 

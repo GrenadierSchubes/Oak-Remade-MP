@@ -825,7 +825,6 @@ focus_tree = {
 		}
 
 		available = {
-			has_war = yes 
 		}
 
 		bypass = {
@@ -2801,11 +2800,10 @@ focus_tree = {
 		icon = GFX_focus_CZE_german_puppet
 		relative_position_id = RAJ_influence_princely_states
 		prerequisite = { focus = RAJ_instrument_of_accession }
-		prerequisite = { focus = RAJ_demand_freedom }
-		x = 1
-		y = 4
+		x = 0
+		y = 3
 
-		cost = 7.145
+		cost = 5
 
 		ai_will_do = {
 			factor = 4
