@@ -257,7 +257,6 @@ leader_traits = {
 		consumer_goods_factor = -0.01
 		neutrality_drift = 0.1
 		stability_weekly = 0.01
-		stability_weekly = 0.001
 		stability_factor = 0.10
 		
 		ai_will_do = {
