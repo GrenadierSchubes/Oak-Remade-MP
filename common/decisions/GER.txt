@@ -1782,6 +1782,7 @@ operations = {
 		icon = generic_operation
 		
 		allowed = {
+			tag = GER
 			always = yes
 		}
 		
@@ -1812,6 +1813,7 @@ operations = {
 		icon = generic_operation
 		
 		allowed = {
+			tag = GER
 			always = yes
 		}
 		

@@ -281,6 +281,13 @@ focus_tree = {
 		
 		completion_reward = {
 			add_political_power = 50
+			
+			add_tech_bonus = {
+				name = mefo_tech_bonus
+				bonus = 1
+				uses = 1
+				category = industry
+			} 
 
 			effect_tooltip = {
 				GER_mefo_bills_level_up = yes
@@ -434,6 +441,10 @@ focus_tree = {
 		}
 		
 		completion_reward = {
+			swap_ideas = {
+				remove_idea = GER_steel_barons_empowered
+				add_idea = GER_steel_monopoly
+			}
 			add_ideas = krupp_industrial_concern
 			add_political_power = -100
 		}
@@ -461,9 +472,9 @@ focus_tree = {
 			add_political_power = 100
 			add_ideas = GER_schacht_autarky
 
-			BEL = { give_resource_rights = { receiver = GER state = 6 }	} 
-			SWE = { give_resource_rights = { receiver = GER state = 141} }	
-		
+			TUR = { give_resource_rights = { receiver = GER state = 342 } } 
+			SWE = { give_resource_rights = { receiver = GER state = 141 } }	
+			SWE = { give_resource_rights = { receiver = GER state = 138 } }
 		}
 	}
 
@@ -485,6 +496,11 @@ focus_tree = {
 		}
 		
 		completion_reward = {
+			
+			swap_ideas = {
+				remove_idea = GER_schacht_autarky
+				add_idea = GER_schacht_autarky_2
+			}
 
 			effect_tooltip = {
 				GER_mefo_bills_level_up = yes
@@ -961,7 +977,7 @@ focus_tree = {
 		relative_position_id = GER_curtail_the_steel_barons
 		x = 0
 		y = 1
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 9
 		}
@@ -5120,7 +5136,7 @@ focus_tree = {
 		id = GER_air_innovation	 ## Luftwaffe
 		text = GER_air_innovation
 		icon = GFX_goal_ger_luftwaffe
-		x = 22
+		x = 24
 		y = 0
 		cost = 5
 		ai_will_do = {
@@ -5396,9 +5412,10 @@ focus_tree = {
 	focus = {
 		id = GER_scrap_lufthansa
 		prerequisite = { focus = GER_air_innovation }
+		prerequisite = { focus = GER_Wehrmacht }
 		icon = GFX_goal_continuous_air_production
 		relative_position_id = GER_air_innovation
-		x = 5
+		x = -6
 		y = 1
 		cost = 5
 		
@@ -5422,7 +5439,7 @@ focus_tree = {
 		prerequisite = { focus = GER_scrap_lufthansa }
 		relative_position_id = GER_scrap_lufthansa 
 		x = 0
-		y = 2
+		y = 1
 		cost = 5
 		ai_will_do = {
 			factor = 0
@@ -5855,7 +5872,7 @@ focus_tree = {
 	focus = {
 		id = GER_prepare_the_kriegsmarine
 		icon = GFX_goal_ger_kriegsmarine
-		x = 33
+		x = 35
 		y = 0
 		cost = 5
 		ai_will_do = {
