@@ -1,6 +1,8 @@
 ﻿l_english:
 
  #temporary local to purge later
+ CZE_german_tech:0 "German-Czech Industry Agreement"
+ CZE_german_tech_desc:0 "Germany has agreed  to lend us some of their technical expertise."
  GER_west_wall_lite_tt:0 "§RIf the Rhineland is remilitarized, you will also gain:§!\n"
  GER_west_wall_lite_forts:0 "Add §Y12 Land Forts§! on the French border.\n"
  GER_west_wall_med:0 "Westwall-Med Forts"

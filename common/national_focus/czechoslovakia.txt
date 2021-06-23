@@ -1644,11 +1644,7 @@ focus_tree = {
 
 		completion_reward = {
 		     GER = { add_opinion_modifier = { target = CZE modifier = CZE_german_leanings } }
-			 add_tech_bonus = {
-				category = industry
-				bonus = 1 
-				uses = 1 
-			}
+		     add_ideas = CZE_german_millitary_cooperation_focus
 		}
 	}
 
@@ -1735,9 +1731,47 @@ focus_tree = {
 
 		completion_reward = {
 		    add_research_slot = 1
-			add_ideas = CZE_german_millitary_cooperation_focus
 		}
 	}
+	focus = {
+		id = CZE_german_tech
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = { focus = CZE_german_technology }
+		x = 0
+		y = 1
+		relative_position_id = CZE_german_technology
+
+		cost = 7.25
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+			GER = { exists = yes }
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				category = industry
+				bonus = 1 
+				uses = 1 
+			}
+		}
+	}
+	
 
 	#######################################
 	##### MILITARY RESEARCH INSTITUTE #####	
@@ -2606,7 +2640,8 @@ focus_tree = {
 		}
 
 		available = {
-			any_owned_state {
+			any_state = {
+				is_controlled_by = ROOT
 				is_coastal = yes
 			}
 		}
@@ -2663,37 +2698,10 @@ focus_tree = {
 
 		completion_reward = {
 			navy_experience = 50
-			random_owned_controlled_state = {
-				limit = {
-					is_coastal = yes
-					free_building_slots = {
-						building = dockyard
-						size > 2
-						include_locked = yes
-					}
-					OR = {
-						is_in_home_area = yes
-						NOT = {
-							owner = {
-								any_owned_state = {
-									free_building_slots = {
-										building = dockyard
-										size > 2
-										include_locked = yes
-									}
-									is_in_home_area = yes
-								}
-							}
-						}
-					}
-				}
-				add_extra_state_shared_building_slots = 3
-				add_building_construction = {
-					type = dockyard
-					level = 3
-					instant_build = yes
-				}
-			}
+            add_offsite_building = { 
+			    type = dockyard 
+				level = 3
+			}		
 		}
 	}
 
@@ -2764,8 +2772,8 @@ focus_tree = {
 
 		completion_reward = {
 			add_tech_bonus = {
-				bonus = 0.6
-				uses = 2
+				bonus = 1.0
+				uses = 1
 				category = bb_tech
 			}
 		}
@@ -2803,8 +2811,8 @@ focus_tree = {
 
 		completion_reward = {
 			add_tech_bonus = {
-				bonus = 0.6
-				uses = 2
+				bonus = 1.0
+				uses = 1
 				category = dd_tech
 			}
 		}
@@ -2842,8 +2850,8 @@ focus_tree = {
 
 		completion_reward = {
 			add_tech_bonus = {
-				bonus = 0.6
-				uses = 2
+				bonus = 1.0
+				uses = 1
 				category = cl_tech
 				category = ca_tech
 			}
@@ -2885,7 +2893,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = naval_doc_bonus
-				bonus = 0.6
+				bonus = 1.0
 				uses = 2
 				category = trade_interdiction_tree
 			}
@@ -2927,8 +2935,8 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = naval_doc_bonus
-				bonus = 0.6
-				uses = 2
+				bonus = 1.0
+				uses = 1
 				category = fleet_in_being_tree
 			}
 		}
