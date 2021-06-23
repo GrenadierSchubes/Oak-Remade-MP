@@ -1,5 +1,11 @@
 ﻿l_english:
 
+ GER_french_ports:0 "French Atlantic Ports"
+ GER_french_ports_desc:0 "Our control of the French coast allows the Kriegsmarine to extend its reach across the whole Atlantic and conduct operations far more efficiently"
+ GER_happy_time:0 "Die Glückliche Zeit"
+ CZE_air_innovations_1_idea:0 "German-Czech Air Force Coorperation"
+ CZE_air_innovations_1_idea_desc:0 "The Germans are helping train our air force to become an elite fighting force. This will help us in our air efforts if Germany for some reason, asks for us to control their air force."
+
  RULE_ALLOW_LEND_LEASE_BLOCKED_TT_REQUEST:0 "Request Lend Lease Always Disabled"
  quantity1:0 "Mass Production I"
  quantity2:0 "Mass Production II"
@@ -41,9 +47,6 @@
  SOV_sealions:0 "Emergency Measures"
  SOV_sealions_desc:0 "With the Fall of England, we must take action to increase our production and recruit more men."
 
- GER_french_ports:0 "French Atlantic Ports"
- GER_french_ports_desc:0 "Our control of the French coast allows the Kriegsmarine to extend its reach across the whole Atlantic and conduct operations far more efficiently"
- GER_happy_time:0 "Die Glückliche Zeit"
  GER_economy_of_plunder_1:0 "Economy of Plunder: Light Plunder"
  GER_economy_of_plunder_1_desc:0 "The Nazis expected to cover their debt by plundering the wealth of conquered nations during the war. By extracting the wealth of occupied nations, the German economy can hopefully come back on its feet, although the price of such an extraction is payed in human life through extremely complicated bereaucracy and logistics."
  GER_economy_of_plunder_2:0 "Economy of Plunder: Light Plunder"
@@ -2570,6 +2573,8 @@
  RAJ_corruption_5_desc:0 "Corruption is a measure of how corrupt the colonial government is and how influential Britain is over us."
  RAJ_corruption_6:0 "Limited Corruption"
  RAJ_corruption_6_desc:0 "Corruption is a measure of how corrupt the colonial government is and how influential Britain is over us."
+ RAJ_corruption_7:0 "No Corruption"
+ RAJ_corruption_7_desc:0 "Corruption is a measure of how corrupt the colonial government is and how influential Britain is over us."
  RAJ_marginalized_muslim_community:0 "Marginalized Muslim Community"
  RAJ_marginalized_muslim_community_desc:0 ""
  RAJ_marginalized_muslim_community_happy:0 "Marginalized Muslim Community"

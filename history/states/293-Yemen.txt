@@ -20,7 +20,7 @@ state={
 		victory_points = {
 			10840 3 
 		}
-		add_core_of = NGA
+		add_core_of = RAJ
 	}
 
 	provinces={

@@ -90,6 +90,7 @@ create_equipment_variant = {
 		BUL_imro_01
 		BUL_georgi_ivanov_kyoseivanov_bftb
 		volunteer_only
+		airandnavy_idea
 	}
 
 	#Army limitations due to Treaty of Neuilly sur Seine

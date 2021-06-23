@@ -179,7 +179,11 @@ country_event = {
 		ai_chance = { factor = 1 }
 		name = spain.8.a
 		set_capital = 41
-		add_ideas = SPA_recovering_from_civil_war 
+		add_timed_idea = {
+			idea = airandnavy_idea
+			days = 500
+		}
+		add_ideas = SPA_recovering_from_civil_war 	
 		remove_ideas = SPA_death_before_surrender
 		remove_ideas = SPA_spanish_civil_war_industry
 		delete_unit_template_and_units = { division_template = "Brigada Legionario" }

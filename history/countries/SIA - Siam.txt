@@ -11,6 +11,7 @@ if = {
 add_ideas = {
 	no_spies_idea
 	divided_nation_full
+	airandnavy_idea
 }
 
 set_stability = 0.5

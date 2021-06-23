@@ -7,10 +7,6 @@ set_research_slots = 3
 set_stability = 0.4
 set_war_support = 0.3
 
-add_ideas = {
-	
-	
-}
 
 # Starting tech
 set_technology = { #player 
@@ -63,6 +59,7 @@ if = {
 
 add_ideas = {
 	RAJ_sikhism
+	airandnavy_idea
 	RAJ_widespread_illiteracy
 	RAJ_marginalized_muslim_community
 	RAJ_agrarian_society
