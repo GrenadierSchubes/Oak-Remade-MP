@@ -14,7 +14,6 @@ add_ideas = {
 	limited_exports
 	limited_conscription
 	SPA_german_trading
-	airandnavy_idea
 }
 set_technology = { #player 
 	############### infantry #############

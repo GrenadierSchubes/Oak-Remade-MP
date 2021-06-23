@@ -45,7 +45,6 @@ add_ideas = {
 	closed_economy
 	limited_conscription
 	war_economy
-	airandnavy_idea
 }
 
 if = {

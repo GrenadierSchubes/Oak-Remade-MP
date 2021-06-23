@@ -857,7 +857,7 @@ operations = {
 			JAP = {
 				has_completed_focus = JAP_intervene_in_china
 			}
-			has_political_power > 50 
+			has_political_power > 75 
 		}
 
         visible = {
@@ -876,7 +876,7 @@ operations = {
 
 		fire_only_once = yes
 
-		cost = 50
+		cost = 75
 
 		complete_effect = {
 			hidden_effect = {
@@ -895,7 +895,7 @@ operations = {
 			JAP = {
 				has_completed_focus = JAP_intervene_in_china
 			}
-			has_political_power > 50 
+			has_political_power > 75 
 		}
 
         visible = { 
@@ -916,7 +916,7 @@ operations = {
 
 		fire_only_once = yes
 
-		cost = 50
+		cost = 75
 
 		complete_effect = {
 			hidden_effect = {

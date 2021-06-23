@@ -94,7 +94,6 @@ add_ideas = {
     CAN_great_depression_1
 	volunteer_only
 	refinery_idea
-	airandnavy_idea
 }
 
 set_politics = {

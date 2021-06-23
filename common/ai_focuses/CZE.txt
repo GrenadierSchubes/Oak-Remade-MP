@@ -12,7 +12,9 @@ ai_historical_focus_list_CZE = {
 		CZE_fortification_studies
 		CZE_sudeten_1
 		CZE_sudeten_2
+		CZE_democratic_bastion
 		CZE_strategy_decisions
+		CZE_trust_in_the_west
 		CZE_sudeten_3
 		CZE_military_research_institute
 		CZE_inf_and_artillery_advancement

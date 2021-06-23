@@ -11,7 +11,6 @@ add_ideas = {
 	limited_exports
 	limited_conscription
 	partial_economic_mobilisation
-	airandnavy_idea
 }
 	   
 # Starting tech

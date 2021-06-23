@@ -1813,13 +1813,11 @@ ideas = {
 		
 		airandnavy_idea = {
 			
-			picture = generic_volunteer_expedition_bonus
+			picture = test
 			
 			allowed = {
 				always = no
 			}
-			
-			available = { ROOT = { has_war = no } }
 			removal_cost = -1
 	
 			modifier = {

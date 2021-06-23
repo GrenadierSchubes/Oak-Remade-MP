@@ -408,13 +408,11 @@ JAP_china_war_200_days = {
 	custom_effect_tooltip = JAP_china_war_200_days_tt
 	every_other_country = {
 		limit = {has_idea = ruling_sent_attache_to_china_idea}
-		army_experience = 8
-		air_experience = 2
+		army_experience = 4
 	}
 	every_other_country = {
 		limit = {has_idea = ruling_sent_attache_to_japan_idea}
-		army_experience = 12
-		air_experience = 3
+		army_experience = 6
 	}
 	every_other_country = {
 		limit = {has_idea = ruling_sent_air_to_china_idea}
@@ -437,13 +435,11 @@ JAP_china_war_150_days = {
 	custom_effect_tooltip = JAP_china_war_150_days_tt
 	every_other_country = {
 		limit = {has_idea = ruling_sent_attache_to_china_idea}
-		army_experience = 16
-		air_experience = 4
+		army_experience = 8
 	}
 	every_other_country = {
 		limit = {has_idea = ruling_sent_attache_to_japan_idea}
-		army_experience = 24
-		air_experience = 6
+		army_experience = 12
 	}
 	every_other_country = {
 		limit = {has_idea = ruling_sent_air_to_china_idea}
@@ -472,13 +468,11 @@ JAP_china_war_100_days = {
 	custom_effect_tooltip = JAP_china_war_100_days_tt
 	every_other_country = {
 		limit = {has_idea = ruling_sent_attache_to_china_idea}
-		army_experience = 24
-		air_experience = 6
+		army_experience = 12
 	}
 	every_other_country = {
 		limit = {has_idea = ruling_sent_attache_to_japan_idea}
-		army_experience = 36
-		air_experience = 9
+		army_experience = 18
 	}
 	every_other_country = {
 		limit = {has_idea = ruling_sent_air_to_china_idea}
@@ -507,13 +501,11 @@ JAP_china_war_50_days = {
 	custom_effect_tooltip = JAP_china_war_50_days_tt
 	every_other_country = {
 		limit = {has_idea = ruling_sent_attache_to_china_idea}
-		army_experience = 32
-		air_experience = 8
+		army_experience = 16
 	}
 	every_other_country = {
 		limit = {has_idea = ruling_sent_attache_to_japan_idea}
-		army_experience = 48
-		air_experience = 12
+		army_experience = 24
 	}
 	every_other_country = {
 		limit = {has_idea = ruling_sent_air_to_china_idea}

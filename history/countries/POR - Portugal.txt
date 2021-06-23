@@ -18,7 +18,6 @@ add_ideas = {
 	no_spies_idea
 	POR_fuel
 	POR_stuff
-	airandnavy_idea
 }
 set_technology = {
 	################# infantry ###############

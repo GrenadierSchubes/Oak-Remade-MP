@@ -103,7 +103,10 @@ if = {
 		basic_torpedo = 1
 		improved_ship_torpedo_launcher = 1
 		sonar = 1
+		improved_sonar = 1
+	    smoke_generator = 1
 		basic_depth_charges = 1
+		improved_depth_charges = 1
 		basic_secondary_battery = 1
 		improved_secondary_battery = 1
 		basic_cruiser_armor_scheme = 1
@@ -140,7 +143,6 @@ add_ideas = {
 	refinery_idea
 	FRA_naval
 	FRA_air
-	airandnavy_idea
 }
 
 
@@ -560,7 +562,7 @@ if = {
 		modules = {
 			fixed_ship_battery_slot = ship_light_battery_1
 			fixed_ship_anti_air_slot = ship_anti_air_1
-			fixed_ship_fire_control_system_slot = ship_sonar_1
+			fixed_ship_fire_control_system_slot = ship_sonar_2
 			fixed_ship_radar_slot = ship_radar_1
 			fixed_ship_engine_slot = light_ship_engine_1
 			fixed_ship_torpedo_slot = ship_torpedo_1
@@ -577,7 +579,7 @@ if = {
 		modules = {
 			fixed_ship_battery_slot = ship_light_battery_1
 			fixed_ship_anti_air_slot = ship_anti_air_1
-			fixed_ship_fire_control_system_slot = ship_sonar_1
+			fixed_ship_fire_control_system_slot = ship_sonar_2
 			fixed_ship_radar_slot = ship_radar_1
 			fixed_ship_engine_slot = light_ship_engine_2
 			fixed_ship_torpedo_slot = ship_torpedo_1
@@ -594,7 +596,7 @@ if = {
 		modules = {
 			fixed_ship_battery_slot = ship_light_battery_1
 			fixed_ship_anti_air_slot = ship_anti_air_1
-			fixed_ship_fire_control_system_slot = ship_sonar_1
+			fixed_ship_fire_control_system_slot = ship_sonar_2
 			fixed_ship_radar_slot = ship_radar_1
 			fixed_ship_engine_slot = light_ship_engine_2
 			fixed_ship_torpedo_slot = ship_torpedo_1
@@ -611,12 +613,12 @@ if = {
 		modules = {
 			fixed_ship_battery_slot = ship_light_battery_2
 			fixed_ship_anti_air_slot = ship_anti_air_2
-			fixed_ship_fire_control_system_slot = ship_sonar_1
+			fixed_ship_fire_control_system_slot = ship_sonar_2
 			fixed_ship_radar_slot = ship_radar_1
 			fixed_ship_engine_slot = light_ship_engine_2
 			fixed_ship_torpedo_slot = ship_torpedo_2
 			mid_1_custom_slot = ship_light_battery_2
-			rear_1_custom_slot = ship_depth_charge_1
+			rear_1_custom_slot = ship_depth_charge_2
 		}
 	}
 	# Light Cruisers #
@@ -684,7 +686,7 @@ if = {
 		modules = {
 			fixed_ship_battery_slot = ship_light_medium_battery_2
 			fixed_ship_anti_air_slot = ship_anti_air_2
-			fixed_ship_fire_control_system_slot = ship_sonar_1
+			fixed_ship_fire_control_system_slot = ship_sonar_2 
 			fixed_ship_radar_slot = ship_radar_1
 			fixed_ship_engine_slot = cruiser_ship_engine_2
 			fixed_ship_secondaries_slot = ship_secondaries_2

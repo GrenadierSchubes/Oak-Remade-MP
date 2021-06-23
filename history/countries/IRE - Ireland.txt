@@ -221,7 +221,7 @@ create_corps_commander = {
 
 create_navy_leader = {
 	name = "Mark Mellett"
-	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_navy_3.dds"
+		picture = "gfx/leaders/Europe/Portrait_Europe_Generic_navy_1.dds"
 	traits = { blockade_runner }
 	skill = 3
 	attack_skill = 3
@@ -236,7 +236,6 @@ add_ideas = {
 	IRE_incompetent_army
 	refinery_idea
 	limited_conscription
-	airandnavy_idea
 }
 if = {
 	limit = {

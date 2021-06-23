@@ -92,10 +92,6 @@ ideas = {
 			allowed_civil_war = {
 				always = yes
 			}
-			
-			rule = {
-				can_join_factions = no 
-			}
 
 			modifier = {
 				surrender_limit = 1
@@ -118,9 +114,6 @@ ideas = {
 			name = spanish_civil_war_defence
 
 			removal_cost = -1
-			rule = {
-				can_join_factions = no 
-			}
 			modifier = {
 			    conscription = 0.015
 				army_org_factor = 0.05

@@ -85,7 +85,6 @@ if = {
 	add_ideas = SAF_ossewabrandwag
 	add_ideas = SAF_history_of_segregation
     add_ideas = refinery_idea
-	add_ideas = airandnavy_idea
 	add_to_tech_sharing_group = commonwealth_research
 	add_opinion_modifier = { target = ENG modifier = SAF_anti_british_sentiment }
 }

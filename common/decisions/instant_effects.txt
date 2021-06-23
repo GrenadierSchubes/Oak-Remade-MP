@@ -999,6 +999,7 @@ PAR_instant_effect_decisions = {
 		available = {	
 			JAP = { has_war_with = RAJ }
 			OR = {
+				RAJ = { has_completed_focus = RAJ_duragraha }
 				RAJ = { has_completed_focus = RAJ_satyagraha }
 			}
 		}

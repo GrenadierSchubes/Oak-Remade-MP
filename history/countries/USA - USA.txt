@@ -307,7 +307,6 @@ add_ideas = {
 	USA_the_poor_command_post
 	USA_japan_trading
 	refinery_idea
-	airandnavy_idea
 }
 
 create_country_leader = {

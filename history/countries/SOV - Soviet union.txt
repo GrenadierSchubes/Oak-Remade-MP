@@ -23,7 +23,6 @@ add_ideas = {
 	SOV_military_industrial_complex_1
 	SOV_gulag_economy_1
 	SOV_recovering_from_the_civil_war
-	airandnavy_idea
 }
 if = {
 	limit = {
