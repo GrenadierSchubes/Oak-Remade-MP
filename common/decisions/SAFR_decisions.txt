@@ -9,9 +9,9 @@ SAFR_purchase_planes = {
 			tag = SAF
 			num_of_civilian_factories > 11	
 			AND = {
-				ENG = { has_tech = fighter1 }	
-				ENG = { has_tech = CAS1 }
-				ENG = { has_tech = naval_bomber1 }
+				ENG = { has_tech = eng_fighter_1936 }	
+				ENG = { has_tech = eng_CAS_1937 }
+				ENG = { has_tech = eng_naval_bomber_1936 }
 			}
 		}
 				
@@ -39,17 +39,17 @@ SAFR_purchase_planes = {
 		
 		remove_effect = {
 			add_equipment_to_stockpile = {
-				type = fighter_equipment_1
+				type = fighter_equipment_1936
 				amount = 300
 				producer = ENG
 			}
 			add_equipment_to_stockpile = {
-				type = CAS_equipment_1
+				type = CAS_equipment_1937
 				amount = 120
 				producer = ENG
 			}
 			add_equipment_to_stockpile = {
-				type = nav_bomber_equipment_1
+				type = nav_bomber_equipment_1936
 				amount = 100
 				producer = ENG
 			}
@@ -64,9 +64,9 @@ SAFR_purchase_planes = {
 			tag = SAF
 			num_of_civilian_factories > 7	
 			AND = {
-				ENG = { has_tech = fighter1 }	
-				ENG = { has_tech = CAS1 }
-				ENG = { has_tech = naval_bomber1 }
+				ENG = { has_tech = eng_fighter_1936 }	
+				ENG = { has_tech = eng_CAS_1937 }
+				ENG = { has_tech = eng_naval_bomber_1936 }
 			}
 		}
 				
@@ -92,17 +92,17 @@ SAFR_purchase_planes = {
 		
 		remove_effect = {
 			add_equipment_to_stockpile = {
-				type = fighter_equipment_1
+				type = fighter_equipment_1936
 				amount = 200
 				producer = ENG
 			}
 			add_equipment_to_stockpile = {
-				type = CAS_equipment_1
+				type = CAS_equipment_1937
 				amount = 60
 				producer = ENG
 			}
 			add_equipment_to_stockpile = {
-				type = nav_bomber_equipment_1
+				type = nav_bomber_equipment_1936
 				amount = 60
 				producer = ENG
 			}
@@ -117,8 +117,8 @@ SAFR_purchase_planes = {
 			tag = SAF
 			num_of_civilian_factories > 3
 			AND = {
-				ENG = { has_tech = fighter1 }	
-				ENG = { has_tech = CAS1 }
+				ENG = { has_tech = eng_fighter_1936 }	
+				ENG = { has_tech = eng_CAS_1937 }
 			}	
 		}
 				
@@ -144,12 +144,12 @@ SAFR_purchase_planes = {
 		
 		remove_effect = {
 			add_equipment_to_stockpile = {
-				type = fighter_equipment_1
+				type = fighter_equipment_1936
 				amount = 100
 				producer = ENG
 			}
 			add_equipment_to_stockpile = {
-				type = CAS_equipment_1
+				type = CAS_equipment_1937
 				amount = 60
 				producer = ENG
 			}
@@ -163,7 +163,7 @@ SAFR_purchase_planes = {
 		available = {
 			tag = SAF
 			num_of_civilian_factories > 5
-			ENG = { has_tech = tactical_bomber1 }
+			ENG = { has_tech = eng_tactical_bomber_1934 }
 		}
 				
 		modifier = {
@@ -186,368 +186,10 @@ SAFR_purchase_planes = {
 		
 		remove_effect = {
 			add_equipment_to_stockpile = {
-				type = tac_bomber_equipment_1
+				type = tac_bomber_equipment_1934
 				amount = 100
 				producer = ENG
 			}
-		}		
-	}
-}
-
-SAFR_rationing_program = {
-
-	SAF_war_rationing = {
-
-		icon = decision_oil
-		
-		available = {
-			tag = SAF
-			has_war = yes
-		}
-				
-		modifier = {
-
-		}
-		
-		cost = 10
-		ai_will_do = {
-			factor = 1
-		}
-		
-		complete_effect = {
-            SAF = { add_ideas = SAF_idea_war_rationing }
-        }
-		
-		visible = {
-			has_completed_focus = SAF_national_rationing_recycling_program						
-		}	
-	}
-}		
-
-SAFR_indian_independence = { 
-	
-	SAF_agitate_for_liberty = {
-
-		icon = generic_nationalism
-		
-		available = {
-			tag = SAF		
-		}
-				
-		modifier = {
-			political_power_cost = 0.25
-		}
-		
-		cost = 20
-		days_remove = 180
-		ai_will_do = {
-			factor = 1
-		}
-		
-		complete_effect = {
-            RAJ = { add_timed_idea = { idea = SAF_agitate_for_liberty days = 800 }}			
-		}	
-		
-		visible = {
-			RAJ = { is_subject = yes }
-			NOT = { has_country_flag = agitate_for_liberty_dec }
-		}
-		
-		remove_effect = {
-			set_country_flag = agitate_for_liberty_dec
-		}		
-	}
-	
-	SAF_ingite_civil_war = {
-
-		icon = generic_ignite_civil_war
-		
-		available = {
-			tag = SAF
-			RAJ = { 
-				AND = {
-					#has_autonomy_state = autonomy_dominion
-					#compare_autonomy_progress_ratio > 0.35
-					communism > 0.3
-				}
-			}	
-		}
-				
-		modifier = {
-			
-		}
-		
-		cost = 50
-		ai_will_do = {
-			factor = 1
-		}
-		
-		complete_effect = {
-			
-            RAJ = { country_event = SAFR.15 }
-			RAJ = {
-				add_ai_strategy = {
-				type = alliance
-				id = SAF
-				value = 200
-				}
-			}
-         }
-		
-		visible = {
-			RAJ = { is_subject = yes }
-		}
-		
-		remove_effect = {
-			
-		}		
-	}
-}	
-
-SAFR_srd_directives = {
-
-	SAF_infantry_focus = {
-
-		icon = generic_prepare_civil_war
-		
-		available = {
-			tag = SAF
-		}
-				
-		modifier = {
-
-		}
-		
-		cost = 10
-		days_remove = 365
-		ai_will_do = {
-			factor = 1
-		}
-		
-		complete_effect = {
-              add_timed_idea = { idea = SAF_srd_infantry_focus days = 365 }
-			  set_country_flag = focus_active
-          }
-		
-		visible = {
-			NOT = {
-				has_country_flag = focus_active
-			}
-		}
-		
-		remove_effect = {
-			clr_country_flag = focus_active  
-			country_event = SAFR.16
-		}		
-	}
-	
-	SAF_arty_focus = {
-
-		icon = ger_military_buildup
-		
-		available = {
-			tag = SAF
-		}
-				
-		modifier = {
-
-		}
-		
-		cost = 10
-		days_remove = 365
-		ai_will_do = {
-			factor = 1
-		}
-		
-		complete_effect = {
-              add_timed_idea = { idea = SAF_srd_arty_focus days = 365 }
-			  set_country_flag = focus_active
-          }
-		
-		visible = {
-			NOT = {
-				has_country_flag = focus_active
-			}
-		}
-		
-		remove_effect = {
-			clr_country_flag = focus_active  
-			country_event = SAFR.16
-		}		
-	}
-	
-	SAF_armour_focus = {
-
-		icon = generic_tank
-		
-		available = {
-			tag = SAF
-		}
-				
-		modifier = {
-
-		}
-		
-		cost = 10
-		days_remove = 365
-		ai_will_do = {
-			factor = 1
-		}
-		
-		complete_effect = {
-              add_timed_idea = { idea = SAF_srd_armour_focus days = 365 }
-			  set_country_flag = focus_active
-          }
-		
-		visible = {
-			NOT = {
-				has_country_flag = focus_active
-			}
-		}
-		
-		remove_effect = {
-			clr_country_flag = focus_active  
-			country_event = SAFR.16
-		}		
-	}
-	
-	SAF_air_focus = {
-
-		icon = generic_air
-		
-		available = {
-			tag = SAF
-		}
-				
-		modifier = {
-
-		}
-		
-		cost = 10
-		days_remove = 365
-		ai_will_do = {
-			factor = 1
-		}
-		
-		complete_effect = {
-              add_timed_idea = { idea = SAF_srd_air_focus days = 365 }
-			  set_country_flag = focus_active
-          }
-		
-		visible = {
-			NOT = {
-				has_country_flag = focus_active
-			}
-		}
-		
-		remove_effect = {
-			clr_country_flag = focus_active  
-			country_event = SAFR.16
-		}		
-	}
-	
-	SAF_navy_focus = {
-
-		icon = generic_naval
-		
-		available = {
-			tag = SAF
-		}
-				
-		modifier = {
-
-		}
-		
-		cost = 10
-		days_remove = 365
-		ai_will_do = {
-			factor = 1
-		}
-		
-		complete_effect = {
-              add_timed_idea = { idea = SAF_srd_navy_focus days = 365 }
-			  set_country_flag = focus_active
-          }
-		
-		visible = {
-			NOT = {
-				has_country_flag = focus_active
-			}
-		}
-		
-		remove_effect = {
-			clr_country_flag = focus_active  
-			country_event = SAFR.16
-		}		
-	}
-	
-	SAF_industry_focus = {
-
-		icon = generic_construction
-		
-		available = {
-			tag = SAF
-		}
-				
-		modifier = {
-
-		}
-		
-		cost = 10
-		days_remove = 365
-		ai_will_do = {
-			factor = 1
-		}
-		
-		complete_effect = {
-              add_timed_idea = { idea = SAF_srd_industry_focus days = 365 }
-			  set_country_flag = focus_active
-          }
-		
-		visible = {
-			NOT = {
-				has_country_flag = focus_active
-			}
-		}
-		
-		remove_effect = {
-			clr_country_flag = focus_active  
-			country_event = SAFR.16
-		}		
-	}
-	
-	SAF_electronics_focus = {
-
-		icon = generic_research
-		
-		available = {
-			tag = SAF
-		}
-				
-		modifier = {
-
-		}
-		
-		cost = 10
-		days_remove = 365
-		ai_will_do = {
-			factor = 1
-		}
-		
-		complete_effect = {
-              add_timed_idea = { idea = SAF_srd_electronics_focus days = 365 }
-			  set_country_flag = focus_active
-          }
-		
-		visible = {
-			NOT = {
-				has_country_flag = focus_active
-			}
-		}
-		
-		remove_effect = {
-			clr_country_flag = focus_active  
-			country_event = SAFR.16
 		}		
 	}
 }	
@@ -1488,531 +1130,3 @@ SAFR_building_surface_fleet = {
 		}		
 	}
 }	
-
-SAFR_flexible_foreign_policy = {
-
-	SAF_join_germany = {
-
-		icon = hol_exchange_intelligence_data
-		
-		available = {
-			tag = SAF
-			GER = {
-				AND = {
-					exists = yes
-					is_subject = no	
-					NOT = { has_government = democratic }
-					is_faction_leader = yes
-				}	
-			}	
-		}
-				
-		modifier = {
-		}
-		
-		cost = 10
-		fire_only_once = yes
-		ai_will_do = {
-			factor = 1
-		}
-		
-		visible = {
-			NOT = { is_in_faction_with = GER }
-		}
-		
-		complete_effect = {
-			GER = { country_event = generic.2 }  
-			set_country_flag = saf_fascist_uprising # Affects GER ai_strategy
-		}		
-	}
-	
-	SAF_join_japan = {
-
-		icon = hol_exchange_intelligence_data
-		
-		available = {
-			tag = SAF
-			JAP = {
-				AND = {
-					exists = yes
-					is_subject = no	
-					NOT = { has_government = democratic }
-					is_faction_leader = yes
-				}	
-			}	
-		}
-				
-		modifier = {
-		}
-		
-		cost = 10
-		fire_only_once = yes
-		ai_will_do = {
-			factor = 1
-		}
-		
-		visible = {
-			NOT = { is_in_faction_with = JAP }
-		}
-		
-		complete_effect = {
-			JAP = { country_event = generic.2 } 
-			JAP = { 
-				add_ai_strategy = {
-				type = alliance
-				id = SAF
-				value = 200
-				}
-			}	
-		}		
-	}
-	
-	SAF_align_italy = {
-
-		icon = hol_exchange_intelligence_data
-		
-		available = {
-			tag = SAF
-			ITA = {
-				AND = {
-					exists = yes
-					is_subject = no	
-					NOT = { has_government = democratic }
-					is_faction_leader = yes
-				}	
-			}	
-		}
-				
-		modifier = {
-		}
-		
-		cost = 10
-		fire_only_once = yes
-		ai_will_do = {
-			factor = 1
-		}
-		
-		visible = {
-			NOT = { is_in_faction_with = ITA }
-		}
-		
-		remove_effect = {
-			ITA = { country_event = generic.2 } 
-			ITA = { 
-				add_ai_strategy = {
-				type = alliance
-				id = SAF
-				value = 200
-				}
-			}	
-		}		
-	}
-	
-	SAF_align_spain = {
-
-		icon = eng_propaganda_campaigns
-		
-		available = {
-			tag = SAF
-			SPR = {
-				AND = {
-					exists = yes
-					is_subject = no	
-					NOT = { has_government = democratic }
-				}	
-			}	
-		}
-				
-		modifier = {
-			political_power_cost = 0.25
-		}
-		
-		cost = 10
-		days_remove = 10
-		fire_only_once = yes
-		ai_will_do = {
-			factor = 1
-		}
-		
-		visible = {
-			NOT = { is_in_faction_with = SPR }
-			NOT = { has_country_flag = SAF_align_spain_dec }
-		}
-		
-		remove_effect = {
-			SPR = { 
-				add_ai_strategy = {
-				type = alliance
-				id = SAF
-				value = 200
-				}
-			}
-			custom_effect_tooltip = SAFR_making_new_friends
-			set_country_flag = SAF_align_spain_dec 
-		}		
-	}
-	
-	SAF_align_venezuela = {
-
-		icon = eng_propaganda_campaigns
-		
-		available = {
-			tag = SAF
-			VEN = {
-				AND = {
-					exists = yes
-					is_subject = no	
-					NOT = { has_government = democratic }
-				}	
-			}	
-		}
-				
-		modifier = {
-			political_power_cost = 0.25
-		}
-		
-		cost = 10
-		days_remove = 10
-		fire_only_once = yes
-		ai_will_do = {
-			factor = 1
-		}
-		
-		visible = {
-			NOT = { is_in_faction_with = VEN }
-			NOT = { has_country_flag = SAF_align_venezuela_dec }
-		}
-		
-		remove_effect = {
-			VEN = { 
-				add_ai_strategy = {
-				type = alliance
-				id = SAF
-				value = 200
-				}
-			}
-			custom_effect_tooltip = SAFR_making_new_friends
-			set_country_flag = SAF_align_venezuela_dec 
-		}		
-	}
-	
-	SAF_align_portugal = {
-
-		icon = eng_propaganda_campaigns
-		
-		available = {
-			tag = SAF
-			POR = {
-				AND = {
-					exists = yes
-					is_subject = no	
-					NOT = { has_government = democratic }
-				}	
-			}	
-		}
-				
-		modifier = {
-			political_power_cost = 0.25
-		}
-		
-		cost = 10
-		days_remove = 10
-		fire_only_once = yes
-		ai_will_do = {
-			factor = 1
-		}
-		
-		visible = {
-			NOT = { is_in_faction_with = POR }
-			NOT = { has_country_flag = SAF_align_portugal_dec }
-		}
-		
-		remove_effect = {
-			POR = { 
-				add_ai_strategy = {
-				type = alliance
-				id = SAF
-				value = 200
-				}
-			}
-			custom_effect_tooltip = SAFR_making_new_friends
-			set_country_flag = SAF_align_portugal_dec 
-		}		
-	}
-	
-	SAF_align_brazil = {
-
-		icon = eng_propaganda_campaigns
-		
-		available = {
-			tag = SAF
-			BRA = {
-				AND = {
-					exists = yes
-					is_subject = no	
-					NOT = { has_government = democratic }
-				}	
-			}	
-		}
-				
-		modifier = {
-			political_power_cost = 0.25
-		}
-		
-		cost = 10
-		days_remove = 10
-		fire_only_once = yes
-		ai_will_do = {
-			factor = 1
-		}
-		
-		visible = {
-			NOT = { is_in_faction_with = BRA }
-			NOT = { has_country_flag = SAF_align_brazil_dec }
-		}
-		
-		remove_effect = {
-			BRA = { 
-				add_ai_strategy = {
-				type = alliance
-				id = SAF
-				value = 200
-				}
-			}
-			custom_effect_tooltip = SAFR_making_new_friends
-			set_country_flag = SAF_align_brazil_dec 
-		}		
-	}
-}	
-
-SAF_a_king_for_our_people = {
-
-	SAF_the_king = {
-
-		icon = eng_abdication_crisis
-		
-		available = {
-			tag = SAF
-			custom_trigger_tooltip = {
-				NOT  = { ENG = { has_idea = ENG_king_edward } }
-				NOT = { ENG = { has_idea = ENG_king_edward_fascism } }
-				NOT = { ENG = { has_completed_focus = ENG_the_kings_party } }
-				ENG = { has_country_flag = ENG_king_died }
-				tooltip = SAF_a_king_for_our_people_trigger_tt					
-			}	
-		}
-				
-		modifier = {
-		}
-		
-		cost = 25
-		fire_only_once = yes
-		ai_will_do = {
-			factor = 1
-		}
-		
-		visible = {
-			NOT = { has_idea = SAF_king_edward }
-		}
-		
-		complete_effect = {
-			add_ideas = SAF_king_edward
-		}		
-	}	
-}	
-
-SAFR_request_african_protectorates = {
-
-	SAF_uk_colonies = {
-
-		icon = infiltrate_state
-		
-		available = {
-			tag = SAF
-			AND = {
-				542 = {
-					CONTROLLER = {
-						OR = {
-						tag = ENG
-						is_subject_of = ENG
-						}
-					}	
-				}
-				545 = {
-					CONTROLLER = {
-						OR = {
-						tag = ENG
-						is_subject_of = ENG
-						}
-					}	
-				}
-				770 = {
-					CONTROLLER = {
-						OR = {
-						tag = ENG
-						is_subject_of = ENG
-						}
-					}	
-				}
-				771 = {
-					CONTROLLER = {
-						OR = {
-						tag = ENG
-						is_subject_of = ENG
-						}
-					}	
-				}
-				546 = {
-					CONTROLLER = {
-						OR = {
-						tag = ENG
-						is_subject_of = ENG
-						}
-					}	
-				}
-				547 = {
-					CONTROLLER = {
-						OR = {
-						tag = ENG
-						is_subject_of = ENG
-						}
-					}	
-				}
-				548 = {
-					CONTROLLER = {
-						OR = {
-						tag = ENG
-						is_subject_of = ENG
-						}
-					}	
-				}
-			}	
-		}
-				
-		modifier = {
-		}
-		
-		cost = 60
-		fire_only_once = yes
-		ai_will_do = {
-			factor = 1
-		}
-		
-		visible = {
-			NOT = { has_country_flag = SAF_uk_colonies_dec }
-		}
-		
-		complete_effect = {
-			ENG = {country_event = { id = SAFR.22 days = 1 }}
-			set_country_flag = SAF_uk_colonies_dec
-		}		
-	}	
-}
-
-SAFR_liberian_rubber = {
-	
-	SAF_liberian_rubber_deposits = { 
-		
-		icon = rubber
-
-		allowed = {
-			
-		}
-
-		highlight_states = {
-			state = 298
-		}
-
-		available = {
-			num_of_civilian_factories_available_for_projects > 2
-			owns_state = 298
-			controls_state = 298
-		}
-
-		visible = {
-			owns_state = 298
-			controls_state = 298
-			298 = {
-				NOT = {
-					has_state_flag = liberian_rubber_dec
-				}
-			}
-		}
-
-		fire_only_once = yes
-
-		cost = 25
-		days_remove = 60
-
-		modifier = {
-			civilian_factory_use = 3
-		}
-
-		ai_will_do = {
-			factor = 1
-		}
-		remove_effect = { 
-			298 = { set_state_flag = liberian_rubber_dec } 
-			298 = {
-				add_resource = {
-					type = rubber
-					amount = 10
-				}
-			}
-		}
-	}
-}	
-
-SAFR_fahud_oil = {
-	
-	SAF_fahud_oil_deposits = { 
-		
-		icon = oil
-
-		allowed = {
-			
-		}
-
-		highlight_states = {
-			state = 294
-		}
-
-		available = {
-			num_of_civilian_factories_available_for_projects > 2
-			owns_state = 294
-			controls_state = 294
-		}
-
-		visible = {
-			owns_state = 294
-			controls_state = 294
-			294 = {
-				NOT = {
-					has_state_flag = fahud_oil_dec
-				}
-			}
-		}
-
-		fire_only_once = yes
-
-		cost = 25
-		days_remove = 60
-
-		modifier = {
-			civilian_factory_use = 3
-		}
-
-		ai_will_do = {
-			factor = 1
-		}
-		remove_effect = { 
-			294 = { set_state_flag = fahud_oil_dec } 
-			294 = {
-				add_resource = {
-					type = oil
-					amount = 8
-				}
-			}
-		}
-	}
-}

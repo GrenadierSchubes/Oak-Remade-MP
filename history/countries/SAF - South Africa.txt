@@ -82,7 +82,6 @@ create_equipment_variant = {
 
 if = {
 	limit = { has_dlc = "Together for Victory" }
-	add_ideas = SAF_ossewabrandwag
 	add_ideas = SAF_history_of_segregation
 	add_ideas = SAF_worker_restrictions
     add_ideas = refinery_idea

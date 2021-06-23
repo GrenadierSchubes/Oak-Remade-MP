@@ -158,10 +158,7 @@ focus_tree = {
 		}
 		
 		bypass = {
-			OR = {
-				has_completed_focus = SAF_free_elections
-				has_completed_focus = SAF_secure_peoples_state
-			}
+			has_completed_focus = SAF_free_elections
 		}
 
 		cancel_if_invalid = yes
@@ -195,10 +192,7 @@ focus_tree = {
 		}
 		
 		bypass = {
-			OR = {
-				has_completed_focus = SAF_free_elections
-				has_completed_focus = SAF_secure_peoples_state
-			}
+			has_completed_focus = SAF_free_elections
 		}
 
 		cancel_if_invalid = yes
@@ -232,10 +226,7 @@ focus_tree = {
 		}
 		
 		bypass = {
-			OR = {
-				has_completed_focus = SAF_free_elections
-				has_completed_focus = SAF_secure_peoples_state
-			}
+			has_completed_focus = SAF_free_elections
 		}
 
 
@@ -832,7 +823,7 @@ focus_tree = {
 		icon = GFX_goal_DAH_Topke
 		prerequisite = { focus = SAF_equal_worker_pay } 
 		prerequisite = { focus = SAF_reconciliation }
-		x = -2
+		x = -1
 		y = 2
 		relative_position_id = SAF_free_elections
 
@@ -927,52 +918,6 @@ focus_tree = {
 			719 = {
 				add_extra_state_shared_building_slots = 1
 			}
-		}
-	}
-	
-	focus = {
-		id = SAF_namibian_freedom
-		icon = GFX_goal_DOM_End_Judicial_Corruption
-		prerequisite = { focus = SAF_reconciliation } 
-		x = -1
-		y = 1 
-		relative_position_id = SAF_reconciliation
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-			NOT = { has_idea = SAF_ossewabrandwag_2 }
-			is_subject = no
-		}
-		
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes 
-		continue_if_invalid = no
-		available_if_capitulated = yes
-
-		completion_reward = {
-			release = NMB
-			if = {
-					limit = {
-						has_dlc = "Together for Victory"
-					}
-					set_autonomy = { target = NMB autonomy_state = autonomy_colony }
-				}
-				if = {
-					limit = {
-						NOT = { has_dlc = "Together for Victory" }
-					}
-					puppet = NMB
-				}			
-			NMB = { add_ideas = SAF_guided_towards_independence }	
-			unlock_decision_category_tooltip = SAFR_request_african_protectorates 
 		}
 	}
 
@@ -1338,41 +1283,6 @@ focus_tree = {
 		}
 	}
 	
-	focus = {
-		id = SAF_offer_protection_of_madagascar
-		icon = GFX_goal_NATFRA_africa
-		prerequisite = { focus = SAF_secure_interests_in_africa }  
-		x = 1
-		y = 2
-		relative_position_id = SAF_yield_to_smuts
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 0
-		}
-
-		available = {
-			NOT = { has_war_with = FRA }
-			FRA = { is_puppet = no }
-			FRA = { controls_state = 543 }
-		}
-		
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-		FRA = { custom_effect_tooltip = fra_needs_approval 
-				country_event = SAFR.1
-				}
-		}
-	}
-	
 	############################
 	#### GO FASCIST SECTION #### 
 	############################
@@ -1400,7 +1310,6 @@ focus_tree = {
 
 		available = {
 			NOT = { has_completed_focus = SAF_hofmeyrs_reforms }
-			NOT = { has_completed_focus = SAF_empower_the_workers }
 		}
 		
 		bypass = {
@@ -1674,10 +1583,7 @@ focus_tree = {
 		}
 		
 		bypass = {
-			OR = {
-				has_completed_focus = SAF_repeal_job_reservation_act
-				has_completed_focus = SAF_equal_opportunity_employment
-			}
+			has_completed_focus = SAF_repeal_job_reservation_act
 		}
 
 		cancel_if_invalid = yes
@@ -3550,7 +3456,6 @@ focus_tree = {
 		}
 		
 		bypass = {
-			has_completed_focus = SAF_invite_ig_farben
 		}
 
 		cancel_if_invalid = yes

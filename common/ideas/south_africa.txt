@@ -1994,7 +1994,47 @@ ideas = {
 
 		}
 	}	
+    theorist_production = {   	
+		SAF_oswald_pirow = {
 
+			picture = generic_political_advisor_europe_5
+			
+			allowed = {
+				original_tag = SAF					
+			}
+
+			ai_will_do = {
+				factor = 1
+				modifier = {
+					factor = 10
+				}	
+			}	
+			
+			available = {
+				NOT = { has_completed_focus = SAF_yield_to_smuts }	
+				NOT = { has_completed_focus = SAF_force_parliament_debate }
+				NOT = { has_completed_focus = SAF_hofmeyrs_reforms }
+			}
+			
+			traits = { war_industrialist }
+		}
+		
+		SAF_ernest_oppenheimer = {
+
+			picture = generic_political_advisor_europe_2
+			
+			ai_will_do = {
+				factor = 10
+	
+			}
+			
+			allowed = {
+				original_tag = SAF	
+			}	
+			
+			traits = { captain_of_industry }
+		}
+	}	
 	political_advisor = {
 
 		SAF_sir_patrick_duncan = {
@@ -2030,73 +2070,6 @@ ideas = {
 			}
 		}
 
-
-		SAF_abram_fischer = {
-
-			allowed = {
-				original_tag = SAF
-			}
-
-			available = {
-			if = {
-					limit = { has_dlc = "Together for Victory"}
-					has_completed_focus = SAF_empower_the_workers
-				}
-				if = {
-					limit = { has_dlc = "Man the Guns" }	
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-
-			picture = generic_communist_revolutionary_western_european_2d
-			
-			traits = { communist_revolutionary }
-
-			do_effect = {
-				NOT = {
-					has_government = communism
-				}
-			}
-			
-			ai_will_do = {
-				factor = 0
-			}
-
-		}
-
-		SAF_louis_weichardt = {
-			
-			allowed = {
-				original_tag = SAF
-				
-			}
-
-			available = {
-				if = {
-					limit = { has_dlc = "Together for Victory"}
-					has_completed_focus = SAF_appeal_to_greyshirts
-				}
-				if = {
-					limit = { has_dlc = "Man the Guns" }	
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-
-			picture = generic_political_advisor_europe_4
-			
-			traits = { fascist_demagogue } 
-		
-			do_effect = {
-				NOT = {
-					has_government = fascism
-				}
-			}
-		
-			ai_will_do = {
-				factor = 0
-			}
-		}
-
 		SAF_nicolaas_havenga = {
 
 			picture = generic_political_advisor_europe_2
@@ -2109,14 +2082,12 @@ ideas = {
 				factor = 1
 				modifier = {
 					factor = 10
-					has_completed_focus = SAF_split_in_the_party
 				}	
 			}
 			
 			available = {
 				NOT = { has_completed_focus = SAF_force_parliament_debate }
 				NOT = { has_completed_focus = SAF_yield_to_smuts }
-				NOT = { has_completed_focus = SAF_empower_the_workers }
 				NOT = { has_completed_focus = SAF_hofmeyrs_reforms }
 			}
 			
@@ -2134,7 +2105,6 @@ ideas = {
 			available = {
 				NOT = { has_completed_focus = SAF_force_parliament_debate }
 				NOT = { has_completed_focus = SAF_yield_to_smuts }
-				NOT = { has_completed_focus = SAF_empower_the_workers }
 				NOT = { has_completed_focus = SAF_hofmeyrs_reforms }
 			}
 			
@@ -2156,14 +2126,12 @@ ideas = {
 				factor = 1
 				modifier = {
 					factor = 20
-					has_completed_focus = SAF_split_in_the_party
 				}	
 			}
 			
 			available = {
 				NOT = { has_completed_focus = SAF_force_parliament_debate }
 				NOT = { has_completed_focus = SAF_yield_to_smuts }
-				NOT = { has_completed_focus = SAF_empower_the_workers }
 				NOT = { has_completed_focus = SAF_hofmeyrs_reforms }
 			}
 			
@@ -2181,8 +2149,7 @@ ideas = {
 				original_tag = SAF				
 			}	
 			
-			available = {
-				has_completed_focus = SAF_support_ossewabrandwag		  
+			available = {	  
 			}
 			
 			traits = { prince_of_terror }
@@ -2205,97 +2172,9 @@ ideas = {
 			}	
 			
 			available = {
-				NOT = { has_completed_focus = SAF_split_in_the_party }	
 			}
 			
 			traits = { silent_workhorse social_reformer_2 }
-		}
-		
-		SAF_richard_stuttaford = {
-
-			picture = generic_political_advisor_europe_3
-
-			allowed = {
-				original_tag = SAF				
-			}
-			
-			available = {
-				NOT = { has_completed_focus = SAF_split_in_the_party }
-			}
-			
-			traits = { financial_expert }
-		}
-		
-		SAF_oswald_pirow = {
-
-			picture = generic_political_advisor_europe_5
-			
-			allowed = {
-				original_tag = SAF					
-			}
-
-			ai_will_do = {
-				factor = 1
-				modifier = {
-					factor = 10
-					has_completed_focus = SAF_split_in_the_party
-				}	
-			}	
-			
-			available = {
-				NOT = { has_completed_focus = SAF_yield_to_smuts }	
-				NOT = { has_completed_focus = SAF_force_parliament_debate }
-				NOT = { has_completed_focus = SAF_empower_the_workers }
-				NOT = { has_completed_focus = SAF_hofmeyrs_reforms }
-			}
-			
-			traits = { war_industrialist }
-		}
-		
-		SAF_ernest_oppenheimer = {
-
-			picture = generic_political_advisor_europe_2
-			
-			ai_will_do = {
-				factor = 10
-	
-			}
-			
-			allowed = {
-				original_tag = SAF	
-			}	
-			
-			traits = { captain_of_industry }
-		}
-		
-		SAF_josiah_tshangana_gumede = {
-
-			picture = idea_generic_communist_africa
-			
-			allowed = {
-				original_tag = SAF				
-			}	
-			
-			available = {
-				has_completed_focus = SAF_the_revolution	
-			}
-			
-			traits = { colonial_communist }
-		}
-		
-		SAF_thabo_edwin_mofutsanyana = {
-
-			picture = _idea_generic_political_advisor_africa_3
-			
-			allowed = {
-				original_tag = SAF	
-			}
-
-			available = {
-				has_completed_focus = SAF_the_revolution
-			}	
-			
-			traits = { council_communist } 
 		}
 		
 		SAF_james_mitchell_baker = {
@@ -2735,7 +2614,6 @@ ideas = {
 			}
 			
 			available = {
-				has_completed_focus = SAF_invite_soviet_advisers
 			}
 			
 			research_bonus = {
@@ -2954,7 +2832,6 @@ ideas = {
 			picture = generic_naval_manufacturer_2
 			
 			available = {
-				has_completed_focus = SAF_seawolf_bonus
 			}
 			
 			research_bonus = {

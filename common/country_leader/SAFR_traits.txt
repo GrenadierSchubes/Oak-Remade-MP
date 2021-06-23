@@ -72,4 +72,14 @@ leader_traits = {
 			factor = 1
 		}
 	}
+	connected_citizen = {
+		sprite = 13
+		random = no
+		political_power_factor = 0.05
+		stability_factor = 0.05
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
 }
