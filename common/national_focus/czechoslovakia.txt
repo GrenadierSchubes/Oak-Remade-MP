@@ -1165,7 +1165,7 @@ focus_tree = {
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = infrastructure
-					level = 2
+					level = 3
 					instant_build = yes
 				}
 			}
@@ -1173,7 +1173,7 @@ focus_tree = {
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = infrastructure
-					level = 3
+					level = 1
 					instant_build = yes
 				}
 			}
@@ -1181,7 +1181,7 @@ focus_tree = {
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = infrastructure
-					level = 1
+					level = 3
 					instant_build = yes
 				}
 			}			
@@ -1406,144 +1406,10 @@ focus_tree = {
 	}
 
 	focus = {
-		id = CZE_democratic_bastion
-		icon = GFX_focus_generic_the_giant_wakes
-		prerequisite = { focus = CZE_political_direction }
-		mutually_exclusive = { focus = CZE_go_right }
-		x = -1
-		y = 1
-		relative_position_id = CZE_political_direction
-
-		cost = 5
-
-		ai_will_do = {
-			factor = 100
-
-		}
-
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-
-		complete_tooltip = {
-
-		}
-
-		completion_reward = {
-			add_political_power = 50
-			add_stability = 0.1
-			add_ideas = CZE_democratic_bastion
-		}
-	}
-
-	focus = {
-		id = CZE_beacon_of_liberty
-		icon = GFX_focus_spr_torchbearers_of_tomorrow
-		prerequisite = { focus = CZE_democratic_bastion }
-		x = 0
-		y = 1
-		relative_position_id = CZE_democratic_bastion
-
-		cost = 7.25
-
-		ai_will_do = {
-			factor = 70
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-
-		complete_tooltip = {
-
-		}
-
-		completion_reward = {
-			swap_ideas = { remove_idea = CZE_democratic_bastion add_idea = CZE_beacon_of_liberty }
-		}
-	}
-
-	focus = {
-		id = CZE_defensive_preparations
-		icon = GFX_focus_generic_manpower
-		prerequisite = { focus = CZE_beacon_of_liberty }
-		x = 0
-		y = 2
-		relative_position_id = CZE_democratic_bastion
-
-		cost = 7.25
-
-		ai_will_do = {
-			factor = 100
-		}
-
-		available = {
-			threat > 0.1
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		complete_tooltip = {
-
-		}
-
-		completion_reward = {
-			add_war_support = 0.1
-
-		}
-	}
-
-	focus = {
-		id = CZE_bonus_research_slot_1
-		icon = GFX_focus_research
-		prerequisite = { focus = CZE_defensive_preparations focus = CZE_aggressive_wars }
-		x = 1
-		y = 3
-		relative_position_id = CZE_democratic_bastion
-
-		cost = 7.25
-
-		ai_will_do = {
-			factor = 100
-		}
-
-		bypass = {
-			
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		complete_tooltip = {
-
-		}
-
-		completion_reward = {
-			add_research_slot = 1
-		}
-	}
-
-	focus = {
 		id = CZE_go_right
 		icon = GFX_focus_generic_strike_at_democracy1
 		prerequisite = { focus = CZE_political_direction }
-		mutually_exclusive = { focus = CZE_democratic_bastion }
-		x = 1
+		x = 0
 		y = 1
 		relative_position_id = CZE_political_direction
 
@@ -1675,6 +1541,37 @@ focus_tree = {
 			add_ideas = FRA_army_of_aggression_focus
 		}
 	}
+	
+	focus = {
+		id = CZE_bonus_research_slot_1
+		icon = GFX_focus_research
+		prerequisite = { focus = CZE_aggressive_wars }
+		x = 0
+		y = 1
+		relative_position_id = CZE_aggressive_wars
+
+		cost = 7.25
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		bypass = {
+			
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
 
 	#######################################
 	######### STRATEGY DECISIONS ##########
@@ -1683,7 +1580,7 @@ focus_tree = {
 	focus = {
 		id = CZE_strategy_decisions
 		icon = GFX_focus_generic_treaty
-		x = 5
+		x = 3
 		y = 0
 		relative_position_id = CZE_political_direction
 
@@ -1718,8 +1615,7 @@ focus_tree = {
 		id = CZE_german_leanings
 		icon = GFX_goal_generic_propaganda
 		prerequisite = { focus = CZE_strategy_decisions }
-		mutually_exclusive = { focus = CZE_trust_in_the_west }
-		x = -2
+		x = 0
 		y = 1
 		relative_position_id = CZE_strategy_decisions
 
@@ -1748,6 +1644,11 @@ focus_tree = {
 
 		completion_reward = {
 		     GER = { add_opinion_modifier = { target = CZE modifier = CZE_german_leanings } }
+			 add_tech_bonus = {
+				category = industry
+				bonus = 1 
+				uses = 1 
+			}
 		}
 	}
 
@@ -1838,183 +1739,6 @@ focus_tree = {
 		}
 	}
 
-	focus = {
-		id = CZE_trust_in_the_west
-		icon = GFX_focus_chi_reach_out_to_france
-		prerequisite = { focus = CZE_strategy_decisions }
-		mutually_exclusive = { focus = CZE_german_leanings }
-		x = 2
-		y = 1
-		relative_position_id = CZE_strategy_decisions
-
-		cost = 5
-
-		ai_will_do = {
-			factor = 100
-
-		}
-
-		available = {
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-
-		complete_tooltip = {
-
-		}
-
-		completion_reward = {
-			ENG = {
-				add_opinion_modifier = { 
-						target = ROOT 
-						modifier =  CZE_trust_in_the_west
-				}
-			}
-			FRA = {
-				add_opinion_modifier = { 
-					target = ROOT 
-					modifier =  CZE_trust_in_the_west
-				}
-			
-			}
-		}
-	}
-
-	focus = {
-		id = CZE_doctrinal_innovation
-		icon = GFX_goal_generic_army_doctrines
-		prerequisite = { focus = CZE_trust_in_the_west }
-		x = 0
-		y = 1
-		relative_position_id = CZE_trust_in_the_west
-
-		cost = 7.25
-
-		ai_will_do = {
-			factor = 100
-		}
-
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-
-		complete_tooltip = {
-
-		}
-
-		completion_reward = {
-		army_experience = 25
-			add_tech_bonus = {
-				name = land_doc_bonus
-				bonus = 1
-				uses = 1
-				category = land_doctrine
-			}
-		}
-	}
-
-	focus = {
-		id = CZE_secret_weapons
-		icon = GFX_goal_generic_radar
-		prerequisite = { focus = CZE_doctrinal_innovation }
-		mutually_exclusive = { focus = CZE_nukes }
-		x = -1
-		y = 1
-		relative_position_id = CZE_doctrinal_innovation
-
-		cost = 7.25
-
-		ai_will_do = {
-			factor = 60
-		}
-
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		complete_tooltip = {
-
-		}
-
-		completion_reward = {
-		    add_research_slot = 1
-			add_tech_bonus = {
-				name = secret_bonus
-				bonus = 0.5
-				ahead_reduction = 0.5
-				uses = 3
-				category = electronics
-				category = jet_technology
-				category = rocketry
-			}
-		}
-	}
-
-	focus = {
-		id = CZE_nukes
-		icon = GFX_focus_wonderweapons
-		prerequisite = { focus = CZE_doctrinal_innovation }
-		mutually_exclusive = { focus = CZE_secret_weapons }
-		x = 1
-		y = 1
-		relative_position_id = CZE_doctrinal_innovation
-
-		cost = 7.25
-
-		ai_will_do = {
-			factor = 40
-		}
-
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		complete_tooltip = {
-
-		}
-
-		completion_reward = {
-		    add_research_slot = 1
-			add_tech_bonus = {
-				name = nuclear_bonus
-				bonus = 0.5
-				ahead_reduction = 0.5
-				uses = 1
-				category = nuclear
-			}
-		}
-	}
-
 	#######################################
 	##### MILITARY RESEARCH INSTITUTE #####	
 	#######################################
@@ -2022,7 +1746,7 @@ focus_tree = {
 	focus = {
 		id = CZE_military_research_institute
 		icon = GFX_focus_CZE_military_research_institute
-		x = 7
+		x = 6
 		y = 0
 		relative_position_id = CZE_strategy_decisions
 
@@ -2539,6 +2263,7 @@ focus_tree = {
 
 		completion_reward = {
 			air_experience = 50
+            add_ideas = CZE_air_innovations_1_idea
 		}
 	}
 
@@ -2618,7 +2343,7 @@ focus_tree = {
 			add_tech_bonus = {
 				name = cze_import_fighter
 				bonus = 1.0
-				uses = 1
+				uses = 2
 				category = light_fighter
 			}
 		}
@@ -2659,7 +2384,7 @@ focus_tree = {
 			add_tech_bonus = {
 				name = cze_import_fighter
 				bonus = 1.5
-				uses = 2
+				uses = 1
 				category = cat_heavy_fighter
 			}
 		}
@@ -3208,5 +2933,4 @@ focus_tree = {
 			}
 		}
 	}
-
 }

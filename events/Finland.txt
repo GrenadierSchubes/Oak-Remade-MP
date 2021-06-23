@@ -280,15 +280,17 @@ country_event = {
 		}
 		custom_effect_tooltip = finland.7.a_tt
 		effect_tooltip = {
-			SOV = { 
+			SOV = { 	
 				white_peace = {
 					tag = FIN 
 					message = FIN_agree_peace 
 				} 
 				diplomatic_relation = { country = FIN relation = non_aggression_pact }
+				add_ideas = airandnavy_idea		
 			}
 			transfer_state = 146
-			transfer_state = 147			
+			transfer_state = 147
+            add_ideas = airandnavy_idea		
 		}
 	}
 

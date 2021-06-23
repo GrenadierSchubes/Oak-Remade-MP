@@ -103,6 +103,15 @@ RAJ_level_down_corruption = { #good
 		limit = {
 			has_idea = RAJ_corruption_6
 		}
+		swap_ideas = {
+			remove_idea = RAJ_corruption_6
+			add_idea = RAJ_corruption_7
+		}
+	}
+	else_if = {
+		limit = {
+			has_idea = RAJ_corruption_7
+		}
 		add_political_power = 50 
 		add_stability = 0.05 
 	}	

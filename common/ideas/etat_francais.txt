@@ -157,7 +157,7 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				conscription = -0.005
+				conscription = -0.01
 			}
 		}
 		idea_EFR_STO2 = {
@@ -175,7 +175,7 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				conscription = -0.01
+				conscription = -0.02
 			}
 		}
 		idea_EFR_STO3 = {

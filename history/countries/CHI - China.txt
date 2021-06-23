@@ -51,6 +51,7 @@ if = {
 }
 add_ideas = {
 	german_advisors
+	airandnavy_idea
 }
 
 add_opinion_modifier = { target = MON modifier = HOL_caved_to_the_british_ger }

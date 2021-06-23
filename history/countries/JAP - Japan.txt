@@ -16,6 +16,7 @@ add_ideas = {
 	JAP_duplicate_research_efforts
 	JAP_militarism
 	jap_massive_fuel_reserves
+	airandnavy_idea
 }
 create_faction = "Dai Tōa Kyōeiken"
 add_to_faction = JAP 

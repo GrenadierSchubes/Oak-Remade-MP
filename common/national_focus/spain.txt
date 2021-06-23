@@ -2031,7 +2031,7 @@ technology = construction4
 		completion_reward = {
 			add_ideas = idea_EFR_STO
 			GER = {
-				add_manpower = 150000
+				add_manpower = 250000
 			}
 			custom_effect_tooltip = EFR_STO_tt
 			hidden_effect = {
@@ -2063,7 +2063,7 @@ technology = construction4
 		completion_reward = {
 			swap_ideas = { remove_idea = idea_EFR_STO add_idea = idea_EFR_STO2 }
 			GER = {
-				add_manpower = 150000
+				add_manpower = 250000
 			}
 			custom_effect_tooltip = EFR_STO_tt
 			hidden_effect = {

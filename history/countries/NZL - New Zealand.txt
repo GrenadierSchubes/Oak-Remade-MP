@@ -92,6 +92,7 @@ add_ideas = {
 	refinery_idea
 	NZL_great_depression_1
 	NZL_wall_defence3
+	airandnavy_idea
 }
 
 set_politics = {

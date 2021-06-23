@@ -9,7 +9,7 @@ RAJ_imperial_state_of_india = {
 
 		available = {
 			NOT = {
-				has_idea = RAJ_corruption_6
+				has_idea = RAJ_corruption_7
 			}
 		}
 
@@ -63,7 +63,7 @@ RAJ_imperial_state_of_india = {
 
 			add_to_variable = {
 				var = rapid_industrialization
-				value = 4
+				value = 7
 			}	
 		}	
 		complete_effect = {
@@ -323,7 +323,6 @@ RAJ_imperial_state_of_india = {
 		days_remove = 90
 
 		modifier = {
-			stability_factor = -0.05
 		}
 
 		remove_effect = {
@@ -335,13 +334,9 @@ RAJ_imperial_state_of_india = {
 				value = -1 
 			}
 
-			428 = {
-				add_extra_state_shared_building_slots = 6
-				add_building_construction = {
-					type = industrial_complex
-					level = 6
-					instant_build = yes 
-				}
+			add_offsite_building = {
+				type = industrial_complex
+				level = 6
 			}
 
 		}
@@ -365,7 +360,6 @@ RAJ_imperial_state_of_india = {
 		days_remove = 90
 
 		modifier = {
-			stability_factor = -0.05
 		}
 
 		remove_effect = {
@@ -376,13 +370,9 @@ RAJ_imperial_state_of_india = {
 				var = RAJ_princely_states_influence 
 				value = -1 
 			}
-			443 = {
-				add_extra_state_shared_building_slots = 5
-				add_building_construction = {
-					type = industrial_complex
-					level = 5
-					instant_build = yes 
-				}
+			add_offsite_building = {
+				type = industrial_complex
+				level = 5
 			}
 		}
 	}
@@ -405,7 +395,6 @@ RAJ_imperial_state_of_india = {
 		days_remove = 90
 
 		modifier = {
-			stability_factor = -0.05
 		}
 
 		remove_effect = {
@@ -416,13 +405,9 @@ RAJ_imperial_state_of_india = {
 				var = RAJ_princely_states_influence 
 				value = -1 
 			}
-			425 = {
-				add_extra_state_shared_building_slots = 4
-				add_building_construction = {
-					type = industrial_complex
-					level = 4
-					instant_build = yes 
-				}
+			add_offsite_building = {
+				type = industrial_complex
+				level = 4
 			}
 		}
 	}	
@@ -440,9 +425,7 @@ RAJ_imperial_state_of_india = {
 				has_completed_focus = RAJ_cooperative_societies
 			}
 		}
-
-		days_mission_timeout = 1460
-
+		
 		is_good = no
 
 		fire_only_once = yes
@@ -450,10 +433,8 @@ RAJ_imperial_state_of_india = {
 		allowed = {
 			tag = RAJ			
 		}
-
-		activation = {
-			date > 1936.01.01
-		}
+		
+		cost = 100
 
 		complete_effect = {
 			swap_ideas = {
