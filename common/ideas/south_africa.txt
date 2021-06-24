@@ -2857,7 +2857,7 @@ ideas = {
 				naval_equipment = -0.05
 			}
 			
-			traits = { raiding_fleet_naval_manufacturer }
+			traits = { battlefleet_designer }
 			
 		}
 	
