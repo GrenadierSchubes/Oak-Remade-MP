@@ -914,6 +914,8 @@ ideas = {
 				armor = -0.05
 			}
 			
+			modifier = { tank_manufacturer_cost_factor = -0.33 }
+			
 			traits = { fast_tank_manufacturer }
 			
 			equipment_bonus = {
@@ -939,6 +941,8 @@ ideas = {
 				armor = -0.05
 			}
 			
+			modifier = { tank_manufacturer_cost_factor = -0.33 }
+			
 			traits = { medium_tank_manufacturer }
 			
 			equipment_bonus = {
@@ -962,6 +966,8 @@ ideas = {
 			research_bonus = {
 				armor = -0.05
 			}
+			
+			modifier = { tank_manufacturer_cost_factor = -0.33 }
 			
 			traits = { heavy_tank_manufacturer }
 			

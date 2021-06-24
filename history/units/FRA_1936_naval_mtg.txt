@@ -55,3 +55,36 @@
 		}
 	}
 } 
+instant_effect = {
+	### Ships Under Contruction ###
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_heavy_2
+			creator = "FRA" 
+			version_name = "Richelieu Class"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_heavy_2
+			creator = "FRA" 
+			version_name = "Richelieu Class"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_carrier_1
+			creator = "FRA" 
+			version_name = "Joffre Class"
+		}
+		requested_factories = 2
+		progress = 0.25
+		amount = 1
+	}
+}

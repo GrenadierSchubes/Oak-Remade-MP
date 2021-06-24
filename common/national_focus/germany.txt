@@ -4755,7 +4755,7 @@ focus_tree = {
 		relative_position_id = GER_Feuerzauber
 		x = -1
 		y = 1
-		cost = 4.4
+		cost = 2.15
 
 		ai_will_do = {
 			factor = 15

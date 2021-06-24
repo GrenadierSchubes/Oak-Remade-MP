@@ -3304,7 +3304,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = FRA_rush_the_richelieus
+		id = FRA_rush_the_richelieu
 		icon = GFX_focus_generic_cruiser2
 
 	 	prerequisite = { focus = FRA_capital_ship_focus }
@@ -3316,55 +3316,11 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			if = {
-				limit = {
-					has_dlc = "Man the Guns"
-				}
-				add_equipment_production = {
-					equipment = {
-						type = ship_hull_heavy_2
-						creator = "FRA" 
-						version_name = "Richelieu Class"
-					}
-					requested_factories = 1
-					progress = 0.50
-					amount = 1
-				}
-				add_equipment_production = {
-					equipment = {
-						type = ship_hull_heavy_2
-						creator = "FRA" 
-						version_name = "Richelieu Class"
-					}
-					requested_factories = 1
-					progress = 0.5
-					amount = 1
-				}
-			}
-			else = {
-				add_equipment_production = {
-					equipment = {
-						type = battleship_2
-						creator = "FRA" 
-					}
-					requested_factories = 1
-					progress = 0.50
-					amount = 1
-				}
-				add_equipment_production = {
-					equipment = {
-						type = battleship_2
-						creator = "FRA" 
-					}
-					requested_factories = 1
-					progress = 0.35
-					amount = 1
-				}
-			}
-		}
+            add_ideas = ENG_expand_the_repair_yards		    
+        }
 	}
 	focus = {
-		id = FRA_prioritize_the_joffre
+		id = FRA_prioritize_the_joffr
 		icon = GFX_goal_generic_navy_carrier
 
 	 	prerequisite = { focus = FRA_carrier_focus }
@@ -3376,32 +3332,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			if = {
-				limit = {
-					has_dlc = "Man the Guns"
-				}
-				add_equipment_production = {
-					equipment = {
-						type = ship_hull_carrier_1
-						creator = "FRA" 
-						version_name = "Joffre Class"
-					}
-					requested_factories = 1
-					progress = 0.5
-					amount = 1
-				}	
-			}
-			else = {
-				add_equipment_production = {
-					equipment = {
-						type = carrier_2
-						creator = "FRA" 
-					}
-					requested_factories = 1
-					progress = 0.40
-					amount = 1
-				}
-			}
+		    add_ideas = british_convoy_discount
 		}
 	}
 	focus = {
@@ -3489,13 +3420,13 @@ focus_tree = {
 		id = FRA_naval_doctrine
 		icon = GFX_goal_generic_navy_doctrines_tactics
 	 	prerequisite = { 
-	 		focus = FRA_prioritize_the_joffre
-	 		focus = FRA_rush_the_richelieus
+	 		focus = FRA_prioritize_the_joffr
+	 		focus = FRA_rush_the_richelieu
 	 		focus = FRA_improved_screen_ships
 	 	}
 		x = 3
 		y = 1
-		relative_position_id = FRA_rush_the_richelieus
+		relative_position_id = FRA_rush_the_richelieu
 		cost = 5
 		search_filters = { FOCUS_FILTER_RESEARCH }
 		available_if_capitulated = yes

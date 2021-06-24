@@ -1378,12 +1378,12 @@ technology = construction4
 	focus = {
 		id = SPA_consolidate_the_north
 		available = {
-			controls_state = 166
 			controls_state = 172
+			controls_state = 174
 			controls_state = 176
 		}
 		bypass = {
-
+	
 		}
 		prerequisite = { focus = SPA_unify_the_nationalist_front }
 

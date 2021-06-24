@@ -3906,9 +3906,6 @@ focus_tree = {
 		}		
 
 		completion_reward = {
-		    FRA = {
-			    add_ideas = british_convoy_discount
-			}
 			add_to_variable = { var = british_money value = -50 }
 			custom_effect_tooltip = british_money_50_tt
 			add_ideas = british_convoy_discount
@@ -4526,9 +4523,6 @@ focus_tree = {
 		}
 
 		completion_reward = {
-		    FRA = {
-			    add_ideas = ENG_expand_the_repair_yards
-			}
 			random_owned_controlled_state = {
 				limit = {
 					is_coastal = yes

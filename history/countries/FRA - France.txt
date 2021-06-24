@@ -93,7 +93,6 @@ if = {
 		basic_ship_hull_cruiser = 1
 		early_ship_hull_heavy = 1
 		basic_ship_hull_heavy = 1
-		ship_hull_super_heavy = 1
 		early_ship_hull_carrier = 1
 		basic_ship_hull_carrier = 1
 		basic_battery = 1
@@ -832,28 +831,6 @@ if = {
 			mid_1_custom_slot = ship_anti_air_2
 			mid_2_custom_slot = ship_airplane_launcher_2
 			rear_1_custom_slot = ship_secondaries_2
-		}
-	}
-	create_equipment_variant = {
-		name = "Viva La France Class"
-		type = ship_hull_super_heavy_1
-		name_group = FRA_BB_HISTORICAL
-		parent_version = 0
-		modules = {
-			fixed_ship_battery_slot = ship_super_heavy_battery_1
-			fixed_ship_anti_air_slot = ship_anti_air_2
-			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
-			fixed_ship_radar_slot = ship_radar_1
-			fixed_ship_engine_slot = heavy_ship_engine_2
-			fixed_ship_secondaries_slot = ship_secondaries_2
-			fixed_ship_armor_slot = ship_armor_shbb
-			front_1_custom_slot = ship_super_heavy_battery_1
-			front_2_custom_slot = ship_super_heavy_battery_1
-			mid_1_custom_slot = ship_secondaries_2
-			mid_2_custom_slot = ship_anti_air_2
-			mid_3_custom_slot = ship_secondaries_2
-			rear_1_custom_slot = ship_super_heavy_battery_1
-			rear_2_custom_slot = ship_super_heavy_battery_1
 		}
 	}
 	# Carriers #
