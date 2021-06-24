@@ -215,7 +215,7 @@ focus_tree = {
 		y = 5
 		relative_position_id = SAF_war_measures_act
  
-		cost = 10
+		cost = 7.16
 
 		ai_will_do = {
 			factor = 1
@@ -669,7 +669,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = SAF_expand_cape_franchise
 
-		cost =  7.16
+		cost = 5
 
 		ai_will_do = {
 			factor = 1
@@ -2176,6 +2176,12 @@ focus_tree = {
 				uses = 1
 				category = naval_bomber
 			}
+			add_tech_bonus = {
+				name = SAFR_specialised_airforce
+				bonus = 1.0
+				uses = 1
+				category = tactical_bomber
+			}
 		}
 	}
 	
@@ -2183,6 +2189,7 @@ focus_tree = {
 		id = SAF_flexible_airforce
 		icon = GFX_focus_usa_escort_fighters
 		prerequisite = { focus = SAF_saaf_coastal_command focus = SAF_flying_tanks }
+		mutually_exclusive = { focus = SAF_specialised_airforce }
 		x = -1
 		y = 3	
 		relative_position_id = SAF_commit_to_the_five_year_plan
@@ -2212,6 +2219,7 @@ focus_tree = {
 				bonus = 1.0
 				uses = 1
 				category = tactical_bomber
+				category = cas_bomber
 			}
 		}
 	}
@@ -2220,6 +2228,7 @@ focus_tree = {
 		id = SAF_specialised_airforce
 		icon = GFX_focus_chi_flying_tigers
 		prerequisite = { focus = SAF_saaf_coastal_command focus = SAF_flying_tanks } 
+		mutually_exclusive = { focus = SAF_flexible_airforce }
 		x = 1
 		y = 3	
 		relative_position_id = SAF_commit_to_the_five_year_plan 
@@ -2247,7 +2256,7 @@ focus_tree = {
 			add_tech_bonus = {
 				name = SAFR_expand_artillery_aircraft_depot
 				bonus = 1.0
-				uses = 2
+				uses = 1
 				category = light_fighter
 				category = cat_heavy_fighter
 			}

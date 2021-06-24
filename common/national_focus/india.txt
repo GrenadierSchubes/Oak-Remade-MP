@@ -181,8 +181,8 @@ focus_tree = {
 		icon = GFX_focus_RAJ_british_investors
 		prerequisite = { focus = RAJ_organize_indian_congress }
 		relative_position_id = RAJ_organize_indian_congress
-		x = 10
-		y = 2
+		x = 7
+		y = 1
 
 		cost = 7.145
 
@@ -246,7 +246,7 @@ focus_tree = {
 		prerequisite = { focus = RAJ_attract_british_investors }
 		relative_position_id = RAJ_attract_british_investors
 		icon = GFX_focus_generic_treaty
-		x = 0
+		x = 3
 		y = 1
 
 		cost = 7.145
@@ -395,7 +395,7 @@ focus_tree = {
 		icon = GFX_goal_generic_construct_civ_factory
 		relative_position_id = RAJ_attract_british_investors
 		prerequisite = { focus = RAJ_attract_british_investors }
-		x = -2
+		x = 1
 		y = 1
 
 		cost = 7.145
@@ -1033,7 +1033,7 @@ focus_tree = {
 		icon = GFX_focus_generic_industry_1
 		relative_position_id = RAJ_attract_british_investors
 		prerequisite = { focus = RAJ_attract_british_investors }
-		x = -4
+		x = -1
 		y = 1
 
 		cost = 2.9
@@ -1275,7 +1275,7 @@ focus_tree = {
 		icon = GFX_goal_generic_construction
 		relative_position_id = RAJ_attract_british_investors
 		prerequisite = { focus = RAJ_attract_british_investors }
-		x = -6
+		x = -3
 		y = 1
 
 		cost = 2.9
