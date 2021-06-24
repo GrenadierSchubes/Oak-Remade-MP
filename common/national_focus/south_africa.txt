@@ -655,6 +655,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
+		    add_ideas = SAF_king_edward
 			add_stability = -0.15
 			add_timed_idea = { idea = SAF_freedom_from_oppression days = 730 } 
 		}
@@ -1367,7 +1368,10 @@ focus_tree = {
 		}
 
 		available = {
-			has_completed_focus = SAF_war_measures_act
+		    OR = {
+			    has_completed_focus = SAF_war_measures_act
+			    has_completed_focus = SAF_force_parliament_debate
+			}
 		}
 		
 		bypass = {

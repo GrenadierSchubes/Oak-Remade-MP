@@ -1,3 +1,21 @@
+SAF_a_king_for_our_people = {
+
+	icon = eng_appeal_to_imperial_loyalists
+
+	#picture = GFX_decision_cat_picture_organize_the_blackshirts
+	
+	allowed = {
+		tag = SAF
+	}
+
+	priority = {
+		base = 0
+
+	}
+
+	visible = {
+	}
+}	
 
 SAFR_purchase_planes = {
 

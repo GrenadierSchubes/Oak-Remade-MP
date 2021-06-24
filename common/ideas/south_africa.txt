@@ -711,7 +711,7 @@ ideas = {
 
 			modifier = {
 				consumer_goods_factor = 0.02
-				production_speed_buildings_factor = 0.15
+				production_speed_buildings_factor = 0.125
 				production_factory_start_efficiency_factor = 0.1
 				production_factory_efficiency_gain_factor = 0.05
 				global_building_slots_factor = 0.20
@@ -2079,7 +2079,7 @@ ideas = {
 			}
 			
 			available = {
-				has_completed_focus = SAF_hofmeyrs_reforms 
+				has_completed_focus = SAF_free_elections
 			}
 			
 			traits = { financial_expert }
@@ -2159,6 +2159,7 @@ ideas = {
 			cost = 250
 			
 			available = {
+			    NOT = { has_completed_focus = SAF_force_parliament_debate } 
 			}
 			
 			traits = { silent_workhorse social_reformer_2 }
@@ -2202,6 +2203,7 @@ ideas = {
 			}
 
 			available = {	
+			    has_completed_focus = SAF_free_elections
 			}	
 			
 			traits = { connected_citizen } 

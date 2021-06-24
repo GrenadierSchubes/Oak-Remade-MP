@@ -1,3 +1,35 @@
+SAF_a_king_for_our_people = {
+
+	SAF_the_king = {
+
+		icon = eng_abdication_crisis
+		
+		available = {
+			tag = SAF
+			custom_trigger_tooltip = {
+				NOT  = { ENG = { has_idea = ENG_king_edward } }
+				tooltip = SAF_a_king_for_our_people_trigger_tt					
+			}	
+		}
+				
+		modifier = {
+		}
+		
+		cost = 25
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 1
+		}
+		
+		visible = {
+			NOT = { has_idea = SAF_king_edward }
+		}
+		
+		complete_effect = {
+			add_ideas = SAF_king_edward
+		}		
+	}	
+}	
 
 SAFR_purchase_planes = {
 
