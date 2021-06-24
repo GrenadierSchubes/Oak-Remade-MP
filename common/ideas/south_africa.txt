@@ -218,8 +218,8 @@ ideas = {
 			picture = prc_low_popular_support3
 
 			modifier = {
-				industrial_capacity_factory = 0.03
-				industrial_capacity_dockyard = 0.03
+				industrial_capacity_factory = 0.06
+				industrial_capacity_dockyard = 0.06
 				consumer_goods_factor = -0.03
 				production_speed_buildings_factor = 0.1
 			}
@@ -240,8 +240,8 @@ ideas = {
 			picture = prc_low_popular_support3
 
 			modifier = {
-				industrial_capacity_factory = 0.06
-				industrial_capacity_dockyard = 0.06
+				industrial_capacity_factory = 0.1
+				industrial_capacity_dockyard = 0.1
 				consumer_goods_factor = -0.06
 				production_speed_buildings_factor = 0.1
 			}
@@ -646,8 +646,8 @@ ideas = {
 			picture = man_five_year_plan_tank
 
 			modifier = {
-				production_speed_arms_factory_factor = 0.15
-				production_speed_dockyard_factor = 0.15
+				production_speed_arms_factory_factor = 0.10
+				production_speed_dockyard_factor = 0.10
 				production_factory_efficiency_gain_factor = 0.075 
 			}
 
@@ -711,7 +711,7 @@ ideas = {
 
 			modifier = {
 				consumer_goods_factor = 0.02
-				production_speed_buildings_factor = 0.1
+				production_speed_buildings_factor = 0.15
 				production_factory_start_efficiency_factor = 0.1
 				production_factory_efficiency_gain_factor = 0.05
 				global_building_slots_factor = 0.20
@@ -879,7 +879,7 @@ ideas = {
 
 			modifier = {
 				democratic_drift = 0.03
-				neutrality_drift = -0.05
+				fascism_drift = -0.1
 			}
 		}
 		
@@ -937,7 +937,7 @@ ideas = {
 			picture = generic_morale_bonus
 
 			modifier = {
-				conscription_factor = 0.03
+				conscription_factor = 0.08
 			}
 
 		}
@@ -1893,22 +1893,12 @@ ideas = {
 			picture = yug_federal_defense_council
 
 			modifier = {
-				conscription_factor = 0.075
 				non_core_manpower = 0.1				
 				army_core_attack_factor = 0.1
 				army_core_defence_factor = 0.1
-				army_morale_factor = 0.15
-				land_reinforce_rate = 0.1
-				supply_consumption_factor = -0.20
-				surrender_limit = 0.2
-				industrial_capacity_factory = 0.2				
+				army_org_factor = 0.05
+				supply_consumption_factor = -0.1				
 			}
-			targeted_modifier = { tag = GER attack_bonus_against = 0.15 }
-			targeted_modifier = { tag = ITA attack_bonus_against = 0.15 }
-			targeted_modifier = { tag = JAP attack_bonus_against = 0.15 }
-			targeted_modifier = { tag = GER defense_bonus_against = 0.15 }
-			targeted_modifier = { tag = ITA defense_bonus_against = 0.15 }
-			targeted_modifier = { tag = JAP defense_bonus_against = 0.15 }
 
 		}		
 	
@@ -2011,9 +2001,6 @@ ideas = {
 			}	
 			
 			available = {
-				NOT = { has_completed_focus = SAF_yield_to_smuts }	
-				NOT = { has_completed_focus = SAF_force_parliament_debate }
-				NOT = { has_completed_focus = SAF_hofmeyrs_reforms }
 			}
 			
 			traits = { war_industrialist }
@@ -2033,8 +2020,18 @@ ideas = {
 			}	
 			
 			traits = { captain_of_industry }
+		}	
+		SAF_nicolaas_havenga = {
+
+			picture = generic_political_advisor_europe_2
+
+			allowed = {
+				original_tag = SAF
+			}
+			
+			traits = { armaments_organizer }
 		}
-	}	
+	}
 	political_advisor = {
 
 		SAF_sir_patrick_duncan = {
@@ -2045,10 +2042,6 @@ ideas = {
 			}
 
 			available = {
-				if = {
-					limit = { has_dlc = "Together for Victory"}
-					has_completed_focus = SAF_support_the_policy_of_appeasement
-				}
 				if = {
 					limit = { has_dlc = "Man the Guns" }	
 					NOT = { has_autonomy_state = autonomy_supervised_state }
@@ -2070,9 +2063,9 @@ ideas = {
 			}
 		}
 
-		SAF_nicolaas_havenga = {
+		SAF_richard_stuttaford = {
 
-			picture = generic_political_advisor_europe_2
+			picture = generic_political_advisor_europe_3
 
 			allowed = {
 				original_tag = SAF
@@ -2086,9 +2079,7 @@ ideas = {
 			}
 			
 			available = {
-				NOT = { has_completed_focus = SAF_force_parliament_debate }
-				NOT = { has_completed_focus = SAF_yield_to_smuts }
-				NOT = { has_completed_focus = SAF_hofmeyrs_reforms }
+				has_completed_focus = SAF_hofmeyrs_reforms 
 			}
 			
 			traits = { financial_expert }
@@ -2103,12 +2094,9 @@ ideas = {
 			}
 			
 			available = {
-				NOT = { has_completed_focus = SAF_force_parliament_debate }
-				NOT = { has_completed_focus = SAF_yield_to_smuts }
-				NOT = { has_completed_focus = SAF_hofmeyrs_reforms }
 			}
 			
-			traits = { backroom_backstabber_2 }
+			traits = { backroom_backstabber }
 			ai_will_do = {
 				factor = 0
 			}
@@ -2130,12 +2118,9 @@ ideas = {
 			}
 			
 			available = {
-				NOT = { has_completed_focus = SAF_force_parliament_debate }
-				NOT = { has_completed_focus = SAF_yield_to_smuts }
-				NOT = { has_completed_focus = SAF_hofmeyrs_reforms }
 			}
 			
-			traits = { silent_workhorse }
+			traits = { backroom_backstabber_2 }
 		}
 		
 		
@@ -2171,6 +2156,8 @@ ideas = {
 				}	
 			}	
 			
+			cost = 250
+			
 			available = {
 			}
 			
@@ -2201,7 +2188,6 @@ ideas = {
 			}	
 			
 			available = {
-				has_completed_focus = SAF_free_elections
 			}
 			
 			traits = { popular_figurehead } 
@@ -2215,8 +2201,7 @@ ideas = {
 				original_tag = SAF				
 			}
 
-			available = {
-				has_completed_focus = SAF_free_elections	
+			available = {	
 			}	
 			
 			traits = { connected_citizen } 
@@ -2590,39 +2575,92 @@ ideas = {
 			allowed = {
 				original_TAG = SAF
 				has_dlc = "Together for Victory"
-			}
+			}			
 			
-			available = {
-				has_completed_focus = SAF_south_african_steel
-			}
+			research_bonus = { armor = -0.05 } 
+			traits = { Leyland_trait }
 			
-			research_bonus = {
-				armor = 0.15
-			}
-			
-			traits = { medium_tank_manufacturer } 
-			
-			modifier = {
+			equipment_bonus = {
+				medium_tank_equipment = {
+			        maximum_speed = 0.05
+				    soft_attack = 0.05
+					hard_attack = 0.05
+				}
+				medium_tank_aa_equipment = {
+					air_attack = 0.1
+					maximum_speed = 0.05
+				}
+
+				medium_tank_artillery_equipment = {
+					soft_attack = 0.1
+					maximum_speed = 0.05
+				}
+				medium_tank_destroyer_equipment = {
+					maximum_speed = 0.05
+					hard_attack = 0.1
+				}
 			}
 		}
-		
-		okmo_sa = {
-			
+		vickers_armstrong_saf = {
+
+			picture = vickers_armstrong_eng
+
 			
 			allowed = {
 				original_tag = SAF
 			}
 			
-			available = {
-			}
-			
 			research_bonus = {
-				armor = 0.15
+				armor = -0.05
 			}
+			name = vickers_armstrong_eng
+			equipment_bonus = {
+				light_tank_equipment = {
+				    maximum_speed = 0.05
+					soft_attack = 0.1
+				}
+				light_tank_artillery_equipment = {
+					soft_attack = 0.1
+					maximum_speed = 0.05
+				}
+
+				light_tank_destroyer_equipment = {
+					hard_attack = 0.1
+					maximum_speed = 0.05
+				}
+				light_tank_aa_equipment = {
+					air_attack = 0.1
+					maximum_speed = 0.05
+				}
+			}
+			traits = { vickers_trait }
 			
-			traits = { heavy_tank_manufacturer }
+		}
+		vauxhall_saf = {
 			
-			modifier = {
+			allowed = {
+				original_TAG = SAF
+			}
+			picture = vauxhall	
+			research_bonus = {
+				armor = -0.05
+			}
+			name = vauxhall
+			traits = { vauxhall_trait }
+			
+			equipment_bonus = {
+				heavy_tank_equipment = {
+			        reliability = 0.05
+					hard_attack = 0.1
+				}
+				heavy_tank_destroyer_equipment = {
+				    hard_attack = 0.1
+					armor_value = 0.05
+				}
+				heavy_tank_artillery_equipment = {
+				    soft_attack = 0.1
+					armor_value = 0.05
+				}
 			}
 		}
 	}
@@ -2644,7 +2682,7 @@ ideas = {
 			}
 						
 			research_bonus = {
-				infantry_weapons = 0.15
+				infantry_weapons = -0.05
 			}
 			
 			traits = { infantry_equipment_manufacturer }
@@ -2666,7 +2704,7 @@ ideas = {
 			}	
 			
 			research_bonus = {
-				motorized_equipment = 0.15
+				motorized_equipment = -0.05
 			}
 			
 			traits = { motorized_equipment_manufacturer }
@@ -2689,7 +2727,7 @@ ideas = {
 			}
 			
 			research_bonus = {
-				artillery = 0.15
+				artillery = -0.05
 			}
 			
 			traits = { artillery_manufacturer }
@@ -2710,7 +2748,7 @@ ideas = {
 			}
 						
 			research_bonus = {
-				naval_equipment = 0.15
+				naval_equipment = -0.05
 			}
 			
 			traits = { convoy_escort_naval_manufacturer }
@@ -2731,7 +2769,7 @@ ideas = {
 			}
 			
 			research_bonus = {
-				naval_equipment = 0.15
+				naval_equipment = -0.05
 			}
 			
 			traits = { pacific_fleet_naval_manufacturer }
@@ -2752,7 +2790,7 @@ ideas = {
 			}
 			
 			research_bonus = {
-				naval_equipment = 0.15
+				naval_equipment = -0.05
 			}
 			
 			traits = { raiding_fleet_naval_manufacturer }
@@ -2773,7 +2811,7 @@ ideas = {
 			}
 			
 			research_bonus = {
-				naval_equipment = 0.15
+				naval_equipment = -0.05
 			}
 			
 			traits = { atlantic_fleet_naval_manufacturer }
@@ -2794,31 +2832,10 @@ ideas = {
 			}
 			
 			research_bonus = {
-				naval_equipment = 0.15
+				naval_equipment = -0.05
 			}
 			
 			traits = { coastal_defence_naval_manufacturer }
-			
-		}
-		
-		kure_naval_arsenal_sa = {
-			
-			allowed = {
-				has_dlc = "Together for Victory"
-				original_TAG = SAF
-			}
-			
-			picture = generic_naval_manufacturer_2
-			
-			available = {
-				has_decision = SAF_procure_jap_shipbuilding_expertise
-			}
-			
-			research_bonus = {
-				naval_equipment = 0.15
-			}
-			
-			traits = { battlefleet_designer }
 			
 		}
 		
@@ -2835,7 +2852,7 @@ ideas = {
 			}
 			
 			research_bonus = {
-				naval_equipment = 0.15
+				naval_equipment = -0.05
 			}
 			
 			traits = { raiding_fleet_naval_manufacturer }
@@ -2858,7 +2875,7 @@ ideas = {
 			}			
 			
 			research_bonus = {
-				air_equipment = 0.15
+				air_equipment = -0.05
 			}
 			
 			traits = { medium_aircraft_manufacturer }
@@ -2874,7 +2891,7 @@ ideas = {
 			}
 						
 			research_bonus = {
-				air_equipment = 0.15
+				air_equipment = -0.05
 			}
 			
 			traits = { CAS_manufacturer } 
@@ -2892,7 +2909,7 @@ ideas = {
 			picture = generic_air_manufacturer_1 
 						
 			research_bonus = {
-				air_equipment = 0.15
+				air_equipment = -0.05
 			}
 			
 			traits = { gen_purpose_aircraft_manufacturer } 
@@ -2912,7 +2929,7 @@ ideas = {
 			}
 			
 			research_bonus = {
-				air_equipment = 0.15
+				air_equipment = -0.05
 			}
 			
 			traits = { light_aircraft_manufacturer }
@@ -2934,11 +2951,11 @@ ideas = {
 			}
 			
 			available = {
-				has_completed_focus = SAF_south_african_steel
+			    has_completed_focus = SAF_south_african_steel
 			}
 			
 			research_bonus = {
-				industry = 0.15
+				industry = -0.05
 			}
 			
 			traits = { industrial_concern }
@@ -2979,8 +2996,7 @@ ideas = {
 			}
 						
 			research_bonus = {
-				industry = 0.05
-				synth_resources = 0.15
+				synth_resources = 0.05
 			}
 			
 			traits = { refinery_concern }

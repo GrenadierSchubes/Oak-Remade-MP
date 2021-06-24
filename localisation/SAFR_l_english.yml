@@ -400,7 +400,7 @@
   #SAFR_favoured_havenga:0 "Favoured Havenga's Germany trade deal.\n"
   #SAFR_favoured_pirow:0 "Favoured Pirow's Germany military deal.\n"
   fra_needs_approval:0 "§RFrance must approve of the agreement before handing over Madagascar. They will be much more likely to agree if they are in control of their North African territories.§!\n"
-  SAF_african_commanders_tt:0 "Gain four new commanders.\n"
+  SAF_african_commanders_tt:0 "Gain two new commanders.\n"
   SAFR_civil_war_tt:0 "§RStarts a civil war§! between the §YUnion Forces§! in Cape Town and South West Africa and the §Ycommunist revolutionaries§! in the rest of the country.\n"
   procure_expertise_tt:0 "§RWe can choose to approach only one country for their design and construction expertise, so we should choose carefully.§!\n"
   SAFR_create_unit_boer_commandos_tt:0 "Will gain two units of elite §YBoer Kommandos§! in the Transvaal.\n"

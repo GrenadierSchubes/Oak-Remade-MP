@@ -7,7 +7,7 @@ SAFR_purchase_planes = {
 		
 		available = {
 			tag = SAF
-			num_of_civilian_factories > 11	
+			num_of_civilian_factories > 5
 			AND = {
 				ENG = { has_tech = eng_fighter_1936 }	
 				ENG = { has_tech = eng_CAS_1937 }
@@ -16,7 +16,7 @@ SAFR_purchase_planes = {
 		}
 				
 		modifier = {
-			civilian_factory_use = 12
+			civilian_factory_use = 6
 		}
 		
 		cost = 10
@@ -45,12 +45,12 @@ SAFR_purchase_planes = {
 			}
 			add_equipment_to_stockpile = {
 				type = CAS_equipment_1937
-				amount = 120
+				amount = 150
 				producer = ENG
 			}
 			add_equipment_to_stockpile = {
 				type = nav_bomber_equipment_1936
-				amount = 100
+				amount = 150
 				producer = ENG
 			}
 		}		
@@ -62,7 +62,7 @@ SAFR_purchase_planes = {
 		
 		available = {
 			tag = SAF
-			num_of_civilian_factories > 7	
+			num_of_civilian_factories > 2	
 			AND = {
 				ENG = { has_tech = eng_fighter_1936 }	
 				ENG = { has_tech = eng_CAS_1937 }
@@ -71,7 +71,7 @@ SAFR_purchase_planes = {
 		}
 				
 		modifier = {
-			civilian_factory_use = 8
+			civilian_factory_use = 4
 		}
 		
 		cost = 10
@@ -98,12 +98,12 @@ SAFR_purchase_planes = {
 			}
 			add_equipment_to_stockpile = {
 				type = CAS_equipment_1937
-				amount = 60
+				amount = 100
 				producer = ENG
 			}
 			add_equipment_to_stockpile = {
 				type = nav_bomber_equipment_1936
-				amount = 60
+				amount = 100
 				producer = ENG
 			}
 		}		
@@ -115,7 +115,7 @@ SAFR_purchase_planes = {
 		
 		available = {
 			tag = SAF
-			num_of_civilian_factories > 3
+			num_of_civilian_factories > 1
 			AND = {
 				ENG = { has_tech = eng_fighter_1936 }	
 				ENG = { has_tech = eng_CAS_1937 }
@@ -123,7 +123,7 @@ SAFR_purchase_planes = {
 		}
 				
 		modifier = {
-			civilian_factory_use = 4
+			civilian_factory_use = 2
 		}
 		
 		cost = 10
@@ -150,7 +150,12 @@ SAFR_purchase_planes = {
 			}
 			add_equipment_to_stockpile = {
 				type = CAS_equipment_1937
-				amount = 60
+				amount = 50
+				producer = ENG
+			}
+			add_equipment_to_stockpile = {
+				type = nav_bomber_equipment_1936
+				amount = 50
 				producer = ENG
 			}
 		}		
@@ -162,12 +167,12 @@ SAFR_purchase_planes = {
 		
 		available = {
 			tag = SAF
-			num_of_civilian_factories > 5
+			num_of_civilian_factories > 1
 			ENG = { has_tech = eng_tactical_bomber_1934 }
 		}
 				
 		modifier = {
-			civilian_factory_use = 6
+			civilian_factory_use = 2
 		}
 		
 		cost = 10
@@ -840,7 +845,6 @@ SAFR_building_surface_fleet = {
 		
 		available = {
 			tag = SAF
-			USA_will_support = yes	
 		}
 				
 		modifier = {
@@ -866,7 +870,6 @@ SAFR_building_surface_fleet = {
 			NOT = {
 				has_country_flag = SAFR_procure_us_shipbuilding_expertise_dec
 				has_country_flag = SAFR_procure_uk_shipbuilding_expertise_dec
-				has_country_flag = SAFR_procure_jap_shipbuilding_expertise_dec
 			}
 		}
 		
@@ -881,7 +884,6 @@ SAFR_building_surface_fleet = {
 		
 		available = {
 			tag = SAF
-			ENG_will_support = yes	
 		}
 				
 		modifier = {
@@ -907,47 +909,6 @@ SAFR_building_surface_fleet = {
 			NOT = {
 				has_country_flag = SAFR_procure_us_shipbuilding_expertise_dec
 				has_country_flag = SAFR_procure_uk_shipbuilding_expertise_dec
-				has_country_flag = SAFR_procure_jap_shipbuilding_expertise_dec
-			}
-		}
-		
-		remove_effect = {
-			
-		}		
-	}
-	
-	SAF_procure_jap_shipbuilding_expertise = {
-
-		icon = hol_attract_foreign_investors
-		
-		available = {
-			tag = SAF
-			JAP_will_support = yes	
-		}
-				
-		modifier = {
-			
-		}
-		
-		cost = 100
-		
-		ai_will_do = {
-			factor = 1
-		}
-		
-		complete_effect = {
-            JAP = { add_offsite_building = { type = industrial_complex level = 1 }}
-			custom_effect_tooltip = available_designer
-			custom_effect_tooltip = procure_expertise_tt
-			show_ideas_tooltip = kure_naval_arsenal_sa
-			set_country_flag = SAFR_procure_jap_shipbuilding_expertise_dec
-        }
-		
-		visible = {
-			NOT = {
-				has_country_flag = SAFR_procure_us_shipbuilding_expertise_dec
-				has_country_flag = SAFR_procure_uk_shipbuilding_expertise_dec
-				has_country_flag = SAFR_procure_jap_shipbuilding_expertise_dec
 			}
 		}
 		
@@ -962,7 +923,6 @@ SAFR_building_surface_fleet = {
 		
 		available = {
 			tag = SAF
-			USA_will_support = yes	
 			has_decision = SAF_procure_us_shipbuilding_expertise
 		}
 				
@@ -997,7 +957,6 @@ SAFR_building_surface_fleet = {
 			NOT = {
 				has_country_flag = SAFR_study_us_ship_designs_dec
 				has_country_flag = SAFR_procure_uk_shipbuilding_expertise_dec
-				has_country_flag = SAFR_procure_jap_shipbuilding_expertise_dec
 			}
 		}
 		
@@ -1012,7 +971,6 @@ SAFR_building_surface_fleet = {
 		
 		available = {
 			tag = SAF
-			ENG_will_support = yes	
 			has_decision = SAF_procure_uk_shipbuilding_expertise
 		}
 				
@@ -1058,69 +1016,6 @@ SAFR_building_surface_fleet = {
 		visible = {
 			NOT = {				
 				has_country_flag = SAFR_study_uk_ship_designs_dec
-				has_country_flag = SAFR_procure_us_shipbuilding_expertise_dec
-				has_country_flag = SAFR_procure_jap_shipbuilding_expertise_dec
-			}
-		}
-		
-		remove_effect = {
-			
-		}		
-	}
-	
-	SAF_study_jap_ship_designs = {
-
-		icon = generic_naval
-		
-		available = {
-			tag = SAF
-			JAP_will_support = yes	
-			has_decision = SAF_procure_jap_shipbuilding_expertise
-		}
-				
-		modifier = {
-			
-		}
-		
-		cost = 80
-		
-		ai_will_do = {
-			factor = 1
-		}
-		
-		complete_effect = {
-			custom_effect_tooltip = procure_expertise_tt
-			add_tech_bonus = {
-				name = SAF_study_jap_ship_designs
-				bonus = 1.0
-				uses = 1
-				category = cv_tech
-			}
-			add_tech_bonus = {
-				name = SAF_study_jap_ship_designs
-				bonus = 1.0
-				uses = 1
-				category = bb_tech
-			}
-			add_tech_bonus = {
-				name = SAF_study_jap_ship_designs
-				bonus = 1.0
-				uses = 1
-				category = shbb_tech
-			}
-			add_tech_bonus = {
-				name = SAF_study_jap_ship_designs
-				bonus = 1.0
-				uses = 1
-				category = cl_tech
-			}
-			set_country_flag = SAFR_study_jap_ship_designs_dec
-        }
-		
-		visible = {
-			NOT = {
-				has_country_flag = SAFR_study_jap_ship_designs_dec
-				has_country_flag = SAFR_procure_uk_shipbuilding_expertise_dec
 				has_country_flag = SAFR_procure_us_shipbuilding_expertise_dec
 			}
 		}
