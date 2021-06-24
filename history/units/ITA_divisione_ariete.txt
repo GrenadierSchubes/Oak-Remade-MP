@@ -37,7 +37,15 @@ division_template = {
 }
 
 units = {
-
+	division= {			
+		division_name = {
+				is_name_ordered = yes
+				name_order = 132
+		}
+		location = 4014
+		division_template = "Divisione Corazzata"
+		start_experience_factor = 0.4
+	}
 	division= {			
 		division_name = {
 				is_name_ordered = yes
