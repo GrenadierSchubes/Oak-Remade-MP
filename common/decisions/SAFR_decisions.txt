@@ -7,7 +7,7 @@ SAF_a_king_for_our_people = {
 		available = {
 			tag = SAF
 			custom_trigger_tooltip = {
-				NOT  = { ENG = { has_idea = ENG_king_edward } }
+				ENG = { has_completed_focus = ENG_force_abdication } 
 				tooltip = SAF_a_king_for_our_people_trigger_tt					
 			}	
 		}
