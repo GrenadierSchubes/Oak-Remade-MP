@@ -151,6 +151,7 @@ SAFR_purchase_planes = {
 			AND = {
 				ENG = { has_tech = eng_fighter_1936 }	
 				ENG = { has_tech = eng_CAS_1937 }
+				ENG = { has_tech = eng_naval_bomber_1936 }
 			}	
 		}
 				

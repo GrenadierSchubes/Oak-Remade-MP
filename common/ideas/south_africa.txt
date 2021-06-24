@@ -2857,7 +2857,7 @@ ideas = {
 				naval_equipment = -0.05
 			}
 			
-			traits = { battlefleet_designer }
+			traits = { battlefleet_designer	 }
 			
 		}
 	
