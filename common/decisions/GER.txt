@@ -154,7 +154,7 @@ special_projects = {
 		}
 	}
 
-GER_graf_zeppelin = {
+	GER_graf_zeppelin = {
 
 		icon = generic_naval
 

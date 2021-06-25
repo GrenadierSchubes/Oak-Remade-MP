@@ -67,5 +67,7 @@ category = {
  name = "American Speeches"
  soundeffects = {
 	usa_pearl_harbor
+	usa_wartime
+	usa_slap_the_japs
 	}
 }

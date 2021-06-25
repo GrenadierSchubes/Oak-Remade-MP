@@ -8,6 +8,21 @@ soundeffect = {
 	volume = 1.0
 }
 
+soundeffect = {
+	name = "usa_wartime"
+	sounds = {
+		sound = usa_wartime
+	}
+	volume = 1.0
+}
+
+soundeffect = {
+	name = "usa_slap_the_japs"
+	sounds = {
+		sound = usa_slap_the_japs
+	}
+	volume = 1.0
+}
 
 ##British Speeches##
 
@@ -92,7 +107,7 @@ soundeffect = {
 	sounds = {
 		sound = ger_fall_blau
 	}
-	volume = 0
+	volume = 1.0
 }
 
 soundeffect = {
@@ -116,7 +131,7 @@ soundeffect = {
 	sounds = {
 		sound = ger_mobilize
 	}
-	volume = 0
+	volume = 1.0
 }
 
 soundeffect = {
@@ -148,7 +163,7 @@ soundeffect = {
 	sounds = {
 		sound = ger_westerwald
 	}
-	volume = 0
+	volume = 1.0
 }
 
 ##Italian Speeches##

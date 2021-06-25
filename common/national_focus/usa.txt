@@ -2207,6 +2207,10 @@ focus_tree = {
 		}
 		
 		completion_reward = {
+			hidden_effect = {
+				sound_effect = usa_slap_the_japs
+				}
+			
 			custom_effect_tooltip = USA_upgrade_naval_manufacturers_tt
 			if = {
 				limit = {
@@ -5597,6 +5601,9 @@ focus_tree = {
 		}
 		
 		completion_reward = {
+			hidden_effect = {
+				sound_effect = usa_wartime
+			}
 			add_ideas = USA_wartime_industry_economy
 		}
 	}

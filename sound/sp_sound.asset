@@ -5,6 +5,16 @@ sound = {
 	file = "usa_speech/usa_pearl_harbor.wav"
 }
 
+sound = {
+	name = "usa_wartime"
+	file = "usa_speech/usa_wartime.wav"
+}
+
+sound = {
+	name = "usa_slap_the_japs"
+	file = "usa_speech/usa_slap_the_japs.wav"
+}
+
 ##British Speeches##
 
 sound = {
