@@ -52,6 +52,7 @@ SAFR_purchase_planes = {
 		}
 		
 		cost = 10
+		fire_only_once = yes
 		days_remove = 60
 		ai_will_do = {
 			factor = 1
@@ -107,6 +108,7 @@ SAFR_purchase_planes = {
 		}
 		
 		cost = 10
+		fire_only_once = yes
 		days_remove = 60
 		ai_will_do = {
 			factor = 1
@@ -161,6 +163,7 @@ SAFR_purchase_planes = {
 		
 		cost = 10
 		days_remove = 60
+		fire_only_once = yes
 		ai_will_do = {
 			factor = 1
 		}				
@@ -209,6 +212,7 @@ SAFR_purchase_planes = {
 		}
 		
 		cost = 10
+		fire_only_once = yes
 		days_remove = 60
 		ai_will_do = {
 			factor = 1
