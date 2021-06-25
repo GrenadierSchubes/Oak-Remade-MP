@@ -312,6 +312,7 @@ focus_tree = {
 				}
 			}
 			add_stability = 0.1
+			add_ideas = SAF_ossewabrandwag_2  
 		}
 	}
 	
@@ -340,7 +341,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {			
-			add_timed_idea = { idea = SAF_civil_industrial_infrastructure days = 400 }
+			add_timed_idea = { idea = SAF_civil_industrial_infrastructure days = 550 }
 			add_tech_bonus = {
 				name = SAF_civil_investment
 				bonus = 1.0
@@ -401,7 +402,6 @@ focus_tree = {
 					indomitable_perseverance 
 				}
 			}
-			add_ideas = SAF_ossewabrandwag_2
 			remove_opinion_modifier = { target = ENG modifier = SAF_anti_british_sentiment }
 		}
 	}
@@ -433,7 +433,7 @@ focus_tree = {
 				OR = {
 					threat > 0.1
 					has_war = yes
-					ENG = { has_completed_focus = ENG_no_further_appeasement }
+					ENG = { has_completed_focus = ENG_containment }
 					GER = { has_completed_focus = GER_end_of_czechoslovakia } 
 				}
 			}
@@ -468,9 +468,10 @@ focus_tree = {
 			}
 		}
 			add_stability = -0.2
-			add_war_support = 0.2
+			add_war_support = 0.3
 			add_ideas = SAF_ossewabrandwag_2
 			add_ideas = partial_economic_mobilisation 
+			add_ideas = limited_conscription
 			remove_opinion_modifier = { target = ENG modifier = SAF_anti_british_sentiment }
 		}
 	}
@@ -529,7 +530,7 @@ focus_tree = {
 		y = 1 
 		relative_position_id = SAF_begin_rearmament  
 
-		cost = 7.16
+		cost = 5
 
 		ai_will_do = {
 			factor = 2
@@ -695,7 +696,6 @@ focus_tree = {
 				expire = "1965.1.1"
 				ideology = socialism  
 				traits = {
-				    social_reformer_2
 				}
 			} 
 			remove_ideas = SAF_history_of_segregation		
@@ -975,7 +975,16 @@ focus_tree = {
 		}
 
 		available = {
-			has_idea = SAF_ossewabrandwag_2
+		    AND = {
+			    has_idea = SAF_ossewabrandwag_2
+				OR = {
+                    NOT = { has_completed_focus = SAF_force_parliament_debate }	
+                    AND = {
+					    has_completed_focus = SAF_force_parliament_debate
+						date > 1939.1.1	
+                    }					
+				}
+			}
 		}
 		
 		bypass = {
@@ -1295,7 +1304,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = SAF_native_representation_act
 
-		cost = 7.16
+		cost = 10
 
 		ai_will_do = {
 			factor = 1
@@ -1326,7 +1335,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = SAF_native_laws_amendment_act
 
-		cost = 7.16
+		cost = 10
 
 		ai_will_do = {
 			factor = 1
@@ -1360,7 +1369,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = SAF_work_for_all_poor
 
-		cost = 7.16
+		cost = 10
 
 		ai_will_do = {
 			factor = 1
@@ -2876,7 +2885,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = SAF_south_african_railways
 
-		cost = 10
+		cost = 7.16
 
 		ai_will_do = {
 			factor = 20
@@ -2924,7 +2933,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = SAF_south_african_railways
 
-		cost = 10
+		cost = 7.16
 
 		ai_will_do = {
 			factor = 20
@@ -2960,7 +2969,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = SAF_south_african_railways
 
-		cost = 10
+		cost = 7.16
 
 		ai_will_do = {
 			factor = 15
@@ -3059,7 +3068,7 @@ focus_tree = {
 		y = 2
 		relative_position_id = SAF_south_african_railways
 
-		cost = 10
+		cost = 7.16
 
 		ai_will_do = {
 			factor = 15
@@ -3185,7 +3194,7 @@ focus_tree = {
 		y = 2
 		relative_position_id = SAF_south_african_railways
 
-		cost = 10
+		cost = 7.16
 
 		ai_will_do = {
 			factor = 45
@@ -3290,7 +3299,7 @@ focus_tree = {
 		y = 5
 		relative_position_id = SAF_south_african_railways
 
-		cost = 10
+		cost = 7.16
 
 		ai_will_do = {
 			factor = 25
@@ -3388,7 +3397,7 @@ focus_tree = {
 		y = 6
 		relative_position_id = SAF_south_african_railways
 
-		cost = 10
+		cost = 7.16
 
 		ai_will_do = {
 			factor = 5
@@ -3424,7 +3433,7 @@ focus_tree = {
 		y = 6
 		relative_position_id = SAF_south_african_railways
 
-		cost = 10
+		cost = 7.16
 
 		ai_will_do = {
 			factor = 1

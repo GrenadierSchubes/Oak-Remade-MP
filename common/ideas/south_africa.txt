@@ -646,8 +646,8 @@ ideas = {
 			picture = man_five_year_plan_tank
 
 			modifier = {
-				production_speed_arms_factory_factor = 0.10
-				production_speed_dockyard_factor = 0.10
+				production_speed_arms_factory_factor = 0.1
+				production_speed_dockyard_factor = 0.1
 				production_factory_efficiency_gain_factor = 0.075 
 			}
 
@@ -773,7 +773,7 @@ ideas = {
 			picture = man_five_year_plan_industry
 
 			modifier = {
-				production_speed_industrial_complex_factor = 0.1
+				production_speed_industrial_complex_factor = 0.15
 				production_speed_infrastructure_factor = 0.15
 			}
 		}
@@ -2156,13 +2156,14 @@ ideas = {
 				}	
 			}	
 			
-			cost = 250
+			cost = 150
 			
 			available = {
-			    NOT = { has_completed_focus = SAF_force_parliament_debate } 
+			    NOT = { has_completed_focus = SAF_force_parliament_debate }
+				NOT = { has_completed_focus = SAF_support_appeasement }
 			}
 			
-			traits = { silent_workhorse social_reformer_2 }
+			traits = { silent_workhorse_2 social_reformer_2 }
 		}
 		
 		SAF_james_mitchell_baker = {
@@ -2189,6 +2190,7 @@ ideas = {
 			}	
 			
 			available = {
+				NOT = { has_completed_focus = SAF_hofmeyrs_reforms }
 			}
 			
 			traits = { popular_figurehead } 
