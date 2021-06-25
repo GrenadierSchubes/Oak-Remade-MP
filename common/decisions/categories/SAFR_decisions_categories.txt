@@ -1,0 +1,77 @@
+SAF_a_king_for_our_people = {
+
+	icon = eng_appeal_to_imperial_loyalists
+
+	#picture = GFX_decision_cat_picture_organize_the_blackshirts
+	
+	allowed = {
+		tag = SAF
+	}
+
+	priority = {
+		base = 0
+
+	}
+
+	visible = {
+	}
+}	
+
+SAFR_purchase_planes = {
+
+	icon = generic
+
+	#picture = GFX_decision_cat_picture_organize_the_blackshirts
+	
+	allowed = {
+		tag = SAF
+	}
+
+	priority = {
+		base = 0
+		modifier = {
+			add = 10
+			has_completed_focus = SAF_peace_expansion_scheme
+		}
+	}
+
+	visible = {
+		has_completed_focus = SAF_peace_expansion_scheme
+	}
+}
+
+
+SAFR_africa_mandate = {
+
+	icon = generic_industry
+
+	#picture = GFX_decision_cat_picture_organize_the_blackshirts
+	
+	allowed = {
+		tag = SAF
+	}
+
+}
+
+SAFR_building_surface_fleet = {
+
+	icon = mtg_naval_treaties
+
+	#picture = GFX_decision_cat_picture_organize_the_blackshirts
+	
+	allowed = {
+		tag = SAF
+	}
+
+	priority = {
+		base = 0
+		#modifier = {
+		#	add = 10
+		#	has_completed_focus = SAFR_national_rationing_recycling_program
+		#}
+	}
+
+	visible = {
+		has_completed_focus = SAF_sa_naval_college
+	}
+}

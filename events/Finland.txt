@@ -288,6 +288,9 @@ country_event = {
 				diplomatic_relation = { country = FIN relation = non_aggression_pact }
 				add_ideas = airandnavy_idea		
 			}
+			MON = {
+			    add_ideas = airandnavy_idea	
+			}
 			transfer_state = 146
 			transfer_state = 147
             add_ideas = airandnavy_idea		
