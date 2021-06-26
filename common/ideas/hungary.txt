@@ -1,7 +1,21 @@
 ideas = {
 
 	country = {
+		
+		HUN_lost_glory = {
 
+			picture = generic_foreign_capital
+
+			allowed_civil_war = {
+				
+			}
+			
+			modifier = {
+				war_support_weekly_factor = 0.10
+				conscription = 0.0025
+			}
+		}
+		
 		HUN_treaty_of_triannon = {
 
 			available = {

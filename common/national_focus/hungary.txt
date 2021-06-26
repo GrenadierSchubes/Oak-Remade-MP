@@ -17,18 +17,18 @@ focus_tree = {
 	continuous_focus_position = { x = 50 y = 1600 }
 
 
-	############################
-	## ECONOMIC INTERVENTION ###
-	############################
+	###############
+	## POLITICS ###
+	###############
 
 	focus = {
-		id = HUN_economic_intervention
+		id = HUN_disunified_people
 		icon = GFX_focus_hol_abandon_the_gold_standard
 		
 		x = 6
 		y = 0
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 100
@@ -58,7 +58,7 @@ focus_tree = {
 	focus = {
 		id = HUN_strengthen_fascists
 		icon = GFX_goal_support_fascism
-		prerequisite = { focus = HUN_economic_intervention }
+		prerequisite = { focus = HUN_disunified_people }
 		mutually_exclusive = { focus =  HUN_elect_a_fascist_king }
 		x = -3
 		y = 1
@@ -497,6 +497,202 @@ focus_tree = {
 	##### INDUSTRY BRANCH ######
 	############################
 
+	focus = {
+		id = HUN_industrial_help
+		icon = GFX_goal_generic_construction
+		x = 2
+		y = 0
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 90
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = HUN_industrial_revitalization
+				bonus = 1.0
+				uses = 2
+				category = construction_tech
+			}
+		}
+	}
+	
+	focus = {
+		id = HUN_germany
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = HUN_industrial_help }
+		mutually_exclusive = { focus =  HUN_italy }
+		x = 1
+		y = 1
+		relative_position_id = HUN_industrial_help
+		cost = 5
+
+		ai_will_do = {
+			factor = 90
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = HUN_industrial_revitalization
+				bonus = 1.0
+				uses = 2
+				category = construction_tech
+			}
+		}
+	}
+	
+	focus = {
+		id = HUN_german_factories
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = HUN_germany }
+		x = 0
+		y = 1
+		relative_position_id = HUN_germany
+		cost = 5
+
+		ai_will_do = {
+			factor = 90
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = HUN_industrial_revitalization
+				bonus = 1.0
+				uses = 2
+				category = construction_tech
+			}
+		}
+	}
+	
+	focus = {
+		id = HUN_german_dependency
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = HUN_german_factories }
+		x = 0
+		y = 1
+		relative_position_id = HUN_german_factories
+		cost = 5
+
+		ai_will_do = {
+			factor = 90
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = HUN_industrial_revitalization
+				bonus = 1.0
+				uses = 2
+				category = construction_tech
+			}
+		}
+	}
+	
+	focus = {
+		id = HUN_italy
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = HUN_industrial_help }
+		mutually_exclusive = { focus =  HUN_germany }
+		x = -1
+		y = 1
+		relative_position_id = HUN_industrial_help
+		cost = 4
+
+		ai_will_do = {
+			factor = 90
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = HUN_industrial_revitalization
+				bonus = 1.0
+				uses = 2
+				category = construction_tech
+			}
+		}
+	}
+	
 	focus = {
 		id = HUN_industrial_revitalization
 		icon = GFX_goal_generic_construction

@@ -546,6 +546,11 @@
  GER_volksturm:0 "Volkssturm"
  GER_volksturm_desc:0 "We shall form the Volkssturm, or peoples storm, to fight alongside the Wehrmacht. These troops will supply their own clothes and culinary equipment and will be sent almost immediately to the cities and frontlines to fiercely defend the Fatherland. ‘...if the enemy should break in somewhere, he will encounter such a fanatical people, fighting like mad to the end, that he will certainly not get through’"
 
+ ##### HUNGARY#####
+ HUN_upgrade_armaments:0 "Upgrade Effort"
+ HUN_upgrade_armaments_desc:0 "Our aircrafts have proven to be undergunned and lacking modern features. We must modernise our planes in order to keep control of the skies."
+ HUN_disunified_people:0 "A Disunified People"
+ HUN_disunified_people_desc:0 "The Trianon treaty has left the Hungarian people split and isolated in the former lands of the Empire. Our primary goal must be to see our people united under one flag once again."
  ##### ITALY #####
  italian_focus:0 "Italian National Focus"
  ITA_police:0 "Polizia Militare"
@@ -617,8 +622,6 @@
  ITA_g_centauro_desc:0 "The Fiat G.55 Centauro ("Centaur") was designed and built in Turin by Fiat. The Fiat G.55 was arguably the best type produced in Italy during World War II. After comparative tests against the Messerschmitt Bf 109G and the Focke-Wulf 190, the Luftwaffe itself regarded the Fiat G.55 as "the best Axis fighter"."
  ITA_upgrade_armaments:0 "Upgrade Effort"
  ITA_upgrade_armaments_desc:0 "Our aircrafts have proven to be undergunned and lacking modern features. We must modernise our planes in order to keep control of the skies."
- HUN_upgrade_armaments:0 "Upgrade Effort"
- HUN_upgrade_armaments_desc:0 "Our aircrafts have proven to be undergunned and lacking modern features. We must modernise our planes in order to keep control of the skies."
  ITA_Regio_Esercito:0 "Regio Esercito"
  ITA_Regio_Esercito_desc:0 "The royal army as never lost a war since its foundation. Despite being considered competent by the army staff, some have voiced concerns, we will soon need to make a choice between tradition or innovation."
  ITA_Artillery_Modernisation:0 "Artillery Modernisation"
