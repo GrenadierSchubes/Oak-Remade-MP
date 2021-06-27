@@ -220,7 +220,7 @@ instant_effect = { #player
     add_equipment_production = {
 		equipment = {
 			type = anti_tank_equipment_1
-			creator = "FRA" 
+			creator = "SAF" 
 		}
 		requested_factories = 1
 		progress = 0.3
