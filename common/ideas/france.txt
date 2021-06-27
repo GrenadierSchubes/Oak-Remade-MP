@@ -617,6 +617,10 @@ ideas = {
 					instant = yes
 					build_cost_ic = -0.05
 				}
+				tac_bomber_equipment = {
+					instant = yes
+					build_cost_ic = -0.05
+				}
 			}
 
 			modifier = {
@@ -2787,10 +2791,6 @@ ideas = {
 					build_cost_ic = -0.05
 				}
 				CAS_equipment = {
-					instant = yes
-					build_cost_ic = -0.05
-				}
-				tac_bomber_equipment = {
 					instant = yes
 					build_cost_ic = -0.05
 				}

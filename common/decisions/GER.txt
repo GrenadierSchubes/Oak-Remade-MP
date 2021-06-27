@@ -3583,7 +3583,7 @@ foreign_politics = {
 			}
 			MON = {
 				add_timed_idea = { idea = SOV_surprise_strike days = 120 }
-				add_timed_idea = { idea = Disorganized_Red_Army_3 days = 210 }
+				add_ideas = Disorganized_Red_Army_1
 			}
 			if = {
 				limit = {

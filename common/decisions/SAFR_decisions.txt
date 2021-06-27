@@ -41,9 +41,9 @@ SAFR_purchase_planes = {
 			tag = SAF
 			num_of_civilian_factories > 5
 			AND = {
-				ENG = { has_tech = eng_fighter_1936 }	
-				ENG = { has_tech = eng_CAS_1937 }
-				ENG = { has_tech = eng_naval_bomber_1936 }
+				SAF = { has_tech = eng_fighter_1936 }	
+				SAF = { has_tech = eng_CAS_1937 }
+				SAF = { has_tech = eng_naval_bomber_1936 }
 			}
 		}
 				
@@ -74,17 +74,17 @@ SAFR_purchase_planes = {
 			add_equipment_to_stockpile = {
 				type = fighter_equipment_1936
 				amount = 300
-				producer = ENG
+				producer = SAF
 			}
 			add_equipment_to_stockpile = {
 				type = CAS_equipment_1937
 				amount = 150
-				producer = ENG
+				producer = SAF
 			}
 			add_equipment_to_stockpile = {
 				type = nav_bomber_equipment_1936
 				amount = 150
-				producer = ENG
+				producer = SAF
 			}
 		}		
 	}
@@ -97,9 +97,9 @@ SAFR_purchase_planes = {
 			tag = SAF
 			num_of_civilian_factories > 2	
 			AND = {
-				ENG = { has_tech = eng_fighter_1936 }	
-				ENG = { has_tech = eng_CAS_1937 }
-				ENG = { has_tech = eng_naval_bomber_1936 }
+				SAF = { has_tech = eng_fighter_1936 }	
+				SAF = { has_tech = eng_CAS_1937 }
+				SAF = { has_tech = eng_naval_bomber_1936 }
 			}
 		}
 				
@@ -128,17 +128,17 @@ SAFR_purchase_planes = {
 			add_equipment_to_stockpile = {
 				type = fighter_equipment_1936
 				amount = 200
-				producer = ENG
+				producer = SAF
 			}
 			add_equipment_to_stockpile = {
 				type = CAS_equipment_1937
 				amount = 100
-				producer = ENG
+				producer = SAF
 			}
 			add_equipment_to_stockpile = {
 				type = nav_bomber_equipment_1936
 				amount = 100
-				producer = ENG
+				producer = SAF
 			}
 		}		
 	}
@@ -151,9 +151,9 @@ SAFR_purchase_planes = {
 			tag = SAF
 			num_of_civilian_factories > 1
 			AND = {
-				ENG = { has_tech = eng_fighter_1936 }	
-				ENG = { has_tech = eng_CAS_1937 }
-				ENG = { has_tech = eng_naval_bomber_1936 }
+				SAF = { has_tech = eng_fighter_1936 }	
+				SAF = { has_tech = eng_CAS_1937 }
+				SAF = { has_tech = eng_naval_bomber_1936 }
 			}	
 		}
 				
@@ -182,17 +182,17 @@ SAFR_purchase_planes = {
 			add_equipment_to_stockpile = {
 				type = fighter_equipment_1936
 				amount = 100
-				producer = ENG
+				producer = SAF
 			}
 			add_equipment_to_stockpile = {
 				type = CAS_equipment_1937
 				amount = 50
-				producer = ENG
+				producer = SAF
 			}
 			add_equipment_to_stockpile = {
 				type = nav_bomber_equipment_1936
 				amount = 50
-				producer = ENG
+				producer = SAF
 			}
 		}		
 	}
@@ -204,7 +204,7 @@ SAFR_purchase_planes = {
 		available = {
 			tag = SAF
 			num_of_civilian_factories > 1
-			ENG = { has_tech = eng_tactical_bomber_1934 }
+			SAF = { has_tech = eng_tactical_bomber_1936 }
 		}
 				
 		modifier = {
@@ -228,9 +228,9 @@ SAFR_purchase_planes = {
 		
 		remove_effect = {
 			add_equipment_to_stockpile = {
-				type = tac_bomber_equipment_1934
+				type = tac_bomber_equipment_1936
 				amount = 100
-				producer = ENG
+				producer = SAF
 			}
 		}		
 	}

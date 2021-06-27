@@ -167,7 +167,7 @@ instant_effect = { #player
 			type = infantry_equipment_1
 			creator = "SAF"
 		}
-		requested_factories = 5
+		requested_factories = 4
 		progress = 0.73
 		efficiency = 15
 	}
@@ -217,7 +217,15 @@ instant_effect = { #player
 		progress = 0.73
 		efficiency = 15
 	}
-	
+    add_equipment_production = {
+		equipment = {
+			type = anti_tank_equipment_1
+			creator = "FRA" 
+		}
+		requested_factories = 1
+		progress = 0.3
+		efficiency = 15
+	}	
 	
 	#################### stockpile 
 	add_equipment_to_stockpile = {

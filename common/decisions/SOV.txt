@@ -5374,6 +5374,12 @@ SOV_great_patriotic_war = {
 				remove_idea = Disorganized_Red_Army_1
 				add_idea = Disorganized_Red_Army_2
 			}
+			MON = {
+				swap_ideas = {
+					remove_idea = Disorganized_Red_Army_1
+					add_idea = Disorganized_Red_Army_2
+				}
+			}
 		}
 	}
 
@@ -5412,6 +5418,12 @@ SOV_great_patriotic_war = {
 			swap_ideas = {
 				remove_idea = Disorganized_Red_Army_2
 				add_idea = Disorganized_Red_Army_3
+			}
+			MON = {
+				swap_ideas = {
+					remove_idea = Disorganized_Red_Army_2
+					add_idea = Disorganized_Red_Army_3
+				}
 			}
 		}
 	}
@@ -5453,6 +5465,12 @@ SOV_great_patriotic_war = {
 				remove_idea = Disorganized_Red_Army_3
 				add_idea = Disorganized_Red_Army_4
 			}
+			MON = {
+				swap_ideas = {
+					remove_idea = Disorganized_Red_Army_3
+					add_idea = Disorganized_Red_Army_4
+				}
+			}
 		}
 	}
 
@@ -5492,6 +5510,12 @@ SOV_great_patriotic_war = {
 			swap_ideas = {
 				remove_idea = Disorganized_Red_Army_4
 				add_idea = Disorganized_Red_Army_5
+			}
+			MON = {
+				swap_ideas = {
+					remove_idea = Disorganized_Red_Army_4
+					add_idea = Disorganized_Red_Army_5
+				}
 			}
 		}
 	}
@@ -5538,6 +5562,9 @@ SOV_great_patriotic_war = {
 		    custom_effect_tooltip = SOV_guards_divs_tt
 			hidden_effect = {
 			load_oob = SOV_guards_divs
+			}
+			MON = {
+				if = { limit = { has_idea = Disorganized_Red_Army_5 } remove_ideas = Disorganized_Red_army_5 }
 			}
 		}
 	}
@@ -5687,6 +5714,28 @@ SOV_great_patriotic_war = {
 				limit = { has_idea = Disorganized_Red_Army_1 }
 				remove_ideas = Disorganized_Red_Army_1
 	  		}
+			MON = {
+				if = {
+					limit = { has_idea = Disorganized_Red_Army_5 }
+					remove_ideas = Disorganized_Red_Army_5
+				}
+				if = {
+					limit = { has_idea = Disorganized_Red_Army_4 }
+					remove_ideas = Disorganized_Red_Army_4
+				}
+				if = {
+					limit = { has_idea = Disorganized_Red_Army_3 }
+					remove_ideas = Disorganized_Red_Army_3
+				}
+				if = {
+					limit = { has_idea = Disorganized_Red_Army_2 }
+					remove_ideas = Disorganized_Red_Army_2 
+				}
+				if = {
+					limit = { has_idea = Disorganized_Red_Army_1 }
+					remove_ideas = Disorganized_Red_Army_1
+	  			}
+			}
 	    }
 	}
 }

@@ -41,7 +41,7 @@ focus_tree = {
 
 		available = {
 			OR = {
-				threat > 0.1
+				threat > 0.2
 				has_completed_focus = SAF_force_parliament_debate
 			}
 		}
@@ -973,6 +973,10 @@ focus_tree = {
 		ai_will_do = {
 			factor = 2
 		}
+		
+		bypass = {
+			has_completed_focus = SAF_hofmeyrs_reforms
+		}
 
 		available = {
 		    AND = {
@@ -1439,7 +1443,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = SAF_support_the_policy_of_appeasement
 
-		cost = 7.16
+		cost = 3
 
 		ai_will_do = {
 			factor = 1
@@ -1469,7 +1473,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = SAF_voortrekker_monument
 
-		cost = 5
+		cost = 3
 
 		ai_will_do = {
 			factor = 1
@@ -1499,7 +1503,7 @@ focus_tree = {
 		y = 2
 		relative_position_id = SAF_voortrekker_monument
 
-		cost = 5
+		cost = 3
 
 		ai_will_do = {
 			factor = 1
@@ -2104,6 +2108,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
+		    add_ideas = FRA_air_dominance
 			add_tech_bonus = {
 				name = SAFR_expand_artillery_aircraft_depot
 				bonus = 1.0

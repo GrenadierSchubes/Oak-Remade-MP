@@ -1629,16 +1629,7 @@ USA_unique_measures = {
 		available = {
 			has_war_with = GER
 			country_exists = EFR
-			EFR = { has_war = no }
-			if = {
-				limit = {
-					USA = {	is_ai = no }
-				}
-				ships_in_area	 = {
-				size > 49
-				area  = 48
-				}
-			}			
+			EFR = { has_war = no }		
 		}
 		
 		days_remove = 14

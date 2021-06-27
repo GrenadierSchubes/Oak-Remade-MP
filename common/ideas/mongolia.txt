@@ -42,7 +42,7 @@ ideas = {
 			modifier = {
 			    winter_attrition_factor = -0.4
 				acclimatization_cold_climate_gain_factor = 0.2
-				supply_consumption_factor = -0.2
+				supply_consumption_factor = -0.35
 				training_time_factor = -0.1 
 				special_forces_cap = 0.1
 			}
