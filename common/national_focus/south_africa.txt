@@ -452,8 +452,8 @@ focus_tree = {
 		bypass = {
 		}
 
-		cancel_if_invalid = yes
-		continue_if_invalid = no
+		cancel_if_invalid = no
+		continue_if_invalid = yes
 		available_if_capitulated = no
 
 		completion_reward = {			
@@ -1307,7 +1307,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = SAF_native_representation_act
 
-		cost = 10
+		cost = 7.16
 
 		ai_will_do = {
 			factor = 1
@@ -1338,7 +1338,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = SAF_native_laws_amendment_act
 
-		cost = 10
+		cost = 7.16
 
 		ai_will_do = {
 			factor = 1
@@ -1372,7 +1372,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = SAF_work_for_all_poor
 
-		cost = 10
+		cost = 7.16
 
 		ai_will_do = {
 			factor = 1
@@ -1574,7 +1574,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = SAF_relax_worker_restrictions
 
-		cost = 10
+		cost = 7.16
 
 		ai_will_do = {
 			factor = 2
@@ -1607,7 +1607,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = SAF_relax_worker_restrictions
 
-		cost = 10
+		cost = 7.16
 
 		ai_will_do = {
 			factor = 2
@@ -1644,7 +1644,7 @@ focus_tree = {
 		y = 2
 		relative_position_id = SAF_relax_worker_restrictions
 
-		cost = 10
+		cost = 7.16
 
 		ai_will_do = {
 			factor = 2

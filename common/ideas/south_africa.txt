@@ -710,7 +710,7 @@ ideas = {
 			picture = NOR_planned_economy
 
 			modifier = {
-				consumer_goods_factor = 0.02
+				consumer_goods_factor = -0.03
 				production_speed_buildings_factor = 0.125
 				production_factory_start_efficiency_factor = 0.1
 				production_factory_efficiency_gain_factor = 0.05
@@ -2192,7 +2192,7 @@ ideas = {
 			available = {
 			}
 			
-			traits = { popular_figurehead } 
+			traits = { technocrat } 
 		}
 		
 		SAF_zacharias_richard_mahabane = {
