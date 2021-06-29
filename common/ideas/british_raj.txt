@@ -537,29 +537,6 @@ ideas = {
 			
 		}
 
-		RAJ_army_corruption_3 = {
-
-			picture = chi_army_corruption3
-
-			name = CHI_army_corruption
-		
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			research_bonus = {
-				land_doctrine = -0.05
-			}
-			
-
-			removal_cost = -1
-			
-		}
-
 		RAJ_agrarian_society = {
 
 			picture = generic_agrarian_society
