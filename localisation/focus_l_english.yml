@@ -3263,7 +3263,7 @@ FIN_further_artillery_support_desc:0 "Artillery support has proven invaluable to
  RAJ_cripps_mission_desc:0 "Cripps has been sent to the RAJ to deal with the indepence movement growing there."
  RAJ_logistics_elephants:0 "Logistics Elephants"
  RAJ_logistics_elephants_desc:0 "Absolute units will help us carry supplies where puny horsies and trucks would struggle."
- RAJ_attract_british_investors:0 "Attract British Influence"
+ RAJ_attract_british_investors:0 "Attract Commonwealth Influence"
  RAJ_attract_british_investors_desc:0 "By attracting the money of British investors, domestic industries and businesses will grow more steadily and in return the Raj will become more prosperous."
  RAJ_british_loans_for_heavy_industry:0 "British Loans for Heavy Industry"
  RAJ_british_loans_for_heavy_industry_desc:0 "The British have been looking for opportunities to expand their domestic industry, but instead we can present them with an untapped well of industrial potential. If they strengthen us, they strengthen themselves."
@@ -3304,8 +3304,7 @@ FIN_further_artillery_support_desc:0 "Artillery support has proven invaluable to
  RAJ_malayan_developments_desc:0 "More development in Malaya."
  RAJ_kuwait_development:0 "Kuwait Developments"
  RAJ_kuwait_development_desc:0 "More development in Kuwait."
- RAJ_oman_development:0 "Oman Development"
- RAJ_oman_development:0 "More development in Oman."
+ RAJ_arabia_development:0 "Arabian Development"
  RAJ_kuwait_oil_exploitation:0 "Kuwait Oil Exploitation"
  RAJ_kuwait_oil_exploitation_desc:0 "The middle east might be a barren wasteland, but underneath the sands a hidden precious resource lies waiting, oil."
  RAJ_singapore_developments:0 "Singapore Development"
@@ -3359,8 +3358,8 @@ FIN_further_artillery_support_desc:0 "Artillery support has proven invaluable to
  RAJ_bombay_infrastructure_desc:0 "Bombay a vast and prosperous town in the south western part of our country. We must ensure we give it the space and infrastructure to continue growing and prospering. Clearly a ambitious electrification program will accomplish this goal."
  RAJ_bombay_shipyards:0 "Bombay Shipyards"
  RAJ_bombay_shipyards_desc:0 "We must expand the Bombay shipyards to help us defend the vast coastline of India."
- RAJ_east_indian_railways:0 "East Indian Railways"
- RAJ_east_indian_railways_desc:0 "We must expand our railways to Burma to connect the the population of Burma to India and to ensure proper supply lines through the harsh jungles of Burma."
+ RAJ_central_indian_railways:0 "Central Indian Railways"
+ RAJ_central_indian_railways_desc:0 "We must expand our railways to connect the the population of India and to ensure proper supply lines."
  
  #### FREEEEEEDOM ####
  
