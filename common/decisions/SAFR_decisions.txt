@@ -7,6 +7,7 @@ SAF_a_king_for_our_people = {
 		available = {
 			tag = SAF
 			custom_trigger_tooltip = {
+			    NOT = { has_completed_focus = SAF_hofmeyrs_reforms }
 				ENG = { has_completed_focus = ENG_force_abdication } 
 				tooltip = SAF_a_king_for_our_people_trigger_tt					
 			}	
@@ -829,13 +830,12 @@ SAFR_building_surface_fleet = {
 		
 		available = {
 			tag = SAF
-			num_of_civilian_factories > 14
-			num_of_military_factories > 10
-			num_of_naval_factories > 6
+			num_of_civilian_factories > 10
+			num_of_naval_factories > 3
 		}
 				
 		modifier = {
-			civilian_factory_use = 10
+			civilian_factory_use = 7
 		}
 		
 		cost = 100
@@ -857,18 +857,18 @@ SAFR_building_surface_fleet = {
 		
 		remove_effect = {
 			681 = {
-				add_extra_state_shared_building_slots = 3
+				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = dockyard
-					level = 3
+					level = 2
 					instant_build = yes
 				}
 			}	
 			719 = {
-				add_extra_state_shared_building_slots = 3
+				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = dockyard
-					level = 3
+					level = 2
 					instant_build = yes
 				}
 			}
