@@ -2166,9 +2166,9 @@ focus_tree = {
 			focus = SOV_eastern_security
 		}
 		continue_if_invalid = yes
-		x = -1
+		x = 0
 		y = 1
-		cost = 3
+		cost = 5
 		ai_will_do = {
 			factor = 1
 		}
@@ -2191,60 +2191,6 @@ focus_tree = {
 				logistics_skill = 5
 			}
 		}
-	}
-
-	focus = {
-		id = SOV_execute_zhukov_and_annex_mongolia
-		icon = GFX_SOV_operation_luna
-		relative_position_id = SOV_eastern_security 
-		prerequisite = { focus = SOV_eastern_security }
-		search_filters = {FOCUS_FILTER_ANNEXATION}
-		available = {
-		}
-
-		continue_if_invalid = yes
-		x = 1
-		y = 1
-		cost = 3
-		ai_will_do = {
-			factor = 1
-		}
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			MON = {
-				add_equipment_to_stockpile = {
-					type = infantry_equipment
-					amount = 1000
-					producer = SOV
-				}
-				287 = {
-					add_extra_state_shared_building_slots = 2
-					add_building_construction = {
-						type = industrial_complex
-						level = 2
-						instant_build = yes
-					}
-				}
-				759 = {
-					add_extra_state_shared_building_slots = 1
-					add_building_construction = {
-						type = arms_factory
-						level = 1
-						instant_build = yes
-					}
-				}
-				760 = {
-					add_extra_state_shared_building_slots = 1
-					add_building_construction = {
-						type = arms_factory
-						level = 1
-						instant_build = yes
-					}
-				}				
-			}
-		}	
 	}	
 
 	focus = {

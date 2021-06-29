@@ -41,7 +41,6 @@ ai_historical_focus_list_SOV = {
 		SOV_cult_of_stalin
 		SOV_eastern_security
 		SOV_hero_of_the_union
-		SOV_execute_zhukov_and_annex_mongolia
 		SOV_production_targets
 		SOV_3_5_plan_phase_1_MIC
 		SOV_3_5_plan_magnitogorsk

@@ -9,7 +9,7 @@ ideas = {
 				original_tag = IRE
 			}
 			
-			traits = { armaments_organizer }
+			traits = { captain_of_industry }
 		}
 	}
 		country = {

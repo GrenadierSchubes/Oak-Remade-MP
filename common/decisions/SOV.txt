@@ -5743,6 +5743,73 @@ SOV_great_patriotic_war = {
 
 
 operations = {
+	SOV_develop = {
+
+		icon = generic_industry
+
+		allowed = {
+			original_tag = SOV
+		}
+
+		available = {
+			date > 1938.6.1		
+		}
+
+		visible = {
+		}
+
+		cost = 25
+		
+		ai_will_do = {
+			factor = 50
+
+			modifier = {
+				factor = 0.5
+				has_war_support > 0.6
+			}
+
+			modifier = {
+				factor = 2
+				has_war_with = CHI
+			}
+		}
+
+		fire_only_once = yes
+
+		complete_effect = {
+			MON = {
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = 1000
+					producer = SOV
+				}
+				287 = {
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = industrial_complex
+						level = 2
+						instant_build = yes
+					}
+				}
+				759 = {
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = arms_factory
+						level = 1
+						instant_build = yes
+					}
+				}
+				760 = {
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = arms_factory
+						level = 1
+						instant_build = yes
+					}
+				}				
+			}
+		}
+	}
 	SOV_sealion = {
 
 		icon = generic_industry

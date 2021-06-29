@@ -22,6 +22,9 @@
  GER_sci:0 "Form Faction Tech Sharing Group"
  JAP_sci:0 "Form Faction Tech Sharing Group"
  USA_sci:0 "Form Faction Tech Sharing Group"
+ 
+ SOV_develop:0 "Develop Mongolia"
+ SOV_develop_desc: "Mongolia needs some help in meeting our production quotas." 
 
  FRA_war_on_pacifism:0 "War on Pacifism"
  FRA_war_on_pacifism_desc:0 "Having emerged victorious from the Great War at a terrible price, the people of France have no desire for a future conflict. Thus the army has developed a dangerously complacent attitude which has caused strategic developments to come slowly and with some reluctance."

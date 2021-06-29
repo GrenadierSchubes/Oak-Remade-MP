@@ -2448,7 +2448,7 @@ ideas = {
 		generic_war_industrialist = {
 
 			allowed = {
-				OR = { original_tag = ETH tag = FIN original_tag = NZL original_tag = MAN original_tag = SIA original_tag = PHI original_tag = BEL original_tag = NOR original_tag = YUG original_tag = SWE original_tag = KOR original_tag = SER   original_tag = LEB original_tag = EGY  original_tag = CRO  original_tag = INS original_tag = MAL  original_tag = UKR     original_tag = MNT original_tag = LIB  original_tag = MON }
+				OR = { original_tag = ETH original_tag = CZE original_tag = IRE tag = FIN original_tag = NZL original_tag = MAN original_tag = SIA original_tag = PHI original_tag = BEL original_tag = NOR original_tag = YUG original_tag = SWE original_tag = KOR original_tag = SER   original_tag = LEB original_tag = EGY  original_tag = CRO  original_tag = INS original_tag = MAL  original_tag = UKR     original_tag = MNT original_tag = LIB  original_tag = MON }
 			}
 			
 			traits = { war_industrialist }
