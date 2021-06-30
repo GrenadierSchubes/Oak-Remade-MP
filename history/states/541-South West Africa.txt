@@ -4,12 +4,16 @@ state={
 	name="STATE_541"
 	manpower = 462000
 	
-	state_category = pastoral
+	state_category = rural
+	
+	resources={
+		oil=12
+	}
 
 	history={
 		owner = SAF
 		buildings = {
-			infrastructure = 4
+			infrastructure = 5
 			industrial_complex = 3
 			dockyard = 1
 		}
