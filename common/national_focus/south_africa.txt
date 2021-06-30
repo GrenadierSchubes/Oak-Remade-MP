@@ -432,7 +432,9 @@ focus_tree = {
 				}
 				OR = {
 					threat > 0.1
+					has_war = yes
 					ENG = { has_completed_focus = ENG_containment }
+					GER = { has_completed_focus = GER_end_of_czechoslovakia } 
 				}
 			}
 			if = {
@@ -441,7 +443,8 @@ focus_tree = {
 				}
 				OR = {
 					threat > 0.25
-					ENG = { has_completed_focus = ENG_containment }
+					has_war = yes
+					GER = { has_completed_focus = GER_end_of_czechoslovakia }
 				}
 			}
 		}
@@ -580,8 +583,7 @@ focus_tree = {
 		available = {
 			AND = {
 				has_idea = SAF_jan_hendrik_hofmeyr
-				NOT = { has_completed_focus = SAF_native_representation_act }
-                NOT = { has_idea = SAF_king_edward }				
+				NOT = { has_completed_focus = SAF_native_representation_act } 
 			}	  
 		}
 		
@@ -706,7 +708,7 @@ focus_tree = {
 					traits = { desert_fox panzer_leader trait_engineer }
 					skill = 4
 					attack_skill = 4
-					defense_skill = 4
+					defense_skill = 3
 					planning_skill = 3
 					logistics_skill = 5
 				}
@@ -752,7 +754,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_timed_idea = { idea = SAF_idea_reconciliation days = 120 }			 
+			add_timed_idea = { idea = SAF_idea_reconciliation days = 100 }			 
 		}
 	}
 	
@@ -781,7 +783,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {		
-			add_timed_idea = { idea = SAF_expanding_workforce days = 180 }
+			add_timed_idea = { idea = SAF_expanding_workforce days = 100 }
 		}
 	}
 	
@@ -877,13 +879,13 @@ focus_tree = {
 
 		completion_reward = {
 			275 = {
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 1
 			}
 			681 = {
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 1
 			}
 			719 = {
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 1
 			}
 		}
 	}
@@ -1708,7 +1710,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = SAF_special_service_battalion
 
-		cost = 7.16
+		cost = 10
 
 		ai_will_do = {
 			factor = 2
@@ -1755,7 +1757,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = SAF_special_service_battalion
 
-		cost = 7.16
+		cost = 10
 
 		ai_will_do = {
 			factor = 1
@@ -1802,7 +1804,7 @@ focus_tree = {
 		y = 2
 		relative_position_id = SAF_special_service_battalion
 
-		cost = 7.16
+		cost = 10
 
 		ai_will_do = {
 			factor = 1
@@ -1839,7 +1841,7 @@ focus_tree = {
 		y = 2
 		relative_position_id = SAF_special_service_battalion
 
-		cost = 7.16
+		cost = 10
 
 		ai_will_do = {
 			factor = 1
@@ -1879,7 +1881,7 @@ focus_tree = {
 		y = 3
 		relative_position_id = SAF_special_service_battalion
 
-		cost = 7.16
+		cost = 10
 
 		ai_will_do = {
 			factor = 1
@@ -1922,7 +1924,7 @@ focus_tree = {
 		y = 4
 		relative_position_id = SAF_special_service_battalion
 
-		cost = 7.16
+		cost = 10
 
 		ai_will_do = {
 			factor = 1
@@ -1965,7 +1967,7 @@ focus_tree = {
 		y = 4
 		relative_position_id = SAF_special_service_battalion
 
-		cost = 7.16
+		cost = 10
 
 		ai_will_do = {
 			factor = 1
@@ -2087,7 +2089,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = SAF_commit_to_the_five_year_plan
 
-		cost = 7.16
+		cost = 10
 
 		ai_will_do = {
 			factor = 2
@@ -2125,7 +2127,7 @@ focus_tree = {
 		y = 2
 		relative_position_id = SAF_commit_to_the_five_year_plan
 
-		cost = 7.16
+		cost = 10
 
 		ai_will_do = {
 			factor = 1
@@ -2162,7 +2164,7 @@ focus_tree = {
 		y = 2
 		relative_position_id = SAF_commit_to_the_five_year_plan
 
-		cost = 7.16
+		cost = 10
 
 		ai_will_do = {
 			factor = 1
@@ -2206,7 +2208,7 @@ focus_tree = {
 		relative_position_id = SAF_commit_to_the_five_year_plan
 
 
-		cost = 7.16
+		cost = 10
 
 		ai_will_do = {
 			factor = 1
@@ -2245,7 +2247,7 @@ focus_tree = {
 		relative_position_id = SAF_commit_to_the_five_year_plan 
 
 
-		cost = 7.16
+		cost = 10
 
 		ai_will_do = {
 			factor = 1
@@ -3308,10 +3310,7 @@ focus_tree = {
 		}
 
 		available = {
-		    OR = {
-				has_war = yes
-				has_completed_focus = SAF_force_parliament_debate
-			}
+			has_war = yes
 		}
 		
 		bypass = {

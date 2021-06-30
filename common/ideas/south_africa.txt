@@ -220,7 +220,7 @@ ideas = {
 			modifier = {
 				industrial_capacity_factory = 0.06
 				industrial_capacity_dockyard = 0.06
-				consumer_goods_factor = -0.02
+				consumer_goods_factor = -0.03
 				production_speed_buildings_factor = 0.1
 			}
 
@@ -478,8 +478,7 @@ ideas = {
 			picture = generic_goods_red_bonus
 
 			modifier = {
-				consumer_goods_factor = -0.09
-				production_speed_buildings_factor = 0.05
+				consumer_goods_factor = -0.08
 				production_speed_infrastructure_factor = 0.1			
 			}
 
@@ -647,7 +646,7 @@ ideas = {
 			picture = man_five_year_plan_tank
 
 			modifier = {
-				production_speed_arms_factory_factor = 0.15
+				production_speed_arms_factory_factor = 0.1
 				production_speed_dockyard_factor = 0.1
 				production_factory_efficiency_gain_factor = 0.075 
 			}
@@ -712,10 +711,10 @@ ideas = {
 
 			modifier = {
 				consumer_goods_factor = -0.03
-				production_speed_buildings_factor = 0.075
+				production_speed_buildings_factor = 0.125
 				production_factory_start_efficiency_factor = 0.1
 				production_factory_efficiency_gain_factor = 0.05
-				global_building_slots_factor = 0.10
+				global_building_slots_factor = 0.20
 			}
 
 		}
