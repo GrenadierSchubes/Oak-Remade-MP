@@ -733,8 +733,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				recruitable_population = 0.10
-				industrial_capacity_factory = 0.05
+				recruitable_population = 0.15
 				production_speed_buildings_factor = 0.05
 			}
 		}
@@ -753,8 +752,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				recruitable_population = 0.10
-				industrial_capacity_factory = 0.05
+				recruitable_population = 0.15
 				production_speed_buildings_factor = 0.05
 			}
 		}
