@@ -718,7 +718,48 @@ ideas = {
 				production_speed_infrastructure_factor = 0.20
 			}
 		}
+		
+		RAJ_commits_africa_idea = {
+			picture = SPR_anarchist_public_transport
+			name = RAJ_commits_africa_idea
+			allowed = {
+				original_tag = SAF
+			}
 			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				recruitable_population = 0.10
+				industrial_capacity_factory = 0.05
+				production_speed_buildings_factor = 0.05
+			}
+		}
+		
+		RAJ_commits_asia_idea = {
+			picture = SPR_anarchist_public_transport
+			name = RAJ_commits_asia_idea
+			allowed = {
+				original_tag = AST
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				recruitable_population = 0.10
+				industrial_capacity_factory = 0.05
+				production_speed_buildings_factor = 0.05
+			}
+		}
+			
+		
 		RAJ_corruption_countdown = {
 			picture = chi_hyper_inflation
 

@@ -358,7 +358,7 @@ focus_tree = {
 		prerequisite = { focus = RAJ_adopt_the_british_teaching_method }
 		relative_position_id = RAJ_adopt_the_british_teaching_method
 		x = 0
-		y = 1
+		y = 2
 
 		cost = 7.145
 
@@ -367,7 +367,7 @@ focus_tree = {
 		}
 
 		available = {
-		
+			
 		}
 
 		bypass = {
@@ -1081,7 +1081,7 @@ focus_tree = {
 		relative_position_id = RAJ_malayan_developments
 		prerequisite = { focus = RAJ_malayan_developments }
 		x = 0
-		y = 1
+		y = 3
 
 		cost = 5
 
@@ -1274,7 +1274,7 @@ focus_tree = {
 		relative_position_id = RAJ_arabia_development
 		prerequisite = { focus = RAJ_arabia_development }
 		x = 0
-		y = 1
+		y = 3
 
 		cost = 5
 
@@ -1344,6 +1344,126 @@ focus_tree = {
 				state = 656
 			}
 		}		
+	}
+	
+	focus = {
+		id = RAJ_commit_to_africa
+		icon = GFX_focus_usa_focus_on_europe
+		relative_position_id = RAJ_attract_british_investors
+		prerequisite = { focus = RAJ_send_our_students_abroad focus = RAJ_foreign_investment_in_madurai focus = RAJ_wartime_infrastructure_singapore focus = RAJ_kuwait_development }
+		mutually_exclusive = { focus = RAJ_commit_to_asia }
+		x = -1
+		y = 5
+		
+		cost = 5
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			has_war = yes
+		}
+
+		bypass = {
+		
+		}
+		
+		cancel_if_invalid = yes
+        continue_if_invalid = no
+        available_if_capitulated = yes
+		
+		completion_reward = {
+			
+			add_offsite_building = {
+				type = arms_factory
+				level = 4
+			}
+			SAF = { add_ideas = RAJ_commits_africa_idea }
+			SAF = { add_manpower = 80000 }
+			SAF = {
+				275 = {
+                    add_building_construction = {
+                    type = infrastructure
+                    level = 2
+                    instant_build = yes
+                    }
+				}
+				719 = {
+                    add_building_construction = {
+                    type = infrastructure
+                    level = 2
+                    instant_build = yes
+                    }
+				}
+				681 = {
+                    add_building_construction = {
+                    type = infrastructure
+                    level = 2
+                    instant_build = yes
+                    }
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = RAJ_commit_to_asia
+		icon = GFX_focus_usa_focus_on_asia
+		relative_position_id = RAJ_attract_british_investors
+		prerequisite = { focus = RAJ_send_our_students_abroad focus = RAJ_foreign_investment_in_madurai focus = RAJ_wartime_infrastructure_singapore focus = RAJ_kuwait_development }
+		mutually_exclusive = { focus = RAJ_commit_to_africa }
+		x = 1
+		y = 5
+	
+		cost = 5
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			has_war = yes
+		}
+
+		bypass = {
+		}
+		
+		cancel_if_invalid = yes
+        continue_if_invalid = no
+        available_if_capitulated = yes
+		
+		completion_reward = {
+			add_offsite_building = {
+				type = arms_factory
+				level = 4
+			}
+			AST = { add_ideas = RAJ_commits_asia_idea }
+			AST = { add_manpower = 80000 }
+			AST = {
+				285 = {
+                    add_building_construction = {
+                    type = infrastructure
+                    level = 2
+                    instant_build = yes
+                    }
+				}
+				521 = {
+                    add_building_construction = {
+                    type = infrastructure
+                    level = 2
+                    instant_build = yes
+                    }
+				}
+				520 = {
+                    add_building_construction = {
+                    type = infrastructure
+                    level = 2
+                    instant_build = yes
+                    }
+				}
+			}
+		}
 	}
 	
 	focus = {
