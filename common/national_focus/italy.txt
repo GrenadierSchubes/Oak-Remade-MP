@@ -1225,7 +1225,7 @@ focus_tree = {
 						motorized = { x = 2 y = 0 }
 						motorized = { x = 2 y = 1 }
 						motorized = { x = 2 y = 2 }
-						armored_car = { x = 2 y = 3 }
+						motorized = { x = 2 y = 3 }
 						
 						artillery_brigade_mot = { x = 3 y = 0 }
 						artillery_brigade_mot = { x = 3 y = 1 }
@@ -1629,23 +1629,23 @@ focus_tree = {
 					priority = 2
 					
 					regiments = {
-						light_armor = { x = 0 y = 0 }
-						light_armor = { x = 0 y = 1 }
+						medium_armor = { x = 0 y = 0 }
+						medium_armor = { x = 0 y = 1 }
 						medium_armor = { x = 0 y = 2 }
 						medium_armor = { x = 0 y = 3 }
 		
-						motorized = { x = 1 y = 0 }
-						motorized = { x = 1 y = 1 }
-						motorized = { x = 1 y = 2 }
-						armored_car = { x = 1 y = 3 }
+						medium_armor = { x = 1 y = 0 }
+						medium_armor = { x = 1 y = 1 }
+						medium_armor = { x = 1 y = 2 }
+						medium_armor = { x = 1 y = 3 }
 		
 						motorized = { x = 2 y = 0 }
 						motorized = { x = 2 y = 1 }
-						armored_car = { x = 2 y = 2 }
+						motorized = { x = 2 y = 2 }
 
-						artillery_brigade_mot = { x = 3 y = 0 }
-						artillery_brigade_mot = { x = 3 y = 1 }
-						anti_tank_brigade_mot =  { x = 3 y = 2 }
+						motorized = { x = 3 y = 0 }
+						motorized = { x = 3 y = 1 }
+						motorized =  { x = 3 y = 2 }
 						anti_air_mot = { x = 3 y = 3 }
 					}
 					
@@ -1723,7 +1723,6 @@ focus_tree = {
 		cost = 7.145
 		available = { 
 			arms_factory > 99
-			synthetic_refinery > 9
 			has_army_manpower = { size > 1000000 }			
 		}
 	
@@ -1798,7 +1797,6 @@ focus_tree = {
 		y = 9 
 		cost = 7.145
 		available = { 
-			synthetic_refinery > 11
 			has_navy_size = {
 				archetype = ship_hull_heavy
 				size > 7

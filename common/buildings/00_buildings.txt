@@ -118,7 +118,7 @@ buildings = {
 	}
 	synthetic_refinery = {
 		show_on_map = 1
-		base_cost = 10000
+		base_cost = 10500
 		icon_frame = 10
 		refinery = yes
 		max_level = 3 
@@ -126,7 +126,7 @@ buildings = {
 		value = 5
 		infrastructure_construction_effect = yes
 		show_modifier = yes
-		fuel_gain_from_states = 3.0			 
+		fuel_gain_from_states = 4.0			 
 	}
 	fuel_silo = {
 		show_on_map = 1

@@ -67,7 +67,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = SAF_war_measures_act
 
-		cost = 7.16
+		cost = 5
 
 		ai_will_do = {
 			factor = 1
@@ -98,7 +98,7 @@ focus_tree = {
 		y = 2
 		relative_position_id = SAF_war_measures_act
 
-		cost = 5
+		cost = 3
 
 		ai_will_do = {
 			factor = 1
@@ -897,7 +897,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = SAF_war_measures_act
 
-		cost = 7.16
+		cost = 5
 
 		ai_will_do = {
 			factor = 1
@@ -933,7 +933,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = SAF_csir
 
-		cost = 5
+		cost = 3
 
 		ai_will_do = {
 			factor = 2
@@ -983,7 +983,7 @@ focus_tree = {
                     NOT = { has_completed_focus = SAF_force_parliament_debate }	
                     AND = {
 					    has_completed_focus = SAF_force_parliament_debate
-						date > 1939.1.1	
+						date > 1938.7.1	
                     }					
 				}
 			}
@@ -1825,8 +1825,7 @@ focus_tree = {
 				name = SAF_q_services_corps
 				bonus = 1.0
 				uses = 2
-				technology = motorised_infantry
-				category = logistics_tech
+				category = motorized_equipment
 			}
 		}
 	}

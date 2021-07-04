@@ -164,6 +164,9 @@ political_actions = {
 			NOT = {
 				tag = MON
 			}
+			NOT = {
+				tag = SAF
+			}
 		}
 	}
 }

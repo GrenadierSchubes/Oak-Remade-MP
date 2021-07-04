@@ -711,7 +711,7 @@ ideas = {
 			picture = NOR_planned_economy
 
 			modifier = {
-				consumer_goods_factor = -0.03
+				consumer_goods_factor = -0.02
 				production_speed_buildings_factor = 0.075
 				production_factory_start_efficiency_factor = 0.1
 				production_factory_efficiency_gain_factor = 0.05
@@ -735,6 +735,7 @@ ideas = {
 
 			modifier = {
 				local_resources_factor = 0.1
+				industrial_capacity_factory = 0.05
 			}
 			research_bonus = {
 				industry = 0.1

@@ -878,8 +878,6 @@
 		completion_reward = {
 			add_ideas = ROM_industrialization_1
 			remove_ideas = ROM_agrarian_economy
-			add_ideas = closed_economy
-			add_ideas = isolation
 		}
 	}
 
@@ -911,6 +909,10 @@
 				}
 				add_resource = {
 					type = steel
+					amount = 30 
+				}
+				add_resource = {
+					type = chromium
 					amount = 20 
 				}
 			}
@@ -1022,7 +1024,7 @@
 		x = 1
 		y = 1
 		relative_position_id = ROM_improve_living_standards
-		cost = 20
+		cost = 15
 
 		available_if_capitulated = yes
 
@@ -1062,7 +1064,8 @@
 					instant_build = yes 
 				}
 			}
-			add_ideas = civilian_economy
+			add_ideas = partial_economic_mobilisation
+			add_ideas = ROM_nomoreoil
 			remove_ideas = ROM_the_resource_curse_1
 			remove_ideas = ROM_industrialization_4 
  		}

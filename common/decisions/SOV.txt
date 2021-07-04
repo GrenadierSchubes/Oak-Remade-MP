@@ -6607,7 +6607,7 @@ SOV_5_year_plan_decisions = {
 		icon = generic_construction
 
 		available = {
-			has_deployed_air_force_size = {
+		    has_deployed_air_force_size = {
 			    size > 1499
 			    type = fighter
 			}
@@ -6621,7 +6621,7 @@ SOV_5_year_plan_decisions = {
 			has_completed_focus = SOV_ilyushin_CAS
 		}
 
-		days_mission_timeout = 700
+		days_mission_timeout = 900
 		is_good = no
 		fire_only_once = yes
 

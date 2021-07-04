@@ -1,6 +1,34 @@
 ideas = {
 
 	country = {
+        ROM_nomoreoil = { 
+
+			picture = generic_goods_red_bonus
+
+			removal_cost = -1
+			
+			allowed = {
+				original_tag = ROM
+			}
+
+			allowed_civil_war = {
+			}
+			
+			research_bonus = {
+				industry = 0.05
+			}
+			
+			modifier = {
+				stability_factor = 0.1
+				local_resources_factor = 0.1
+				consumer_goods_factor = -0.05
+				industrial_capacity_factory = 0.1
+				production_factory_max_efficiency_factor = 0.1
+				production_speed_buildings_factor = 0.1
+				min_export = 0.2
+			}
+		}
+		
 		ROM_the_resource_curse_1 = { #The Oil Must Flow 
 
 			picture = ROM_the_resource_curse
@@ -386,7 +414,7 @@ ideas = {
 
 			name = SPA_national_recovery
 
-			picture = SPA_national_recovery
+			picture = generic_agrarian_society
 
 			allowed = {
 				original_tag = ROM
@@ -400,8 +428,8 @@ ideas = {
 			}
 			
 			modifier = {
-				stability_factor = -0.4
-				consumer_goods_factor = 0.2
+				stability_factor = -0.2
+				consumer_goods_factor = 0.1
 				local_resources = -0.5 		
 			}
 		}
@@ -410,7 +438,7 @@ ideas = {
 
 			name = SPA_national_recovery
 
-			picture = SPA_national_recovery
+			picture = generic_agrarian_society
 
 			allowed = {
 				original_tag = ROM
@@ -421,14 +449,12 @@ ideas = {
 			}
 
 			research_bonus = {
-				industry = 0.2
 			}
 					
 			modifier = {
-				stability_factor = -0.5
-
-				consumer_goods_factor = 0.24
-				local_resources = -0.54 		
+				stability_factor = -0.15
+				consumer_goods_factor = 0.075
+				local_resources = -0.35
 			}
 		}
 
@@ -436,7 +462,7 @@ ideas = {
 
 			name = SPA_national_recovery
 
-			picture = SPA_national_recovery
+			picture = generic_agrarian_society
 
 			allowed = {
 				original_tag = ROM
@@ -447,14 +473,13 @@ ideas = {
 			}
 
 			research_bonus = {
-				industry = 0.3
 			}
 			
 			modifier = {
-				stability_factor = -0.6
+				stability_factor = -0.1
 
-				consumer_goods_factor = 0.26
-				local_resources = -0.56		
+				consumer_goods_factor = 0.05
+				local_resources = -0.20		
 			}
 		}
 
@@ -462,7 +487,7 @@ ideas = {
 
 			name = SPA_national_recovery
 
-			picture = SPA_national_recovery
+			picture = generic_agrarian_society
 
 			allowed = {
 				original_tag = ROM
@@ -473,10 +498,9 @@ ideas = {
 			}
 
 			modifier = {
-				stability_factor = -0.65
-
-				consumer_goods_factor = 0.3
-				local_resources = -0.6		
+				stability_factor = -0.05
+				consumer_goods_factor = 0.025
+				local_resources = -0.10		
 			}
 		}
 
@@ -923,39 +947,39 @@ ideas = {
 
 			equipment_bonus = {
 				fighter_equipment = {
-					build_cost_ic = -0.04
+					build_cost_ic = -0.08
 					instant = yes
 				}
 				cv_fighter_equipment = {
-					build_cost_ic = -0.04
+					build_cost_ic = -0.08
 					instant = yes
 				}
 				CAS_equipment = {
-					build_cost_ic = -0.04
+					build_cost_ic = -0.08
 					instant = yes
 				}
 				cv_CAS_equipment = {
-					build_cost_ic = -0.04
+					build_cost_ic = -0.08
 					instant = yes
 				}
 				cv_nav_bomber_equipment = {
-					build_cost_ic = -0.04
+					build_cost_ic = -0.08
 					instant = yes
 				}
 				nav_bomber_equipment = {
-					build_cost_ic = -0.04
+					build_cost_ic = -0.08
 					instant = yes
 				}
 				tac_bomber_equipment = {
-					build_cost_ic = -0.04
+					build_cost_ic = -0.08
 					instant = yes
 				}
 				heavy_fighter_equipment = {
-					build_cost_ic = -0.04
+					build_cost_ic = -0.08
 					instant = yes
 				}
 				strat_bomber_equipment = {
-					build_cost_ic = -0.04
+					build_cost_ic = -0.08
 					instant = yes
 				}
 			}

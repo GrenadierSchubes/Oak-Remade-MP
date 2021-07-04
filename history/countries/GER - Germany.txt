@@ -124,12 +124,6 @@ if = {
 
 create_faction = "The Axis Powers"
 add_to_faction = GER 
-	
-create_import = {
-	resource = oil
-	amount = 8
-	exporter = VEN
-}
 
 set_variable = { var = wehrmacht_anger value = 0 }
 set_variable = { var = ss_anger value = 0 }
@@ -137,19 +131,6 @@ set_research_slots = 7
 set_convoys = 220
 set_stability = 0.5
 set_war_support = 0.4
-
-#Trade
-create_import = {
-	resource = tungsten
-	amount = 8
-	exporter = SWE
-}
-
-create_import = {
-	resource = tungsten
-	amount = 8
-	exporter = SPR
-}
 
 set_politics = {
 	ruling_party = fascism
