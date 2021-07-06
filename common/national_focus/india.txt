@@ -1377,33 +1377,10 @@ focus_tree = {
 			
 			add_offsite_building = {
 				type = arms_factory
-				level = 4
+				level = 3
 			}
 			SAF = { add_ideas = RAJ_commits_africa_idea }
-			SAF = { add_manpower = 80000 }
-			SAF = {
-				275 = {
-                    add_building_construction = {
-                    type = infrastructure
-                    level = 2
-                    instant_build = yes
-                    }
-				}
-				719 = {
-                    add_building_construction = {
-                    type = infrastructure
-                    level = 2
-                    instant_build = yes
-                    }
-				}
-				681 = {
-                    add_building_construction = {
-                    type = infrastructure
-                    level = 2
-                    instant_build = yes
-                    }
-				}
-			}
+			SAF = { add_manpower = 45000 }
 		}
 	}
 	
@@ -1436,33 +1413,10 @@ focus_tree = {
 		completion_reward = {
 			add_offsite_building = {
 				type = arms_factory
-				level = 4
+				level = 3
 			}
 			AST = { add_ideas = RAJ_commits_asia_idea }
-			AST = { add_manpower = 80000 }
-			AST = {
-				285 = {
-                    add_building_construction = {
-                    type = infrastructure
-                    level = 2
-                    instant_build = yes
-                    }
-				}
-				521 = {
-                    add_building_construction = {
-                    type = infrastructure
-                    level = 2
-                    instant_build = yes
-                    }
-				}
-				520 = {
-                    add_building_construction = {
-                    type = infrastructure
-                    level = 2
-                    instant_build = yes
-                    }
-				}
-			}
+			AST = { add_manpower = 45000 }
 		}
 	}
 	
