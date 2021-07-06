@@ -106,6 +106,7 @@ focus_tree = {
 				GER = { add_offsite_building = { type = industrial_complex level = 3 } }
 				else = {
 			random_owned_controlled_state = {
+			    prioritize = { 26 }
 				limit = {
 					free_building_slots = {
 						building = industrial_complex
@@ -190,6 +191,7 @@ focus_tree = {
 				GER = { add_offsite_building = { type = industrial_complex level = 3 } }
 				else = {
 			random_owned_controlled_state = {
+			    prioritize = { 20 }
 				limit = {
 					free_building_slots = {
 						building = industrial_complex
@@ -353,6 +355,7 @@ focus_tree = {
 				GER = { add_offsite_building = { type = industrial_complex level = 2 } }
 				else = {
 			random_owned_controlled_state = {
+			    prioritize = { 33 }
 				limit = {
 					free_building_slots = {
 						building = industrial_complex
