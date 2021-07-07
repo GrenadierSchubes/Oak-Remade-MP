@@ -514,7 +514,7 @@ ideas = {
 			}
 
 			cancel = {
-				has_war_with = USA 
+
 			}
 
 			removal_cost = -1			
@@ -640,7 +640,7 @@ ideas = {
 				navy_intel_factor = 0.1 
 				operative_slot = 1 
 				decryption_power_factor = 0.1
-				agency_upgrade_time = 0.15 
+				agency_upgrade_time = -0.1 
 			}
 		}
 

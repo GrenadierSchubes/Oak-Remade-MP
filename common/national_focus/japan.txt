@@ -1409,7 +1409,7 @@ focus_tree = {
 		}
 
 		available = {
-
+			has_country_flag = jap_first_truce
 		}
 
 		bypass = {
@@ -1692,6 +1692,8 @@ focus_tree = {
 		}
 
 		completion_reward = {
+			custom_effect_tooltip = JAP_marco_polo_tt
+			add_named_threat = { threat = 6 name = JAP_intervene_in_china }
 			if = {
 				limit = {
 					CHI = { #if CHI owns one of these states, they get the event
@@ -1763,7 +1765,6 @@ focus_tree = {
 					country_event = china.1
 				}
 			}
-			add_named_threat = { threat = 6 name = JAP_intervene_in_china }
 			if = {
 				limit = {
 					JAP = {

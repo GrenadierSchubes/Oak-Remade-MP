@@ -2259,11 +2259,11 @@ country_event = {
 		trigger = {
 			AND = {
 				has_equipment = {infantry_equipment > 1249}
-				has_equipment = {support_equipment > 174}
-				has_equipment = {horse_equipment > 299}
+				has_equipment = {support_equipment > 124}
+				has_equipment = {horse_equipment > 249}
 				has_equipment = {motorized_equipment > 49}
 				has_equipment = {radio_equipment > 49}
-				has_manpower > 10000
+				has_manpower > 9999
 			}
 		}
 		name = japan.27.b
@@ -2271,11 +2271,11 @@ country_event = {
 			limit = {
 				AND = {
 					has_equipment = {infantry_equipment > 1249}
-					has_equipment = {support_equipment > 174}
-					has_equipment = {horse_equipment > 299}
+					has_equipment = {support_equipment > 124}
+					has_equipment = {horse_equipment > 499}
 					has_equipment = {motorized_equipment > 49}
 					has_equipment = {radio_equipment > 49}
-					has_manpower > 10000
+					has_manpower > 9999
 				}
 			}
 			JAP_china_war_150_days = yes
@@ -2299,11 +2299,11 @@ country_event = {
 		trigger = {
 			AND = {
 				has_equipment = {infantry_equipment > 2499}
-				has_equipment = {support_equipment > 349}
-				has_equipment = {horse_equipment > 599}
+				has_equipment = {support_equipment > 249}
+				has_equipment = {horse_equipment > 499}
 				has_equipment = {motorized_equipment > 99}
 				has_equipment = {radio_equipment > 99}
-				has_manpower > 20000
+				has_manpower > 19999
 			}
 		}
 		name = japan.27.c
@@ -2311,11 +2311,11 @@ country_event = {
 			limit = {
 				AND = {
 					has_equipment = {infantry_equipment > 2499}
-					has_equipment = {support_equipment > 349}
-					has_equipment = {horse_equipment > 599}
+					has_equipment = {support_equipment > 249}
+					has_equipment = {horse_equipment > 499}
 					has_equipment = {motorized_equipment > 99}
 					has_equipment = {radio_equipment > 99}
-					has_manpower > 20000
+					has_manpower > 19999
 				}
 			}
 			JAP_china_war_100_days = yes
@@ -2338,24 +2338,24 @@ country_event = {
 	option = {
 		trigger = {
 			AND = {
-				has_equipment = {infantry_equipment > 3749}
-				has_equipment = {support_equipment > 524}
-				has_equipment = {horse_equipment > 899}
-				has_equipment = {motorized_equipment > 149}
-				has_equipment = {radio_equipment > 149}
-				has_manpower > 30000
+				has_equipment = {infantry_equipment > 4999}
+				has_equipment = {support_equipment > 499}
+				has_equipment = {horse_equipment > 999}
+				has_equipment = {motorized_equipment > 199}
+				has_equipment = {radio_equipment > 199}
+				has_manpower > 39999
 			}
 		}
 		name = japan.27.e
 		if = {
 			limit = {
 				AND = {
-					has_equipment = {infantry_equipment > 3749}
-					has_equipment = {support_equipment > 524}
-					has_equipment = {horse_equipment > 899}
-					has_equipment = {motorized_equipment > 149}
-					has_equipment = {radio_equipment > 149}
-					has_manpower > 30000
+					has_equipment = {infantry_equipment > 4999}
+					has_equipment = {support_equipment > 499}
+					has_equipment = {horse_equipment > 999}
+					has_equipment = {motorized_equipment > 199}
+					has_equipment = {radio_equipment > 199}
+					has_manpower > 39999
 				}
 			}
 			JAP_china_war_50_days = yes
@@ -2402,11 +2402,11 @@ country_event = {
 		trigger = {
 			AND = {
 				has_equipment = {infantry_equipment > 1249}
-				has_equipment = {support_equipment > 174}
-				has_equipment = {horse_equipment > 299}
+				has_equipment = {support_equipment > 124}
+				has_equipment = {horse_equipment > 249}
 				has_equipment = {motorized_equipment > 49}
 				has_equipment = {radio_equipment > 49}
-				has_manpower > 10000
+				has_manpower > 9999
 			}
 		}
 		name = japan.27.b
@@ -2414,11 +2414,11 @@ country_event = {
 			limit = {
 				AND = {
 					has_equipment = {infantry_equipment > 1249}
-					has_equipment = {support_equipment > 174}
-					has_equipment = {horse_equipment > 299}
+					has_equipment = {support_equipment > 124}
+					has_equipment = {horse_equipment > 499}
 					has_equipment = {motorized_equipment > 49}
 					has_equipment = {radio_equipment > 49}
-					has_manpower > 10000
+					has_manpower > 9999
 				}
 			}
 			JAP_china_war_150_days = yes
@@ -2446,11 +2446,11 @@ country_event = {
 		trigger = {
 			AND = {
 				has_equipment = {infantry_equipment > 2499}
-				has_equipment = {support_equipment > 349}
-				has_equipment = {horse_equipment > 599}
+				has_equipment = {support_equipment > 249}
+				has_equipment = {horse_equipment > 499}
 				has_equipment = {motorized_equipment > 99}
 				has_equipment = {radio_equipment > 99}
-				has_manpower > 20000
+				has_manpower > 19999
 			}
 		}
 		name = japan.27.c
@@ -2458,11 +2458,11 @@ country_event = {
 			limit = {
 				AND = {
 					has_equipment = {infantry_equipment > 2499}
-					has_equipment = {support_equipment > 349}
-					has_equipment = {horse_equipment > 599}
+					has_equipment = {support_equipment > 249}
+					has_equipment = {horse_equipment > 499}
 					has_equipment = {motorized_equipment > 99}
 					has_equipment = {radio_equipment > 99}
-					has_manpower > 20000
+					has_manpower > 19999
 				}
 			}
 			JAP_china_war_100_days = yes
@@ -2489,24 +2489,24 @@ country_event = {
 	option = {
 		trigger = {
 			AND = {
-				has_equipment = {infantry_equipment > 3749}
-				has_equipment = {support_equipment > 524}
-				has_equipment = {horse_equipment > 899}
-				has_equipment = {motorized_equipment > 149}
-				has_equipment = {radio_equipment > 149}
-				has_manpower > 30000
+				has_equipment = {infantry_equipment > 4999}
+				has_equipment = {support_equipment > 499}
+				has_equipment = {horse_equipment > 999}
+				has_equipment = {motorized_equipment > 199}
+				has_equipment = {radio_equipment > 199}
+				has_manpower > 39999
 			}
 		}
 		name = japan.27.e
 		if = {
 			limit = {
 				AND = {
-					has_equipment = {infantry_equipment > 3749}
-					has_equipment = {support_equipment > 524}
-					has_equipment = {horse_equipment > 899}
-					has_equipment = {motorized_equipment > 149}
-					has_equipment = {radio_equipment > 149}
-					has_manpower > 30000
+					has_equipment = {infantry_equipment > 4999}
+					has_equipment = {support_equipment > 499}
+					has_equipment = {horse_equipment > 999}
+					has_equipment = {motorized_equipment > 199}
+					has_equipment = {radio_equipment > 199}
+					has_manpower > 39999
 				}
 			}
 			JAP_china_war_50_days = yes
@@ -2558,11 +2558,11 @@ country_event = {
 		trigger = {
 			AND = {
 				has_equipment = {infantry_equipment > 1249}
-				has_equipment = {support_equipment > 174}
-				has_equipment = {horse_equipment > 299}
+				has_equipment = {support_equipment > 124}
+				has_equipment = {horse_equipment > 249}
 				has_equipment = {motorized_equipment > 49}
 				has_equipment = {radio_equipment > 49}
-				has_manpower > 10000
+				has_manpower > 9999
 			}
 		}
 		name = japan.27.b
@@ -2570,11 +2570,11 @@ country_event = {
 			limit = {
 				AND = {
 					has_equipment = {infantry_equipment > 1249}
-					has_equipment = {support_equipment > 174}
-					has_equipment = {horse_equipment > 299}
+					has_equipment = {support_equipment > 124}
+					has_equipment = {horse_equipment > 499}
 					has_equipment = {motorized_equipment > 49}
 					has_equipment = {radio_equipment > 49}
-					has_manpower > 10000
+					has_manpower > 9999
 				}
 			}
 			JAP_china_war_150_days = yes
@@ -2604,11 +2604,11 @@ country_event = {
 		trigger = {
 			AND = {
 				has_equipment = {infantry_equipment > 2499}
-				has_equipment = {support_equipment > 349}
-				has_equipment = {horse_equipment > 599}
+				has_equipment = {support_equipment > 249}
+				has_equipment = {horse_equipment > 499}
 				has_equipment = {motorized_equipment > 99}
 				has_equipment = {radio_equipment > 99}
-				has_manpower > 20000
+				has_manpower > 19999
 			}
 		}
 		name = japan.27.c
@@ -2616,11 +2616,11 @@ country_event = {
 			limit = {
 				AND = {
 					has_equipment = {infantry_equipment > 2499}
-					has_equipment = {support_equipment > 349}
-					has_equipment = {horse_equipment > 599}
+					has_equipment = {support_equipment > 249}
+					has_equipment = {horse_equipment > 499}
 					has_equipment = {motorized_equipment > 99}
 					has_equipment = {radio_equipment > 99}
-					has_manpower > 20000
+					has_manpower > 19999
 				}
 			}
 			JAP_china_war_100_days = yes
@@ -2649,24 +2649,24 @@ country_event = {
 	option = {
 		trigger = {
 			AND = {
-				has_equipment = {infantry_equipment > 3749}
-				has_equipment = {support_equipment > 524}
-				has_equipment = {horse_equipment > 899}
-				has_equipment = {motorized_equipment > 149}
-				has_equipment = {radio_equipment > 149}
-				has_manpower > 30000
+				has_equipment = {infantry_equipment > 4999}
+				has_equipment = {support_equipment > 499}
+				has_equipment = {horse_equipment > 999}
+				has_equipment = {motorized_equipment > 199}
+				has_equipment = {radio_equipment > 199}
+				has_manpower > 39999
 			}
 		}
 		name = japan.27.e
 		if = {
 			limit = {
 				AND = {
-					has_equipment = {infantry_equipment > 3749}
-					has_equipment = {support_equipment > 524}
-					has_equipment = {horse_equipment > 899}
-					has_equipment = {motorized_equipment > 149}
-					has_equipment = {radio_equipment > 149}
-					has_manpower > 30000
+					has_equipment = {infantry_equipment > 4999}
+					has_equipment = {support_equipment > 499}
+					has_equipment = {horse_equipment > 999}
+					has_equipment = {motorized_equipment > 199}
+					has_equipment = {radio_equipment > 199}
+					has_manpower > 39999
 				}
 			}
 			JAP_china_war_50_days = yes
@@ -2719,11 +2719,11 @@ country_event = {
 		trigger = {
 			AND = {
 				has_equipment = {infantry_equipment > 1249}
-				has_equipment = {support_equipment > 174}
-				has_equipment = {horse_equipment > 299}
+				has_equipment = {support_equipment > 124}
+				has_equipment = {horse_equipment > 249}
 				has_equipment = {motorized_equipment > 49}
 				has_equipment = {radio_equipment > 49}
-				has_manpower > 10000
+				has_manpower > 9999
 			}
 		}
 		name = japan.27.b
@@ -2731,11 +2731,11 @@ country_event = {
 			limit = {
 				AND = {
 					has_equipment = {infantry_equipment > 1249}
-					has_equipment = {support_equipment > 174}
-					has_equipment = {horse_equipment > 299}
+					has_equipment = {support_equipment > 124}
+					has_equipment = {horse_equipment > 499}
 					has_equipment = {motorized_equipment > 49}
 					has_equipment = {radio_equipment > 49}
-					has_manpower > 10000
+					has_manpower > 9999
 				}
 			}
 			JAP_china_war_150_days = yes
@@ -2763,11 +2763,11 @@ country_event = {
 		trigger = {
 			AND = {
 				has_equipment = {infantry_equipment > 2499}
-				has_equipment = {support_equipment > 349}
-				has_equipment = {horse_equipment > 599}
+				has_equipment = {support_equipment > 249}
+				has_equipment = {horse_equipment > 499}
 				has_equipment = {motorized_equipment > 99}
 				has_equipment = {radio_equipment > 99}
-				has_manpower > 20000
+				has_manpower > 19999
 			}
 		}
 		name = japan.27.c
@@ -2775,11 +2775,11 @@ country_event = {
 			limit = {
 				AND = {
 					has_equipment = {infantry_equipment > 2499}
-					has_equipment = {support_equipment > 349}
-					has_equipment = {horse_equipment > 599}
+					has_equipment = {support_equipment > 249}
+					has_equipment = {horse_equipment > 499}
 					has_equipment = {motorized_equipment > 99}
 					has_equipment = {radio_equipment > 99}
-					has_manpower > 20000
+					has_manpower > 19999
 				}
 			}
 			JAP_china_war_100_days = yes
@@ -2806,24 +2806,24 @@ country_event = {
 	option = {
 		trigger = {
 			AND = {
-				has_equipment = {infantry_equipment > 3749}
-				has_equipment = {support_equipment > 524}
-				has_equipment = {horse_equipment > 899}
-				has_equipment = {motorized_equipment > 149}
-				has_equipment = {radio_equipment > 149}
-				has_manpower > 30000
+				has_equipment = {infantry_equipment > 4999}
+				has_equipment = {support_equipment > 499}
+				has_equipment = {horse_equipment > 999}
+				has_equipment = {motorized_equipment > 199}
+				has_equipment = {radio_equipment > 199}
+				has_manpower > 39999
 			}
 		}
 		name = japan.27.e
 		if = {
 			limit = {
 				AND = {
-					has_equipment = {infantry_equipment > 3749}
-					has_equipment = {support_equipment > 524}
-					has_equipment = {horse_equipment > 899}
-					has_equipment = {motorized_equipment > 149}
-					has_equipment = {radio_equipment > 149}
-					has_manpower > 30000
+					has_equipment = {infantry_equipment > 4999}
+					has_equipment = {support_equipment > 499}
+					has_equipment = {horse_equipment > 999}
+					has_equipment = {motorized_equipment > 199}
+					has_equipment = {radio_equipment > 199}
+					has_manpower > 39999
 				}
 			}
 			JAP_china_war_50_days = yes
