@@ -793,13 +793,13 @@ country_event = {
 		hidden_effect = {
 			if = {
 				limit = {
-					has_idea = FRA_factory_strikes2
+					has_idea = FRA_factory_strikes
 				}
-				remove_ideas = FRA_factory_strikes2 
+				remove_ideas = FRA_factory_strikes
 			}
 		}
 		add_timed_idea = {
-			idea = strikes_2
+			idea = FRA_factory_strikes2
 			days = 90
 		}
 	}

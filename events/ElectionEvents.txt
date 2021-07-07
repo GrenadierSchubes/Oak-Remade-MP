@@ -47,6 +47,9 @@ country_event = {
 				}
 			}
 		}
+		NOT = {
+		    tag = FRA 
+		}
 		has_idea = partial_economic_mobilisation
 	}
 

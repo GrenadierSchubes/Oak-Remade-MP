@@ -11817,15 +11817,6 @@ news_event = { ## The Victory of the Popular Front ###
 			ideology = conservatism
 			traits = { democratic_reformer }
 		}
-		add_ideas = strikes_3
-		hidden_effect = {
-			if = {
-				limit = {
-					has_idea = strikes_2
-				}
-				remove_ideas = strikes_2 
-			}
-		}
 		trigger = { tag = FRA }
 	}
 }
@@ -11896,23 +11887,16 @@ news_event = { ## The Collapse of the Popular Front ###
 		    }
 		}	
 		if = {
-			limit = { communism > 0.1 }
+			limit = { communism > 0.10 }
 			add_timed_idea = {
-				idea = strikes_1
+				idea = FRA_factory_strikes
 				days = 45
 			}
 		}
 		else_if = {
-			limit = { communism > 0.2 }
+			limit = { communism > 0.35 }
 			add_timed_idea = {
-				idea = strikes_2
-				days = 45
-			}
-		}
-		else_if = {
-			limit = { communism > 0.3 }
-			add_timed_idea = {
-				idea = strikes_3
+				idea = FRA_factory_strikes2
 				days = 45
 			}
 		}

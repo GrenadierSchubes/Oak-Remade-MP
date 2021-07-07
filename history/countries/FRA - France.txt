@@ -114,7 +114,7 @@ if = {
 
 set_convoys = 300
 set_stability = 0.30
-set_war_support = 0.35
+set_war_support = 0.20
 
 set_politics = {
 	ruling_party = democratic
