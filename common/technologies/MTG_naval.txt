@@ -277,11 +277,11 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
+		research_cost = 1.8
+		
 		xp_research_type = navy
 		xp_research_cost = 50
 		xp_research_bonus = 1.50
-		research_cost = 1.8
-
 		start_year = 1936
 		
 		folder = {
@@ -320,10 +320,15 @@ technologies = {
 			leads_to_tech = modern_depth_charges
 			research_cost_coeff = 1
 		}
+		research_cost = 1.8
+		
 		xp_research_type = navy
 		xp_research_cost = 50
 		xp_research_bonus = 1.50
-		research_cost = 1.8
+
+		dependencies = {
+			advanced_machine_tools = 1
+		}
 
 		start_year = 1940
 		
@@ -359,11 +364,15 @@ technologies = {
 		on_research_complete = {
 			custom_effect_tooltip = depth_charges_advice_tt
 		}
-
+		research_cost = 1.8
+		
 		xp_research_type = navy
 		xp_research_cost = 50
 		xp_research_bonus = 1.50
-		research_cost = 1.8
+
+		dependencies = {
+			modern_tools = 1
+		}
 
 		start_year = 1944
 		
@@ -758,12 +767,15 @@ technologies = {
 			leads_to_tech = advanced_cruiser_armor_scheme
 			research_cost_coeff = 1
 		}
-
+		research_cost = 1.8
 		
 		xp_research_type = navy
 		xp_research_cost = 50
 		xp_research_bonus = 1.50
-		research_cost = 1.3
+
+		dependencies = {
+			advanced_machine_tools = 1
+		}
 
 		start_year = 1940
 		
@@ -800,12 +812,15 @@ technologies = {
 		on_research_complete = {
 			custom_effect_tooltip = cruiser_armor_advice_tt
 		}
-
+		research_cost = 1.8
 		
 		xp_research_type = navy
 		xp_research_cost = 50
 		xp_research_bonus = 1.50
-		research_cost = 1.3
+
+		dependencies = {
+			modern_tools = 1
+		}
 
 		start_year = 1944
 		
@@ -1126,10 +1141,15 @@ technologies = {
 		}
 		
 		
+		research_cost = 1.8
+		
 		xp_research_type = navy
 		xp_research_cost = 50
 		xp_research_bonus = 1.50
-		research_cost = 1.8
+
+		dependencies = {
+			advanced_machine_tools = 1
+		}
 
 		start_year = 1940
 		
@@ -1461,11 +1481,15 @@ early_ship_hull_carrier = {
 	}
 
 	homing_torpedo = {
+		research_cost = 2.5
 		
 		xp_research_type = navy
 		xp_research_cost = 50
 		xp_research_bonus = 1.50
-		research_cost = 2.5
+
+		dependencies = {
+			advanced_machine_tools = 1
+		}
 
 		start_year = 1942
 		destroyer = {
@@ -1507,11 +1531,15 @@ early_ship_hull_carrier = {
 	}
 
 	electric_torpedo = {
+		research_cost = 2.5
 		
 		xp_research_type = navy
 		xp_research_cost = 50
 		xp_research_bonus = 1.50
-		research_cost = 2.5
+
+		dependencies = {
+			advanced_machine_tools = 1
+		}
 
 		start_year = 1940
 
@@ -1581,6 +1609,14 @@ early_ship_hull_carrier = {
 	advanced_ship_torpedo_launcher = {
 		
 		research_cost = 1
+		
+		xp_research_type = navy
+		xp_research_cost = 50
+		xp_research_bonus = 1.50
+
+		dependencies = {
+			advanced_machine_tools = 1
+		}
 
 		start_year = 1940
 
@@ -1619,6 +1655,14 @@ early_ship_hull_carrier = {
 	modern_ship_torpedo_launcher = {
 		
 		research_cost = 1
+		
+		xp_research_type = navy
+		xp_research_cost = 50
+		xp_research_bonus = 1.50
+
+		dependencies = {
+			modern_tools = 1
+		}
 
 		start_year = 1944
 
@@ -1833,9 +1877,17 @@ early_ship_hull_carrier = {
 			custom_effect_tooltip = snorkel_advice_tt
 		}
 		research_cost = 1
-
-		start_year = 1940
 		
+		xp_research_type = navy
+		xp_research_cost = 50
+		xp_research_bonus = 1.50
+
+		dependencies = {
+			advanced_machine_tools = 1
+		}
+		
+		start_year = 1940
+
 		folder = {
 			name = mtgnavalfolder
 			position = {  x = -1 y = 12 }
@@ -1879,12 +1931,16 @@ early_ship_hull_carrier = {
 			leads_to_tech = improved_submarine_snorkel
 			research_cost_coeff = 1
 		}
+		research_cost = 1
 		
 		xp_research_type = navy
 		xp_research_cost = 50
 		xp_research_bonus = 1.50
-		research_cost = 2
 
+		dependencies = {
+			modern_tools = 1
+		}
+		
 		start_year = 1944
 		
 		folder = {
@@ -2020,6 +2076,15 @@ early_ship_hull_carrier = {
 	improved_light_battery = {
 		
 		research_cost = 1
+		
+		xp_research_type = navy
+		xp_research_cost = 50
+		xp_research_bonus = 1.50
+
+		dependencies = {
+			advanced_machine_tools = 1
+		}
+		
 
 		start_year = 1940
 
@@ -2058,6 +2123,14 @@ early_ship_hull_carrier = {
 	advanced_light_battery = {
 		
 		research_cost = 1
+		
+		xp_research_type = navy
+		xp_research_cost = 50
+		xp_research_bonus = 1.50
+
+		dependencies = {
+			modern_tools = 1
+		}
 
 		start_year = 1944
 
@@ -2145,11 +2218,15 @@ early_ship_hull_carrier = {
 		}
 	}
 	improved_light_shell = {
+		research_cost = 1.8
 		
 		xp_research_type = navy
 		xp_research_cost = 50
 		xp_research_bonus = 1.50
-		research_cost = 1.8
+
+		dependencies = {
+			advanced_machine_tools = 1
+		}
 
 		start_year = 1942
 		
@@ -2243,6 +2320,14 @@ early_ship_hull_carrier = {
 	improved_medium_battery = {
 		
 		research_cost = 1
+		
+		xp_research_type = navy
+		xp_research_cost = 50
+		xp_research_bonus = 1.50
+
+		dependencies = {
+			advanced_machine_tools = 1
+		}
 
 		start_year = 1940
 
@@ -2280,6 +2365,14 @@ early_ship_hull_carrier = {
 	advanced_medium_battery = {
 		
 		research_cost = 1
+		
+		xp_research_type = navy
+		xp_research_cost = 50
+		xp_research_bonus = 1.50
+
+		dependencies = {
+			modern_tools = 1
+		}
 
 		start_year = 1944
 
@@ -2324,8 +2417,8 @@ early_ship_hull_carrier = {
 			lg_armor_piercing = 0.05
 		}
 		heavy_cruiser = {
-			hg_attack = 0.05
-			hg_armor_piercing = 0.05
+			lg_attack = 0.05
+			lg_armor_piercing = 0.05
 		}
 
 		folder = {
@@ -2346,11 +2439,15 @@ early_ship_hull_carrier = {
 		}
 	}
 	improved_medium_shell = {
+		research_cost = 1.8
 		
 		xp_research_type = navy
 		xp_research_cost = 50
 		xp_research_bonus = 1.50
-		research_cost = 1.8
+
+		dependencies = {
+			advanced_machine_tools = 1
+		}
 
 		start_year = 1942
 		
@@ -2360,8 +2457,8 @@ early_ship_hull_carrier = {
 			lg_armor_piercing = 0.05
 		}
 		heavy_cruiser = {
-			hg_attack = 0.05
-			hg_armor_piercing = 0.05
+			lg_attack = 0.05
+			lg_armor_piercing = 0.05
 		}
 		
 
@@ -2435,6 +2532,14 @@ early_ship_hull_carrier = {
 	improved_heavy_battery = {
 		
 		research_cost = 1
+		
+		xp_research_type = navy
+		xp_research_cost = 50
+		xp_research_bonus = 1.50
+
+		dependencies = {
+			advanced_machine_tools = 1
+		}
 
 		start_year = 1940
 
@@ -2478,6 +2583,14 @@ early_ship_hull_carrier = {
 	advanced_heavy_battery = {
 		
 		research_cost = 1
+		
+		xp_research_type = navy
+		xp_research_cost = 50
+		xp_research_bonus = 1.50
+
+		dependencies = {
+			modern_tools = 1
+		}
 
 		start_year = 1944
 
@@ -2556,11 +2669,15 @@ early_ship_hull_carrier = {
 		}
 	}
 	improved_heavy_shell = {
+		research_cost = 1.8
 		
 		xp_research_type = navy
 		xp_research_cost = 50
 		xp_research_bonus = 1.50
-		research_cost = 1.8
+
+		dependencies = {
+			advanced_machine_tools = 1
+		}
 
 		start_year = 1942
 		
@@ -2674,6 +2791,14 @@ early_ship_hull_carrier = {
 	dp_secondary_battery = {
 		
 		research_cost = 0.8
+		
+		xp_research_type = navy
+		xp_research_cost = 50
+		xp_research_bonus = 1.50
+
+		dependencies = {
+			advanced_machine_tools = 1
+		}
 
 		start_year = 1940
 
@@ -2796,6 +2921,9 @@ early_ship_hull_carrier = {
 	damage_control_3 = {
 		
 		research_cost = 2.5
+		dependencies = {
+			advanced_machine_tools = 1
+		}
 		critical_receive_chance = -0.1
 		naval_critical_effect_factor = -0.1
 		xp_research_type = navy
@@ -2921,8 +3049,10 @@ early_ship_hull_carrier = {
 	}
 
 	fire_control_methods_3 = {
-		
 		research_cost = 2.5
+		dependencies = {
+			advanced_machine_tools = 1
+		}
 		battleship = {
 			lg_attack = 0.15
 			hg_attack = 0.15

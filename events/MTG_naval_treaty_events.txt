@@ -271,15 +271,19 @@ country_event = {
 	
 	
 	hidden = yes
-	mean_time_to_happen = { days = 2 }
+	mean_time_to_happen = { days = 1 }
 	fire_only_once = yes
 	trigger = {	 
 		has_naval_treaty_trigger = yes
-		has_war = yes
-		any_enemy_country = {
-			is_major = yes
-			NOT = { tag = event_target:WTT_current_china_leader} #special exception
-	
+		OR = {
+			any_enemy_country = {
+				is_major = yes
+				NOT = { tag = event_target:WTT_current_china_leader} #special exception
+		
+			}
+			JAP = {
+				has_completed_focus = JAP_intervene_in_china
+			}
 		}
 	}
 	immediate = {
