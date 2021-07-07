@@ -647,9 +647,9 @@ ideas = {
 			picture = man_five_year_plan_tank
 
 			modifier = {
-				production_speed_arms_factory_factor = 0.15
+				production_speed_arms_factory_factor = 0.1
 				production_speed_dockyard_factor = 0.1
-				production_factory_efficiency_gain_factor = 0.075 
+				production_factory_efficiency_gain_factor = 0.05
 			}
 
 		}	

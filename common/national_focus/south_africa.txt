@@ -426,24 +426,7 @@ focus_tree = {
 		}
 
 		available = {
-			if = {
-				limit = {
-					has_dlc = "Man the Guns"
-				}
-				OR = {
-					threat > 0.1
-					ENG = { has_completed_focus = ENG_containment }
-				}
-			}
-			if = {
-				limit = {
-					NOT = { has_dlc = "Man the Guns" }
-				}
-				OR = {
-					threat > 0.25
-					ENG = { has_completed_focus = ENG_containment }
-				}
-			}
+			date > 1937.1.1	
 		}
 		
 		bypass = {
