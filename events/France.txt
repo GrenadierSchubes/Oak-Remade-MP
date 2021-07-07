@@ -752,7 +752,7 @@ country_event = {
 		}
 		name = france.41.a
 		add_timed_idea = {
-			idea = strikes_1
+			idea = FRA_factory_strikes
 			days = 90
 		}
 	}
@@ -793,9 +793,9 @@ country_event = {
 		hidden_effect = {
 			if = {
 				limit = {
-					has_idea = strikes_1
+					has_idea = FRA_factory_strikes2
 				}
-				remove_ideas = strikes_1 
+				remove_ideas = FRA_factory_strikes2 
 			}
 		}
 		add_timed_idea = {

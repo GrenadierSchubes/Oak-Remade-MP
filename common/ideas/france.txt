@@ -1547,6 +1547,7 @@ ideas = {
 				planning_speed = -0.25
 				army_core_attack_factor = -0.2
 				army_core_defence_factor = -0.2
+				consumer_goods_factor = 0.20
 			}
 		}
 
@@ -1761,10 +1762,28 @@ ideas = {
 			}
 
 			modifier = {
-				industrial_capacity_factory = -0.9
-				industrial_capacity_dockyard = -0.9
-				stability_factor = -0.1
-				war_support_factor = -0.1
+				local_resources_factor = -0.1
+				industrial_capacity_factory = -0.1
+				industrial_capacity_dockyard = -0.1
+			}
+		}
+		
+		FRA_factory_strikes2 = {
+			picture = generic_production_bonus
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				NOT = {
+					has_government = communism
+				}
+			}
+
+			modifier = {
+				local_resources_factor = -0.2
+				industrial_capacity_factory = -0.2
+				industrial_capacity_dockyard = -0.2
 			}
 		}
 
@@ -1927,8 +1946,8 @@ ideas = {
 			available = {
 				has_government = democratic
 			}
-			cost = 75 
-			traits = { hawk }
+			
+			traits = { railroad_enthusiast }
 
 			do_effect = {
 				

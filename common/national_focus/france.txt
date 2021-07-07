@@ -54,21 +54,15 @@ focus_tree = {
 			FRA_disjointed_government_level_up = yes
 			if = {
 				limit = {
-					has_idea = strikes_1  
+					has_idea = FRA_factory_strikes  
 				}
-				remove_ideas = strikes_1
+				remove_ideas = FRA_factory_strikes
 			}
 			else_if = {
 				limit = {
-					has_idea = strikes_2 
+					has_idea = FRA_factory_strikes2 
 				}
-				remove_ideas = strikes_2
-			}
-			else_if = {
-				limit = {
-					has_idea = strikes_3  
-				}
-				remove_ideas = strikes_3
+				remove_ideas = FRA_factory_strikes2
 			}
 		}
 	}

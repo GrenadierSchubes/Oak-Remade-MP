@@ -739,7 +739,7 @@ leader_traits = {
 
 	railroad_enthusiast = { #Valentin Campa
 		random = no
-		production_speed_infrastructure_factor = 0.2
+		production_speed_infrastructure_factor = 0.25
 		
 		ai_will_do = {
 			factor = 1
