@@ -1018,8 +1018,8 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			custom_effect_tooltip = available_chief_of_army
-			show_ideas_tooltip = vittorio_ambrosio
+			custom_effect_tooltip = available_military_high_command
+			show_ideas_tooltip = alfredo_guzzoni
 			every_army_leader = {
 				add_attack = 1
 			}

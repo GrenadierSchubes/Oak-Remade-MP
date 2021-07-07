@@ -2010,7 +2010,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = AST_western_australian_government_railways
+		id = AST_expand_the_northern_railway
 		icon = GFX_goal_generic_construct_infrastructure
 		prerequisite = { focus = AST_standard_gauge_railway }
 		prerequisite = { focus = AST_industries_assistance_corporation }
@@ -2021,7 +2021,7 @@ focus_tree = {
 		cost = 5
 
 		ai_will_do = {
-			factor = 5
+			factor = 1
 		}
 
 		available = {
@@ -2039,22 +2039,11 @@ focus_tree = {
 		complete_tooltip = {
 			random_state = {
 				limit = {
-					has_state_flag = AST_western_australian_government_railways_Inf1
+					has_state_flag = AST_expand_the_northern_railway_Inf
 				}
 				add_building_construction = {
 					type = infrastructure
-					level = 1
-					instant_build = yes
-				}
-			}
-
-			random_owned_controlled_state = {
-				limit = {
-					has_state_flag = AST_western_australian_government_railways_Inf2
-				}
-				add_building_construction = {
-					type = infrastructure
-					level = 1
+					level = 2
 					instant_build = yes
 				}
 			}
@@ -2062,23 +2051,22 @@ focus_tree = {
 
 		completion_reward = {
 			random_owned_controlled_state = {
-				prioritize = { 522 }
+				prioritize = { 520 }
 				add_building_construction = {
 					type = infrastructure
-					level = 1
+					level = 2
 					instant_build = yes
 				}
-				set_state_flag = AST_western_australian_government_railways_Inf1
+				set_state_flag = AST_expand_the_northern_railway_Inf
 			}
-
 			random_owned_controlled_state = {
-				prioritize = { 519 }
+				prioritize = { 521 }
 				add_building_construction = {
 					type = infrastructure
 					level = 1
 					instant_build = yes
 				}
-				set_state_flag = AST_western_australian_government_railways_Inf2
+				set_state_flag = AST_expand_the_northern_railway_Inf
 			}
 		}
 	}
@@ -2086,7 +2074,7 @@ focus_tree = {
 	focus = {
 		id = AST_south_australian_housing_trust
 		icon = GFX_goal_generic_construct_civ_factory
-		prerequisite = { focus = AST_western_australian_government_railways }
+		prerequisite = { focus = AST_expand_the_northern_railway }
 		x = 0
 		y = 2
 		relative_position_id = AST_standard_gauge_railway
@@ -2147,7 +2135,7 @@ focus_tree = {
 	focus = {
 		id = AST_department_of_supply_and_development
 		icon = GFX_goal_generic_construct_mil_factory
-		prerequisite = { focus = AST_western_australian_government_railways }
+		prerequisite = { focus = AST_expand_the_northern_railway }
 		x = 2
 		y = 2
 		relative_position_id = AST_standard_gauge_railway
@@ -2359,7 +2347,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = AST_expand_the_northern_railway
+		id = AST_western_australian_government_railways
 		icon = GFX_goal_generic_construct_infrastructure
 		prerequisite = { focus = AST_expand_lithgow_small_arms_factory }
 		x = 0
@@ -2369,7 +2357,7 @@ focus_tree = {
 		cost = 10
 
 		ai_will_do = {
-			factor = 1
+			factor = 5
 		}
 
 		available = {
@@ -2387,7 +2375,18 @@ focus_tree = {
 		complete_tooltip = {
 			random_state = {
 				limit = {
-					has_state_flag = AST_expand_the_northern_railway_Inf
+					has_state_flag = AST_western_australian_government_railways_Inf1
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+
+			random_owned_controlled_state = {
+				limit = {
+					has_state_flag = AST_western_australian_government_railways_Inf2
 				}
 				add_building_construction = {
 					type = infrastructure
@@ -2399,22 +2398,23 @@ focus_tree = {
 
 		completion_reward = {
 			random_owned_controlled_state = {
-				prioritize = { 520 }
-				add_building_construction = {
-					type = infrastructure
-					level = 2
-					instant_build = yes
-				}
-				set_state_flag = AST_expand_the_northern_railway_Inf
-			}
-			random_owned_controlled_state = {
-				prioritize = { 521 }
+				prioritize = { 522 }
 				add_building_construction = {
 					type = infrastructure
 					level = 1
 					instant_build = yes
 				}
-				set_state_flag = AST_expand_the_northern_railway_Inf
+				set_state_flag = AST_western_australian_government_railways_Inf1
+			}
+
+			random_owned_controlled_state = {
+				prioritize = { 519 }
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = AST_western_australian_government_railways_Inf2
 			}
 		}
 	}
@@ -2474,9 +2474,9 @@ focus_tree = {
 	focus = {
 		id = AST_uranium_mining
 		icon = GFX_focus_wonderweapons
-		prerequisite = { focus = AST_expand_the_northern_railway }
+		prerequisite = { focus = AST_western_australian_government_railways }
 		prerequisite = { focus = AST_australian_arms_production }
-		x = 1
+		x = 0
 		y = 5
 		relative_position_id = AST_standard_gauge_railway
 
@@ -2508,6 +2508,51 @@ focus_tree = {
 				bonus = 0.5
 				uses = 2
 				category = nuclear
+			}
+		}
+	}
+
+	focus = {
+		id = AST_steel_mining
+		icon = GFX_goal_steel
+		prerequisite = { focus = AST_western_australian_government_railways }
+		prerequisite = { focus = AST_australian_arms_production }
+		x = 2
+		y = 5
+		relative_position_id = AST_standard_gauge_railway
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			521 = {
+				add_resource = {
+				    type = steel
+				    amount = 20
+				}
+				add_resource = {
+				    type = oil
+				    amount = 10
+				}
 			}
 		}
 	}

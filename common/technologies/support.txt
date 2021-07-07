@@ -780,6 +780,7 @@ technologies = {
 		}
 		
 		categories = {
+			support_tech
 			motorized_equipment
 		}
 		
@@ -818,6 +819,7 @@ technologies = {
 		}
 		
 		categories = {
+			support_tech
 			motorized_equipment
 		}
 		
@@ -857,6 +859,7 @@ technologies = {
 		}
 		
 		categories = {
+			support_tech
 			motorized_equipment
 		}
 		
@@ -891,6 +894,7 @@ technologies = {
 		}
 		
 		categories = {
+			support_tech
 			motorized_equipment
 		}
 		

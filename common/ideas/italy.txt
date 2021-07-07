@@ -798,10 +798,6 @@ ideas = {
 			allowed = {
 				original_tag = ITA
 			}
-			
-			available = { 
-				has_completed_focus = ITA_Legacy_of_the_Arditi
-			}
 
 			
 			traits = { army_chief_offensive_2 }
@@ -964,9 +960,12 @@ ideas = {
 				original_tag = ITA
 			}
 			
+			available = {
+				has_completed_focus = ITA_Legacy_of_the_Arditi
+			}
 
 			
-			traits = { army_infantry_1 }
+			traits = { army_infantry_2 }
 			
 			ai_will_do = {
 				factor = 2

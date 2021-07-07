@@ -2602,6 +2602,7 @@ FIN_further_artillery_support_desc:0 "Artillery support has proven invaluable to
  AST_industry_equipment:0 "Build LSA"
  AST_politics1:0 "Recruiting Campaign"
  AST_politics2:0 "2nd Australian Imperial Force"
+ AST_steel_mining:0 "Steel Mining"
  
  ## DLC Australia
  AST_additional_light_infantry_training:0 "Additional Militia Training"
