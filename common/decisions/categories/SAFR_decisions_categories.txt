@@ -36,7 +36,10 @@ SAFR_purchase_planes = {
 	}
 
 	visible = {
+	    OR = {
 		has_completed_focus = SAF_peace_expansion_scheme
+		has_completed_focus = SAF_force_parliament_debate
+		}
 	}
 }
 
@@ -72,6 +75,9 @@ SAFR_building_surface_fleet = {
 	}
 
 	visible = {
+	    OR = {
 		has_completed_focus = SAF_sa_naval_college
+		has_completed_focus = SAF_force_parliament_debate
+		}
 	}
 }

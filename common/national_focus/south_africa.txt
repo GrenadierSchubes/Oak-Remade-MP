@@ -42,7 +42,10 @@ focus_tree = {
 		available = {
 			OR = {
 				threat > 0.2
+				AND = {
 				has_completed_focus = SAF_force_parliament_debate
+				threat > 0.15
+				}
 			}
 		}
 		
@@ -960,16 +963,7 @@ focus_tree = {
 		}
 
 		available = {
-		    AND = {
-			    has_idea = SAF_ossewabrandwag_2
-				OR = {
-                    NOT = { has_completed_focus = SAF_force_parliament_debate }	
-                    AND = {
-					    has_completed_focus = SAF_force_parliament_debate
-						date > 1938.7.1	
-                    }					
-				}
-			}
+			has_idea = SAF_ossewabrandwag_2
 		}
 		
 		bypass = {
@@ -1360,10 +1354,7 @@ focus_tree = {
 		}
 
 		available = {
-		    OR = {
-			    has_completed_focus = SAF_war_measures_act
-			    has_completed_focus = SAF_force_parliament_debate
-			}
+			has_completed_focus = SAF_war_measures_act
 		}
 		
 		bypass = {
