@@ -1681,7 +1681,7 @@ focus_tree = {
 		completion_reward = {
 			add_resource = {
 				type = aluminium
-				amount = 20
+				amount = 30
 				state = 75
 			}
 			add_resource = {
@@ -1689,6 +1689,12 @@ focus_tree = {
 				amount = 25
 				state = 75
 			}
+			add_resource = {
+				type = oil
+				amount = 5
+				state = 75
+			}
+			add_ideas = MAN_resource
 			75 = {
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
