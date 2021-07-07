@@ -998,7 +998,7 @@
 		completion_reward = {
 			add_tech_bonus = {
 				category = industry
-				uses = 2 
+				uses = 1
 				bonus = 1 
 				name = ROM_domestic_industrial_developments
 			} 
