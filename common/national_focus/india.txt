@@ -379,13 +379,11 @@ focus_tree = {
 		available_if_capitulated = no
 
 		complete_tooltip = {
-			add_research_slot = 1
 			remove_ideas = RAJ_widespread_illiteracy
 		}
 
 
 		completion_reward = {
-			add_research_slot = 1
 			remove_ideas = RAJ_widespread_illiteracy				
 		}
 	}	
