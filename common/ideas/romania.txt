@@ -1,6 +1,34 @@
 ideas = {
 
 	country = {
+        ROM_noil = { 
+
+			picture = generic_goods_red_bonus
+
+			removal_cost = -1
+			
+			allowed = {
+				original_tag = ROM
+			}
+
+			allowed_civil_war = {
+			}
+			
+			research_bonus = {
+				industry = 0.05
+			}
+			
+			modifier = {
+			    political_power_factor = 0.05
+				stability_factor = 0.1
+				local_resources_factor = 0.05
+				industrial_capacity_factory = 0.05
+				production_factory_max_efficiency_factor = 0.05
+				production_speed_buildings_factor = 0.025
+				min_export = 0.1
+				conscription_factor = 0.05
+			}
+		}
         ROM_nomoreoil = { 
 
 			picture = generic_goods_red_bonus
@@ -19,6 +47,7 @@ ideas = {
 			}
 			
 			modifier = {
+			    political_power_factor = 0.05
 				stability_factor = 0.1
 				local_resources_factor = 0.1
 				consumer_goods_factor = -0.05

@@ -16,6 +16,9 @@
  HOL_corgis_1:0 "Crackers"
  FRA_Jean_Moulin: "Jean Moulin"
  
+ ROM_noil:0 "Semi-Independence from Oil"
+ ROM_noil_desc:0 "We are trying yo lower our reliance on oil. We need to expand the resource we mine and add to the market."
+ 
  ROM_nomoreoil:0 "Independence from Oil"
  ROM_nomoreoil_desc:0 "We have succeed in lowering our reliance on oil. We are extracting new resources to sell on the market that will benefit Germany."
  

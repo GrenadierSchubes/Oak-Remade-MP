@@ -16,7 +16,7 @@ SAF_a_king_for_our_people = {
 		modifier = {
 		}
 		
-		cost = 25
+		cost = 100
 		fire_only_once = yes
 		ai_will_do = {
 			factor = 1

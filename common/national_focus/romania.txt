@@ -942,6 +942,7 @@
 		}
 		search_filters = {FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY}
 		completion_reward = {
+		    add_ideas = ROM_noil
 			add_tech_bonus = {
 				name = ROM_reduce_reliance_on_oil
 				bonus = 1.0
@@ -1065,7 +1066,10 @@
 				}
 			}
 			add_ideas = partial_economic_mobilisation
-			add_ideas = ROM_nomoreoil
+			swap_ideas = {
+				remove_idea = ROM_noil
+				add_idea = ROM_nomoreoil
+			}
 			remove_ideas = ROM_the_resource_curse_1
 			remove_ideas = ROM_industrialization_4 
  		}
