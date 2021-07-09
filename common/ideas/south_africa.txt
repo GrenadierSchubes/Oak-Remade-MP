@@ -382,6 +382,45 @@ ideas = {
 			}
 		}
 
+		SAF_commits_india_idea = {
+			picture = NOR_planned_economy
+			name = SAF_commits_india_idea
+			allowed = {
+				original_tag = RAJ
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				research_speed_factor = 0.05
+				local_resources_factor = 0.10
+			}
+		}
+		
+		SAF_commits_outback_idea = {
+			picture = NOR_planned_economy
+			name = SAF_commits_outback_idea
+			allowed = {
+				original_tag = AST
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				research_speed_factor = 0.05
+				local_resources_factor = 0.10
+			}
+		}
+
+
 		SAF_support_spain = {
 
 			allowed = {

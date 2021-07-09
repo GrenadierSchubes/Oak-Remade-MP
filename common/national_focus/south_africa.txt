@@ -1085,7 +1085,7 @@ focus_tree = {
 	
 	focus = {
 		id = SAF_focus_europe
-		icon = GFX_focus_usa_focus_on_europe  
+		icon = GFX_RAJ_swaraj  
 		prerequisite = { focus = SAF_desert_equipment }
 		prerequisite = { focus = SAF_directorate_war_supplies }
 		mutually_exclusive = { focus = SAF_focus_asia }
@@ -1093,7 +1093,7 @@ focus_tree = {
 		y = 2
 		relative_position_id = SAF_joint_air_training_scheme
 
-		cost = 7.16
+		cost = 5
 
 		ai_will_do = {
 			factor = 1
@@ -1112,26 +1112,15 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_tech_bonus = {
-				name = SAF_focus_europe
-				bonus = 1.0
-				uses = 1
-				category = land_doctrine
-				category = air_doctrine
-			}
-			add_tech_bonus = {
-				name = SAF_focus_europe
-				bonus = 1.0
-				uses = 1
-				category = cat_anti_tank
-				category = logistics_tech
-			}
-		}
+			
+			add_manpower = 65000
+			RAJ = { add_ideas = SAF_commits_india_idea }
+		}	
 	}
 	
 	focus = {
 		id = SAF_focus_asia
-		icon = GFX_focus_usa_focus_on_asia  
+		icon = GFX_focus_attack_australia  
 		prerequisite = { focus = SAF_desert_equipment }
 		prerequisite = { focus = SAF_directorate_war_supplies } 
 		mutually_exclusive = { focus = SAF_focus_europe }
@@ -1139,7 +1128,7 @@ focus_tree = {
 		y = 2
 		relative_position_id = SAF_joint_air_training_scheme
 
-		cost = 7.16
+		cost = 5
 
 		ai_will_do = {
 			factor = 1
@@ -1158,20 +1147,9 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_tech_bonus = {
-				name = SAF_focus_asia
-				bonus = 1.0
-				uses = 1
-				category = land_doctrine
-				category = naval_doctrine
-			}
-			add_tech_bonus = {
-				name = SAF_focus_asia
-				bonus = 1.0
-				uses = 1
-				category = mountaineers_tech
-				category = logistics_tech
-			}
+			
+			add_manpower = 65000
+			AST = { add_ideas = SAF_commits_outback_idea }
 		}
 	}
 	
@@ -1931,6 +1909,13 @@ focus_tree = {
 				bonus = 1.0
 				uses = 1
 				category = infantry_weapons
+			}
+			add_tech_bonus = {
+				name = SAF_focus_europe
+				bonus = 1.0
+				uses = 1
+				category = cat_anti_tank
+				category = logistics_tech
 			}
 		}
 	}

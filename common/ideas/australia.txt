@@ -103,6 +103,61 @@ ideas = {
 				industrial_capacity_dockyard = -0.1
 			}
 		}
+		
+		AST_commits_india_idea = {
+			picture = ast_all_in
+			name = AST_commits_india_idea
+			allowed = {
+				original_tag = RAJ
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				industrial_capacity_factory = 0.10
+			}
+		}
+		
+		AST_commits_south_africa_idea = {
+			picture = ast_all_in
+			name = AST_commits_south_africa_idea
+			allowed = {
+				original_tag = SAF
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				industrial_capacity_factory = 0.10
+			}
+		}
+		
+		AST_commiting_infra_idea = {
+			picture = man_five_year_plan_industry
+			name = AST_commiting_infra_idea
+			allowed = {
+				always = no
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				production_speed_infrastructure_factor = 0.10
+			}
+		
+		}
 		AST_tank_prod = {
 		    allowed = { 
 			    always = no
