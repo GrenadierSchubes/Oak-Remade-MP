@@ -669,7 +669,7 @@ economy_decisions = {
 		icon = generic_construction
 
 		available = {
-			num_of_military_factories > 5 #Change this if amount of factories change
+			num_of_military_factories > 4 #Change this if amount of factories change
 		}
 
 		visible = {
@@ -684,15 +684,15 @@ economy_decisions = {
 		cost = 70
 
 		modifier = {
-			civilian_factory_use = 5	
+			civilian_factory_use = 4	
 		}
 
 		days_remove = 90
 
 		remove_effect = {
 			replace_arms_with_civ_factories = yes
-			add_war_support = -0.03
-			add_stability = 0.03
+			add_war_support = -0.04
+			add_stability = 0.04
 		}
 		ai_will_do = {
 			factor = 0

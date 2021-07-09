@@ -188,21 +188,6 @@ replace_arms_with_civ_factories = {
 		}
 	}
 
-	random_owned_controlled_state = {
-		limit = {
-			is_core_of = ROOT
-			arms_factory > 0
-		}
-		remove_building = {
-			type = arms_factory
-			level = 1
-		}
-		add_building_construction = {
-			type = industrial_complex
-			level = 1
-			instant_build = yes
-		}
-	}
 }
 
 infrastructure_effort_1_effect = {	
