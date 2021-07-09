@@ -1200,7 +1200,7 @@ ideas = {
 			    GER = { has_war_with = SOV }
 			}
 			
-			traits = { POR_landair }
+			traits = { CZE_landair }
 		}
 	}
 }

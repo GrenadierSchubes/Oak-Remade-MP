@@ -430,6 +430,7 @@ focus_tree = {
 
 		available = {
 			date > 1937.1.1	
+			NOT = { has_completed_focus = SAF_relax_worker_restrictions }
 		}
 		
 		bypass = {

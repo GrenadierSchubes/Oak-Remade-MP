@@ -35,6 +35,24 @@ leader_traits = {
 		}
 	}
 	
+	CZE_landair = {
+		random = no
+		political_power_factor = -0.1
+		industrial_capacity_factory = 0.10
+		production_factory_max_efficiency_factor = 0.10
+	    production_factory_efficiency_gain_factor = 0.10
+		equipment_bonus = {
+			fighter_equipment = {
+				instant = yes
+				build_cost_ic = -0.05
+			}
+			heavy_fighter_equipment = {
+				instant = yes
+				build_cost_ic = -0.05
+			}
+		}
+	}	
+	
 	ncr_theorist = {
 		random = no
 		experience_gain_army = 0.1
