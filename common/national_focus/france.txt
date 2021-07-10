@@ -129,7 +129,6 @@ focus_tree = {
 		continue_if_invalid = yes
 
 		completion_reward = {
-			add_ideas = low_economic_mobilisation
 			add_war_support = 0.1
 			FRA_disjointed_government_level_up = yes	
 
@@ -241,8 +240,7 @@ focus_tree = {
 		available_if_capitulated = yes
 		continue_if_invalid = yes
 
-		completion_reward = {
-			add_ideas = partial_economic_mobilisation			 
+		completion_reward = {		 
 			FRA_remove_disjointed_government = yes 
 		}
 	}
