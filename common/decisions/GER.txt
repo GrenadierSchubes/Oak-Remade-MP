@@ -3496,6 +3496,62 @@ foreign_politics = {
 		}
 	}
 
+	form_greater_german_reich = {
+
+		icon = generic_form_nation
+
+		fire_only_once = yes 
+		
+		allowed = {
+			original_tag = GER
+		}
+
+		available = {
+			is_subject = no
+			has_full_control_of_state = 16
+			has_full_control_of_state = 10
+			has_full_control_of_state = 110
+			has_full_control_of_state = 6
+			has_full_control_of_state = 7
+			all_owned_state = {
+				is_fully_controlled_by = ROOT
+			}
+		}
+
+		visible = {
+			AND = {
+				original_tag = GER
+				has_government = fascism
+				}
+			OR = {
+				AND = {
+					has_war_with = FRA
+					FRA = { has_capitulated = yes }
+				}
+				AND = {
+					owns_state = 16
+					has_full_control_of_state = 16
+				}
+			}
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = GER_greater_german_reich
+			hidden_effect = {
+				set_global_flag = form_greater_german_reich_flag
+				sound_effect = 
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	
 	GER_ussr_war_goal = { #barba
 
 		icon = ger_reichskommissariats
