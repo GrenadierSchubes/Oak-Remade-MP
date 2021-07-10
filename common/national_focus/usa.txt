@@ -1534,14 +1534,6 @@ focus_tree = {
 					level = 10 
 					instant_build = yes 
 				}
-				add_resource = {
-				    type = steel
-				    amount = 20
-				}
-				add_resource = {
-				    type = oil
-				    amount = 10
-				}
 			}
 			every_state = {
 				limit = {
