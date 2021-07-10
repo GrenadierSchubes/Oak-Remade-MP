@@ -228,8 +228,8 @@ RAJ_imperial_state_of_india = {
 						version_name = "Illustrious Class"
 					}
 					name = "Vikrant" 
-					requested_factories = 5
-					progress = 0.3
+					requested_factories = 1
+					progress = 0.5
 					amount = 1
 				}
 				add_equipment_production = {
@@ -239,8 +239,8 @@ RAJ_imperial_state_of_india = {
 						version_name = "Illustrious Class"
 					}
 					name = "Viraat" 
-					requested_factories = 5
-					progress = 0.3
+					requested_factories = 1
+					progress = 0.5
 					amount = 1
 				}
 			}
@@ -275,8 +275,8 @@ RAJ_imperial_state_of_india = {
 						version_name = "Royal Class"
 					}
 					name = "Delhi" 
-					requested_factories = 5
-					progress = 0.45
+					requested_factories = 1
+					progress = 0.5
 					amount = 1
 				}
 				add_equipment_production = {
@@ -286,8 +286,8 @@ RAJ_imperial_state_of_india = {
 						version_name = "Royal Class"
 					}
 					name = "Prince of Wales" 
-					requested_factories = 5
-					progress = 0.3
+					requested_factories = 1
+					progress = 0.5
 					amount = 1
 				}
 				add_equipment_production = {
@@ -297,8 +297,8 @@ RAJ_imperial_state_of_india = {
 						version_name = "Royal Class"
 					}
 					name = "Mysore" 
-					requested_factories = 5
-					progress = 0.3
+					requested_factories = 1
+					progress = 0.5
 					amount = 1
 				}
 			}

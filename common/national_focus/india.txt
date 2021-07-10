@@ -4269,6 +4269,7 @@ focus_tree = {
 				early_ship_hull_cruiser = 1
 				basic_ship_hull_cruiser = 1
 				early_ship_hull_heavy = 1
+				basic_ship_hull_heavy = 1
 				early_ship_hull_carrier = 1
 				basic_ship_hull_carrier = 1
 				basic_battery = 1
@@ -4393,12 +4394,6 @@ focus_tree = {
 				bonus = 1
 				name = RAJ_a_raiding_fleet
 			}	
-			add_tech_bonus = {
-				name = GER_anti_submarine_training_school
-				bonus = 1.0
-				uses = 1
-				category = ss_tech
-			}
 		}
 
 		completion_reward = {
@@ -4410,12 +4405,6 @@ focus_tree = {
 				bonus = 1
 				name = RAJ_a_raiding_fleet
 			}	
-			add_tech_bonus = {
-				name = GER_anti_submarine_training_school
-				bonus = 1.0
-				uses = 2
-				category = ss_tech
-			}
 		}
 	}	
 
@@ -4560,6 +4549,12 @@ focus_tree = {
 
 		complete_tooltip = {
 			add_tech_bonus = {
+				name = FRA_surface_combat
+				bonus = 1.0
+				uses = 1
+				category = dd_tech
+			}
+			add_tech_bonus = {
 				category = naval_doctrine 
 				uses = 2
 				bonus = 1
@@ -4568,6 +4563,12 @@ focus_tree = {
 		}
 
 		completion_reward = {
+			add_tech_bonus = {
+				name = FRA_surface_combat
+				bonus = 1.0
+				uses = 1
+				category = dd_tech
+			}
 			add_tech_bonus = {
 				category = naval_doctrine 
 				uses = 2
@@ -4626,9 +4627,7 @@ focus_tree = {
 		}
 
 		available = {
-			ENG = {
-				has_completed_focus = uk_carrier_focus
-			}
+			has_completed_focus = RAJ_import_british_design
 		}
 
 		bypass = {
@@ -4692,9 +4691,7 @@ focus_tree = {
 		}
 
 		available = {
-			ENG = {
-				has_completed_focus = uk_battleship_focus
-			}
+			has_completed_focus = RAJ_import_british_design
 		}
 
 		bypass = {
@@ -4726,7 +4723,7 @@ focus_tree = {
 					fixed_ship_armor_slot = ship_armor_bb_2
 					front_1_custom_slot = ship_heavy_battery_2
 					mid_1_custom_slot = ship_secondaries_2
-					mid_2_custom_slot = ship_secondaries_2
+					mid_2_custom_slot = ship_anti_air_2
 					rear_1_custom_slot = ship_heavy_battery_2
 				}
 			}
