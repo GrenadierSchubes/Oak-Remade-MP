@@ -4323,9 +4323,9 @@ focus_tree = {
 		id = RAJ_coastal_defence_fleet  
 		icon = GFX_goal_generic_navy_anti_submarine
 		relative_position_id = RAJ_bengal_dockyards
-		mutually_exclusive = { focus = RAJ_a_merchant_feel focus = RAJ_escort_fleet focus = RAJ_a_raiding_fleet }
+		mutually_exclusive = { focus = RAJ_a_raiding_fleet }
 		prerequisite = { focus = RAJ_dockyard_construction_efforts }
-		x = -3
+		x = -2
 		y = 2
 
 		cost = 5
@@ -4356,85 +4356,15 @@ focus_tree = {
 			show_ideas_tooltip = scindia_shipyard
 			add_ideas = RAJ_coastal_defence_fleet_idea 
 		}
-	}	
-
-	focus = {
-		id = RAJ_a_merchant_feel 
-		icon = GFX_goal_generic_navy_cruiser
-		relative_position_id = RAJ_bengal_dockyards
-		prerequisite = { focus = RAJ_dockyard_construction_efforts }
-		mutually_exclusive = { focus = RAJ_coastal_defence_fleet focus = RAJ_escort_fleet focus = RAJ_a_raiding_fleet }
-		x = -1
-		y = 2
-
-		cost = 5
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		complete_tooltip = {
-			add_ideas = RAJ_a_merchant_feel_idea  
-		}
-
-		completion_reward = {
-			add_ideas = RAJ_a_merchant_feel_idea  
-		}
-	}	
-
-	focus = {
-		id = RAJ_escort_fleet
-		icon = GFX_focus_generic_destroyer
-		relative_position_id = RAJ_bengal_dockyards
-		prerequisite = { focus = RAJ_dockyard_construction_efforts }
-		mutually_exclusive = { focus = RAJ_coastal_defence_fleet focus = RAJ_a_merchant_feel focus = RAJ_a_raiding_fleet }
-		x = 1
-		y = 2
-
-		cost = 5
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		complete_tooltip = {
-			add_ideas = RAJ_an_escort_fleet_idea
-		}
-
-		completion_reward = {
-			add_ideas = RAJ_an_escort_fleet_idea
-		}
-	}	
+	}
 
 	focus = {
 		id = RAJ_a_raiding_fleet
 		icon = GFX_goal_generic_navy_submarine
 		relative_position_id = RAJ_bengal_dockyards
 		prerequisite = { focus = RAJ_dockyard_construction_efforts }
-		mutually_exclusive = { focus = RAJ_coastal_defence_fleet focus = RAJ_a_merchant_feel focus = RAJ_escort_fleet }
-		x = 3
+		mutually_exclusive = { focus = RAJ_coastal_defence_fleet }
+		x = 2
 		y = 2
 
 		cost = 5
@@ -4466,7 +4396,7 @@ focus_tree = {
 			add_tech_bonus = {
 				name = GER_anti_submarine_training_school
 				bonus = 1.0
-				uses = 2
+				uses = 1
 				category = ss_tech
 			}
 		}
@@ -4495,7 +4425,7 @@ focus_tree = {
 		relative_position_id = RAJ_bengal_dockyards
 		prerequisite = { focus = RAJ_a_raiding_fleet }
 		mutually_exclusive = { focus = RAJ_submarine_warfare }
-		x = 2
+		x = 1
 		y = 3
 
 		cost = 5
@@ -4530,7 +4460,7 @@ focus_tree = {
 		relative_position_id = RAJ_bengal_dockyards
 		prerequisite = { focus = RAJ_a_raiding_fleet }
 		mutually_exclusive = { focus = RAJ_capital_ship_raiders }
-		x = 4
+		x = 3
 		y = 3
 
 		cost = 5
@@ -4574,7 +4504,7 @@ focus_tree = {
 		icon = GFX_goal_generic_production2
 		relative_position_id = RAJ_a_raiding_fleet
 		prerequisite = { focus = RAJ_submarine_warfare }
-		x = 2
+		x = 1
 		y = 2
 
 		cost = 5
@@ -4607,8 +4537,8 @@ focus_tree = {
 		id = RAJ_naval_doctrine
 		icon = GFX_goal_generic_navy_doctrines_tactics
 		relative_position_id = RAJ_bengal_dockyards
-		prerequisite = { focus = RAJ_coastal_defence_fleet focus = RAJ_escort_fleet focus = RAJ_a_merchant_feel }
-		x = 0
+		prerequisite = { focus = RAJ_coastal_defence_fleet }
+		x =-2
 		y = 3
 
 		cost = 5
@@ -4682,146 +4612,12 @@ focus_tree = {
 	}	
 
 	focus = {
-		id = RAJ_a_submarine_hunters
-		icon = GFX_goal_generic_navy_anti_submarine
-		relative_position_id = RAJ_naval_doctrine
-		prerequisite = { focus = RAJ_press_indians_into_the_dockyards }
-		x = -1
-		y = 2
-
-		cost = 5
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		complete_tooltip = {
-			add_tech_bonus = {
-				category = asw_tech
-				uses = 2
-				bonus = 2
-				name = RAJ_a_submarine_hunters
-			}
-		}
-
-		completion_reward = {
-			add_tech_bonus = {
-				category = asw_tech
-				uses = 2
-				bonus = 2
-				name = RAJ_a_submarine_hunters
-			}	
-		}
-	}	
-
-	focus = {
-		id = RAJ_carrier_supremacy
+		id = RAJ_the_illustrious_class
 		icon = GFX_goal_generic_navy_carrier
 		relative_position_id = RAJ_naval_doctrine
 		prerequisite = { focus = RAJ_naval_doctrine }
-		mutually_exclusive = { focus = RAJ_battlecruiser_supremacy }
-
 		x = 1
 		y = 1
-
-		cost = 5
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		complete_tooltip = {
-			add_tech_bonus = {
-				category = cv_tech
-				uses = 2
-				bonus = 1
-				name = RAJ_carrier_supremacy
-			}
-		}
-
-		completion_reward = {
-			add_tech_bonus = {
-				category = cv_tech
-				uses = 2
-				bonus = 1
-				name = RAJ_carrier_supremacy
-			}	
-		}
-	}	
-
-	focus = {
-		id = RAJ_joint_british_indian_naval_exercises
-		icon = GFX_goal_tfv_strengthen_commonwealth_ties
-		relative_position_id = RAJ_carrier_supremacy
-		prerequisite = { focus = RAJ_carrier_supremacy }
-		x = 0
-		y = 1
-
-		cost = 5
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		complete_tooltip = {
-			add_tech_bonus = {
-				category = cat_base_strike
-				uses = 3
-				bonus = 1
-				name = RAJ_carrier_supremacy
-			}
-		}
-
-		completion_reward = {
-			add_tech_bonus = {
-				category = cat_base_strike
-				uses = 3
-				bonus = 1
-				name = RAJ_carrier_supremacy
-			}	
-		}
-	}	
-
-	focus = {
-		id = RAJ_the_illustrious_class
-		icon = GFX_goal_generic_navy_carrier
-		relative_position_id = RAJ_carrier_supremacy
-		prerequisite = { focus = RAJ_joint_british_indian_naval_exercises }
-		x = 0
-		y = 2
 
 		cost = 5
 
@@ -4881,103 +4677,13 @@ focus_tree = {
 			}
 		}
 	}	
-
-	focus = {
-		id = RAJ_battlecruiser_supremacy
-		icon = GFX_goal_generic_navy_battleship
-		relative_position_id = RAJ_naval_doctrine
-		prerequisite = { focus = RAJ_naval_doctrine }
-		mutually_exclusive = { focus = RAJ_carrier_supremacy }
-		x = 3
-		y = 1
-
-		cost = 5
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		complete_tooltip = {
-			add_tech_bonus = {
-				category = bb_tech
-				uses = 2
-				bonus = 1
-				name = RAJ_battlecruiser_supremacy
-			}
-		}
-
-		completion_reward = {
-			add_tech_bonus = {
-				category = bb_tech
-				uses = 2
-				bonus = 1
-				name = RAJ_battlecruiser_supremacy
-			}	
-		}
-	}	
-
-	focus = {
-		id = RAJ_battlecruiser_naval_exercises
-		icon = GFX_goal_generic_navy_doctrines_tactics
-		relative_position_id = RAJ_naval_doctrine
-		prerequisite = { focus = RAJ_battlecruiser_supremacy }
-		x = 3
-		y = 2
-
-		cost = 5
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		complete_tooltip = {
-			add_tech_bonus = {
-				category = cat_base_strike
-				uses = 3
-				bonus = 1
-				name = RAJ_carrier_supremacy
-			}
-		}
-
-		completion_reward = {
-			add_tech_bonus = {
-				category = cat_base_strike
-				uses = 3
-				bonus = 1
-				name = RAJ_carrier_supremacy
-			}	
-		}
-	}	
-
 	focus = {
 		id = RAJ_the_princess_royal_class
 		icon = GFX_focus_generic_navy_battleship2
 		relative_position_id = RAJ_naval_doctrine
-		prerequisite = { focus = RAJ_battlecruiser_naval_exercises }
+		prerequisite = { focus = RAJ_naval_doctrine focus = RAJ_capital_ship_raiders }
 		x = 3
-		y = 3
+		y = 1
 
 		cost = 5
 
