@@ -13,12 +13,12 @@ division_template = {
 		light_infantry = { x = 1 y = 2 }
 		light_infantry = { x = 4 y = 1 }
 
-		bicycle_battalion = { x = 2 y = 0 }
-		bicycle_battalion = { x = 2 y = 1 }
-		bicycle_battalion = { x = 2 y = 2 }
+		light_infantry = { x = 2 y = 0 }
+		light_infantry = { x = 2 y = 1 }
+		light_infantry = { x = 2 y = 2 }
 
-		artillery_brigade = { x = 3 y = 0 }
-		artillery_brigade = { x = 3 y = 1 }
+		pack_artillery_brigade = { x = 3 y = 0 }
+		pack_artillery_brigade = { x = 3 y = 1 }
 		pack_artillery_brigade = { x = 3 y = 2 }
 		pack_artillery_brigade = { x = 4 y = 2 }
 	}
@@ -26,7 +26,8 @@ division_template = {
 		DIV_HQ = { x = 0 y = 0 }
 		engineer = { x = 0 y = 1 } 
 		recon = { x = 1 y = 1 }
-		field_hospital = { x = 1 y = 0 }
+		pack_artillery = { x = 1 y = 0 }
+		anti_air_company = { x = 0 y = 2 }	
 	}
 	priority = 1
 }
@@ -40,10 +41,18 @@ division_template = {
 		light_infantry = { x = 0 y = 2 }
 		light_infantry = { x = 1 y = 0 }
 		light_infantry = { x = 1 y = 1 }
+		light_infantry = { x = 1 y = 2 }
+		light_infantry = { x = 2 y = 0 }
+		light_infantry = { x = 2 y = 1 }
+		light_infantry = { x = 2 y = 2 }
+		light_infantry = { x = 2 y = 3 }
 	}
 	support = {
 		DIV_HQ = { x = 0 y = 0 }
-		recon = { x = 0 y = 1 }  
+		engineer = { x = 0 y = 1 } 
+		recon = { x = 1 y = 1 }
+		pack_artillery = { x = 1 y = 0 }
+		anti_air_company = { x = 0 y = 2 }	  
 	}
 	priority = 1
 }
@@ -56,11 +65,6 @@ division_template = {
 		cavalry = { x = 1 y = 0 }
 		cavalry = { x = 1 y = 1 }
 		cavalry = { x = 2 y = 0 }
-		cavalry = { x = 2 y = 1 }
-	}
-	support = {
-		DIV_HQ = { x = 0 y = 0 }
-		recon = { x = 0 y = 1 }   
 	}
 	priority = 0
 }
@@ -112,6 +116,30 @@ units = {
 	}
 	division = {
 		name = "13. Divisioona"
+		location = 11141 # Kuopio
+		division_template = "Jalkaväkidivisioona"
+		start_experience_factor = 0.3
+		
+
+	}
+	division = {
+		name = "14. Divisioona"
+		location = 11141 # Kuopio
+		division_template = "Jalkaväkidivisioona"
+		start_experience_factor = 0.3
+		
+
+	}
+	division = {
+		name = "15. Divisioona"
+		location = 11141 # Kuopio
+		division_template = "Jalkaväkidivisioona"
+		start_experience_factor = 0.3
+		
+
+	}
+	division = {
+		name = "16. Divisioona"
 		location = 11141 # Kuopio
 		division_template = "Jalkaväkidivisioona"
 		start_experience_factor = 0.3
