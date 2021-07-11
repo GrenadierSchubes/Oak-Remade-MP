@@ -687,6 +687,7 @@ ideas = {
 
 			modifier = {
 				production_factory_efficiency_gain_factor = 0.05
+				production_speed_dockyard_factor = 0.1
 			}
 
 		}	
