@@ -1348,9 +1348,9 @@ focus_tree = {
 		id = RAJ_commit_to_africa
 		icon = GFX_focus_usa_focus_on_europe
 		relative_position_id = RAJ_attract_british_investors
-		prerequisite = { focus = RAJ_send_our_students_abroad focus = RAJ_foreign_investment_in_madurai focus = RAJ_wartime_infrastructure_singapore focus = RAJ_kuwait_development }
+		prerequisite = { focus = RAJ_send_our_students_abroad focus = RAJ_foreign_investment_in_madurai focus = RAJ_wartime_infrastructure_singapore }
 		mutually_exclusive = { focus = RAJ_commit_to_asia }
-		x = -1
+		x = 0
 		y = 5
 		
 		cost = 5
@@ -1386,9 +1386,9 @@ focus_tree = {
 		id = RAJ_commit_to_asia
 		icon = GFX_focus_usa_focus_on_asia
 		relative_position_id = RAJ_attract_british_investors
-		prerequisite = { focus = RAJ_send_our_students_abroad focus = RAJ_foreign_investment_in_madurai focus = RAJ_wartime_infrastructure_singapore focus = RAJ_kuwait_development }
+		prerequisite = { focus = RAJ_send_our_students_abroad focus = RAJ_foreign_investment_in_madurai focus = RAJ_wartime_infrastructure_singapore }
 		mutually_exclusive = { focus = RAJ_commit_to_africa }
-		x = 1
+		x = 2
 		y = 5
 	
 		cost = 5
@@ -3005,54 +3005,10 @@ focus_tree = {
 	}				
 
 	focus = {
-		id = RAJ_artillery_research  
-		icon = GFX_goal_generic_army_artillery2
-		relative_position_id = RAJ_infantry_leader
-		prerequisite = { focus = RAJ_infantry_leader }
-		x = 1
-		y = 1
-
-		cost = 5
-
-		ai_will_do = {
-			factor = 4
-		}
-
-		available = {
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		complete_tooltip = {
-			add_tech_bonus = {
-				category = artillery
-				uses = 1
-				bonus = 1.0 
-				name = RAJ_bangalore_torpedo
-			}
-		}
-
-		completion_reward = {
-			add_tech_bonus = {
-				category = artillery
-				uses = 1
-				bonus = 1.0 
-				name = RAJ_bangalore_torpedo
-			}	
-		}
-	}
-		
-	focus = {
 		id = RAJ_bangalore_torpedo 
 		icon = GFX_focus_generic_combined_arms
-		relative_position_id = RAJ_artillery_research
-		prerequisite = { focus = RAJ_artillery_research }
+		relative_position_id = RAJ_infantry_leader
+		prerequisite = { focus = RAJ_infantry_leader }
 		x = 1
 		y = 1
 
@@ -3448,53 +3404,12 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = RAJ_british_tank_artillery
-		icon = GFX_focus_generic_combined_arms
-		relative_position_id = RAJ_british_tank_tactics
-		prerequisite = { focus = RAJ_british_tank_tactics }
-		x = -1
-		y = 1
-		cost = 5
-		
-		ai_will_do = {
-			factor = 4
-		}
-
-		available = {
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		complete_tooltip = {
-			add_tech_bonus = {
-				category = artillery
-				uses = 2
-				bonus = 0.5
-			}
-		}
-
-		completion_reward = {
-			add_tech_bonus = {
-				category = artillery
-				uses = 2
-				bonus = 0.5
-			}	
-		}
-	}
-	
-	focus = {
 		id = RAJ_wartime_industry 
 		icon = GFX_goal_generic_construct_mil_factory
 		relative_position_id = RAJ_learn_from_kitcheners_reforms
 		prerequisite = { focus = RAJ_means_for_the_army }
 		x = 0
-		y = 7
+		y = 6
 
 		cost = 7.2
 

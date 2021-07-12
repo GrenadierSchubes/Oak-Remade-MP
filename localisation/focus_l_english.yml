@@ -3430,7 +3430,6 @@ FIN_further_artillery_support_desc:0 "Artillery support has proven invaluable to
  RAJ_british_tanks:0 "British Mechanized"
  RAJ_british_tanks_desc:0 "We will take notes and lessons from imported British armor designs and incorporate them into our own."
  RAJ_british_tank_tactics:0 "British Tanks"
- RAJ_british_tank_artillery:0 "British SPG Tanks"
  RAJ_wartime_industry:0 "Wartime Industry"
  RAJ_wartime_industry_desc:0 "We have been dragged into yet another war. We will ensure that we are not underprepared for it and build up our military industries."
  RAJ_request_additional_british_generals:0 "Request Additional British Generals"
