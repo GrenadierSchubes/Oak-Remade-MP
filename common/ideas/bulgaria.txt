@@ -2618,26 +2618,6 @@ ideas = {
 			}
 		}
 
-		BUL_stefan_tsanev = { #DLC
-
-			ledger = navy
-			
-			picture = bul_stefan_tsanev
-
-			allowed = {
-				original_tag = BUL
-			}
-			
-			traits = { navy_anti_submarine_1 }
-			
-			ai_will_do = {
-				factor = 1
-				modifier = {
-					factor = 0.1
-				}
-			}
-		}
-
 		BUL_ivan_sapundzhiev = { #DLC
 
 			ledger = army
