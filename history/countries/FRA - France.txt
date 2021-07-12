@@ -140,7 +140,7 @@ add_ideas = {
 	FRA_naval
 	FRA_air
 	airandnavy_idea
-	partial_economic_mobilisation
+	low_economic_mobilisation
 	rene_massigli
 }
 

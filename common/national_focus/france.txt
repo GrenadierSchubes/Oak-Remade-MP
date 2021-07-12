@@ -66,6 +66,64 @@ focus_tree = {
 			}
 		}
 	}
+	
+	focus = {
+		id = FRA_mil
+		bypass = {
+			has_capitulated = yes
+		}
+		mutually_exclusive = { focus = FRA_civ }
+		prerequisite = { focus = FRA_matignon_agreements }
+		icon = GFX_goal_generic_construct_mil_factory
+		x = 6
+		y = 2
+		cost = 1
+		
+		available = {
+		    date < 1936.9.10
+		}
+
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		available_if_capitulated = no
+
+		completion_reward = {
+		    remove_ideas = rene_massigli
+			add_timed_idea = {
+				idea = FRA_mils
+				days = 500
+			}
+		}
+	}
+	
+	focus = {
+		id = FRA_civ
+		bypass = {
+			has_capitulated = yes
+		}
+		mutually_exclusive = { focus = FRA_mil }
+		prerequisite = { focus = FRA_matignon_agreements }
+		icon = GFX_goal_generic_construct_civ_factory
+		x = 9
+		y = 2
+		cost = 1
+		
+		available = {
+		    date < 1936.9.10
+		}
+
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		available_if_capitulated = no
+
+		completion_reward = {
+		    remove_ideas = rene_massigli
+			add_timed_idea = {
+				idea = FRA_civs
+				days = 650
+			}		
+		}
+	}
 
 	focus = {
 		id = FRA_intervention_in_spain
@@ -129,7 +187,6 @@ focus_tree = {
 		continue_if_invalid = yes
 
 		completion_reward = {
-			add_war_support = 0.1
 			FRA_disjointed_government_level_up = yes	
 
 			retire_country_leader = yes 
@@ -167,6 +224,7 @@ focus_tree = {
 
 		completion_reward = {
 			news_event = { id = news.346 hours = 12 }
+			add_ideas = partial_economic_mobilisation
 		}
 	}
 
@@ -310,7 +368,7 @@ focus_tree = {
 		}
 		
 		bypass = {
-
+            has_capitulated = yes
 		}
 
 		cancel_if_invalid = yes
@@ -322,56 +380,6 @@ focus_tree = {
 			unlock_decision_category_tooltip = FRA_weapons_purchases_category
 		}
 	}
-
-	focus = {
-		id = FRA_support_the_finns
-		icon = GFX_focus_invite_finland
-		x = 1
-		y = 1
-		offset = {
-			x = 0
-			y = 0
-		}
-		prerequisite = {
-			focus = FRA_matignon_agreements
-		}
-		relative_position_id = FRA_matignon_agreements
-		cost = 2
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-			FIN = {
-				has_war = yes
-				NOT = {
-					has_war_with = ROOT
-				}
-			}
-		}
-		
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			army_experience = 20
-			FIN = {
-				add_manpower = 10000
-				add_equipment_to_stockpile = {
-					type = infantry_equipment
-					amount = 5000
-					producer = FRA
-				}
-			}
-		}
-	}
-
 	focus = {
 		id = FRA_ban_the_leagues
 		icon = GFX_goal_generic_forceful_treaty
@@ -726,7 +734,7 @@ focus_tree = {
 		cost = 5
 		
 		available = {
-			threat > 0.1
+			threat > 0.09
 		}
 
 		available_if_capitulated = yes
@@ -2066,7 +2074,7 @@ focus_tree = {
 		completion_reward = {
 			set_capital = 16
 			add_stability = 0.1
-			add_war_support = 0.05
+
 			add_manpower = 150000
 			transfer_state = 16
 			add_equipment_to_stockpile = {
@@ -2097,8 +2105,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			army_experience = 10
-			add_war_support = 0.05			
+			army_experience = 10	
 			add_tech_bonus = {
 				name = FRA_appoint_new_supreme_commander
 				bonus = 1.0
@@ -2668,7 +2675,6 @@ focus_tree = {
 					instant_build = yes 
 				}
 			}
-			add_war_support = 0.10
 			GER = {
 				add_opinion_modifier = { target = FRA modifier = HOL_germany_is_the_greater_threat }
 			}	

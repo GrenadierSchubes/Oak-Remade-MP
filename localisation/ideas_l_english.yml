@@ -14,7 +14,6 @@
  HOL_corgis_2:0 "Dookie"
  HOL_corgis_3:0 "Jane"
  HOL_corgis_1:0 "Crackers"
- FRA_Jean_Moulin: "Jean Moulin"
  
  ROM_nomoreoil:0 "Independence from Oil"
  ROM_nomoreoil_desc:0 "We have succeed in lowering our reliance on oil. We are extracting new resources to sell on the market that will benefit Germany."
@@ -22,15 +21,17 @@
  SOV_aa:0 "Soviet Air Defence Forces"
  SOV_aa_desc:0 "The Soviet Air Defence Force was responible for keeping the airspace clear over the Soviet Union. This was done with AA guns both large and small caliber aided by radar in the later years of the war"
  
- refinery_idea:0 "No need to build refineries yet"
+ refinery_idea:0 "Cheap Natural Rubber"
  USA_neutrality_acts:0 "Amended Neutrality Act"
  USA_neutrality_acts_desc:0 "We must amend the Neutrality Act in order for us to aid China. We shall send covert help to allied nations."
 
  FRA_naval:0 "Peaceful Seas"
  FRA_naval_desc:0 "France has no need for a large navy at this time."
- 
  FRA_air:0 "Peaceful Airspace"
  FRA_air_desc:0 "France has no need for a large airforce at this time."
+ FRA_mils:0 "Military Industry Investment"
+ FRA_civs:0 "Civilian Economy Investment"
+ FRA_Jean_Moulin: "Jean Moulin"
  
  ETH_core:0 "Weak Army Leadership"
  ETH_core_desc:0 "Our army is lead by incompetent generals."

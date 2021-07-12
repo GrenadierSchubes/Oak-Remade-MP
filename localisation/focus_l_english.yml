@@ -42,7 +42,12 @@
  
  ITA_home_defence:0 "Italian Home Guard"
  ITA_home_defence_desc:0 "All men to the front!  If we do not stop this now, we might never!
-
+ 
+ FRA_mil:0 "Military Build-up"
+ FRA_mil_desc:0 ""
+ FRA_civ:0 "Civilian Build-up"
+ FRA_civ_desc:0 ""
+ 
  uk_nzl_focus:0 "Develop New Zealand"
  uk_nzl_focus_desc:0 "We must aid the New Zealanders in developing their nation. They are an important outpost in the pacific and must be able to hold onto their territory."
 
@@ -948,7 +953,7 @@
  FRA_ratify_matignon_desc:0 "Matignon promised the safety of the worker, and the comfort of the worker. But with the rise of the threat of Germany, how can this safety be garuanteed if France is unable to equip and field a large land army that can contain the German threat? It is wise to revise matignon since it has made the French economy extremely uncompetitive."
  FRA_purge_the_anti_appeasers:0 "Purge the Anti-Appeasers"
  FRA_purge_the_anti_appeasers_desc:0 "There are those in the current government who are hoping to contain Germany by aggressive foreign policy, this is against the will of the people of France. These people must be corrected by removing them from the current government."
- FRA_join_the_allies:0 "Partial Mobilization"
+ FRA_join_the_allies:0 "Mobilization"
  FRA_join_the_allies_desc:0 "After handing over Czechoslovakia to the Germans, the current situation in Europe is shakey. We need to solidifiy our position with England and rearm in earnest."
  FRA_morane_saulnier_goal:0 "Expand Morane-Saulnier"
  FRA_morane_saulnier_goal_desc:0 "Morane-Saulnier have built some truly revolutionizing machines, to compete with the Luftwaffe's brand new planes, Morane-Saulnier will need to have their current facilities expanded if they are to keep up the pace with the rapidly expanding air force of our enemies."
