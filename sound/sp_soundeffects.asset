@@ -1,9 +1,9 @@
 ##American Speeches##
 
 soundeffect = {
-	name = "usa_pearl_harbor"
+	name = "usa_b29"
 	sounds = {
-		sound = usa_pearl_harbor
+		sound = usa_b29
 	}
 	volume = 1.0
 }
@@ -159,6 +159,14 @@ soundeffect = {
 }
 
 soundeffect = {
+	name = "ger_sieg"
+	sounds = {
+		sound = ger_sieg
+	}
+	volume = 1.0
+}
+
+soundeffect = {
 	name = "ger_westerwald"
 	sounds = {
 		sound = ger_westerwald
@@ -198,12 +206,36 @@ soundeffect = {
 	volume = 1.0
 }
 
+soundeffect = {
+	name = "ita_libya"
+	sounds = {
+		sound = ita_libya
+	}
+	volume = 1.0
+}
+
 ##Japanese Speeches##
 
 soundeffect = {
 	name = "jap_banzai"
 	sounds = {
 		sound = jap_banzai
+	}
+	volume = 1.0
+}
+
+soundeffect = {
+	name = "jap_pearl_harbor"
+	sounds = {
+		sound = jap_pearl_harbor
+	}
+	volume = 1.0
+}
+
+soundeffect = {
+	name = "jap_ast"
+	sounds = {
+		sound = jap_ast
 	}
 	volume = 1.0
 }

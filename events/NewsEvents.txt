@@ -2995,6 +2995,9 @@ news_event = {
 	option = {
 		name = news.117.b
 		trigger = { TAG = JAP }
+		hidden_effect = {
+			sound_effect = jap_ast
+		}
 	}
 	option = {
 		name = news.100.c

@@ -29,6 +29,7 @@ category = {
 	ger_totalen_krieg
 	ger_mobilize
 	ger_russlandlied
+	ger_sieg
 	ger_westerwald
 	}
 }
@@ -40,6 +41,7 @@ category = {
 	sp_ita_surrender
  	sp_ita_ethiopia
 	ita_il_duce
+	ita_libya
 	}
 }
 
@@ -47,6 +49,8 @@ category = {
  name = "Japanese Speeches"
  soundeffects = {
 	jap_banzai
+	jap_pearl_harbor
+	jap_ast
 	}
 }
 
@@ -66,7 +70,7 @@ category = {
 category = {
  name = "American Speeches"
  soundeffects = {
-	usa_pearl_harbor
+	usa_b29
 	usa_wartime
 	usa_slap_the_japs
 	}

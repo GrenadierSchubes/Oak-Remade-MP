@@ -3570,6 +3570,9 @@ focus_tree = {
 			ENG = {
 				add_ideas = combined_bomber_offensive
 			}
+			hidden_effect = {
+				sound_effect = usa_b29
+			}
 		}
 	}						
 
@@ -5163,7 +5166,6 @@ focus_tree = {
 			hidden_effect = {
 				set_rule = { can_join_factions = yes }
 				set_rule = { can_create_factions = yes }
-				sound_effect = usa_pearl_harbor
 			}
 			custom_effect_tooltip = USA_join_the_allies_tt 
 			ENG = {
