@@ -118,7 +118,8 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				industrial_capacity_factory = 0.10
+				industrial_capacity_factory = 0.05
+				industrial_capacity_dockyard = 0.10
 			}
 		}
 		
@@ -137,6 +138,7 @@ ideas = {
 			
 			modifier = {
 				industrial_capacity_factory = 0.05
+				industrial_capacity_dockyard = 0.10
 			}
 		}
 		
@@ -154,7 +156,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				production_speed_infrastructure_factor = 0.05
+				production_speed_infrastructure_factor = 0.10
 			}
 		
 		}

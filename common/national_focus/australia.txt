@@ -3012,76 +3012,11 @@ focus_tree = {
 	}
 
 	focus = {
-		id = AST_factory_reinvention_india
-		icon = GFX_RAJ_swaraj
-		prerequisite = { focus = AST_invest_in_victory focus = AST_citizen_military_forces }
-		relative_position_id = AST_invest_in_victory
-		mutually_exclusive = { focus = AST_factory_reinvention_south_africa }
-		x = 0
-		y = 1
-		
-		cost = 5
-
-		ai_will_do = {
-			factor = 5
-		}
-
-		available = {
-
-		}
-		
-		bypass = {
-
-		}
-		
-		completion_reward = {
-			
-			AST = { add_ideas = AST_commiting_infra_idea }
-			RAJ = { add_ideas = AST_commits_india_idea }
-			
-		}
-	
-	}
-	
-	focus = {
-		id = AST_factory_reinvention_south_africa
-		icon = GFX_focus_usa_reestablish_the_gold_standard
-		prerequisite = { focus = AST_invest_in_victory focus = AST_citizen_military_forces }
-		relative_position_id = AST_citizen_military_forces
-		mutually_exclusive = { focus = AST_factory_reinvention_india }
-		x = 0
-		y = 1
-		
-		cost = 5
-
-		ai_will_do = {
-			factor = 5
-		}
-
-		available = {
-
-		}
-		
-		bypass = {
-
-		}
-		
-		completion_reward = {
-			
-			AST = { add_ideas = AST_commiting_infra_idea }
-			SAF = { add_ideas = AST_commits_south_africa_idea }
-			
-		}
-	
-	}
-
-
-	focus = {
 		id = AST_rationing_and_recycling
 		icon = GFX_goal_generic_trade
-		prerequisite = { focus = AST_factory_reinvention_india focus = AST_factory_reinvention_south_africa }
+		prerequisite = { focus = AST_invest_in_victory }
 		x = 0
-		y = 4
+		y = 3
 		relative_position_id = AST_establish_advisory_war_council
 
 		cost = 5
@@ -3142,9 +3077,9 @@ focus_tree = {
 	focus = {
 		id = AST_classify_aliens
 		icon = GFX_goal_generic_defence
-		prerequisite = { focus = AST_factory_reinvention_india focus = AST_factory_reinvention_south_africa }
+		prerequisite = { focus = AST_citizen_military_forces }
 		x = 2
-		y = 4
+		y = 3
 		relative_position_id = AST_establish_advisory_war_council
 
 		cost = 5
@@ -3212,6 +3147,70 @@ focus_tree = {
 				}
 			}
 		}
+	}
+
+	focus = {
+		id = AST_factory_reinvention_india
+		icon = GFX_RAJ_swaraj
+		prerequisite = { focus = AST_rationing_and_recycling focus = AST_classify_aliens }
+		relative_position_id = AST_invest_in_victory
+		mutually_exclusive = { focus = AST_factory_reinvention_south_africa }
+		x = 0
+		y = 2
+		
+		cost = 5
+
+		ai_will_do = {
+			factor = 5
+		}
+
+		available = {
+			has_war = yes
+		}
+		
+		bypass = {
+
+		}
+		
+		completion_reward = {
+			
+			AST = { add_ideas = AST_commiting_infra_idea }
+			RAJ = { add_ideas = AST_commits_india_idea }
+			
+		}
+	
+	}
+	
+	focus = {
+		id = AST_factory_reinvention_south_africa
+		icon = GFX_focus_usa_reestablish_the_gold_standard
+		prerequisite = { focus = AST_rationing_and_recycling focus = AST_classify_aliens }
+		relative_position_id = AST_citizen_military_forces
+		mutually_exclusive = { focus = AST_factory_reinvention_india }
+		x = 0
+		y = 2
+		
+		cost = 5
+
+		ai_will_do = {
+			factor = 5
+		}
+
+		available = {
+			has_war = yes
+		}
+		
+		bypass = {
+
+		}
+		
+		completion_reward = {
+			
+			AST = { add_ideas = AST_commiting_infra_idea }
+			SAF = { add_ideas = AST_commits_south_africa_idea }
+			
+		}
+	
 	}
 
 	focus = {

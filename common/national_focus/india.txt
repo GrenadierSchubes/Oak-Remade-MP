@@ -1346,7 +1346,7 @@ focus_tree = {
 	
 	focus = {
 		id = RAJ_commit_to_africa
-		icon = GFX_focus_usa_focus_on_europe
+		icon = GFX_focus_usa_reestablish_the_gold_standard
 		relative_position_id = RAJ_attract_british_investors
 		prerequisite = { focus = RAJ_send_our_students_abroad focus = RAJ_foreign_investment_in_madurai focus = RAJ_wartime_infrastructure_singapore }
 		mutually_exclusive = { focus = RAJ_commit_to_asia }
@@ -1384,7 +1384,7 @@ focus_tree = {
 	
 	focus = {
 		id = RAJ_commit_to_asia
-		icon = GFX_focus_usa_focus_on_asia
+		icon = GFX_focus_attack_australia
 		relative_position_id = RAJ_attract_british_investors
 		prerequisite = { focus = RAJ_send_our_students_abroad focus = RAJ_foreign_investment_in_madurai focus = RAJ_wartime_infrastructure_singapore }
 		mutually_exclusive = { focus = RAJ_commit_to_africa }
@@ -1523,7 +1523,7 @@ focus_tree = {
 				}
 			}
 			add_resource = {
-				state = 431
+				state = 439
 				amount = 12
 				type = steel
 			}
@@ -1541,7 +1541,7 @@ focus_tree = {
 				}
 			}
 			add_resource = {
-				state = 431
+				state = 439
 				amount = 12
 				type = steel
 			}
@@ -1630,36 +1630,23 @@ focus_tree = {
 			add_autonomy_ratio = {
 				value = 0.05 
 			}
-			random_owned_controlled_state = {
-				prioritize = { 428 }
-				limit = {
-					free_building_slots = {
-						building = infrastructure
-						size > 1
-					}
-				}
+			428 = {
 				add_building_construction = {
-					type = infrastructure
 					level = 1
+					type = infrastructure
 					instant_build = yes
 				}
 				set_state_flag = RAJ_integrate_princely_railways_Inf1
 			}
-			random_owned_controlled_state = {
-				prioritize = { 425 }
-				limit = {
-					free_building_slots = {
-						building = infrastructure
-						size > 1
-					}
-				}
+			427 = {
 				add_building_construction = {
-					type = infrastructure
 					level = 1
+					type = infrastructure
 					instant_build = yes
 				}
-				set_state_flag = RAJ_integrate_princely_railways_Inf2
-			}			
+				set_state_flag = RAJ_integrate_princely_railways_Inf1
+			}
+			
 		}
 
 		completion_reward = {
@@ -1668,37 +1655,24 @@ focus_tree = {
 			add_autonomy_ratio = {
 				value = 0.05 
 			}
-			random_owned_controlled_state = {
-				prioritize = { 428 }
-				limit = {
-					free_building_slots = {
-						building = infrastructure
-						size > 1
-					}
-				}
+			
+			428 = {
 				add_building_construction = {
-					type = infrastructure
 					level = 1
+					type = infrastructure
 					instant_build = yes
 				}
 				set_state_flag = RAJ_integrate_princely_railways_Inf1
 			}
-			random_owned_controlled_state = {
-				prioritize = { 429 }
-				limit = {
-					free_building_slots = {
-						building = infrastructure
-						size > 1
-					}
-				}
+			427 = {
 				add_building_construction = {
-					type = infrastructure
 					level = 1
+					type = infrastructure
 					instant_build = yes
 				}
-				set_state_flag = RAJ_integrate_princely_railways_Inf2
+				set_state_flag = RAJ_integrate_princely_railways_Inf1
 			}
-
+		
 			add_to_variable = {
 				var = rapid_industrialization
 				value = 5 
