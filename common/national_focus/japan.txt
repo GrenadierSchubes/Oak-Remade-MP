@@ -1908,6 +1908,10 @@ focus_tree = {
 				target = CHI
 				type = annex_everything
             }
+			hidden_effect = {
+				sound_effect = jap_banzai
+			}
+			
 		}
 	}
 ### SRIKE THE WEST TREE ###
@@ -2299,6 +2303,7 @@ focus_tree = {
 					target = INS
 					type = annex_everything
 				}
+				sound_effect = jap_pearl_harbor
 		    }
 		}
 	}

@@ -3539,7 +3539,7 @@ foreign_politics = {
 			set_cosmetic_tag = GER_greater_german_reich
 			hidden_effect = {
 				set_global_flag = form_greater_german_reich_flag
-				sound_effect = 
+				sound_effect = ger_sieg
 			}
 		}
 

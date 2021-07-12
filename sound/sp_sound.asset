@@ -1,8 +1,8 @@
 ##American Speeches##
 
 sound = {
-	name = "usa_pearl_harbor"
-	file = "usa_speech/usa_pearl_harbor.wav"
+	name = "usa_b29"
+	file = "usa_speech/usa_b29.wav"
 }
 
 sound = {
@@ -102,6 +102,11 @@ sound = {
 }
 
 sound = {
+	name = "ger_sieg"
+	file = "ger_speech/ger_sieg.wav"
+}
+
+sound = {
 	name = "ger_westerwald"
 	file = "ger_speech/ger_westerwald.wav"
 }
@@ -128,11 +133,26 @@ sound = {
 	file = "ita_speech/ita_il_duce.wav"
 }
 
+sound = {
+	name = "ita_libya"
+	file = "ita_speech/ita_libya.wav"
+}
+
 ##Japanese Speeches##
 
 sound = {
 	name = "jap_banzai"
 	file = "jap_speech/jap_banzai.wav"
+}
+
+sound = {
+	name = "jap_pearl_harbor"
+	file = "jap_speech/jap_pearl_harbor.wav"
+}
+
+sound = {
+	name = "jap_ast"
+	file = "jap_speech/jap_ast.wav"
 }
 
 ##Soviet Speeches##

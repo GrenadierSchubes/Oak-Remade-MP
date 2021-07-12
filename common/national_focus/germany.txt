@@ -4965,6 +4965,10 @@ focus_tree = {
 				technology = tech_military_police3
 				technology = tech_military_police4
 			}
+			custom_effect_tooltip = GER_leibstandarte
+			hidden_effect = {
+				load_oob = GER_Leibstandarte
+			}
 		}
 	}
 
