@@ -47,11 +47,11 @@ focus_tree = {
 		available_if_capitulated = no
 
 		complete_tooltip = {
-			add_ideas = HUN_interventionism
+			add_ideas = HUN_lost_glory
 		}
 
 		completion_reward = {
-			add_ideas = HUN_interventionism
+			add_ideas = HUN_lost_glory
 		}
 	}
 
@@ -60,7 +60,41 @@ focus_tree = {
 		icon = GFX_focus_hol_abandon_the_gold_standard
 		prerequisite = { focus = HUN_disunified_people }
 		relative_position_id = HUN_disunified_people
-		x = 0
+		x = -1
+		y = 1
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = HUN_lost_glory 
+				add_idea = HUN_lost_glory_2 
+			}
+		}
+	}
+	
+	focus = {
+		id = HUN_divided_gov 
+		icon = GFX_focus_hol_abandon_the_gold_standard
+		prerequisite = { focus = HUN_disunified_people }
+		relative_position_id = HUN_disunified_people
+		x = 1
 		y = 1
 
 		cost = 5
@@ -91,10 +125,47 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = HUN_hapsburg_dynasty 
+		id = HUN_gombos 
 		icon = GFX_focus_hol_abandon_the_gold_standard
 		prerequisite = { focus = HUN_versailles }
-		relative_position_id = HUN_versailles
+		prerequisite = { focus = HUN_divided_gov }
+		relative_position_id = HUN_disunified_people
+		x = 0
+		y = 2
+
+		cost = 7.16
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+			date > 1936.9.1
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+			add_ideas = HUN_interventionism
+		}
+
+		completion_reward = {
+			add_ideas = HUN_interventionism
+		}
+	}
+	
+	focus = {
+		id = HUN_hapsburg_dynasty 
+		icon = GFX_focus_hol_abandon_the_gold_standard
+		prerequisite = { focus = HUN_gombos }
+		mutually_exclusive = { focus = HUN_go_with_horthy }
+		relative_position_id = HUN_gombos
 		x = -2
 		y = 1
 
@@ -127,10 +198,45 @@ focus_tree = {
 	
 	focus = {
 		id = HUN_monarchy 
+		icon = GFX_focus_hun_elect_a_king
+		prerequisite = { focus = HUN_hapsburg_dynasty }
+		relative_position_id = HUN_hapsburg_dynasty
+		x = -1
+		y = 1
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+			add_ideas = HUN_interventionism
+		}
+
+		completion_reward = {
+			add_ideas = HUN_interventionism
+		}
+	}
+	
+		focus = {
+		id = HUN_revive_imperial_spirit
 		icon = GFX_focus_hol_abandon_the_gold_standard
 		prerequisite = { focus = HUN_hapsburg_dynasty }
 		relative_position_id = HUN_hapsburg_dynasty
-		x = 0
+		x = 1
 		y = 1
 
 		cost = 5
@@ -163,9 +269,80 @@ focus_tree = {
 	focus = {
 		id = HUN_go_with_horthy 
 		icon = GFX_focus_hol_abandon_the_gold_standard
-		prerequisite = { focus = HUN_versailles }
-		relative_position_id = HUN_versailles
+		prerequisite = { focus = HUN_gombos }
+		mutually_exclusive = { focus = HUN_hapsburg_dynasty }
+		relative_position_id = HUN_gombos
 		x = 2
+		y = 1
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+			add_ideas = HUN_interventionism
+		}
+
+		completion_reward = {
+			add_ideas = HUN_interventionism
+		}
+	}
+	
+	focus = {
+		id = HUN_consolidate_the_right 
+		icon = GFX_focus_hol_abandon_the_gold_standard
+		prerequisite = { focus = HUN_go_with_horthy }
+		relative_position_id = HUN_go_with_horthy
+		x = 1
+		y = 1
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+			add_ideas = HUN_interventionism
+		}
+
+		completion_reward = {
+			add_ideas = HUN_interventionism
+		}
+	}
+	
+	focus = {
+		id = HUN_nationalism 
+		icon = GFX_focus_hol_abandon_the_gold_standard
+		prerequisite = { focus = HUN_go_with_horthy }
+		relative_position_id = HUN_go_with_horthy
+		x = -1
 		y = 1
 
 		cost = 5
@@ -720,7 +897,7 @@ focus_tree = {
 		id = HUN_german_factories
 		icon = GFX_goal_generic_construction
 		prerequisite = { focus = HUN_germany }
-		x = 0
+		x = 1
 		y = 1
 		relative_position_id = HUN_germany
 		cost = 5
@@ -795,6 +972,45 @@ focus_tree = {
 	}
 	
 	focus = {
+		id = HUN_foreign_expertise
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = HUN_germany	focus = HUN_italy }
+		x = 0
+		y = 2
+		relative_position_id = HUN_industrial_help
+		cost = 4
+
+		ai_will_do = {
+			factor = 90
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = HUN_industrial_revitalization
+				bonus = 1.0
+				uses = 2
+				category = construction_tech
+			}
+		}
+	}
+	
+	focus = {
 		id = HUN_italy
 		icon = GFX_goal_generic_construction
 		prerequisite = { focus = HUN_industrial_help }
@@ -834,6 +1050,45 @@ focus_tree = {
 		}
 	}
 
+	focus = {
+		id = HUN_italian_factories
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = HUN_italy }
+		x = -1
+		y = 1
+		relative_position_id = HUN_italy
+		cost = 4
+
+		ai_will_do = {
+			factor = 90
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = HUN_industrial_revitalization
+				bonus = 1.0
+				uses = 2
+				category = construction_tech
+			}
+		}
+	}
+	
 	focus = {
 		id = HUN_reintegrate_the_railroads
 		icon = GFX_goal_generic_construct_infrastructure
