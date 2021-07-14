@@ -23,14 +23,17 @@ category = {
  soundeffects = {
 	ger_citadel
 	ger_barbarossa
+	ger_beowulf
 	ger_fall_blau
 	ger_fall_weiss
 	ger_kdf_wagen
 	ger_totalen_krieg
 	ger_mobilize
 	ger_russlandlied
+	ger_endsieg
 	ger_sieg
 	ger_westerwald
+	ger_volksturm
 	}
 }
 

@@ -151,6 +151,14 @@ soundeffect = {
 }
 
 soundeffect = {
+	name = "ger_beowulf"
+	sounds = {
+		sound = ger_barbarossa
+	}
+	volume = 1.0
+}
+
+soundeffect = {
 	name = "ger_russlandlied"
 	sounds = {
 		sound = ger_russlandlied
@@ -167,9 +175,25 @@ soundeffect = {
 }
 
 soundeffect = {
+	name = "ger_endsieg"
+	sounds = {
+		sound = ger_endsieg
+	}
+	volume = 1.0
+}
+
+soundeffect = {
 	name = "ger_westerwald"
 	sounds = {
 		sound = ger_westerwald
+	}
+	volume = 1.0
+}
+
+soundeffect = {
+	name = "ger_volksturm"
+	sounds = {
+		sound = ger_volksturm
 	}
 	volume = 1.0
 }

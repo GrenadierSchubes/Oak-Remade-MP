@@ -97,6 +97,11 @@ sound = {
 }
 
 sound = {
+	name = "ger_beowulf"
+	file = "ger_speech/ger_beowulf.wav"
+}
+
+sound = {
 	name = "ger_russlandlied"
 	file = "ger_speech/ger_russlandlied.wav"
 }
@@ -107,8 +112,18 @@ sound = {
 }
 
 sound = {
+	name = "ger_endsieg"
+	file = "ger_speech/ger_endsieg.wav"
+}
+
+sound = {
 	name = "ger_westerwald"
 	file = "ger_speech/ger_westerwald.wav"
+}
+
+sound = {
+	name = "ger_volksturm"
+	file = "ger_speech/ger_volksturm.wav"
 }
 
 ##Italian Speeches##

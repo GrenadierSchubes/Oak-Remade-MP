@@ -3168,6 +3168,7 @@ focus_tree = {
 					
 					}
 				}
+				sound_effect = ger_volksturm
 			}
 		} 
 	}	
@@ -3555,7 +3556,10 @@ focus_tree = {
 		available_if_capitulated = no
 		
 		completion_reward = {
-			add_ideas = GER_the_last_stand_of_the_reich 
+			add_ideas = GER_the_last_stand_of_the_reich
+			hidden_effect = {
+				sound_effect = ger_endsieg
+			}
 		} 
 	}	
 

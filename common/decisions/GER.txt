@@ -2173,6 +2173,9 @@ operations = {
 			
 			news_event = { hours = 20 id = news.458 }
 			set_country_flag = GERsummeroffensive3
+			hidden_effect = {
+				sound_effect = ger_beowulf
+				}
 		}
 	}
 	
