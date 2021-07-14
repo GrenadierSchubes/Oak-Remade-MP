@@ -997,7 +997,6 @@ technologies = {
 			need = {
 			   	infantry_equipment = -5
 				special_equipment = -2
-				horse_equipment = -1
 			}
 		}
 		paratrooper = {
@@ -1399,7 +1398,6 @@ technologies = {
 			need = {
 			   	infantry_equipment = -5
 				special_equipment = -2
-				horse_equipment = -1
 			}
 		}
 		paratrooper = {
@@ -1781,7 +1779,6 @@ technologies = {
 			need = {
 			   	infantry_equipment = -5
 				special_equipment = -2
-				horse_equipment = -1
 			}
 		}
 		paratrooper = {
@@ -2159,7 +2156,6 @@ technologies = {
 			need = {
 			   	infantry_equipment = 5
 				special_equipment = 2
-				horse_equipment = 1
 			}
 		}
 		paratrooper = {
@@ -2566,7 +2562,6 @@ technologies = {
 			need = {
 			   	infantry_equipment = 5
 				special_equipment = 2
-				horse_equipment = 1
 			}
 		}
 		paratrooper = {
@@ -2950,7 +2945,6 @@ technologies = {
 			need = {
 			   	infantry_equipment = 5
 				special_equipment = 2
-				horse_equipment = 1
 			}
 		}
 		paratrooper = {
