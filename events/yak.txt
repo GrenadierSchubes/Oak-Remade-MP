@@ -44,10 +44,6 @@ country_event = {
 			defense_skill = 9
 			planning_skill = 9
 			logistics_skill = 9
-		}
-		TIB = { 
-			add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 700000 producer = TIB }
-			add_equipment_to_stockpile = { type = horse_equipment_0 amount = 700000 producer = TIB }
 		}		
 	}
 	option = { 

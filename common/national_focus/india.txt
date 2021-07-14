@@ -2648,7 +2648,6 @@ focus_tree = {
 		available = {
 			OR = {
 				is_subject = no
-				PAK = { exists = yes }
 				has_autonomy_state = autonomy_dominion				
 			}
 		}

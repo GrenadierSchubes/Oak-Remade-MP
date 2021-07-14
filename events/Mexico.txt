@@ -3110,14 +3110,7 @@ country_event = {
 				owns_state = 686
 				has_full_control_of_state = 686
 			}
-			release = PUE
-			PUE = {
-				add_timed_idea = {
-					idea = MEX_bolivarian_agitation
-					days = 720
-				}			
-				set_country_flag = received_MEX_bolivarian_agitation
-			}
+			
 		}
 		if = {
 			limit = {

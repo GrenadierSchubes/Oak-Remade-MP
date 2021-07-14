@@ -122,7 +122,6 @@ POR_overseas_provinces = {
 					controls_state = 540
 					controls_state = 796
 				}
-				ANG = { exists = no }
 			}
 		}
 
@@ -153,7 +152,6 @@ POR_overseas_provinces = {
 				POR = {
 					controls_state = 544
 				}
-				MZB = { exists = no }
 			}
 		}
 

@@ -156,13 +156,7 @@ country_event = {
 			target = YUG
 		}
 		if = {
-			limit = {
-				CRO = { 
-					exists = yes 
-					is_subject_of = YUG
-				}
-			}
-			puppet = CRO
+			
 		}
 	}
 }
@@ -193,81 +187,6 @@ country_event = {
 			factor = 30
 		}
 		add_to_faction = YUG
-	}
-}
-
-#Yugoslavian independence war(s)
-country_event = {
-	id = DOD_yugoslavia.10
-	title = DOD_yugoslavia.10.t
-	desc = DOD_yugoslavia.10.desc
-	picture = GFX_report_event_yugoslavia_partisans
-	
-	is_triggered_only = yes
-	
-	fire_only_once = yes #would be funny though
-
-	option = { 
-		name = DOD_yugoslavia.10.a
-		ai_chance = {
-			factor = 70
-		}	
-		if = {
-			limit = {
-				CRO = {
-					exists = yes
-					is_subject_of = YUG
-				}
-			}
-			set_autonomy = { target = CRO autonomy_state = autonomy_free }
-			CRO = {
-				declare_war_on = {
-					target = YUG
-					type = annex_everything
-
-				}
-			}
-		}
-		if = { #if Montenegro exists, they also join
-			limit = {
-				MNT = {
-					exists = yes
-					is_subject_of = YUG
-				}
-			}
-			set_autonomy = { target = MNT autonomy_state = autonomy_free }
-			MNT = {
-				declare_war_on = {
-					target = YUG
-					type = annex_everything
-				}
-			}
-		}
-		if = {
-			limit = {
-				CRO = {
-					exists = no
-				}
-				109 = { is_owned_and_controlled_by = YUG }
-			}
-			CRO = { transfer_state = 109 }
-			if = {
-				limit = {
-					103 = { is_owned_and_controlled_by = YUG }
-				}
-				CRO = { transfer_state = 103 }
-			}
-			CRO = {
-				declare_war_on = {
-					target = YUG
-					type = annex_everything
-				}
-				load_oob = "CRO_YUG_independence"
-			}
-			GER = {
-		    	puppet = CRO
-			}
-		}
 	}
 }
 

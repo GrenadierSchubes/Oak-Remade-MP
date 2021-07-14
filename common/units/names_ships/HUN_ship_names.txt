@@ -177,7 +177,7 @@ HUN_SS_HISTORICAL = {
 HUN_DD_IMPERIAL = {
 	name = NAME_THEME_IMPERIAL_DESTROYERS
 
-	for_countries = { AUS CZE CRO HUN }
+	for_countries = { AUS CZE HUN }
 
 	can_use = { 
 		has_cosmetic_tag = HUN_EMPIRE
@@ -201,7 +201,7 @@ HUN_DD_IMPERIAL = {
 HUN_CL_IMPERIAL = {
 	name = NAME_THEME_IMPERIAL_CL
 
-	for_countries = { AUS CZE CRO HUN }
+	for_countries = { AUS CZE HUN }
 
 	can_use = { 
 		has_cosmetic_tag = HUN_EMPIRE
@@ -223,7 +223,7 @@ HUN_CL_IMPERIAL = {
 HUN_CA_IMPERIAL = {
 	name = NAME_THEME_IMPERIAL_CA
 
-	for_countries = { AUS CZE CRO HUN }
+	for_countries = { AUS CZE HUN }
 
 	can_use = { 
 		has_cosmetic_tag = HUN_EMPIRE
@@ -246,7 +246,7 @@ HUN_CA_IMPERIAL = {
 HUN_BB_IMPERIAL = {
 	name = NAME_THEME_IMPERIAL_BB
 
-	for_countries = { AUS CZE CRO HUN }
+	for_countries = { AUS CZE HUN }
 
 	can_use = { 
 		has_cosmetic_tag = HUN_EMPIRE
@@ -267,7 +267,7 @@ HUN_BB_IMPERIAL = {
 HUN_BC_IMPERIAL = {
 	name = NAME_THEME_IMPERIAL_BC
 
-	for_countries = { AUS CZE CRO HUN }
+	for_countries = { AUS CZE HUN }
 
 	can_use = { 
 		has_cosmetic_tag = HUN_EMPIRE
@@ -288,7 +288,7 @@ HUN_BC_IMPERIAL = {
 HUN_CV_IMPERIAL = {
 	name = NAME_THEME_IMPERIAL_CARRIERS
 
-	for_countries = { AUS CZE CRO HUN }
+	for_countries = { AUS CZE HUN }
 
 	can_use = { 
 		has_cosmetic_tag = HUN_EMPIRE
@@ -309,7 +309,7 @@ HUN_CV_IMPERIAL = {
 HUN_SS_IMPERIAL = {
 	name = NAME_THEME_IMPERIAL_SUBMARINES
 
-	for_countries = { AUS CZE CRO HUN }
+	for_countries = { AUS CZE HUN }
 
 	can_use = { 
 		has_cosmetic_tag = HUN_EMPIRE
@@ -353,7 +353,7 @@ HUN_SS_IMPERIAL = {
 HUN_THEME_RIVERS = {
 	name = NAME_THEME_RIVERS
 
-	for_countries = { AUS CZE CRO HUN }
+	for_countries = { AUS CZE HUN }
 
 	can_use = { 
 		has_cosmetic_tag = HUN_EMPIRE

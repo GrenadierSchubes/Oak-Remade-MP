@@ -771,11 +771,6 @@ GER_share_borders_with_ITA_against_SOV = {
 	}
 
 	abort_when_not_enabled = yes
-	ai_strategy = {
-		type = dont_defend_ally_borders
-		id = "CRO"
-		value = 100
-	}
 
 	ai_strategy = {
 		type = dont_defend_ally_borders

@@ -350,23 +350,6 @@ country_event = {
 
 		GER = {		
 			add_political_power = -25
-			
-			
-			CRO = {
-				if = {
-					limit = { YUG = { owns_state = 103 } }
-					transfer_state = 103
-				}
-				if = {
-					limit = { YUG = { owns_state = 104 } }
-					transfer_state = 104
-				}
-				if = {
-					limit = { YUG = { owns_state = 109 } }
-					transfer_state = 109
-				}						
-			}
-			puppet = CRO
 			annex_country = { target = YUG transfer_troops = no }
 
 			
@@ -423,26 +406,7 @@ country_event = {
 
 		GER = {
 
-			
-			
-			CRO = {
-				if = {
-					limit = { YUG = { owns_state = 103 } }
-					transfer_state = 103
-				}
-				if = {
-					limit = { YUG = { owns_state = 104 } }
-					transfer_state = 104
-				}
-				if = {
-					limit = { YUG = { owns_state = 109 } }
-					transfer_state = 109
-				}						
-			}
-			puppet = CRO
 			puppet = YUG
-
-
 			
 		}
 	}

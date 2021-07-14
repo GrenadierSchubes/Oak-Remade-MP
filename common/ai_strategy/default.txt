@@ -88,12 +88,7 @@ ignore_neutrals_and_shitty_countries_raj = {
 		type = ignore
 		id = "IRQ"
 		value = 1000
-	}	
-	ai_strategy = {
-		type = ignore
-		id = "AFG"
-		value = 1000
-	}	
+	}		
 	ai_strategy = {
 		type = ignore
 		id = "PER"

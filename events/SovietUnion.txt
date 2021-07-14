@@ -356,26 +356,6 @@ country_event = {
 	}
 }
 
-# Tannu Tuva accepts the offer
-country_event = {
-	id = soviet.16
-	title = soviet.16.t
-	desc = soviet.16.d
-	picture = GFX_report_event_stalin_propaganda
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = soviet.16.a
-		annex_country = { target = TAN }
-		hidden_effect = {
-			SOV = {
-				country_event = { days = 1 id = news.14 }
-			}
-		}
-	}
-}
-
 # Improving the Stalin Line
 country_event = {
 	id = soviet.17

@@ -4520,21 +4520,7 @@ country_event = {
 		}
 
 		hidden_effect = {
-			CRO = {
-				load_oob = CRO_YUG_independence
-				inherit_technology = GRE			
-				set_state_controller = 109
-				set_state_controller = 104
-
-				delete_unit_template_and_units = { division_template = "Pesadijska Divizija" }
-				delete_unit_template_and_units = { division_template = "Alpine Odred" }
-				delete_unit_template_and_units = { division_template = "Konjièka Divizija" }
-				delete_unit_template_and_units = { division_template = "Bataljon Bornih Kola" }	
-				delete_unit_template_and_units = { division_template = "Garrison" }	
-		
-				109 = { add_core_of = CRO }
-				104 = { add_core_of = CRO }
-			}
+			
 		}	
 		GER = {
 			set_state_controller = 102

@@ -107,10 +107,6 @@ on_actions = {
 				limit = { JAP = { is_ai = yes } }
 				JAP = { add_ideas = jap_ai }
 			}
-			if = {
-				limit = { TIB = { is_ai = no } }
-				TIB = { country_event = { id = yak.1 } }
-			}
 		    if = {
 				limit = {
 					has_dlc = "Man the Guns"

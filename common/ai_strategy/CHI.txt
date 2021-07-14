@@ -21,21 +21,6 @@ no_chinese_wierdness = {
 	}
 	ai_strategy = {
 		type = ignore
-		id = "TIB"
-		value = 1000
-	}
-	ai_strategy = {
-		type = dont_defend_ally_borders
-		id = "TIB"
-		value = 1000
-	}
-	ai_strategy = {
-		type = prepare_for_war
-		id = "TIB"
-		value = -1000
-	}
-	ai_strategy = {
-		type = ignore
 		id = "MON"
 		value = 1000
 	}
@@ -289,11 +274,6 @@ CHI_dont_mess_with_the_soviets = {
 	ai_strategy = {
 		type = contain
 		id = "MON"			
-		value = -200
-	}
-	ai_strategy = {
-		type = contain
-		id = "TIB"			
 		value = -200
 	}
 
