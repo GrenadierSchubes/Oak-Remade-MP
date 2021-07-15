@@ -1078,7 +1078,8 @@ on_actions = {
 				# German Occupation Zone
 				FRA = {
 					set_cosmetic_tag = FRA_FREE	
-					set_country_flag = free_france			
+					set_country_flag = free_france	
+                    load_focus_tree = fre_french_focus					
 					set_capital = 539
 					add_ideas = allied_construction_engineers
 					country_event = france.10
