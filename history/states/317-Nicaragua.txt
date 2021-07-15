@@ -21,8 +21,7 @@ state={
 			12738 3
 		}
 		1936.1.2 = {
-			owner = NIC
-			add_core_of = NIC
+			
 		}
 	}
 

@@ -23,8 +23,7 @@ state={
 			12997 5 
 		}
 		1936.1.2 = {
-			add_core_of = PRU
-			owner = PRU
+			
 		}
 	}
 

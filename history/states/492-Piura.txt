@@ -15,8 +15,7 @@ state={
 
 		}
 		1936.1.2 = {
-			add_core_of = PRU
-			owner = PRU
+			
 		}
 		victory_points = {
 			2210 1 

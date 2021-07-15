@@ -24,8 +24,7 @@ state={
 			}
 		}
 		1936.1.2 = {
-			add_core_of = URG
-			owner = URG
+			
 		}
 		victory_points = {
 			10362 5

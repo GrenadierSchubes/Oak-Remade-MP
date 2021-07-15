@@ -11,8 +11,7 @@ state={
 
 	history={
 		1936.1.2 = {
-			add_core_of = ARG
-			owner = ARG
+			
 		}
 		buildings = {
 			infrastructure = 5

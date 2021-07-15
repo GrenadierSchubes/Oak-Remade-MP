@@ -26,8 +26,7 @@ state= {
 			7590 1
 		}
 		1936.1.2 = {
-			add_core_of = CUB
-			owner = CUB
+			
 		}
 	}
 	provinces={

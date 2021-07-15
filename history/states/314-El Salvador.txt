@@ -23,7 +23,7 @@ state=
 			12823 3
 		}
 		1936.1.2 = {
-			owner = HON
+
 		}
 	}
 	provinces={

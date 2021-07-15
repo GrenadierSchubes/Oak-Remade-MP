@@ -17,8 +17,7 @@ state={
 			5033 5 
 		}
 		1936.1.2 = {
-			add_core_of = TIB
-			owner = TIB
+			
 		}
 	}
 }

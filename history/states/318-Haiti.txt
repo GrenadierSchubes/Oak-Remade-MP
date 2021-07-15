@@ -20,8 +20,7 @@ state=
 			4641 5 
 		}
 		1936.1.2 = {
-			add_core_of = HAI
-			owner = HAI
+			
 		}
 	}
 	provinces={

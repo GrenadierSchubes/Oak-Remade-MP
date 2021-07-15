@@ -29,8 +29,7 @@ state={
 			4611 1
 		}
 		1936.1.2 = {
-			add_core_of = PAN
-			owner = PAN
+			
 		}
 	}
 

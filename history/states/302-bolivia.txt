@@ -17,8 +17,7 @@ state={
 
 		}
 		1936.1.2 = {
-			add_core_of = BOL
-			owner = BOL
+			
 		}
 		victory_points = {
 			5230 5 

@@ -28,8 +28,7 @@ state={
 			12790 5 
 		}
 		1936.1.2 = {
-			add_core_of = COL
-			owner = COL
+			
 		}
 	}
 

@@ -12,8 +12,7 @@ state=
 			}
 		}
 		1936.1.2 = {
-			add_core_of = ECU
-			owner = ECU
+			
 		}
 	}
 	provinces= { 5023 }
