@@ -735,6 +735,11 @@ focus_tree = {
 
 		completion_reward = {
 			remove_ideas = YUG_idea_croatian_opposition
+			release_puppet = CRO 
+			set_autonomy = { target = CRO autonomy_state = autonomy_integrated_puppet }
+			hidden_effect = {
+				news_event = { id = news.326 hours = 6 }
+			}
 		}
 	}
 
