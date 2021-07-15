@@ -1118,7 +1118,6 @@ major = yes
 			OR = {
 				original_tag = AUS
 				original_tag = CZE
-				original_tag = CRO
 			}
 			NOT = { has_war_with = FROM }
 		}
@@ -1128,7 +1127,6 @@ major = yes
 		trigger = {
 			NOT = { original_tag = AUS }
 			NOT = { original_tag = CZE }
-			NOT = { original_tag = CRO }
 			NOT = { has_war_with = FROM }
 		}
 	}

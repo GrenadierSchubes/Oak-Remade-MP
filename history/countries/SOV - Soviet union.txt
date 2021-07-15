@@ -30,18 +30,6 @@ if = {
 		has_dlc = "Together for Victory"
 	}
 	set_autonomy = {
-		target = TAN
-		autonomous_state = autonomy_colony
-	}
-	else = {
-		puppet = TAN
-	}
-}
-if = {
-	limit = {
-		has_dlc = "Together for Victory"
-	}
-	set_autonomy = {
 		target = MON
 		autonomous_state = autonomy_colony
 	}
@@ -157,7 +145,6 @@ set_popularities = {
 create_faction = Comintern
 add_to_faction = SOV
 add_to_faction = MON
-add_to_faction = TAN
 
 create_country_leader = {
 	name = "Joseph Stalin"

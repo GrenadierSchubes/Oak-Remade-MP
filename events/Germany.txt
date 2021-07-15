@@ -4514,11 +4514,6 @@ country_event = {
 			base = 0
 		}
 
-		GER = {
-			release = CRO
-			puppet = CRO 
-		}
-
 		hidden_effect = {
 			
 		}	
