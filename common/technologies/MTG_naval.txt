@@ -188,6 +188,9 @@ technologies = {
 		naval_retreat_speed = 0.05
 		
 		research_cost = 0.75
+		xp_research_type = navy
+		xp_research_cost = 50
+		xp_research_bonus = 1.50
 
 		start_year = 1922
 		
@@ -448,6 +451,9 @@ technologies = {
 			custom_effect_tooltip = sonar_advice_tt
 		}
 		research_cost = 1
+		xp_research_type = navy
+		xp_research_cost = 50
+		xp_research_bonus = 1.50
 
 		start_year = 1936
 		
@@ -677,6 +683,9 @@ technologies = {
 
 
 		research_cost = 0.75
+		xp_research_type = navy
+		xp_research_cost = 50
+		xp_research_bonus = 1.50
 
 		start_year = 1936
 		
@@ -1364,6 +1373,9 @@ early_ship_hull_carrier = {
 	basic_torpedo = {
 		
 		research_cost = 1
+		xp_research_type = navy
+		xp_research_cost = 50
+		xp_research_bonus = 1.50
 
 		start_year = 1922
 
@@ -1979,6 +1991,9 @@ early_ship_hull_carrier = {
 	basic_battery = {
 		
 		research_cost = 1
+		xp_research_type = navy
+		xp_research_cost = 50
+		xp_research_bonus = 1.50
 
 		start_year = 1922
 
@@ -2036,6 +2051,9 @@ early_ship_hull_carrier = {
 	basic_light_battery = {
 		
 		research_cost = 1
+		xp_research_type = navy
+		xp_research_cost = 50
+		xp_research_bonus = 1.50
 
 		start_year = 1936
 
@@ -2280,6 +2298,10 @@ early_ship_hull_carrier = {
 		
 		research_cost = 1
 
+		xp_research_type = navy
+		xp_research_cost = 50
+		xp_research_bonus = 1.50
+
 		start_year = 1936
 
 		path = {
@@ -2486,6 +2508,10 @@ early_ship_hull_carrier = {
 	basic_heavy_battery = {
 		
 		research_cost = 1
+
+		xp_research_type = navy
+		xp_research_cost = 50
+		xp_research_bonus = 1.50
 
 		start_year = 1936
 
@@ -2717,6 +2743,10 @@ early_ship_hull_carrier = {
 		
 		research_cost = 0.8
 
+		xp_research_type = navy
+		xp_research_cost = 50
+		xp_research_bonus = 1.50
+
 		start_year = 1922
 
 		path = {
@@ -2755,6 +2785,10 @@ early_ship_hull_carrier = {
 	improved_secondary_battery = {
 		
 		research_cost = 0.8
+		
+		xp_research_type = navy
+		xp_research_cost = 50
+		xp_research_bonus = 1.50
 
 		start_year = 1936
 
