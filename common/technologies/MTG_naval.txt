@@ -1571,6 +1571,9 @@ early_ship_hull_carrier = {
 	improved_ship_torpedo_launcher = {
 		
 		research_cost = 1
+		xp_research_type = navy
+		xp_research_cost = 50
+		xp_research_bonus = 1.50
 
 		start_year = 1936
 
