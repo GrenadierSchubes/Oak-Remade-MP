@@ -5102,11 +5102,7 @@ focus_tree = {
 		id = uk_burma_focus
 		prerequisite = { focus = uk_asia_focus } 
 		available = {
-			CHI = { 
-				has_war_with = JAP 
-				NOT = { has_war_with = ENG }
-			}
-			JAP = { NOT = { is_in_faction_with = ENG } }
+			JAP = { has_completed_focus = JAP_intervene_in_china }
 				 
 		}
 
@@ -5470,10 +5466,7 @@ focus_tree = {
 	focus = {
 		id = uk_sanction_japan_focus
 		available = {
-			JAP = { 
-				ENG_focus_available_embargo_sanction = yes
-			}	
-			has_government = democratic
+			JAP = { has_completed_focus = JAP_intervene_in_china }	
 		}
 		bypass = {
 			has_war_with = JAP
